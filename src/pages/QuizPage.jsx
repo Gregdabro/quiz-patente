@@ -96,13 +96,13 @@ const QuizPage = () => {
                 но здесь мы оставляем место для доп. кнопок */}
           </div>
           
-          <div className="right-actions row" style={{ gap: 'var(--spacing-4)' }}>
+          <div className="right-actions row" style={{}}>
             {/* Кнопка комментария — активна ТОЛЬКО после ответа */}
             <Button 
               variant="icon" 
               onClick={() => setShowComment(!showComment)}
               disabled={currentAnswer === undefined && !isFinished}
-              style={{ fontSize: '44px', position: 'relative' }}
+              style={{ fontSize: '44px', position: 'relative', marginRight: 'var(--spacing-4)' }}
               title="Показать комментарий"
             >
               💬

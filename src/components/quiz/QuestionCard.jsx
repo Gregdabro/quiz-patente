@@ -58,12 +58,12 @@ const QuestionCard = ({
       <div className="quiz-controls" style={{ 
         display: 'flex', 
         justifyContent: 'flex-end', 
-        gap: 'var(--spacing-8)',
         marginTop: 'var(--spacing-6)'
       }}>
         <Button 
           variant={getVariant(true)}
           className="btn-quiz"
+          style={{ marginRight: 'var(--spacing-8)' }}
           onClick={() => onAnswer(true)}
           disabled={currentAnswer !== undefined || isSessionFinished}
         >

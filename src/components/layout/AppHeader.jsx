@@ -28,7 +28,7 @@ const AppHeader = ({ title = 'Quiz Patente', showBack = false }) => {
         alignItems: 'center',
         justifyContent: 'space-between'
       }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-3)' }}>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
           {showBack && (
             <button 
               onClick={() => navigate(-1)}
@@ -39,7 +39,7 @@ const AppHeader = ({ title = 'Quiz Patente', showBack = false }) => {
                 fontSize: '20px',
                 cursor: 'pointer',
                 padding: 'var(--spacing-2) 0',
-                marginRight: 'var(--spacing-2)'
+                marginRight: 'var(--spacing-3)'
               }}
             >
               ←

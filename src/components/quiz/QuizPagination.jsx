@@ -19,7 +19,6 @@ const QuizPagination = ({
     <div className="quiz-pagination" style={{ 
       display: 'flex', 
       flexWrap: 'wrap', 
-      gap: '4px', 
       margin: 'var(--spacing-4) 0',
       justifyContent: 'center'
     }}>
@@ -51,6 +50,7 @@ const QuizPagination = ({
               alignItems: 'center',
               justifyContent: 'center',
               cursor: 'pointer',
+              margin: '6px',
               transition: 'var(--transition-fast)'
             }}
           >

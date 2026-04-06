@@ -84,13 +84,12 @@ const ResultScreen = ({ results, total, onRestart, onClose, onFinish }) => {
 
         <div className="result-actions" style={{ 
           display: 'flex', 
-          flexDirection: 'column', 
-          gap: 'var(--spacing-4)' 
+          flexDirection: 'column'
         }}>
-          <Button variant="primary" onClick={onRestart}>
+          <Button variant="primary" onClick={onRestart} style={{ marginBottom: 'var(--spacing-4)' }}>
             🔁 Попробовать снова
           </Button>
-          <Button variant="primary" onClick={onClose} style={{ backgroundColor: 'var(--color-primary-dark)' }}>
+          <Button variant="primary" onClick={onClose} style={{ backgroundColor: 'var(--color-primary-dark)', marginBottom: 'var(--spacing-4)' }}>
             👀 Посмотреть ответы
           </Button>
           <Button variant="vero" onClick={onFinish} style={{ backgroundColor: 'var(--color-text-secondary)' }}>

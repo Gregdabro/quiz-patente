@@ -32,14 +32,14 @@ const HomePage = () => {
               key={topic.topic_id} 
               className="topic-card"
               onClick={() => navigate(`/quiz/${topic.topic_id}`)}
-              style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-2)' }}
+              style={{ display: 'flex', flexDirection: 'column' }}
             >
-              <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-3)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', marginBottom: 'var(--spacing-4)' }}>
                 <div 
                   className="topic-image" 
                   style={{ 
-                    width: '48px', 
-                    height: '48px', 
+                    width: '96px', 
+                    height: '96px', 
                     backgroundColor: 'var(--color-bg)',
                     borderRadius: 'var(--radius-md)',
                     overflow: 'hidden'
@@ -52,11 +52,11 @@ const HomePage = () => {
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   />
                 </div>
-                <div className="topic-info">
-                  <h3 style={{ fontSize: 'var(--font-size-sm)', margin: 0 }}>
+                <div className="topic-info" style={{ marginLeft: 'var(--spacing-4)' }}>
+                  <h3 style={{ fontSize: 'var(--font-size-md)', margin: 0, marginBottom: 'var(--spacing-1)' }}>
                     {topic.title}
                   </h3>
-                  <p style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-muted)', margin: 0 }}>
+                  <p style={{ fontSize: 'var(--font-size-sm)', color: 'var(--color-text-muted)', margin: 0 }}>
                     Вопросов: {topic.questions_count}
                   </p>
                 </div>
