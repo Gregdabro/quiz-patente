@@ -8,14 +8,21 @@ import { shuffle } from '../utils/shuffle.js';
 
 const SESSION_SIZE = 30;
 
+const topicsCache = import.meta.glob('../data/topics.json');
+const questionsCache = import.meta.glob('../data/questions/topic_*.json');
+
 /**
  * Загружает все вопросы одной темы.
  * @param {number|string} topicId
  * @returns {Promise<Array>}
  */
 export async function loadTopicQuestions(topicId) {
-  var module = await import('../data/questions/topic_' + topicId + '.json');
-  return module.default;
+  var path = '../data/questions/topic_' + topicId + '.json';
+  if (!questionsCache[path]) {
+    throw new Error('Вопросы темы не найдены: ' + path);
+  }
+  var module = await questionsCache[path]();
+  return module.default || module;
 }
 
 /**
@@ -50,6 +57,10 @@ export function pickSessionQuestions(questions) {
  * @returns {Promise<Array>}
  */
 export async function loadTopics() {
-  var module = await import('../data/topics.json');
-  return module.default;
+  var path = '../data/topics.json';
+  if (!topicsCache[path]) {
+    throw new Error('Метаданные тем не найдены');
+  }
+  var module = await topicsCache[path]();
+  return module.default || module;
 }
