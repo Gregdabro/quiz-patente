@@ -102,7 +102,7 @@ const QuizPage = () => {
               variant="icon" 
               onClick={() => setShowComment(!showComment)}
               disabled={currentAnswer === undefined && !isFinished}
-              style={{ fontSize: '24px', position: 'relative' }}
+              style={{ fontSize: '44px', position: 'relative' }}
               title="Показать комментарий"
             >
               💬

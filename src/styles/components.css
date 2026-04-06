@@ -149,11 +149,11 @@
 }
 
 .dot-nav__item {
-  width: 8px;
-  height: 8px;
+  width: 16px;
+  height: 16px;
   border-radius: var(--radius-full);
   background-color: var(--color-border);
-  margin: 2px;
+  margin: 4px;
   transition: background-color var(--transition-fast), transform var(--transition-fast);
   -webkit-transition: background-color var(--transition-fast), transform var(--transition-fast);
 }
@@ -231,6 +231,6 @@
 }
 
 .bottom-nav__icon {
-  font-size: 22px;
+  font-size: 44px;
   margin-bottom: 2px;
 }

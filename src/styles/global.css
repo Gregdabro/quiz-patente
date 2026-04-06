@@ -38,12 +38,12 @@
 
   /* === Типографика === */
   --font-family:            -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-size-xs:           12px;
-  --font-size-sm:           13px;
-  --font-size-md:           15px;
-  --font-size-lg:           17px;
-  --font-size-xl:           20px;
-  --font-size-2xl:          24px;
+  --font-size-xs:           14px;
+  --font-size-sm:           16px;
+  --font-size-md:           20px;
+  --font-size-lg:           24px;
+  --font-size-xl:           28px;
+  --font-size-2xl:          36px;
   --font-weight-normal:     400;
   --font-weight-medium:     500;
   --font-weight-bold:       700;

@@ -58,7 +58,7 @@ const QuestionCard = ({
       <div className="quiz-controls" style={{ 
         display: 'flex', 
         justifyContent: 'flex-end', 
-        gap: 'var(--spacing-4)',
+        gap: 'var(--spacing-8)',
         marginTop: 'var(--spacing-6)'
       }}>
         <Button 
@@ -86,7 +86,7 @@ const QuestionCard = ({
           position: 'absolute', 
           top: 'var(--spacing-3)', 
           right: 'var(--spacing-3)',
-          fontSize: '20px' 
+          fontSize: '40px' 
         }}
         title="Показать перевод"
       >
