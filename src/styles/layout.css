@@ -1,0 +1,81 @@
+/* ============================================================
+   layout.css — Сетки и контейнеры
+   ============================================================ */
+
+.container {
+  width: 100%;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
+}
+
+/* App shell */
+.app-shell {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  -webkit-flex: 1;
+  flex: 1;
+  padding-bottom: var(--spacing-10);
+}
+
+/* Двухколоночная сетка для карточек тем */
+.grid-2col {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.grid-2col > * {
+  width: calc(50% - var(--spacing-2));
+  margin-bottom: var(--spacing-4);
+}
+
+.grid-2col > *:nth-child(odd) {
+  margin-right: var(--spacing-4);
+}
+
+/* Одноколоночный стек */
+.stack {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.stack-4 > * + * { margin-top: var(--spacing-4); }
+.stack-6 > * + * { margin-top: var(--spacing-6); }
+
+/* Строка с выравниванием */
+.row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.row-between {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.row-center {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
