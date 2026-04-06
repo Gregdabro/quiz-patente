@@ -1,0 +1,158 @@
+[
+  {
+    "topic_id": 1,
+    "title": "Strada, veicoli, doveri conducente",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/01.png",
+    "questions_count": 518
+  },
+  {
+    "topic_id": 2,
+    "title": "Segnali di pericolo",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/02.png",
+    "questions_count": 658
+  },
+  {
+    "topic_id": 3,
+    "title": "Segnali di divieto",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/03.png",
+    "questions_count": 518
+  },
+  {
+    "topic_id": 4,
+    "title": "Segnali di obbligo",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/04.png",
+    "questions_count": 423
+  },
+  {
+    "topic_id": 5,
+    "title": "Segnali di precedenza",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/05.png",
+    "questions_count": 243
+  },
+  {
+    "topic_id": 6,
+    "title": "Segnaletica orizzontale",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/06.png",
+    "questions_count": 260
+  },
+  {
+    "topic_id": 7,
+    "title": "Semafori e vigili",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/07.png",
+    "questions_count": 253
+  },
+  {
+    "topic_id": 8,
+    "title": "Segnali di indicazione",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/08.png",
+    "questions_count": 602
+  },
+  {
+    "topic_id": 9,
+    "title": "Segnali temporanei e complementari",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/09.png",
+    "questions_count": 181
+  },
+  {
+    "topic_id": 10,
+    "title": "Pannelli integrativi dei segnali",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/10.png",
+    "questions_count": 262
+  },
+  {
+    "topic_id": 11,
+    "title": "Limiti e regolazione della velocità",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/11.png",
+    "questions_count": 254
+  },
+  {
+    "topic_id": 12,
+    "title": "Distanza di sicurezza",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/12.png",
+    "questions_count": 135
+  },
+  {
+    "topic_id": 13,
+    "title": "Posizione veicoli sulla carreggiata",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/13.png",
+    "questions_count": 370
+  },
+  {
+    "topic_id": 14,
+    "title": "Incroci",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/14.png",
+    "questions_count": 414
+  },
+  {
+    "topic_id": 15,
+    "title": "Sorpasso",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/15.png",
+    "questions_count": 137
+  },
+  {
+    "topic_id": 16,
+    "title": "Divieti di fermata e sosta",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/16.png",
+    "questions_count": 191
+  },
+  {
+    "topic_id": 17,
+    "title": "Autostrade, trasporto persone, pannelli veicoli",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/17.png",
+    "questions_count": 310
+  },
+  {
+    "topic_id": 18,
+    "title": "Uso luci e spie",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/18.png",
+    "questions_count": 176
+  },
+  {
+    "topic_id": 19,
+    "title": "Cinture, casco, airbag, abbigliamento moto",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/19.png",
+    "questions_count": 132
+  },
+  {
+    "topic_id": 20,
+    "title": "Patenti, documenti, agenti traffico, sanzioni",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/20.png",
+    "questions_count": 226
+  },
+  {
+    "topic_id": 21,
+    "title": "Prevenzione incidenti",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/21.png",
+    "questions_count": 129
+  },
+  {
+    "topic_id": 22,
+    "title": "Primo soccorso e condizioni psicofisiche",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/22.png",
+    "questions_count": 141
+  },
+  {
+    "topic_id": 23,
+    "title": "Assicurazione RCA e responsabilità",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/23.png",
+    "questions_count": 123
+  },
+  {
+    "topic_id": 24,
+    "title": "Inquinamento, consumi e rispetto dell'ambiente",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/24.png",
+    "questions_count": 103
+  },
+  {
+    "topic_id": 25,
+    "title": "Elementi e manutenzione veicolo",
+    "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/25.png",
+    "questions_count": 283
+  },
+  {
+    "topic_id": null,
+    "title": "Без темы (topic неизвестен)",
+    "image": null,
+    "questions_count": 53
+  }
+]

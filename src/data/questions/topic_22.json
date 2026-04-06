@@ -1,0 +1,1835 @@
+[
+  {
+    "id": 5889,
+    "topic_id": 22,
+    "text": "E' opportuno, per il conducente che accusa segni di stanchezza, raggiungere la più vicina piazzola di sosta e riposare",
+    "text_ru": "Водителю, испытывающему признаки усталости, целесообразно доехать до ближайшей площадки для стоянки и отдохнуть",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che accusa segni di stanchezza deve, rallentare , tenere rigorosamente la propria destra e il prima possibile fermarsi su una piazzola di sosta, se necessario anche su una corsia di emergenza .",
+      "text_ru": "Водитель, испытывающий признаки усталости, должен снизить скорость, строго придерживаться правой стороны и как можно скорее остановиться на площадке для стоянки, а при необходимости — даже на полосе аварийной остановки.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_sfc011.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5890,
+    "topic_id": 22,
+    "text": "E' opportuno, per il conducente che accusa segni di stanchezza, avvicinarsi il più possibile al veicolo che lo precede nella marcia",
+    "text_ru": "Водителю, испытывающему признаки усталости, целесообразно максимально приблизиться к впереди идущему транспортному средству",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che accusa segni di stanchezza deve, rallentare , AUMENTARE LA DISTANZA DI SICUREZZA dal veicolo che precede, tenere rigorosamente la propria destra e il prima possibile fermarsi su una piazzola di sosta, se necessario anche su una corsia di",
+      "text_ru": "Водитель, испытывающий признаки усталости, должен снизить скорость, УВЕЛИЧИТЬ ДИСТАНЦИЮ БЕЗОПАСНОСТИ от впереди идущего автомобиля, строго придерживаться правой стороны и как можно скорее остановиться на площадке для стоянки, при необходимости даже на полосе [аварийной остановки].",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_sfc011.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5891,
+    "topic_id": 22,
+    "text": "E' necessario che trascorrano alcune ore affinché un conducente che abbia assunto una quantità eccessiva di bevande alcoliche recuperi l'idoneità alla guida",
+    "text_ru": "Необходимо, чтобы прошло несколько часов, прежде чем водитель, употребивший чрезмерное количество алкогольных напитков, восстановит способность к управлению автомобилем",
+    "image": null,
+    "comment": {
+      "text": "E' necessario che trascorrano alcune ore (in relazione alla concentrazione alcolemica nel sangue) affinché un conducente che abbia assunto una quantità  eccessiva di bevande alcoliche recuperi l'idoneità  alla guida. ",
+      "text_ru": "Необходимо, чтобы прошло несколько часов (в зависимости от концентрации алкоголя в крови), прежде чем водитель, употребивший чрезмерное количество алкоголя, восстановит пригодность к управлению транспортным средством.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_sfc011.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5892,
+    "topic_id": 22,
+    "text": "Un conducente che ha assunto una quantità eccessiva di bevande alcoliche non può recuperare velocemente l'idoneità alla guida, specie se ha assunto anche dei farmaci",
+    "text_ru": "Водитель, употребивший избыточное количество алкогольных напитков, не может быстро восстановить пригодность к управлению, особенно если он также принимал лекарственные препараты",
+    "image": null,
+    "comment": {
+      "text": "E' necessario che trascorrano alcune ore (in relazione alla concentrazione alcolemica nel sangue) affinché un conducente che abbia assunto una quantità  eccessiva di bevande alcoliche recuperi l'idoneità  alla guida ed il recupero può essere ancora meno rapido.",
+      "text_ru": "Необходимо, чтобы прошло несколько часов (в зависимости от концентрации алкоголя в крови), прежде чем водитель, употребивший чрезмерное количество алкоголя, восстановит пригодность к управлению, и восстановление может быть еще менее быстрым.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_alcool e farmaci.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5893,
+    "topic_id": 22,
+    "text": "Un conducente che ha assunto una quantità eccessiva di bevande alcoliche può recuperare velocemente l'idoneità alla guida se assume cibi piuttosto salati",
+    "text_ru": "Водитель, употребивший чрезмерное количество алкогольных напитков, может быстро восстановить пригодность к управлению, если съест соленую пищу",
+    "image": null,
+    "comment": {
+      "text": "E' necessario che trascorrano alcune ore (in relazione alla concentrazione alcolemica nel sangue) affinché un conducente che abbia assunto una quantità  eccessiva di bevande alcoliche recuperi l'idoneità  alla guida. ",
+      "text_ru": "Необходимо, чтобы прошло несколько часов (в зависимости от концентрации алкоголя в крови), прежде чем водитель, употребивший чрезмерное количество алкоголя, восстановит пригодность к управлению транспортным средством.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5894,
+    "topic_id": 22,
+    "text": "Un conducente che ha assunto una quantità eccessiva di bevande alcoliche può recuperare velocemente l'idoneità alla guida se assume caffè amaro",
+    "text_ru": "Водитель, употребивший чрезмерное количество алкогольных напитков, может быстро восстановить пригодность к управлению, если выпьет горький кофе",
+    "image": null,
+    "comment": {
+      "text": "E' necessario che trascorrano alcune ore (in relazione alla concentrazione alcolemica nel sangue) affinché un conducente che abbia assunto una quantità  eccessiva di bevande alcoliche recuperi l'idoneità  alla guida.",
+      "text_ru": "Необходимо, чтобы прошло несколько часов (в зависимости от концентрации алкоголя в крови), прежде чем водитель, употребивший чрезмерное количество алкоголя, восстановит пригодность к управлению транспортным средством.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5895,
+    "topic_id": 22,
+    "text": "L'idoneità alla guida può essere compromessa se si fa uso di alcuni farmaci sedativi",
+    "text_ru": "Пригодность к управлению может быть нарушена при приеме некоторых седативных препаратов",
+    "image": null,
+    "comment": {
+      "text": "L'idoneità  alla guida può essere compromessa se si stanno eseguendo cure con alcuni farmaci ad azione sedativa o antidepressiva.\r\n\r\nN.B. Accertarsi delle eventuali controindicazioni alla guida, se necessario consultando il proprio medico.",
+      "text_ru": "Пригодность к управлению автомобилем может быть нарушена, если вы проходите курс лечения некоторыми препаратами седативного или антидепрессивного действия. Примечание: проверьте наличие возможных противопоказаний к управлению транспортным средством, при необходимости проконсультировавшись с врачом.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_sfc020.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5896,
+    "topic_id": 22,
+    "text": "L'idoneità alla guida può essere compromessa se si fa uso di farmaci antidepressivi",
+    "text_ru": "Пригодность к управлению может быть нарушена при использовании антидепрессантов",
+    "image": null,
+    "comment": {
+      "text": "L'idoneità  alla guida può essere compromessa se si stanno eseguendo cure con alcuni farmaci ad azione sedativa o antidepressiva.\r\n\r\nN.B. Accertarsi delle eventuali controindicazioni alla guida, se necessario consultando il proprio medico.",
+      "text_ru": "Пригодность к управлению автомобилем может быть нарушена, если вы проходите курс лечения некоторыми препаратами седативного или антидепрессивного действия. Примечание: проверьте наличие возможных противопоказаний к управлению транспортным средством, при необходимости проконсультировавшись с врачом.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_sfc020.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5897,
+    "topic_id": 22,
+    "text": "L'idoneità alla guida può essere compromessa se si fa uso di allucinogeni (LSD, ecstasy, ecc.)",
+    "text_ru": "Пригодность к управлению транспортным средством может быть снижена при употреблении галлюциногенов (ЛСД, экстази и т.д.)",
+    "image": null,
+    "comment": {
+      "text": "L'idoneità  alla guida può essere compromessa se si fa uso di stupefacenti perché alterano le facoltà  di guida (percezioni, vista, riflessi, coordinazione).\r\n\r\n",
+      "text_ru": "Пригодность к управлению может быть снижена при употреблении наркотических средств, так как они нарушают способности к вождению (восприятие, зрение, рефлексы, координацию).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_alcool e farmaci.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5898,
+    "topic_id": 22,
+    "text": "L'idoneità alla guida può essere compromessa se si fa uso di bevande alcoliche",
+    "text_ru": "Пригодность к управлению транспортным средством может быть снижена при употреблении алкогольных напитков",
+    "image": null,
+    "comment": {
+      "text": "L'idoneità  alla guida può essere compromessa se si fa uso di bevande alcoliche perché alterano le facoltà  di guida (percezioni, vista, riflessi, coordinazione).",
+      "text_ru": "Пригодность к управлению может быть снижена при употреблении алкогольных напитков, так как они нарушают способности к вождению (восприятие, зрение, рефлексы, координацию).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_alcool e farmaci.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5899,
+    "topic_id": 22,
+    "text": "L'idoneità alla guida può essere compromessa se si fa uso di caffè amaro",
+    "text_ru": "Пригодность к управлению транспортным средством может быть снижена при употреблении горького кофе",
+    "image": null,
+    "comment": {
+      "text": "L'idoneità  alla guida può essere compromessa se si fa uso di:\r\n- Bevande alcoliche\r\n- alcuni farmaci sedativi o antidepressivi\r\n- allucinogeni (LSD, ecstasy, ecc.) \r\n perché alterano le facoltà  di guida (percezioni, vista, riflessi, coordinazione).\r\n\r\n\r\n",
+      "text_ru": "Пригодность к управлению может быть снижена при употреблении:\r\n- Алкогольных напитков\r\n- некоторых седативных препаратов или антидепрессантов\r\n- галлюциногенов (ЛСД, экстази и т.д.)\r\nпоскольку они нарушают способности к вождению (восприятие, зрение, рефлексы, координацию).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5900,
+    "topic_id": 22,
+    "text": "L'idoneità alla guida può essere compromessa se si fa uso di bevande gassate",
+    "text_ru": "Пригодность к управлению транспортным средством может быть снижена при употреблении газированных напитков",
+    "image": null,
+    "comment": {
+      "text": "L'idoneità  alla guida può essere compromessa se si fa uso di:\r\n- Bevande alcoliche\r\n- alcuni farmaci sedativi o antidepressivi\r\n- allucinogeni (LSD, ecstasy, ecc.) \r\n perché alterano le facoltà  di guida (percezioni, vista, riflessi, coordinazione).\r\n\r\n",
+      "text_ru": "Пригодность к управлению может быть снижена при употреблении:\r\n- Алкогольных напитков\r\n- некоторых седативных препаратов или антидепрессантов\r\n- галлюциногенов (ЛСД, экстази и т.д.)\r\nпоскольку они нарушают способности к вождению (восприятие, зрение, рефлексы, координацию).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5901,
+    "topic_id": 22,
+    "text": "L'idoneità alla guida può essere compromessa se si fa uso di integratori di sali minerali",
+    "text_ru": "Пригодность к управлению транспортным средством может быть снижена при употреблении минеральных добавок",
+    "image": null,
+    "comment": {
+      "text": "L'idoneità  alla guida può essere compromessa se si fa uso di:\r\n- Bevande alcoliche\r\n- alcuni farmaci sedativi o antidepressivi\r\n- allucinogeni (LSD, ecstasy, ecc.) \r\n perché alterano le facoltà  di guida (percezioni, vista, riflessi, coordinazione).\r\n\r\n",
+      "text_ru": "Пригодность к управлению может быть снижена при употреблении:\r\n- Алкогольных напитков\r\n- некоторых седативных препаратов или антидепрессантов\r\n- галлюциногенов (ЛСД, экстази и т.д.)\r\nпоскольку они нарушают способности к вождению (восприятие, зрение, рефлексы, координацию).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5902,
+    "topic_id": 22,
+    "text": "L'idoneità alla guida può essere compromessa se si fa uso di integratori alimentari",
+    "text_ru": "Пригодность к управлению транспортным средством может быть снижена при употреблении пищевых добавок",
+    "image": null,
+    "comment": {
+      "text": "L'idoneità  alla guida può essere compromessa se si fa uso di:\r\n- Bevande alcoliche\r\n- alcuni farmaci sedativi o antidepressivi\r\n- allucinogeni (LSD, ecstasy, ecc.) \r\n perché alterano le facoltà  di guida (percezioni, vista, riflessi, coordinazione).\r\n\r\n",
+      "text_ru": "Пригодность к управлению может быть снижена при употреблении:\r\n- Алкогольных напитков\r\n- некоторых седативных препаратов или антидепрессантов\r\n- галлюциногенов (ЛСД, экстази и т.д.)\r\nпоскольку они нарушают способности к вождению (восприятие, зрение, рефлексы, координацию).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5903,
+    "topic_id": 22,
+    "text": "L'assunzione di hashish o di marijuana può compromettere la facoltà di guida",
+    "text_ru": "Употребление гашиша или марихуаны может нарушить способность к вождению",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di stupefacenti, farmaci o alcool nfluisce sulla guida, in quanto altera le percezioni ( vista, udito, riflessi ) provocando sonnolenza, eccitazione e alterazione dei riflessi e della coordinazione dei movimenti .\r\n",
+      "text_ru": "Употребление наркотиков, лекарств или алкоголя влияет на вождение, так как изменяет восприятие (зрение, слух, рефлексы), вызывая сонливость, возбуждение и нарушение рефлексов и координации движений.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/20_190_09_alcolista01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5904,
+    "topic_id": 22,
+    "text": "L'assunzione di eroina o di cocaina può compromettere la facoltà di guida",
+    "text_ru": "Употребление героина или кокаина может нарушить способность к вождению",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di stupefacenti, farmaci o alcool nfluisce sulla guida, in quanto altera le percezioni ( vista, udito, riflessi ) provocando sonnolenza, eccitazione e alterazione dei riflessi e della coordinazione dei movimenti .\r\n",
+      "text_ru": "Употребление наркотиков, лекарств или алкоголя влияет на вождение, так как изменяет восприятие (зрение, слух, рефлексы), вызывая сонливость, возбуждение и нарушение рефлексов и координации движений.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/20_190_10_alcolista01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5905,
+    "topic_id": 22,
+    "text": "Nei farmaci sedativi sono presenti alcune sostanze che possono compromettere la facoltà di guida",
+    "text_ru": "В седативных препаратах присутствуют определенные вещества, которые могут нарушить способность к вождению",
+    "image": null,
+    "comment": {
+      "text": "Se si stanno seguendo terapie con farmaci ad azione sedativa o antidepressiva ( psicofarmaci ),\r\nbisogna innanzitutto assicurarsi, se necessario consultando il proprio medico, che non ci siano controindicazioni nella guida. \r\n\r\nN.B. Nei farmaci sedativi o antidepressivi sono presenti alcune sostanze che possono compromettere la facoltà  di guida.",
+      "text_ru": "Если вы проходите терапию седативными препаратами или антидепрессантами (психотропными средствами), необходимо прежде всего убедиться, при необходимости проконсультировавшись с врачом, в отсутствии противопоказаний к вождению. Примечание: В седативных препаратах или антидепрессантах содержатся вещества, которые могут нарушить способность к вождению.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_sfc020.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5906,
+    "topic_id": 22,
+    "text": "L'assunzione di LSD o l'anfetamina non compromette la facoltà di guida",
+    "text_ru": "Употребление ЛСД или амфетамина не нарушает способность к вождению",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di stupefacenti, farmaci o alcool nfluisce sulla guida, in quanto altera le percezioni ( vista, udito, riflessi ) provocando sonnolenza, eccitazione e alterazione dei riflessi e della coordinazione dei movimenti .\r\n",
+      "text_ru": "Употребление наркотиков, лекарств или алкоголя влияет на вождение, так как изменяет восприятие (зрение, слух, рефлексы), вызывая сонливость, возбуждение и нарушение рефлексов и координации движений.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_Sfc019.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5907,
+    "topic_id": 22,
+    "text": "L'assunzione di hashish o di marijuana non compromette la facoltà di guida",
+    "text_ru": "Употребление гашиша или марихуаны не нарушает способность к вождению",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di stupefacenti, farmaci o alcool nfluisce sulla guida, in quanto altera le percezioni ( vista, udito, riflessi ) provocando sonnolenza, eccitazione e alterazione dei riflessi e della coordinazione dei movimenti .\r\n",
+      "text_ru": "Употребление наркотиков, лекарств или алкоголя влияет на вождение, так как изменяет восприятие (зрение, слух, рефлексы), вызывая сонливость, возбуждение и нарушение рефлексов и координации движений.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5908,
+    "topic_id": 22,
+    "text": "Un'alimentazione pesante ed eccessiva è sconsigliata per chi deve guidare",
+    "text_ru": "Тяжелое и избыточное питание не рекомендуется тем, кто должен управлять автомобилем",
+    "image": null,
+    "comment": {
+      "text": "Un'alimentazione pesante ed eccessiva è sconsigliata per chi deve guidare perchè ciò può provocare una diminuzione dell'attenzione e un aumento dei tempi di reazione.",
+      "text_ru": "Тяжелое и избыточное питание не рекомендуется водителям, так как это может привести к снижению внимания и увеличению времени реакции.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5909,
+    "topic_id": 22,
+    "text": "L'alimentazione con cibi di difficile digestione può provocare una diminuzione dell'attenzione e un aumento dei tempi di reazione",
+    "text_ru": "Употребление трудноперевариваемой пищи может привести к снижению внимания и увеличению времени реакции",
+    "image": null,
+    "comment": {
+      "text": "Un'alimentazione pesante ed eccessiva (di difficile digestione) è sconsigliata per chi deve guidare perchè ciò può provocare una diminuzione dell'attenzione e un aumento dei tempi di reazione.",
+      "text_ru": "Тяжелое и избыточное (трудноперевариваемое) питание не рекомендуется водителям, так как это может привести к снижению внимания и увеличению времени реакции.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5910,
+    "topic_id": 22,
+    "text": "L'assunzione di bevande superalcoliche, durante un pasto abbondante non compromette la facoltà di guida",
+    "text_ru": "Употребление крепких алкогольных напитков во время обильного приема пищи не нарушает способность к вождению",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di bevande superalcoliche, anche se durante un pasto abbondante, compromette la facoltà  di guida rendendola meno sicura perché può:\r\n- causare uno stato di euforia\r\n- rallentare i riflessi\r\n- provocare sonnolenza\r\n- provocare eccitazione e imprudenza\r\n- modificare la capacità  di concentrazione e attenzione\r\n- peggiorare la vista.",
+      "text_ru": "Употребление крепких алкогольных напитков, даже во время обильной еды, нарушает способность к вождению, делая его менее безопасным, так как может:\r\n- вызвать состояние эйфории\r\n- замедлить рефлексы\r\n- вызвать сонливость\r\n- вызвать возбуждение и неосторожность\r\n- изменить способность к концентрации и вниманию\r\n- ухудшить зрение.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_sfc014.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5911,
+    "topic_id": 22,
+    "text": "L'alcool può causare uno stato di euforia, con conseguente sottovalutazione del pericolo",
+    "text_ru": "Алкоголь может вызвать состояние эйфории, что приводит к недооценке опасности",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di alcool influenza la guida rendendola meno sicura perché può:\r\n- causare uno stato di euforia\r\n- rallentare i riflessi\r\n- provocare sonnolenza\r\n- provocare eccitazione e imprudenza\r\n- modificare la capacità  di concentrazione e attenzione\r\n- peggiorare la vista.",
+      "text_ru": "Употребление алкоголя влияет на вождение, делая его менее безопасным, так как может:\r\n- вызвать состояние эйфории\r\n- замедлить рефлексы\r\n- вызвать сонливость\r\n- вызвать возбуждение и неосторожность\r\n- изменить способность к концентрации и вниманию\r\n- ухудшить зрение.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_alcool e farmaci.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5912,
+    "topic_id": 22,
+    "text": "Chi guida in stato di ebbrezza alcolica rischia l'arresto",
+    "text_ru": "Водителю, управляющему транспортным средством в состоянии алкогольного опьянения, грозит арест",
+    "image": null,
+    "comment": {
+      "text": "In funzione del tasso alcolemico riscontrato, sono previsti diversi tipi di sanzione amministrativa, accessoria e penale ed in alcuni casi è previsto anche l'arresto.",
+      "text_ru": "В зависимости от выявленного уровня алкоголя в крови предусмотрены различные виды административных, дополнительных и уголовных санкций, а в некоторых случаях предусмотрен также арест.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/12_180_01_sfc012.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5913,
+    "topic_id": 22,
+    "text": "E' sconsigliabile guidare quando si ha uno stato emotivo alterato",
+    "text_ru": "Не рекомендуется управлять автомобилем в измененном эмоциональном состоянии",
+    "image": null,
+    "comment": {
+      "text": "E' sconsigliabile guidare quando si ha uno stato emotivo alterato (ansia, ira, fretta etc).",
+      "text_ru": "Не рекомендуется управлять автомобилем при измененном эмоциональном состоянии (тревога, гнев, спешка и т.д.).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/20_190_12_pat024.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5914,
+    "topic_id": 22,
+    "text": "Chi guida un veicolo senza motore, con una concentrazione di alcool nel sangue superiore al limite stabilito, non è soggetto ad alcuna sanzione",
+    "text_ru": "Лицо, управляющее безмоторным транспортным средством с концентрацией алкоголя в крови выше установленного предела, не подлежит никаким санкциям",
+    "image": null,
+    "comment": {
+      "text": "In funzione del tasso alcolemico riscontrato, sono previsti diversi tipi di sanzione amministrativa, accessoria e penale ed in alcuni casi è previsto anche l'arresto.",
+      "text_ru": "В зависимости от выявленного уровня алкоголя в крови предусмотрены различные виды административных, дополнительных и уголовных санкций, а в некоторых случаях предусмотрен также арест.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/12_180_01_sfc012.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5915,
+    "topic_id": 22,
+    "text": "Chi guida in stato di ebbrezza alcoolica ha tempi di reazione più rapidi",
+    "text_ru": "У водителя в состоянии алкогольного опьянения время реакции становится короче (быстрее)",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di alcool influenza la guida in quanto la rende meno sicura , poichè produce eccitazione , imprudenza, sonnolenza, diminuzione del livello di attenzione e quindi allungamento del tempo di reazione.\r\n",
+      "text_ru": "Употребление алкоголя влияет на вождение, делая его менее безопасным, так как вызывает возбуждение, неосторожность, сонливость, снижение уровня внимания и, следовательно, увеличение времени реакции.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/20_190_10_alcolista01.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5916,
+    "topic_id": 22,
+    "text": "Soccorrere un ferito della strada è obbligatorio per legge",
+    "text_ru": "Оказание помощи пострадавшему в дорожно-транспортном происшествии обязательно по закону",
+    "image": null,
+    "comment": {
+      "text": "Soccorrere un infortunato della strada è un obbligo stabilito dal codice PENALE (art. 593), ma è anche un dovere MORALE.\r\n\r\nN.B. tutti coloro che omettono di soccorrere infortunati, verranno puniti penalmente, ricordando che l'autorità  giudiziaria disporrà  la sospensione della patente di guida.\r\n",
+      "text_ru": "Оказание помощи пострадавшему в ДТП является обязанностью, установленной Уголовным кодексом (ст. 593), а также моральным долгом. Примечание: все лица, не оказавшие помощь пострадавшим, подлежат уголовному наказанию; также судебные органы распоряжаются о приостановлении действия водительского удостоверения.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_soc005.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5917,
+    "topic_id": 22,
+    "text": "Soccorrere un ferito della strada può significare salvargli la vita",
+    "text_ru": "Оказание помощи пострадавшему в ДТП может означать спасение его жизни",
+    "image": null,
+    "comment": {
+      "text": "Soccorrere un ferito della strada ha lo scopo di evitare che il ferito subisca ulteriori danni e, talvolta, può significare salvargli la vita.",
+      "text_ru": "Оказание помощи пострадавшему в ДТП направлено на предотвращение получения им дальнейших травм и иногда может означать спасение его жизни.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5918,
+    "topic_id": 22,
+    "text": "Soccorrere subito un ferito della strada può evitare che subisca ulteriori danni fisici",
+    "text_ru": "Немедленное оказание помощи пострадавшему в ДТП может предотвратить получение им дополнительных физических повреждений",
+    "image": null,
+    "comment": {
+      "text": "Soccorrere un ferito della strada ha lo scopo di evitare che il ferito subisca ulteriori danni e, talvolta, può significare salvargli la vita.",
+      "text_ru": "Оказание помощи пострадавшему в ДТП направлено на предотвращение получения им дальнейших травм и иногда может означать спасение его жизни.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_soc012.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5919,
+    "topic_id": 22,
+    "text": "Soccorrere un ferito della strada non è un obbligo imposto dalla legge, ma solo un dovere morale",
+    "text_ru": "Оказание помощи пострадавшему в ДТП не является юридической обязанностью, а только моральным долгом",
+    "image": null,
+    "comment": {
+      "text": "Soccorrere un infortunato della strada è un obbligo stabilito dal codice PENALE (art. 593), ma è anche un dovere MORALE.\r\n\r\nN.B. tutti coloro che omettono di soccorrere infortunati, verranno puniti penalmente, ricordando che l'autorità  giudiziaria disporrà  la sospensione della patente di guida.",
+      "text_ru": "Оказание помощи пострадавшему в ДТП является обязанностью, установленной Уголовным кодексом (ст. 593), а также моральным долгом. Примечание: все лица, не оказавшие помощь пострадавшим, подлежат уголовному наказанию; также судебные органы распоряжаются о приостановлении действия водительского удостоверения.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_soc005.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5920,
+    "topic_id": 22,
+    "text": "Bisogna soccorrere un ferito della strada solo se si considera grave l'incidente",
+    "text_ru": "Помогать пострадавшему в ДТП нужно только в том случае, если происшествие считается серьезным",
+    "image": null,
+    "comment": {
+      "text": "Soccorrere un ferito della strada ha lo scopo di evitare che il ferito subisca ulteriori danni e, talvolta, può significare salvargli la vita.\r\n\r\nN.B. L' obbligo di soccorso vale per chiunque e qualunque sia la gravità  dell'incidente.",
+      "text_ru": "Оказание помощи пострадавшему в ДТП направлено на предотвращение получения им дальнейших травм и иногда может означать спасение его жизни. Примечание: Обязанность по оказанию помощи распространяется на каждого, независимо от тяжести происшествия.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_soc012.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5921,
+    "topic_id": 22,
+    "text": "Non è obbligatorio soccorrere un ferito della strada, se per farlo, si crea intralcio alla circolazione",
+    "text_ru": "Не обязательно оказывать помощь пострадавшему в ДТП, если это создает помехи для дорожного движения",
+    "image": null,
+    "comment": {
+      "text": "Soccorrere un infortunato della strada è un obbligo stabilito dal codice PENALE (art. 593), ma è anche un dovere MORALE.\r\n\r\nN.B. tutti coloro che omettono di soccorrere infortunati, verranno puniti penalmente, ricordando che l'autorità  giudiziaria disporrà  la sospensione della patente di guida.\r\n",
+      "text_ru": "Оказание помощи пострадавшему в ДТП является обязанностью, установленной Уголовным кодексом (ст. 593), а также моральным долгом. Примечание: все лица, не оказавшие помощь пострадавшим, подлежат уголовному наказанию; также судебные органы распоряжаются о приостановлении действия водительского удостоверения.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_soc005.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5922,
+    "topic_id": 22,
+    "text": "Soccorrere un ferito della strada è obbligatorio solo per i medici e il personale sanitario",
+    "text_ru": "Оказание помощи пострадавшему в ДТП обязательно только для врачей и медицинского персонала",
+    "image": null,
+    "comment": {
+      "text": "Soccorrere un ferito della strada ha lo scopo di evitare che il ferito subisca ulteriori danni e, talvolta, può significare salvargli la vita.\r\n\r\nN.B. L' obbligo di soccorso vale per CHIUNQUE e qualunque sia la gravità  dell'incidente.",
+      "text_ru": "Оказание помощи пострадавшему в ДТП направлено на предотвращение получения им дальнейших травм и иногда может означать спасение его жизни. Примечание: Обязанность по оказанию помощи распространяется на ЛЮБОГО человека, независимо от тяжести происшествия.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5923,
+    "topic_id": 22,
+    "text": "Il fine del primo soccorso è quello di cercare di mantenere in vita il ferito con semplici e immediati interventi",
+    "text_ru": "Цель первой помощи — постараться сохранить жизнь пострадавшему с помощью простых и немедленных действий",
+    "image": null,
+    "comment": {
+      "text": "Il fine (lo scopo) del primo soccorso è quello di cercare di mantenere in vita il ferito con semplici e immediati interventi, senza prendere iniziative di competenza medica, in attesa di più adeguati soccorsi.",
+      "text_ru": "Цель первой помощи — попытаться сохранить жизнь пострадавшему с помощью простых и немедленных действий, не предпринимая инициатив, относящихся к медицинской компетенции, в ожидании более квалифицированной помощи.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc110.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5924,
+    "topic_id": 22,
+    "text": "Il fine del primo soccorso è quello di assistere il ferito, come meglio possibile, in attesa che arrivi il soccorso medico",
+    "text_ru": "Цель первой помощи — оказать пострадавшему максимально возможную поддержку до прибытия медицинской помощи",
+    "image": null,
+    "comment": {
+      "text": "Il fine (lo scopo) del primo soccorso è quello di cercare di mantenere in vita il ferito con semplici e immediati interventi, senza prendere iniziative di competenza medica, in attesa di più adeguati soccorsi.",
+      "text_ru": "Цель первой помощи — попытаться сохранить жизнь пострадавшему с помощью простых и немедленных действий, не предпринимая инициатив, относящихся к медицинской компетенции, в ожидании более квалифицированной помощи.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc110.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5925,
+    "topic_id": 22,
+    "text": "Nell'intervento di primo soccorso bisogna evitare, per quanto possibile, che il ferito subisca ulteriori danni",
+    "text_ru": "При оказании первой помощи необходимо, по мере возможности, избегать получения пострадавшим дополнительных травм",
+    "image": null,
+    "comment": {
+      "text": "Nelle operazioni di primo soccorso bisogna evitare che la vittima subisca ulteriori danni e che vengano praticati interventi sbagliati o dannosi.",
+      "text_ru": "При проведении мероприятий по оказанию первой помощи необходимо избегать нанесения жертве дальнейшего ущерба и проведения неправильных или вредных вмешательств.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_soc012.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5926,
+    "topic_id": 22,
+    "text": "Nelle operazioni di primo soccorso bisogna evitare che al ferito vengano praticati interventi sbagliati o dannosi",
+    "text_ru": "При оказании первой помощи необходимо не допускать проведения в отношении пострадавшего неправильных или вредных действий",
+    "image": null,
+    "comment": {
+      "text": "Nelle operazioni di primo soccorso bisogna evitare che la vittima subisca ulteriori danni e che vengano praticati interventi sbagliati o dannosi.",
+      "text_ru": "При проведении мероприятий по оказанию первой помощи необходимо избегать нанесения жертве дальнейшего ущерба и проведения неправильных или вредных вмешательств.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_soc002.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5927,
+    "topic_id": 22,
+    "text": "Il fine del primo soccorso è quello di chiedere subito al ferito come è avvenuto l'incidente",
+    "text_ru": "Цель первой помощи — немедленно расспросить пострадавшего о том, как произошло ДТП",
+    "image": null,
+    "comment": {
+      "text": "Il fine (lo scopo) del primo soccorso è quello di cercare di mantenere in vita il ferito con semplici e immediati interventi, senza prendere iniziative di competenza medica, in attesa di più adeguati soccorsi.",
+      "text_ru": "Цель первой помощи — попытаться сохранить жизнь пострадавшему с помощью простых и немедленных действий, не предпринимая инициатив, относящихся к медицинской компетенции, в ожидании более квалифицированной помощи.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5928,
+    "topic_id": 22,
+    "text": "Nell'intervento di primo soccorso bisogna allontanare in ogni caso il ferito dal posto in cui si trova",
+    "text_ru": "При оказании первой помощи необходимо в любом случае переместить пострадавшего с того места, где он находится",
+    "image": null,
+    "comment": {
+      "text": "Lo spostamento di un infortunato grave è una manovra eccezionale e va effettuata solo quando le situazioni ambientali rappresentano un pericolo immediato per la vita del ferito stesso oppure quando risulta impossibile prestare, in quella situazione, adeguati soccorsi (es. ferito in un auto che prende fuoco, ferito in auto che rischia di cadere in un precipizio etc).",
+      "text_ru": "Перемещение тяжелораненого является исключительной мерой и должно производиться только тогда, когда окружающая обстановка представляет непосредственную угрозу жизни самого пострадавшего или когда в данной ситуации невозможно оказать надлежащую помощь (например, раненый в загоревшемся автомобиле, раненый в машине, которая может сорваться в пропасть и т.д.).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5929,
+    "topic_id": 22,
+    "text": "Durante un intervento di primo soccorso non bisogna mai toccare il ferito se non è ancora arrivata la polizia",
+    "text_ru": "При оказании первой помощи нельзя прикасаться к пострадавшему до прибытия полиции",
+    "image": null,
+    "comment": {
+      "text": "E' necessario attuare semplici e immediati interventi in attesa di più adeguati soccorsi.\r\nL'intervento tempestivo sull'infortunato è fondamentale e può salvargli la vita.",
+      "text_ru": "Необходимо предпринять простые и немедленные действия в ожидании более квалифицированной помощи. Своевременная помощь пострадавшему имеет решающее значение и может спасти ему жизнь.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_Soc003.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5930,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha una ferita sanguinante la si deve coprire con materiale sterile o quanto più possibile pulito, per bloccare il sanguinamento",
+    "text_ru": "Если у пострадавшего в ДТП есть кровоточащая рана, ее необходимо накрыть стерильным или максимально чистым материалом, чтобы остановить кровотечение",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha una ferita sanguinante:\r\n\r\n- se è sporca di terra bisogna lavarla quanto prima con acqua pulita;\r\n- se vi sono corpi estranei conficcati, non bisogna toglierli dalla ferita;\r\n- bisogna coprirla o tamponarla con materiale sterile (es. garze) o panni puliti per bloccare il sanguinamento.",
+      "text_ru": "Если у пострадавшего в ДТП есть кровоточащая рана:\r\n- если она загрязнена землей, ее нужно как можно скорее промыть чистой водой;\r\n- если в ране есть застрявшие инородные тела, их нельзя извлекать;\r\n- рану нужно накрыть или прижать стерильным материалом (например, марлей) или чистой тканью, чтобы остановить кровотечение.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_05_soc051.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5931,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha una ferita sanguinante, sporca di terra, bisogna lavarla quanto prima con acqua pulita",
+    "text_ru": "Если у пострадавшего в ДТП кровоточащая рана загрязнена землей, ее необходимо как можно скорее промыть чистой водой",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha una ferita sanguinante:\r\n\r\n- se è sporca di terra bisogna lavarla quanto prima con acqua pulita;\r\n- se vi sono corpi estranei conficcati, non bisogna toglierli dalla ferita;\r\n- bisogna coprirla o tamponarla con materiale sterile (es. garze) o panni puliti per bloccare il sanguinamento.",
+      "text_ru": "Если у пострадавшего в ДТП есть кровоточащая рана:\r\n- если она загрязнена землей, ее нужно как можно скорее промыть чистой водой;\r\n- если в ране есть застрявшие инородные тела, их нельзя извлекать;\r\n- рану нужно накрыть или прижать стерильным материалом (например, марлей) или чистой тканью, чтобы остановить кровотечение.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5932,
+    "topic_id": 22,
+    "text": "Durante un intervento di primo soccorso, se l'infortunato ha una ferita sanguinante, con presenza di corpi estranei conficcati , non bisogna toglierli dalla ferita",
+    "text_ru": "Если при оказании первой помощи у пострадавшего обнаружена кровоточащая рана с застрявшими инородными телами, не следует извлекать их из раны",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha una ferita sanguinante:\r\n\r\n- se è sporca di terra bisogna lavarla quanto prima con acqua pulita;\r\n- se vi sono corpi estranei conficcati, non bisogna toglierli dalla ferita;\r\n- bisogna coprirla o tamponarla con materiale sterile (es. garze) o panni puliti per bloccare il sanguinamento.",
+      "text_ru": "Если у пострадавшего в ДТП есть кровоточащая рана:\r\n- если она загрязнена землей, ее нужно как можно скорее промыть чистой водой;\r\n- если в ране есть застрявшие инородные тела, их нельзя извлекать;\r\n- рану нужно накрыть или прижать стерильным материалом (например, марлей) или чистой тканью, чтобы остановить кровотечение.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_05_soc085.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5933,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha una ferita sanguinante, bisogna tamponarla con garze sterili o panni puliti",
+    "text_ru": "Если у пострадавшего в ДТП есть кровоточащая рана, ее необходимо тампонировать стерильной марлей или чистой тканью",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha una ferita sanguinante:\r\n\r\n- se è sporca di terra bisogna lavarla quanto prima con acqua pulita;\r\n- se vi sono corpi estranei conficcati, non bisogna toglierli dalla ferita;\r\n- bisogna coprirla o tamponarla con materiale sterile (es. garze) o panni puliti per bloccare il sanguinamento.",
+      "text_ru": "Если у пострадавшего в ДТП есть кровоточащая рана:\r\n- если она загрязнена землей, ее нужно как можно скорее промыть чистой водой;\r\n- если в ране есть застрявшие инородные тела, их нельзя извлекать;\r\n- рану нужно накрыть или прижать стерильным материалом (например, марлей) или чистой тканью, чтобы остановить кровотечение.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_05_soc051.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5934,
+    "topic_id": 22,
+    "text": "Durante un intervento di primo soccorso, se l'infortunato ha una ferita sanguinante, si devono togliere subito gli eventuali corpi estranei in essa presenti e, successivamente, coprire la ferita",
+    "text_ru": "Если при оказании первой помощи у пострадавшего обнаружена кровоточащая рана, необходимо немедленно извлечь из нее любые инородные тела и затем накрыть рану",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha una ferita sanguinante:\r\n\r\n- se è sporca di terra bisogna lavarla quanto prima con acqua pulita;\r\n- se vi sono corpi estranei conficcati, non bisogna toglierli dalla ferita;\r\n- bisogna coprirla o tamponarla con materiale sterile (es. garze) o panni puliti per bloccare il sanguinamento.",
+      "text_ru": "Если у пострадавшего в ДТП есть кровоточащая рана:\r\n- если она загрязнена землей, ее нужно как можно скорее промыть чистой водой;\r\n- если в ране есть застрявшие инородные тела, их нельзя извлекать;\r\n- рану нужно накрыть или прижать стерильным материалом (например, марлей) или чистой тканью, чтобы остановить кровотечение.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5935,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha una ferita sanguinante ed è incosciente, bisogna dargli da bere acqua o tè",
+    "text_ru": "Если у пострадавшего в ДТП есть кровоточащая рана и он находится без сознания, необходимо дать ему попить воды или чаю",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha una ferita sanguinante:\r\n\r\n- se è sporca di terra bisogna lavarla quanto prima con acqua pulita;\r\n- se vi sono corpi estranei conficcati, non bisogna toglierli dalla ferita;\r\n- bisogna coprirla o tamponarla con materiale sterile (es. garze) o panni puliti per bloccare il sanguinamento.",
+      "text_ru": "Если у пострадавшего в ДТП есть кровоточащая рана:\r\n- если она загрязнена землей, ее нужно как можно скорее промыть чистой водой;\r\n- если в ране есть застрявшие инородные тела, их нельзя извлекать;\r\n- рану нужно накрыть или прижать стерильным материалом (например, марлей) или чистой тканью, чтобы остановить кровотечение.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_05_soc051.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5936,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha una ferita sanguinante non bisogna coprirla, per facilitare l'arresto spontaneo del sangue",
+    "text_ru": "Если у пострадавшего в ДТП есть кровоточащая рана, ее не следует накрывать, чтобы способствовать самопроизвольной остановке крови",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha una ferita sanguinante:\r\n\r\n- se è sporca di terra bisogna lavarla quanto prima con acqua pulita;\r\n- se vi sono corpi estranei conficcati, non bisogna toglierli dalla ferita;\r\n- bisogna coprirla o tamponarla con materiale sterile (es. garze) o panni puliti per bloccare il sanguinamento.",
+      "text_ru": "Если у пострадавшего в ДТП есть кровоточащая рана:\r\n- если она загрязнена землей, ее нужно как можно скорее промыть чистой водой;\r\n- если в ране есть застрявшие инородные тела, их нельзя извлекать;\r\n- рану нужно накрыть или прижать стерильным материалом (например, марлей) или чистой тканью, чтобы остановить кровотечение.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_05_soc051.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5937,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha una ferita sanguinante si deve versarvi sopra acqua calda, per fermare il sanguinamento",
+    "text_ru": "Если у пострадавшего в ДТП есть кровоточащая рана, на нее необходимо полить горячей водой, чтобы остановить кровотечение",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha una ferita sanguinante:\r\n\r\n- se è sporca di terra bisogna lavarla quanto prima con acqua pulita;\r\n- se vi sono corpi estranei conficcati, non bisogna toglierli dalla ferita;\r\n- bisogna coprirla o tamponarla con materiale sterile (es. garze) o panni puliti per bloccare il sanguinamento.",
+      "text_ru": "Если у пострадавшего в ДТП есть кровоточащая рана:\r\n- если она загрязнена землей, ее нужно как можно скорее промыть чистой водой;\r\n- если в ране есть застрявшие инородные тела, их нельзя извлекать;\r\n- рану нужно накрыть или прижать стерильным материалом (например, марлей) или чистой тканью, чтобы остановить кровотечение.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_06_soc086.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5938,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna tamponare la ferita e chiamare subito i soccorsi",
+    "text_ru": "Если у пострадавшего в ДТП обильное наружное кровотечение, необходимо тампонировать рану и немедленно вызвать помощь",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve:\r\n\r\n- tamponare subito la ferita cercando di arrestare la fuoriuscita del sangue\r\n- fare pressione con del materiale pulito o possibilmente sterile e chiamare subito i soccorsi.\r\n\r\nIn attesa dei soccorsi, mettere il ferito in posizione seduta o sdraiata.",
+      "text_ru": "Если у пострадавшего в ДТП обильное наружное кровотечение, следует:\r\n- немедленно тампонировать рану, стараясь остановить вытекание крови;\r\n- надавить чистым или, по возможности, стерильным материалом и сразу вызвать помощь. В ожидании помощи перевести пострадавшего в положение сидя или лежа.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_05_soc051.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5939,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve tamponare subito la ferita, facendo pressione con del materiale pulito o possibilmente sterile",
+    "text_ru": "Если у пострадавшего в ДТП обильное наружное кровотечение, необходимо немедленно тампонировать рану, надавливая чистым или, по возможности, стерильным материалом",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve:\r\n\r\n- tamponare subito la ferita cercando di arrestare la fuoriuscita del sangue\r\n- fare pressione con del materiale pulito o possibilmente sterile e chiamare subito i soccorsi.\r\n\r\nIn attesa dei soccorsi, mettere il ferito in posizione seduta o sdraiata.",
+      "text_ru": "Если у пострадавшего в ДТП обильное наружное кровотечение, следует:\r\n- немедленно тампонировать рану, стараясь остановить вытекание крови;\r\n- надавить чистым или, по возможности, стерильным материалом и сразу вызвать помощь. В ожидании помощи перевести пострадавшего в положение сидя или лежа.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_06_soc086.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5940,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna cercare di arrestare la fuoriuscita del sangue",
+    "text_ru": "Если у пострадавшего в ДТП обильное наружное кровотечение, необходимо попытаться остановить вытекание крови",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve:\r\n\r\n- tamponare subito la ferita cercando di arrestare la fuoriuscita del sangue\r\n- fare pressione con del materiale pulito o possibilmente sterile e chiamare subito i soccorsi.\r\n\r\nIn attesa dei soccorsi, mettere il ferito in posizione seduta o sdraiata.",
+      "text_ru": "Если у пострадавшего в ДТП обильное наружное кровотечение, следует:\r\n- немедленно тампонировать рану, стараясь остановить вытекание крови;\r\n- надавить чистым или, по возможности, стерильным материалом и сразу вызвать помощь. В ожидании помощи перевести пострадавшего в положение сидя или лежа.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5941,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha un'abbondante emorragia esterna è opportuno, se possibile, mettere il ferito in posizione seduta o sdraiata, in attesa che arrivino i soccorsi",
+    "text_ru": "Если у пострадавшего в ДТП обильное наружное кровотечение, целесообразно, если это возможно, перевести его в положение сидя или лежа до прибытия помощи",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve:\r\n\r\n- tamponare subito la ferita cercando di arrestare la fuoriuscita del sangue\r\n- fare pressione con del materiale pulito o possibilmente sterile e chiamare subito i soccorsi.\r\n\r\nIn attesa dei soccorsi è opportuno, se possibile, mettere il ferito in posizione seduta o sdraiata.",
+      "text_ru": "Если у пострадавшего в ДТП обильное наружное кровотечение, следует:\r\n- немедленно тампонировать рану, стараясь остановить вытекание крови;\r\n- надавить чистым или, по возможности, стерильным материалом и сразу вызвать помощь. В ожидании помощи целесообразно, по возможности, перевести пострадавшего в положение сидя или лежа.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_05_soc051.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5942,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna solo medicare la ferita",
+    "text_ru": "Если у пострадавшего в ДТП обильное наружное кровотечение, нужно только обработать рану",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve:\r\n\r\n- tamponare subito la ferita cercando di arrestare la fuoriuscita del sangue\r\n- fare pressione con del materiale pulito o possibilmente sterile e chiamare subito i soccorsi.\r\n\r\nIn attesa dei soccorsi, mettere il ferito in posizione seduta o sdraiata.",
+      "text_ru": "Если у пострадавшего в ДТП обильное наружное кровотечение, следует:\r\n- немедленно тампонировать рану, стараясь остановить вытекание крови;\r\n- надавить чистым или, по возможности, стерильным материалом и сразу вызвать помощь. В ожидании помощи перевести пострадавшего в положение сидя или лежа.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_06_soc086.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5943,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve coprire la ferita e far camminare l'infortunato",
+    "text_ru": "Если у пострадавшего в ДТП обильное наружное кровотечение, необходимо накрыть рану и заставить пострадавшего ходить",
+    "image": null,
+    "comment": {
+      "text": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve:\r\n\r\n- tamponare subito la ferita cercando di arrestare la fuoriuscita del sangue\r\n- fare pressione con del materiale pulito o possibilmente sterile e chiamare subito i soccorsi.\r\n\r\nIn attesa dei soccorsi, mettere il ferito in posizione seduta o sdraiata.",
+      "text_ru": "Если у пострадавшего в ДТП обильное наружное кровотечение, следует:\r\n- немедленно тампонировать рану, стараясь остановить вытекание крови;\r\n- надавить чистым или, по возможности, стерильным материалом и сразу вызвать помощь. В ожидании помощи перевести пострадавшего в положение сидя или лежа.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_05_soc051.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5944,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha un'abbondante emorragia esterna non si può assolutamente dargli da bere acqua",
+    "text_ru": "Если у пострадавшего в ДТП обильное наружное кровотечение, ему категорически нельзя давать пить воду",
+    "image": null,
+    "comment": {
+      "text": "Se non vi è rischio di lesioni interne, è possibile dare da bere all'infortunato.",
+      "text_ru": "Если нет риска внутренних повреждений, пострадавшему можно дать попить.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5945,
+    "topic_id": 22,
+    "text": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio (scheggia di vetro, legno o altro), bisogna bendarglielo, senza procedere ad altre manovre",
+    "text_ru": "Если пострадавшему в ДТП в глаз попало инородное тело (осколок стекла, дерева или другое), необходимо наложить повязку на глаз, не совершая никаких других действий",
+    "image": null,
+    "comment": {
+      "text": "Se la vittima presenta un corpo estraneo in un occhio si deve:\r\n\r\n- se è penetrato nel bulbo oculare, bisogna bendare l'occhio senza rimuovere il corpo estraneo\r\n- evitare che la vittima si tocchi l'occhio ferito ( non possiamo evitare che lui chiuda l'occhio)\r\n- portarlo in ospedale o da uno specialista se il corpo è penetrato nel bulbo oculare.\r\n\r\nN.B. se il corpo estraneo non è penetrato nel bulbo oculare, lo possiamo rimuovere con la punta di un fazzoletto pulito.\r\n",
+      "text_ru": "Если у пострадавшего инородное тело в глазу, следует:\r\n- если оно проникло в глазное яблоко, наложить повязку, не извлекая тело;\r\n- не допускать, чтобы пострадавший трогал раненый глаз;\r\n- доставить его в больницу или к специалисту, если тело проникло в глазное яблоко. Примечание: если инородное тело не проникло в глазное яблоко, его можно удалить кончиком чистого платка.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5946,
+    "topic_id": 22,
+    "text": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna consigliargli di non toccare l'occhio danneggiato, per evitare danni maggiori",
+    "text_ru": "Если пострадавшему в ДТП в глаз попало инородное тело, необходимо посоветовать ему не трогать поврежденный глаз, чтобы избежать больших повреждений",
+    "image": null,
+    "comment": {
+      "text": "Se la vittima presenta un corpo estraneo in un occhio si deve:\r\n\r\n- se è penetrato nel bulbo oculare, bisogna bendare l'occhio senza rimuovere il corpo estraneo\r\n- evitare che la vittima si tocchi l'occhio ferito ( non possiamo evitare che lui chiuda l'occhio)\r\n- portarlo in ospedale o da uno specialista se il corpo è penetrato nel bulbo oculare.\r\n\r\nN.B. se il corpo estraneo non è penetrato nel bulbo oculare, lo possiamo rimuovere con la punta di un fazzoletto pulito.",
+      "text_ru": "Если у пострадавшего инородное тело в глазу, следует:\r\n- если оно проникло в глазное яблоко, наложить повязку, не извлекая тело;\r\n- не допускать, чтобы пострадавший трогал раненый глаз;\r\n- доставить его в больницу или к специалисту. Примечание: если тело не проникло в глазное яблоко, его можно удалить кончиком чистого платка.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5947,
+    "topic_id": 22,
+    "text": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna bendarglielo, evitando di toccarlo fino all'intervento dello specialista",
+    "text_ru": "Если пострадавшему в ДТП в глаз попало инородное тело, его необходимо забинтовать, не касаясь его до осмотра специалистом",
+    "image": null,
+    "comment": {
+      "text": "Se la vittima presenta un corpo estraneo in un occhio si deve:\r\n\r\n- se è penetrato nel bulbo oculare, bisogna bendare l'occhio senza rimuovere il corpo estraneo\r\n- evitare che la vittima si tocchi l'occhio ferito ( non possiamo evitare che lui chiuda l'occhio)\r\n- portarlo in ospedale o da uno specialista se il corpo è penetrato nel bulbo oculare.\r\n\r\nN.B. se il corpo estraneo non è penetrato nel bulbo oculare, lo possiamo rimuovere con la punta di un fazzoletto pulito.",
+      "text_ru": "Если у пострадавшего инородное тело в глазу, следует:\r\n- если оно проникло в глазное яблоко, наложить повязку, не извлекая тело;\r\n- не допускать касания раненого глаза;\r\n- доставить в больницу. Примечание: если тело не проникло в яблоко, его можно удалить кончиком чистого платка.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5948,
+    "topic_id": 22,
+    "text": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna cercare sempre e comunque di toglierglielo",
+    "text_ru": "Если пострадавшему в ДТП в глаз попало инородное тело, необходимо во что бы то ни стало попытаться его извлечь",
+    "image": null,
+    "comment": {
+      "text": "Se la vittima presenta un corpo estraneo in un occhio si deve:\r\n\r\n- se è penetrato nel bulbo oculare, bisogna bendare l'occhio senza rimuovere il corpo estraneo\r\n- evitare che la vittima si tocchi l'occhio ferito ( non possiamo evitare che lui chiuda l'occhio)\r\n- portarlo in ospedale o da uno specialista se il corpo è penetrato nel bulbo oculare.\r\n\r\nN.B. se il corpo estraneo non è penetrato nel bulbo oculare, lo possiamo rimuovere con la punta di un fazzoletto pulito.",
+      "text_ru": "Если у пострадавшего инородное тело в глазу, следует:\r\n- если оно проникло в глазное яблоко, наложить повязку, не извлекая тело;\r\n- не допускать касания раненого глаза;\r\n- доставить к врачу. Примечание: если тело не в яблоке, его можно удалить кончиком чистого платка.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_06_soc090.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5949,
+    "topic_id": 22,
+    "text": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna costringerlo a tenere gli occhi aperti, per evitare altre lesioni",
+    "text_ru": "Если пострадавшему в ДТП в глаз попало инородное тело, необходимо заставить его держать глаза открытыми, чтобы избежать дальнейших травм",
+    "image": null,
+    "comment": {
+      "text": "Se la vittima presenta un corpo estraneo in un occhio si deve:\r\n\r\n- se è penetrato nel bulbo oculare, bisogna bendare l'occhio senza rimuovere il corpo estraneo\r\n- evitare che la vittima si tocchi l'occhio ferito ( non possiamo evitare che lui chiuda l'occhio)\r\n- portarlo in ospedale o da uno specialista se il corpo è penetrato nel bulbo oculare.\r\n\r\nN.B. se il corpo estraneo non è penetrato nel bulbo oculare, lo possiamo rimuovere con la punta di un fazzoletto pulito.",
+      "text_ru": "Если у пострадавшего инородное тело в глазу, следует:\r\n- если оно в яблоке, наложить повязку, не извлекая тело;\r\n- не допускать касания глаза;\r\n- доставить к врачу. Примечание: если тело не в яблоке, его можно удалить кончиком чистого платка.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5950,
+    "topic_id": 22,
+    "text": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna massaggiargli delicatamente la palpebra, per favorire la lacrimazione",
+    "text_ru": "Если пострадавшему в ДТП в глаз попало инородное тело, необходимо осторожно помассировать веко, чтобы вызвать слезотечение",
+    "image": null,
+    "comment": {
+      "text": "Se la vittima presenta un corpo estraneo in un occhio si deve:\r\n\r\n- se è penetrato nel bulbo oculare, bisogna bendare l'occhio senza rimuovere il corpo estraneo\r\n- evitare che la vittima si tocchi l'occhio ferito ( non possiamo evitare che lui chiuda l'occhio)\r\n- portarlo in ospedale o da uno specialista se il corpo è penetrato nel bulbo oculare.\r\n\r\nN.B. se il corpo estraneo non è penetrato nel bulbo oculare, lo possiamo rimuovere con la punta di un fazzoletto pulito.",
+      "text_ru": "Если у пострадавшего инородное тело в глазу, следует:\r\n- если оно в яблоке, наложить повязку, не извлекая тело;\r\n- не допускать касания глаза;\r\n- доставить к врачу. Примечание: если тело не в яблоке, его можно удалить кончиком чистого платка.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5951,
+    "topic_id": 22,
+    "text": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio non bisogna mai bendargli l'occhio ferito",
+    "text_ru": "Если пострадавшему в ДТП в глаз попало инородное тело, ни в коем случае нельзя забинтовывать поврежденный глаз",
+    "image": null,
+    "comment": {
+      "text": "Se la vittima presenta un corpo estraneo in un occhio si deve:\r\n\r\n- se è penetrato nel bulbo oculare, bisogna bendare l'occhio senza rimuovere il corpo estraneo\r\n- evitare che la vittima si tocchi l'occhio ferito ( non possiamo evitare che lui chiuda l'occhio)\r\n- portarlo in ospedale o da uno specialista se il corpo è penetrato nel bulbo oculare.\r\n\r\nN.B. se il corpo estraneo non è penetrato nel bulbo oculare, lo possiamo rimuovere con la punta di un fazzoletto pulito.",
+      "text_ru": "Если у пострадавшего инородное тело в глазу, следует:\r\n- если оно в яблоке, наложить повязку, не извлекая тело;\r\n- не допускать касания глаза;\r\n- доставить к врачу. Примечание: если тело не в яблоке, его можно удалить кончиком чистого платка.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5952,
+    "topic_id": 22,
+    "text": "Lo stato di shock si manifesta con pelle molto pallida e fredda",
+    "text_ru": "Состояние шока проявляется очень бледной и холодной кожей",
+    "image": null,
+    "comment": {
+      "text": "Le manifestazioni iniziali dello stato di shock sono :\r\n\r\n- pelle molto pallida e fredda, con presenza di sudorazione fredda e stato di agitazione\r\n- brividi di freddo provocati dalla bassa pressione sanguigna\r\n- polso debole (a causa della bassa pressione) e frequente (per riportare la pressione a livelli normali)\r\n- pupille dilatate e respirazione rapida .\r\n\r\n\r\n\r\n\r\n\r\n",
+      "text_ru": "Начальные проявления шокового состояния:\r\n- очень бледная и холодная кожа, наличие холодного пота и состояние возбуждения;\r\n- озноб, вызванный низким кровяным давлением;\r\n- слабый пульс (из-за низкого давления) и частый (для возвращения давления к норме);\r\n- расширенные зрачки и частое дыхание.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc104.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5953,
+    "topic_id": 22,
+    "text": "Lo stato di shock si manifesta con presenza di sudore freddo alla fronte",
+    "text_ru": "Состояние шока проявляется наличием холодного пота на лбу",
+    "image": null,
+    "comment": {
+      "text": "Le manifestazioni iniziali dello stato di shock sono :\r\n\r\n- pelle molto pallida e fredda, con presenza di sudorazione fredda e stato di agitazione\r\n- brividi di freddo provocati dalla bassa pressione sanguigna\r\n- polso debole (a causa della bassa pressione) e frequente (per riportare la pressione a livelli normali)\r\n- pupille dilatate e respirazione rapida .\r\n\r\n\r\n\r\n\r\n\r\n",
+      "text_ru": "Начальные проявления шокового состояния:\r\n- очень бледная и холодная кожа, наличие холодного пота и состояние возбуждения;\r\n- озноб, вызванный низким кровяным давлением;\r\n- слабый пульс (из-за низкого давления) и частый (для возвращения давления к норме);\r\n- расширенные зрачки и частое дыхание.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc104.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5954,
+    "topic_id": 22,
+    "text": "Lo stato di shock si manifesta con presenza di brividi, pelle molto pallida e sudorazione fredda alla fronte",
+    "text_ru": "Состояние шока проявляется ознобом, очень бледной кожей и холодным потом на лбу",
+    "image": null,
+    "comment": {
+      "text": "Le manifestazioni iniziali dello stato di shock sono :\r\n\r\n- pelle molto pallida e fredda, con presenza di sudorazione fredda e stato di agitazione\r\n- brividi di freddo provocati dalla bassa pressione sanguigna\r\n- polso debole (a causa della bassa pressione) e frequente (per riportare la pressione a livelli normali)\r\n- pupille dilatate e respirazione rapida .\r\n\r\n\r\n\r\n\r\n\r\n",
+      "text_ru": "Начальные проявления шокового состояния:\r\n- очень бледная и холодная кожа, наличие холодного пота и состояние возбуждения;\r\n- озноб, вызванный низким кровяным давлением;\r\n- слабый пульс (из-за низкого давления) и частый (для возвращения давления к норме);\r\n- расширенные зрачки и частое дыхание.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc104.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5955,
+    "topic_id": 22,
+    "text": "Lo stato di shock si manifesta con pelle molto pallida, sudorazione fredda, frequenti battiti del cuore",
+    "text_ru": "Состояние шока проявляется очень бледной кожей, холодным потом, учащенным сердцебиением",
+    "image": null,
+    "comment": {
+      "text": "Le manifestazioni iniziali dello stato di shock sono :\r\n\r\n- pelle molto pallida e fredda, con presenza di sudorazione fredda e stato di agitazione\r\n- brividi di freddo provocati dalla bassa pressione sanguigna\r\n- polso debole (a causa della bassa pressione) e frequente (per riportare la pressione a livelli normali)\r\n- pupille dilatate e respirazione rapida .\r\n\r\n\r\n\r\n\r\n\r\n",
+      "text_ru": "Начальные проявления шокового состояния:\r\n- очень бледная и холодная кожа, наличие холодного пота и состояние возбуждения;\r\n- озноб, вызванный низким кровяным давлением;\r\n- слабый пульс (из-за низкого давления) и частый (для возвращения давления к норме);\r\n- расширенные зрачки и частое дыхание.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc104.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5956,
+    "topic_id": 22,
+    "text": "Lo stato di shock può manifestarsi con improvvisa pronuncia di frasi e parole senza senso",
+    "text_ru": "Состояние шока может проявляться внезапным произнесением бессмысленных фраз и слов",
+    "image": null,
+    "comment": {
+      "text": "Le manifestazioni iniziali dello stato di shock sono :\r\n\r\n- pelle molto pallida e fredda, con presenza di sudorazione fredda e stato di agitazione\r\n- brividi di freddo provocati dalla bassa pressione sanguigna\r\n- polso debole (a causa della bassa pressione) e frequente (per riportare la pressione a livelli normali)\r\n- pupille dilatate e respirazione rapida .\r\n\r\n\r\n\r\n\r\n\r\n",
+      "text_ru": "Начальные проявления шокового состояния:\r\n- очень бледная и холодная кожа, наличие холодного пота и состояние возбуждения;\r\n- озноб, вызванный низким кровяным давлением;\r\n- слабый пульс (из-за низкого давления) и частый (для возвращения давления к норме);\r\n- расширенные зрачки и частое дыхание.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5957,
+    "topic_id": 22,
+    "text": "Lo stato di shock si manifesta sempre con un forte aumento della temperatura corporea",
+    "text_ru": "Состояние шока всегда проявляется значительным повышением температуры тела",
+    "image": null,
+    "comment": {
+      "text": "Le manifestazioni iniziali dello stato di shock sono :\r\n\r\n- pelle molto pallida e fredda, con presenza di sudorazione fredda e stato di agitazione\r\n- brividi di freddo provocati dalla bassa pressione sanguigna\r\n- polso debole (a causa della bassa pressione) e frequente (per riportare la pressione a livelli normali)\r\n- pupille dilatate e respirazione rapida .\r\n\r\n\r\n\r\n\r\n\r\n",
+      "text_ru": "Начальные проявления шокового состояния:\r\n- очень бледная и холодная кожа, наличие холодного пота и состояние возбуждения;\r\n- озноб, вызванный низким кровяным давлением;\r\n- слабый пульс (из-за низкого давления) и частый (для возвращения давления к норме);\r\n- расширенные зрачки и частое дыхание.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc096.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5958,
+    "topic_id": 22,
+    "text": "Lo stato di shock si manifesta con ampie macchie scure sulla pelle",
+    "text_ru": "Состояние шока проявляется обширными темными пятнами на коже",
+    "image": null,
+    "comment": {
+      "text": "Le manifestazioni iniziali dello stato di shock sono :\r\n\r\n- pelle molto pallida e fredda, con presenza di sudorazione fredda e stato di agitazione\r\n- brividi di freddo provocati dalla bassa pressione sanguigna\r\n- polso debole (a causa della bassa pressione) e frequente (per riportare la pressione a livelli normali)\r\n- pupille dilatate e respirazione rapida .\r\n\r\n\r\n\r\n\r\n\r\n",
+      "text_ru": "Начальные проявления шокового состояния:\r\n- очень бледная и холодная кожа, наличие холодного пота и состояние возбуждения;\r\n- озноб, вызванный низким кровяным давлением;\r\n- слабый пульс (из-за низкого давления) и частый (для возвращения давления к норме);\r\n- расширенные зрачки и частое дыхание.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc104.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5959,
+    "topic_id": 22,
+    "text": "Un ferito in stato di shock va messo a terra e, se possibile, con le gambe sollevate",
+    "text_ru": "Пострадавшего в состоянии шока необходимо уложить на землю и, по возможности, с приподнятыми ногами",
+    "image": null,
+    "comment": {
+      "text": "Qualora l'infortunato presenti stato di shock, bisogna stenderlo a terra e tenere sollevati gli arti inferiori, per garantire un maggiore afflusso del sangue, al cuore e al cervello,se possibile dobbiamo coprirlo per impedire che si raffreddi.\r\n\r\n",
+      "text_ru": "Если у пострадавшего наблюдается состояние шока, необходимо уложить его на землю и держать нижние конечности приподнятыми для обеспечения большего притока крови к сердцу и мозгу; по возможности его следует укрыть, чтобы он не замерз.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_07_soc066.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5960,
+    "topic_id": 22,
+    "text": "Un ferito in stato di shock va coperto come meglio possibile, per evitare che si raffreddi",
+    "text_ru": "Пострадавшего в состоянии шока необходимо укрыть как можно лучше, чтобы он не замерз",
+    "image": null,
+    "comment": {
+      "text": "Qualora l'infortunato presenti stato di shock, bisogna stenderlo a terra e tenere sollevati gli arti inferiori, per garantire un maggiore afflusso del sangue, al cuore e al cervello,se possibile dobbiamo coprirlo per impedire che si raffreddi.\r\n\r\n",
+      "text_ru": "Если у пострадавшего наблюдается состояние шока, необходимо уложить его на землю и держать нижние конечности приподнятыми для обеспечения большего притока крови к сердцу и мозгу; по возможности его следует укрыть, чтобы он не замерз.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc110.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5961,
+    "topic_id": 22,
+    "text": "Un ferito in stato di shock va disteso, tenendo possibilmente le gambe sollevate",
+    "text_ru": "Пострадавшего в состоянии шока следует уложить, по возможности держа ноги приподнятыми",
+    "image": null,
+    "comment": {
+      "text": "Qualora l'infortunato presenti stato di shock, bisogna stenderlo a terra e tenere sollevati gli arti inferiori, per garantire un maggiore afflusso del sangue, al cuore e al cervello,se possibile dobbiamo coprirlo per impedire che si raffreddi.\r\n\r\n",
+      "text_ru": "Если у пострадавшего наблюдается состояние шока, необходимо уложить его на землю и держать нижние конечности приподнятыми для обеспечения большего притока крови к сердцу и мозгу; по возможности его следует укрыть, чтобы он не замерз.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_07_soc066.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5962,
+    "topic_id": 22,
+    "text": "In presenza di un ferito in stato di shock, occorre farlo camminare, per riattivargli la circolazione del sangue",
+    "text_ru": "При наличии пострадавшего в состоянии шока необходимо заставить его ходить, чтобы восстановить кровообращение",
+    "image": null,
+    "comment": {
+      "text": "Qualora l'infortunato presenti stato di shock, bisogna stenderlo a terra e tenere sollevati gli arti inferiori, per garantire un maggiore afflusso del sangue, al cuore e al cervello,se possibile dobbiamo coprirlo per impedire che si raffreddi.\r\n\r\n",
+      "text_ru": "Если у пострадавшего наблюдается состояние шока, необходимо уложить его на землю и держать нижние конечности приподнятыми для обеспечения большего притока крови к сердцу и мозгу; по возможности его следует укрыть, чтобы он не замерз.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_07_soc066.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5963,
+    "topic_id": 22,
+    "text": "Un ferito in stato di shock va messo in posizione seduta",
+    "text_ru": "Пострадавшего в состоянии шока необходимо перевести в положение сидя",
+    "image": null,
+    "comment": {
+      "text": "Qualora l'infortunato presenti stato di shock, bisogna stenderlo a terra e tenere sollevati gli arti inferiori, per garantire un maggiore afflusso del sangue, al cuore e al cervello,se possibile dobbiamo coprirlo per impedire che si raffreddi.\r\n\r\n",
+      "text_ru": "Если у пострадавшего наблюдается состояние шока, необходимо уложить его на землю и держать нижние конечности приподнятыми для обеспечения большего притока крови к сердцу и мозгу; по возможности его следует укрыть, чтобы он не замерз.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_07_soc066.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5964,
+    "topic_id": 22,
+    "text": "In presenza di un ferito in stato di shock, occorre dargli piccoli schiaffi su guance e gambe, per riattivargli la circolazione del sangue",
+    "text_ru": "При наличии пострадавшего в состоянии шока необходимо слегка похлопать его по щекам и ногам, чтобы восстановить кровообращение",
+    "image": null,
+    "comment": {
+      "text": "Qualora l'infortunato presenti stato di shock, bisogna stenderlo a terra e tenere sollevati gli arti inferiori, per garantire un maggiore afflusso del sangue, al cuore e al cervello,se possibile dobbiamo coprirlo per impedire che si raffreddi.\r\n\r\n",
+      "text_ru": "Если у пострадавшего наблюдается состояние шока, необходимо уложить его на землю и держать нижние конечности приподнятыми для обеспечения большего притока крови к сердцу и мозгу; по возможности его следует укрыть, чтобы он не замерз.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_07_soc066.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5965,
+    "topic_id": 22,
+    "text": "In presenza di un ferito in stato di shock, occorre fargli bere piccole quantità di superalcolici",
+    "text_ru": "При наличии пострадавшего в состоянии шока необходимо дать ему выпить небольшое количество крепкого алкоголя",
+    "image": null,
+    "comment": {
+      "text": "Qualora l'infortunato presenti stato di shock, bisogna stenderlo a terra e tenere sollevati gli arti inferiori, per garantire un maggiore afflusso del sangue, al cuore e al cervello,se possibile dobbiamo coprirlo per impedire che si raffreddi.\r\n\r\nP.S. non devono assolutamente essere somministrate bevande alcoliche.",
+      "text_ru": "Если у пострадавшего наблюдается состояние шока, необходимо уложить его на землю и держать приподнятыми ноги для обеспечения притока крови к сердцу и мозгу; по возможности его следует укрыть. P.S. Категорически запрещено давать алкогольные напитки.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_07_soc066.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5966,
+    "topic_id": 22,
+    "text": "Se un ferito della strada è in stato di incoscienza, bisogna verificare se respira ancora, mettendo una mano sulla parte laterale bassa del torace o sull'addome",
+    "text_ru": "Если пострадавший в ДТП находится без сознания, необходимо проверить, дышит ли он, положив руку на нижнюю боковую часть грудной клетки или на живот",
+    "image": null,
+    "comment": {
+      "text": "Se un ferito della strada è in stato di INCOSCIENZA:\r\n\r\n- può essere mosso solo se si è certi che non abbia traumi alla colonna vertebrale;\r\n- bisogna controllare spesso le sue condizioni di salute fino all'arrivo dell'ambulanza;\r\n- verificare se respira ancora, mettendo una mano sulla parte laterale bassa del torace o sull'addome;\r\n- bisogna liberare subito il naso e la bocca da eventuali ostruzioni se fa fatica a respirare.",
+      "text_ru": "Если пострадавший в ДТП без сознания:\r\n- его можно перемещать только при уверенности в отсутствии травм позвоночника;\r\n- нужно часто проверять его состояние до прибытия скорой помощи;\r\n- проверить наличие дыхания, положив руку на грудную клетку или живот;\r\n- при затрудненном дыхании необходимо немедленно очистить нос и рот от возможных препятствий.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5967,
+    "topic_id": 22,
+    "text": "Se un ferito della strada è in stato di incoscienza, può essere mosso solo se si è certi che non abbia traumi alla colonna vertebrale",
+    "text_ru": "Если пострадавший в ДТП находится без сознания, его можно перемещать только при полной уверенности в отсутствии травм позвоночника",
+    "image": null,
+    "comment": {
+      "text": "Se un ferito della strada è in stato di INCOSCIENZA:\r\n\r\n- può essere mosso solo se si è certi che non abbia traumi alla colonna vertebrale;\r\n- bisogna controllare spesso le sue condizioni di salute fino all'arrivo dell'ambulanza;\r\n- verificare se respira ancora, mettendo una mano sulla parte laterale bassa del torace o sull'addome;\r\n- bisogna liberare subito il naso e la bocca da eventuali ostruzioni se fa fatica a respirare.",
+      "text_ru": "Если пострадавший в ДТП без сознания:\r\n- его можно перемещать только при уверенности в отсутствии травм позвоночника;\r\n- нужно часто проверять его состояние до прибытия скорой помощи;\r\n- проверить наличие дыхания, положив руку на грудную клетку или живот;\r\n- при затрудненном дыхании необходимо немедленно очистить нос и рот от возможных препятствий.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_soc007.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5968,
+    "topic_id": 22,
+    "text": "Se un ferito della strada è in stato di incoscienza e fa fatica a respirare, bisogna liberare subito il naso e la bocca da eventuali ostruzioni",
+    "text_ru": "Если пострадавший в ДТП находится без сознания и дышит с трудом, необходимо немедленно очистить нос и рот от возможных препятствий",
+    "image": null,
+    "comment": {
+      "text": "Se un ferito della strada è in stato di INCOSCIENZA:\r\n\r\n- può essere mosso solo se si è certi che non abbia traumi alla colonna vertebrale;\r\n- bisogna controllare spesso le sue condizioni di salute fino all'arrivo dell'ambulanza;\r\n- verificare se respira ancora, mettendo una mano sulla parte laterale bassa del torace o sull'addome;\r\n- bisogna liberare subito il naso e la bocca da eventuali ostruzioni se fa fatica a respirare.",
+      "text_ru": "Если пострадавший в ДТП без сознания:\r\n- его можно перемещать только при уверенности в отсутствии травм позвоночника;\r\n- нужно часто проверять его состояние до прибытия скорой помощи;\r\n- проверить наличие дыхания, положив руку на грудную клетку или живот;\r\n- при затрудненном дыхании необходимо немедленно очистить нос и рот от возможных препятствий.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5969,
+    "topic_id": 22,
+    "text": "Se un ferito della strada è in stato di incoscienza, bisogna controllare spesso le sue condizioni di salute fino all'arrivo dell'ambulanza",
+    "text_ru": "Если пострадавший в ДТП находится без сознания, необходимо часто проверять его состояние здоровья до прибытия скорой помощи",
+    "image": null,
+    "comment": {
+      "text": "Se un ferito della strada è in stato di INCOSCIENZA:\r\n\r\n- può essere mosso solo se si è certi che non abbia traumi alla colonna vertebrale;\r\n- bisogna controllare spesso le sue condizioni di salute fino all'arrivo dell'ambulanza;\r\n- verificare se respira ancora, mettendo una mano sulla parte laterale bassa del torace o sull'addome;\r\n- bisogna liberare subito il naso e la bocca da eventuali ostruzioni se fa fatica a respirare.",
+      "text_ru": "Если пострадавший в ДТП без сознания:\r\n- его можно перемещать только при уверенности в отсутствии травм позвоночника;\r\n- нужно часто проверять его состояние до прибытия скорой помощи;\r\n- проверить наличие дыхания, положив руку на грудную клетку или живот;\r\n- при затрудненном дыхании необходимо немедленно очистить нос и рот от возможных препятствий.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_soc002.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5970,
+    "topic_id": 22,
+    "text": "Se un ferito della strada è in stato di incoscienza, bisogna somministrargli bevande alcooliche",
+    "text_ru": "Если пострадавший в ДТП находится без сознания, необходимо дать ему алкогольные напитки",
+    "image": null,
+    "comment": {
+      "text": "Se un ferito della strada è in stato di INCOSCIENZA:\r\n\r\n- può essere mosso solo se si è certi che non abbia traumi alla colonna vertebrale;\r\n- bisogna controllare spesso le sue condizioni di salute fino all'arrivo dell'ambulanza;\r\n- verificare se respira ancora, mettendo una mano sulla parte laterale bassa del torace o sull'addome;\r\n- bisogna liberare subito il naso e la bocca da eventuali ostruzioni se fa fatica a respirare.",
+      "text_ru": "Если пострадавший в ДТП без сознания:\r\n- его можно перемещать только при уверенности в отсутствии травм позвоночника;\r\n- нужно часто проверять его состояние до прибытия скорой помощи;\r\n- проверить наличие дыхания, положив руку на грудную клетку или живот;\r\n- при затрудненном дыхании необходимо немедленно очистить нос и рот от возможных препятствий.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_soc007.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5971,
+    "topic_id": 22,
+    "text": "Se un ferito della strada è in stato di incoscienza bisogna bloccargli le mani",
+    "text_ru": "Если пострадавший в ДТП находится без сознания, необходимо заблокировать ему руки",
+    "image": null,
+    "comment": {
+      "text": "Se un ferito della strada è in stato di INCOSCIENZA:\r\n\r\n- può essere mosso solo se si è certi che non abbia traumi alla colonna vertebrale;\r\n- bisogna controllare spesso le sue condizioni di salute fino all'arrivo dell'ambulanza;\r\n- verificare se respira ancora, mettendo una mano sulla parte laterale bassa del torace o sull'addome;\r\n- bisogna liberare subito il naso e la bocca da eventuali ostruzioni se fa fatica a respirare.",
+      "text_ru": "Если пострадавший в ДТП без сознания:\r\n- его можно перемещать только при уверенности в отсутствии травм позвоночника;\r\n- нужно часто проверять его состояние до прибытия скорой помощи;\r\n- проверить наличие дыхания, положив руку на грудную клетку или живот;\r\n- при затрудненном дыхании необходимо немедленно очистить нос и рот от возможных препятствий.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5972,
+    "topic_id": 22,
+    "text": "Se un ferito della strada è in stato di incoscienza bisogna fasciargli la testa",
+    "text_ru": "Если пострадавший в ДТП находится без сознания, необходимо забинтовать ему голову",
+    "image": null,
+    "comment": {
+      "text": "Se un ferito della strada è in stato di INCOSCIENZA:\r\n\r\n- può essere mosso solo se si è certi che non abbia traumi alla colonna vertebrale;\r\n- bisogna controllare spesso le sue condizioni di salute fino all'arrivo dell'ambulanza;\r\n- verificare se respira ancora, mettendo una mano sulla parte laterale bassa del torace o sull'addome;\r\n- bisogna liberare subito il naso e la bocca da eventuali ostruzioni se fa fatica a respirare.",
+      "text_ru": "Если пострадавший в ДТП без сознания:\r\n- его можно перемещать только при уверенности в отсутствии травм позвоночника;\r\n- нужно часто проверять его состояние до прибытия скорой помощи;\r\n- проверить наличие дыхания, положив руку на грудную клетку или живот;\r\n- при затрудненном дыхании необходимо немедленно очистить нос и рот от возможных препятствий.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5973,
+    "topic_id": 22,
+    "text": "Se un ferito della strada è in stato di incoscienza bisogna metterlo in posizione semiseduta",
+    "text_ru": "Если пострадавший в ДТП находится без сознания, необходимо перевести его в полусидячее положение",
+    "image": null,
+    "comment": {
+      "text": "Se un ferito della strada è in stato di INCOSCIENZA:\r\n\r\n- va messo in posizione laterale di sicurezza;\r\n- può essere mosso solo se si è certi che non abbia traumi alla colonna vertebrale;\r\n- bisogna controllare spesso le sue condizioni di salute fino all'arrivo dell'ambulanza;\r\n- verificare se respira ancora, mettendo una mano sulla parte laterale bassa del torace o sull'addome;\r\n- bisogna liberare subito il naso e la bocca da eventuali ostruzioni se fa fatica a respirare.",
+      "text_ru": "Если пострадавший в ДТП без сознания:\r\n- его следует перевести в устойчивое боковое положение;\r\n- перемещать только при уверенности в отсутствии травм позвоночника;\r\n- часто проверять состояние до прибытия скорой помощи;\r\n- проверить дыхание, положив руку на грудь или живот;\r\n- очистить нос и рот от препятствий при затрудненном дыхании.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_Soc003.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5974,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada è cosciente, ma ha avuto un trauma della gabbia toracica, bisogna cercare di facilitargli la respirazione mettendolo semi-seduto",
+    "text_ru": "Если пострадавший в ДТП находится в сознании, но получил травму грудной клетки, необходимо попытаться облегчить ему дыхание, усадив его в полусидячее положение",
+    "image": null,
+    "comment": {
+      "text": "Nel caso l'infortunato cosciente abbia riportato un trauma della gabbia toracica bisogna :\r\n\r\n- metterlo in posizione semi seduta per facilitare la respirazione\r\n- non rimuovere eventuali corpi estranei conficcati\r\n- in caso di ferita profonda,comprimerla subito con un panno pulito\r\n- assisterlo fino all'arrivo del soccorso medico.",
+      "text_ru": "В случае, если пострадавший в сознании получил травму грудной клетки, необходимо:\r\n- перевести его в полусидячее положение для облегчения дыхания;\r\n- не извлекать застрявшие инородные тела;\r\n- при глубокой ране немедленно зажать ее чистой тканью;\r\n- оказывать помощь до прибытия медицинских работников.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_06_soc087.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5975,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada è cosciente, ma ha avuto un trauma della gabbia toracica, con ferita visibile e profonda, bisogna comprimere subito con un panno pulito",
+    "text_ru": "Если пострадавший в ДТП находится в сознании, но получил травму грудной клетки с видимой и глубокой раной, необходимо немедленно прижать ее чистой тканью",
+    "image": null,
+    "comment": {
+      "text": "Nel caso l'infortunato cosciente abbia riportato un trauma della gabbia toracica bisogna :\r\n\r\n- metterlo in posizione semi seduta per facilitare la respirazione\r\n- non rimuovere eventuali corpi estranei conficcati\r\n- in caso di ferita profonda,comprimerla subito con un panno pulito\r\n- assisterlo fino all'arrivo del soccorso medico.",
+      "text_ru": "В случае, если пострадавший в сознании получил травму грудной клетки, необходимо:\r\n- перевести его в полусидячее положение для облегчения дыхания;\r\n- не извлекать застрявшие инородные тела;\r\n- при глубокой ране немедленно зажать ее чистой тканью;\r\n- оказывать помощь до прибытия медицинских работников.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_06_soc086.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5976,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha avuto un trauma della gabbia toracica, bisogna assisterlo fino all'arrivo del soccorso medico",
+    "text_ru": "Если пострадавший в ДТП получил травму грудной клетки, необходимо оказывать ему помощь до прибытия медицинских работников",
+    "image": null,
+    "comment": {
+      "text": "Nel caso l'infortunato cosciente abbia riportato un trauma della gabbia toracica bisogna :\r\n\r\n- metterlo in posizione semi seduta per facilitare la respirazione\r\n- non rimuovere eventuali corpi estranei conficcati\r\n- in caso di ferita profonda,comprimerla subito con un panno pulito\r\n- assisterlo fino all'arrivo del soccorso medico.",
+      "text_ru": "В случае, если пострадавший в сознании получил травму грудной клетки, необходимо:\r\n- перевести его в полусидячее положение для облегчения дыхания;\r\n- не извлекать застрявшие инородные тела;\r\n- при глубокой ране немедленно зажать ее чистой тканью;\r\n- оказывать помощь до прибытия медицинских работников.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_06_soc084.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5977,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha avuto un trauma della gabbia toracica, bisogna fargli fare profondi respiri",
+    "text_ru": "Если пострадавший в ДТП получил травму грудной клетки, необходимо заставить его делать глубокие вдохи",
+    "image": null,
+    "comment": {
+      "text": "Nel caso l'infortunato cosciente abbia riportato un trauma della gabbia toracica bisogna :\r\n\r\n- metterlo in posizione semi seduta per facilitare la respirazione\r\n- non rimuovere eventuali corpi estranei conficcati\r\n- in caso di ferita profonda,comprimerla subito con un panno pulito\r\n- assisterlo fino all'arrivo del soccorso medico.\r\n\r\nN.B. I profondi respiri oltreché molto dolorosi possono provocare ulteriori danni. ",
+      "text_ru": "В случае, если пострадавший в сознании получил травму грудной клетки, необходимо перевести его в полусидячее положение, не извлекать инородные тела, при глубокой ране зажать ее тканью и ждать медиков. Примечание: Глубокие вдохи, помимо сильной боли, могут нанести дополнительный ущерб.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5978,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha avuto un trauma della gabbia toracica, bisogna metterlo in posizione distesa, con le gambe sollevate",
+    "text_ru": "Если пострадавший в ДТП получил травму грудной клетки, необходимо уложить его горизонтально с приподнятыми ногами",
+    "image": null,
+    "comment": {
+      "text": "Nel caso l'infortunato cosciente abbia riportato un trauma della gabbia toracica bisogna :\r\n\r\n- metterlo in posizione semi seduta per facilitare la respirazione\r\n- non rimuovere eventuali corpi estranei conficcati\r\n- in caso di ferita profonda,comprimerla subito con un panno pulito\r\n- assisterlo fino all'arrivo del soccorso medico.",
+      "text_ru": "В случае, если пострадавший в сознании получил травму грудной клетки, необходимо:\r\n- перевести его в полусидячее положение для облегчения дыхания;\r\n- не извлекать застрявшие инородные тела;\r\n- при глубокой ране немедленно зажать ее чистой тканью;\r\n- оказывать помощь до прибытия медицинских работников.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_06_soc084.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5979,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha avuto un trauma della gabbia toracica, bisogna farlo stare alzato, per diminuire la fuoriuscita di sangue",
+    "text_ru": "Если пострадавший в ДТП получил травму грудной клетки, необходимо заставить его стоять, чтобы уменьшить вытекание крови",
+    "image": null,
+    "comment": {
+      "text": "Nel caso l'infortunato cosciente abbia riportato un trauma della gabbia toracica bisogna :\r\n\r\n- metterlo in posizione semi seduta per facilitare la respirazione\r\n- non rimuovere eventuali corpi estranei conficcati\r\n- in caso di ferita profonda,comprimerla subito con un panno pulito\r\n- assisterlo fino all'arrivo del soccorso medico.",
+      "text_ru": "В случае, если пострадавший в сознании получил травму грудной клетки, необходимо:\r\n- перевести его в полусидячее положение для облегчения дыхания;\r\n- не извлекать застрявшие инородные тела;\r\n- при глубокой ране немедленно зажать ее чистой тканью;\r\n- оказывать помощь до прибытия медицинских работников.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_06_soc084.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5980,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha riportato fratture agli arti non bisogna muovere gli arti fratturati",
+    "text_ru": "Если у пострадавшего в ДТП имеются переломы конечностей, не следует двигать сломанные конечности",
+    "image": null,
+    "comment": {
+      "text": "Nel caso la vittima presenti uno o più fratture agli arti si deve :\r\n\r\n- evitare di muovere l'arto fratturato (per evitare dolore e ulteriori lesioni);\r\n- coprire le eventuali ferite con materiale pulito;\r\n- immobilizzare l'arto con mezzi di fortuna (bloccare e se necessario attuare le normali misure anti-shock senza procedere ad altre manovre sull'arto fratturato).",
+      "text_ru": "Если у жертвы один или несколько переломов конечностей, следует:\r\n- избегать перемещения сломанной конечности (чтобы избежать боли и дальнейших травм);\r\n- накрыть возможные раны чистым материалом;\r\n- иммобилизовать конечность подручными средствами (зафиксировать и, при необходимости, применить обычные противошоковые меры, не производя других действий со сломанной конечностью).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_07_soc066.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5981,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha riportato fratture agli arti, bisogna bloccarglieli, senza procedere ad altre manovre",
+    "text_ru": "Если у пострадавшего в ДТП имеются переломы конечностей, их необходимо зафиксировать, не совершая других действий",
+    "image": null,
+    "comment": {
+      "text": "Nel caso la vittima presenti uno o più fratture agli arti si deve :\r\n\r\n- evitare di muovere l'arto fratturato (per evitare dolore e ulteriori lesioni);\r\n- coprire le eventuali ferite con materiale pulito;\r\n- immobilizzare l'arto con mezzi di fortuna (bloccare e se necessario attuare le normali misure anti-shock senza procedere ad altre manovre sull'arto fratturato).",
+      "text_ru": "Если у жертвы один или несколько переломов конечностей, следует:\r\n- избегать перемещения сломанной конечности (чтобы избежать боли и дальнейших травм);\r\n- накрыть возможные раны чистым материалом;\r\n- иммобилизовать конечность подручными средствами (зафиксировать и, при необходимости, применить обычные противошоковые меры, не производя других действий со сломанной конечностью).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_07_soc061.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5982,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha riportato fratture agli arti, bisogna coprire le eventuali ferite con materiale pulito",
+    "text_ru": "Если у пострадавшего в ДТП имеются переломы конечностей, необходимо накрыть возможные раны чистым материалом",
+    "image": null,
+    "comment": {
+      "text": "Nel caso la vittima presenti uno o più fratture agli arti si deve :\r\n\r\n- evitare di muovere l'arto fratturato (per evitare dolore e ulteriori lesioni);\r\n- coprire le eventuali ferite con materiale pulito;\r\n- immobilizzare l'arto con mezzi di fortuna (bloccare e se necessario attuare le normali misure anti-shock senza procedere ad altre manovre sull'arto fratturato).",
+      "text_ru": "Если у жертвы один или несколько переломов конечностей, следует:\r\n- избегать перемещения сломанной конечности (чтобы избежать боли и дальнейших травм);\r\n- накрыть возможные раны чистым материалом;\r\n- иммобилизовать конечность подручными средствами (зафиксировать и, при необходимости, применить обычные противошоковые меры, не производя других действий со сломанной конечностью).",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5983,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha riportato fratture agli arti, bisogna bloccarglieli e subito dopo, se necessario, attuare le normali misure anti-shock",
+    "text_ru": "Если у пострадавшего в ДТП имеются переломы конечностей, их необходимо зафиксировать и сразу после этого, при необходимости, применить обычные противошоковые меры",
+    "image": null,
+    "comment": {
+      "text": "Nel caso la vittima presenti uno o più fratture agli arti si deve :\r\n\r\n- evitare di muovere l'arto fratturato (per evitare dolore e ulteriori lesioni);\r\n- coprire le eventuali ferite con materiale pulito;\r\n- immobilizzare l'arto con mezzi di fortuna (bloccare e se necessario attuare le normali misure anti-shock senza procedere ad altre manovre sull'arto fratturato).",
+      "text_ru": "Если у жертвы один или несколько переломов конечностей, следует:\r\n- избегать перемещения сломанной конечности (чтобы избежать боли и дальнейших травм);\r\n- накрыть возможные раны чистым материалом;\r\n- иммобилизовать конечность подручными средствами (зафиксировать и, при необходимости, применить обычные противошоковые меры, не производя других действий со сломанной конечностью).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_07_soc066.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5984,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha riportato fratture agli arti, bisogna cercare di farlo camminare, per diminuire il dolore",
+    "text_ru": "Если у пострадавшего в ДТП имеются переломы конечностей, необходимо попытаться заставить его ходить, чтобы уменьшить боль",
+    "image": null,
+    "comment": {
+      "text": "Nel caso la vittima presenti uno o più fratture agli arti si deve :\r\n\r\n- evitare di muovere l'arto fratturato (per evitare dolore e ulteriori lesioni);\r\n- coprire le eventuali ferite con materiale pulito;\r\n- immobilizzare l'arto con mezzi di fortuna (bloccare e se necessario attuare le normali misure anti-shock senza procedere ad altre manovre sull'arto fratturato).",
+      "text_ru": "Если у жертвы один или несколько переломов конечностей, следует:\r\n- избегать перемещения сломанной конечности (чтобы избежать боли и дальнейших травм);\r\n- накрыть возможные раны чистым материалом;\r\n- иммобилизовать конечность подручными средствами (зафиксировать и, при необходимости, применить обычные противошоковые меры, не производя других действий со сломанной конечностью).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_07_soc066.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5985,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha riportato fratture agli arti, bisogna chiedergli di muoverli, per valutare il tipo di lesione",
+    "text_ru": "Если у пострадавшего в ДТП имеются переломы конечностей, необходимо попросить его пошевелить ими, чтобы оценить тип травмы",
+    "image": null,
+    "comment": {
+      "text": "Nel caso la vittima presenti uno o più fratture agli arti si deve :\r\n\r\n- evitare di muovere l'arto fratturato (per evitare dolore e ulteriori lesioni);\r\n- coprire le eventuali ferite con materiale pulito;\r\n- immobilizzare l'arto con mezzi di fortuna (bloccare e se necessario attuare le normali misure anti-shock senza procedere ad altre manovre sull'arto fratturato).",
+      "text_ru": "Если у жертвы один или несколько переломов конечностей, следует:\r\n- избегать перемещения сломанной конечности (чтобы избежать боли и дальнейших травм);\r\n- накрыть возможные раны чистым материалом;\r\n- иммобилизовать конечность подручными средствами (зафиксировать и, при необходимости, применить обычные противошоковые меры, не производя других действий со сломанной конечностью).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5986,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha riportato fratture agli arti, con fuoriuscita di un osso, bisogna cercare di riposizionarlo nei tessuti",
+    "text_ru": "Если у пострадавшего в ДТП имеются переломы конечностей с выходом кости наружу, необходимо попытаться вправить ее обратно в ткани",
+    "image": null,
+    "comment": {
+      "text": "Nel caso la vittima presenti uno o più fratture agli arti si deve :\r\n\r\n- evitare di muovere l'arto fratturato (per evitare dolore e ulteriori lesioni);\r\n- coprire le eventuali ferite con materiale pulito;\r\n- immobilizzare l'arto con mezzi di fortuna (bloccare e se necessario attuare le normali misure anti-shock senza procedere ad altre manovre sull'arto fratturato).",
+      "text_ru": "Если у жертвы один или несколько переломов конечностей, следует:\r\n- избегать перемещения сломанной конечности (чтобы избежать боли и дальнейших травм);\r\n- накрыть возможные раны чистым материалом;\r\n- иммобилизовать конечность подручными средствами (зафиксировать и, при необходимости, применить обычные противошоковые меры, не производя других действий со сломанной конечностью).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5987,
+    "topic_id": 22,
+    "text": "Se un infortunato della strada ha riportato fratture agli arti bisogna dargli da bere una bevanda superalcolica",
+    "text_ru": "Если у пострадавшего в ДТП имеются переломы конечностей, необходимо дать ему выпить крепкий алкогольный напиток",
+    "image": null,
+    "comment": {
+      "text": "Nel caso la vittima presenti uno o più fratture agli arti si deve :\r\n\r\n- evitare di muovere l'arto fratturato (per evitare dolore e ulteriori lesioni);\r\n- coprire le eventuali ferite con materiale pulito;\r\n- immobilizzare l'arto con mezzi di fortuna (bloccare e se necessario attuare le normali misure anti-shock senza procedere ad altre manovre sull'arto fratturato).\r\n\r\nN.B. Non bisogna dargli da bere alcolici o superalcolici!!!",
+      "text_ru": "Если у жертвы переломы конечностей, следует избегать их перемещения, накрыть раны, иммобилизовать конечность и принять противошоковые меры. Примечание: Нельзя давать пить алкоголь или крепкие спиртные напитки!!!",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5988,
+    "topic_id": 22,
+    "text": "Se un ferito della strada si è ustionato e sono ancora presenti delle residue fiamme, bisogna spegnerle , soffocandole, ad esempio, con una coperta",
+    "text_ru": "Если пострадавший в ДТП получил ожоги и пламя еще не погасло, его необходимо потушить, накрыв, например, одеялом",
+    "image": null,
+    "comment": {
+      "text": "Se in seguito ad un incidente stradale si è sviluppato un incendio e la vittima presenta delle ustioni si deve :\r\n\r\n- spegnere le fiamme soffocandole con un panno o materiale simile\r\n- non cercare di staccare eventuali tessuti aderenti alle parti ustionate\r\n- se l'ustione interessa gli arti, bisogna immergerli in acqua fredda per alleviare il dolore (se possibile)\r\n- se le ustioni interessano il tronco,occorre ricoprirle con materiale possibilmente sterile.\r\n\r\nN.B. non bisogna mai applicare pomate o ungenti, in quanto questi interventi sono riservati al personale esperto.\r\n",
+      "text_ru": "Если в результате ДТП возник пожар и у пострадавшего есть ожоги, следует:\r\n- потушить пламя, накрыв его тканью или подобным материалом;\r\n- не пытаться отрывать ткани, прилипшие к обожженным участкам;\r\n- если обожжены конечности, погрузить их в холодную воду для облегчения боли (если возможно);\r\n- если ожоги на туловище, накрыть их по возможности стерильным материалом. Примечание: никогда не наносите мази или притирания.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_04_soc074.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5989,
+    "topic_id": 22,
+    "text": "Se un ferito della strada si è ustionato, è consigliabile non togliere i vestiti rimasti attaccati alla pelle bruciata",
+    "text_ru": "Если пострадавший в ДТП получил ожоги, рекомендуется не снимать одежду, прилипшую к обожженной коже",
+    "image": null,
+    "comment": {
+      "text": "Se in seguito ad un incidente stradale si è sviluppato un incendio e la vittima presenta delle ustioni si deve :\r\n\r\n- spegnere le fiamme soffocandole con un panno o materiale simile\r\n- non cercare di staccare eventuali tessuti aderenti alle parti ustionate\r\n- se l'ustione interessa gli arti, bisogna immergerli in acqua fredda per alleviare il dolore (se possibile)\r\n- se le ustioni interessano il tronco,occorre ricoprirle con materiale possibilmente sterile.\r\n\r\nN.B. non bisogna mai applicare pomate o ungenti, in quanto questi interventi sono riservati al personale esperto.",
+      "text_ru": "Если в результате ДТП возник пожар и у пострадавшего есть ожоги, следует:\r\n- потушить пламя;\r\n- не пытаться отрывать ткани, прилипшие к обожженным участкам;\r\n- если обожжены конечности, погрузить их в холодную воду (если возможно);\r\n- если ожоги на туловище, накрыть их по возможности стерильным материалом. Примечание: никогда не наносите мази или притирания, это дело специалистов.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_04_soc075.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5990,
+    "topic_id": 22,
+    "text": "Per diminuire il dolore delle ustioni si deve, se possibile, fare uso di acqua fredda",
+    "text_ru": "Для уменьшения боли от ожогов следует, по возможности, использовать холодную воду",
+    "image": null,
+    "comment": {
+      "text": "Se in seguito ad un incidente stradale si è sviluppato un incendio e la vittima presenta delle ustioni si deve :\r\n\r\n- spegnere le fiamme soffocandole con un panno o materiale simile\r\n- non cercare di staccare eventuali tessuti aderenti alle parti ustionate\r\n- se l'ustione interessa gli arti, bisogna immergerli in acqua fredda per alleviare il dolore (se possibile)\r\n- se le ustioni interessano il tronco,occorre ricoprirle con materiale possibilmente sterile.\r\n\r\nN.B. non bisogna mai applicare pomate o ungenti, in quanto questi interventi sono riservati al personale esperto.",
+      "text_ru": "Если в результате ДТП возник пожар и у пострадавшего есть ожоги, следует:\r\n- потушить пламя;\r\n- не отрывать прилипшие ткани;\r\n- если обожжены конечности, погрузить их в холодную воду для облегчения боли;\r\n- если ожоги на туловище, накрыть их стерильным материалом. Примечание: никогда не наносите мази или притирания.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_04_soc076.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5991,
+    "topic_id": 22,
+    "text": "Se un ferito della strada ha riportato delle ustioni al busto, conviene coprirle con materiale pulito, possibilmente sterile",
+    "text_ru": "Если пострадавший в ДТП получил ожоги туловища, целесообразно накрыть их чистым, по возможности стерильным материалом",
+    "image": null,
+    "comment": {
+      "text": "Se in seguito ad un incidente stradale si è sviluppato un incendio e la vittima presenta delle ustioni si deve :\r\n\r\n- spegnere le fiamme soffocandole con un panno o materiale simile\r\n- non cercare di staccare eventuali tessuti aderenti alle parti ustionate\r\n- se l'ustione interessa gli arti, bisogna immergerli in acqua fredda per alleviare il dolore (se possibile)\r\n- se le ustioni interessano il busto, occorre ricoprirle con materiale pulito, possibilmente sterile.\r\n\r\nN.B. non bisogna mai applicare pomate o ungenti, in quanto questi interventi sono riservati al personale esperto.",
+      "text_ru": "Если в результате ДТП возник пожар и у пострадавшего есть ожоги, следует:\r\n- потушить пламя;\r\n- не отрывать прилипшие ткани;\r\n- при ожогах конечностей погрузить их в холодную воду;\r\n- при ожогах туловища накрыть их чистым, по возможности стерильным материалом. Примечание: никогда не наносите мази или притирания.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_04_soc077.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5992,
+    "topic_id": 22,
+    "text": "Se un ferito della strada si è ustionato e sono ancora presenti delle residue fiamme, bisogna aspettare che si spengano da sole, prima di intervenire",
+    "text_ru": "Если пострадавший в ДТП получил ожоги и пламя еще не погасло, необходимо дождаться, пока оно погаснет само, прежде чем оказывать помощь",
+    "image": null,
+    "comment": {
+      "text": "Se in seguito ad un incidente stradale si è sviluppato un incendio e la vittima presenta delle ustioni si deve :\r\n\r\n- spegnere subito le fiamme soffocandole con un panno o materiale simile\r\n- non cercare di staccare eventuali tessuti aderenti alle parti ustionate\r\n- se l'ustione interessa gli arti, bisogna immergerli in acqua fredda per alleviare il dolore (se possibile)\r\n- se le ustioni interessano il tronco,occorre ricoprirle con materiale possibilmente sterile.\r\n\r\nN.B. non bisogna mai applicare pomate o ungenti, in quanto questi interventi sono riservati al personale esperto.",
+      "text_ru": "Если в результате ДТП возник пожар и у пострадавшего есть ожоги, следует:\r\n- немедленно потушить пламя, накрыв его тканью;\r\n- не отрывать прилипшие ткани;\r\n- при ожогах конечностей погрузить их в холодную воду;\r\n- при ожогах туловища накрыть их стерильным материалом. Примечание: никогда не наносите мази или притирания.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_04_soc074.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5993,
+    "topic_id": 22,
+    "text": "Se un ferito della strada si è ustionato, bisogna sempre togliere le parti dei vestiti che sono rimaste attaccate alla pelle",
+    "text_ru": "Если пострадавший в ДТП получил ожоги, необходимо всегда снимать части одежды, прилипшие к коже",
+    "image": null,
+    "comment": {
+      "text": "Se in seguito ad un incidente stradale si è sviluppato un incendio e la vittima presenta delle ustioni si deve :\r\n\r\n- spegnere le fiamme soffocandole con un panno o materiale simile\r\n- non cercare di staccare eventuali tessuti aderenti alle parti ustionate\r\n- se l'ustione interessa gli arti, bisogna immergerli in acqua fredda per alleviare il dolore (se possibile)\r\n- se le ustioni interessano il tronco, occorre ricoprirle con materiale possibilmente sterile.\r\n\r\nN.B. non bisogna mai applicare pomate o ungenti, in quanto questi interventi sono riservati al personale esperto.",
+      "text_ru": "Если в результате ДТП возник пожар и у пострадавшего есть ожоги, следует:\r\n- потушить пламя;\r\n- не пытаться отрывать ткани, прилипшие к обожженным участкам;\r\n- при ожогах конечностей погрузить их в холодную воду;\r\n- при ожогах туловища накрыть их стерильным материалом. Примечание: никогда не наносите мази или притирания.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_04_soc075.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5994,
+    "topic_id": 22,
+    "text": "Se un ferito della strada si è ustionato, bisogna disinfettare le bruciature con l'alcool",
+    "text_ru": "Если пострадавший в ДТП получил ожоги, необходимо продезинфицировать места ожогов спиртом",
+    "image": null,
+    "comment": {
+      "text": "Se in seguito ad un incidente stradale si è sviluppato un incendio e la vittima presenta delle ustioni si deve :\r\n\r\n- spegnere le fiamme soffocandole con un panno o materiale simile\r\n- non cercare di staccare eventuali tessuti aderenti alle parti ustionate\r\n- se l'ustione interessa gli arti, bisogna immergerli in acqua fredda per alleviare il dolore (se possibile)\r\n- se le ustioni interessano il tronco, occorre ricoprirle con materiale possibilmente sterile.\r\n\r\nN.B. non bisogna mai applicare pomate o ungenti, in quanto questi interventi sono riservati al personale esperto. NON disinfettare con alcool.",
+      "text_ru": "Если в результате ДТП возник пожар и у пострадавшего есть ожоги, следует:\r\n- потушить пламя;\r\n- не отрывать прилипшие ткани;\r\n- при ожогах конечностей погрузить их в холодную воду;\r\n- при ожогах туловища накрыть их стерильным материалом. Примечание: никогда не наносите мази и НЕ дезинфицируйте спиртом.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5995,
+    "topic_id": 22,
+    "text": "Dopo un incidente stradale, il soccorritore che interviene deve valutare bene la situazione, per proteggere gli infortunati da altri pericoli",
+    "text_ru": "После дорожно-транспортного происшествия лицо, оказывающее помощь, должно правильно оценить ситуацию, чтобы защитить пострадавших от других опасностей",
+    "image": null,
+    "comment": {
+      "text": "In caso di incidente stradale il soccorritore deve :\r\n\r\n- valutare bene la situazione, per proteggere gli infortunati da altri pericoli\r\n- soccorrere l'infortunato secondo le proprie conoscenze e possibilità ,senza prendere iniziative di competenza medica\r\n- chiamare la polizia se ci sono feriti anche se lievi (per le rilevazioni del caso)\r\n- chiamare il soccorso medico in caso di feriti gravi\r\n- segnalare come meglio può la zona incidentata, se c'è il rischio di nuovi pericoli\r\n- posizionare il triangolo mobile sulle strade extraurbane, ad almeno 50 metri dal punto dell'incidente se esso non è visibile ad almeno 100 metri \r\n- non modificare le tracce dell'incidente prima dell'arrivo delle autorità , se c'è il rischio di responsabilità  penale.",
+      "text_ru": "В случае ДТП спасатель должен:\r\n- оценить ситуацию для защиты пострадавших;\r\n- оказать помощь в меру своих знаний, не подменяя медиков;\r\n- вызвать полицию при наличии любых раненых;\r\n- вызвать скорую помощь при тяжелых ранениях;\r\n- обозначить зону ДТП;\r\n- на загородных дорогах выставить знак аварийной остановки минимум за 50 м, если он не виден за 100 м;\r\n- не изменять следы ДТП до прибытия властей.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_soc012.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5996,
+    "topic_id": 22,
+    "text": "Dopo un incidente stradale, il soccorritore che interviene deve assistere gli infortunati al meglio delle sue possibilità, senza però prendere iniziative di specifica competenza medica",
+    "text_ru": "После ДТП лицо, оказывающее помощь, должно помогать пострадавшим в меру своих возможностей, не предпринимая при этом действий, относящихся к специфической медицинской компетенции",
+    "image": null,
+    "comment": {
+      "text": "In caso di incidente stradale il soccorritore deve :\r\n\r\n- valutare bene la situazione, per proteggere gli infortunati da altri pericoli\r\n- soccorrere l'infortunato secondo le proprie conoscenze e possibilità , senza prendere iniziative di competenza medica\r\n- chiamare la polizia se ci sono feriti anche se lievi (per le rilevazioni del caso)\r\n- chiamare il soccorso medico in caso di feriti gravi\r\n- segnalare come meglio può la zona incidentata, se c'è il rischio di nuovi pericoli\r\n- posizionare il triangolo mobile sulle strade extraurbane, ad almeno 50 metri dal punto dell'incidente se esso non è visibile ad almeno 100 metri \r\n- non modificare le tracce dell'incidente prima dell'arrivo delle autorità , se c'è il rischio di responsabilità  penale.\r\n",
+      "text_ru": "В случае ДТП спасатель должен:\r\n- оценить ситуацию для защиты пострадавших;\r\n- оказать помощь в меру своих знаний, не подменяя медиков;\r\n- вызвать полицию при наличии любых раненых;\r\n- вызвать скорую помощь при тяжелых ранениях;\r\n- обозначить зону ДТП;\r\n- на загородных дорогах выставить знак аварийной остановки минимум за 50 м, если он не виден за 100 м;\r\n- не изменять следы ДТП до прибытия властей.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_soc002.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5997,
+    "topic_id": 22,
+    "text": "Dopo un incidente stradale, il soccorritore che interviene deve prestare assistenza agli infortunati, secondo le proprie possibilità e conoscenze",
+    "text_ru": "После дорожно-транспортного происшествия спасатель, оказывающий помощь, должен помогать пострадавшим в меру своих возможностей и знаний",
+    "image": null,
+    "comment": {
+      "text": "In caso di incidente stradale il soccorritore deve :\r\n\r\n- valutare bene la situazione, per proteggere gli infortunati da altri pericoli\r\n- soccorrere l'infortunato secondo le proprie conoscenze e possibilità , senza prendere iniziative di competenza medica\r\n- chiamare la polizia se ci sono feriti anche se lievi (per le rilevazioni del caso)\r\n- chiamare il soccorso medico in caso di feriti gravi\r\n- segnalare come meglio può la zona incidentata, se c'è il rischio di nuovi pericoli\r\n- posizionare il triangolo mobile sulle strade extraurbane, ad almeno 50 metri dal punto dell'incidente se esso non è visibile ad almeno 100 metri \r\n- non modificare le tracce dell'incidente prima dell'arrivo delle autorità , se c'è il rischio di responsabilità  penale.\r\n",
+      "text_ru": "В случае ДТП спасатель должен:\n\n- тщательно оценить ситуацию, чтобы защитить пострадавших от других опасностей\n- оказать помощь пострадавшему в соответствии со своими знаниями и возможностями, не предпринимая действий, входящих в компетенцию врачей\n- вызвать полицию, если есть раненые, даже если травмы легкие (для фиксации обстоятельств дела)\n- вызвать медицинскую помощь в случае тяжелых ранений\n- как можно лучше обозначить зону аварии, если есть риск возникновения новых опасностей\n- установить знак аварийной остановки на загородных дорогах на расстоянии не менее 50 метров от места аварии, если оно не просматривается на расстоянии не менее 100 метров\n- не изменять следы происшествия до прибытия властей, если существует риск уголовной ответственности.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc110.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5998,
+    "topic_id": 22,
+    "text": "Chi è coinvolto in un incidente stradale deve allontanarsi sempre e subito dal luogo in cui si è verificato",
+    "text_ru": "Участник дорожно-транспортного происшествия должен всегда и немедленно покинуть место, где оно произошло",
+    "image": null,
+    "comment": {
+      "text": "In caso di incidente stradale il soccorritore deve :\r\n\r\n- valutare bene la situazione, per proteggere gli infortunati da altri pericoli\r\n- soccorrere l'infortunato secondo le proprie conoscenze e possibilità ,senza prendere iniziative di competenza medica\r\n- chiamare la polizia se ci sono feriti anche se lievi (per le rilevazioni del caso)\r\n- chiamare il soccorso medico in caso di feriti gravi\r\n- segnalare come meglio può la zona incidentata, se c'è il rischio di nuovi pericoli\r\n- posizionare il triangolo mobile sulle strade extraurbane, ad almeno 50 metri dal punto dell'incidente se esso non è visibile ad almeno 100 metri \r\n- non modificare le tracce dell'incidente prima dell'arrivo delle autorità , se c'è il rischio di responsabilità  penale.\r\n",
+      "text_ru": "В случае ДТП спасатель должен:\n\n- тщательно оценить ситуацию, чтобы защитить пострадавших от других опасностей\n- оказать помощь пострадавшему в соответствии со своими знаниями и возможностями, не предпринимая действий, входящих в компетенцию врачей\n- вызвать полицию, если есть раненые, даже если травмы легкие (для фиксации обстоятельств дела)\n- вызвать медицинскую помощь в случае тяжелых ранений\n- как можно лучше обозначить зону аварии, если есть риск возникновения новых опасностей\n- установить знак аварийной остановки на загородных дорогах на расстоянии не менее 50 метров от места аварии, если оно не просматривается на расстоянии не менее 100 метров\n- не изменять следы происшествия до прибытия властей, если существует риск уголовной ответственности.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5999,
+    "topic_id": 22,
+    "text": "In caso di incidente stradale, bisogna aspettare solo l'arrivo dei soccorsi, senza fare nulla",
+    "text_ru": "В случае дорожно-транспортного происшествия нужно просто ждать приезда помощи, ничего не предпринимая",
+    "image": null,
+    "comment": {
+      "text": "In caso di incidente stradale il soccorritore deve :\r\n\r\n- valutare bene la situazione, per proteggere gli infortunati da altri pericoli\r\n- soccorrere l'infortunato secondo le proprie conoscenze e possibilità ,senza prendere iniziative di competenza medica\r\n- chiamare la polizia se ci sono feriti anche se lievi (per le rilevazioni del caso)\r\n- chiamare il soccorso medico in caso di feriti gravi\r\n- segnalare come meglio può la zona incidentata, se c'è il rischio di nuovi pericoli\r\n- posizionare il triangolo mobile sulle strade extraurbane, ad almeno 50 metri dal punto dell'incidente se esso non è visibile ad almeno 100 metri \r\n- non modificare le tracce dell'incidente prima dell'arrivo delle autorità , se c'è il rischio di responsabilità  penale.\r\n",
+      "text_ru": "В случае ДТП спасатель должен:\n\n- тщательно оценить ситуацию, чтобы защитить пострадавших от других опасностей\n- оказать помощь пострадавшему в соответствии со своими знаниями и возможностями, не предпринимая действий, входящих в компетенцию врачей\n- вызвать полицию, если есть раненые, даже если травмы легкие (для фиксации обстоятельств дела)\n- вызвать медицинскую помощь в случае тяжелых ранений\n- как можно лучше обозначить зону аварии, если есть риск возникновения новых опасностей\n- установить знак аварийной остановки на загородных дорогах на расстоянии не менее 50 метров от места аварии, если оно не просматривается на расстоянии не менее 100 метров\n- не изменять следы происшествия до прибытия властей, если существует риск уголовной ответственности.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6000,
+    "topic_id": 22,
+    "text": "In caso di incidente stradale, la prima cosa che deve fare il soccorritore è identificare l'infortunato, chiedendogli nome e cognome",
+    "text_ru": "В случае дорожно-транспортного происшествия первое, что должен сделать спасатель, — это установить личность пострадавшего, спросив его имя и фамилию",
+    "image": null,
+    "comment": {
+      "text": "In caso di incidente stradale il soccorritore deve :\r\n\r\n- valutare bene la situazione, per proteggere gli infortunati da altri pericoli\r\n- soccorrere l'infortunato secondo le proprie conoscenze e possibilità ,senza prendere iniziative di competenza medica\r\n- chiamare la polizia se ci sono feriti anche se lievi (per le rilevazioni del caso)\r\n- chiamare il soccorso medico in caso di feriti gravi\r\n- segnalare come meglio può la zona incidentata, se c'è il rischio di nuovi pericoli\r\n- posizionare il triangolo mobile sulle strade extraurbane, ad almeno 50 metri dal punto dell'incidente se esso non è visibile ad almeno 100 metri \r\n- non modificare le tracce dell'incidente prima dell'arrivo delle autorità , se c'è il rischio di responsabilità  penale.\r\n\r\nN.B. Identificare l'infortunato NON rientra nelle operazioni urgenti di primo soccorso.",
+      "text_ru": "В случае ДТП спасатель должен:\n\n- тщательно оценить ситуацию, чтобы защитить пострадавших от других опасностей\n- оказать помощь пострадавшему в соответствии со своими знаниями и возможностями, не предпринимая действий, входящих в компетенцию врачей\n- вызвать полицию, если есть раненые, даже если травмы легкие (для фиксации обстоятельств дела)\n- вызвать медицинскую помощь в случае тяжелых ранений\n- как можно лучше обозначить зону аварии, если есть риск возникновения новых опасностей\n- установить знак аварийной остановки на загородных дорогах на расстоянии не менее 50 метров от места аварии, если оно не просматривается на расстоянии не менее 100 метров\n- не изменять следы происшествия до прибытия властей, если существует риск уголовной ответственности.\n\nПримечание: Установление личности пострадавшего НЕ входит в число неотложных действий по оказанию первой помощи.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_01_soc007.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 6001,
+    "topic_id": 22,
+    "text": "In caso di incidente stradale, il soccorritore deve somministrare farmaci alla vittima, se la stessa non ha specifica competenza medica",
+    "text_ru": "В случае дорожно-транспортного происшествия спасатель должен давать пострадавшему лекарства, если только он сам не обладает специальной медицинской квалификацией",
+    "image": null,
+    "comment": {
+      "text": "In caso di incidente stradale il soccorritore deve :\r\n\r\n- valutare bene la situazione, per proteggere gli infortunati da altri pericoli\r\n- soccorrere l'infortunato secondo le proprie conoscenze e possibilità , senza prendere iniziative di competenza medica (non somministrare farmaci)\r\n- chiamare la polizia se ci sono feriti anche se lievi (per le rilevazioni del caso)\r\n- chiamare il soccorso medico in caso di feriti gravi\r\n- segnalare come meglio può la zona incidentata, se c'è il rischio di nuovi pericoli\r\n- posizionare il triangolo mobile sulle strade extraurbane, ad almeno 50 metri dal punto dell'incidente se esso non è visibile ad almeno 100 metri \r\n- non modificare le tracce dell'incidente prima dell'arrivo delle autorità , se c'è il rischio di responsabilità  penale.\r\n",
+      "text_ru": "В случае ДТП спасатель должен:\n\n- тщательно оценить ситуацию, чтобы защитить пострадавших от других опасностей\n- оказать помощь пострадавшему в соответствии со своими знаниями и возможностями, не предпринимая действий, входящих в компетенцию врачей (не давать лекарства)\n- вызвать полицию, если есть раненые, даже если травмы легкие (для фиксации обстоятельств дела)\n- вызвать медицинскую помощь в случае тяжелых ранений\n- как можно лучше обозначить зону аварии, если есть риск возникновения новых опасностей\n- установить знак аварийной остановки на загородных дорогах на расстоянии не менее 50 метров от места аварии, если оно не просматривается на расстоянии не менее 100 метров\n- не изменять следы происшествия до прибытия властей, если существует риск уголовной ответственности.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6002,
+    "topic_id": 22,
+    "text": "Lo stato di shock può essere causato da un forte dolore",
+    "text_ru": "Состояние шока может быть вызвано сильной болью",
+    "image": null,
+    "comment": {
+      "text": "Lo stato di shock può essere causato :\r\n\r\n- da una Insufficienza Cardiaca (meno battiti del cuore fanno abbassare la pressione sanguigna)\r\n- un Forte Dolore, un Forte Trauma o una Violenta Emozione (causa la caduta del tono dei vasi sanguigni)\r\n- una Forte Emorragia ",
+      "text_ru": "Состояние шока может быть вызвано:\n\n- сердечной недостаточностью (замедление сердцебиения приводит к снижению артериального давления)\n- сильной болью, тяжелой травмой или сильным эмоциональным потрясением (вызывает падение тонуса кровеносных сосудов)\n- сильным кровотечением",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc101.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6003,
+    "topic_id": 22,
+    "text": "Lo stato di shock può essere causato da una forte emozione (gioia, rabbia)",
+    "text_ru": "Состояние шока может быть вызвано сильным эмоциональным потрясением (радость, гнев)",
+    "image": null,
+    "comment": {
+      "text": "Lo stato di shock può essere causato :\r\n\r\n- un Forte Dolore, un Forte Trauma o una Forte Emozione es. gioia, rabbia (causa la caduta del tono dei vasi sanguigni)\r\n- da una Insufficienza Cardiaca (meno battiti del cuore fanno abbassare la pressione sanguigna",
+      "text_ru": "Состояние шока может быть вызвано:\n\n- сильной болью, тяжелой травмой или сильным эмоциональным потрясением, например, радостью, гневом (вызывает падение тонуса кровеносных сосудов)\n- сердечной недостаточностью (замедление сердцебиения приводит к снижению артериального давления)",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc101.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6004,
+    "topic_id": 22,
+    "text": "Lo stato di shock può essere causato da una forte perdita di sangue",
+    "text_ru": "Состояние шока может быть вызвано сильной кровопотерей",
+    "image": null,
+    "comment": {
+      "text": "Lo stato di shock può essere causato :\r\n\r\n- una Forte Perdita di Sangue (provoca diminuzione del volume del sangue e quindi abbassamento della pressione arteriosa )\r\n- un Forte Dolore, un Forte Trauma o una Forte Emozione es. gioia, rabbia (causa la caduta",
+      "text_ru": "Состояние шока может быть вызвано:\n\n- сильной потерей крови (вызывает уменьшение объема крови и, следовательно, снижение артериального давления)\n- сильной болью, тяжелой травмой или сильным эмоциональным потрясением, например, радостью, гневом (вызывает падение...)",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc102.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6005,
+    "topic_id": 22,
+    "text": "Lo stato di shock può essere causato da un forte trauma",
+    "text_ru": "Состояние шока может быть вызвано тяжелой травмой",
+    "image": null,
+    "comment": {
+      "text": "Lo stato di shock può essere causato :\r\n\r\n- una Forte Perdita di Sangue (provoca diminuzione del volume del sangue e quindi abbassamento della pressione arteriosa )\r\n- un Forte Dolore, un Forte Trauma o una Forte Emozione es. gioia, rabbia (causa la caduta",
+      "text_ru": "Состояние шока может быть вызвано:\n\n- сильной потерей крови (вызывает уменьшение объема крови и, следовательно, снижение артериального давления)\n- сильной болью, тяжелой травмой или сильным эмоциональным потрясением, например, радостью, гневом (вызывает падение...)",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc101.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6006,
+    "topic_id": 22,
+    "text": "Lo stato di shock non può dipendere da forti emozioni",
+    "text_ru": "Состояние шока не может зависеть от сильных эмоций",
+    "image": null,
+    "comment": {
+      "text": "Lo stato di shock può essere causato :\r\n\r\n- una Forte Perdita di Sangue (provoca diminuzione del volume del sangue e quindi abbassamento della pressione arteriosa )\r\n- un Forte Dolore, un Forte Trauma o una Forte Emozione es. gioia, rabbia (causa la caduta",
+      "text_ru": "Состояние шока может быть вызвано:\n\n- сильной потерей крови (вызывает уменьшение объема крови и, следовательно, снижение артериального давления)\n- сильной болью, тяжелой травмой или сильным эмоциональным потрясением, например, радостью, гневом (вызывает падение...)",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6007,
+    "topic_id": 22,
+    "text": "Lo stato di shock non si verifica mai nelle persone che hanno avuto un trauma",
+    "text_ru": "Состояние шока никогда не возникает у людей, перенесших травму",
+    "image": null,
+    "comment": {
+      "text": "Lo stato di shock può essere causato :\r\n\r\n- una Forte Perdita di Sangue (provoca diminuzione del volume del sangue e quindi abbassamento della pressione arteriosa )\r\n- un Forte Dolore, un Forte Trauma o una Forte Emozione es. gioia, rabbia (causa la caduta",
+      "text_ru": "Состояние шока может быть вызвано:\n\n- сильной потерей крови (вызывает уменьшение объема крови и, следовательно, снижение артериального давления)\n- сильной болью, тяжелой травмой или сильным эмоциональным потрясением, например, радостью, гневом (вызывает падение...)",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc101.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 6008,
+    "topic_id": 22,
+    "text": "Lo stato di shock non si verifica mai nelle persone che hanno perso molto sangue",
+    "text_ru": "Состояние шока никогда не возникает у людей, потерявших много крови",
+    "image": null,
+    "comment": {
+      "text": "Lo stato di shock può essere causato :\r\n\r\n- una Forte Perdita di Sangue (provoca diminuzione del volume del sangue e quindi abbassamento della pressione arteriosa )\r\n- un Forte Dolore, un Forte Trauma o una Forte Emozione es. gioia, rabbia (causa la caduta",
+      "text_ru": "Состояние шока может быть вызвано:\n\n- сильной потерей крови (вызывает уменьшение объема крови и, следовательно, снижение артериального давления)\n- сильной болью, тяжелой травмой или сильным эмоциональным потрясением, например, радостью, гневом (вызывает падение...)",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_198_03_soc102.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 6009,
+    "topic_id": 22,
+    "text": "Lo stato di shock non rappresenta un pericolo per la salute",
+    "text_ru": "Состояние шока не представляет опасности для здоровья",
+    "image": null,
+    "comment": {
+      "text": "Lo stato di shock (rappresenta un pericolo per la salute) può essere causato :\r\n\r\n- una Forte Perdita di Sangue (provoca diminuzione del volume del sangue e quindi abbassamento della pressione arteriosa )\r\n- un Forte Dolore, un Forte Trauma o una Forte Emozione ",
+      "text_ru": "Состояние шока (представляет опасность для здоровья) может быть вызвано:\n\n- сильной потерей крови (вызывает уменьшение объема крови и, следовательно, снижение артериального давления)\n- сильной болью, тяжелой травмой или сильным эмоциональным потрясением",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6010,
+    "topic_id": 22,
+    "text": "L'assunzione di alcool rende meno sicura la guida, poiché può provocare eccitazione e imprudenza",
+    "text_ru": "Употребление алкоголя делает вождение менее безопасным, так как может вызвать возбуждение и безрассудство",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di alcool influenza la guida in quanto la rende meno sicura , poichè produce eccitazione , imprudenza, sonnolenza, diminuzione del livello di attenzione e concentrazione con conseguente allungamento del tempo di reazione.",
+      "text_ru": "Употребление алкоголя влияет на вождение, делая его менее безопасным, так как вызывает возбуждение, неосторожность, сонливость, снижение уровня внимания и концентрации, что приводит к увеличению времени реакции.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/20_190_11_pat014.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6011,
+    "topic_id": 22,
+    "text": "L'assunzione di alcool rende meno sicura la guida, perché può rallentare i riflessi",
+    "text_ru": "Употребление алкоголя делает вождение менее безопасным, так как может замедлить рефлексы",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di alcool influenza la guida in quanto la rende meno sicura , poichè produce eccitazione , imprudenza, sonnolenza, diminuzione del livello di attenzione e concentrazione con conseguente allungamento del tempo di reazione.\r\n",
+      "text_ru": "Употребление алкоголя влияет на вождение, делая его менее безопасным, так как вызывает возбуждение, неосторожность, сонливость, снижение уровня внимания и концентрации, что приводит к увеличению времени реакции.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/20_190_10_alcolista01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6012,
+    "topic_id": 22,
+    "text": "L'assunzione di alcool rende meno sicura la guida, perché può provocare sonnolenza",
+    "text_ru": "Употребление алкоголя делает вождение менее безопасным, так как может вызвать сонливость",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di alcool influenza la guida in quanto la rende meno sicura , poichè produce eccitazione , imprudenza, sonnolenza, diminuzione del livello di attenzione e concentrazione con conseguente allungamento del tempo di reazione.\r\n",
+      "text_ru": "Употребление алкоголя влияет на вождение, делая его менее безопасным, так как вызывает возбуждение, неосторожность, сонливость, снижение уровня внимания и концентрации, что приводит к увеличению времени реакции.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_sfc011.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6013,
+    "topic_id": 22,
+    "text": "L'assunzione di alcool rende meno sicura la guida, perché può modificare pericolosamente la capacità di concentrazione e attenzione",
+    "text_ru": "Употребление алкоголя делает вождение менее безопасным, так как может опасно изменить способность к концентрации и вниманию",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di alcool influenza la guida in quanto la rende meno sicura , poichè produce eccitazione , imprudenza, sonnolenza, diminuzione del livello di attenzione e concentrazione con conseguente allungamento del tempo di reazione.\r\n",
+      "text_ru": "Употребление алкоголя влияет на вождение, делая его менее безопасным, так как вызывает возбуждение, неосторожность, сонливость, снижение уровня внимания и концентрации, что приводит к увеличению времени реакции.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 6014,
+    "topic_id": 22,
+    "text": "L'assunzione di alcool può far diminuire il livello di attenzione",
+    "text_ru": "Употребление алкоголя может снизить уровень внимания",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di alcool influenza la guida in quanto la rende meno sicura , poichè produce eccitazione , imprudenza, sonnolenza, diminuzione del livello di attenzione e concentrazione con conseguente allungamento del tempo di reazione.",
+      "text_ru": "Употребление алкоголя влияет на вождение, делая его менее безопасным, так как вызывает возбуждение, неосторожность, сонливость, снижение уровня внимания и концентрации, что приводит к увеличению времени реакции.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/20_190_11_pat014.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6015,
+    "topic_id": 22,
+    "text": "L'assunzione di alcool rende più sicura la guida, perché annulla la stanchezza",
+    "text_ru": "Употребление алкоголя делает вождение более безопасным, потому что снимает усталость",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di alcool influenza la guida in quanto la rende meno sicura , poichè produce eccitazione , imprudenza, sonnolenza, diminuzione del livello di attenzione e concentrazione con conseguente allungamento del tempo di reazione.\r\n\r\n",
+      "text_ru": "Употребление алкоголя влияет на вождение, делая его менее безопасным, так как вызывает возбуждение, неосторожность, сонливость, снижение уровня внимания и концентрации, что приводит к увеличению времени реакции.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6016,
+    "topic_id": 22,
+    "text": "L'assunzione di alcool facilita la guida, perché fa aumentare la capacità di concentrazione",
+    "text_ru": "Употребление алкоголя облегчает вождение, потому что повышает способность к концентрации",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di alcool influenza la guida in quanto la rende meno sicura , poichè produce eccitazione , imprudenza, sonnolenza, diminuzione del livello di attenzione e concentrazione con conseguente allungamento del tempo di reazione.\r\n",
+      "text_ru": "Употребление алкоголя влияет на вождение, делая его менее безопасным, так как вызывает возбуждение, неосторожность, сонливость, снижение уровня внимания и концентрации, что приводит к увеличению времени реакции.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6017,
+    "topic_id": 22,
+    "text": "L'assunzione di alcool facilita la guida, perché rende più vigili e attenti",
+    "text_ru": "Употребление алкоголя облегчает вождение, потому что делает водителя более бдительным и внимательным",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di alcool influenza la guida in quanto la rende meno sicura , poichè produce eccitazione , imprudenza, sonnolenza, diminuzione del livello di attenzione e concentrazione con conseguente allungamento del tempo di reazione.\r\n",
+      "text_ru": "Употребление алкоголя влияет на вождение, делая его менее безопасным, так как вызывает возбуждение, неосторожность, сонливость, снижение уровня внимания и концентрации, что приводит к увеличению времени реакции.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6018,
+    "topic_id": 22,
+    "text": "L'assunzione di alcool rende la guida più sicura, più allegra e meno noiosa",
+    "text_ru": "Употребление алкоголя делает вождение более безопасным, более веселым и менее скучным",
+    "image": null,
+    "comment": {
+      "text": "L'assunzione di alcool influenza la guida in quanto la rende meno sicura , poichè produce eccitazione , imprudenza, sonnolenza, diminuzione del livello di attenzione e concentrazione con conseguente allungamento del tempo di reazione.",
+      "text_ru": "Употребление алкоголя влияет на вождение, делая его менее безопасным, так как вызывает возбуждение, неосторожность, сонливость, снижение уровня внимания и концентрации, что приводит к увеличению времени реакции.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6019,
+    "topic_id": 22,
+    "text": "L'assunzione di alcool migliora la vista",
+    "text_ru": "Употребление алкоголя улучшает зрение",
+    "image": null,
+    "comment": {
+      "text": "No! Altera le capacità  VISIVE! \r\n\r\nL'assunzione di alcool influenza la guida in quanto la rende meno sicura , poichè produce eccitazione , imprudenza, sonnolenza, diminuzione del livello di attenzione e concentrazione con conseguente allungamento del tempo di reazione.",
+      "text_ru": "Нет! Оно нарушает ЗРИТЕЛЬНЫЕ способности!\n\nУпотребление алкоголя влияет на вождение, делая его менее безопасным, так как вызывает возбуждение, неосторожность, сонливость, снижение уровня внимания и концентрации, что приводит к увеличению времени реакции.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/20_190_10_sfc007.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 6020,
+    "topic_id": 22,
+    "text": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nella patente si trova indicato tale obbligo",
+    "text_ru": "Во время вождения необходимо использовать очки или контактные линзы, если такое требование указано в водительском удостоверении",
+    "image": null,
+    "comment": {
+      "text": "gli occhiali da vista o le lenti a contatto sono obbligatori se prescritti in sede di rilascio, servono appunto ad integrare determinati difetti della vista, l'obbligo verrà  annotato sulla patente di guida con il codice \"\"armonizzato 01\"\" (oppure con la scritta per esteso sulle vecchie patenti di tela).\r\n",
+      "text_ru": "очки или контактные линзы обязательны, если они были предписаны при выдаче удостоверения, они служат именно для коррекции определенных дефектов зрения; обязательство будет отмечено в водительском удостоверении гармонизированным кодом «01» (или соответствующей записью полностью в старых бумажных удостоверениях).",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 6021,
+    "topic_id": 22,
+    "text": "\"Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nella patente è stato inserito il codice armonizzato \"\"01\"\"\"",
+    "text_ru": "Во время вождения необходимо использовать очки или контактные линзы, если в водительское удостоверение внесен гармонизированный код «01»",
+    "image": null,
+    "comment": {
+      "text": "gli occhiali da vista o le lenti a contatto sono obbligatori se prescritti in sede di rilascio, servono appunto ad integrare determinati difetti della vista, l'obbligo verrà  annotato sulla patente di guida con il codice \"\"armonizzato 01\"\" (oppure con la scritta per esteso sulle vecchie patenti di tela).",
+      "text_ru": "очки или контактные линзы обязательны, если они были предписаны при выдаче удостоверения, они служат именно для коррекции определенных дефектов зрения; обязательство будет отмечено в водительском удостоверении гармонизированным кодом «01» (или соответствующей записью полностью в старых бумажных удостоверениях).",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 6022,
+    "topic_id": 22,
+    "text": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nella patente figura, per esteso o sotto forma di codice, tale obbligo",
+    "text_ru": "Во время вождения необходимо использовать очки или контактные линзы, если в водительском удостоверении указано это обязательство (полностью или в виде кода)",
+    "image": null,
+    "comment": {
+      "text": "gli occhiali da vista o le lenti a contatto sono obbligatori se prescritti in sede di rilascio, servono appunto ad integrare determinati difetti della vista, l'obbligo verrà  annotato sulla patente di guida con il codice \"\"armonizzato 01\"\" (oppure con la scritta per esteso sulle vecchie patenti di tela).",
+      "text_ru": "очки или контактные линзы обязательны, если они были предписаны при выдаче удостоверения, они служат именно для коррекции определенных дефектов зрения; обязательство будет отмечено в водительском удостоверении гармонизированным кодом «01» (или соответствующей записью полностью в старых бумажных удостоверениях).",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 6023,
+    "topic_id": 22,
+    "text": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto quando è indicato sulla patente",
+    "text_ru": "Во время вождения необходимо использовать очки или контактные линзы, когда это указано в водительском удостоверении",
+    "image": null,
+    "comment": {
+      "text": "gli occhiali da vista o le lenti a contatto sono obbligatori se prescritti in sede di rilascio, servono appunto ad integrare determinati difetti della vista, l'obbligo verrà  annotato sulla patente di guida con il codice \"\"armonizzato 01\"\" (oppure con la scritta per esteso sulle vecchie patenti di tela).",
+      "text_ru": "очки или контактные линзы обязательны, если они были предписаны при выдаче удостоверения, они служат именно для коррекции определенных дефектов зрения; обязательство будет отмечено в водительском удостоверении гармонизированным кодом «01» (или соответствующей записью полностью в старых бумажных удостоверениях).",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 6024,
+    "topic_id": 22,
+    "text": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto solo quando la miopia supera 6 diottrie",
+    "text_ru": "Во время вождения необходимо использовать очки или контактные линзы только в том случае, если миопия превышает 6 диоптрий",
+    "image": null,
+    "comment": {
+      "text": "gli occhiali da vista o le lenti a contatto sono obbligatori se prescritti in sede di rilascio, servono appunto ad integrare determinati difetti della vista, l'obbligo verrà  annotato sulla patente di guida con il codice \"\"armonizzato 01\"\" (oppure con la scritta per esteso sulle vecchie patenti di tela).",
+      "text_ru": "очки или контактные линзы обязательны, если они были предписаны при выдаче удостоверения, они служат именно для коррекции определенных дефектов зрения; обязательство будет отмечено в водительском удостоверении гармонизированным кодом «01» (или соответствующей записью полностью в старых бумажных удостоверениях).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6025,
+    "topic_id": 22,
+    "text": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto da mezz'ora dopo il tramonto del sole a mezz'ora prima del suo sorgere",
+    "text_ru": "Во время вождения необходимо использовать очки или контактные линзы с получаса после захода солнца до получаса перед его восходом",
+    "image": null,
+    "comment": {
+      "text": "gli occhiali da vista o le lenti a contatto sono obbligatori se prescritti in sede di rilascio, servono appunto ad integrare determinati difetti della vista, l'obbligo verrà  annotato sulla patente di guida con il codice \"\"armonizzato 01\"\" (oppure con la scritta per esteso sulle vecchie patenti di tela).",
+      "text_ru": "очки или контактные линзы обязательны, если они были предписаны при выдаче удостоверения, они служат именно для коррекции определенных дефектов зрения; обязательство будет отмечено в водительском удостоверении гармонизированным кодом «01» (или соответствующей записью полностью в старых бумажных удостоверениях).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6026,
+    "topic_id": 22,
+    "text": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto soltanto in caso di scarsa visibilità",
+    "text_ru": "Во время вождения необходимо использовать очки или контактные линзы только в случае плохой видимости",
+    "image": null,
+    "comment": {
+      "text": "gli occhiali da vista o le lenti a contatto sono obbligatori se prescritti in sede di rilascio, servono appunto ad integrare determinati difetti della vista, l'obbligo verrà  annotato sulla patente di guida con il codice \"\"armonizzato 01\"\" (oppure con la scritta per esteso sulle vecchie patenti di tela).",
+      "text_ru": "очки или контактные линзы обязательны, если они были предписаны при выдаче удостоверения, они служат именно для коррекции определенных дефектов зрения; обязательство будет отмечено в водительском удостоверении гармонизированным кодом «01» (или соответствующей записью полностью в старых бумажных удостоверениях).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6027,
+    "topic_id": 22,
+    "text": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto soltanto sulle autostrade e sulle strade extraurbane principali",
+    "text_ru": "Во время вождения необходимо использовать очки или контактные линзы только на автомагистралях и главных загородных дорогах",
+    "image": null,
+    "comment": {
+      "text": "gli occhiali da vista o le lenti a contatto sono obbligatori se prescritti in sede di rilascio, servono appunto ad integrare determinati difetti della vista, l'obbligo verrà  annotato sulla patente di guida con il codice \"\"armonizzato 01\"\" (oppure con la scritta per esteso sulle vecchie patenti di tela).",
+      "text_ru": "очки или контактные линзы обязательны, если они были предписаны при выдаче удостоверения, они служат именно для коррекции определенных дефектов зрения; обязательство будет отмечено в водительском удостоверении гармонизированным кодом «01» (или соответствующей записью полностью в старых бумажных удостоверениях).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/20_190_16_occhiali01.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 6964,
+    "topic_id": 22,
+    "text": "Non è obbligatorio soccorrere un ferito della strada, per non mettere a repentaglio la propria sicurezza",
+    "text_ru": "Оказание помощи пострадавшему в дорожно-транспортном происшествии не является обязательным, чтобы не подвергать риску собственную безопасность",
+    "image": null,
+    "comment": {
+      "text": "Soccorrere un ferito della strada ha lo scopo di evitare che il ferito subisca ulteriori danni e, talvolta, può significare salvargli la vita.\r\n\r\nN.B. L' obbligo di soccorso vale per CHIUNQUE e qualunque sia la gravità  dell'incidente.",
+      "text_ru": "Оказание помощи пострадавшему на дороге имеет целью предотвратить получение им дальнейших травм и иногда может означать спасение его жизни.\n\nПримечание: Обязанность по оказанию помощи распространяется на ВСЕХ, независимо от тяжести происшествия.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6965,
+    "topic_id": 22,
+    "text": "Lo stato di shock si manifesta con comparsa di colorito rosso della pelle e forti vampate di calore",
+    "text_ru": "Состояние шока проявляется покраснением кожи и сильными приливами жара",
+    "image": null,
+    "comment": {
+      "text": "Le manifestazioni iniziali dello stato di shock sono :\r\n\r\n- PELLE molto PALLIDA e fredda, con presenza di sudorazione fredda e stato di agitazione\r\n- brividi di freddo provocati dalla bassa pressione sanguigna\r\n- polso debole (a causa della bassa pressione) e frequente (per riportare la pressione a livelli normali)\r\n- pupille dilatate e respirazione rapida .\r\n",
+      "text_ru": "Первоначальные проявления состояния шока:\n\n- очень БЛЕДНАЯ и холодная КОЖА, наличие холодного пота и состояние возбуждения\n- озноб, вызванный низким артериальным давлением\n- слабый (из-за низкого давления) и частый (для восстановления давления до нормального уровня) пульс\n- расширенные зрачки и учащенное дыхание.",
+      "image": null
+    },
+    "answer": false
+  }
+]

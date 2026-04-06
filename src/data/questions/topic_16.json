@@ -1,0 +1,2485 @@
+[
+  {
+    "id": 5218,
+    "topic_id": 16,
+    "text": "Se si parcheggia in una zona regolamentata con parchimetro, occorre esporre l'apposito tagliando, in modo che sia ben visibile",
+    "text_ru": "При парковке в зоне, регулируемой паркоматом, необходимо выставить соответствующий талон так, чтобы он был хорошо виден",
+    "image": null,
+    "comment": {
+      "text": "Se si parcheggia in una zona regolamentata con parchimetro, dopo aver pagato  occorre esporre l'apposito tagliando sul parabrezza in modo che sia ben visibile.\r\n\r\n",
+      "text_ru": "При парковке в зоне, регулируемой паркоматом, после оплаты необходимо разместить талон на лобовом стекле так, чтобы он был отчетливо виден.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/87.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5219,
+    "topic_id": 16,
+    "text": "Per parcheggiare in una zona regolamentata mediante disco orario, bisogna esporre in modo ben visibile l'orario di arrivo",
+    "text_ru": "Для парковки в зоне, регулируемой парковочным диском, необходимо четко указать время прибытия",
+    "image": null,
+    "comment": {
+      "text": "Esatto. Per parcheggiare in una zona regolamentata mediante disco orario, bisogna predisporre il disco orario sull' orario di arrivo.\r\n\r\n",
+      "text_ru": "Верно. Для парковки в зоне с обязательным парковочным диском необходимо установить на нем время прибытия.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/88.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5220,
+    "topic_id": 16,
+    "text": "In una zona in cui la sosta è regolamentata con parchimetro, non occorre utilizzarlo se ci si ferma soltanto per far salire o scendere un passeggero",
+    "text_ru": "В зоне, где стоянка регулируется паркоматом, нет необходимости использовать его, если вы останавливаетесь только для посадки или высадки пассажира",
+    "image": null,
+    "comment": {
+      "text": "Vero. Non occorre utilizzarlo se ci si ferma soltanto per far salire o scendere un passeggero (fermata) ma solo per la sosta (parcheggio).",
+      "text_ru": "Верно. Его не нужно использовать, если вы совершаете только остановку (fermata) для посадки/высадки пассажира, а только при стоянке (parcheggio).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/087.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5221,
+    "topic_id": 16,
+    "text": "Nelle aree di parcheggio a tempo limitato, i veicoli al servizio di persone diversamente abili non sono obbligati a rispettare il limite di tempo stabilito per la sosta.",
+    "text_ru": "На парковках с ограниченным временем стоянки транспортные средства, обслуживающие людей с ограниченными возможностями, не обязаны соблюдать установленный лимит времени.",
+    "image": null,
+    "comment": {
+      "text": "Per parcheggiare in una zona regolamentata mediante disco orario, bisogna esporre in modo ben visibile l'orario di arrivo ma i veicoli al servizio di persone diversamente abili non sono obbligati a rispettare il limite di tempo stabilito per la sosta.",
+      "text_ru": "Для парковки в зоне, регулируемой парковочным диском, необходимо четко указать время прибытия, однако транспортные средства, обслуживающие инвалидов, не обязаны соблюдать временные ограничения стоянки.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/088.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5222,
+    "topic_id": 16,
+    "text": "Per parcheggiare in una zona regolamentata mediante disco orario, bisogna indicare sul disco l'orario di fine della sosta, oppure trascriverlo su un foglio di carta",
+    "text_ru": "Чтобы припарковаться в зоне, регулируемой парковочным диском, необходимо указать на диске время окончания стоянки или записать его на листе бумаги",
+    "image": null,
+    "comment": {
+      "text": "Bisogna esporre in modo ben visibile l'orario di arrivo, cioè di inizio sosta non di fine sosta!",
+      "text_ru": "Необходимо четко выставить время прибытия, то есть начала стоянки, а не окончания!",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/088.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5223,
+    "topic_id": 16,
+    "text": "In una zona in cui la sosta è regolamentata mediante disco orario, prima che scada il tempo di validità della sosta è consentito aggiornare l'orario, senza che il veicolo venga spostato",
+    "text_ru": "В зоне, где стоянка регулируется парковочным диском, до истечения времени стоянки разрешается обновить время без перемещения автомобиля",
+    "image": null,
+    "comment": {
+      "text": "Non è consentito aggiornare l'orario di arrivo senza che il veicolo venga spostato, il parcheggio va lasciato libero per altri utenti!",
+      "text_ru": "Не разрешается обновлять время прибытия без перемещения транспортного средства; парковочное место должно быть освобождено для других пользователей!",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/088.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5224,
+    "topic_id": 16,
+    "text": "In una zona in cui la sosta è regolamentata con parchimetro, non occorre utilizzare il parchimetro se si effettua una breve sosta",
+    "text_ru": "В зоне, где стоянка регулируется паркоматом, не нужно использовать паркомат, если совершается кратковременная стоянка",
+    "image": null,
+    "comment": {
+      "text": "Falso. Non occorre utilizzarlo se ci si ferma soltanto per far salire o scendere un passeggero (fermata)  per la sosta (parcheggio) è invece obbligatorio usarlo anche se breve.",
+      "text_ru": "Ложь. Его не нужно использовать только для кратковременной остановки (fermata) для посадки/высадки пассажира; для стоянки (parcheggio) его использование обязательно, даже если она короткая.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5225,
+    "topic_id": 16,
+    "text": "Se si parcheggia in una zona regolamentata mediante disco orario, bisogna trascrivere su un foglio di carta l'ora di arrivo, senza indicare i minuti",
+    "text_ru": "При парковке в зоне, регулируемой парковочным диском, необходимо записать на листке бумаги время прибытия без указания минут",
+    "image": null,
+    "comment": {
+      "text": "Se si parcheggia in una zona regolamentata con parchimetro, occorre esporre l'apposito tagliando, in modo che sia ben visibile.\r\n\r\n",
+      "text_ru": "При парковке в зоне, регулируемой паркоматом, необходимо выставить соответствующий талон так, чтобы он был хорошо виден.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/088.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5226,
+    "topic_id": 16,
+    "text": "Il conducente di un autoveicolo in sosta sul lato destro di una strada urbana, prima di aprire la portiera, deve fare particolare attenzione ai veicoli che sopraggiungono",
+    "text_ru": "Водитель автомобиля, припаркованного на правой стороне городской улицы, прежде чем открыть дверь, должен проявить особое внимание к приближающимся транспортным средствам",
+    "image": null,
+    "comment": {
+      "text": "Il conducente di un autoveicolo in sosta sul lato destro di una strada urbana (in particolare se stretta), prima di aprire la portiera, deve fare particolare attenzione ai veicoli che sopraggiungono.",
+      "text_ru": "Водитель автомобиля, стоящего на правой стороне городской дороги (особенно если она узкая), перед открытием двери должен обратить особое внимание на приближающиеся транспортные средства.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/11_209_02_11019.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5227,
+    "topic_id": 16,
+    "text": "Il conducente di un autoveicolo in sosta su una strada stretta, prima di scendere deve controllare che non sopraggiungano veicoli",
+    "text_ru": "Водитель автомобиля, припаркованного на узкой дороге, прежде чем выйти, должен убедиться в отсутствии приближающихся транспортных средств",
+    "image": null,
+    "comment": {
+      "text": "Il conducente di un autoveicolo in sosta sul lato destro di una strada urbana (in particolare se stretta), prima di aprire la portiera, deve fare particolare attenzione ai veicoli che sopraggiungono.",
+      "text_ru": "Водитель автомобиля, стоящего на правой стороне городской дороги (особенно если она узкая), перед открытием двери должен обратить особое внимание на приближающиеся транспортные средства.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/11_209_02_11019.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5228,
+    "topic_id": 16,
+    "text": "E' opportuno che il conducente di un autoveicolo in sosta sul lato sinistro in una strada urbana a senso unico, ricordi al passeggero di prestare particolare attenzione ai veicoli che sopraggiungono, prima di aprire la portiera",
+    "text_ru": "Водителю автомобиля, припаркованного на левой стороне городской улицы с односторонним движением, целесообразно напомнить пассажиру о необходимости быть внимательным к приближающимся транспортным средствам перед открытием двери",
+    "image": null,
+    "comment": {
+      "text": "Vero! Il conducente di un autoveicolo in sosta sul lato sinistro di una strada urbana a senso unico, prima di aprire la portiera, è opportuno (sarebbe meglio) che ricordi al passeggero di prestare particolare attenzione ai veicoli che sopraggiungono visto che la portiera si apre sul lato circolazione dei veicoli.",
+      "text_ru": "Верно! Водителю автомобиля, стоящего на левой стороне городской дороги с односторонним движением, перед открытием двери желательно (было бы лучше) напомнить пассажиру о необходимости быть внимательным к приближающемуся транспорту, так как дверь открывается со стороны движения.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5229,
+    "topic_id": 16,
+    "text": "E' opportuno che il conducente di un autoveicolo, in sosta sul lato destro di una strada urbana, ricordi al passeggero che apre la portiera di destra di fare attenzione ai pedoni in transito",
+    "text_ru": "Водителю автомобиля, припаркованного на правой стороне городской дороги, целесообразно напомнить пассажиру, открывающему правую дверь, о необходимости быть внимательным к проходящим пешеходам",
+    "image": null,
+    "comment": {
+      "text": "Vero! E' meglio che il conducente di un autoveicolo, in sosta sul lato destro di una strada urbana, ricordi al passeggero che aprire la portiera di destra può essere pericoloso per i pedoni in transito sul marciapiede.",
+      "text_ru": "Верно! Лучше, чтобы водитель ТС, припаркованного на правой стороне городской улицы, напоминал пассажиру, что открытие правой двери может быть опасным для пешеходов, идущих по тротуару.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/21_199_04_21008_v01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5230,
+    "topic_id": 16,
+    "text": "Il conducente di un autoveicolo può lasciare il motore acceso se sosta per poco tempo",
+    "text_ru": "Водитель автомобиля может оставить двигатель включенным, если стоянка длится недолго",
+    "image": null,
+    "comment": {
+      "text": "No! Tenere il motorew acceso produce inquinamento atmosferico e acustico. Il conducente di un autoveicolo deve spegnere il motore se lascia il veicolo in sosta, anche se per poco tempo.",
+      "text_ru": "Нет! Работающий двигатель создает атмосферное и шумовое загрязнение. Водитель ТС должен выключать двигатель при постановке автомобиля на стоянку, даже на короткое время.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_inquinamento04.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5231,
+    "topic_id": 16,
+    "text": "Il conducente di un autoveicolo in sosta su una strada stretta, prima di scendere deve preoccuparsi dei veicoli che sopraggiungono da dietro, ma non di quelli di fronte",
+    "text_ru": "Водитель автомобиля, припаркованного на узкой дороге, прежде чем выйти, должен беспокоиться о транспортных средствах, приближающихся сзади, но не о тех, что едут навстречу",
+    "image": null,
+    "comment": {
+      "text": "Il conducente di un autoveicolo in sosta sul lato destro di una strada urbana (in particolare se stretta), prima di aprire la portiera, deve fare particolare attenzione ai veicoli che sopraggiungono sia da dietro che di fronte.",
+      "text_ru": "Водитель автомобиля, стоящего на правой стороне городской дороги (особенно узкой), перед открытием двери должен внимательно следить за транспортом, приближающимся как сзади, так и спереди.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/11_209_02_11019.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5232,
+    "topic_id": 16,
+    "text": "Prima di iniziare a guidare un autoveicolo è opportuno regolare il sedile e il poggiatesta, secondo la propria statura",
+    "text_ru": "Перед началом управления автомобилем целесообразно отрегулировать сиденье и подголовник в соответствии со своим ростом",
+    "image": null,
+    "comment": {
+      "text": "Prima di iniziare a guidare un autoveicolo è opportuno regolare secondo la propria statura:\r\n\r\n- il sedile (distanza e inclinazione dello schienale)  \r\n- poggiatesta \r\n- gli specchi retrovisori interni ed esterni\r\n\r\nallo scopo di manovrare il veicolo in sicurezza e anche rispettare la sicurezza passiva in caso di incidente",
+      "text_ru": "Перед началом движения на автомобиле целесообразно отрегулировать под свой рост: сиденье (расстояние и наклон спинки), подголовник, внутреннее и внешние зеркала заднего вида, чтобы управлять ТС безопасно и обеспечить пассивную безопасность в случае аварии.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_01_cainc42.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5233,
+    "topic_id": 16,
+    "text": "Prima di iniziare a guidare un autoveicolo è opportuno regolare gli specchi retrovisori interni ed esterni",
+    "text_ru": "Перед началом управления автомобилем целесообразно отрегулировать внутреннее и внешние зеркала заднего вида",
+    "image": null,
+    "comment": {
+      "text": "Prima di iniziare a guidare un autoveicolo è opportuno regolare secondo la propria statura:\r\n\r\n- il sedile (distanza e inclinazione dello schienale)  \r\n- poggiatesta \r\n- gli specchi retrovisori interni ed esterni\r\n\r\nallo scopo di manovrare il veicolo in sicurezza e anche rispettare la sicurezza passiva in caso di incidente",
+      "text_ru": "Перед началом движения на автомобиле целесообразно отрегулировать под свой рост: сиденье (расстояние и наклон спинки), подголовник, внутреннее и внешние зеркала заднего вида, чтобы управлять ТС безопасно и обеспечить пассивную безопасность в случае аварии.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_01_cainc43.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5234,
+    "topic_id": 16,
+    "text": "Prima di iniziare a guidare un motociclo è opportuno regolare gli specchi secondo la propria statura",
+    "text_ru": "Перед началом управления мотоциклом целесообразно отрегулировать зеркала в соответствии со своим ростом",
+    "image": null,
+    "comment": {
+      "text": "Prima di iniziare a guidare un motociclo è opportuno regolare gli specchi secondo la propria statura ed è obbligatorio indossare il casco.",
+      "text_ru": "Перед началом управления мотоциклом целесообразно отрегулировать зеркала под свой рост; также обязательно использование защитного шлема.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5235,
+    "topic_id": 16,
+    "text": "Quando si guida un veicolo a motore, bisogna avere con sé tutti i documenti necessari per la guida (carta di circolazione, certificato di assicurazione, patente ecc.), e in corso di validità",
+    "text_ru": "При управлении механическим транспортным средством необходимо иметь при себе все необходимые для вождения документы (свидетельство о регистрации, страховой полис, водительское удостоверение и т.д.), которые должны быть действительны",
+    "image": null,
+    "comment": {
+      "text": "Quando si guida un veicolo a motore, bisogna controllare di avere con sé tutti i documenti necessari per la guida (carta di circolazione, certificato di assicurazione, patente ecc.), e che gli stessi siano in corso di validità .",
+      "text_ru": "При управлении ТС необходимо проверить наличие всех документов, необходимых для вождения (техпаспорт, страховка, права и т.д.), и убедиться в том, что срок их действия не истек.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/07_175_01_ccz13.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5236,
+    "topic_id": 16,
+    "text": "Prima di iniziare a guidare un veicolo a motore bisogna essere certi che la categoria di patente posseduta ne consenta la guida",
+    "text_ru": "Перед началом управления механическим транспортным средством необходимо убедиться, что имеющаяся категория водительских прав позволяет им управлять",
+    "image": null,
+    "comment": {
+      "text": "- Prima di iniziare a guidare un veicolo a motore bisogna:\r\n\r\n- essere certi che la categoria di patente posseduta ne consenta la guida\r\n- essere certi del perfetto stato di efficienza del mezzo\r\n- accertarsi che gli oggetti trasportati siano sistemati in",
+      "text_ru": "Перед началом движения на ТС необходимо: убедиться, что категория прав позволяет управление данным ТС; убедиться в полной исправности средства; проверить надежность крепления груза.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_01_pat008.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5237,
+    "topic_id": 16,
+    "text": "Prima di iniziare a guidare un veicolo, bisogna essere certi del perfetto stato di efficienza del mezzo",
+    "text_ru": "Перед началом управления транспортным средством необходимо убедиться в его полной исправности",
+    "image": null,
+    "comment": {
+      "text": " Prima di iniziare a guidare un veicolo a motore bisogna:\r\n\r\n- essere certi che la categoria di patente posseduta ne consenta la guida\r\n- essere certi del perfetto stato di efficienza del mezzo\r\n- accertarsi che gli oggetti trasportati siano sistemati in modo da evitarne la caduta o dispersione\r\n- controllare che non sia compromessa la visibilità  posteriore e laterale, per la presenza di passeggeri o per il carico mal posizionato\r\n- individuare i comandi (leve e pulsanti) necessari per la guida e comprenderne bene il funzionamento\r\n- controllare che i passeggeri abbiano regolarmente allacciate le cinture di sicurezza.",
+      "text_ru": "Перед началом движения необходимо: убедиться в соответствии категории прав; проверить исправность ТС; убедиться в надежности крепления груза; проверить обзорность; ознакомиться с органами управления; убедиться, что пассажиры пристегнуты.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5238,
+    "topic_id": 16,
+    "text": "Prima di iniziare a guidare un veicolo bisogna accertarsi che gli oggetti trasportati siano sistemati in modo da evitarne la caduta o dispersione",
+    "text_ru": "Перед началом движения на транспортном средстве необходимо убедиться, что перевозимые предметы размещены так, чтобы исключить их падение или рассыпание",
+    "image": null,
+    "comment": {
+      "text": " Prima di iniziare a guidare un veicolo a motore bisogna:\r\n\r\n- essere certi che la categoria di patente posseduta ne consenta la guida\r\n- essere certi del perfetto stato di efficienza del mezzo\r\n- accertarsi che gli oggetti trasportati siano sistemati in modo da evitarne la caduta o dispersione\r\n- controllare che non sia compromessa la visibilità  posteriore e laterale, per la presenza di passeggeri o per il carico mal posizionato\r\n- individuare i comandi (leve e pulsanti) necessari per la guida e comprenderne bene il funzionamento\r\n- controllare che i passeggeri abbiano regolarmente allacciate le cinture di sicurezza.",
+      "text_ru": "Перед началом движения необходимо: проверить права; убедиться в исправности ТС; закрепить груз; проверить обзорность; изучить органы управления; проверить ремни безопасности пассажиров.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/11_209_03_sovraccarico01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5239,
+    "topic_id": 16,
+    "text": "Prima di iniziare a guidare un veicolo, bisogna controllare che non sia compromessa la visibilità posteriore e laterale, per la presenza di passeggeri o per il carico mal posizionato",
+    "text_ru": "Перед началом управления транспортным средством необходимо убедиться, что обзорность сзади и по бокам не ограничена из-за пассажиров или неправильно размещенного груза",
+    "image": null,
+    "comment": {
+      "text": " Prima di iniziare a guidare un veicolo a motore bisogna:\r\n\r\n- essere certi che la categoria di patente posseduta ne consenta la guida\r\n- essere certi del perfetto stato di efficienza del mezzo\r\n- accertarsi che gli oggetti trasportati siano sistemati in modo da evitarne la caduta o dispersione\r\n- controllare che non sia compromessa la visibilità  posteriore e laterale, per la presenza di passeggeri o per il carico mal posizionato\r\n- individuare i comandi (leve e pulsanti) necessari per la guida e comprenderne bene il funzionamento\r\n- controllare che i passeggeri abbiano regolarmente allacciate le cinture di sicurezza.",
+      "text_ru": "Перед началом движения необходимо проверить категорию прав, исправность ТС, крепление груза, обзорность, знание органов управления и пристегнуты ли пассажиры.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_01_sistemacarico02.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5240,
+    "topic_id": 16,
+    "text": "Prima di iniziare a guidare un autoveicolo, bisogna individuare i comandi (leve e pulsanti) necessari per la guida e comprenderne bene il funzionamento",
+    "text_ru": "Перед началом управления автомобилем необходимо найти органы управления (рычаги и кнопки), необходимые для вождения, и хорошо разобраться в их работе",
+    "image": null,
+    "comment": {
+      "text": " Prima di iniziare a guidare un veicolo a motore bisogna:\r\n\r\n- essere certi che la categoria di patente posseduta ne consenta la guida\r\n- essere certi del perfetto stato di efficienza del mezzo\r\n- accertarsi che gli oggetti trasportati siano sistemati in modo da evitarne la caduta o dispersione\r\n- controllare che non sia compromessa la visibilità  posteriore e laterale, per la presenza di passeggeri o per il carico mal posizionato\r\n- individuare i comandi (leve e pulsanti) necessari per la guida e comprenderne bene il funzionamento\r\n- controllare che i passeggeri abbiano regolarmente allacciate le cinture di sicurezza.",
+      "text_ru": "Перед началом движения необходимо проверить права, исправность ТС, крепление груза, обзорность, разобраться в органах управления и проверить ремни пассажиров.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5241,
+    "topic_id": 16,
+    "text": "Prima di iniziare a guidare un'autovettura, bisogna controllare che i passeggeri abbiano regolarmente allacciato le cinture di sicurezza",
+    "text_ru": "Перед началом управления легковым автомобилем необходимо проверить, пристегнуты ли пассажиры ремнями безопасности",
+    "image": null,
+    "comment": {
+      "text": " Prima di iniziare a guidare un veicolo a motore bisogna:\r\n\r\n- essere certi che la categoria di patente posseduta ne consenta la guida\r\n- essere certi del perfetto stato di efficienza del mezzo\r\n- accertarsi che gli oggetti trasportati siano sistemati in modo da evitarne la caduta o dispersione\r\n- controllare che non sia compromessa la visibilità  posteriore e laterale, per la presenza di passeggeri o per il carico mal posizionato\r\n- individuare i comandi (leve e pulsanti) necessari per la guida e comprenderne bene il funzionamento\r\n- controllare che i passeggeri abbiano regolarmente allacciate le cinture di sicurezza.",
+      "text_ru": "Перед началом движения необходимо проверить права, исправность ТС, фиксацию груза, обзорность, органы управления и обязательно — использование ремней безопасности пассажирами.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/19_189_01_cint04.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5242,
+    "topic_id": 16,
+    "text": "Prima di iniziare a guidare un veicolo a motore bisogna regolare il contachilometri parziale",
+    "text_ru": "Перед началом управления механическим транспортным средством необходимо настроить счетчик суточного пробега",
+    "image": null,
+    "comment": {
+      "text": " Prima di iniziare a guidare un veicolo a motore bisogna:\r\n\r\n- essere certi che la categoria di patente posseduta ne consenta la guida\r\n- essere certi del perfetto stato di efficienza del mezzo\r\n- accertarsi che gli oggetti trasportati siano sistemati in modo da evitarne la caduta o dispersione\r\n- controllare che non sia compromessa la visibilità  posteriore e laterale, per la presenza di passeggeri o per il carico mal posizionato\r\n- individuare i comandi (leve e pulsanti) necessari per la guida e comprenderne bene il funzionamento\r\n- controllare che i passeggeri abbiano regolarmente allacciate le cinture di sicurezza.",
+      "text_ru": "Перед началом движения на ТС важно проверить категорию прав, исправность авто, груз, обзорность, органы управления и ремни безопасности.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5243,
+    "topic_id": 16,
+    "text": "Prima di iniziare a guidare un veicolo a motore bisogna disinserire l'airbag del lato conducente",
+    "text_ru": "Перед началом управления механическим транспортным средством необходимо отключить подушку безопасности со стороны водителя",
+    "image": null,
+    "comment": {
+      "text": " Prima di iniziare a guidare un veicolo a motore bisogna:\r\n\r\n- essere certi che la categoria di patente posseduta ne consenta la guida\r\n- essere certi del perfetto stato di efficienza del mezzo\r\n- accertarsi che gli oggetti trasportati siano sistemati in modo da evitarne la caduta o dispersione\r\n- controllare che non sia compromessa la visibilità  posteriore e laterale, per la presenza di passeggeri o per il carico mal posizionato\r\n- individuare i comandi (leve e pulsanti) necessari per la guida e comprenderne bene il funzionamento\r\n- controllare che i passeggeri abbiano regolarmente allacciate le cinture di sicurezza.",
+      "text_ru": "Перед началом движения необходимо проверить права, состояние ТС, груз, обзорность, органы управления и ремни безопасности.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/19_189_01_cint04.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5244,
+    "topic_id": 16,
+    "text": "Prima di iniziare a guidare un autoveicolo, bisogna verificare che le cinture di sicurezza siano dotate di pretensionatore",
+    "text_ru": "Перед началом управления автомобилем необходимо проверить, оснащены ли ремни безопасности преднатяжителями",
+    "image": null,
+    "comment": {
+      "text": " Prima di iniziare a guidare un veicolo a motore bisogna:\r\n\r\n- essere certi che la categoria di patente posseduta ne consenta la guida\r\n- essere certi del perfetto stato di efficienza del mezzo\r\n- accertarsi che gli oggetti trasportati siano sistemati in modo da evitarne la caduta o dispersione\r\n- controllare che non sia compromessa la visibilità  posteriore e laterale, per la presenza di passeggeri o per il carico mal posizionato\r\n- individuare i comandi (leve e pulsanti) necessari per la guida e comprenderne bene il funzionamento\r\n- controllare che i passeggeri abbiano regolarmente allacciate le cinture di sicurezza.",
+      "text_ru": "Перед началом движения следует убедиться в исправности ТС, наличии нужной категории прав, фиксации груза, знании органов управления и использовании ремней безопасности.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/19_189_01_cint04.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5245,
+    "topic_id": 16,
+    "text": "Prima di iniziare a guidare un veicolo, bisogna verificarne lo stato di efficienza solo se si deve intraprendere un lungo viaggio",
+    "text_ru": "Проверять исправность транспортного средства необходимо только перед дальней поездкой",
+    "image": null,
+    "comment": {
+      "text": " Prima di iniziare a guidare un veicolo a motore bisogna:\r\n\r\n- essere certi che la categoria di patente posseduta ne consenta la guida\r\n- essere SEMPRE certi del perfetto stato di efficienza del mezzo\r\n- accertarsi che gli oggetti trasportati siano sistemati in modo da evitarne la caduta o dispersione\r\n- controllare che non sia compromessa la visibilità  posteriore e laterale, per la presenza di passeggeri o per il carico mal posizionato\r\n- individuare i comandi (leve e pulsanti) necessari per la guida e comprenderne bene il funzionamento\r\n- controllare che i passeggeri abbiano regolarmente allacciate le cinture di sicurezza.",
+      "text_ru": "Перед началом движения нужно ВСЕГДА быть уверенным в полной исправности ТС, а также проверить права, груз, видимость, органы управления и ремни.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/18_187_10_controlloluci08.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5246,
+    "topic_id": 16,
+    "text": "L'arresto è l'interruzione della marcia del veicolo dovuta ad esigenze della circolazione, come ad esempio ad un semaforo rosso",
+    "text_ru": "Остановка (arresto) — это прекращение движения транспортного средства, вызванное условиями дорожного движения, например, красным сигналом светофора",
+    "image": null,
+    "comment": {
+      "text": "Si! Per arresto si intende l'interruzione della marcia del veicolo dovuta ad esigenze della circolazione, come ad esempio ad un semaforo rosso, ad un segnale di stop o quando il vigile che ci impone di fermarci ecc...",
+      "text_ru": "Да! Под «технической остановкой» (arresto) понимается прекращение движения из-за требований движения: красный свет, знак «STOP», указание регулировщика и т.д.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_07_PEr035a.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5247,
+    "topic_id": 16,
+    "text": "La fermata di un veicolo è la temporanea sospensione della marcia per consentire la salita o la discesa delle persone",
+    "text_ru": "Остановка (fermata) транспортного средства — это временное прекращение движения для посадки или высадки людей",
+    "image": null,
+    "comment": {
+      "text": "Si! La fermata di un veicolo è la temporanea sospensione della marcia per consentire la salita o la discesa delle persone, deve essere di breve durata.",
+      "text_ru": "Да! Остановка (fermata) — это временное прекращение движения для посадки или высадки пассажиров; она должна быть кратковременной.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/21_199_04_21008_v01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5248,
+    "topic_id": 16,
+    "text": "La fermata di un veicolo è la temporanea sospensione della marcia per esigenze di brevissima durata, come ad esempio per chiedere informazioni agli agenti del traffico",
+    "text_ru": "Остановка (fermata) транспортного средства — это временное прекращение движения для нужд очень короткой продолжительности, например, чтобы спросить информацию у сотрудников дорожной полиции",
+    "image": null,
+    "comment": {
+      "text": "Si! La fermata di un veicolo è la temporanea sospensione della marcia per consentire la salita o la discesa delle persone o chiedere informazioni agli agenti del traffico, deve essere di breve durata e non deve causare intralcio o pericolo.",
+      "text_ru": "Да! Остановка (fermata) — это временное прекращение движения для посадки/высадки людей или запроса информации у полиции; она должна быть короткой и не создавать помех или опасности.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/21_199_04_21008_v01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5249,
+    "topic_id": 16,
+    "text": "La fermata di un veicolo è la temporanea sospensione della marcia per esigenze di brevissima durata.",
+    "text_ru": "Остановка (fermata) транспортного средства — это временное прекращение движения для нужд очень короткой продолжительности.",
+    "image": null,
+    "comment": {
+      "text": "Si! La fermata di un veicolo è la temporanea sospensione della marcia per consentire la salita o la discesa delle persone o chiedere informazioni agli agenti del traffico, deve essere di breve durata e non deve causare intralcio o pericolo.",
+      "text_ru": "Да! Остановка (fermata) — это временное прекращение движения для посадки/высадки людей или запроса информации; она должна быть кратковременной и безопасной.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/21_199_04_21008_v01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5250,
+    "topic_id": 16,
+    "text": "L'arresto è la temporanea sospensione della marcia per esigenze del conducente o dei passeggeri di un veicolo",
+    "text_ru": "Под термином «arresto» понимается временное прекращение движения для нужд водителя или пассажиров транспортного средства",
+    "image": null,
+    "comment": {
+      "text": "No. Per arresto si intende l'interruzione della marcia del veicolo dovuta ad esigenze della circolazione, come ad esempio ad un semaforo rosso, ad un segnale di stop o quando il vigile che ci impone di fermarci ecc...",
+      "text_ru": "Нет. «Arresto» означает прекращение движения из-за условий трафика: красный свет, знак «STOP», команда регулировщика и прочее.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_36_PEr035a.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5251,
+    "topic_id": 16,
+    "text": "La fermata è l'interruzione della marcia del veicolo dovuta ad esigenze della circolazione",
+    "text_ru": "Остановка (fermata) — это прекращение движения транспортного средства, вызванное условиями дорожного движения",
+    "image": null,
+    "comment": {
+      "text": "No. Per arresto si intende l'interruzione della marcia del veicolo dovuta ad esigenze della circolazione, come ad esempio ad un semaforo rosso, ad un segnale di stop o quando il vigile che ci impone di fermarci ecc...",
+      "text_ru": "Нет. Прекращение движения из-за условий трафика (светофор, стоп и т.д.) называется «arresto».",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_36_PEr035a.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5252,
+    "topic_id": 16,
+    "text": "La fermata per esigenze del conducente può avere la durata massima di dieci minuti",
+    "text_ru": "Остановка для нужд водителя может длиться максимум десять минут",
+    "image": null,
+    "comment": {
+      "text": "La fermata di un veicolo è  la temporanea sospensione della marcia, deve durare il tempo strettamente necessario a consentire la salita o la discesa delle persone!\r\n",
+      "text_ru": "Остановка (fermata) — это временное прекращение движения, которое должно длиться лишь время, строго необходимое для посадки или высадки людей!",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5253,
+    "topic_id": 16,
+    "text": "La fermata di un veicolo è vietata se i passeggeri che scendono sono più di uno",
+    "text_ru": "Остановка транспортного средства запрещена, если высаживается более одного пассажира",
+    "image": null,
+    "comment": {
+      "text": "La fermata di un veicolo è  la temporanea sospensione della marcia, deve durare il tempo strettamente necessario a consentire la salita o la discesa delle persone!\r\n",
+      "text_ru": "Остановка (fermata) — это временное прекращение движения, она должна длиться время, необходимое для посадки или высадки людей (независимо от их количества).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5254,
+    "topic_id": 16,
+    "text": "La fermata non deve arrecare intralcio alla circolazione",
+    "text_ru": "Остановка не должна создавать помех для движения",
+    "image": null,
+    "comment": {
+      "text": "La fermata di un veicolo è  la temporanea sospensione della marcia, deve durare il tempo strettamente necessario a consentire la salita o la discesa delle persone, comunque senza causare pericolo o intralcio per la circolazione. \r\n",
+      "text_ru": "Остановка (fermata) — это временное прекращение движения, она должна длиться время, необходимое для посадки/высадки, не создавая при этом опасности или препятствий для движения.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/03_170_34_sosef003.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5255,
+    "topic_id": 16,
+    "text": "Durante la fermata il conducente non deve impedire con il proprio autoveicolo il normale flusso del traffico",
+    "text_ru": "Во время остановки водитель не должен своим автомобилем препятствовать нормальному транспортному потоку",
+    "image": null,
+    "comment": {
+      "text": "La fermata di un veicolo è  la temporanea sospensione della marcia, deve durare il tempo strettamente necessario a consentire la salita o la discesa delle persone ma senza causare intralcio o pericolo.\r\n",
+      "text_ru": "Остановка должна длиться только время, необходимое для посадки или высадки людей, и не должна создавать помех или опасных ситуаций.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/03_170_34_sosef003.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5256,
+    "topic_id": 16,
+    "text": "Durante la fermata il conducente deve comportarsi in modo da non costituire pericolo agli altri utenti della strada",
+    "text_ru": "Во время остановки водитель должен вести себя так, чтобы не создавать опасности для других участников дорожного движения",
+    "image": null,
+    "comment": {
+      "text": "La fermata di un veicolo è  la temporanea sospensione della marcia, deve durare il tempo strettamente necessario a consentire la salita o la discesa delle persone ma senza causare intralcio o pericolo.\r\n",
+      "text_ru": "Остановка — это временное прекращение движения для посадки/высадки, которое не должно создавать помех или угрозы безопасности.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_05_sosef003.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5257,
+    "topic_id": 16,
+    "text": "Durante la fermata il conducente deve essere sempre presente e pronto a riprendere la marcia",
+    "text_ru": "Во время остановки водитель должен всегда присутствовать и быть готовым возобновить движение",
+    "image": null,
+    "comment": {
+      "text": "La fermata di un veicolo è  la temporanea sospensione della marcia, deve durare il tempo strettamente necessario a consentire la salita o la discesa delle persone ma senza causare intralcio o pericolo.\r\n",
+      "text_ru": "Остановка должна длиться строго необходимое для посадки/высадки время, не создавая помех. При этом водитель должен оставаться на месте.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_05_sosef003.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5258,
+    "topic_id": 16,
+    "text": "Durante la fermata il conducente deve sempre adottare le opportune cautele atte ad evitare incidenti",
+    "text_ru": "Во время остановки водитель должен всегда принимать надлежащие меры предосторожности во избежание несчастных случаев",
+    "image": null,
+    "comment": {
+      "text": "La fermata di un veicolo è  la temporanea sospensione della marcia, deve durare il tempo strettamente necessario a consentire la salita o la discesa delle persone ma senza causare intralcio o pericolo.\r\n",
+      "text_ru": "Остановка — это временный перерыв в движении для посадки/высадки, который не должен приводить к помехам или опасности.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_05_sosef003.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5259,
+    "topic_id": 16,
+    "text": "Non è consentito fermarsi per chiedere informazioni agli agenti del traffico, quando ciò possa causare intralcio o rallentamento alla circolazione",
+    "text_ru": "Не допускается остановка для запроса информации у сотрудников дорожной полиции, если это может создать помехи или замедление движения",
+    "image": null,
+    "comment": {
+      "text": "La fermata, non può essere effettuata per chiedere informazioni agli agenti, qualora costituisca intralcio.\r\n\r\n\r\n",
+      "text_ru": "Остановка для получения информации у инспекторов не может быть произведена, если она создает помехи движению.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/07_175_01_ccz16.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5260,
+    "topic_id": 16,
+    "text": "Durante la fermata il conducente può allontanarsi per brevissimo tempo prima di riprendere la marcia",
+    "text_ru": "Во время остановки водитель может отлучиться на очень короткое время перед возобновлением движения",
+    "image": null,
+    "comment": {
+      "text": "No. Bisogna essere sempre presenti! ",
+      "text_ru": "Нет. При остановке (fermata) водитель должен всегда присутствовать в транспортном средстве!",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/11_209_01_CaInc56.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5261,
+    "topic_id": 16,
+    "text": "La fermata di un veicolo è sempre consentita per chiedere informazioni agli agenti del traffico",
+    "text_ru": "Остановка транспортного средства всегда разрешена для запроса информации у сотрудников дорожной полиции",
+    "image": null,
+    "comment": {
+      "text": "La fermata, non può essere effettuata per chiedere informazioni agli agenti, se si crea intralcio.\r\n\r\n\r\n",
+      "text_ru": "Остановка для запроса информации у инспекторов запрещена, если она создает помехи движению.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/07_175_01_ccz16.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5262,
+    "topic_id": 16,
+    "text": "Durante la fermata il conducente, se si allontana, deve lasciare il veicolo con il motore acceso",
+    "text_ru": "Во время остановки водитель, если он отходит от автомобиля, должен оставить его с включенным двигателем",
+    "image": null,
+    "comment": {
+      "text": "La fermata di un veicolo è  la temporanea sospensione della marcia, deve durare il tempo strettamente necessario a consentire la salita o la discesa delle persone ma senza causare intralcio o pericolo. È necessario quindi essere sempre presenti.\r\n",
+      "text_ru": "Остановка (fermata) — это кратковременный перерыв для посадки/высадки пассажиров без создания помех. При этом водитель должен всегда находиться на месте.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/11_209_01_CaInc56.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5263,
+    "topic_id": 16,
+    "text": "In caso di fermata, ove non esista marciapiede rialzato, il conducente deve lasciare uno spazio non inferiore ad un metro per il transito dei pedoni",
+    "text_ru": "В случае остановки там, где нет приподнятого тротуара, водитель должен оставить пространство не менее одного метра для прохода пешеходов",
+    "image": null,
+    "comment": {
+      "text": "Vero! In caso di fermata, se non c’è il marciapiede rialzato, il conducente deve lasciare uno spazio di almeno un metro per far passare i pedoni. ",
+      "text_ru": "Верно! Если при остановке отсутствует приподнятый тротуар, водитель обязан оставить как минимум один метр свободного пространства для прохода пешеходов.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_sost34.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5264,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati, il conducente, in caso di fermata, deve collocare, se possibile, il veicolo fuori della carreggiata",
+    "text_ru": "Вне населенных пунктов в случае остановки водитель должен по возможности разместить транспортное средство за пределами проезжей части",
+    "image": null,
+    "comment": {
+      "text": "Vero! Inoltre fuori dei centri abitati, in caso di fermata, se non è possibile mettere il veicolo fuori della carreggiata, il conducente deve effettuare la fermata il più vicino possibile al margine destro della carreggiata.",
+      "text_ru": "Верно! Кроме того, вне населенных пунктов, если невозможно выехать за пределы проезжей части, остановку следует производить как можно ближе к правому краю дороги.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_01_ind183a.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5265,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati, il conducente, in caso di fermata, deve collocare il veicolo fuori della carreggiata, ma non sulle piste ciclabili",
+    "text_ru": "Вне населенных пунктов в случае остановки водитель должен разместить ТС вне проезжей части, но не на велосипедных дорожках",
+    "image": null,
+    "comment": {
+      "text": " È vietato fermarsi sulle piste ciclabili, sono zone riservate!",
+      "text_ru": "Остановка на велосипедных дорожках запрещена, так как это специализированные зоны!",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5266,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati, se non è possibile collocare il veicolo fuori della carreggiata, il conducente deve effettuare la fermata il più vicino possibile al margine destro della carreggiata",
+    "text_ru": "Вне населенных пунктов, если невозможно разместить ТС вне проезжей части, водитель должен произвести остановку как можно ближе к правому краю проезжей части",
+    "image": null,
+    "comment": {
+      "text": "Vero! Inoltre fuori dei centri abitati, in caso di fermata, se non è possibile mettere il veicolo fuori della carreggiata, il conducente deve effettuare la fermata il più vicino possibile al margine destro della carreggiata.",
+      "text_ru": "Верно! Если вне города нельзя съехать с проезжей части, необходимо остановиться у самого ее правого края.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5267,
+    "topic_id": 16,
+    "text": "In caso di fermata su strada urbana in cui non esiste il marciapiede rialzato, il conducente deve collocare il veicolo il più vicino possibile al margine destro della carreggiata",
+    "text_ru": "При остановке на городской дороге без приподнятого тротуара водитель должен поставить ТС как можно ближе к правому краю проезжей части",
+    "image": null,
+    "comment": {
+      "text": "Falso!  In caso di fermata, se non c’è il marciapiede rialzato, il conducente deve lasciare uno spazio di almeno un metro per far passare i pedoni. ",
+      "text_ru": "Ложь! Если тротуар не приподнят, водитель обязан оставить минимум один метр для прохода пешеходов.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_sost34.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5268,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati, il conducente, in caso di fermata ha l'obbligo di collocare il veicolo fuori della carreggiata, eventualmente su una pista ciclabile",
+    "text_ru": "Вне населенных пунктов при остановке водитель обязан разместить ТС вне проезжей части, при необходимости на велосипедной дорожке",
+    "image": null,
+    "comment": {
+      "text": "Le piste ciclabili sono riservate alle biciclette!",
+      "text_ru": "Велосипедные дорожки зарезервированы исключительно для велосипедов!",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5269,
+    "topic_id": 16,
+    "text": "La fermata è vietata in corrispondenza o in prossimità dei passaggi a livello",
+    "text_ru": "Остановка запрещена на самих железнодорожных переездах или в непосредственной близости от них",
+    "image": null,
+    "comment": {
+      "text": "La fermata del veicolo è vietata in corrispondenza e in prossimita di tutti i passaggi a livello (con barriere, semi barriere e senza barriere ).\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "text_ru": "Остановка транспортного средства запрещена на всех типах железнодорожных переездов (со шлагбаумами, полушлагбаумами или без них) и рядом с ними.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_09_11017_1_2_3.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5270,
+    "topic_id": 16,
+    "text": "La fermata è vietata sui binari di linee ferroviarie o tranviarie o così vicino ad essi da intralciare la marcia dei veicoli su rotaia",
+    "text_ru": "Остановка запрещена на железнодорожных или трамвайных путях, а также в такой близости к ним, которая может помешать движению рельсового транспорта",
+    "image": null,
+    "comment": {
+      "text": "La fermata è vietata sui binari e il divieto vale anche quando si è vicini ai binari in posizione tale da intralciare la marcia del tram.\r\n",
+      "text_ru": "Остановка запрещена как на самих путях, так и рядом с ними, если положение автомобиля мешает движению трамвая.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/11_209_02_11017_1_2_3.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5271,
+    "topic_id": 16,
+    "text": "La fermata è vietata nelle gallerie, salvo diversa segnalazione.",
+    "text_ru": "Остановка запрещена в тоннелях, если иное не указано знаками.",
+    "image": null,
+    "comment": {
+      "text": "La fermata nelle gallerie è vietata perché c’è scarsa visibilità, quindi molto pericoloso.\r\n",
+      "text_ru": "Остановка в тоннелях запрещена из-за плохой видимости, что делает ее крайне опасной.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/09_177_04_Galleria01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5272,
+    "topic_id": 16,
+    "text": "La fermata è vietata nei sottovia, sotto i sovrapassaggi, sotto i fornici e i portici, salvo diversa segnalazione.",
+    "text_ru": "Остановка запрещена в подземных переходах (путепроводах), под эстакадами, под арками и портиками, если иное не предусмотрено знаками.",
+    "image": null,
+    "comment": {
+      "text": "Le manovre di fermata e sosta, sono vietate nei sottovia, sotto i sovrapassaggi, sotto i fornici e i portici salvo diverse segnalazioni (se provviste di strisce di parcheggio, la fermata o la sosta può essere realizzata).\r\n\r\n",
+      "text_ru": "Маневры остановки и стоянки запрещены в путепроводах, под эстакадами и арками, за исключением случаев, когда там нанесена специальная парковочная разметка.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5273,
+    "topic_id": 16,
+    "text": "La fermata è vietata sui dossi.",
+    "text_ru": "Остановка запрещена на выпуклых участках дорог (доссах).",
+    "image": null,
+    "comment": {
+      "text": "La fermata è vietata sui dossi, sia in prossimità  che in corrispondenza perché c’è scarsa visibilità, quindi molto pericoloso. ",
+      "text_ru": "Остановка запрещена на вершинах подъемов и рядом с ними из-за ограниченной видимости, что создает высокую опасность.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5274,
+    "topic_id": 16,
+    "text": "Fuori dai centri abitati e sulle strade urbane di scorrimento la fermata è vietata in prossimità dei dossi.",
+    "text_ru": "Вне населенных пунктов и на городских магистралях непрерывного движения остановка запрещена вблизи вершин подъемов (доссов).",
+    "image": null,
+    "comment": {
+      "text": "La fermata è vietata sui dossi, sia in prossimità  che in corrispondenza perché c’è scarsa visibilità, quindi molto pericoloso. ",
+      "text_ru": "Остановка запрещена как на самих вершинах подъемов, так и вблизи них из-за недостаточной видимости.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5275,
+    "topic_id": 16,
+    "text": "La fermata è vietata nelle curve e, fuori dei centri abitati e sulle strade urbane di scorrimento, anche in loro prossimità",
+    "text_ru": "Остановка запрещена на поворотах, а вне населенных пунктов и на городских магистралях — также и вблизи них",
+    "image": null,
+    "comment": {
+      "text": "La fermata in presenza di curve è vietata :\r\n- nei centri abitati solo in corrispondenza (a meno che non siano di scorrimento);\r\n- fuori dei centri abitati in prossimità  e in corrispondenza .\r\n\r\n\r\n",
+      "text_ru": "Остановка на поворотах запрещена: в населенных пунктах — непосредственно на повороте (если это не магистраль); вне населенных пунктов — как на повороте, так и рядом с ним.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_05_sosef003.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5276,
+    "topic_id": 16,
+    "text": "La fermata è vietata sul margine destro della carreggiata",
+    "text_ru": "Остановка запрещена у правого края проезжей части",
+    "image": null,
+    "comment": {
+      "text": "La fermata normalmente si fa sul margine destro della carreggiata.",
+      "text_ru": "Остановка обычно производится именно у правого края проезжей части.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5277,
+    "topic_id": 16,
+    "text": "La fermata è vietata lungo il margine sinistro di una carreggiata a senso unico di circolazione",
+    "text_ru": "Остановка запрещена у левого края проезжей части с односторонним движением",
+    "image": null,
+    "comment": {
+      "text": "Falso! La fermata normalmente si fa sul margine destro della carreggiata ma è possibile sul margine sinistro quando la strada è a senso unico di circolazione.",
+      "text_ru": "Ложь! Обычно остановка производится справа, но на дорогах с односторонним движением она разрешена и у левого края.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5278,
+    "topic_id": 16,
+    "text": "La fermata di breve durata è consentita anche in curva.",
+    "text_ru": "Кратковременная остановка разрешена даже на повороте.",
+    "image": null,
+    "comment": {
+      "text": "La fermata in curva è pericolosa perché c’è scarsa visibilità! È sempre vietata!",
+      "text_ru": "Остановка на повороте опасна из-за плохой видимости! Она запрещена всегда!",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_05_sosef003.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5279,
+    "topic_id": 16,
+    "text": "La fermata è vietata allo sbocco dei passi carrabili",
+    "text_ru": "Остановка запрещена в местах выезда из дворов (passi carrabili)",
+    "image": null,
+    "comment": {
+      "text": "allo sbocco dei passi carrabili è vietata la sosta ma possiamo effettuare la fermata, purchè il veicolo non sia di intralcio per la circolazione .\r\n\r\n\r\n",
+      "text_ru": "В местах выезда (passi carrabili) запрещена стоянка, но остановку совершать можно, если ТС не создает помех движению.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_12_div090d.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5280,
+    "topic_id": 16,
+    "text": "La fermata è vietata sulle aree destinate al mercato o al carico e allo scarico delle merci",
+    "text_ru": "Остановка запрещена в зонах, предназначенных для рынков или погрузки и выгрузки товаров",
+    "image": null,
+    "comment": {
+      "text": "Sulle aree destinate al mercato e ai veicoli per il carico e lo scarico delle merci  è vietata la sosta durante gli orari indicati ma non la fermata.",
+      "text_ru": "В зонах рынков и погрузки/выгрузки запрещена стоянка в указанные часы, но не остановка.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5281,
+    "topic_id": 16,
+    "text": "La fermata è vietata in prossimità e in corrispondenza di segnali stradali verticali in modo da occultarne la vista",
+    "text_ru": "Остановка запрещена вблизи и в местах установки вертикальных дорожных знаков, если это закрывает их обзор",
+    "image": null,
+    "comment": {
+      "text": "La fermata è vietata, in prossimità  e in corrispondenza di segnali stradali o semaforici, quando li copri e gli altri utenti non possono vederli!\r\n\r\n\r\n",
+      "text_ru": "Остановка запрещена рядом со знаками или светофорами, если ваш автомобиль закрывает их от других участников движения!",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5282,
+    "topic_id": 16,
+    "text": "La fermata è vietata in prossimità e in corrispondenza di segnali semaforici in modo da occultarne la vista",
+    "text_ru": "Остановка запрещена вблизи и в местах установки светофоров, если это закрывает их обзор",
+    "image": null,
+    "comment": {
+      "text": "La fermata è vietata, in prossimità  e in corrispondenza di segnali stradali o semaforici, quando li copri e gli altri utenti non possono vederli!\r\n\r\n",
+      "text_ru": "Остановка запрещена рядом со знаками или светофорами, если вы их закрываете, и другие водители не могут их видеть!",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5283,
+    "topic_id": 16,
+    "text": "La fermata è vietata in corrispondenza dei segnali orizzontali di preselezione e lungo le corsie di canalizzazione",
+    "text_ru": "Остановка запрещена на горизонтальной разметке предварительного выбора направления и вдоль полос канализации (направления) потоков",
+    "image": null,
+    "comment": {
+      "text": "La fermata è vietata in corrispondenza dei segnali orizzontali di preselezione e lungo le corsie di canalizzazione, il veicolo sarebbe di intralcio e di pericolo.",
+      "text_ru": "Остановка запрещена в местах предразметки и на направляющих полосах, так как ТС создавало бы помехи и опасность.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_13_isotra03.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5284,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati, la fermata è vietata in corrispondenza e in prossimità delle aree di intersezione",
+    "text_ru": "Вне населенных пунктов остановка запрещена на перекрестках и вблизи них",
+    "image": null,
+    "comment": {
+      "text": "La fermata agli incroci è vietata sia fuori sia dentro i  centri abitati, fermandosi agli incroci si crea intralcio e pericolo. \r\n\r\n\r\n\r\n",
+      "text_ru": "Остановка на перекрестках запрещена как вне, так и внутри населенных пунктов, так как это создает помехи и опасность.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_05_inc_4_corsie.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5285,
+    "topic_id": 16,
+    "text": "Nei centri abitati, la fermata e la sosta sono vietate in corrispondenza delle aree di intersezione e in prossimità di esse a meno di 5 metri, salvo diversa segnalazione.",
+    "text_ru": "В населенных пунктах остановка и стоянка запрещены на перекрестках и на расстоянии менее 5 метров от них, если иное не указано знаками.",
+    "image": null,
+    "comment": {
+      "text": "Nei centri abitati, la fermata e la sosta sono vietate in corrispondenza delle aree di intersezione e in prossimità. Prossimità significa a meno di 5 metri dalla soglia dell’incrocio.",
+      "text_ru": "В населенных пунктах остановка и стоянка запрещены на самих пересечениях и вблизи них. «Вблизи» означает ближе 5 метров от границы перекрестка.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_05_inc_4_corsie.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5286,
+    "topic_id": 16,
+    "text": "La fermata è vietata limitatamente alle ore di esercizio, in corrispondenza dei distributori di carburante",
+    "text_ru": "Остановка запрещена у автозаправочных станций только в часы их работы",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata a meno di 5 metri dalle pompe di carburante, durante le ore di esercizio ma la fermata si può fare! \r\n",
+      "text_ru": "Стоянка запрещена в радиусе 5 метров от ТРК в часы работы АЗС, однако остановку совершать разрешено!",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5287,
+    "topic_id": 16,
+    "text": "La fermata è vietata dopo il segnale DIVIETO DI SOSTA  (84)",
+    "text_ru": "Остановка запрещена в зоне действия знака «СТОЯНКА ЗАПРЕЩЕНА» (84)",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/084.jpg",
+    "comment": {
+      "text": "Dopo il segnale DIVIETO DI SOSTA è vietata SOLO la sosta, non la fermata.",
+      "text_ru": "В зоне действия знака «Стоянка запрещена» запрещена ТОЛЬКО стоянка, остановка разрешена.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5288,
+    "topic_id": 16,
+    "text": "La fermata è vietata in prossimità dei segnali stradali, anche se il veicolo non ne occulta la vista",
+    "text_ru": "Остановка запрещена вблизи дорожных знаков, даже если транспортное средство не закрывает их обзор",
+    "image": null,
+    "comment": {
+      "text": "La fermata è vietata in prossimità  e in corrispondenza di segnali stradali o semaforici, SOLO quando SE NE occulti la vista .\r\n\r\n\r\n",
+      "text_ru": "Остановка запрещена вблизи знаков или светофоров ТОЛЬКО в том случае, если она закрывает их обзор.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5289,
+    "topic_id": 16,
+    "text": "La fermata è vietata lungo le autostrade, anche in caso di emergenza",
+    "text_ru": "Остановка на автомагистралях запрещена даже в случае чрезвычайной ситуации",
+    "image": null,
+    "comment": {
+      "text": "La fermata è consentita lungo le autostrade, in caso di emergenza, su apposita corsia, per malessere di conducente o passeggeri o per avaria che rende inutilizzabile il veicolo.",
+      "text_ru": "Остановка на автомагистралях разрешена в экстренных случаях (недомогание водителя/пассажиров или поломка ТС) на специально отведенной полосе.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_185_01_autostradaPrincipali.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5290,
+    "topic_id": 16,
+    "text": "Nei centri abitati la fermata è vietata in prossimità delle aree di intersezione, a più di 5 metri",
+    "text_ru": "В населенных пунктах остановка запрещена вблизи зон пересечения (перекрестков) на расстоянии более 5 метров",
+    "image": null,
+    "comment": {
+      "text": "La fermata è vietata agli incroci a meno di 5 metri.\r\n\r\n\r\n\r\n",
+      "text_ru": "Остановка запрещена на перекрестках на расстоянии менее 5 метров.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5291,
+    "topic_id": 16,
+    "text": "La fermata è consentita sulle corsie di accelerazione, purché brevissima",
+    "text_ru": "Остановка разрешена на полосах разгона, при условии, что она очень кратковременна",
+    "image": null,
+    "comment": {
+      "text": "La fermata è vietata sulle corsie di accelerazione e decelerazione delle autostrade e delle strade extraurbane principali.",
+      "text_ru": "Остановка запрещена на полосах разгона и торможения на автомагистралях и главных внегородских дорогах.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5292,
+    "topic_id": 16,
+    "text": "La sosta e la fermata sono sempre vietate sugli attraversamenti pedonali",
+    "text_ru": "Стоянка и остановка всегда запрещены на пешеходных переходах",
+    "image": null,
+    "comment": {
+      "text": "La fermata e la sosta del veicolo sono vietate sulle strisce. Si può parcheggiare o fermarsi prima e dopo. \r\n\r\n\r\n",
+      "text_ru": "Остановка и стоянка транспортного средства запрещены на разметке («зебре»). Можно парковаться или останавливаться до и после нее.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_10_Oriz036.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5293,
+    "topic_id": 16,
+    "text": "La sosta e la fermata sono vietate in ogni caso sulle piste ciclabili e agli sbocchi di esse",
+    "text_ru": "Стоянка и остановка запрещены в любом случае на велосипедных дорожках и в местах выезда с них",
+    "image": null,
+    "comment": {
+      "text": "La fermata e la sosta, sono manovre vietata in corrispondenza di piste ciclabile e allo sbocco di esse.\r\n\r\n",
+      "text_ru": "Остановка и стоянка — это маневры, запрещенные на велосипедных дорожках и в местах выезда с них.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5294,
+    "topic_id": 16,
+    "text": "La sosta e la fermata sono vietate sui marciapiedi, salvo diversa segnalazione",
+    "text_ru": "Стоянка и остановка запрещены на тротуарах, если иное не предусмотрено знаками",
+    "image": null,
+    "comment": {
+      "text": "La sosta e la fermata sono vietate sui marciapiedi salvo diverse segnalazioni ( è consentita sulle apposite strisce di parcheggio segnate sul marciapiede).\r\n\r\n\r\n",
+      "text_ru": "Стоянка и остановка запрещены на тротуарах, за исключением случаев наличия соответствующих знаков (разрешена на специально размеченных парковочных полосах на тротуаре).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_02_dts009.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5295,
+    "topic_id": 16,
+    "text": "La fermata è consentita allo sbocco dei passi carrabili",
+    "text_ru": "Остановка разрешена на выезде из дворовых территорий (въездах для транспорта)",
+    "image": null,
+    "comment": {
+      "text": "La fermata è consentita allo sbocco dei passi carrabili, purchè il veicolo non sia di intralcio per la circolazione.\r\n\r\n\r\n",
+      "text_ru": "Остановка разрешена на выезде из дворовых территорий, при условии, что транспортное средство не создает помех для движения.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_12_div090d.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5296,
+    "topic_id": 16,
+    "text": "La fermata è consentita davanti ai cassonetti dei rifiuti urbani",
+    "text_ru": "Остановка разрешена перед контейнерами для городских бытовых отходов",
+    "image": null,
+    "comment": {
+      "text": "Davanti ai cassonetti dei rifiuti urbani, è VIETATA la SOSTA! fermata è consentita.",
+      "text_ru": "Перед мусорными контейнерами СТОЯНКА ЗАПРЕЩЕНА! Остановка разрешена.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5297,
+    "topic_id": 16,
+    "text": "La fermata è consentita sugli attraversamenti pedonali per far scendere un passeggero",
+    "text_ru": "Остановка разрешена на пешеходных переходах для высадки пассажира",
+    "image": null,
+    "comment": {
+      "text": "La fermata e la sosta del veicolo è SEMPRE vietata, in corrispondenza (sopra) di  ATTRAVERSAMENTI PEDONALI.",
+      "text_ru": "Остановка и стоянка транспортного средства ВСЕГДА запрещены непосредственно на ПЕШЕХОДНЫХ ПЕРЕХОДАХ.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_10_Oriz036.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5298,
+    "topic_id": 16,
+    "text": "La fermata per esigenze di brevissima durata è vietata sulle piste ciclabili ma non agli sbocchi di esse",
+    "text_ru": "Остановка для кратковременных нужд запрещена на велосипедных дорожках, но не на выездах с них",
+    "image": null,
+    "comment": {
+      "text": "La fermata e la sosta, sono manovre vietata in corrispondenza di piste ciclabile e allo sbocco di esse.",
+      "text_ru": "Остановка и стоянка — это маневры, запрещенные на велосипедных дорожках и в местах выезда с них.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5299,
+    "topic_id": 16,
+    "text": "La fermata è vietata allo sbocco dei passi carrabili",
+    "text_ru": "Остановка запрещена на выезде из дворовых территорий",
+    "image": null,
+    "comment": {
+      "text": "La fermata è consentita allo sbocco dei passi carrabili, purchè il veicolo non sia di intralcio per la circolazione.",
+      "text_ru": "Остановка разрешена на выезде из дворовых территорий, при условии, что транспортное средство не создает помех для движения.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_12_div090d.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5300,
+    "topic_id": 16,
+    "text": "La fermata è sempre vietata in seconda fila",
+    "text_ru": "Остановка всегда запрещена вторым рядом",
+    "image": null,
+    "comment": {
+      "text": "La SOSTA è SEMPRE vietata in doppia fila, in quanto provoca restringimento della carreggiata e situazioni di intralcio e pericolo, la  FERMATA in doppia fila è consentita purchè non provochi intralcio e rallentamenti per la circolazione.\r\n\r\n\r\n",
+      "text_ru": "СТОЯНКА ВСЕГДА запрещена вторым рядом, так как это вызывает сужение проезжей части и создает ситуации помех и опасности; ОСТАНОВКА вторым рядом разрешена, если она не создает помех и замедления движения.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5301,
+    "topic_id": 16,
+    "text": "La fermata è vietata in ogni caso nelle ore notturne",
+    "text_ru": "Остановка запрещена в любом случае в ночное время",
+    "image": null,
+    "comment": {
+      "text": "No. Ci si può fermare anche di notte, importante farlo senza creare intralcio o pericolo.",
+      "text_ru": "Нет. Останавливаться можно и ночью, важно делать это не создавая помех или опасности.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5302,
+    "topic_id": 16,
+    "text": "La sosta è la sospensione della marcia del veicolo protratta nel tempo, con possibilità del conducente di allontanarsi",
+    "text_ru": "Стоянка — это прекращение движения транспортного средства, протяженное во времени, с возможностью отлучения водителя",
+    "image": null,
+    "comment": {
+      "text": "Si. La sosta è la sospensione della marcia del veicolo che dura nel tempo, di solito il conducente si allontana.",
+      "text_ru": "Да. Стоянка — это прекращение движения транспортного средства, которое длится во времени, обычно водитель при этом уходит.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_Sosef020.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5303,
+    "topic_id": 16,
+    "text": "Durante la sosta il conducente può allontanarsi dal veicolo",
+    "text_ru": "Во время стоянки водитель может отойти от транспортного средства",
+    "image": null,
+    "comment": {
+      "text": "Si. La sosta è la sospensione della marcia del veicolo che dura nel tempo, di solito il conducente si allontana.",
+      "text_ru": "Да. Стоянка — это прекращение движения транспортного средства, которое длится во времени, обычно водитель при этом уходит.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5304,
+    "topic_id": 16,
+    "text": "Durante la sosta il conducente deve adottare le opportune cautele atte ad evitare incidenti",
+    "text_ru": "Во время стоянки водитель должен принять соответствующие меры предосторожности во избежание несчастных случаев",
+    "image": null,
+    "comment": {
+      "text": "Adottare  le opportune cautele significa evitare che il veicolo venga spostato senza il proprio consenso o si muova da solo causando incidenti, quindi bisogna azionare il freno di stazionamento, inserire la prima marcia,  spegnere il motore e chiudere il veicolo a chiave.",
+      "text_ru": "Принятие соответствующих мер предосторожности означает предотвращение перемещения транспортного средства без согласия владельца или его самопроизвольного движения, приводящего к авариям. Поэтому необходимо задействовать стояночный тормоз, включить первую передачу, выключить двигатель и запереть автомобиль.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_sosef019.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5305,
+    "topic_id": 16,
+    "text": "Durante la sosta il conducente deve impedire l'uso del veicolo senza il suo consenso",
+    "text_ru": "Во время стоянки водитель должен исключить возможность использования транспортного средства без его согласия",
+    "image": null,
+    "comment": {
+      "text": "Bisogna adottare le opportune cautele per evitare che il veicolo venga spostato senza il proprio consenso o si muova da solo causando incidenti, quindi bisogna azionare il freno di stazionamento, inserire la prima marcia,  spegnere il motore e chiudere il veicolo a chiave.",
+      "text_ru": "Необходимо принять соответствующие меры предосторожности, чтобы транспортное средство не было перемещено без согласия или не начало двигаться самопроизвольно, вызывая аварии. Следует задействовать стояночный тормоз, включить первую передачу, выключить двигатель и запереть автомобиль.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_sosef019.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5306,
+    "topic_id": 16,
+    "text": "Durante la sosta nelle ore notturne il conducente deve lasciare in ogni caso accese le luci di posizione",
+    "text_ru": "Во время стоянки в ночное время водитель должен в любом случае оставлять включенными габаритные огни",
+    "image": null,
+    "comment": {
+      "text": "Durante la sosta nelle ore notturne, bisogna lasciare il veicolo con le luci accese se  occupiamo la carreggiata e il veicolo non è chiaramente visibile.\r\n",
+      "text_ru": "Во время стоянки в ночное время необходимо оставлять транспортное средство с включенными огнями, если оно находится на проезжей части и недостаточно хорошо видно.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/18_187_06_28002f07.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5307,
+    "topic_id": 16,
+    "text": "Durante la sosta il conducente non può allontanarsi dal veicolo per più di tre ore",
+    "text_ru": "Во время стоянки водитель не может отлучаться от транспортного средства более чем на три часа",
+    "image": null,
+    "comment": {
+      "text": "La sosta è la sospensione della marcia del veicolo protratta nel tempo, con possibilità  del conducente di allontanarsi (di norma, senza limiti di tempo).",
+      "text_ru": "Стоянка — это прекращение движения транспортного средства на длительное время с возможностью водителя отойти (как правило, без ограничения по времени).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5308,
+    "topic_id": 16,
+    "text": "Durante la sosta è opportuno che il conducente azioni il freno di stazionamento ed inserisca il rapporto più basso del cambio di velocità",
+    "text_ru": "Во время стоянки водителю целесообразно задействовать стояночный тормоз и включить самую низкую передачу в коробке передач",
+    "image": null,
+    "comment": {
+      "text": "Durante la sosta il conducente deve adottare le opportune cautele per evitare incidenti e deve impedire l'uso del veicolo senza il suo consenso (azionare il freno di stazionamento, inserire il rapporto più basso del cambio di velocità , spegnere il motore e chiudere il veicolo a chiave, se in pendenza lasciare il veicolo a ruote sterzate verso il marciapiede).",
+      "text_ru": "Во время стоянки водитель должен принять меры предосторожности во избежание аварий и исключить использование ТС без его согласия (задействовать стояночный тормоз, включить самую низкую передачу, выключить двигатель и запереть ТС, а на уклоне — вывернуть колеса в сторону тротуара).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_Sosef020.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5309,
+    "topic_id": 16,
+    "text": "Durante la sosta il conducente deve adottare accorgimenti atti a garantire l'immobilità del veicolo, indipendentemente dal grado di pendenza della strada",
+    "text_ru": "Во время стоянки водитель должен принять меры для обеспечения неподвижности транспортного средства независимо от степени уклона дороги",
+    "image": null,
+    "comment": {
+      "text": "Durante la sosta il conducente deve adottare le opportune cautele per evitare incidenti e deve impedire l'uso del veicolo senza il suo consenso (azionare il freno di stazionamento, inserire il rapporto più basso del cambio di velocità , spegnere il motore e chiudere il veicolo a chiave, se in pendenza lasciare il veicolo a ruote sterzate verso il marciapiede).",
+      "text_ru": "Во время стоянки водитель должен принять меры предосторожности во избежание аварий и исключить использование ТС без его согласия (задействовать стояночный тормоз, включить самую низкую передачу, выключить двигатель и запереть ТС, а на уклоне — вывернуть колеса в сторону тротуара).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_Sosef020.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5310,
+    "topic_id": 16,
+    "text": "Durante la sosta nelle strade a forte pendenza, è opportuno che il conducente azioni il freno di stazionamento, inserisca il rapporto più basso del cambio di velocità e lasci il veicolo con le ruote sterzate verso il marciapiede",
+    "text_ru": "Во время стоянки на дорогах с сильным уклоном водителю целесообразно задействовать стояночный тормоз, включить самую низкую передачу и оставить транспортное средство с вывернутыми в сторону тротуара колесами",
+    "image": null,
+    "comment": {
+      "text": "Durante la sosta il conducente deve adottare le opportune cautele per ad evitare incidenti e deve impedire l'uso del veicolo senza il suo consenso (azionare il freno di stazionamento, inserire il rapporto più basso del cambio di velocità , spegnere il motore e chiudere il veicolo a chiave, se in pendenza lasciare il veicolo a ruote sterzate verso il marciapiede).",
+      "text_ru": "Во время стоянки водитель должен принять меры предосторожности во избежание аварий и исключить использование ТС без его согласия (задействовать стояночный тормоз, включить самую низкую передачу, выключить двигатель и запереть ТС, а на уклоне — вывернуть колеса в сторону тротуара).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_sosef020.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5311,
+    "topic_id": 16,
+    "text": "Durante la sosta il conducente deve lasciare il veicolo con il motore spento",
+    "text_ru": "Во время стоянки водитель должен оставлять транспортное средство с выключенным двигателем",
+    "image": null,
+    "comment": {
+      "text": "Durante la sosta il conducente deve adottare le opportune cautele per ad evitare incidenti e deve impedire l'uso del veicolo senza il suo consenso (azionare il freno di stazionamento, inserire il rapporto più basso del cambio di velocità , spegnere il motore e chiudere il veicolo a chiave, se in pendenza lasciare il veicolo a ruote sterzate verso il marciapiede).",
+      "text_ru": "Во время стоянки водитель должен принять меры предосторожности во избежание аварий и исключить использование ТС без его согласия (задействовать стояночный тормоз, включить самую низкую передачу, выключить двигатель и запереть ТС, а на уклоне — вывернуть колеса в сторону тротуара).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_Sosef020.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5312,
+    "topic_id": 16,
+    "text": "Durante la sosta il conducente che lascia il veicolo su strada in salita, deve avere cura di inserire la quarta marcia",
+    "text_ru": "Во время стоянки водитель, оставляющий транспортное средство на подъеме, должен позаботиться о включении четвертой передачи",
+    "image": null,
+    "comment": {
+      "text": "Durante la sosta il conducente deve adottare le opportune cautele per evitare incidenti e deve impedire l'uso del veicolo senza il suo consenso (azionare il freno di stazionamento, inserire la prima marcia, spegnere il motore e chiudere il veicolo a chiave, se in pendenza lasciare il veicolo a ruote sterzate verso il marciapiede).",
+      "text_ru": "Во время стоянки водитель должен принять меры предосторожности во избежание аварий и исключить использование ТС без его согласия (задействовать стояночный тормоз, включить первую передачу, выключить двигатель и запереть ТС, а на уклоне — вывернуть колеса в сторону тротуара).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_Sosef020.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5313,
+    "topic_id": 16,
+    "text": "Durante la sosta il conducente deve posizionare il cambio di velocità dell'autovettura in folle",
+    "text_ru": "Во время стоянки водитель должен установить коробку передач легкового автомобиля в нейтральное положение",
+    "image": null,
+    "comment": {
+      "text": "No.  Si inserisce la prima marcia!",
+      "text_ru": "Нет. Включается первая передача!",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_sosef019.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5314,
+    "topic_id": 16,
+    "text": "Salvo diversa segnalazione il conducente, in caso di sosta nei centri abitati, deve collocare il veicolo il più vicino possibile al margine destro della carreggiata, parallelamente ad esso e secondo il senso di marcia, purché esista il marciapiede rialzato",
+    "text_ru": "Если иное не предусмотрено знаками, водитель при стоянке в населенных пунктах должен располагать транспортное средство как можно ближе к правому краю проезжей части, параллельно ему и по направлению движения, при условии наличия приподнятого тротуара",
+    "image": null,
+    "comment": {
+      "text": "Salvo diversa segnalazione, in caso di sosta il conducente deve collocare il veicolo il più vicino possibile al margine destro della carreggiata, parallelamente ad esso e secondo il senso di marcia.",
+      "text_ru": "Если иное не предусмотрено знаками, при стоянке водитель должен располагать ТС как можно ближе к правому краю проезжей части, параллельно ему и по направлению движения.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_02_dts009.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5315,
+    "topic_id": 16,
+    "text": "In caso di sosta ove non esista marciapiede rialzato, il conducente deve lasciare uno spazio non inferiore ad un metro per il transito dei pedoni",
+    "text_ru": "В случае стоянки там, где нет приподнятого тротуара, водитель должен оставить пространство не менее одного метра для прохода пешеходов",
+    "image": null,
+    "comment": {
+      "text": "Si. In caso di sosta se non c’è il marciapiede rialzato bisogna lasciare uno spazio di almeno un metro per il transito dei pedoni.",
+      "text_ru": "Да. При стоянке, если нет приподнятого тротуара, необходимо оставить пространство не менее одного метра для прохода пешеходов.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5316,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati, il conducente che deve sostare ha l'obbligo di collocare il veicolo, ove possibile, fuori della carreggiata",
+    "text_ru": "Вне населенных пунктов водитель, которому необходимо совершить стоянку, обязан по возможности разместить транспортное средство вне проезжей части",
+    "image": null,
+    "comment": {
+      "text": "Fuori dei centri abitati, il conducente che deve sostare ha l'obbligo di collocare il veicolo fuori della carreggiata, per esempio sulle piazzole di soste.",
+      "text_ru": "Вне населенных пунктов водитель, совершающий стоянку, обязан разместить ТС вне проезжей части, например, на площадках для стоянки.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_01_ind183a.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5317,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati, il conducente che deve sostare ha l'obbligo di collocare il veicolo fuori della carreggiata, ma non sulle piste ciclabili",
+    "text_ru": "Вне населенных пунктов водитель, которому необходимо совершить стоянку, обязан разместить транспортное средство вне проезжей части, но не на велосипедных дорожках",
+    "image": null,
+    "comment": {
+      "text": "Fuori dei centri abitati, il conducente che deve sostare ha l'obbligo di collocare il veicolo fuori della carreggiata, per esempio sulle piazzole di soste.",
+      "text_ru": "Вне населенных пунктов водитель, совершающий стоянку, обязан разместить ТС вне проезжей части, например, на площадках для стоянки.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_01_ind183a.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5318,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati il conducente deve collocare il veicolo in sosta fuori della carreggiata, ma non sulle banchine, salvo diversa segnalazione",
+    "text_ru": "Вне населенных пунктов водитель должен размещать транспортное средство на стоянку вне проезжей части, но не на обочинах, если иное не предусмотрено знаками",
+    "image": null,
+    "comment": {
+      "text": "Fuori dei centri abitati, il conducente che deve sostare ha l'obbligo di collocare il veicolo fuori della carreggiata, ma non sulle piste ciclabili, né sulle banchine salvo diversa segnalazione.",
+      "text_ru": "Вне населенных пунктов водитель, совершающий стоянку, обязан разместить ТС вне проезжей части, но не на велосипедных дорожках и не на обочинах, если иное не предусмотрено знаками.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_09_dts015.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5319,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati, in caso di impossibilità a collocare il veicolo fuori della carreggiata, il conducente deve sostare il più vicino possibile al margine destro della carreggiata",
+    "text_ru": "Вне населенных пунктов при невозможности разместить транспортное средство вне проезжей части водитель должен совершить стоянку как можно ближе к правому краю проезжей части",
+    "image": null,
+    "comment": {
+      "text": "Fuori dei centri abitati in caso di impossibilità  a collocare il veicolo fuori della carreggiata, il conducente deve sostare il più vicino possibile al margine destro della carreggiata.",
+      "text_ru": "Вне населенных пунктов в случае невозможности размещения ТС вне проезжей части водитель должен совершить стоянку как можно ближе к правому краю проезжей части.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5320,
+    "topic_id": 16,
+    "text": "In caso di sosta in un centro abitato, il conducente deve collocare il veicolo il più vicino possibile al margine destro della carreggiata, anche dove non esiste il marciapiede rialzato",
+    "text_ru": "В случае стоянки в населенном пункте водитель должен разместить транспортное средство как можно ближе к правому краю проезжей части, даже там, где нет приподнятого тротуара",
+    "image": null,
+    "comment": {
+      "text": "Falso.  In caso di sosta se non c’è il marciapiede rialzato bisogna lasciare uno spazio di almeno un metro per il transito dei pedoni.",
+      "text_ru": "Ложь. При стоянке, если нет приподнятого тротуара, необходимо оставить пространство не менее одного метра для прохода пешеходов.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5321,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati, il conducente in caso di sosta deve collocare il veicolo fuori della carreggiata, eventualmente anche sulle piste ciclabili",
+    "text_ru": "Вне населенных пунктов водитель в случае стоянки должен разместить транспортное средство вне проезжей части, возможно, также на велосипедных дорожках",
+    "image": null,
+    "comment": {
+      "text": "Fuori dei centri abitati, il conducente che deve sostare ha l'obbligo di collocare il veicolo fuori della carreggiata, ma non sulle piste ciclabili, né sulle banchine salvo diversa segnalazione.",
+      "text_ru": "Вне населенных пунктов водитель, совершающий стоянку, обязан разместить ТС вне проезжей части, но не на велосипедных дорожках и не на обочинах, если иное не предусмотрено знаками.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5322,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati, in caso di impossibilità di collocare il veicolo fuori della carreggiata, il conducente non deve effettuare la sosta",
+    "text_ru": "Вне населенных пунктов в случае невозможности размещения транспортного средства вне проезжей части водитель не должен совершать стоянку",
+    "image": null,
+    "comment": {
+      "text": "Fuori dei centri abitati in caso di impossibilità a collocare il veicolo fuori della carreggiata, il conducente deve sostare il più vicino possibile al marciapiede.",
+      "text_ru": "Вне населенных пунктов в случае невозможности размещения ТС вне проезжей части водитель должен совершить стоянку как можно ближе к краю.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5323,
+    "topic_id": 16,
+    "text": "Nelle strade urbane a senso unico di marcia, la sosta è consentita anche lungo il margine sinistro della carreggiata, purché rimanga uno spazio sufficiente al transito almeno di una fila di veicoli",
+    "text_ru": "На городских дорогах с односторонним движением стоянка разрешена также вдоль левого края проезжей части, при условии, что остается достаточно места для проезда как минимум одного ряда транспортных средств",
+    "image": null,
+    "comment": {
+      "text": "Nelle strade urbane a senso unico di marcia la sosta è consentita anche lungo il margine sinistro della carreggiata, purché rimanga uno spazio sufficiente al transito almeno di una fila di veicoli (almeno tre metri di larghezza).",
+      "text_ru": "На городских дорогах с односторонним движением стоянка разрешена также вдоль левого края проезжей части, при условии, что остается достаточно места для проезда хотя бы одного ряда ТС (шириной не менее трех метров).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_sosef010.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5324,
+    "topic_id": 16,
+    "text": "Nelle strade urbane a senso unico di marcia, la sosta è consentita anche lungo il margine sinistro della carreggiata, purché rimanga uno spazio non inferiore a tre metri di larghezza per il transito dei veicoli",
+    "text_ru": "На городских дорогах с односторонним движением стоянка разрешена также вдоль левого края проезжей части, при условии, что остается свободное пространство шириной не менее трех метров для проезда транспортных средств",
+    "image": null,
+    "comment": {
+      "text": "Nelle strade urbane a senso unico di marcia la sosta è consentita anche lungo il margine sinistro della carreggiata, purché rimanga uno spazio sufficiente al transito almeno di una fila di veicoli (almeno tre metri di larghezza).",
+      "text_ru": "На городских дорогах с односторонним движением стоянка разрешена также вдоль левого края проезжей части, при условии, что остается достаточно места для проезда хотя бы одного ряда ТС (шириной не менее трех метров).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_sosef010.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5325,
+    "topic_id": 16,
+    "text": "Nelle zone predisposte per la sosta, il conducente deve collocare il veicolo nel modo prescritto dalla segnaletica",
+    "text_ru": "В зонах, предназначенных для стоянки, водитель должен располагать транспортное средство способом, предписанным дорожными знаками или разметкой",
+    "image": null,
+    "comment": {
+      "text": "Nelle zone nelle quali gli spazi di sosta sono delimitati da segnaletica orizzontale, il conducente deve sempre sistemare il proprio veicolo entro uno degli appositi spazi(stalli), senza invadere quelli contigui.",
+      "text_ru": "В зонах, где места для стоянки обозначены горизонтальной разметкой, водитель должен всегда ставить свое ТС внутри одного из специальных мест (парковочных мест), не занимая соседние.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/18_187_08_28014v05.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5326,
+    "topic_id": 16,
+    "text": "Nelle zone nelle quali gli spazi di sosta sono delimitati da segnaletica orizzontale, il conducente deve sempre sistemare il proprio veicolo entro uno degli appositi spazi(stalli), senza invadere quelli contigui",
+    "text_ru": "В зонах, где места для стоянки ограничены горизонтальной разметкой, водитель должен всегда располагать свое транспортное средство в пределах одного из соответствующих мест (парковочных мест), не заходя на соседние",
+    "image": null,
+    "comment": {
+      "text": "Nelle zone nelle quali gli spazi di sosta sono delimitati da segnaletica orizzontale, il conducente deve sempre sistemare il proprio veicolo entro uno degli appositi spazi(stalli), senza invadere quelli contigui.",
+      "text_ru": "В зонах, где места для стоянки обозначены горизонтальной разметкой, водитель должен всегда ставить свое ТС внутри одного из специальных мест (парковочных мест), не занимая соседние.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/18_187_08_28014v05.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5327,
+    "topic_id": 16,
+    "text": "Nelle strade urbane a senso unico di marcia, la sosta è sempre consentita anche lungo il margine sinistro della carreggiata",
+    "text_ru": "На городских дорогах с односторонним движением стоянка всегда разрешена также вдоль левого края проезжей части",
+    "image": null,
+    "comment": {
+      "text": "Nelle strade urbane a senso unico di marcia la sosta è consentita anche lungo il margine sinistro della carreggiata, purché rimanga uno spazio sufficiente al transito almeno di una fila di veicoli (almeno tre metri di larghezza).",
+      "text_ru": "На городских дорогах с односторонним движением стоянка разрешена также вдоль левого края проезжей части, при условии, что остается достаточно места для проезда хотя бы одного ряда ТС (шириной не менее трех метров).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_sosef010.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5328,
+    "topic_id": 16,
+    "text": "E' vietato sostare con autoveicoli o motocicli nei centri abitati, quando non esistano le apposite strisce",
+    "text_ru": "Запрещено парковать автомобили или мотоциклы в населенных пунктах, если нет соответствующей разметки",
+    "image": null,
+    "comment": {
+      "text": "No, nei centri abitati la sosta è consentita anche fuori dalle apposite strisce di parcheggio, ad eccezione dei casi in cui è vietata la sosta.",
+      "text_ru": "Нет, в населенных пунктах стоянка разрешена и вне размеченных парковочных мест, за исключением случаев, когда стоянка запрещена правилами.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_168_02_Sosef038.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5329,
+    "topic_id": 16,
+    "text": "Nelle zone nelle quali gli spazi di sosta sono delimitati da segnaletica orizzontale, il conducente può sistemare il proprio veicolo anche fuori dall'apposito spazio (stallo) ad esso destinato, a condizione che la sosta sia di brevissima durata",
+    "text_ru": "В зонах, где места для стоянки обозначены горизонтальной разметкой, водитель может располагать свое транспортное средство также вне отведенного для него места (парковочного места) при условии, что стоянка будет очень кратковременной",
+    "image": null,
+    "comment": {
+      "text": "Nelle zone nelle quali gli spazi di sosta sono delimitati da segnaletica orizzontale, il conducente deve sempre sistemare il proprio veicolo entro uno degli appositi spazi (stalli), senza invadere quelli contigui (anche se per breve tempo).",
+      "text_ru": "В зонах, где места для стоянки обозначены горизонтальной разметкой, водитель должен всегда ставить свое ТС внутри одного из специальных мест (парковочных мест), не занимая соседние (даже на короткое время).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/18_187_08_28014v05.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5330,
+    "topic_id": 16,
+    "text": "In una zona in cui la sosta è regolata con parchimetro, non occorre utilizzarlo se la sosta è di breve durata",
+    "text_ru": "В зоне, где стоянка регулируется паркоматом, нет необходимости использовать его, если стоянка кратковременная",
+    "image": null,
+    "comment": {
+      "text": "Durante la sosta ove richiesto, bisogna porre in funzione il parchimetro (anche se la sosta è di breve durata).\r\n\r\n\r\n\r\n",
+      "text_ru": "Во время стоянки там, где это требуется, необходимо привести паркомат в действие (даже если стоянка кратковременная).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/87.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5331,
+    "topic_id": 16,
+    "text": "La sosta è vietata in corrispondenza o in prossimità dei passaggi a livello",
+    "text_ru": "Стоянка запрещена на железнодорожных переездах или вблизи них",
+    "image": null,
+    "comment": {
+      "text": "La fermata e la sosta del veicolo sono vietate in corrispondenza e in prossimita di tutti i passaggi a livello (con barriere, semi barriere e senza barriere ).\r\n\r\n\r\n\r\n\r\n\r\n",
+      "text_ru": "Остановка и стоянка ТС запрещены непосредственно на всех железнодорожных переездах и вблизи них (со шлагбаумами, полушлагбаумами и без них).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_08_dts022a.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5332,
+    "topic_id": 16,
+    "text": "La sosta è vietata sui binari di linee ferroviarie o tranviarie o così vicino ad essi da intralciare la marcia dei veicoli su rotaia",
+    "text_ru": "Стоянка запрещена на путях железнодорожных или трамвайных линий или настолько близко к ним, чтобы мешать движению рельсового транспорта",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata sui binari di linee ferroviarie o tranviarie o così vicino ad essi da intralciare la marcia dei veicoli su rotaia.\r\n\r\n\r\n",
+      "text_ru": "Стоянка запрещена на путях железнодорожных или трамвайных линий или в такой близости к ним, чтобы создавать помехи движению рельсовых ТС.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_08_dts022a.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5333,
+    "topic_id": 16,
+    "text": "La sosta è vietata nelle gallerie, salvo diversa segnalazione",
+    "text_ru": "Стоянка запрещена в тоннелях, если иное не предусмотрено знаками",
+    "image": null,
+    "comment": {
+      "text": "La sosta nelle gallerie è vietata salvo diverse segnalazioni. È vietato perché pericoloso per la scarsa visibilità!\r\n",
+      "text_ru": "Стоянка в тоннелях запрещена, если нет иных указаний. Это запрещено из-за опасности ввиду плохой видимости!",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/09_177_03_CaInc55.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5334,
+    "topic_id": 16,
+    "text": "La sosta è vietata nei sottovia, sotto i sovrapassaggi, sotto i fornici e i portici, salvo diversa segnalazione",
+    "text_ru": "Стоянка запрещена в подземных переходах (проездах), под путепроводами, под арками и портиками, если иное не предусмотрено знаками",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata nei sottovia, sotto i sovrapassaggi, sotto i fornici e i portici, salvo diversa segnalazione.",
+      "text_ru": "Стоянка запрещена в подземных проездах, под путепроводами, арками и сводами, если иное не предусмотрено знаками.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5335,
+    "topic_id": 16,
+    "text": "La sosta è vietata sui dossi.",
+    "text_ru": "Стоянка запрещена на выпуклых участках дорог (на подъемах/переломах профиля).",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata sui dossi. È pericoloso per la scarsa visibilità!",
+      "text_ru": "Стоянка запрещена на выпуклых участках дорог. Это опасно из-за плохой видимости!",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5336,
+    "topic_id": 16,
+    "text": "Fuori dai centri abitati e sulle strade urbane di scorrimento, la sosta è vietata in prossimità dei dossi",
+    "text_ru": "Вне населенных пунктов и на городских магистральных дорогах стоянка запрещена вблизи переломов профиля дороги (доссов)",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata sui dossi. È pericoloso per la scarsa visibilità!",
+      "text_ru": "Стоянка запрещена на переломах профиля. Это опасно из-за плохой видимости!",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5337,
+    "topic_id": 16,
+    "text": "La sosta è vietata in corrispondenza dei passaggi a livello ma non in loro prossimità",
+    "text_ru": "Стоянка запрещена на железнодорожных переездах, но не вблизи них",
+    "image": null,
+    "comment": {
+      "text": "In presenza del passaggio a livello, sono vietate le manovre di SOSTA e di FERMATA sia in prossimità  che in corrispondenza dei binari.\r\n",
+      "text_ru": "При наличии железнодорожного переезда маневры СТОЯНКИ и ОСТАНОВКИ запрещены как вблизи него, так и непосредственно на путях.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_08_dts022a.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5338,
+    "topic_id": 16,
+    "text": "La sosta è vietata sui binari delle linee ferroviarie ma non di quelle tranviarie",
+    "text_ru": "Стоянка запрещена на путях железнодорожных линий, но не трамвайных",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata sui binari di linee ferroviarie o tranviarie o così vicino ad essi da intralciare la marcia dei veicoli su rotaia.",
+      "text_ru": "Стоянка запрещена на путях железнодорожных или трамвайных линий или в такой близости к ним, чтобы создавать помехи движению рельсовых ТС.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5339,
+    "topic_id": 16,
+    "text": "La sosta è consentita nelle gallerie illuminate",
+    "text_ru": "Стоянка разрешена в освещенных тоннелях",
+    "image": null,
+    "comment": {
+      "text": "La sosta nelle gallerie è vietata salvo diverse segnalazioni (indipendentemente dal tipo di illuminazione).",
+      "text_ru": "Стоянка в тоннелях запрещена, если нет иных указаний (независимо от типа освещения).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/09_177_03_CaInc55.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5340,
+    "topic_id": 16,
+    "text": "La sosta, ma non la fermata, è vietata nei sottovia, sotto i sovrapassaggi, sotto i fornici e i portici",
+    "text_ru": "Стоянка, но не остановка, запрещена в подземных проездах, под путепроводами, арками и портиками",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata ma anche la fermata.  È pericoloso per la scarsa visibilità!",
+      "text_ru": "Стоянка запрещена, но также запрещена и остановка. Это опасно из-за плохой видимости!",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5341,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati e sulle strade urbane di scorrimento, è consentita la sosta in prossimità dei dossi.",
+    "text_ru": "Вне населенных пунктов и на городских магистральных дорогах разрешена стоянка вблизи переломов профиля дороги.",
+    "image": null,
+    "comment": {
+      "text": "Fuori dei centri abitati e sulle strade urbane di scorrimento, la sosta è vietata sia in prossimità  che in corrispondenza dei dossi.",
+      "text_ru": "Вне населенных пунктов и на городских магистральных дорогах стоянка запрещена как вблизи, так и непосредственно на переломах профиля (доссах).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5342,
+    "topic_id": 16,
+    "text": "La sosta e la fermata sono vietate nelle curve e, fuori dei centri abitati e sulle strade urbane di scorrimento, anche in loro prossimità",
+    "text_ru": "Стоянка и остановка запрещены на поворотах (кривых), а вне населенных пунктов и на городских магистральных дорогах — также и вблизи них",
+    "image": null,
+    "comment": {
+      "text": "La sosta e la fermata sono vietate nelle curve e, fuori dei centri abitati e sulle strade urbane di scorrimento, anche in loro prossimità .",
+      "text_ru": "Стоянка и остановка запрещены на поворотах, а вне населенных пунктов и на городских скоростных дорогах — также и вблизи них.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_05_sosef063.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5343,
+    "topic_id": 16,
+    "text": "La sosta e la fermata sono vietate in prossimità e in corrispondenza di segnali stradali verticali in modo da occultarne la vista",
+    "text_ru": "Стоянка и остановка запрещены вблизи и непосредственно перед вертикальными дорожными знаками так, чтобы закрывать их видимость",
+    "image": null,
+    "comment": {
+      "text": "Si. La sosta e la fermata sono vietate in prossimità  e in corrispondenza di segnali stradali verticali o semaforici, quando si coprono e gli altri utenti non possono vederli.",
+      "text_ru": "Да. Остановка и стоянка запрещены вблизи и перед дорожными знаками или светофорами, если они закрывают их и другие участники движения не могут их видеть.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5344,
+    "topic_id": 16,
+    "text": "La sosta e la fermata sono vietate in prossimità e in corrispondenza di segnali semaforici in modo da occultarne la vista",
+    "text_ru": "Стоянка и остановка запрещены вблизи и перед сигналами светофора так, чтобы закрывать их видимость",
+    "image": null,
+    "comment": {
+      "text": "Si. La sosta e la fermata sono vietate in prossimità  e in corrispondenza di segnali stradali verticali o semaforici, quando si coprono e gli altri utenti non possono vederli.",
+      "text_ru": "Да. Остановка и стоянка запрещены вблизи и перед дорожными знаками или светофорами, если они закрывают их и другие участники движения не могут их видеть.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5345,
+    "topic_id": 16,
+    "text": "La sosta e la fermata sono vietate in corrispondenza dei segnali orizzontali di preselezione e lungo le corsie di canalizzazione",
+    "text_ru": "Стоянка и остановка запрещены на горизонтальной разметке предварительного выбора направления и вдоль полос канализации (направляющих полос)",
+    "image": null,
+    "comment": {
+      "text": "La sosta e la fermata sono vietate in corrispondenza dei segnali orizzontali di preselezione e lungo le corsie di canalizzazione, si crea intralcio e pericolo!",
+      "text_ru": "Стоянка и остановка запрещены на разметке выбора полосы и вдоль направляющих полос, так как это создает помехи и опасность!",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_13_isotra03.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5346,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati, la sosta e la fermata sono vietate in corrispondenza e in prossimità delle aree di intersezione",
+    "text_ru": "Вне населенных пунктов стоянка и остановка запрещены на перекрестках и вблизи них",
+    "image": null,
+    "comment": {
+      "text": "Fuori dei centri abitati, la sosta e la fermata sono vietate in corrispondenza e in prossimità  delle aree di intersezione.",
+      "text_ru": "Вне населенных пунктов стоянка и остановка запрещены непосредственно на перекрестках и вблизи них.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5347,
+    "topic_id": 16,
+    "text": "La sosta è vietata nelle curve ma, fuori dei centri abitati e sulle strade di scorrimento, non è vietata in loro prossimità",
+    "text_ru": "Стоянка запрещена на поворотах, но вне населенных пунктов и на магистральных дорогах она не запрещена вблизи них",
+    "image": null,
+    "comment": {
+      "text": "La sosta e la fermata sono vietate nelle curve e, fuori dei centri abitati e sulle strade urbane di scorrimento, anche in loro prossimità .",
+      "text_ru": "Стоянка и остановка запрещены на поворотах, а вне населенных пунктов и на городских магистральных дорогах — также и вблизи них.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_05_sosef063.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5348,
+    "topic_id": 16,
+    "text": "La sosta, ma non la fermata, è vietata in prossimità e in corrispondenza di segnali semaforici in modo da occultarne la vista",
+    "text_ru": "Стоянка, но не остановка, запрещена вблизи и перед сигналами светофора так, чтобы закрывать их видимость",
+    "image": null,
+    "comment": {
+      "text": "La sosta E la fermata sono vietate in prossimità e in corrispondenza di segnali stradali verticali o semaforici, in modo da occultarne la vista. Il motivo è il pericolo che può derivare dalla mancata vista del segnale e delle sue prescrizioni.",
+      "text_ru": "Стоянка И остановка запрещены вблизи и перед дорожными знаками или светофорами, чтобы не закрывать их видимость. Причина — опасность, вызванная невозможностью увидеть знак и его требования.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_03_sosef028.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5349,
+    "topic_id": 16,
+    "text": "La sosta è vietata in corrispondenza dei segnali orizzontali di preselezione ma non lungo le corsie di canalizzazione",
+    "text_ru": "Стоянка запрещена на горизонтальной разметке предварительного выбора полосы, но не вдоль направляющих полос",
+    "image": null,
+    "comment": {
+      "text": "La sosta e la fermata sono vietate in corrispondenza dei segnali orizzontali di preselezione e lungo le corsie di canalizzazione.",
+      "text_ru": "Остановка и стоянка запрещены на разметке выбора полосы и вдоль направляющих полос (каналов движения).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_03_sosef027.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5350,
+    "topic_id": 16,
+    "text": "Fuori dei centri abitati, la sosta è vietata in corrispondenza delle aree di intersezione ma non in loro prossimità",
+    "text_ru": "Вне населенных пунктов стоянка запрещена на перекрестках, но не вблизи них",
+    "image": null,
+    "comment": {
+      "text": "Fuori dei centri abitati, la sosta e la fermata sono vietate in corrispondenza e in prossimità  delle aree di intersezione.",
+      "text_ru": "Вне населенных пунктов стоянка и остановка запрещены непосредственно на перекрестках и вблизи них.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5351,
+    "topic_id": 16,
+    "text": "La sosta è vietata allo sbocco dei passi carrabili",
+    "text_ru": "Стоянка запрещена на выездах из дворовых территорий (въездах для транспорта)",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata DAVANTI allo sbocco dei passi carrabili  anche quando si lascia spazio sufficiente per l'accesso dei veicoli ",
+      "text_ru": "Стоянка запрещена ПЕРЕД выездом из дворовых территорий, даже если оставлено достаточно места для проезда транспорта.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_12_sosef035.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5352,
+    "topic_id": 16,
+    "text": "La sosta ma non la fermata è vietata sugli attraversamenti pedonali",
+    "text_ru": "Стоянка, но не остановка, запрещена на пешеходных переходах",
+    "image": null,
+    "comment": {
+      "text": "La fermata e la sosta del veicolo è SEMPRE vietata, in corrispondenza (sopra ) degli  ATTRAVERSAMENTI PEDONALI, nel caso si può parcheggiare prima o dopo le strsce.\r\n\r\n\r\n\r\n",
+      "text_ru": "Остановка и стоянка ТС ВСЕГДА запрещены непосредственно на ПЕШЕХОДНЫХ ПЕРЕХОДАХ; парковаться можно до или после «зебры».",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_10_div_ferm_pedonale.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5353,
+    "topic_id": 16,
+    "text": "La sosta è vietata sulle piste ciclabili, ma non agli sbocchi di esse nel caso sia di breve durata",
+    "text_ru": "Стоянка запрещена на велосипедных дорожках, но не на выездах с них, если она кратковременная",
+    "image": null,
+    "comment": {
+      "text": "La sosta e la fermata sono vietati sulle piste ciclabili e agli sbocchi di esse anche se di breve durata.",
+      "text_ru": "Стоянка и остановка запрещены на велосипедных дорожках и на выездах с них, даже кратковременные.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5354,
+    "topic_id": 16,
+    "text": "La sosta è consentita sui marciapiedi, solo se di breve durata",
+    "text_ru": "Стоянка разрешена на тротуарах, только если она кратковременная",
+    "image": null,
+    "comment": {
+      "text": "Durante la sosta, il veicolo può essere completamente collocato sul marciapiede, solo se esistono le apposite strisce di sosta (anche se si tratta di soste di breve durata).",
+      "text_ru": "При стоянке транспортное средство может быть полностью размещено на тротуаре только при наличии соответствующей парковочной разметки (даже если речь идет о кратковременной стоянке).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_02_dts009.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5355,
+    "topic_id": 16,
+    "text": "La sosta è vietata se si impedisce l'accesso ad altro veicolo già regolarmente in sosta",
+    "text_ru": "Стоянка запрещена, если она препятствует доступу к другому транспортному средству, уже находящемуся на стоянке по правилам",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata dovunque venga impedito di accedere ad un altro veicolo regolarmente in sosta (oppure ne venga impedito lo spostamento).",
+      "text_ru": "Стоянка запрещена везде, где она препятствует доступу к другому правильно припаркованному ТС (или препятствует его выезду).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_03_Sosef039.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5356,
+    "topic_id": 16,
+    "text": "La sosta è vietata dovunque venga impedito lo spostamento di veicoli in sosta",
+    "text_ru": "Стоянка запрещена везде, где она препятствует выезду (перемещению) стоящих транспортных средств",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata dovunque venga impedito di accedere ad un altro veicolo regolarmente in sosta (oppure ne venga impedito lo spostamento).",
+      "text_ru": "Стоянка запрещена везде, где она препятствует доступу к другому правильно припаркованному ТС (или препятствует его выезду).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_03_Sosef039.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5357,
+    "topic_id": 16,
+    "text": "La sosta è vietata in seconda fila, salvo che si tratti di veicoli a due ruote",
+    "text_ru": "Стоянка запрещена вторым рядом, за исключением случаев, когда речь идет о двухколесных транспортных средствах",
+    "image": null,
+    "comment": {
+      "text": "Vero! La sosta è vietata in seconda fila, si può nel i  veicoli sono tutti e due a due ruote.",
+      "text_ru": "Верно! Стоянка запрещена вторым рядом, она возможна, если оба транспортных средства двухколесные.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5358,
+    "topic_id": 16,
+    "text": "La sosta è vietata negli spazi riservati allo stazionamento e alla fermata degli autobus, dei filobus e dei veicoli circolanti su rotaia",
+    "text_ru": "Стоянка запрещена в местах, предназначенных для стоянки и остановки автобусов, троллейбусов и рельсового транспорта",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata negli spazi riservati allo stazionamento e alla fermata degli autobus, dei filobus e dei veicoli circolanti su rotaia.",
+      "text_ru": "Стоянка запрещена в местах, предназначенных для стоянки и остановки автобусов, троллейбусов и рельсовых транспортных средств.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/546.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5359,
+    "topic_id": 16,
+    "text": "La sosta è vietata a meno di 15 metri dal segnale di fermata di autobus, filobus e veicoli circolanti su rotaia, qualora gli spazi di stazionamento non siano delimitati",
+    "text_ru": "Стоянка запрещена ближе 15 метров от знака остановки автобусов, троллейбусов и рельсового транспорта, если границы места остановки не обозначены разметкой",
+    "image": null,
+    "comment": {
+      "text": "Si! La sosta è vietata a meno di 15 metri dal palo della fermata di autobus, filobus e veicoli circolanti su rotaia, qualora gli spazi di stazionamento non siano delimitati.",
+      "text_ru": "Да! Стоянка запрещена ближе 15 метров от знака (столба) остановки автобусов, троллейбусов и рельсового транспорта, если парковочные места не размечены.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/546.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5360,
+    "topic_id": 16,
+    "text": "La sosta degli autoveicoli in doppia fila è consentita per pochi minuti, azionando le luci di emergenza",
+    "text_ru": "Стоянка автомобилей вторым рядом разрешена на несколько минут с включенной аварийной сигнализацией",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata in seconda fila. Non è un caso di emergenza quindi le luci di emergenza nonpossono essere usate! ",
+      "text_ru": "Стоянка вторым рядом запрещена. Это не является экстренным случаем, поэтому аварийную сигнализацию использовать нельзя!",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5361,
+    "topic_id": 16,
+    "text": "La sosta degli autoveicoli in doppia fila è consentita purché rimanga spazio sufficiente per la circolazione di due file di veicoli",
+    "text_ru": "Стоянка автомобилей вторым рядом разрешена при условии, что остается достаточно места для движения двух рядов транспортных средств",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata in seconda fila, salvo che si tratti di veicoli a due ruote.\r\n\r\n",
+      "text_ru": "Стоянка запрещена вторым рядом, за исключением двухколесных транспортных средств.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5362,
+    "topic_id": 16,
+    "text": "La sosta è consentita negli spazi riservati allo stazionamento e alla fermata degli autobus, dei filobus e dei veicoli circolanti su rotaia purché sia di breve durata",
+    "text_ru": "Стоянка разрешена в местах, предназначенных для стоянки и остановки автобусов, троллейбусов и рельсового транспорта, при условии ее кратковременности",
+    "image": null,
+    "comment": {
+      "text": "La fermata dei veicoli è consentita ma la sosta è vietata, anche se di breve durata, negli spazi riservati allo stazionamento e alla fermata degli autobus, dei filobus e dei veicoli circolanti su rotaia.",
+      "text_ru": "Остановка транспортных средств разрешена, но стоянка запрещена (даже кратковременная) в местах, предназначенных для стоянки и остановки автобусов, троллейбусов и рельсового транспорта.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/546.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5363,
+    "topic_id": 16,
+    "text": "La sosta è vietata negli spazi riservati allo stazionamento dei veicoli in servizio di piazza",
+    "text_ru": "Стоянка запрещена в местах, зарезервированных для стоянки транспортных средств, работающих как такси",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata negli spazi riservati allo stazionamento dei veicoli in servizio di piazza, è ammessa mentre la fermata.",
+      "text_ru": "Стоянка запрещена в местах, зарезервированных для стоянки ТС на службе города (такси), при этом остановка разрешена.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/272.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5364,
+    "topic_id": 16,
+    "text": "La sosta è vietata sulle aree destinate al mercato e ai veicoli per il carico e lo scarico di cose, nelle ore stabilite",
+    "text_ru": "Стоянка запрещена в зонах, предназначенных для рынка и для транспортных средств, осуществляющих погрузку и разгрузку товаров, в установленные часы",
+    "image": null,
+    "comment": {
+      "text": "Vero! La sosta è vietata  ai veicoli per il carico e lo scarico di cose dove ci sono aree destinate al mercato ma solo nelle ore stabilite specificate nei pannelli integrativi di orario.",
+      "text_ru": "Верно! Стоянка запрещена в зонах рынков и местах погрузки/разгрузки товаров, но только в установленные часы, указанные на дополнительных табличках.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5365,
+    "topic_id": 16,
+    "text": "La sosta è vietata sulle banchine, salvo diversa segnalazione",
+    "text_ru": "Стоянка запрещена на обочинах, если иное не предусмотрено знаками",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata sulle banchine, salvo diversa segnalazione o per casi di emergenza.",
+      "text_ru": "Стоянка запрещена на обочинах (banchine), за исключением случаев наличия знаков или экстренных ситуаций.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_09_dts015.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5366,
+    "topic_id": 16,
+    "text": "La sosta è vietata negli spazi riservati alla fermata o alla sosta dei veicoli per persone invalide",
+    "text_ru": "Стоянка запрещена в местах, зарезервированных для остановки или стоянки транспортных средств для инвалидов",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata negli spazi riservati alla fermata o alla sosta dei veicoli per persone invalide.",
+      "text_ru": "Стоянка запрещена в местах, предназначенных для остановки или стоянки ТС для людей с ограниченными возможностями.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/091.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5367,
+    "topic_id": 16,
+    "text": "La sosta è vietata in corrispondenza degli scivoli o dei raccordi tra i marciapiedi e la carreggiata utilizzati dai veicoli per persone invalide",
+    "text_ru": "Стоянка запрещена на пандусах или съездах между тротуаром и проезжей частью, используемых инвалидными колясками/транспортом для инвалидов",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata in corrispondenza degli scivoli o dei raccordi tra i marciapiedi e la carreggiata utilizzati dai veicoli per persone invalide.",
+      "text_ru": "Стоянка запрещена напротив съездов (пандусов) или стыков тротуара с проезжей частью, используемых ТС для инвалидов.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_168_02_sosef038.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5368,
+    "topic_id": 16,
+    "text": "La sosta è consentita negli spazi riservati allo stazionamento dei taxi solo se non si protrae per lungo tempo",
+    "text_ru": "Стоянка разрешена в местах стоянки такси, только если она не длится долго",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata negli spazi riservati allo stazionamento dei veicoli in servizio di piazza, è invece consentita la fermata.",
+      "text_ru": "Стоянка запрещена в местах, зарезервированных для стоянки ТС на городской службе (такси), вместо этого разрешена остановка.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/324.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5369,
+    "topic_id": 16,
+    "text": "La sosta è consentita sulle aree destinate ai veicoli per il carico e lo scarico di cose, nelle ore stabilite, soltanto se di breve durata",
+    "text_ru": "Стоянка разрешена в зонах погрузки и разгрузки товаров в установленные часы, только если она кратковременная",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata sulle aree destinate al mercato e ai veicoli per il carico e lo scarico di cose, nelle ore stabilite.",
+      "text_ru": "Стоянка запрещена в зонах рынков и местах погрузки/разгрузки товаров в установленные часы.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5370,
+    "topic_id": 16,
+    "text": "La sosta è consentita negli spazi riservati alla fermata o alla sosta dei veicoli per persone invalide purché di breve durata",
+    "text_ru": "Стоянка разрешена в местах, зарезервированных для остановки или стоянки ТС для инвалидов, при условии ее кратковременности",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata negli spazi riservati alla fermata o alla sosta dei veicoli per persone invalide.",
+      "text_ru": "Стоянка запрещена в местах, предназначенных для остановки или стоянки ТС для инвалидов.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/091.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5371,
+    "topic_id": 16,
+    "text": "La sosta è vietata nelle corsie o carreggiate riservate ai mezzi pubblici",
+    "text_ru": "Стоянка запрещена на полосах или проезжих частях, зарезервированных для общественного транспорта",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata nelle corsie o carreggiate riservate ai mezzi pubblici.",
+      "text_ru": "Стоянка запрещена на полосах или проезжих частях, отведенных для общественного транспорта.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_02_Dts008.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5372,
+    "topic_id": 16,
+    "text": "La sosta è vietata nelle aree pedonali urbane",
+    "text_ru": "Стоянка запрещена в городских пешеходных зонах",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata nelle aree pedonali urbane.",
+      "text_ru": "Стоянка в городских пешеходных зонах запрещена.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_14_obl108e.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5373,
+    "topic_id": 16,
+    "text": "La sosta è vietata nelle zone a traffico limitato per i veicoli non autorizzati",
+    "text_ru": "Стоянка запрещена в зонах ограниченного движения (ZTL) для неавторизованных транспортных средств",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata nelle zone a traffico limitato per i veicoli non autorizzati.",
+      "text_ru": "Стоянка в зонах с ограниченным движением запрещена для транспортных средств без соответствующего разрешения.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_03_sosef046.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5374,
+    "topic_id": 16,
+    "text": "La sosta è vietata negli spazi destinati a servizi di emergenza o di igiene pubblica indicati dalla apposita segnaletica",
+    "text_ru": "Стоянка запрещена в местах, предназначенных для экстренных служб или служб общественной гигиены, обозначенных соответствующими знаками",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata negli spazi destinati ai veicoli per servizi di emergenza o di igiene pubblica indicati dalla apposita segnaletica, intende veicoli della polizia, vigili del fuoco  o ambulanze.",
+      "text_ru": "Стоянка запрещена в местах, отведенных для ТС экстренных служб или служб коммунальной гигиены, обозначенных знаками; имеются в виду автомобили полиции, пожарных или скорой помощи.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/310.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5375,
+    "topic_id": 16,
+    "text": "La sosta è vietata davanti ai cassonetti dei rifiuti urbani",
+    "text_ru": "Стоянка запрещена перед контейнерами для городских бытовых отходов",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata davanti ai cassonetti dei rifiuti urbani mentre è consentita la fermata.",
+      "text_ru": "Перед мусорными контейнерами стоянка запрещена, в то время как остановка разрешена.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5376,
+    "topic_id": 16,
+    "text": "Brevi soste sono consentite nelle aree pedonali urbane",
+    "text_ru": "Кратковременные стоянки разрешены в городских пешеходных зонах",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata nelle aree pedonali urbane (anche se di breve durata).",
+      "text_ru": "Стоянка в городских пешеходных зонах запрещена (даже кратковременная).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_14_obl108e.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5377,
+    "topic_id": 16,
+    "text": "La sosta, ed anche la fermata, sono vietate negli spazi destinati a servizi di emergenza o di igiene pubblica indicati dalla apposita segnaletica",
+    "text_ru": "Стоянка, а также остановка, запрещены в местах, предназначенных для экстренных служб или служб общественной гигиены, обозначенных соответствующими знаками",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata negli spazi destinati a servizi di emergenza o di igiene pubblica indicati dalla apposita segnaletica ma la fermata è consentita.",
+      "text_ru": "Стоянка в местах для экстренных служб или служб коммунальной гигиены запрещена, но остановка разрешена.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/311.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5378,
+    "topic_id": 16,
+    "text": "La sosta così come la fermata sono vietate davanti ai cassonetti dei rifiuti urbani",
+    "text_ru": "Стоянка, как и остановка, запрещены перед контейнерами для городских бытовых отходов",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata davanti ai cassonetti dei rifiuti urbani ma la fermata è consentita.",
+      "text_ru": "Стоянка перед мусорными контейнерами запрещена, но остановка разрешена.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5379,
+    "topic_id": 16,
+    "text": "La sosta è vietata, limitatamente alle ore di esercizio, in corrispondenza dei distributori di carburante, e in loro prossimità sino a 5 metri prima e dopo",
+    "text_ru": "Стоянка запрещена, только в часы работы, на территории автозаправочных станций и вблизи них на расстоянии до 5 метров до и после",
+    "image": null,
+    "comment": {
+      "text": "Vero! La sosta è vietata, solo nelle ore di esercizio cioè di apertura, in corrispondenza dei distributori di carburante mentre  loro prossimità  significa sino a 5 metri prima e dopo.",
+      "text_ru": "Верно! Стоянка запрещена только в часы работы (открытия) на АЗС, а «вблизи» означает до 5 метров до и после них.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5380,
+    "topic_id": 16,
+    "text": "Nei centri abitati il conducente non deve lasciare in sosta un rimorchio staccato dalla motrice, salvo diversa segnalazione",
+    "text_ru": "В населенных пунктах водитель не должен оставлять на стоянке прицеп, отсоединенный от тягача, если иное не предусмотрено знаками",
+    "image": null,
+    "comment": {
+      "text": "Nei centri abitati il conducente non deve lasciare in sosta un rimorchio staccato dalla motrice, salvo diversa segnalazione.",
+      "text_ru": "В населенных пунктах водителю запрещено оставлять на стоянке прицеп без тягача, если нет иных указаний.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/18_187_03_carrelloappendice_2.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5381,
+    "topic_id": 16,
+    "text": "Nel caso in cui la sosta è espressamente vietata da una norma del codice stradale, l'osservanza di tale divieto non è condizionata dalla presenza di cartelli segnaletici",
+    "text_ru": "В случае, если стоянка прямо запрещена нормой правил дорожного движения, соблюдение этого запрета не зависит от наличия дорожных знаков",
+    "image": null,
+    "comment": {
+      "text": "Vero! Non c'è bisogno di indicare con un segnale il divieto di sosta per quei casi in cui già il divieto è previsto per una regola specifica, per esempio in curva!\r\n\r\n",
+      "text_ru": "Верно! Нет необходимости устанавливать знак запрета стоянки в тех случаях, когда запрет уже предусмотрен конкретным правилом, например, на повороте!",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_03_sosef003.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5382,
+    "topic_id": 16,
+    "text": "La sosta è vietata in corrispondenza dei distributori di carburante, sino a 5 metri prima e dopo, anche quando i distributori sono chiusi",
+    "text_ru": "Стоянка запрещена на автозаправочных станциях и на расстоянии до 5 метров до и после них, даже когда АЗС закрыты",
+    "image": null,
+    "comment": {
+      "text": "La sosta è vietata,durante le ore di esercizio, quando cioè è aperto.",
+      "text_ru": "Стоянка запрещена в часы работы АЗС, то есть когда она открыта.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_03_sosef041.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5383,
+    "topic_id": 16,
+    "text": "Nel caso in cui la sosta è espressamente vietata da una norma del codice della strada, l'osservanza di tale divieto è comunque condizionata dalla presenza di cartelli segnaletici",
+    "text_ru": "В случае, когда стоянка прямо запрещена нормой правил дорожного движения, соблюдение этого запрета в любом случае зависит от наличия дорожных знаков",
+    "image": null,
+    "comment": {
+      "text": "No. Non è necessario mettere il segnale di DIVIETO DI SOSTA dove già per norma generale è vietato sostare. Ad esempio  in curva.",
+      "text_ru": "Нет. Необязательно ставить знак ЗАПРЕТ СТОЯНКИ там, где стоять уже запрещено общими правилами. Например, на повороте.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_05_Sosef063.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5384,
+    "topic_id": 16,
+    "text": "La sosta negli spazi riservati allo stazionamento e alla fermata di autobus, filobus e veicoli circolanti su rotaia comporta, tra l'altro, la sottrazione di punti dalla patente.",
+    "text_ru": "Стоянка в местах, зарезервированных для стоянки и остановки автобусов, троллейбусов и рельсового транспорта, влечет за собой, помимо прочего, вычет баллов из водительского удостоверения",
+    "image": null,
+    "comment": {
+      "text": "Si. Per la sosta negli spazi riservati allo stazionamento e alla fermata di autobus, filobus e veicoli circolanti su rotaia è prevista la sottrazione di punti dalla patente (-2 punti).",
+      "text_ru": "Да. За стоянку в местах, предназначенных для остановки и стоянки автобусов, троллейбусов и рельсового транспорта, предусмотрено снятие баллов с прав (-2 балла).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_04_patentePunti01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5385,
+    "topic_id": 16,
+    "text": "La sosta, a meno di 15 metri dal segnale di fermata degli autobus, qualora gli spazi di fermata non siano delimitati, comporta tra l'altro, la sottrazione di punti dalla patente",
+    "text_ru": "Стоянка ближе 15 метров от знака остановки автобусов, если границы остановки не обозначены разметкой, влечет за собой, помимо прочего, вычет баллов из водительского удостоверения",
+    "image": null,
+    "comment": {
+      "text": "La sosta, a meno di 15 metri dal segnale di fermata degli autobus, qualora gli spazi di fermata non siano delimitati, comporta tra l'altro, la sottrazione di punti dalla patente (-2 punti).",
+      "text_ru": "Стоянка на расстоянии менее 15 метров от знака остановки автобуса, если место не размечено, влечет за собой вычет баллов из прав (-2 балла).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_04_patentePunti01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5386,
+    "topic_id": 16,
+    "text": "La sosta negli spazi riservati alla fermata e alla sosta dei veicoli per persone invalide, comporta, tra l'altro, la sottrazione di punti dalla patente",
+    "text_ru": "Стоянка в местах, зарезервированных для остановки и стоянки транспортных средств инвалидов, влечет за собой, помимо прочего, вычет баллов из водительского удостоверения",
+    "image": null,
+    "comment": {
+      "text": "La sosta negli spazi riservati alla fermata e alla sosta dei veicoli per persone invalide, comporta, tra l'altro, la sottrazione di punti dalla patente (-2 punti).",
+      "text_ru": "Стоянка в местах, предназначенных для остановки и стоянки ТС для инвалидов, влечет за собой снятие баллов с прав (-2 балла).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/091.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5387,
+    "topic_id": 16,
+    "text": "La sosta in corrispondenza degli scivoli o dei raccordi tra i marciapiedi e la carreggiata utilizzati dai veicoli per persone invalide comporta, tra l'altro, la sottrazione di punti dalla patente",
+    "text_ru": "Стоянка напротив пандусов или съездов с тротуара на проезжую часть, используемых инвалидами, влечет за собой, помимо прочего, вычет баллов из водительского удостоверения",
+    "image": null,
+    "comment": {
+      "text": "La sosta in corrispondenza degli scivoli o dei raccordi tra i marciapiedi e la carreggiata utilizzati dai veicoli per persone invalide comporta, tra l'altro la sottrazione di punti dalla patente (-2 punti).",
+      "text_ru": "Стоянка напротив пандусов или мест стыка тротуара и дороги, используемых ТС для инвалидов, влечет за собой снятие баллов с прав (-2 балла).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_168_02_sosef038.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5388,
+    "topic_id": 16,
+    "text": "La sosta nelle corsie o carreggiate riservate ai mezzi pubblici comporta, tra l'altro, la sottrazione di punti dalla patente",
+    "text_ru": "Стоянка на полосах или проезжих частях, зарезервированных для общественного транспорта, влечет за собой, помимо прочего, вычет баллов из водительского удостоверения",
+    "image": null,
+    "comment": {
+      "text": "La sosta nelle corsie o carreggiate riservate ai mezzi pubblici comporta, tra l'altro, la sottrazione di punti dalla patente (-2 punti).",
+      "text_ru": "Стоянка на полосах или дорогах, предназначенных для общественного транспорта, влечет за собой снятие баллов с прав (-2 балла).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_02_Dts008.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5389,
+    "topic_id": 16,
+    "text": "La sosta negli spazi riservati allo stazionamento e alla fermata di autobus, filobus e veicoli circolanti su rotaia, è consentita se si utilizza il disco orario",
+    "text_ru": "Стоянка в местах, зарезервированных для стоянки и остановки автобусов, троллейбусов и рельсового транспорта, разрешена при использовании парковочного диска",
+    "image": null,
+    "comment": {
+      "text": "La sosta negli spazi riservati allo stazionamento e alla fermata di autobus, filobus e veicoli circolanti su rotaia è vietata e comporta, tra l'altro, la sottrazione di punti dalla patente (-2 punti). Non prevede l'uso del disco orario.",
+      "text_ru": "Стоянка в местах для остановки и стоянки автобусов, троллейбусов и трамваев запрещена и влечет за собой снятие баллов (-2 балла). Использование парковочного диска не предусмотрено.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_03_Dts008.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5390,
+    "topic_id": 16,
+    "text": "La sosta a meno di 15 metri dal segnale di fermata autobus, qualora gli spazi di stazionamento non siano delimitati, è consentita azionando la segnalazione luminosa di pericolo (quattro frecce lampeggianti simultaneamente)",
+    "text_ru": "Стоянка на расстоянии менее 15 метров от знака остановки автобуса, если границы места остановки не обозначены разметкой, разрешена при включении аварийной световой сигнализации (одновременное мигание всех указателей поворота)",
+    "image": null,
+    "comment": {
+      "text": "La sosta, a meno di 15 metri dal segnale di fermata degli autobus, qualora gli spazi di fermata non siano delimitati, è vietata. Non è un caso di emergenza quindi non si possono usare le luci di emergenza!",
+      "text_ru": "Стоянка на расстоянии менее 15 метров от знака остановки автобуса, если границы места остановки не обозначены разметкой, запрещена. Это не является экстренным случаем, поэтому нельзя использовать аварийную сигнализацию!",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5391,
+    "topic_id": 16,
+    "text": "La sosta negli spazi riservati alla fermata e alla sosta dei veicoli per persone invalide comporta una sanzione pecuniaria, ma non la sottrazione di punti dalla patente del conducente",
+    "text_ru": "Стоянка в местах, зарезервированных для остановки и стоянки транспортных средств инвалидов, влечет за собой денежный штраф, но не снятие баллов с водительского удостоверения",
+    "image": null,
+    "comment": {
+      "text": "La sosta negli spazi riservati alla fermata e alla sosta dei veicoli per persone invalide, comporta anche la sottrazione di punti dalla patente (-2 punti).",
+      "text_ru": "Стоянка в местах, зарезервированных для остановки и стоянки транспортных средств инвалидов, также влечет за собой снятие баллов с водительского удостоверения (-2 балла).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/091.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5392,
+    "topic_id": 16,
+    "text": "La sosta in corrispondenza degli scivoli o dei raccordi tra i marciapiedi e la carreggiata utilizzati dai veicoli per persone invalide, comporta la sospensione della patente",
+    "text_ru": "Стоянка в местах расположения пандусов или съездов между тротуарами и проезжей частью, используемых транспортными средствами инвалидов, влечет за собой лишение водительских прав",
+    "image": null,
+    "comment": {
+      "text": "La sosta in corrispondenza degli scivoli o dei raccordi tra i marciapiedi e la carreggiata utilizzati dai veicoli per persone invalide comporta  la sottrazione di punti dalla patente (-2 punti) ma non comporta la sospensione della patente.",
+      "text_ru": "Стоянка в местах расположения пандусов или съездов между тротуарами и проезжей частью, используемых транспортными средствами инвалидов, влечет за собой снятие баллов с водительского удостоверения (-2 балла), но не влечет за собой лишение прав.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_168_02_sosef038.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5393,
+    "topic_id": 16,
+    "text": "La sosta nelle corsie o carreggiate riservate ai mezzi pubblici, è consentita, nei centri abitati, dalle ore 22.00 alle ore 8.00",
+    "text_ru": "Стоянка на полосах или проезжих частях, зарезервированных для общественного транспорта, разрешена в населенных пунктах с 22:00 до 08:00",
+    "image": null,
+    "comment": {
+      "text": "La sosta nelle corsie o carreggiate riservate ai mezzi pubblici è vietata 24h su 24.",
+      "text_ru": "Стоянка на полосах или проезжих частях, зарезервированных для общественного транспорта, запрещена 24 часа в сутки.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_02_Dts008.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5394,
+    "topic_id": 16,
+    "text": "La sosta di emergenza è l'interruzione della marcia nel caso in cui il veicolo è inutilizzabile per avaria",
+    "text_ru": "Вынужденная остановка — это прекращение движения в случае, если транспортное средство нельзя использовать из-за неисправности",
+    "image": null,
+    "comment": {
+      "text": "Vero! La sosta di emergenza è l'interruzione della marcia nel caso in cui il veicolo deve arrestarsi per avaria  oppure per malessere fisico del conducente o di un passeggero.",
+      "text_ru": "Верно! Вынужденная остановка — это прекращение движения в случае, если транспортное средство должно остановиться из-за технической неисправности или из-за физического недомогания водителя или пассажира.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_03_dts010.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5395,
+    "topic_id": 16,
+    "text": "La sosta di emergenza è l'interruzione della marcia nel caso in cui il veicolo deve arrestarsi per malessere fisico del conducente o di un passeggero",
+    "text_ru": "Вынужденная остановка — это прекращение движения в случае, если транспортное средство должно остановиться из-за физического недомогания водителя или пассажира",
+    "image": null,
+    "comment": {
+      "text": "La sosta di emergenza è l'interruzione della marcia nel caso in cui il veicolo deve arrestarsi per malessere fisico del conducente o di un passeggero o per avaria.",
+      "text_ru": "Вынужденная остановка — это прекращение движения в случае, если транспортное средство должно остановиться из-за физического недомогания водителя, пассажира или из-за технической неисправности.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_03_dts010.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5396,
+    "topic_id": 16,
+    "text": "La sosta di emergenza è l'interruzione della marcia dovuta ad esigenze della circolazione",
+    "text_ru": "Вынужденная остановка — это прекращение движения, обусловленное необходимостью организации дорожного движения",
+    "image": null,
+    "comment": {
+      "text": "Falso ! La sosta di emergenza è l'interruzione della marcia nel caso in cui il veicolo deve arrestarsi per avaria  oppure per malessere fisico del conducente o di un passeggero.",
+      "text_ru": "Ложно! Вынужденная остановка — это прекращение движения в случае, если транспортное средство должно остановиться из-за технической неисправности или из-за физического недомогания водителя или пассажира.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_03_dts010.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5397,
+    "topic_id": 16,
+    "text": "La sosta di emergenza è la temporanea sospensione della marcia per consentire la discesa di persona invalida",
+    "text_ru": "Вынужденная остановка — это временное прекращение движения для обеспечения высадки инвалида",
+    "image": null,
+    "comment": {
+      "text": "Falso! La sosta di emergenza è l'interruzione della marcia nel caso in cui il veicolo deve arrestarsi per avaria  oppure per malessere fisico del conducente o di un passeggero.",
+      "text_ru": "Ложно! Вынужденная остановка — это прекращение движения в случае, если транспортное средство должно остановиться из-за технической неисправности или из-за физического недомогания водителя или пассажира.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_03_dts010.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5398,
+    "topic_id": 16,
+    "text": "La sosta di emergenza è la temporanea sospensione della marcia per consentire ad una persona invalida di salire sul veicolo",
+    "text_ru": "Вынужденная остановка — это временное прекращение движения для того, чтобы позволить инвалиду сесть в транспортное средство",
+    "image": null,
+    "comment": {
+      "text": "Falso! La sosta di emergenza è l'interruzione della marcia nel caso in cui il veicolo deve arrestarsi per avaria  oppure per malessere fisico del conducente o di un passeggero.",
+      "text_ru": "Ложно! Вынужденная остановка — это прекращение движения в случае, если транспортное средство должно остановиться из-за технической неисправности или из-за физического недомогания водителя или пассажира.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_03_dts010.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5399,
+    "topic_id": 16,
+    "text": "Quando si aprono le porte di un veicolo, bisogna assicurarsi che ciò non costituisca pericolo o intralcio per gli altri utenti della strada",
+    "text_ru": "При открывании дверей транспортного средства необходимо убедиться, что это не создает опасности или помех для других участников дорожного движения",
+    "image": null,
+    "comment": {
+      "text": "Quando si aprono le porte di un veicolo, bisogna assicurarsi che ciò non costituisca pericolo o intralcio per gli altri utenti della strada guardando anche girando la testa per dare precedenza ai veicoli in transito.",
+      "text_ru": "При открывании дверей транспортного средства необходимо убедиться, что это не создает опасности или помех для других участников дорожного движения, в том числе поворачивая голову, чтобы уступить дорогу проезжающим транспортным средствам.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/11_209_02_11019.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5400,
+    "topic_id": 16,
+    "text": "Prima di aprire lo sportello di un veicolo dal lato rivolto verso il centro della strada bisogna assicurarsi che non sopraggiungano altri veicoli",
+    "text_ru": "Перед открытием двери транспортного средства со стороны центра дороги необходимо убедиться в отсутствии приближающихся других транспортных средств",
+    "image": null,
+    "comment": {
+      "text": "Quando si aprono le porte di un veicolo, bisogna assicurarsi che ciò non costituisca pericolo o intralcio per gli altri utenti della strada guardando anche girando la testa per dare precedenza ai veicoli in transito.",
+      "text_ru": "При открывании дверей транспортного средства необходимо убедиться, что это не создает опасности или помех для других участников дорожного движения, в том числе поворачивая голову, чтобы уступить дорогу проезжающим транспортным средствам.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/11_209_02_11019.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5401,
+    "topic_id": 16,
+    "text": "Prima di aprire lo sportello di un veicolo dal lato rivolto verso il marciapiede bisogna assicurarsi che non sopraggiungano pedoni",
+    "text_ru": "Перед открытием двери транспортного средства со стороны тротуара необходимо убедиться в отсутствии приближающихся пешеходов",
+    "image": null,
+    "comment": {
+      "text": "Quando si aprono le porte di un veicolo, bisogna assicurarsi che ciò non costituisca pericolo o intralcio per gli altri utenti della strada guardando anche girando la testa per dare precedenza ai veicoli in transito.",
+      "text_ru": "При открывании дверей транспортного средства необходимо убедиться, что это не создает опасности или помех для других участников дорожного движения, в том числе поворачивая голову, чтобы уступить дорогу проезжающим транспортным средствам.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/11_209_02_11019.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5402,
+    "topic_id": 16,
+    "text": "Quando si scende da un veicolo bisogna assicurarsi che ciò non costituisca pericolo o intralcio per gli altri utenti della strada",
+    "text_ru": "При выходе из транспортного средства необходимо убедиться, что это не создает опасности или помех для других участников дорожного движения",
+    "image": null,
+    "comment": {
+      "text": "Quando si aprono le porte di un veicolo, bisogna assicurarsi che ciò non costituisca pericolo o intralcio per gli altri utenti della strada guardando anche girando la testa per dare precedenza ai veicoli in transito.",
+      "text_ru": "При открывании дверей транспортного средства необходимо убедиться, что это не создает опасности или помех для других участников дорожного движения, в том числе поворачивая голову, чтобы уступить дорогу проезжающим транспортным средствам.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/11_209_02_11019.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5403,
+    "topic_id": 16,
+    "text": "Allorché si accinge a scendere dall'autoveicolo, il conducente deve assicurarsi, anche mediante lo specchietto retrovisore, che non sopraggiungano altri veicoli",
+    "text_ru": "Собираясь выйти из автомобиля, водитель должен убедиться, в том числе с помощью зеркала заднего вида, в отсутствии приближающихся транспортных средств",
+    "image": null,
+    "comment": {
+      "text": "Quando si aprono le porte di un veicolo, bisogna assicurarsi che ciò non costituisca pericolo o intralcio per gli altri utenti della strada guardando anche girando la testa per dare precedenza ai veicoli in transito.",
+      "text_ru": "При открывании дверей транспортного средства необходимо убедиться, что это не создает опасности или помех для других участников дорожного движения, в том числе поворачивая голову, чтобы уступить дорогу проезжающим транспортным средствам.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/11_209_02_11019.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5404,
+    "topic_id": 16,
+    "text": "Prima di scendere dal veicolo in sosta, il conducente deve assicurarsi di avere spento il motore",
+    "text_ru": "Перед выходом из припаркованного транспортного средства водитель должен убедиться, что двигатель выключен",
+    "image": null,
+    "comment": {
+      "text": "Prima di scendere dal veicolo per sostare il conducente deve assicurarsi di avere spento il motore, aver chiuso le portiere, azionato il freno a mano e aver inserito la prima marcia.",
+      "text_ru": "Перед тем как покинуть транспортное средство на стоянке, водитель должен убедиться, что двигатель выключен, двери закрыты, затянут стояночный тормоз и включена первая передача.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_02_sosef019.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5405,
+    "topic_id": 16,
+    "text": "L'apertura di uno sportello del veicolo dal lato del marciapiede comporta l'obbligo di attivare l'indicatore di direzione da quel lato",
+    "text_ru": "Открытие двери транспортного средства со стороны тротуара влечет за собой обязанность включить указатель поворота с этой стороны",
+    "image": null,
+    "comment": {
+      "text": "Intende se bisogna attivare l'indicatore di direzione per segnalare che si sta per  aprire lo sportello  dal lato rivolto verso il marciapiede! La freccia va usata ma per segnalare che si vuole accostare con il veicolo! ",
+      "text_ru": "Имеется в виду, нужно ли включать указатель поворота, чтобы просигнализировать о намерении открыть дверь со стороны тротуара! Указатель поворота используется, чтобы предупредить о намерении припарковаться у обочины!",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/21_199_04_21008_v01.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5406,
+    "topic_id": 16,
+    "text": "L'apertura degli sportelli del veicolo dal lato rivolto verso il centro della strada è vietato",
+    "text_ru": "Открытие дверей транспортного средства со стороны, обращенной к центру дороги, запрещено",
+    "image": null,
+    "comment": {
+      "text": "Non è vietata! iImportante prima di aprire lo sportello di un veicolo dal lato rivolto verso il centro della strada biassicurarsi che non sopraggiungano altri veicoli.",
+      "text_ru": "Это не запрещено! Важно перед открытием двери транспортного средства со стороны центра дороги убедиться в отсутствии приближающихся транспортных средств.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/11_209_02_11019.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5407,
+    "topic_id": 16,
+    "text": "Il conducente può lasciare il veicolo in sosta con il motore acceso per consentire il funzionamento dell'aria condizionata",
+    "text_ru": "Водитель может оставить транспортное средство на стоянке с работающим двигателем для обеспечения работы кондиционера",
+    "image": null,
+    "comment": {
+      "text": "E'  vietato lasciare il veicolo in sosta a motore acceso.",
+      "text_ru": "Запрещено оставлять транспортное средство на стоянке с работающим двигателем.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5408,
+    "topic_id": 16,
+    "text": "Prima di scendere dal veicolo in sosta, il conducente deve azionare il freno a mano del veicolo, su tutte le strade in discesa ma non in quelle in salita",
+    "text_ru": "Перед выходом из припаркованного транспортного средства водитель должен затянуть стояночный тормоз на всех дорогах с уклоном вниз, но не на подъемах",
+    "image": null,
+    "comment": {
+      "text": "Prima di scendere dal veicolo in sosta, il conducente deve sempre azionare il freno a mano del veicolo, su qualunque tipo di strada.",
+      "text_ru": "Перед выходом из припаркованного транспортного средства водитель должен всегда затягивать стояночный тормоз на любом типе дороги.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_201_01_frean07.jpg"
+    },
+    "answer": false
+  }
+]

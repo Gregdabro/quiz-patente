@@ -1,0 +1,691 @@
+[
+  {
+    "id": 57,
+    "topic_id": null,
+    "text": "L'isola di traffico è una parte della strada sulla quale è vietato il transito dei motocicli",
+    "text_ru": "Направляющий островок — это часть дороги, по которой запрещено движение мотоциклов",
+    "image": null,
+    "comment": {
+      "text": "L'isola di traffico è parte della strada destinata a incanalare le correnti di traffico (veicoli) in varie direzioni. L'isola di traffico, opportunamente delimitata e NON TRANSITABILE (da tutti i veicoli), è delimitata da strisce bianche continue, può essere a raso o in rilievo (rialzata) e viene evidenziata mediante zebrature di colore bianco.",
+      "text_ru": "Направляющий островок (isola di traffico) — это часть дороги, предназначенная для разделения транспортных потоков по разным направлениям. Островок, должным образом обозначенный и НЕПРЕДНАЗНАЧЕННЫЙ ДЛЯ ДВИЖЕНИЯ (всех транспортных средств), ограничен сплошными белыми линиями, может быть на одном уровне с дорогой или приподнятым и выделяется белой наклонной разметкой (зеброй).",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 59,
+    "topic_id": null,
+    "text": "L'isola di traffico, se rialzata, è preceduta da zebrature di colore bianco",
+    "text_ru": "Направляющему островку, если он приподнят, предшествует наклонная разметка («зебра») белого цвета",
+    "image": null,
+    "comment": {
+      "text": "L'isola di traffico è parte della strada destinata a incanalare le correnti di traffico (veicoli) in varie direzioni. L'isola di traffico è delimitata da strisce bianche continue, può essere a raso o in rilievo (rialzata) e viene evidenziata mediante zebrature di colore bianco.\r\n\r\nL'isola di traffico, SE RIALZATA, è preceduta da ZEBRATURE di colore bianco.",
+      "text_ru": "Направляющий островок служит для распределения транспортных потоков. Он ограничен сплошными белыми линиями, может быть вровень с дорогой или приподнят. ПРИПОДНЯТОМУ островку предшествует НАКЛОННАЯ РАЗМЕТКА белого цвета.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_13_isotra03.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 62,
+    "topic_id": null,
+    "text": "L'isola di traffico serve per il transito dei pedoni",
+    "text_ru": "Направляющий островок служит для движения пешеходов",
+    "image": null,
+    "comment": {
+      "text": "Ti stai confondendo, è il marciapiede che serve per il transito dei pedoni.\r\n\r\nL'isola di traffico (foto a fianco) è parte della strada destinata a incanalare le correnti di traffico (veicoli) in varie direzioni. L'isola di traffico, opportunamente delimitata e NON TRANSITABILE (da tutti i veicoli), è delimitata da strisce bianche continue, può essere a raso o in rilievo (rialzata) e viene evidenziata mediante zebrature di colore bianco.",
+      "text_ru": "Вы путаете, для движения пешеходов служит тротуар. Направляющий островок — часть дороги для разделения транспортных потоков. Он НЕПРЕДНАЗНАЧЕН ДЛЯ ДВИЖЕНИЯ (любых ТС), ограничен сплошными белыми линиями и может быть приподнятым.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 68,
+    "topic_id": null,
+    "text": "L'isola di traffico è posta al di fuori della strada",
+    "text_ru": "Направляющий островок расположен за пределами дороги",
+    "image": null,
+    "comment": {
+      "text": "L'isola di traffico è PARTE DELLA STRADA destinata a incanalare le correnti di traffico (veicoli) in varie direzioni. L'isola di traffico, opportunamente delimitata e NON TRANSITABILE (da tutti i veicoli), è delimitata da strisce bianche continue, può essere a raso o in rilievo (rialzata) e viene evidenziata mediante zebrature di colore bianco.",
+      "text_ru": "Направляющий островок является ЧАСТЬЮ ДОРОГИ, предназначенной для направления транспортных потоков. Он не предназначен для проезда, ограничен сплошными белыми линиями и выделяется разметкой.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_13_isotra03.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 70,
+    "topic_id": null,
+    "text": "L'isola di traffico facilita la salita e la discesa di passeggeri da tram, filobus e autobus",
+    "text_ru": "Направляющий островок облегчает посадку и высадку пассажиров трамваев, троллейбусов и автобусов",
+    "image": null,
+    "comment": {
+      "text": "ATTENZIONE a non confonderti! \r\n\r\nL'ISOLA DI TRAFFICO serve per incanalare il traffico in varie direzioni e su di essa è vietata la circolazione.\r\n\r\nCiò che facilita la salita e la discesa di passeggeri da tram, filobus e autobus è il SALVAGENTE.",
+      "text_ru": "ВНИМАНИЕ, не путайте! НАПРАВЛЯЮЩИЙ ОСТРОВОК служит для распределения трафика, движение по нему запрещено. То, что облегчает посадку и высадку пассажиров общественного транспорта — это ПОСАДОЧНАЯ ПЛОЩАДКА (salvagente).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 72,
+    "topic_id": null,
+    "text": "L'isola di traffico è un'area pedonale urbana",
+    "text_ru": "Направляющий островок — это городская пешеходная зона",
+    "image": null,
+    "comment": {
+      "text": "L'isola di traffico è parte della strada DESTINATA A INCANALARE LE CORRENTI DI TRAFFICO (veicoli) in varie direzioni.\r\n\r\nL'isola di traffico (immagine a fianco), opportunamente delimitata e NON TRANSITABILE (da tutti i veicoli), è delimitata da strisce bianche continue, può essere a raso o in rilievo (rialzata) e viene evidenziata mediante zebrature di colore bianco.",
+      "text_ru": "Направляющий островок — это часть дороги, ПРЕДНАЗНАЧЕННАЯ ДЛЯ НАПРАВЛЕНИЯ ТРАНСПОРТНЫХ ПОТОКОВ. Он не предназначен для движения, ограничен сплошными линиями и выделен разметкой.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_13_isotra03.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 169,
+    "topic_id": null,
+    "text": "La corsia può essere destinata ad effettuare sorpassi",
+    "text_ru": "Полоса движения может быть предназначена для выполнения обгона",
+    "image": null,
+    "comment": {
+      "text": "La corsia è una parte della carreggiata che consente la circolazione di una sola fila di veicoli ed è limitata da strisce continue o discontinue e può essere vietata a talune categorie di veicoli. \r\nL'ente proprietario della strada può imporre che su una corsia i veicoli transitino ad una velocità  minima obbligatoria.\r\n\r\nLa corsia può essere DESTINATA: alla marcia, AL SORPASSO,(in figura corsia di destra marcia normale,corsie di sinistra destinate al sorpasso), alla sosta di emergenza, al rallentamento dei veicoli in uscita dall'autostrada (corsia di decelerazione) o all'accelerazione dei veicoli in entrata in autostrada (corsia di accelerazione).",
+      "text_ru": "Полоса движения — часть проезжей части для движения в один ряд, ограниченная разметкой. Полоса может быть ПРЕДНАЗНАЧЕНА: для движения, ДЛЯ ОБГОНА, для аварийной остановки, для замедления (полоса торможения) или для ускорения (полоса разгона).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_03_ind243a.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 170,
+    "topic_id": null,
+    "text": "L'ente proprietario della strada può imporre che su una corsia i veicoli transitino ad una velocità minima obbligatoria",
+    "text_ru": "Владелец дороги может установить на полосе движения обязательную минимальную скорость",
+    "image": null,
+    "comment": {
+      "text": "La corsia è una parte della carreggiata che consente la circolazione di una sola fila di veicoli ed è limitata da strisce continue o discontinue e può essere vietata a talune categorie di veicoli. \r\nL'ENTE PROPRIETARIO della strada può IMPORRE che su una corsia i veicoli transitino ad una VELOCITA' MINIMA OBBLIGATORIA.\r\n\r\nLa corsia può essere destinata: alla marcia, al sorpasso, alla sosta di emergenza, al rallentamento dei veicoli in uscita dall'autostrada (corsia di decelerazione) o all'accelerazione dei veicoli in entrata in autostrada (corsia di accelerazione).",
+      "text_ru": "Полоса движения позволяет движение в один ряд. ВЛАДЕЛЕЦ дороги может УСТАНОВИТЬ на полосе ОБЯЗАТЕЛЬНУЮ МИНИМАЛЬНУЮ СКОРОСТЬ. Полосы могут иметь разное назначение: движение, обгон, торможение, разгон или аварийная остановка.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/243.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 173,
+    "topic_id": null,
+    "text": "La corsia può essere riservata ai veicoli che intendono svoltare (corsia specializzata)",
+    "text_ru": "Полоса может быть зарезервирована для транспортных средств, намеревающихся совершить поворот (специализированная полоса)",
+    "image": null,
+    "comment": {
+      "text": "La corsia è una parte della carreggiata che consente la circolazione di una sola fila di veicoli ed è limitata da strisce continue o discontinue e può essere vietata a talune categorie di veicoli. \r\nL'ente proprietario della strada può imporre che su una corsia i veicoli transitino ad una velocità  minima obbligatoria.\r\n\r\nLa corsia può essere RISERVATA ad esempio: ai veicoli che INTENDONO SVOLTARE (CORSIA SPECIALIZZATA) e alla circolazione di alcune categorie di veicoli (taxi, autobus, ecc.).",
+      "text_ru": "Полоса движения предназначена для движения в один ряд. Она может быть ВЫДЕЛЕНА, например: для ТС, НАМЕРЕВАЮЩИХСЯ ПОВЕРНУТЬ (СПЕЦИАЛИЗИРОВАННАЯ ПОЛОСА), или для определенных категорий ТС (такси, автобусы и т.д.).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_207_05_pvc038.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 182,
+    "topic_id": null,
+    "text": "Fuori dai centri abitati, su una stessa corsia possono circolare affiancati due ciclomotori",
+    "text_ru": "Вне населенных пунктов по одной полосе могут двигаться рядом два мопеда",
+    "image": null,
+    "comment": {
+      "text": "La corsia è una parte della carreggiata che consente la circolazione DI UNA SOLA FILA DI VEICOLI ed è limitata da strisce continue o discontinue e può essere vietata a talune categorie di veicoli. \r\nL'ente proprietario della strada può imporre che su una corsia i veicoli transitino ad una velocità  minima obbligatoria.",
+      "text_ru": "Полоса движения — часть проезжей части, допускающая движение только В ОДИН РЯД ТРАНСПОРТНЫХ СРЕДСТВ.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_208_01_pvc047.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 296,
+    "topic_id": null,
+    "text": "Le strisce retroriflettenti applicate lateralmente ad alcuni veicoli possono essere di colore bianco o giallo",
+    "text_ru": "Световозвращающие полосы, наносимые на боковые стороны некоторых транспортных средств, могут быть белого или желтого цвета",
+    "image": null,
+    "comment": {
+      "text": "Le strisce retroriflettenti (detti anche \"evidenziatori\") segnalano lateralmente e posteriormente gli autocarri e i rimorchi per trasporto di cose con massa massima a pieno carico superiore a 3,5 t.\r\n\r\nLATERALMENTE possono essere di colore BIANCO o GIALLO. \r\n\r\nPOSTERIORMENTE possono essere di colore ROSSO o GIALLO. ",
+      "text_ru": "Световозвращающие полосы обозначают сбоку и сзади грузовики и прицепы массой более 3,5 т. СБОКУ они могут быть БЕЛОГО или ЖЕЛТОГО цвета. СЗАДИ они могут быть КРАСНОГО или ЖЕЛТОГО цвета.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 298,
+    "topic_id": null,
+    "text": "Il conducente che vede i pannelli in figura sta seguendo un autocarro con massa a pieno carico superiore a 3,5 tonnellate  (304)",
+    "text_ru": "Водитель, видящий панели на рисунке, следует за грузовым автомобилем с разрешенной максимальной массой более 3,5 тонн (304)",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/304.jpg",
+    "comment": {
+      "text": "Durante la circolazione, gli autocarri con massa massima a pieno carico superiore a 3,5 tonnellate devono essere segnalati posteriormente con pannelli retroriflettenti in figura 304 in modo da essere più visibili dai veicoli che provengono da dietro.",
+      "text_ru": "При движении грузовые автомобили массой более 3,5 т должны быть обозначены сзади световозвращающими панелями (рис. 304) для лучшей видимости водителями сзади.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_05_pann304.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 532,
+    "topic_id": null,
+    "text": "Il segnale raffigurato può essere associato con un segnale di limite massimo di velocità",
+    "text_ru": "Изображенный знак может сочетаться со знаком ограничения максимальной скорости",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/001.jpg",
+    "comment": {
+      "text": "Si, la strada è deformata, rovinata, potrebbero esserci delle buche, ghiaia o sassi sulla carreggiata.\r\nIn caso di lavori in corso potrebbe trovarsi a fondo giallo. \r\nPotrebbe trovarsi associato ad un Limite Massimo di Velocità.\r\nPotrebbe essere accoppiato ad un Pannello Integrativo di \"Estensione\".\r\nModerare la velocità e esser pronti a fermarsi.\r\n",
+      "text_ru": "Да, дорога деформирована, на проезжей части могут быть ямы или камни. В случае дорожных работ фон может быть желтым. Знак может сопровождаться ограничением скорости или табличкой «Зона действия». Нужно снизить скорость.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_02_Per001base_01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 536,
+    "topic_id": null,
+    "text": "Il segnale raffigurato è un segnale di pericolo",
+    "text_ru": "Изображенный знак является предупреждающим знаком",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/001.jpg",
+    "comment": {
+      "text": "Si, la strada è deformata, rovinata, potrebbero esserci delle buche, ghiaia o sassi sulla carreggiata.\r\nIn caso di lavori in corso potrebbe trovarsi a fondo giallo. \r\nPotrebbe trovarsi associato ad un Limite Massimo di Velocità.\r\nPotrebbe essere accoppiato ad un Pannello Integrativo di \"Estensione\".\r\nModerare la velocità e essere pronti a fermarsi.\r\n",
+      "text_ru": "Да, это знак «Неровная дорога». Он предупреждает о дефектах покрытия. Может быть желтым (при работах), сочетаться с ограничением скорости. Требует снижения скорости и готовности к остановке.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_02_Per001base_01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 708,
+    "topic_id": null,
+    "text": "Il segnale raffigurato preannuncia un passaggio a livello con barriere o con semibarriere",
+    "text_ru": "Изображенный знак предупреждает о железнодорожном переезде со шлагбаумом или полушлагбаумом",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/008.jpg",
+    "comment": {
+      "text": "Vero! Il segnale indica indica sia un passaggio a livello con barriere che con semibarriere è posto di norma 150 metri prima del passaggio a livello, è necessario moderare la velocità  per essere pronti a fermarsi se le barriere o le semibarriere sono chiuse o stanno chiudendosi o se è in funzione il dispositivo acustico o le luci rosse.",
+      "text_ru": "Верно! Знак предупреждает о переезде со шлагбаумами, устанавливается обычно за 150 м. Необходимо снизить скорость и быть готовым остановиться при закрытых шлагбаумах или красном сигнале.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_08_Dts024.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 1047,
+    "topic_id": null,
+    "text": "Il segnale raffigurato preannuncia il pericolo di mareggiate",
+    "text_ru": "Изображенный знак предупреждает об опасности шторма",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/030.jpg",
+    "comment": {
+      "text": "NO !!\r\nIl Segnale di Pericolo preannuncia che fra 150 m c'è una AREA PORTUALE, con la banchina non protetta.\r\nIl pericolo è di finire in acqua: mare, canale, fiume,ecc..\r\nFai più attenzione nelle ora notturne e nelle manovre di retromarcia.\r\nPotrebbe essere accompagnato dal Semaforo a Luce Rossa Alterna sui pontili di imbarco delle navi traghetto.",
+      "text_ru": "НЕТ!! Это знак «Выезд на набережную». Предупреждает, что через 150 м будет портовая зона или незащищенный берег. Есть опасность падения в воду (море, канал, реку). Будьте внимательны ночью и при движении задним ходом.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_31_sbocco_molo.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 1202,
+    "topic_id": null,
+    "text": "Il segnale raffigurato vieta il transito unicamente ai veicoli a motore",
+    "text_ru": "Изображенный знак запрещает движение только механическим транспортным средствам",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/054.jpg",
+    "comment": {
+      "text": "Il segnale n°54, è un divieto di transito per tutti i veicoli sia a motore che senza motore, consente l'accesso solo ai pedoni, veicoli in servizio di emergenza(sirena e lampeggiante acceso) e veicoli indicati in un eventuale pannello aggiuntivo.",
+      "text_ru": "Знак №54 («Движение запрещено») запрещает движение ВСЕХ ТС (как механических, так и немеханических). Разрешен доступ пешеходам, машинам оперативных служб и ТС, указанным на дополнительной табличке.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/03_170_02_div054f.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 1728,
+    "topic_id": null,
+    "text": "Il segnale raffigurato è un segnale di direzione obbligatoria",
+    "text_ru": "Изображенный знак является предписывающим знаком направления движения",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/093.jpg",
+    "comment": {
+      "text": "Il segnale n°93, obbliga a tutti i conducenti di proseguire nella sola direzione obbligatoria indicata dal segnale cioè DIRITTO .\r\n\r\n\r\n",
+      "text_ru": "Знак №93 обязывает всех водителей двигаться только в указанном направлении, то есть ПРЯМО.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/04_171_02_obl093a.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 1730,
+    "topic_id": null,
+    "text": "Il segnale raffigurato non consente la svolta a destra",
+    "text_ru": "Изображенный знак не разрешает поворот направо",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/093.jpg",
+    "comment": {
+      "text": "Il segnale n°93,CONSENTE al conducente di proseguire soltanto DIRITTO ,  di conseguenza VIETA la svolta a DESTRA e a SINISTRA .",
+      "text_ru": "Знак №93 РАЗРЕШАЕТ движение только ПРЯМО, следовательно, ЗАПРЕЩАЕТ поворот НАПРАВО и НАЛЕВО.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/04_171_02_obl093a.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 1731,
+    "topic_id": null,
+    "text": "Il segnale raffigurato consente di svoltare a destra o a sinistra",
+    "text_ru": "Изображенный знак разрешает поворот направо или налево",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/093.jpg",
+    "comment": {
+      "text": "Il segnale n°93,CONSENTE al conducente di proseguire soltanto DIRITTO ,  di conseguenza VIETA la svolta a DESTRA e a SINISTRA .",
+      "text_ru": "Знак №93 РАЗРЕШАЕТ движение только ПРЯМО, соответственно ЗАПРЕЩАЕТ поворот НАПРАВО и НАЛЕВО.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/04_171_02_obl093a.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 1740,
+    "topic_id": null,
+    "text": "Il segnale raffigurato obbliga a svoltare a destra o a sinistra",
+    "text_ru": "Изображенный знак обязывает повернуть направо или налево",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/093.jpg",
+    "comment": {
+      "text": "Il segnale n°93, CONSENTE al conducente di proseguire soltanto DIRITTO, di conseguenza VIETA la svolta a DESTRA e a SINISTRA .",
+      "text_ru": "Знак №93 РАЗРЕШАЕТ движение только ПРЯМО, следовательно, ЗАПРЕЩАЕТ поворот НАПРАВО и НАЛЕВО.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/04_171_02_obl093a.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 1796,
+    "topic_id": null,
+    "text": "Il segnale raffigurato preannuncia che non è consentito girare a sinistra",
+    "text_ru": "Изображенный знак предупреждает, что поворот налево не разрешен",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/096.jpg",
+    "comment": {
+      "text": "Il segnale n°96, posto prima di un incrocio preavvisa ai conducenti la svolta obbligatoria a destra, opportunamente integrato si riferisce a particolari categorie.\r\n\r\n",
+      "text_ru": "Знак №96, установленный перед перекрестком, заранее предупреждает водителей об обязательном повороте направо. Может применяться с табличками для определенных категорий.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/04_171_06_Obl150c.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 1807,
+    "topic_id": null,
+    "text": "Il segnale raffigurato è un segnale di divieto",
+    "text_ru": "Изображенный знак является запрещающим знаком",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/096.jpg",
+    "comment": {
+      "text": "il segnale raffigurato è un segnale di OBBLIGO",
+      "text_ru": "Изображенный знак является ПРЕДПИСЫВАЮЩИМ (обязательство).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/04_171_01_schema obbligo01.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 1808,
+    "topic_id": null,
+    "text": "Il segnale raffigurato è un segnale di indicazione",
+    "text_ru": "Изображенный знак является информационным знаком",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/096.jpg",
+    "comment": {
+      "text": "Il segnale raffigurato è un segnale di OBBLIGO.",
+      "text_ru": "Изображенный знак является ПРЕДПИСЫВАЮЩИМ.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/04_171_01_schema obbligo01.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 3044,
+    "topic_id": null,
+    "text": "Il segnale raffigurato preavvisa di svoltare a destra per il centro della città al secondo incrocio",
+    "text_ru": "Изображенный знак предупреждает о повороте направо к центру города на втором перекрестке",
+    "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/167.jpg",
+    "comment": {
+      "text": "Il segnale n°167 preavvisa che svoltando al primo incrocio a destra si raggiunge via Gemona,mentre il primo a sinistra vieta il transito , il secondo incrocio a destra ci permette di raggiungere: il centro della città , Trieste,Grado,Cividale, invece svoltando a sinistra raggiungiamo:l'ospedale, Austria,Tarvisio,Tolmezzo. \r\n\r\n\r\n",
+      "text_ru": "Знак №167 уведомляет: 1-й поворот направо — ул. Джемона; 1-й налево — движение запрещено. 2-й направо — центр города, Триест и др.; 2-й налево — больница, Австрия и др.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/08_176_05_ind167a.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5628,
+    "topic_id": null,
+    "text": "Se si traina un rimorchio aumenta lo spazio di frenatura",
+    "text_ru": "При буксировке прицепа тормозной путь увеличивается",
+    "image": null,
+    "comment": {
+      "text": "Considerare che se si traina un rimorchio aumenta il peso quindi aumenta lo spazio di frenatura, in particolare in discesa, perché aumenta la spinta del rimorchio sulla motrice. ",
+      "text_ru": "Прицепы увеличивают общий вес, что ведет к росту тормозного пути, особенно на спусках из-за давления прицепа на тягач.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_TargaRim.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5635,
+    "topic_id": null,
+    "text": "Quando i rimorchi sono staccati dalla motrice, devono avere una copertura assicurativa che vale anche per il rischio statico (da fermo)",
+    "text_ru": "Когда прицепы отсоединены от тягача, они должны иметь страховое покрытие, которое также распространяется на статический риск (в неподвижном состоянии)",
+    "image": null,
+    "comment": {
+      "text": "Quando i rimorchi sono staccati dalla motrice, devono avere una copertura assicurativa che vale anche per il rischio statico (da fermo) e devono essere muniti del relativo contrassegno.\r\n\r\n",
+      "text_ru": "Прицепы вне сцепки должны иметь страховку от статического риска и соответствующую маркировку.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_27033V09.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5636,
+    "topic_id": null,
+    "text": "I rimorchi trainati da autovetture sono muniti, in genere, di freno ad inerzia",
+    "text_ru": "Прицепы, буксируемые легковыми автомобилями, как правило, оборудованы инерционным тормозом",
+    "image": null,
+    "comment": {
+      "text": "I rimorchi trainati da autovetture sono muniti, in genere, di freno ad inerzia di tipo meccanico o idraulico.",
+      "text_ru": "Прицепы для легковых авто обычно оснащены механическим или гидравлическим инерционным тормозом.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5639,
+    "topic_id": null,
+    "text": "Per poter trainare un rimorchio non occorre effettuare il collegamento elettrico fra motrice e rimorchio",
+    "text_ru": "Для буксировки прицепа не требуется выполнять электрическое соединение между тягачом и прицепом",
+    "image": null,
+    "comment": {
+      "text": "Prima di trainare un rimorchio, è opportuno accertarsi che gli impianti di illuminazione e di segnalazione sia della motrice che del rimorchio funzionino regolarmente, l'illuminazione del rimorchio avviene tramite apposito collegamento elettrico fra motrice e rimorchio.",
+      "text_ru": "Перед поездкой нужно проверить свет. Питание фар прицепа идет через специальное электросоединение с тягачом.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_TargaRim.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5640,
+    "topic_id": null,
+    "text": "Per guidare un'autovettura che traina un veicolo guasto, con conducente a bordo, occorre la patente di guida della categoria E",
+    "text_ru": "Для управления легковым автомобилем, буксирующим неисправное ТС с водителем на борту, требуется водительское удостоверение категории E",
+    "image": null,
+    "comment": {
+      "text": "Per guidare un'autovettura che traina un veicolo guasto, con conducente a bordo  è sufficiente la patente di guida della categoria B.\r\n\r\n",
+      "text_ru": "Для такой буксировки достаточно категории B.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_08_17033_v06.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5641,
+    "topic_id": null,
+    "text": "Il conducente a bordo di un veicolo guasto, che viene trainato, può essere privo di patente di guida",
+    "text_ru": "Водитель, находящийся в буксируемом неисправном транспортном средстве, может не иметь водительского удостоверения",
+    "image": null,
+    "comment": {
+      "text": "Il conducente a bordo di un veicolo guasto, che viene trainato, deve essere munito della patente di guida necessaria per guidare quel veicolo (patente B se si tratta di autovettura).",
+      "text_ru": "Водитель буксируемого ТС обязан иметь соответствующее удостоверение (кат. B для легкового авто).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_08_17033_v06.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5642,
+    "topic_id": null,
+    "text": "Se un veicolo guasto viene trainato con le quattro ruote al suolo, occorre inserire la quarta marcia del cambio di velocità",
+    "text_ru": "Если неисправное ТС буксируется на четырех колесах, необходимо включить четвертую передачу",
+    "image": null,
+    "comment": {
+      "text": "Se un veicolo guasto viene trainato con le quattro ruote al suolo, il suo cambio di velocità  dovrà  essere in posizione di folle.",
+      "text_ru": "Рычаг КПП буксируемого ТС должен находиться в нейтральном положении.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_08_17033_v06.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5643,
+    "topic_id": null,
+    "text": "Gli organi di traino di un veicolo non devono essere periodicamente lubrificati",
+    "text_ru": "Тягово-сцепные устройства автомобиля не подлежат периодической смазке",
+    "image": null,
+    "comment": {
+      "text": "Gli organi di traino di un veicolo devono essere periodicamente lubrificati ( di solito con grasso, in particolare sfera e calotta).",
+      "text_ru": "Сцепные устройства (особенно шар и головка) нужно регулярно смазывать.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_27038v06.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5649,
+    "topic_id": null,
+    "text": "Quando si traina un rimorchio, bisogna considerare che nelle curve strette la fascia di ingombro è minore",
+    "text_ru": "При буксировке прицепа следует учитывать, что в крутых поворотах габаритная полоса меньше",
+    "image": null,
+    "comment": {
+      "text": "Alla guida di un veicolo con rimorchio, nello svoltare bisogna considerare che il rimorchio tende a stringere la curva e di conseguenza la fascia di ingombro diventa MAGGIORE.",
+      "text_ru": "Прицепы «срезают» углы в поворотах, поэтому габаритная полоса, занимаемая автопоездом, СТАНОВИТСЯ БОЛЬШЕ.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_27039v02.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 6398,
+    "topic_id": null,
+    "text": "Gli specchi retrovisori centrali e laterali di un autoveicolo, devono essere regolati dopo che è stata regolata la posizione del sedile di guida",
+    "text_ru": "Центральное и боковые зеркала заднего вида автомобиля должны регулироваться после регулировки положения сиденья водителя",
+    "image": null,
+    "comment": {
+      "text": "Gli specchi retrovisori centrali e laterali di un autoveicolo, devono essere regolati dopo che è stata regolata la posizione del sedile di guida e contribuiscono alla visione panoramica del conducente garantendo una buona visione posteriore.",
+      "text_ru": "Зеркала настраивают после регулировки сиденья для обеспечения оптимального обзора сзади.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_207_01_23038v03.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6402,
+    "topic_id": null,
+    "text": "Gli specchi retrovisori devono essere utilizzati dal conducente per controllare, prima di svoltare, che non sopraggiungano veicoli da dietro",
+    "text_ru": "Зеркала заднего вида должны использоваться водителем перед поворотом, чтобы убедиться в отсутствии транспортных средств, приближающихся сзади",
+    "image": null,
+    "comment": {
+      "text": "Gli specchi retrovisori devono essere utilizzati dal conducente per controllare, prima di svoltare o sorpassare, che non sopraggiungano veicoli da dietro.",
+      "text_ru": "Зеркала необходимы для проверки обстановки сзади перед поворотом или обгоном.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_207_01_23039v01_2.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6405,
+    "topic_id": null,
+    "text": "Gli specchi retrovisori devono essere utilizzati per un controllo della strada dietro al veicolo, prima di iniziare una manovra di parcheggio in retromarcia",
+    "text_ru": "Зеркала заднего вида должны использоваться для контроля дороги позади автомобиля перед началом парковки задним ходом",
+    "image": null,
+    "comment": {
+      "text": "Gli specchi retrovisori devono essere utilizzati per un controllo della strada dietro al veicolo, prima di iniziare una qualsiasi manovra di spostamento o una manovra di parcheggio in retromarcia.",
+      "text_ru": "Зеркала обязательны для контроля сзади перед любым маневром или парковкой задним ходом.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/16_183_01_partenza_04.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6407,
+    "topic_id": null,
+    "text": "Il controllo degli specchi retrovisori permette di completare in sicurezza la manovra di sorpasso",
+    "text_ru": "Контроль по зеркалам заднего вида позволяет безопасно завершить маневр обгона",
+    "image": null,
+    "comment": {
+      "text": "Il controllo degli specchi retrovisori permette di completare in sicurezza la manovra di sorpasso.",
+      "text_ru": "Использование зеркал обеспечивает безопасность завершения обгона.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_207_01_23039v01_2.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6410,
+    "topic_id": null,
+    "text": "Gli specchi retrovisori devono essere utilizzati per un controllo della strada dietro al veicolo, ogni volta che a un incrocio si intende proseguire diritto",
+    "text_ru": "Зеркала заднего вида должны использоваться для контроля дороги сзади каждый раз, когда на перекрестке планируется движение прямо",
+    "image": null,
+    "comment": {
+      "text": "Falso, il controllo bisogna effettuarlo sempre se si intenda svoltare a destra o a sinistra.",
+      "text_ru": "Ложно, обязательный контроль нужен перед поворотами.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6414,
+    "topic_id": null,
+    "text": "Durante una manovra di parcheggio in retromarcia, non è necessario utilizzare gli specchi retrovisori se il veicolo è dotato di sensori di parcheggio",
+    "text_ru": "При парковке задним ходом нет необходимости использовать зеркала заднего вида, если автомобиль оснащен датчиками парковки",
+    "image": null,
+    "comment": {
+      "text": "Durante la manovra di retromarcia si deve comunque girare la testa per controllare dove sta andando il veicolo. Non si devono guardare gli specchi, né tanto meno fidarsi dei sensori di parcheggio.",
+      "text_ru": "При движении задним ходом нужно поворачивать голову для контроля. Нельзя полагаться только на зеркала или парктроники.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6418,
+    "topic_id": null,
+    "text": "Gli specchi retrovisori esterni degli autoveicoli possono essere sostituiti con altri di tipo differente, purché di superficie maggiore",
+    "text_ru": "Наружные зеркала заднего вида могут быть заменены на зеркала другого типа, при условии их большей площади",
+    "image": null,
+    "comment": {
+      "text": "Falso: possono essere montati specchi retrovisori omologati per il veicolo. Non devono essere montati specchi di tipo differente, anche di superficie maggiore.",
+      "text_ru": "Ложно: можно ставить только омологированные для данного ТС зеркала.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6428,
+    "topic_id": null,
+    "text": "Prima di immettere il veicolo nel flusso della circolazione, è necessario controllare lo specchio retrovisore laterale sinistro nonché verificare con un controllo visivo diretto che la strada sia sufficientemente libera dietro e a fianco del veicolo",
+    "text_ru": "Перед выездом в транспортный поток необходимо проверить левое боковое зеркало, а также визуально убедиться в отсутствии помех сзади и сбоку",
+    "image": null,
+    "comment": {
+      "text": "Si, e ricorda che le dimensioni degli oggetti non sono reali. Le immagini sono rimpicciolite, per potercene inserire di più. In definitiva gli oggetti appaiono più lontano di quanto siano nella realtà!\r\n\r\n",
+      "text_ru": "Да. Помните: объекты в зеркалах кажутся дальше, чем есть на самом деле.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_207_01_2303V09.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6457,
+    "topic_id": null,
+    "text": "Gli specchietti esterni montati sulla motrice non devono sporgere oltre 20 centimetri dalla sagoma del veicolo (motrice o rimorchio), con riferimento al punto di maggiore larghezza",
+    "text_ru": "Наружные зеркала на тягаче не должны выступать более чем на 20 см за габариты ТС (тягача или прицепа) в самой широкой его части",
+    "image": null,
+    "comment": {
+      "text": "SI, è la sporgenza massima ammessa dalla sagoma del veicolo (motrice o rimorchio).",
+      "text_ru": "ДА, это максимально допустимый выступ.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_27038v03.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6458,
+    "topic_id": null,
+    "text": "Il rapporto di traino, entro i limiti di quello tecnicamente ammesso per il veicolo, non deve superare il valore di 1, nel caso di rimorchi muniti di freno di servizio e di massa fino a 3,5 tonnellate",
+    "text_ru": "Соотношение масс прицепа и тягача не должно превышать 1 для прицепов с рабочим тормозом массой до 3,5 т",
+    "image": null,
+    "comment": {
+      "text": "Il rapporto di traino non deve superare il valore di:\r\n- 1 nel caso di rimorchi muniti di freno di servizio e di massa fino a 3,5 t;\r\n- 0,5 nel caso di rimorchi sprovvisti di qualsiasi dispositivo di frenatura.",
+      "text_ru": "Лимиты соотношения: 1 (с тормозами до 3,5 т) и 0,5 (без тормозов).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_rim01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6461,
+    "topic_id": null,
+    "text": "I rimorchi T.A.T.S. sono destinati al trasporto di attrezzature che non devono costituire oggetto di commercio, ma essere impiegate solo per il tempo libero",
+    "text_ru": "Прицепы T.A.T.S. предназначены для перевозки оборудования не для коммерции, а для отдыха",
+    "image": null,
+    "comment": {
+      "text": "T.A.T.S. significa Traino Attrezzature Turistiche e Sportive",
+      "text_ru": "T.A.T.S. — прицепы для перевозки туристического и спортивного снаряжения.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_27038v07.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6462,
+    "topic_id": null,
+    "text": "I conducenti di autoveicoli trainanti un rimorchio, quando la massa complessiva a pieno carico del complesso veicolare è superiore a 3,5 tonnellate, sono considerati in stato di ebbrezza qualora sia stato accertato un valore corrispondente ad un tasso alcolemico superiore a zero grammi per litro",
+    "text_ru": "Водители автопоездов массой более 3,5 т считаются в состоянии опьянения при любом уровне алкоголя выше нуля",
+    "image": null,
+    "comment": {
+      "text": "Si, in pratica questi conducenti non possono bere bevande alcoliche.",
+      "text_ru": "Да, для этих категорий действует нулевая толерантность к алкоголю.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_rim04riep.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 6464,
+    "topic_id": null,
+    "text": "Durante la circolazione, i rimorchi con massa massima a pieno carico fino a 3,5 tonnellate, devono essere segnalati con strisce posteriori e laterali retroriflettenti",
+    "text_ru": "Прицепы массой до 3,5 т должны иметь световозвращающие полосы сзади и по бокам",
+    "image": null,
+    "comment": {
+      "text": "No, sono gli autocarri o autotreni superiori a 3,5 t.",
+      "text_ru": "Нет, это правило касается грузовиков и автопоездов свыше 3,5 т.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 6466,
+    "topic_id": null,
+    "text": "Il rimorchio si considera parte integrante del veicolo se ha una massa fino a 3,5 tonnellate",
+    "text_ru": "Прицеп считается неотъемлемой частью автомобиля, если его масса не превышает 3,5 тонны",
+    "image": null,
+    "comment": {
+      "text": "No. Anche il Rimorchio Leggero e’ considerato un rimorchio a tutti gli effetti.",
+      "text_ru": "Нет. Даже легкий прицеп является отдельным ТС.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/20_190_06_rim03.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 6467,
+    "topic_id": null,
+    "text": "La larghezza del rimorchio non deve superare quella del veicolo trainante",
+    "text_ru": "Ширина прицепа не должна превышать ширину тягача",
+    "image": null,
+    "comment": {
+      "text": "Non è detto, l'importante è che gli specchietti non sporgano di oltre 20 cm dalla sagoma del veicolo (motrice o rimorchio), con riferimento al punto di maggior larghezza.",
+      "text_ru": "Необязательно. Главное, чтобы зеркала не выступали более чем на 20 см за габариты.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_27038v03.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 6468,
+    "topic_id": null,
+    "text": "Il rimorchio è parte integrante del veicolo a cui è stato abbinato in fase di collaudo e non può essere agganciato a un altro veicolo",
+    "text_ru": "Прицеп является частью ТС, к которому он был приписан при испытаниях, и не может буксироваться другим ТС",
+    "image": null,
+    "comment": {
+      "text": "Non è vero, un rimorchio ha una sua targa propria e può essere agganciato anche ad altri veicoli, purché abbiano le caratteristiche per poter effettuare il traino in sicurezza..",
+      "text_ru": "Неверно. У прицепа свой номер, его можно цеплять к разным тягачам при соблюдении норм безопасности.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_TargaRim.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 6475,
+    "topic_id": null,
+    "text": "Quando si traina un rimorchio occorre staccare la targa della motrice e applicarla nella parte posteriore del rimorchio",
+    "text_ru": "При буксировке прицепа нужно снять номер тягача и закрепить его на прицепе",
+    "image": null,
+    "comment": {
+      "text": "No, i rimorchi devono essere muniti di una targa con riportato in rosso la parola \"RIMORCHIO\" e di una targa ripetitrice a fondo giallo.",
+      "text_ru": "Нет, прицепы имеют свой номер и дублирующий номер тягача на желтом фоне.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_TargaRim.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 6476,
+    "topic_id": null,
+    "text": "Se nella carta di circolazione manca il valore della massa rimorchiabile, ciò significa che il veicolo è atto al traino di rimorchi di qualsiasi massa",
+    "text_ru": "Отсутствие в техпаспорте массы прицепа означает, что можно буксировать любой прицеп",
+    "image": null,
+    "comment": {
+      "text": "No. Il libretto deve riportare la massa rimorchiabile. ",
+      "text_ru": "Нет. Масса прицепа должна быть четко указана в документах.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_166_09_cartcir1.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 6480,
+    "topic_id": null,
+    "text": "I rimorchi per il trasporto di cavalli (van) non possono circolare in autostrada",
+    "text_ru": "Прицепы для перевозки лошадей не могут ездить по автомагистралям",
+    "image": null,
+    "comment": {
+      "text": "Possono, dovranno rispettare i limiti di velocità previsti per questo tipo di autotreni: 70 km/h sulle strade extraurbane e 80 in autostrada.",
+      "text_ru": "Могут, при соблюдении скоростных лимитов: 70 км/ч на загородных дорогах и 80 км/ч на магистралях.",
+      "image": null
+    },
+    "answer": false
+  }
+]

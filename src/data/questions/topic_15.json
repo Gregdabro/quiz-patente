@@ -1,0 +1,1783 @@
+[
+  {
+    "id": 5062,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare deve accertarsi che la visibilità sia tale da consentire la manovra",
+    "text_ru": "Водитель, намеревающийся совершить обгон, должен убедиться, что видимость позволяет выполнить этот маневр",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve accertarsi che:\r\n\r\n- la visibilità  sia tale da consentire la manovra ( p.e. è vietato in curva)\r\n- la manovra possa compiersi senza costituire intralcio\r\n- il conducente che lo precede nella stessa corsia non abbia segnalato di voler compiere analoga manovra\r\n- il conducente che lo segue sulla stessa carreggiata non abbia iniziato il sorpasso\r\n- la strada sia libera per consentire la completa esecuzione del sorpasso.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен убедиться в том, что:\r\n\r\n- видимость позволяет выполнить маневр (например, обгон запрещен на поворотах)\r\n- маневр может быть выполнен без создания помех\r\n- водитель, движущийся впереди по той же полосе, не подал сигнал о намерении выполнить аналогичный маневр\r\n- водитель, следующий за ним по той же проезжей части, не начал обгон\r\n- дорога свободна для полного завершения обгона.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5063,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare deve accertarsi che la manovra possa compiersi senza costituire intralcio",
+    "text_ru": "Водитель, намеревающийся совершить обгон, должен убедиться, что маневр может быть выполнен без создания помех",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve accertarsi che:\r\n\r\n- la visibilità  sia tale da consentire la manovra\r\n- la manovra possa compiersi senza costituire intralcio\r\n- il conducente che lo precede nella stessa corsia non abbia segnalato di voler compiere analoga manovra\r\n- il conducente che lo segue sulla stessa carreggiata non abbia iniziato il sorpasso\r\n- la strada sia libera per consentire la completa esecuzione del sorpasso.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен убедиться в том, что:\r\n\r\n- видимость позволяет выполнить маневр\r\n- маневр может быть выполнен без создания помех\r\n- водитель, движущийся впереди по той же полосе, не подал сигнал о намерении выполнить аналогичный маневр\r\n- водитель, следующий за ним по той же проезжей части, не начал обгон\r\n- дорога свободна для полного завершения обгона.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5064,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare deve accertarsi che il conducente che lo precede nella stessa corsia non abbia segnalato di voler compiere analoga manovra",
+    "text_ru": "Водитель, намеревающийся совершить обгон, должен убедиться, что водитель, движущийся впереди по той же полосе, не подал сигнал о намерении совершить аналогичный маневр",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve accertarsi che:\r\n\r\n- la visibilità  sia tale da consentire la manovra\r\n- la manovra possa compiersi senza costituire intralcio\r\n- il conducente che lo precede nella stessa corsia non abbia segnalato di voler compiere analoga manovra\r\n- il conducente che lo segue sulla stessa carreggiata non abbia iniziato il sorpasso\r\n- la strada sia libera per consentire la completa esecuzione del sorpasso.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен убедиться в том, что:\r\n\r\n- видимость позволяет выполнить маневр\r\n- маневр может быть выполнен без создания помех\r\n- водитель, движущийся впереди по той же полосе, не подал сигнал о намерении выполнить аналогичный маневр\r\n- водитель, следующий за ним по той же проезжей части, не начал обгон\r\n- дорога свободна для полного завершения обгона.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_207_04_pvc019.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5065,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare deve accertarsi che il conducente che lo segue sulla stessa carreggiata non abbia iniziato il sorpasso",
+    "text_ru": "Водитель, намеревающийся совершить обгон, должен убедиться, что водитель, следующий за ним по той же проезжей части, не начал обгон",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve accertarsi che:\r\n\r\n- la visibilità  sia tale da consentire la manovra\r\n- la manovra possa compiersi senza costituire intralcio\r\n- il conducente che lo precede nella stessa corsia non abbia segnalato di voler compiere analoga manovra\r\n- il conducente che lo segue sulla stessa carreggiata non abbia iniziato il sorpasso\r\n- la strada sia libera per consentire la completa esecuzione del sorpasso.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен убедиться в том, что:\r\n\r\n- видимость позволяет выполнить маневр\r\n- маневр может быть выполнен без создания помех\r\n- водитель, движущийся впереди по той же полосе, не подал сигнал о намерении выполнить аналогичный маневр\r\n- водитель, следующий за ним по той же проезжей части, не начал обгон\r\n- дорога свободна для полного завершения обгона.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_Pvc019.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5066,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare deve accertarsi che la strada sia libera per consentire la completa esecuzione del sorpasso",
+    "text_ru": "Водитель, намеревающийся совершить обгон, должен убедиться, что дорога свободна для полного выполнения обгона",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve accertarsi che:\r\n\r\n- la visibilità  sia tale da consentire la manovra\r\n- la manovra possa compiersi senza costituire intralcio\r\n- il conducente che lo precede nella stessa corsia non abbia segnalato di voler compiere analoga manovra\r\n- il conducente che lo segue sulla stessa carreggiata non abbia iniziato il sorpasso\r\n- la strada sia libera per consentire la completa esecuzione del sorpasso.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен убедиться в том, что:\r\n\r\n- видимость позволяет выполнить маневр\r\n- маневр может быть выполнен без создания помех\r\n- водитель, движущийся впереди по той же полосе, не подал сигнал о намерении выполнить аналогичный маневр\r\n- водитель, следующий за ним по той же проезжей части, не начал обгон\r\n- дорога свободна для полного завершения обгона.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5067,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare deve valutare lo spazio necessario per la manovra anche in relazione alla differenza di velocità tra il proprio veicolo e quello da sorpassare",
+    "text_ru": "Водитель, намеревающийся совершить обгон, должен оценить пространство, необходимое для маневра, в том числе с учетом разницы в скорости между своим транспортным средством и обгоняемым",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve valutare lo spazio necessario per la manovra anche in relazione alla differenza di velocità  tra il proprio veicolo e quello da sorpassare; se la differenza è minima lo spazio per fare la manovra aumenta e quindi aumenta il pericolo.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен оценить пространство, необходимое для маневра, в том числе с учетом разницы в скорости между своим транспортным средством и обгоняемым; если разница минимальна, пространство для выполнения маневра увеличивается, и, следовательно, возрастает опасность.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5068,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare deve tener conto di eventuali veicoli che provengono dalla direzione opposta",
+    "text_ru": "Водитель, намеревающийся совершить обгон, должен учитывать возможные транспортные средства, движущиеся во встречном направлении",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve:\r\n\r\n- accertarsi che nessun segnale verticale vieti la manovra\r\n- valutare lo spazio necessario per la manovra anche in relazione alla differenza di velocità  tra il proprio veicolo e quello da sorpassare\r\n- tener conto di eventuali veicoli che provengono dalla direzione opposta\r\n- accertarsi che la larghezza della carreggiata consenta la manovra in condizioni di sicurezza\r\n- valutare lo spazio necessario in relazione alla lunghezza del proprio veicolo e di quello da sorpassare.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен:\r\n\r\n- убедиться, что ни один дорожный знак не запрещает маневр\r\n- оценить пространство, необходимое для маневра, в том числе в зависимости от разницы в скорости между своим транспортным средством и обгоняемым\r\n- учитывать любые транспортные средства, приближающиеся с противоположного направления\r\n- убедиться, что ширина проезжей части позволяет безопасно выполнить маневр\r\n- оценить необходимое пространство в зависимости от длины своего транспортного средства и обгоняемого.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa004.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5069,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare deve valutare lo spazio necessario in relazione alla lunghezza del proprio veicolo e di quello da sorpassare",
+    "text_ru": "Водитель, намеревающийся совершить обгон, должен оценить необходимое пространство с учетом длины своего транспортного средства и обгоняемого",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve:\r\n\r\n- accertarsi che nessun segnale verticale vieti la manovra\r\n- valutare lo spazio necessario per la manovra anche in relazione alla differenza di velocità  tra il proprio veicolo e quello da sorpassare\r\n- tener conto di eventuali veicoli che provengono dalla direzione opposta\r\n- accertarsi che la larghezza della carreggiata consenta la manovra in condizioni di sicurezza\r\n- valutare lo spazio necessario in relazione alla lunghezza del proprio veicolo e di quello da sorpassare.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен:\r\n\r\n- убедиться, что ни один дорожный знак не запрещает маневр\r\n- оценить пространство, необходимое для маневра, в том числе в зависимости от разницы в скорости между своим транспортным средством и обгоняемым\r\n- учитывать любые транспортные средства, приближающиеся с противоположного направления\r\n- убедиться, что ширина проезжей части позволяет безопасно выполнить маневр\r\n- оценить необходимое пространство в зависимости от длины своего транспортного средства и обгоняемого.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa012.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5070,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare deve accertarsi che la larghezza della carreggiata consenta la manovra in condizioni di sicurezza",
+    "text_ru": "Водитель, намеревающийся совершить обгон, должен убедиться, что ширина проезжей части позволяет безопасно выполнить маневр",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve:\r\n\r\n- accertarsi che nessun segnale verticale vieti la manovra\r\n- valutare lo spazio necessario per la manovra anche in relazione alla differenza di velocità  tra il proprio veicolo e quello da sorpassare\r\n- tener conto di eventuali veicoli che provengono dalla direzione opposta\r\n- accertarsi che la larghezza della carreggiata consenta la manovra in condizioni di sicurezza\r\n- valutare lo spazio necessario in relazione alla lunghezza del proprio veicolo e di quello da sorpassare.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен:\r\n\r\n- убедиться, что ни один дорожный знак не запрещает маневр\r\n- оценить пространство, необходимое для маневра, в том числе в зависимости от разницы в скорости между своим транспортным средством и обгоняемым\r\n- учитывать любые транспортные средства, приближающиеся с противоположного направления\r\n- убедиться, что ширина проезжей части позволяет безопасно выполнить маневр\r\n- оценить необходимое пространство в зависимости от длины своего транспортного средства и обгоняемого.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_Sorpa011.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5071,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare deve accertarsi che nessun segnale verticale vieti la manovra",
+    "text_ru": "Водитель, намеревающийся совершить обгон, должен убедиться, что никакие вертикальные знаки не запрещают этот маневр",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve:\r\n\r\n- accertarsi che nessun segnale verticale vieti la manovra\r\n- valutare lo spazio necessario per la manovra anche in relazione alla differenza di velocità  tra il proprio veicolo e quello da sorpassare\r\n- tener conto di eventuali veicoli che provengono dalla direzione opposta\r\n- accertarsi che la larghezza della carreggiata consenta la manovra in condizioni di sicurezza\r\n- valutare lo spazio necessario in relazione alla lunghezza del proprio veicolo e di quello da sorpassare.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен:\r\n\r\n- убедиться, что никакие вертикальные знаки не запрещают маневр\r\n- оценить пространство, необходимое для маневра, в том числе в зависимости от разницы скоростей своего транспортного средства и обгоняемого\r\n- учитывать любые транспортные средства, движущиеся в противоположном направлении\r\n- убедиться, что ширина проезжей части позволяет безопасно выполнить маневр\r\n- оценить необходимое пространство с учетом длины своего транспортного средства и обгоняемого.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/056.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5072,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare deve accertarsi semplicemente che nessun veicolo provenga dalla direzione opposta",
+    "text_ru": "Водитель, намеревающийся совершить обгон, должен просто убедиться, что ни одно транспортное средство не приближается с противоположной стороны",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve:\r\n\r\n- accertarsi che nessun segnale verticale vieti la manovra\r\n- valutare lo spazio necessario per la manovra anche in relazione alla differenza di velocità  tra il proprio veicolo e quello da sorpassare\r\n- tener conto di eventuali veicoli che provengono dalla direzione opposta\r\n- accertarsi che la larghezza della carreggiata consenta la manovra in condizioni di sicurezza\r\n- valutare lo spazio necessario in relazione alla lunghezza del proprio veicolo e di quello da sorpassare.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен:\r\n\r\n- убедиться, что никакие вертикальные знаки не запрещают маневр\r\n- оценить пространство, необходимое для маневра, в том числе в зависимости от разницы скоростей своего транспортного средства и обгоняемого\r\n- учитывать любые транспортные средства, движущиеся в противоположном направлении\r\n- убедиться, что ширина проезжей части позволяет безопасно выполнить маневр\r\n- оценить необходимое пространство с учетом длины своего транспортного средства и обгоняемого.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5073,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare ha come unico obbligo quello di azionare l'indicatore di direzione (frecce)",
+    "text_ru": "Единственной обязанностью водителя, намеревающегося совершить обгон, является включение указателя поворота",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve:\r\n\r\n- accertarsi che nessun segnale verticale vieti la manovra\r\n- valutare lo spazio necessario per la manovra anche in relazione alla differenza di velocità  tra il proprio veicolo e quello da sorpassare\r\n- tener conto di eventuali veicoli che provengono dalla direzione opposta\r\n- accertarsi che la larghezza della carreggiata consenta la manovra in condizioni di sicurezza\r\n- valutare lo spazio necessario in relazione alla lunghezza del proprio veicolo e di quello da sorpassare.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен:\r\n\r\n- убедиться, что никакие вертикальные знаки не запрещают маневр\r\n- оценить пространство, необходимое для маневра, в том числе в зависимости от разницы скоростей своего транспортного средства и обгоняемого\r\n- учитывать любые транспортные средства, движущиеся в противоположном направлении\r\n- убедиться, что ширина проезжей части позволяет безопасно выполнить маневр\r\n- оценить необходимое пространство с учетом длины своего транспортного средства и обгоняемого.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5074,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare deve unicamente accertarsi che non vi sia nessun segnale di divieto di sorpasso",
+    "text_ru": "Водитель, намеревающийся совершить обгон, должен только убедиться в отсутствии знака «Обгон запрещен»",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve:\r\n\r\n- accertarsi che nessun segnale verticale vieti la manovra\r\n- valutare lo spazio necessario per la manovra anche in relazione alla differenza di velocità  tra il proprio veicolo e quello da sorpassare\r\n- tener conto di eventuali veicoli che provengono dalla direzione opposta\r\n- accertarsi che la larghezza della carreggiata consenta la manovra in condizioni di sicurezza\r\n- valutare lo spazio necessario in relazione alla lunghezza del proprio veicolo e di quello da sorpassare.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен:\r\n\r\n- убедиться, что никакие вертикальные знаки не запрещают маневр\r\n- оценить пространство, необходимое для маневра, в том числе в зависимости от разницы скоростей своего транспортного средства и обгоняемого\r\n- учитывать любые транспортные средства, движущиеся в противоположном направлении\r\n- убедиться, что ширина проезжей части позволяет безопасно выполнить маневр\r\n- оценить необходимое пространство с учетом длины своего транспортного средства и обгоняемого.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5075,
+    "topic_id": 15,
+    "text": "Prima di iniziare una manovra di sorpasso occorre azionare l'indicatore di direzione",
+    "text_ru": "Перед началом маневра обгона необходимо включить указатель поворота",
+    "image": null,
+    "comment": {
+      "text": "Prima di iniziare una manovra di sorpasso occorre azionare l'indicatore di direzione (di norma il sinistro).",
+      "text_ru": "Перед началом маневра обгона необходимо включить указатель поворота (как правило, левый).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa007.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5076,
+    "topic_id": 15,
+    "text": "La manovra di sorpasso si effettua, di norma, a sinistra",
+    "text_ru": "Маневр обгона, как правило, выполняется слева",
+    "image": null,
+    "comment": {
+      "text": "La manovra di sorpasso si effettua, di norma, a sinistra, tenendo una adeguata distanza laterale dal veicolo che si sorpassa.",
+      "text_ru": "Маневр обгона выполняется, как правило, слева с соблюдением достаточной боковой дистанции от обгоняемого транспортного средства.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa007.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5077,
+    "topic_id": 15,
+    "text": "Il sorpasso si effettua tenendo una adeguata distanza laterale dal veicolo che si sorpassa",
+    "text_ru": "Обгон выполняется с соблюдением достаточной боковой дистанции от обгоняемого транспортного средства",
+    "image": null,
+    "comment": {
+      "text": "La manovra di sorpasso si effettua, di norma, a sinistra, tenendo una adeguata distanza laterale dal veicolo che si sorpassa.",
+      "text_ru": "Маневр обгона выполняется, как правило, слева с соблюдением достаточной боковой дистанции от обгоняемого транспортного средства.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa011.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5078,
+    "topic_id": 15,
+    "text": "Dopo aver effettuato una manovra di sorpasso il conducente del veicolo deve riportarsi a destra appena possibile senza creare pericolo o intralcio",
+    "text_ru": "После выполнения обгона водитель транспортного средства должен как можно скорее вернуться на правую сторону, не создавая опасности или помех",
+    "image": null,
+    "comment": {
+      "text": "Dopo aver effettuato una manovra di sorpasso il conducente del veicolo deve riportarsi a destra appena possibile senza creare pericolo o intralcio.",
+      "text_ru": "После выполнения маневра обгона водитель транспортного средства должен вернуться на правую сторону как можно скорее, не создавая опасности или помех.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa013.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5079,
+    "topic_id": 15,
+    "text": "Il conducente del veicolo che viene sorpassato deve agevolare la manovra di sorpasso e non accelerare",
+    "text_ru": "Водитель обгоняемого транспортного средства должен способствовать маневру обгона и не ускоряться",
+    "image": null,
+    "comment": {
+      "text": "Il conducente del veicolo che viene sorpassato deve agevolare la manovra di sorpasso, non deve accelerare e nelle strade a doppio senso con una sola corsia per senso di marcia, deve tenersi il più vicino possibile al margine destro.",
+      "text_ru": "Водитель обгоняемого транспортного средства должен способствовать маневру обгона, не должен ускоряться, а на дорогах с двусторонним движением и одной полосой для каждого направления — должен держаться как можно ближе к правому краю.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5080,
+    "topic_id": 15,
+    "text": "Il conducente del veicolo che viene sorpassato, nelle strade ad una corsia per senso di marcia, deve tenersi il più vicino possibile al margine destro",
+    "text_ru": "Водитель обгоняемого транспортного средства на дорогах с одной полосой для каждого направления должен держаться как можно ближе к правому краю",
+    "image": null,
+    "comment": {
+      "text": "Il conducente del veicolo che viene sorpassato deve agevolare la manovra di sorpasso e non accelerare.\r\nNelle strade ad una corsia per senso di marcia, deve tenersi il più vicino possibile al margine destro.",
+      "text_ru": "Водитель обгоняемого транспортного средства должен способствовать маневру обгона и не ускоряться.\r\nНа дорогах с одной полосой для каждого направления он должен держаться как можно ближе к правому краю.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_Pvc023.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5081,
+    "topic_id": 15,
+    "text": "La manovra di sorpasso non va effettuata se lo spazio visibile risulta insufficiente per completarla in sicurezza",
+    "text_ru": "Маневр обгона не следует выполнять, если видимого пространства недостаточно для его безопасного завершения",
+    "image": null,
+    "comment": {
+      "text": "La manovra di sorpasso non va effettuata se lo spazio visibile risulta insufficiente per completarla in sicurezza per esempio quando su una strada a due corsie e a doppio senso siamo molto vicini ad una curva.",
+      "text_ru": "Маневр обгона не следует выполнять, если видимого пространства недостаточно для его безопасного завершения, например, когда на дороге с двумя полосами и двусторонним движением мы находимся очень близко к повороту.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5082,
+    "topic_id": 15,
+    "text": "La manovra di sorpasso non va effettuata se la carreggiata non è sufficientemente larga",
+    "text_ru": "Маневр обгона не следует выполнять, если проезжая часть недостаточно широка",
+    "image": null,
+    "comment": {
+      "text": "La manovra di sorpasso non va effettuata se lo spazio visibile risulta insufficiente per completarla in sicurezza e se la carreggiata non è sufficientemente larga.",
+      "text_ru": "Маневр обгона не следует выполнять, если видимого пространства недостаточно для его безопасного завершения или если проезжая часть недостаточно широка.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_Sorpa011.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5083,
+    "topic_id": 15,
+    "text": "Il conducente che intende effettuare il sorpasso ha l'obbligo di azionare il segnale acustico",
+    "text_ru": "Водитель, намеревающийся совершить обгон, обязан подать звуковой сигнал",
+    "image": null,
+    "comment": {
+      "text": "Prima di iniziare una manovra di sorpasso occorre azionare l'indicatore di direzione (di norma il sinistro), il clacson prima  non è obbligatorio ma consigliato e solo sulle strade extraurbane.\r\n\r\n",
+      "text_ru": "Перед началом маневра обгона необходимо включить указатель поворота (как правило, левый); подача звукового сигнала перед этим не является обязательной, но рекомендуется и только на загородных дорогах.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5084,
+    "topic_id": 15,
+    "text": "Il conducente che intende iniziare una manovra di sorpasso non ha l'obbligo di azionare l'indicatore di direzione",
+    "text_ru": "Водитель, намеревающийся начать маневр обгона, не обязан включать указатель поворота",
+    "image": null,
+    "comment": {
+      "text": "Prima di iniziare una manovra di sorpasso occorre azionare l'indicatore di direzione (di norma il sinistro).",
+      "text_ru": "Перед началом маневра обгона необходимо включить указатель поворота (как правило, левый).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa007.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5085,
+    "topic_id": 15,
+    "text": "Dopo il sorpasso il veicolo può immediatamente spostarsi a destra se taglia la strada a quello sorpassato",
+    "text_ru": "После обгона транспортное средство может немедленно перестроиться вправо, даже если оно «подрезает» обгоняемого",
+    "image": null,
+    "comment": {
+      "text": "Dopo aver effettuato una manovra di sorpasso il conducente del veicolo deve riportarsi a destra appena possibile senza creare pericolo o intralcio ma senza tagliare la strada al veicolo sorpassato.",
+      "text_ru": "После выполнения маневра обгона водитель транспортного средства должен вернуться направо как можно скорее, не создавая опасности или помех, но не подрезая обгоняемое транспортное средство.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa013.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5086,
+    "topic_id": 15,
+    "text": "Il conducente del veicolo sorpassato può gareggiare in velocità con il conducente del veicolo che lo sta sorpassando",
+    "text_ru": "Водитель обгоняемого транспортного средства может соревноваться в скорости с водителем обгоняющего его транспортного средства",
+    "image": null,
+    "comment": {
+      "text": "E' sempre vietato gareggiare in velocità  su ogni tipo di strada pubblica.",
+      "text_ru": "Соревнование в скорости на любых типах дорог общего пользования всегда запрещено.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5087,
+    "topic_id": 15,
+    "text": "La manovra di sorpasso si effettua anche se lo spazio visibile risulta insufficiente per completarla in sicurezza",
+    "text_ru": "Маневр обгона выполняется, даже если видимого пространства недостаточно для его безопасного завершения",
+    "image": null,
+    "comment": {
+      "text": "La manovra di sorpasso non va effettuata se lo spazio visibile risulta insufficiente per completarla in sicurezza e se la carreggiata non è sufficientemente larga.",
+      "text_ru": "Маневр обгона не следует выполнять, если видимого пространства недостаточно для его безопасного завершения или если проезжая часть недостаточно широка.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa004.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5088,
+    "topic_id": 15,
+    "text": "Dopo aver eseguito una prima manovra di sorpasso, in strade ad almeno due corsie per senso di marcia, è possibile eseguirne un' altra senza rientrare a destra, se non si crea intralcio",
+    "text_ru": "После выполнения первого маневра обгона на дорогах как минимум с двумя полосами в каждом направлении можно выполнить еще один, не возвращаясь на правую полосу, если это не создает помех",
+    "image": null,
+    "comment": {
+      "text": "Dopo aver eseguito una prima manovra di sorpasso, in strade ad almeno due corsie per senso di marcia, è possibile eseguirne un' altra senza rientrare a destra, se non si crea intralcio.",
+      "text_ru": "После выполнения первого маневра обгона на дорогах как минимум с двумя полосами в каждом направлении можно выполнить еще один, не возвращаясь на правую полосу, если это не создает помех.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_04_CARREGGIATA-SEMI_01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5089,
+    "topic_id": 15,
+    "text": "La manovra di sorpasso deve essere eseguita a destra se il conducente del veicolo da sorpassare ha segnalato l'intenzione di voler svoltare a sinistra",
+    "text_ru": "Маневр обгона должен выполняться справа, если водитель обгоняемого транспортного средства подал сигнал о намерении повернуть налево",
+    "image": null,
+    "comment": {
+      "text": "Normalmente la manovra di sorpasso a destra è vietata ma deve essere eseguita a destra se il conducente del veicolo da sorpassare ha segnalato l'intenzione di voler svoltare a sinistra.",
+      "text_ru": "Обычно обгон справа запрещен, но он должен быть выполнен справа, если водитель обгоняемого транспортного средства подал сигнал о намерении повернуть налево.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5090,
+    "topic_id": 15,
+    "text": "La manovra di sorpasso deve essere eseguita a destra se, su strada a senso unico, il conducente del veicolo da sorpassare ha segnalato l'intenzione di voler accostare a sinistra",
+    "text_ru": "Маневр обгона должен выполняться справа, если на дороге с односторонним движением водитель обгоняемого транспортного средства подал сигнал о намерении остановиться слева",
+    "image": null,
+    "comment": {
+      "text": "Normalmente la manovra di sorpasso a destra è vietata ma deve essere eseguita a destra se il conducente del veicolo da sorpassare ha segnalato l'intenzione di voler svoltare a sinistra o accostare a sinistra.",
+      "text_ru": "Обычно обгон справа запрещен, но он должен быть выполнен справа, если водитель обгоняемого транспортного средства подал сигнал о намерении повернуть налево или остановиться у левого края.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_04_sorpa029.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5091,
+    "topic_id": 15,
+    "text": "La manovra di sorpasso del tram può effettuarsi su ambo i lati se la strada è a senso unico e la larghezza della carreggiata lo consente",
+    "text_ru": "Обгон трамвая может осуществляться с обеих сторон, если дорога с односторонним движением и ширина проезжей части позволяет это сделать",
+    "image": null,
+    "comment": {
+      "text": "Normalmente la manovra di sorpasso a destra è vietata ma può essere eseguita a destra se il del veicolo da sorpassare è un tram durante la marcia.",
+      "text_ru": "Обычно обгон справа запрещен, но он может быть выполнен справа, если обгоняемым транспортным средством является движущийся трамвай.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5092,
+    "topic_id": 15,
+    "text": "Se il tram o il filobus sono fermi la manovra di sorpasso può effettuarsi a destra se esiste il salvagente",
+    "text_ru": "Если трамвай или троллейбус стоят, маневр обгона может быть выполнен справа при наличии посадочной площадки (островка безопасности)",
+    "image": null,
+    "comment": {
+      "text": "Si se esiste il salvagente e il tram o il filobus sono fermi per la fermata la manovra di sorpasso può effettuarsi a destra .",
+      "text_ru": "Да, если имеется посадочная площадка и трамвай или троллейбус остановились на остановке, маневр обгона может быть выполнен справа.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_13_strada14.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5093,
+    "topic_id": 15,
+    "text": "Se il tram o il filobus sono fermi la manovra di sorpasso non può effettuarsi a destra se manca il salvagente \t",
+    "text_ru": "Если трамвай или троллейбус стоят, маневр обгона не может быть выполнен справа при отсутствии посадочной площадки",
+    "image": null,
+    "comment": {
+      "text": "Se il tram o il filobus sono fermi la manovra di sorpasso non può effettuarsi a destra se manca il salvagente, sarebbe pericoloso per i passeggeri che salgono o scendono.",
+      "text_ru": "Если трамвай или троллейбус стоят, маневр обгона не может быть выполнен справа при отсутствии посадочной площадки, так как это было бы опасно для пассажиров, входящих или выходящих из транспорта.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5094,
+    "topic_id": 15,
+    "text": "Se il tram o il filobus sono fermi per la salita e la discesa dei passeggeri, la manovra di sorpasso può sempre effettuarsi a destra",
+    "text_ru": "Если трамвай или троллейбус остановились для посадки и высадки пассажиров, маневр обгона всегда может быть выполнен справа",
+    "image": null,
+    "comment": {
+      "text": "Se il tram o il filobus sono fermi la manovra di sorpasso è vietata a destra se manca il salvagente.",
+      "text_ru": "Если трамвай или троллейбус стоят, обгон справа запрещен при отсутствии посадочной площадки.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5095,
+    "topic_id": 15,
+    "text": "E' sempre vietato effettuare la manovra di sorpasso a destra",
+    "text_ru": "Обгон справа всегда запрещен",
+    "image": null,
+    "comment": {
+      "text": "La manovra di sorpasso normalmente è vietata ma deve essere eseguita a destra se, su strada a senso unico, il conducente del veicolo da sorpassare ha segnalato l'intenzione di voler accostare a sinistra,\r\noppure se il conducente del veicolo da sorpassare ha segnalato l'intenzione di voler svoltare a sinistra.",
+      "text_ru": "Маневр обгона справа обычно запрещен, но он должен быть выполнен справа, если на дороге с односторонним движением водитель обгоняемого транспортного средства подал сигнал о намерении припарковаться слева или если он подал сигнал о намерении повернуть налево.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5096,
+    "topic_id": 15,
+    "text": "La manovra di sorpasso può, di norma, effettuarsi a destra sulle autostrade",
+    "text_ru": "Маневр обгона на автомагистралях, как правило, может выполняться справа",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso a destra in autostrada è di norma vietato.",
+      "text_ru": "Обгон справа на автомагистрали обычно запрещен.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5097,
+    "topic_id": 15,
+    "text": "La manovra di sorpasso può effettuarsi a sinistra soltanto se il veicolo da sorpassare sta svoltando a destra",
+    "text_ru": "Маневр обгона может выполняться слева только в том случае, если обгоняемое транспортное средство поворачивает направо",
+    "image": null,
+    "comment": {
+      "text": "Se il veicolo che precede svolta a destra è pericoloso affrontare la manovra di sorpasso perché ci si trova ad un incrocio e la visibilità risulta insufficiente.",
+      "text_ru": "Если идущее впереди транспортное средство поворачивает направо, выполнять обгон опасно, так как вы находитесь на перекрестке и видимость недостаточна.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5098,
+    "topic_id": 15,
+    "text": "E' vietato effettuare un secondo sorpasso senza prima essersi riportati a destra",
+    "text_ru": "Запрещается выполнять второй обгон, не вернувшись предварительно на правую сторону",
+    "image": null,
+    "comment": {
+      "text": "La manovra di sorpasso di una colonna di veicoli non è vietata, bisogna però tener presente che lo spazio per effettuarla aumenta e con esso il pericolo.",
+      "text_ru": "Обгон колонны транспортных средств не запрещен, однако следует учитывать, что пространство для его выполнения увеличивается, а вместе с ним и опасность.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5100,
+    "topic_id": 15,
+    "text": "Il sorpasso è vietato in prossimità dei dossi su strade a due corsie a doppio senso di marcia",
+    "text_ru": "Обгон запрещен вблизи перегибов дороги на двухполосных дорогах с двусторонним движением",
+    "image": null,
+    "comment": {
+      "text": "In presenza di DOSSI il sorpasso è VIETATO se la  carreggiata ha DUE corsie ed è  a  DOPPIO SENSO  di circolazione.",
+      "text_ru": "При наличии перегибов дороги (dossi) обгон ЗАПРЕЩЕН, если проезжая часть имеет ДВЕ полосы и является ДВУСТОРОННЕЙ.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/002.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5101,
+    "topic_id": 15,
+    "text": "Il sorpasso è vietato in caso di scarsa visibilità",
+    "text_ru": "Обгон запрещен в условиях плохой видимости",
+    "image": null,
+    "comment": {
+      "text": "E' vietato il sorpasso quando non si dispone di uno spazio sufficiente (veicolo proveniente dall'altro senso) e di una buona visibilità  .",
+      "text_ru": "Обгон запрещен при отсутствии достаточного пространства (встречное транспортное средство) и хорошей видимости.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5104,
+    "topic_id": 15,
+    "text": "E' vietato il sorpasso di un veicolo che ne stia superando un altro se ciò impone di spostarsi sul lato riservato all'altro senso di marcia",
+    "text_ru": "Запрещается обгонять транспортное средство, которое уже обгоняет другое, если это требует выезда на полосу встречного движения",
+    "image": null,
+    "comment": {
+      "text": "Vero! E' vietato il sorpasso di un veicolo che ne stia superando un altro se ciò impone di spostarsi sul lato riservato all'altro senso di marcia ovvero sorpasso in terza fila e contromano!",
+      "text_ru": "Верно! Запрещается обгон транспортного средства, которое уже совершает обгон другого, если это вынуждает выехать на сторону, предназначенную для встречного движения, то есть обгон в третьем ряду и против движения!",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5108,
+    "topic_id": 15,
+    "text": "E' vietato il sorpasso di veicoli in lento movimento a causa di congestione della circolazione quando, a tal fine è necessario spostarsi sul lato riservato all'altro senso di marcia",
+    "text_ru": "Запрещается обгон транспортных средств, медленно движущихся из-за затора, если для этого необходимо выехать на сторону встречного движения",
+    "image": null,
+    "comment": {
+      "text": "Vero. E' vietato il sorpasso di veicoli in lento movimento a causa di congestione della circolazione , cioè ingorgo del traffico. Bisogna pazientare senza cambiare fila aspettando la normale ripresa della circolazione.",
+      "text_ru": "Верно. Запрещается обгон транспортных средств, медленно движущихся из-за затора (пробки). Нужно проявлять терпение, не меняя ряда, ожидая нормального возобновления движения.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5110,
+    "topic_id": 15,
+    "text": "E' consentito il sorpasso a destra nelle intersezioni regolate da semaforo, se il veicolo da sorpassare ha indicato di voler svoltare a sinistra ed ha iniziato la manovra",
+    "text_ru": "Разрешается обгон справа на перекрестках, регулируемых светофором, если обгоняемое транспортное средство подало сигнал о намерении повернуть налево и начало маневр",
+    "image": null,
+    "comment": {
+      "text": "E' consentito il sorpasso nelle intersezioni se il veicolo da sorpassare ha indicato di voler svoltare a sinistra ed ha iniziato la manovra.",
+      "text_ru": "Обгон на перекрестках разрешен, если обгоняемое транспортное средство указало на намерение повернуть налево и начало маневр.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_04_sorpa028.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5111,
+    "topic_id": 15,
+    "text": "E' consentito il sorpasso nelle intersezioni se la strada è a precedenza purché a due carreggiate separate e le corsie siano delimitate dall'apposita segnaletica orizzontale",
+    "text_ru": "На перекрестках разрешается обгон, если дорога является главной, при условии наличия двух раздельных проезжих частей и разметки полос движения",
+    "image": null,
+    "comment": {
+      "text": "E' consentito il sorpasso nelle intersezioni se la strada è a precedenza purché a due carreggiate separate e le corsie siano delimitate dall'apposita segnaletica orizzontale come in figura.",
+      "text_ru": "Обгон на перекрестках разрешен, если дорога является главной (с приоритетом), при условии наличия двух раздельных проезжих частей и разметки полос движения, как показано на рисунке.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_05_inc_4_corsie.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5112,
+    "topic_id": 15,
+    "text": "E' consentito il sorpasso in corrispondenza delle intersezioni se si supera un veicolo a due ruote non a motore e non si invade il lato riservato al senso opposto",
+    "text_ru": "На перекрестках разрешается обгон при опережении безмоторного двухколесного транспортного средства, если не происходит выезда на встречную полосу",
+    "image": null,
+    "comment": {
+      "text": "E' consentito il sorpasso in corrispondenza delle intersezioni se si supera un veicolo a due ruote non a motore e non si invade il lato riservato al senso opposto.",
+      "text_ru": "Разрешается обгон на перекрестках, если обгоняется двухколесное немеханическое транспортное средство и при этом не занимается встречная полоса движения.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_208_01_pvc050.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5113,
+    "topic_id": 15,
+    "text": "E' consentito il sorpasso nelle intersezioni regolate da agenti del traffico",
+    "text_ru": "На перекрестках, регулируемых регулировщиками, обгон разрешен",
+    "image": null,
+    "comment": {
+      "text": "Il SORPASSO è consentito nelle intersezioni (incroci), se è REGOLATO da agenti del traffico (VIGILI) o segnalazione SEMAFORICA, senza invadere l'opposto senso di marcia.\r\n",
+      "text_ru": "ОБГОН разрешен на перекрестках, если движение РЕГУЛИРУЕТСЯ сотрудниками дорожной полиции (регулировщиками) или СВЕТОФОРОМ, без выезда на встречную полосу.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_206_05_pvc030.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5115,
+    "topic_id": 15,
+    "text": "E' vietato il sorpasso di un veicolo che si sia arrestato in corrispondenza di un passaggio pedonale per consentire l'attraversamento di pedoni",
+    "text_ru": "Запрещается обгон транспортного средства, остановившегося перед пешеходным переходом, чтобы пропустить пешеходов",
+    "image": null,
+    "comment": {
+      "text": "E' vietato il sorpasso di un veicolo che si sia arrestato, o abbia rallentato, in corrispondenza di un passaggio pedonale per consentire l'attraversamento di pedoni.",
+      "text_ru": "Запрещается обгон транспортного средства, которое остановилось или замедлило ход перед пешеходным переходом для пропуска пешеходов.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_10_Oriz036.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5118,
+    "topic_id": 15,
+    "text": "E' vietato il sorpasso se si deve valicare la striscia longitudinale bianca continua semplice o doppia",
+    "text_ru": "Обгон запрещен, если для его выполнения требуется пересечь сплошную (одинарную или двойную) белую продольную линию",
+    "image": null,
+    "comment": {
+      "text": "E' vietato il sorpasso se si deve valicare la striscia longitudinale bianca continua semplice o doppia.",
+      "text_ru": "Обгон запрещен, если необходимо пересечь одинарную или двойную белую сплошную продольную линию.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_208_01_pvc050.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5122,
+    "topic_id": 15,
+    "text": "Lo spazio necessario al sorpasso è maggiore se vi è poca differenza di velocità tra i veicoli",
+    "text_ru": "Расстояние, необходимое для обгона, увеличивается при небольшой разнице в скорости между транспортными средствами",
+    "image": null,
+    "comment": {
+      "text": "Lo spazio necessario alla manovra di sorpasso, AUMENTA se c'è piccola differenza di velocità  tra il veicolo sorpassante e da sorpassare ( es. veicolo sorpassante velocità  di 60 km/h e veicolo da sorpassare velocità  di 50 km/h ).\r\n",
+      "text_ru": "Расстояние, необходимое для маневра обгона, УВЕЛИЧИВАЕТСЯ, если разница в скорости между обгоняющим и обгоняемым транспортными средствами невелика (например, скорость обгоняющего 60 км/ч, а обгоняемого 50 км/ч).",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5128,
+    "topic_id": 15,
+    "text": "E' pericoloso effettuare il rientro dopo il sorpasso se la manovra costringe i veicoli sorpassati a frenare bruscamente",
+    "text_ru": "Опасно возвращаться в свою полосу после обгона, если этот маневр вынуждает обгоняемых резко тормозить",
+    "image": null,
+    "comment": {
+      "text": "E' pericoloso effettuare il rientro dopo il sorpasso se la manovra costringe i veicoli sorpassati a frenare bruscamente. Bisogna rientrare appena si può ma lasciando una discreta distanza di sicurezza tra noi e il veicolo sorpassato.",
+      "text_ru": "Опасно возвращаться в полосу после обгона, если маневр вынуждает обгоняемые транспортные средства резко тормозить. Нужно возвращаться, как только это станет возможным, соблюдая при этом приличную дистанцию безопасности до обгоняемого автомобиля.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa013.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5130,
+    "topic_id": 15,
+    "text": "Il sorpasso è consentito in caso di scarsa visibilità purché si lampeggi durante la manovra",
+    "text_ru": "Обгон разрешен в условиях плохой видимости, при условии мигания фарами во время маневра",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso è consentito in caso di scarsa visibilità  (curve, dossi, nebbia etc.) solo sulle strade a senso unico, a due corsie per senso di marcia o a due carreggiate separate. Segnalare lampeggiando è consigliato ma non da diritto a sorpassare se non si vede bene.",
+      "text_ru": "Обгон разрешен в условиях плохой видимости (повороты, перегибы, туман и т.д.) только на дорогах с односторонним движением, с двумя полосами для каждого направления или с двумя раздельными проезжими частями. Подача сигналов миганием фар рекомендуется, но не дает права на обгон при плохой видимости.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5131,
+    "topic_id": 15,
+    "text": "Il sorpasso è vietato in curva anche se la strada è a due carreggiate separate",
+    "text_ru": "Обгон запрещен на поворотах, даже если дорога имеет две раздельные проезжие части",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso è consentito anche in caso di scarsa visibilità  (curve, dossi, nebbia etc.) se la strada è a due carreggiate separate.",
+      "text_ru": "Обгон разрешен даже в условиях ограниченной видимости (повороты, перегибы, туман и т.д.), если дорога имеет две раздельные проезжие части.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_04_CARREGGIATA-SEMI_05.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5132,
+    "topic_id": 15,
+    "text": "Il sorpasso è vietato in curva anche se la strada è ad almeno due corsie per senso di marcia",
+    "text_ru": "Обгон запрещен на поворотах, даже если на дороге имеется не менее двух полос в каждом направлении",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso è consentito anche in caso di scarsa visibilità  (curve, dossi, nebbia etc.) se le strade sono a due corsie per senso di marcia.\r\n\r\n",
+      "text_ru": "Обгон разрешен даже в условиях ограниченной видимости (повороты, перегибы, туман и т.д.), если на дороге имеется по две полосы для каждого направления.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_04_CARREGGIATA-SEMI_01.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5133,
+    "topic_id": 15,
+    "text": "E' consentito il sorpasso di veicoli fermi ai passaggi a livello senza barriere se il treno è distante",
+    "text_ru": "Разрешается обгон транспортных средств, стоящих на железнодорожных переездах без шлагбаумов, если поезд находится далеко",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso di veicoli fermi ai passaggi a livello senza barriere è vietato.",
+      "text_ru": "Обгон транспортных средств, стоящих на железнодорожных переездах без шлагбаумов, запрещен.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5134,
+    "topic_id": 15,
+    "text": "E' consentito il sorpasso di veicoli in lento movimento ai passaggi a livello senza barriere se il treno è distante",
+    "text_ru": "Разрешается обгон медленно движущихся транспортных средств на железнодорожных переездах без шлагбаумов, если поезд далеко",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso di veicoli fermi ai passaggi a livello senza barriere è vietato, anche se sono lenti.",
+      "text_ru": "Обгон транспортных средств на железнодорожных переездах без шлагбаумов запрещен, даже если они движутся медленно.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5135,
+    "topic_id": 15,
+    "text": "E' consentito il sorpasso sulle intersezioni purché non provenga nessuno dalla destra",
+    "text_ru": "Обгон на перекрестках разрешен при условии, что справа никто не приближается",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso agli incroci è vietato.",
+      "text_ru": "Обгон на перекрестках запрещен.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5136,
+    "topic_id": 15,
+    "text": "E' consentito il sorpasso sulle corsie d'accelerazione purché la manovra venga effettuata con attenzione",
+    "text_ru": "Разрешается обгон на полосах разгона, при условии осторожного выполнения маневра",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso è vietato sulle corsie di accelerazione e decelerazione, in quanto sono riservate per l'immissione e per l'uscita da una strada a precedenza .\r\n",
+      "text_ru": "Обгон на полосах разгона и торможения запрещен, так как они предназначены для въезда на главную дорогу и выезда с нее.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5137,
+    "topic_id": 15,
+    "text": "E' sempre consentito superare un veicolo a due ruote",
+    "text_ru": "Всегда разрешается обгонять двухколесное транспортное средство",
+    "image": null,
+    "comment": {
+      "text": "E' consentito superare un veicolo a due ruote non a motore solo se per farlo non si vada contromano.",
+      "text_ru": "Обгон двухколесного немеханического транспортного средства разрешен только в том случае, если при этом не происходит выезда на встречную полосу.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_168_03_01049_1_2.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5138,
+    "topic_id": 15,
+    "text": "E' vietato il sorpasso nelle strade a senso unico",
+    "text_ru": "Обгон на дорогах с односторонним движением запрещен",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso è consentito su strada a SENSO UNICO di circolazione anche in casi di scarsa visibilità perchè non si incrocano veicoli provenienti dal senso opposto.\r\n",
+      "text_ru": "Обгон разрешен на дорогах с ОДНОСТОРОННИМ движением даже в условиях плохой видимости, так как там нет встречных транспортных средств.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_05_per004h.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5139,
+    "topic_id": 15,
+    "text": "E' vietato il sorpasso di veicoli della polizia",
+    "text_ru": "Запрещается обгонять полицейские машины",
+    "image": null,
+    "comment": {
+      "text": "E' vietato il sorpasso di veicoli della polizia se sono in servizio di emergenza.",
+      "text_ru": "Запрещается обгон полицейских машин, если они выполняют экстренное задание.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5140,
+    "topic_id": 15,
+    "text": "In autostrada si può sorpassare indifferentemente a destra e a sinistra",
+    "text_ru": "На автомагистрали можно обгонять как справа, так и слева",
+    "image": null,
+    "comment": {
+      "text": "In autostrada si sorpassa di norma a sinistra utilizzando le corsie di sorpasso.",
+      "text_ru": "На автомагистрали обгон обычно осуществляется слева с использованием полос для обгона.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5141,
+    "topic_id": 15,
+    "text": "Il sorpasso tra motocicli si può effettuare sia a destra che a sinistra",
+    "text_ru": "Обгон между мотоциклами может осуществляться как справа, так и слева",
+    "image": null,
+    "comment": {
+      "text": "I motocicli si sorpassano di norma a sinistra (come gli altri tipi di veicoli).",
+      "text_ru": "Мотоциклы обгоняются, как правило, слева (как и другие виды транспортных средств).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5142,
+    "topic_id": 15,
+    "text": "Lo spazio necessario per il sorpasso aumenta se il veicolo da sorpassare rallenta",
+    "text_ru": "Расстояние, необходимое для обгона, увеличивается, если обгоняемый автомобиль замедляется",
+    "image": null,
+    "comment": {
+      "text": "Lo spazio necessario per il sorpasso diminuisce se il veicolo da sorpassare rallenta.",
+      "text_ru": "Расстояние, необходимое для обгона, уменьшается, если обгоняемое транспортное средство замедляется.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5143,
+    "topic_id": 15,
+    "text": "Lo spazio necessario per il sorpasso è indipendente dalla lunghezza dei veicoli",
+    "text_ru": "Расстояние, необходимое для обгона, не зависит от длины транспортных средств",
+    "image": null,
+    "comment": {
+      "text": "Lo spazio necessario per il sorpasso DIPENDE anche dalla lunghezza dei veicoli interessati.",
+      "text_ru": "Расстояние, необходимое для обгона, ТАКЖЕ ЗАВИСИТ от длины соответствующих транспортных средств.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa012.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5144,
+    "topic_id": 15,
+    "text": "E' vietato il sorpasso di un autobus fermo per la salita e la discesa dei passeggeri",
+    "text_ru": "Запрещается обгон автобуса, остановившегося для посадки и высадки пассажиров",
+    "image": null,
+    "comment": {
+      "text": "E' consentito il sorpasso di un autobus fermo per la salita e la discesa dei passeggeri, dal lato sinistro e facendo particolare attenzione ad eventuali pedoni davanti al bus.",
+      "text_ru": "Разрешается обгон автобуса, остановившегося для посадки и высадки пассажиров, с левой стороны, при соблюдении особой осторожности в отношении пешеходов перед автобусом.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5145,
+    "topic_id": 15,
+    "text": "Il sorpasso è vietato sulle curve e sui dossi delle strade a senso unico",
+    "text_ru": "Обгон запрещен на поворотах и перегибах дорог с односторонним движением",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso è CONSENTITO se la strada è a SENSO UNICO, anche in curva.",
+      "text_ru": "Обгон РАЗРЕШЕН, если дорога имеет ОДНОСТОРОННЕЕ движение, в том числе на поворотах.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_05_per004h.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5146,
+    "topic_id": 15,
+    "text": "Il sorpasso è vietato se si è costretti a superare la linea longitudinale tratteggiata",
+    "text_ru": "Обгон запрещен, если для этого необходимо пересечь продольную прерывистую линию",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso è vietato se si è costretti a superare la linea longitudinale CONTINUA.",
+      "text_ru": "Обгон запрещен, если для этого необходимо пересечь СПЛОШНУЮ продольную линию.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_208_01_pvc050.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5147,
+    "topic_id": 15,
+    "text": "E' consentito il sorpasso a destra dei motocicli se vi è spazio sufficiente",
+    "text_ru": "Разрешается обгон мотоциклов справа, если имеется достаточно места",
+    "image": null,
+    "comment": {
+      "text": "Come per gli altri veicoli è consentito il sorpasso a destra dei motocicli SOLO se hanno indicato che intendono svoltare a sinistra o se intendono fermarsi sul margine sinistro di una strada a senso unico.",
+      "text_ru": "Как и для других транспортных средств, обгон мотоциклов справа разрешен ТОЛЬКО в том случае, если они указали на намерение повернуть налево или остановиться у левого края на дороге с односторонним движением.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5148,
+    "topic_id": 15,
+    "text": "In caso di intenso traffico è consentito ai motociclisti utilizzare per il sorpasso le corsie riservate",
+    "text_ru": "В случае плотного движения мотоциклистам разрешается использовать выделенные полосы для обгона",
+    "image": null,
+    "comment": {
+      "text": "In caso di intenso traffico è comunque vietato ai veicoli non autorizzati l'utilizzo di corsie riservate.",
+      "text_ru": "В случае плотного движения неавторизованным транспортным средствам все равно запрещено использовать выделенные полосы.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5149,
+    "topic_id": 15,
+    "text": "Quando si inizia il sorpasso è consentito segnalare la manovra ai veicoli che precedono lampeggiando con i proiettori abbaglianti",
+    "text_ru": "При начале обгона разрешается сигнализировать о маневре впереди идущим транспортным средствам миганием дальним светом фар",
+    "image": null,
+    "comment": {
+      "text": "Vero! Quando si inizia il sorpasso è consentito nonchè consigliato segnalare la manovra ai veicoli che precedono lampeggiando con i proiettori abbaglianti (sia dentro che fuori dei centri abitati). ",
+      "text_ru": "Верно! При начале обгона разрешается и даже рекомендуется сигнализировать о маневре впереди идущим транспортным средствам кратковременным включением дальнего света фар (как в населенных пунктах, так и за их пределами).",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5150,
+    "topic_id": 15,
+    "text": "Nell'eseguire la manovra di sorpasso occorre regolare la velocità in relazione a quella del veicolo da sorpassare",
+    "text_ru": "При выполнении обгона необходимо регулировать скорость в зависимости от скорости обгоняемого транспортного средства",
+    "image": null,
+    "comment": {
+      "text": "Vero. Nell'eseguire la manovra di sorpasso occorre regolare la velocità  in relazione a quella del veicolo da sorpassare perché la differenza di velocità tra i due veicoli influisce sullo spazio che serve alla manovra  quindi sulla sicurezza.",
+      "text_ru": "Верно. При выполнении обгона необходимо регулировать скорость относительно скорости обгоняемого транспортного средства, поскольку разница скоростей влияет на расстояние, необходимое для маневра, и, следовательно, на безопасность.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5151,
+    "topic_id": 15,
+    "text": "Per eseguire la manovra di sorpasso nei centri urbani si possono momentaneamente superare i limiti di velocità",
+    "text_ru": "Для совершения обгона в населенных пунктах можно временно превышать установленные ограничения скорости",
+    "image": null,
+    "comment": {
+      "text": "E' sempre vietato superare i limiti di velocità !",
+      "text_ru": "Превышать установленные ограничения скорости всегда запрещено!",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5152,
+    "topic_id": 15,
+    "text": "Nell'eseguire la manovra di sorpasso bisogna mantenere strettamente la destra",
+    "text_ru": "При выполнении маневра обгона необходимо строго придерживаться правой стороны",
+    "image": null,
+    "comment": {
+      "text": "Nell'eseguire la manovra di sorpasso bisogna mantenere dal veicolo sorpassato una distanza proporzionata alla velocità , alla sagoma dei due veicoli ed all'ampiezza della carreggiata.",
+      "text_ru": "При выполнении маневра обгона необходимо соблюдать от обгоняемого транспортного средства дистанцию, пропорциональную скорости, габаритам обоих ТС и ширине проезжей части.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa011.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5153,
+    "topic_id": 15,
+    "text": "Nell'eseguire la manovra di sorpasso non bisogna accelerare",
+    "text_ru": "При выполнении маневра обгона не следует ускоряться",
+    "image": null,
+    "comment": {
+      "text": "Nell'eseguire la manovra di sorpasso di norma si deve accelerare.",
+      "text_ru": "При выполнении маневра обгона, как правило, необходимо ускоряться.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5154,
+    "topic_id": 15,
+    "text": "Dopo il sorpasso bisogna rientrare immediatamente a destra, rallentando",
+    "text_ru": "После обгона необходимо немедленно вернуться вправо, снизив скорость",
+    "image": null,
+    "comment": {
+      "text": "Dopo il sorpasso bisogna rientrare appena possibile senza tagliare la strada al veicolo sorpassato (lasciando al veicolo sorpassato la sua distanza di sicurezza).",
+      "text_ru": "После обгона необходимо вернуться как можно быстрее, не подрезая обгоняемое транспортное средство (оставляя ему безопасную дистанцию).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa013.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5155,
+    "topic_id": 15,
+    "text": "È vietato il sorpasso degli autobus in servizio pubblico di linea",
+    "text_ru": "Обгон маршрутных автобусов общественного транспорта запрещен",
+    "image": null,
+    "comment": {
+      "text": "NON è vietato il sorpasso degli autobus in servizio pubblico di linea ma è necessario prestare attenzione in particolare in prossimità  delle fermate.",
+      "text_ru": "Обгон маршрутных автобусов НЕ запрещен, но необходимо соблюдать осторожность, особенно вблизи остановок.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5156,
+    "topic_id": 15,
+    "text": "È vietato il sorpasso quando il veicolo che precede ha azionato l'indicatore di direzione destro",
+    "text_ru": "Обгон запрещен, когда идущее впереди транспортное средство включило правый указатель поворота",
+    "image": null,
+    "comment": {
+      "text": "È vietato il sorpasso quando il veicolo che precede ha manifestato l'intenzione di fare a sua volta la stessa manovra.",
+      "text_ru": "Обгон запрещен, когда идущее впереди транспортное средство выразило намерение, в свою очередь, совершить такой же маневр (обгон).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5157,
+    "topic_id": 15,
+    "text": "È vietato il sorpasso se nevica",
+    "text_ru": "Обгон запрещен во время снегопада",
+    "image": null,
+    "comment": {
+      "text": "È vietato il sorpasso se la visibilità è scarsa, per esempio bufera di neve, pioggia intensa o nebbia fitta.",
+      "text_ru": "Обгон запрещен при плохой видимости, например, во время метели, сильного дождя или густого тумана.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5158,
+    "topic_id": 15,
+    "text": "È vietato il sorpasso in corrispondenza dei passi carrabili",
+    "text_ru": "Обгон запрещен в местах выезда из дворов (passi carrabili)",
+    "image": null,
+    "comment": {
+      "text": "È vietato il sorpasso in corrispondenza degli incroci non regolati (il passo carrabile NON è un flusso di traffico).",
+      "text_ru": "Обгон запрещен на нерегулируемых перекрестках (выезд из двора/частной территории НЕ является пересечением транспортных потоков).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_12_div090d.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5159,
+    "topic_id": 15,
+    "text": "È vietato il sorpasso in prossimità degli ospedali",
+    "text_ru": "Обгон вблизи больниц запрещен",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso in prossimità  degli ospedali NON è di norma vietato.",
+      "text_ru": "Обгон вблизи больниц обычно НЕ запрещен.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5160,
+    "topic_id": 15,
+    "text": "È vietato il sorpasso in prossimità delle stazioni di servizio",
+    "text_ru": "Обгон вблизи заправочных станций запрещен",
+    "image": null,
+    "comment": {
+      "text": "il sorpasso in prossimità  delle stazioni di servizio NON è di norma vietato.",
+      "text_ru": "Обгон вблизи заправочных станций обычно НЕ запрещен.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5161,
+    "topic_id": 15,
+    "text": "Il sorpasso in prossimità di un dosso è consentito sulle strade a senso unico",
+    "text_ru": "Обгон вблизи перегиба дороги разрешен на дорогах с односторонним движением",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso in prossimità  di un dosso è consentito:\r\n\r\n- sulle strade a senso unico\r\n- sulle carreggiate a senso unico\r\n- sulle strade a due corsie per senso di marcia\r\n- sulle strade a due carreggiate separate.",
+      "text_ru": "Обгон вблизи перегиба дороги (dosso) разрешен:\r\n\r\n- на дорогах с односторонним движением\r\n- на проезжих частях с односторонним движением\r\n- на дорогах с двумя полосами для каждого направления\r\n- на дорогах с двумя раздельными проезжими частями.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5162,
+    "topic_id": 15,
+    "text": "Il sorpasso in prossimità di un dosso è consentito sulle carreggiate a senso unico",
+    "text_ru": "Обгон вблизи перегиба дороги разрешен на проезжих частях с односторонним движением",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso in prossimità  di un dosso e in curva è consentito:\r\n\r\n- sulle strade a senso unico\r\n- sulle carreggiate a senso unico\r\n- sulle strade a due corsie per senso di marcia\r\n- sulle strade a due carreggiate separate.",
+      "text_ru": "Обгон вблизи перегиба дороги и на повороте разрешен:\r\n\r\n- на дорогах с односторонним движением\r\n- на проезжих частях с односторонним движением\r\n- на дорогах с двумя полосами для каждого направления\r\n- на дорогах с двумя раздельными проезжими частями.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_05_per004h.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5163,
+    "topic_id": 15,
+    "text": "Il sorpasso in prossimità di un dosso è consentito sulle strade a due corsie per senso di marcia",
+    "text_ru": "Обгон вблизи перегиба дороги разрешен на дорогах с двумя полосами для каждого направления",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso in prossimità  di un dosso è consentito:\r\n\r\n- sulle strade a senso unico\r\n- sulle carreggiate a senso unico\r\n- sulle strade a due corsie per senso di marcia\r\n- sulle strade a due carreggiate separate.",
+      "text_ru": "Обгон вблизи перегиба дороги разрешен:\r\n\r\n- на дорогах с односторонним движением\r\n- на проезжих частях с односторонним движением\r\n- на дорогах с двумя полосами для каждого направления\r\n- на дорогах с двумя раздельными проезжими частями.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_03_per002d.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5164,
+    "topic_id": 15,
+    "text": "Il sorpasso in prossimità di un dosso è consentito sulle strade a due carreggiate separate",
+    "text_ru": "Обгон вблизи перегиба дороги разрешен на дорогах с двумя раздельными проезжими частями",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso in prossimità  di un dosso è consentito:\r\n\r\n- sulle strade a senso unico\r\n- sulle carreggiate a senso unico\r\n- sulle strade a due corsie per senso di marcia\r\n- sulle strade a due carreggiate separate.",
+      "text_ru": "Обгон вблизи перегиба дороги разрешен:\r\n\r\n- на дорогах с односторонним движением\r\n- на проезжих частях с односторонним движением\r\n- на дорогах с двумя полосами для каждого направления\r\n- на дорогах с двумя раздельными проезжими частями.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_04_CARREGGIATA-SEMI_05.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5165,
+    "topic_id": 15,
+    "text": "E'vietato sorpassare accodandosi ad un'ambulanza in servizio di emergenza",
+    "text_ru": "Запрещается обгонять, пристраиваясь за машиной скорой помощи, выполняющей экстренное задание",
+    "image": null,
+    "comment": {
+      "text": "E' vietato sorpassare altri veicoli accodandosi ad un'ambulanza in servizio di emergenza.",
+      "text_ru": "Запрещается обгон других транспортных средств путем следования («в хвосте») за машиной скорой помощи, находящейся на экстренном вызове.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5166,
+    "topic_id": 15,
+    "text": "Su carreggiate a due corsie e a doppio senso in prossimità di un dosso, è consentito sorpassare veicoli a trazione animale",
+    "text_ru": "На двухполосных проезжих частях с двусторонним движением вблизи перегиба дороги разрешается обгон гужевого транспорта",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso in prossimità  di un dosso è consentito:\r\n\r\n- sulle strade a senso unico\r\n- sulle carreggiate a senso unico\r\n- sulle strade a due corsie per senso di marcia\r\n- sulle strade a due carreggiate separate.\r\n\r\n\r\n",
+      "text_ru": "Обгон вблизи перегиба дороги (dosso) разрешен:\r\n\r\n- на дорогах с односторонним движением\r\n- на проезжих частях с односторонним движением\r\n- на дорогах с двумя полосами для каждого направления\r\n- на дорогах с двумя раздельными проезжими частями.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5167,
+    "topic_id": 15,
+    "text": "Su carreggiate a due corsie a doppio senso di marcia in prossimità di un dosso, è consentito sorpassare nella scia del veicolo che precede",
+    "text_ru": "На двухполосных проезжих частях с двусторонним движением вблизи перегиба дороги разрешается обгон «в шлейфе» за впереди идущим ТС",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso in scia, cioè seguendo un veicolo a distanza ravvicinata, è vietato.",
+      "text_ru": "Обгон «в шлейфе» (вплотную за обгоняющим ТС), то есть следование за автомобилем на близком расстоянии, запрещен.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5168,
+    "topic_id": 15,
+    "text": "In prossimità di un dosso è consentito invadere l'opposta semicarreggiata, per sorpassare autobus di linea fermi per la salita e discesa dei passeggeri",
+    "text_ru": "Вблизи перегиба дороги разрешается выезжать на встречную сторону для обгона маршрутных автобусов, остановившихся для посадки и высадки пассажиров",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso in prossimità  di un dosso è vietato.\r\n\r\n",
+      "text_ru": "Обгон вблизи перегиба дороги (dosso) запрещен.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5169,
+    "topic_id": 15,
+    "text": "Non si può sorpassare in corrispondenza dei dossi su carreggiata a senso unico a due corsie",
+    "text_ru": "Нельзя совершать обгон на перегибах дороги на двухполосной проезжей части с односторонним движением",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso in prossimità  di un dosso è consentito:\r\n\r\n- sulle strade a senso unico\r\n- sulle carreggiate a senso unico\r\n- sulle strade a due corsie per senso di marcia\r\n- sulle strade a due carreggiate separate.",
+      "text_ru": "Обгон вблизи перегиба дороги (dosso) разрешен:\r\n\r\n- на дорогах с односторонним движением\r\n- на проезжих частях с односторонним движением\r\n- на дорогах с двумя полосами для каждого направления\r\n- на дорогах с двумя раздельными проезжими частями.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5170,
+    "topic_id": 15,
+    "text": "Non si può sorpassare un veicolo che abbia segnalato l'intenzione di accostarsi al margine destro della carreggiata",
+    "text_ru": "Нельзя обгонять транспортное средство, подавшее сигнал о намерении остановиться у правого края проезжей части",
+    "image": null,
+    "comment": {
+      "text": "Il veicolo che ha segnalato l'intenzione di accostarsi al margine destro della carreggiata, di norma può essere sorpassato rispettando tutte le regole sulla manovra.",
+      "text_ru": "Транспортное средство, подавшее сигнал о намерении прижаться к правому краю дороги, обычно может быть обгоняемо при соблюдении всех правил выполнения маневра.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5171,
+    "topic_id": 15,
+    "text": "Non si può sorpassare in corrispondenza dell'uscita di un pubblico parcheggio",
+    "text_ru": "Нельзя совершать обгон напротив выезда из общественной парковки",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso in corrispondenza dell'uscita di un pubblico parcheggio, di una stazione di servizio o di un passo carrabile NON è di norma vietato.",
+      "text_ru": "Обгон напротив выезда из общественной парковки, заправочной станции или частного выезда обычно НЕ запрещен.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5172,
+    "topic_id": 15,
+    "text": "E' vietato il sorpasso se alla sinistra del veicolo si trova una linea bianca discontinua affiancata da una continua",
+    "text_ru": "Обгон запрещен, если слева от транспортного средства находится прерывистая белая линия, за которой следует сплошная",
+    "image": null,
+    "comment": {
+      "text": "La striscia lungo l'asse della carreggiata se doppia una continua e una discontinua, consente il sorpasso oltrepassando i segni solo dalla parte della linea discontinua.",
+      "text_ru": "Если продольная разметка по оси дороги двойная (сплошная и прерывистая), обгон с пересечением разметки разрешен только со стороны прерывистой линии.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/566.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5173,
+    "topic_id": 15,
+    "text": "Non si può sorpassare sulla destra il tram che marcia al centro della carreggiata",
+    "text_ru": "Нельзя обгонять справа трамвай, движущийся посередине проезжей части",
+    "image": null,
+    "comment": {
+      "text": "Il tram può essere sorpassato:\r\na destra quando è in marcia e c'è spazio sufficiente (questa è la norma), a sinistra senza oltrepassare l'opposto senso di marcia e quando è fermo per far scendere o salire passeggeri solo se c'è l'apposito salvagente .",
+      "text_ru": "Трамвай можно обгонять:\r\nсправа, когда он движется и имеется достаточно места (это норма); слева — без выезда на встречную полосу; и когда он стоит для высадки или посадки пассажиров — только при наличии специальной посадочной площадки (островка безопасности).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5174,
+    "topic_id": 15,
+    "text": "Nella fase di sorpasso, il conducente è tenuto a evitare di stringere o di tagliare la strada al veicolo sorpassato",
+    "text_ru": "Во время обгона водитель обязан избегать прижимания или «подрезания» обгоняемого транспортного средства",
+    "image": null,
+    "comment": {
+      "text": "Nella fase di sorpasso, il conducente è tenuto a evitare di stringere o di tagliare la strada al veicolo sorpassato, deve rientrare però il prima possibile lasciando tra se e il veicolo sorpassato una sufficiente distanza di sicurezza.",
+      "text_ru": "Во время фазы обгона водитель обязан избегать прижимания или подрезания обгоняемого автомобиля; он должен вернуться в свою полосу как можно скорее, оставив достаточную дистанцию безопасности между собой и обгоняемым ТС.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa013.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5175,
+    "topic_id": 15,
+    "text": "La pericolosità del sorpasso è determinata dal rischio di urtare altri veicoli che manifestano l'intenzione di compiere la stessa manovra",
+    "text_ru": "Опасность обгона обусловлена риском столкновения с другими транспортными средствами, которые выражают намерение совершить тот же маневр",
+    "image": null,
+    "comment": {
+      "text": "La pericolosità  del sorpasso è determinata:\r\n\r\n- dal rischio di urtare altri veicoli che manifestano l'intenzione di compiere la stessa manovra\r\n- dal rischio di collisione, in fase di avvicinamento, con il veicolo da sorpassare\r\n- dal rischio di collisione, in fase di rientro in corsia, con il veicolo sorpassato\r\n- dal rischio di urto frontale con un veicolo che provenga dal senso contrario\r\n- dalla ridotta larghezza della carreggiata.",
+      "text_ru": "Опасность обгона определяется:\r\n\r\n- риском столкновения с другими ТС, которые намерены совершить тот же маневр\r\n- риском столкновения при сближении с обгоняемым ТС\r\n- риском столкновения при возвращении в полосу с обгоняемым ТС\r\n- риском лобового столкновения с транспортным средством, идущим навстречу\r\n- недостаточной шириной проезжей части.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5176,
+    "topic_id": 15,
+    "text": "La pericolosità del sorpasso è determinata dal rischio di collisione, in fase di avvicinamento, con il veicolo da sorpassare",
+    "text_ru": "Опасность обгона обусловлена риском столкновения в фазе сближения с обгоняемым транспортным средством",
+    "image": null,
+    "comment": {
+      "text": "La pericolosità  del sorpasso è determinata:\r\n\r\n- dal rischio di urtare altri veicoli che manifestano l'intenzione di compiere la stessa manovra\r\n- dal rischio di collisione, in fase di avvicinamento, con il veicolo da sorpassare\r\n- dal rischio di collisione, in fase di rientro in corsia, con il veicolo sorpassato\r\n- dal rischio di urto frontale con un veicolo che provenga dal senso contrario\r\n- dalla ridotta larghezza della carreggiata.",
+      "text_ru": "Опасность обгона определяется:\r\n\r\n- риском столкновения с другими ТС, которые намерены совершить тот же маневр\r\n- риском столкновения при сближении с обгоняемым ТС\r\n- риском столкновения при возвращении в полосу с обгоняемым ТС\r\n- риском лобового столкновения с транспортным средством, идущим навстречу\r\n- недостаточной шириной проезжей части.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5177,
+    "topic_id": 15,
+    "text": "La pericolosità del sorpasso è determinata dal rischio di collisione, in fase di rientro in corsia, con il veicolo sorpassato",
+    "text_ru": "Опасность обгона обусловлена риском столкновения в фазе возвращения в полосу с обгоняемым транспортным средством",
+    "image": null,
+    "comment": {
+      "text": "La pericolosità  del sorpasso è determinata:\r\n\r\n- dal rischio di urtare altri veicoli che manifestano l'intenzione di compiere la stessa manovra\r\n- dal rischio di collisione, in fase di avvicinamento, con il veicolo da sorpassare\r\n- dal rischio di collisione, in fase di rientro in corsia, con il veicolo sorpassato\r\n- dal rischio di urto frontale con un veicolo che provenga dal senso contrario\r\n- dalla ridotta larghezza della carreggiata.",
+      "text_ru": "Опасность обгона определяется:\r\n\r\n- риском столкновения с другими ТС, которые намерены совершить тот же маневр\r\n- риском столкновения при сближении с обгоняемым ТС\r\n- риском столкновения при возвращении в полосу с обгоняемым ТС\r\n- риском лобового столкновения с транспортным средством, идущим навстречу\r\n- недостаточной шириной проезжей части.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa013.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5178,
+    "topic_id": 15,
+    "text": "La pericolosità del sorpasso è determinata dal rischio di urto frontale con un veicolo che provenga dal senso contrario",
+    "text_ru": "Опасность обгона обусловлена риском лобового столкновения с транспортным средством, движущимся навстречу",
+    "image": null,
+    "comment": {
+      "text": "La pericolosità  del sorpasso è determinata:\r\n\r\n- dal rischio di urtare altri veicoli che manifestano l'intenzione di compiere la stessa manovra\r\n- dal rischio di collisione, in fase di avvicinamento, con il veicolo da sorpassare\r\n- dal rischio di collisione, in fase di rientro in corsia, con il veicolo sorpassato\r\n- dal rischio di urto frontale con un veicolo che provenga dal senso contrario\r\n- dalla ridotta larghezza della carreggiata.",
+      "text_ru": "Опасность обгона определяется:\r\n\r\n- риском столкновения с другими ТС, которые намерены совершить тот же маневр\r\n- риском столкновения при сближении с обгоняемым ТС\r\n- риском столкновения при возвращении в полосу с обгоняемым ТС\r\n- риском лобового столкновения с транспортным средством, идущим навстречу\r\n- недостаточной шириной проезжей части.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa004.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5179,
+    "topic_id": 15,
+    "text": "La pericolosità del sorpasso è determinata dalla ridotta larghezza della carreggiata",
+    "text_ru": "Опасность обгона обусловлена недостаточной шириной проезжей части",
+    "image": null,
+    "comment": {
+      "text": "La pericolosità  del sorpasso è determinata:\r\n\r\n- dal rischio di urtare altri veicoli che manifestano l'intenzione di compiere la stessa manovra\r\n- dal rischio di collisione, in fase di avvicinamento, con il veicolo da sorpassare\r\n- dal rischio di collisione, in fase di rientro in corsia, con il veicolo sorpassato\r\n- dal rischio di urto frontale con un veicolo che provenga dal senso contrario\r\n- dalla ridotta larghezza della carreggiata.",
+      "text_ru": "Опасность обгона определяется:\r\n\r\n- риском столкновения с другими ТС, которые намерены совершить тот же маневр\r\n- риском столкновения при сближении с обгоняемым ТС\r\n- риском столкновения при возвращении в полосу с обгоняемым ТС\r\n- риском лобового столкновения с транспортным средством, идущим навстречу\r\n- недостаточной шириной проезжей части.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_Sorpa011.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5180,
+    "topic_id": 15,
+    "text": "Nella fase di sorpasso, il conducente è tenuto a mantenersi il più a lungo possibile nella corsia di sorpasso",
+    "text_ru": "Во время обгона водитель обязан оставаться в полосе обгона как можно дольше",
+    "image": null,
+    "comment": {
+      "text": "Nella fase di sorpasso, il conducente è tenuto a evitare di stringere o di tagliare la strada al veicolo sorpassato ma deve rientrare però il prima possibile lasciando tra se e il veicolo sorpassato una adeguata distanza di sicurezza.",
+      "text_ru": "В фазе обгона водитель обязан избегать прижимания или подрезания обгоняемого ТС, но должен вернуться как можно быстрее, оставляя достаточную дистанцию безопасности между собой и обгоняемым ТС.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa013.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5181,
+    "topic_id": 15,
+    "text": "Nella fase di sorpasso, il conducente è tenuto a segnalare continuamente con l'avvisatore acustico l'effettuazione della manovra",
+    "text_ru": "Во время обгона водитель обязан непрерывно подавать звуковой сигнал о выполнении маневра",
+    "image": null,
+    "comment": {
+      "text": "Nella fase di sorpasso, è consigliabile suonare con il clacson solo su strade extraurbane; il conducente NON è tenuto a segnalare continuamente con l'avvisatore acustico l'effettuazione della manovra,  può utilizzarlo, se lo ritiene opportuno.",
+      "text_ru": "Во время обгона рекомендуется использовать клаксон только на загородных дорогах; водитель НЕ обязан непрерывно подавать звуковой сигнал о маневре, он может использовать его, если сочтет целесообразным.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5182,
+    "topic_id": 15,
+    "text": "Nella fase di sorpasso, il conducente è tenuto a mantenere una velocità almeno doppia di quella del veicolo sorpassato",
+    "text_ru": "Во время обгона водитель обязан поддерживать скорость, как минимум вдвое превышающую скорость обгоняемого ТС",
+    "image": null,
+    "comment": {
+      "text": "La velocità  del veicolo sorpassante deve essere superiore a quella del sorpassato ma non deve essere necessariamente doppia.",
+      "text_ru": "Скорость обгоняющего транспортного средства должна быть выше скорости обгоняемого, но она не обязательно должна быть в два раза больше.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5183,
+    "topic_id": 15,
+    "text": "La pericolosità del sorpasso è determinata dalla presenza, sulla strada, di delineatori normali di margine",
+    "text_ru": "Опасность обгона обусловлена наличием на дороге обычных дорожных вех (боковых ограничителей)",
+    "image": null,
+    "comment": {
+      "text": "I delineatori in figura, sono segnali complementari posti al limite esterno della banchina, servono a visualizzare a distanza l'andamento di una carreggiata a DOPPIO SENSO di circolazione, quindi rendono meno pericoloso il sorpasso.\r\n\r\n",
+      "text_ru": "Дорожные вехи (delineatori), показанные на рисунке, являются дополнительными сигналами, размещаемыми по внешнему краю обочины; они служат для визуализации направления проезжей части с ДВУСТОРОННИМ движением на расстоянии, что делает обгон менее опасным.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5184,
+    "topic_id": 15,
+    "text": "Il sorpasso è vietato di notte, nei centri urbani con pubblica illuminazione insufficiente",
+    "text_ru": "Обгон запрещен ночью в населенных пунктах с недостаточным общественным освещением",
+    "image": null,
+    "comment": {
+      "text": "Di notte  bisogna effettuare il sorpasso con più attenzione ma non è vietato. ",
+      "text_ru": "Ночью обгон следует выполнять с большей осторожностью, но он не запрещен.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5185,
+    "topic_id": 15,
+    "text": "Il sorpasso è vietato quando sulla carreggiata è tracciata la linea tratteggiata di mezzeria",
+    "text_ru": "Обгон запрещен, когда на проезжей части нанесена прерывистая осевая линия",
+    "image": null,
+    "comment": {
+      "text": "Quando sulla carreggiata è tracciata la linea tratteggiata di mezzeria il sorpasso, di norma, è consentito.\r\n\r\n",
+      "text_ru": "Когда на проезжей части нанесена прерывистая осевая линия, обгон, как правило, разрешен.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/502.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5186,
+    "topic_id": 15,
+    "text": "Il sorpasso è vietato quando sulle strade di montagna si è preceduti da un autobus di linea",
+    "text_ru": "Обгон запрещен, когда на горных дорогах перед вами следует рейсовый автобус",
+    "image": null,
+    "comment": {
+      "text": "No non è vietato. Dipende sempre dalla normali regole sul divieto di sorpasso.",
+      "text_ru": "Нет, не запрещен. Это всегда зависит от обычных правил запрета обгона.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5187,
+    "topic_id": 15,
+    "text": "Nella fase di rientro dal sorpasso in autostrada, il conducente deve distanziarsi di almeno 100 m dal veicolo sorpassato",
+    "text_ru": "При возвращении в полосу после обгона на автомагистрали водитель должен удалиться от обгоняемого ТС не менее чем на 100 м",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso deve essere effettuato sempre molto rapidamente, in modo da ridurre il tempo di occupazione della corsia opposta (rientrare appena possibile senza però tagliare la strada al veicolo sorpassato).\r\n\r\n",
+      "text_ru": "Обгон всегда должен выполняться очень быстро, чтобы сократить время занятия встречной полосы (нужно вернуться как можно скорее, не подрезая при этом обгоняемое ТС).",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa013.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5188,
+    "topic_id": 15,
+    "text": "Nella fase di rientro dal sorpasso il conducente deve segnalare acusticamente la manovra al veicolo sorpassato",
+    "text_ru": "При возвращении в полосу после обгона водитель должен подать звуковой сигнал обгоняемому ТС",
+    "image": null,
+    "comment": {
+      "text": "Nella fase di rientro dal sorpasso, il conducente NON è tenuto a segnalare acusticamente l'effettuazione della manovra (ma può utilizzarlo, prima di sorpassare, se lo ritiene opportuno, solo fuori dei centri abitati).",
+      "text_ru": "При возвращении в свою полосу после обгона водитель НЕ обязан подавать звуковой сигнал о маневре (но он может использовать его перед началом обгона, если сочтет нужным, только вне населенных пунктов).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5189,
+    "topic_id": 15,
+    "text": "Il sorpasso a destra è consentito quando il filobus è fermo per la salita e la discesa dei passeggeri, anche se non esiste salvagente",
+    "text_ru": "Обгон справа разрешен, когда троллейбус стоит для посадки и высадки пассажиров, даже при отсутствии посадочной площадки",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso a destra, di un tram o filobus fermo per la salita e la discesa dei passeggeri è consentito solo in presenza dell'apposito SALVAGENTE .\r\n",
+      "text_ru": "Обгон справа трамвая или троллейбуса, остановившегося для посадки и высадки пассажиров, разрешен только при наличии специальной посадочной площадки (SALVAGENTE).",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5190,
+    "topic_id": 15,
+    "text": "Il sorpasso a destra è consentito quando si percorre una strada extraurbana a senso unico",
+    "text_ru": "Обгон справа разрешен при движении по загородной дороге с односторонним движением",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso a destra è normalmente vietato.",
+      "text_ru": "Обгон справа обычно запрещен.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5191,
+    "topic_id": 15,
+    "text": "Il conducente che intende sorpassare deve assicurarsi che la potenza del motore del proprio veicolo sia maggiore di quella del veicolo da sorpassare",
+    "text_ru": "Водитель, намеревающийся совершить обгон, должен убедиться, что мощность двигателя его транспортного средства выше мощности двигателя обгоняемого транспортного средства",
+    "image": null,
+    "comment": {
+      "text": "Il conducente che intende sorpassare deve riferirsi alla velocità  dei due veicoli e NON alla potenza.",
+      "text_ru": "Водитель, намеревающийся совершить обгон, должен ориентироваться на скорость обоих транспортных средств, а НЕ на их мощность.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa012.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5192,
+    "topic_id": 15,
+    "text": "Il conducente del veicolo da sorpassare ha l'obbligo di non gareggiare in velocità con il veicolo sorpassante",
+    "text_ru": "Водитель обгоняемого транспортного средства обязан не соревноваться в скорости с обгоняющим транспортным средством",
+    "image": null,
+    "comment": {
+      "text": "E' sempre vietato gareggiare in velocità  con altri veicoli.",
+      "text_ru": "Соревноваться в скорости с другими транспортными средствами запрещено всегда.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5193,
+    "topic_id": 15,
+    "text": "Il conducente del veicolo da sorpassare ha l'obbligo di non accelerare la propria andatura",
+    "text_ru": "Водитель обгоняемого транспортного средства обязан не увеличивать скорость своего движения",
+    "image": null,
+    "comment": {
+      "text": "Il conducente del veicolo da sorpassare ha l'obbligo di non accelerare e tenersi il più possibile vicino al margine destro su strade ad unica corsia per senso di marcia.",
+      "text_ru": "Водитель обгоняемого транспортного средства обязан не ускоряться и держаться как можно ближе к правому краю на дорогах с одной полосой движения в каждом направлении.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5194,
+    "topic_id": 15,
+    "text": "Il conducente del veicolo da sorpassare ha l'obbligo di fermarsi appena possibile per far defluire il traffico se guida un veicolo molto lento",
+    "text_ru": "Водитель обгоняемого транспортного средства обязан остановиться, как только это станет возможным, чтобы пропустить транспортный поток, если он управляет очень медленным транспортным средством",
+    "image": null,
+    "comment": {
+      "text": "Vero! Il conducente del veicolo da sorpassare ha l'obbligo di fermarsi appena possibile per far defluire il traffico se guida un veicolo molto lento, ad esempio trattrici agricole cingolate con limite a 15 km/h che creerebbero una lunga coda di veicoli.\r\n",
+      "text_ru": "Верно! Водитель обгоняемого транспортного средства обязан остановиться при первой возможности, чтобы дать проехать скопившемуся транспорту, если он управляет очень медленным ТС, например, гусеничным сельскохозяйственным трактором с ограничением скорости 15 км/ч, который может создать длинную пробку.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5195,
+    "topic_id": 15,
+    "text": "Il conducente del veicolo da sorpassare ha l'obbligo di tenersi il più possibile vicino al margine destro su strade ad unica corsia per senso di marcia",
+    "text_ru": "Водитель обгоняемого транспортного средства обязан держаться как можно ближе к правому краю на дорогах с одной полосой движения в каждом направлении",
+    "image": null,
+    "comment": {
+      "text": "Il conducente del veicolo da sorpassare non deve accelerare la propria andatura e deve tenersi il più possibile vicino al margine destro su strade ad unica corsia per senso di marcia.",
+      "text_ru": "Водитель обгоняемого транспортного средства не должен увеличивать скорость и обязан держаться как можно ближе к правому краю на дорогах с одной полосой движения в каждом направлении.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5196,
+    "topic_id": 15,
+    "text": "Il conducente del veicolo da sorpassare ha l'obbligo di portarsi al centro della carreggiata per evitare sorpassi in scia",
+    "text_ru": "Водитель обгоняемого транспортного средства обязан сместиться к центру проезжей части, чтобы избежать обгона «в шлейфе» (вплотную за ним)",
+    "image": null,
+    "comment": {
+      "text": "Il conducente del veicolo da sorpassare ha l'obbligo di tenersi il più possibile vicino al margine destro su strade ad unica corsia per senso di marcia.",
+      "text_ru": "Водитель обгоняемого транспортного средства обязан держаться как можно ближе к правому краю на дорогах с одной полосой движения в каждом направлении.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5197,
+    "topic_id": 15,
+    "text": "Il conducente del veicolo da sorpassare ha l'obbligo di azionare la segnalazione luminosa di pericolo(lampeggio simultaneo di tutte le frecce) per segnalare che la strada è sgombra",
+    "text_ru": "Водитель обгоняемого транспортного средства обязан включить аварийную световую сигнализацию (одновременное мигание всех указателей поворота), чтобы просигнализировать, что дорога свободна",
+    "image": null,
+    "comment": {
+      "text": "Il conducente del veicolo da sorpassare ha l'obbligo di non accelerare la propria andatura e  tenersi il più possibile vicino al margine destro su strade ad unica corsia per senso di marcia.",
+      "text_ru": "Водитель обгоняемого транспортного средства обязан не увеличивать скорость и держаться как можно ближе к правому краю на дорогах с одной полосой движения в каждом направлении.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5198,
+    "topic_id": 15,
+    "text": "Il conducente del veicolo da sorpassare ha l'obbligo di ridurre sempre la propria velocità",
+    "text_ru": "Водитель обгоняемого транспортного средства обязан всегда снижать свою скорость",
+    "image": null,
+    "comment": {
+      "text": "Il conducente del veicolo da sorpassare ha l'obbligo di non accelerare la propria andatura  ma non ha, di norma, l'obbligo di rallentare.\r\n",
+      "text_ru": "Водитель обгоняемого транспортного средства обязан не увеличивать свою скорость, но, как правило, не обязан замедляться.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5199,
+    "topic_id": 15,
+    "text": "Il conducente del veicolo da sorpassare ha l'obbligo di inserire le marce più basse per facilitare il sorpasso",
+    "text_ru": "Водитель обгоняемого транспортного средства обязан переключиться на более низкую передачу, чтобы облегчить обгон",
+    "image": null,
+    "comment": {
+      "text": "Il conducente del veicolo da sorpassare ha l'obbligo di non accelerare la propria andatura  ma non ha, di norma, l'obbligo di rallentare.",
+      "text_ru": "Водитель обгоняемого транспортного средства обязан не увеличивать свою скорость, но, как правило, не обязан замедляться.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5200,
+    "topic_id": 15,
+    "text": "Per effettuare il sorpasso bisogna considerare che un veicolo trainante un caravan non può mai essere superato in una discesa a forte pendenza",
+    "text_ru": "При совершении обгона необходимо учитывать, что транспортное средство, буксирующее жилой прицеп (караван), никогда не может быть обгоняемо на крутом спуске",
+    "image": null,
+    "comment": {
+      "text": "Non bisogna considerare la pendenza della strada ma la visibilità; su discese a forte pendenza ma rettilinee si può di norma sorpassare.",
+      "text_ru": "Нужно учитывать не уклон дороги, а видимость; на крутых, но прямых спусках обгон, как правило, разрешен.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5201,
+    "topic_id": 15,
+    "text": "E' consentito sorpassare un'auto della Polizia, se non è in servizio di emergenza e non vi sono altri tipi di impedimenti",
+    "text_ru": "Разрешается обгонять полицейский автомобиль, если он не выполняет экстренное задание и нет других препятствий",
+    "image": null,
+    "comment": {
+      "text": "Si. E' consentito sorpassare un'auto della Polizia, se non è in servizio di emergenza e non vi sono altri tipi di impedimenti.",
+      "text_ru": "Да. Разрешается обгонять полицейский автомобиль, если он не находится на экстренной службе и нет других типов препятствий.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/20_190_09_polizia01.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5202,
+    "topic_id": 15,
+    "text": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, è consigliabile ridurre la velocità",
+    "text_ru": "Если вас обгоняют в то время как навстречу движется другое транспортное средство, целесообразно снизить скорость",
+    "image": null,
+    "comment": {
+      "text": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, è consigliabile ridurre la velocità e spostarsi il più vicino possibile al margine destro della carreggiata.\r\n\r\n",
+      "text_ru": "Если вас обгоняют при появлении встречного транспортного средства, рекомендуется снизить скорость и сместиться как можно ближе к правому краю проезжей части.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_Pvc023.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5203,
+    "topic_id": 15,
+    "text": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, occorre spostarsi il più vicino possibile al margine destro della carreggiata",
+    "text_ru": "Если вас обгоняют в то время как навстречу движется другое транспортное средство, необходимо сместиться как можно ближе к правому краю проезжей части",
+    "image": null,
+    "comment": {
+      "text": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, è consigliabile ridurre la velocità e spostarsi il più vicino possibile al margine destro della carreggiata.",
+      "text_ru": "Если вас обгоняют при появлении встречного транспортного средства, рекомендуется снизить скорость и сместиться как можно ближе к правому краю проезжей части.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_Pvc023.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5204,
+    "topic_id": 15,
+    "text": "Se si viene sorpassati ed avviene un incidente, si può avere una parte di responsabilità, se non si è fatto il possibile per facilitare la manovra di sorpasso",
+    "text_ru": "Если при обгоне происходит авария, обгоняемый водитель может нести часть ответственности, если он не сделал все возможное для облегчения маневра обгона",
+    "image": null,
+    "comment": {
+      "text": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, è consigliabile ridurre la velocità e spostarsi il più vicino possibile al margine destro della carreggiata.",
+      "text_ru": "Если вас обгоняют при появлении встречного ТС, рекомендуется снизить скорость и сместиться как можно ближе к правому краю проезжей части.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_Pvc023.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5205,
+    "topic_id": 15,
+    "text": "E' vietato sorpassare un'auto della Polizia, non in servizio di emergenza, per non ostacolarne la marcia",
+    "text_ru": "Запрещено обгонять полицейский автомобиль, не выполняющий экстренное задание, чтобы не мешать его движению",
+    "image": null,
+    "comment": {
+      "text": "Falso! E' vietato sorpassare un'auto della Polizia solo se è in servizio di emergenza.",
+      "text_ru": "Ложь! Обгонять полицейский автомобиль запрещено только тогда, когда он находится на экстренной службе.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/20_190_09_polizia01.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5206,
+    "topic_id": 15,
+    "text": "Sulle autostrade a tre corsie per senso di marcia è consentito sorpassare un'auto della polizia, anche se in servizio di emergenza",
+    "text_ru": "На автомагистралях с тремя полосами движения в каждом направлении разрешается обгонять полицейский автомобиль, даже если он находится на экстренном задании",
+    "image": null,
+    "comment": {
+      "text": "E' consentito sorpassare un'auto della Polizia solo se non è in servizio di emergenza e non vi sono altri tipi di impedimenti.",
+      "text_ru": "Обгонять полицейский автомобиль разрешено только в том случае, если он не находится на экстренной службе и нет других препятствий.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/20_190_09_polizia01.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5207,
+    "topic_id": 15,
+    "text": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, occorre tenere accesi i proiettori abbaglianti, come segnale di pericolo",
+    "text_ru": "Если вас обгоняют при приближении встречного транспортного средства, необходимо оставить включенным дальний свет фар в качестве сигнала опасности",
+    "image": null,
+    "comment": {
+      "text": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, è consigliabile ridurre la velocità e spostarsi il più vicino possibile al margine destro della carreggiata.",
+      "text_ru": "Если вас обгоняют при появлении встречного ТС, рекомендуется снизить скорость и сместиться как можно ближе к правому краю проезжей части.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa004.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5208,
+    "topic_id": 15,
+    "text": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, si ha l'obbligo di mantenere la stessa velocità",
+    "text_ru": "Если вас обгоняют при приближении встречного транспортного средства, вы обязаны сохранять ту же скорость",
+    "image": null,
+    "comment": {
+      "text": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, è consigliabile ridurre la velocità e spostarsi il più vicino possibile al margine destro della carreggiata.",
+      "text_ru": "Если вас обгоняют при появлении встречного ТС, рекомендуется снизить скорость и сместиться как можно ближе к правому краю проезжей части.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa004.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5209,
+    "topic_id": 15,
+    "text": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, occorre azionare l'indicatore di direzione destro, come segnale di pericolo",
+    "text_ru": "Если вас обгоняют при приближении встречного транспортного средства, необходимо включить правый указатель поворота в качестве сигнала опасности",
+    "image": null,
+    "comment": {
+      "text": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, è consigliabile ridurre la velocità e spostarsi il più vicino possibile al margine destro della carreggiata.",
+      "text_ru": "Если вас обгоняют при появлении встречного ТС, рекомендуется снизить скорость и сместиться как можно ближе к правому краю проезжей части.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa004.jpg"
+    },
+    "answer": false
+  },
+  {
+    "id": 5210,
+    "topic_id": 15,
+    "text": "Durante un sorpasso in autostrada, la scarsa attenzione posta ai veicoli che seguono può essere causa di incidente",
+    "text_ru": "Во время обгона на автомагистрали недостаточное внимание к транспортным средствам, движущимся сзади, может стать причиной аварии",
+    "image": null,
+    "comment": {
+      "text": "Durante un sorpasso in autostrada dobbiamo tenere alta l' attenzione rispetto ai veicoli che seguono soprattutto durante le manovre di sorpasso e cambio di corsia perché può essere causa di incidenti.\r\n",
+      "text_ru": "При обгоне на автомагистрали мы должны внимательно следить за транспортными средствами, движущимися сзади, особенно во время маневров обгона и смены полосы, так как это может стать причиной аварий.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_03_ind243a.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5211,
+    "topic_id": 15,
+    "text": "Durante un sorpasso in autostrada, l'insufficiente distanza di sicurezza può essere causa di incidente",
+    "text_ru": "Во время обгона на автомагистрали недостаточная дистанция безопасности может стать причиной аварии",
+    "image": null,
+    "comment": {
+      "text": "L'insufficiente distanza di sicurezza può essere causa di incidente soprattutto durante un sorpasso in autostrada per via delle velocità molto alte.",
+      "text_ru": "Недостаточная дистанция безопасности может стать причиной аварии, особенно при обгоне на автомагистрали из-за очень высоких скоростей.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_185_02_ats19.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5212,
+    "topic_id": 15,
+    "text": "Durante un sorpasso in autostrada, può essere causa di incidente l'improvviso spostamento sulla corsia di sorpasso di uno dei veicoli che precedono",
+    "text_ru": "Во время обгона на автомагистрали причиной аварии может стать внезапный выезд на полосу обгона одного из впереди идущих транспортных средств",
+    "image": null,
+    "comment": {
+      "text": "Può essere causa di incidente l'improvviso spostamento sulla corsia di sorpasso di uno dei veicoli che precedono durante un sorpasso in autostrada per via delle alte velocità.  \r\n",
+      "text_ru": "Причиной аварии может стать внезапный выезд впереди идущего транспортного средства на полосу обгона при совершении обгона на автомагистрали из-за высоких скоростей.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5213,
+    "topic_id": 15,
+    "text": "Durante un sorpasso in autostrada, mantenersi troppo a lungo sulla corsia di sorpasso può essere motivo di intralcio",
+    "text_ru": "Во время обгона на автомагистрали слишком долгое нахождение на полосе обгона может создать помехи движению",
+    "image": null,
+    "comment": {
+      "text": " Mantenersi troppo a lungo sulla corsia di sorpasso può essere motivo di intralcio soprattutto durante un sorpasso in autostrada, bisogna rientrare appena possibile sulla destra per lasciare libera la corsia di sorpasso ai veicoli più veloci.",
+      "text_ru": "Слишком долгое нахождение на полосе обгона может стать помехой, особенно при обгоне на автомагистрали; необходимо как можно скорее вернуться в правую полосу, чтобы освободить полосу обгона для более быстрых транспортных средств.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/15_182_01_sorpa013.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5214,
+    "topic_id": 15,
+    "text": "Il sorpasso in autostrada può essere motivo di incidente, se viene effettuato accodandosi ad un veicolo che sta sorpassando",
+    "text_ru": "Обгон на автомагистрали может привести к аварии, если он выполняется «в хвосте» за другим обгоняющим транспортным средством",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso in scia di un veicolo cioè accodandosi al veicolo che precede è pericoloso e quindi vietato soprattutto autostrada può essere motivo di incidente per via della velocità.\r\n\r\n",
+      "text_ru": "Обгон «в шлейфе», то есть следуя вплотную за впереди идущим транспортным средством, опасен и запрещен, особенно на автомагистрали, так как может стать причиной аварии из-за высокой скорости.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_03_ind243a.jpg"
+    },
+    "answer": true
+  },
+  {
+    "id": 5215,
+    "topic_id": 15,
+    "text": "Il sorpasso in autostrada può essere motivo di incidente, se il forte vento laterale compromette la stabilità dei veicoli",
+    "text_ru": "Обгон на автомагистрали может привести к аварии, если сильный боковой ветер нарушает устойчивость транспортных средств",
+    "image": null,
+    "comment": {
+      "text": "Vero. Il forte vento laterale compromette la stabilità  dei veicoli.",
+      "text_ru": "Верно. Сильный боковой ветер нарушает устойчивость транспортных средств.",
+      "image": null
+    },
+    "answer": true
+  },
+  {
+    "id": 5216,
+    "topic_id": 15,
+    "text": "Il sorpasso in autostrada può essere motivo di incidente, se viene effettuato in vicinanza di una piazzola di sosta",
+    "text_ru": "Обгон на автомагистрали может привести к аварии, если он совершается вблизи площадки для экстренной остановки",
+    "image": null,
+    "comment": {
+      "text": "Il sorpasso in autostrada è sempre una manovra delicata, ma il sorpasso in vicinanza di una piazzola di sosta non costituisce di per se un motivo di incidente.",
+      "text_ru": "Обгон на автомагистрали — это всегда деликатный маневр, но сам по себе обгон вблизи площадки для остановки не является причиной аварии.",
+      "image": null
+    },
+    "answer": false
+  },
+  {
+    "id": 5217,
+    "topic_id": 15,
+    "text": "Il sorpasso in autostrada può essere motivo di incidente, se si viaggia con le luci anabbaglianti sempre accese",
+    "text_ru": "Обгон на автомагистрали может привести к аварии, если ехать с постоянно включенным ближним светом фар",
+    "image": null,
+    "comment": {
+      "text": "Le luci anabbaglianti sono obbligatorie fuori dei centri abitati e quindi anche in autostrada per aumentare la visibilità dei veicoli e quindi la sicurezza.",
+      "text_ru": "Ближний свет фар обязателен вне населенных пунктов и, следовательно, на автомагистралях для повышения видимости транспортных средств и, соответственно, безопасности.",
+      "image": null
+    },
+    "answer": false
+  }
+]
