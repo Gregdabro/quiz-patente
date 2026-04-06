@@ -6,7 +6,7 @@
 import { useState, useCallback } from 'react';
 import { getProgress, getTopicProgress } from '../services/progressService.js';
 
-export function useProgress() {
+export default function useProgress() {
   var stateRef = useState(function () { return getProgress(); });
   var progress = stateRef[0];
   var setProgress = stateRef[1];

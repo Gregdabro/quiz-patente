@@ -39,28 +39,23 @@
 }
 
 /* Кнопки VERO / FALSO */
-.btn-vero {
-  background-color: var(--color-success);
-  color: #fff;
+.btn-quiz {
   font-size: var(--font-size-lg);
   font-weight: 700;
   padding: var(--spacing-4) var(--spacing-8);
-  border-radius: var(--radius-full);
+  min-width: 120px;
+}
+
+.btn-vero {
+  background-color: var(--color-success);
+  color: #fff;
   box-shadow: var(--shadow-md);
-  transition: opacity var(--transition-fast), transform var(--transition-fast);
-  -webkit-transition: opacity var(--transition-fast), transform var(--transition-fast);
 }
 
 .btn-falso {
   background-color: var(--color-error);
   color: #fff;
-  font-size: var(--font-size-lg);
-  font-weight: 700;
-  padding: var(--spacing-4) var(--spacing-8);
-  border-radius: var(--radius-full);
   box-shadow: var(--shadow-md);
-  transition: opacity var(--transition-fast), transform var(--transition-fast);
-  -webkit-transition: opacity var(--transition-fast), transform var(--transition-fast);
 }
 
 .btn-vero:hover,

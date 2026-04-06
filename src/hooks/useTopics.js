@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 import { loadTopics } from '../services/questionsService.js';
 import { getTopicProgress } from '../services/progressService.js';
 
-export function useTopics() {
+export default function useTopics() {
   var initialState = { topics: [], loading: true, error: null };
   var stateRef = useState(initialState);
   var state = stateRef[0];

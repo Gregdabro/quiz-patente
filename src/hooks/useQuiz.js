@@ -14,7 +14,7 @@ import { getErrorQuestions } from '../services/errorsService.js';
 import { incrementError, decrementError } from '../services/errorsService.js';
 import { saveTestResult } from '../services/progressService.js';
 
-export function useQuiz(topicId) {
+export default function useQuiz(topicId) {
   var questionsRef = useState([]);
   var questions = questionsRef[0];
   var setQuestions = questionsRef[1];

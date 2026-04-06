@@ -537,47 +537,47 @@ export default defineConfig({
 ### Этап 1 — Фундамент и Quiz (текущий)
 
 **1.1 Настройка проекта**
-- [ ] `vite.config.js` — plugin-legacy
-- [ ] `vercel.json` — SPA rewrites
-- [ ] `src/index.css` — импорт всех стилей
-- [ ] `src/styles/global.css` — CSS-переменные + reset
+- [x] `vite.config.js` — plugin-legacy
+- [x] `vercel.json` — SPA rewrites
+- [x] `src/index.css` — импорт всех стилей
+- [x] `src/styles/global.css` — CSS-переменные + reset
 
 **1.2 Сервисный слой**
-- [ ] `src/services/questionsService.js`
-- [ ] `src/services/progressService.js`
-- [ ] `src/services/errorsService.js`
-- [ ] `src/utils/shuffle.js`
+- [x] `src/services/questionsService.js`
+- [x] `src/services/progressService.js`
+- [x] `src/services/errorsService.js`
+- [x] `src/utils/shuffle.js`
 
 **1.3 Хуки**
-- [ ] `src/hooks/useTopics.js`
-- [ ] `src/hooks/useQuiz.js`
-- [ ] `src/hooks/useProgress.js`
+- [x] `src/hooks/useTopics.js`
+- [x] `src/hooks/useQuiz.js`
+- [x] `src/hooks/useProgress.js`
 
 **1.4 Layout**
-- [ ] `src/components/layout/AppHeader.jsx`
-- [ ] `src/components/layout/BottomNav.jsx`
-- [ ] `src/App.jsx` — роутинг
+- [x] `src/components/layout/AppHeader.jsx`
+- [x] `src/components/layout/BottomNav.jsx`
+- [x] `src/App.jsx` — роутинг
 
 **1.5 UI-компоненты (атомарные)**
-- [ ] `src/components/ui/Button.jsx`
-- [ ] `src/components/ui/Card.jsx`
-- [ ] `src/components/ui/ProgressBar.jsx`
-- [ ] `src/components/ui/Spinner.jsx`
+- [x] `src/components/ui/Button.jsx`
+- [x] `src/components/ui/Card.jsx`
+- [x] `src/components/ui/ProgressBar.jsx`
+- [x] `src/components/ui/Spinner.jsx`
 
 **1.6 Quiz-компоненты**
-- [ ] `src/components/quiz/QuizPagination.jsx`
-- [ ] `src/components/quiz/QuestionCard.jsx`
-- [ ] `src/components/quiz/CommentAccordion.jsx`
-- [ ] `src/components/quiz/ResultScreen.jsx`
+- [x] `src/components/quiz/QuizPagination.jsx`
+- [x] `src/components/quiz/QuestionCard.jsx`
+- [x] `src/components/quiz/CommentAccordion.jsx`
+- [x] `src/components/quiz/ResultScreen.jsx`
 
 **1.7 Страницы**
-- [ ] `src/pages/HomePage.jsx`
-- [ ] `src/pages/QuizPage.jsx`
+- [x] `src/pages/HomePage.jsx`
+- [x] `src/pages/QuizPage.jsx`
 
 **1.8 Стили**
-- [ ] `src/styles/layout.css`
-- [ ] `src/styles/components.css`
-- [ ] `src/styles/pages.css`
+- [x] `src/styles/layout.css`
+- [x] `src/styles/components.css`
+- [x] `src/styles/pages.css`
 
 ### Этап 2 — Статистика
 - [ ] `src/pages/StatsPage.jsx`

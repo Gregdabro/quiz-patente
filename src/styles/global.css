@@ -7,12 +7,14 @@
   /* === Основные цвета === */
   --color-primary:         #2563eb;
   --color-primary-hover:   #1d4ed8;
+  --color-primary-dark:    #1d4ed8;
   --color-header-bg:       #0d1b2a;
   --color-header-text:     #ffffff;
 
   /* === Фоны === */
   --color-bg:              #f3f4f6;
   --color-surface:         #ffffff;
+  --color-surface-alt:     #f9fafb;
   --color-border:          #e5e7eb;
 
   /* === Текст === */
@@ -24,9 +26,13 @@
   --color-correct:         #16a34a;
   --color-correct-bg:      #f0fdf4;
   --color-correct-border:  #bbf7d0;
+  --color-success:         #16a34a;
+  --color-success-bg:      #f0fdf4;
   --color-wrong:           #dc2626;
   --color-wrong-bg:        #fef2f2;
   --color-wrong-border:    #fecaca;
+  --color-error:           #dc2626;
+  --color-error-bg:        #fef2f2;
   --color-unanswered:      #d1d5db;
   --color-active:          #2563eb;
 
@@ -51,6 +57,18 @@
   --space-xl:   32px;
   --space-2xl:  48px;
 
+  /* === Сеточные отступы (v2) === */
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-7: 28px;
+  --spacing-8: 32px;
+  --spacing-9: 40px;
+  --spacing-10: 48px;
+
   /* === Радиусы === */
   --radius-sm:   6px;
   --radius-md:   10px;
@@ -60,6 +78,12 @@
   /* === Тени === */
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.10);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.12);
+
+  /* === Анимации === */
+  --transition-fast: 0.1s ease;
+  --transition-base: 0.2s ease;
+  --transition-slow: 0.35s ease;
 
   /* === Размеры layout === */
   --header-height: 52px;
