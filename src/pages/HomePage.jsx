@@ -53,17 +53,17 @@ const HomePage = () => {
                   />
                 </div>
                 <div className="topic-info" style={{ marginLeft: 'var(--spacing-4)' }}>
-                  <h3 style={{ fontSize: 'var(--font-size-md)', margin: 0, marginBottom: 'var(--spacing-1)' }}>
+                  <h3 style={{ fontSize: 'var(--font-size-lg)', margin: 0, marginBottom: 'var(--spacing-1)' }}>
                     {topic.title}
                   </h3>
-                  <p style={{ fontSize: 'var(--font-size-sm)', color: 'var(--color-text-muted)', margin: 0 }}>
+                  <p style={{ fontSize: 'var(--font-size-md)', color: 'var(--color-text-muted)', margin: 0 }}>
                     Вопросов: {topic.questions_count}
                   </p>
                 </div>
               </div>
               
               <div className="topic-progress">
-                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '10px', marginBottom: '2px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 'var(--font-size-sm)', marginBottom: '2px' }}>
                   <span>Прогресс: {topic.progress?.correct || 0} / {topic.questions_count}</span>
                   <span>{Math.round((topic.progress?.correct || 0) / topic.questions_count * 100)}%</span>
                 </div>

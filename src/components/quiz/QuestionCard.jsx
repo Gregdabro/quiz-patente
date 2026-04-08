@@ -14,7 +14,9 @@ const QuestionCard = ({
   question, 
   currentAnswer, 
   isSessionFinished,
-  onAnswer
+  onAnswer,
+  showComment,
+  onToggleComment
 }) => {
   const [showTranslation, setShowTranslation] = useState(false);
 
@@ -44,12 +46,12 @@ const QuestionCard = ({
         </div>
       )}
       
-      <div className="question-text" style={{ fontSize: 'var(--font-size-md)', lineHeight: 1.6 }}>
+      <div className="question-text" style={{ fontSize: 'var(--font-size-lg)', lineHeight: 1.6 }}>
         <p className="text-it" style={{ fontWeight: 'var(--font-weight-medium)', marginBottom: showTranslation ? 'var(--spacing-2)' : 0 }}>
           {question.text}
         </p>
         {showTranslation && (
-          <p className="text-ru" style={{ color: 'var(--color-text-secondary)', fontSize: 'var(--font-size-sm)' }}>
+          <p className="text-ru" style={{ color: 'var(--color-text-secondary)', fontSize: 'var(--font-size-md)' }}>
             {question.text_ru}
           </p>
         )}
@@ -57,41 +59,65 @@ const QuestionCard = ({
 
       <div className="quiz-controls" style={{ 
         display: 'flex', 
-        justifyContent: 'flex-end', 
+        justifyContent: 'space-between', 
+        alignItems: 'center',
         marginTop: 'var(--spacing-6)'
       }}>
-        <Button 
-          variant={getVariant(true)}
-          className="btn-quiz"
-          style={{ marginRight: 'var(--spacing-8)' }}
-          onClick={() => onAnswer(true)}
-          disabled={currentAnswer !== undefined || isSessionFinished}
-        >
-          VERO
-        </Button>
-        <Button 
-          variant={getVariant(false)}
-          className="btn-quiz"
-          onClick={() => onAnswer(false)}
-          disabled={currentAnswer !== undefined || isSessionFinished}
-        >
-          FALSO
-        </Button>
-      </div>
+        <div className="left-actions" style={{ display: 'flex', alignItems: 'center' }}>
+          <Button 
+            variant="icon" 
+            onClick={() => setShowTranslation(!showTranslation)}
+            style={{ 
+              fontSize: '44px', 
+              marginRight: 'var(--spacing-4)'
+            }}
+            title="Показать перевод"
+          >
+            🇷🇺
+          </Button>
 
-      <Button 
-        variant="icon" 
-        onClick={() => setShowTranslation(!showTranslation)}
-        style={{ 
-          position: 'absolute', 
-          top: 'var(--spacing-3)', 
-          right: 'var(--spacing-3)',
-          fontSize: '40px' 
-        }}
-        title="Показать перевод"
-      >
-        🇷🇺
-      </Button>
+          <Button 
+            variant="icon" 
+            onClick={onToggleComment}
+            disabled={currentAnswer === undefined && !isSessionFinished}
+            style={{ 
+              fontSize: '44px', 
+              position: 'relative'
+            }}
+            title="Показать комментарий"
+          >
+            💬
+            {showComment && <div style={{ 
+              position: 'absolute', 
+              bottom: '-5px', 
+              width: '100%', 
+              height: '3px', 
+              background: 'var(--color-primary)',
+              borderRadius: '2px'
+            }} />}
+          </Button>
+        </div>
+
+        <div className="right-actions" style={{ display: 'flex', alignItems: 'center' }}>
+          <Button 
+            variant={getVariant(true)}
+            className="btn-quiz"
+            style={{ marginRight: 'var(--spacing-4)' }}
+            onClick={() => onAnswer(true)}
+            disabled={currentAnswer !== undefined || isSessionFinished}
+          >
+            VERO
+          </Button>
+          <Button 
+            variant={getVariant(false)}
+            className="btn-quiz"
+            onClick={() => onAnswer(false)}
+            disabled={currentAnswer !== undefined || isSessionFinished}
+          >
+            FALSO
+          </Button>
+        </div>
+      </div>
     </div>
   );
 };

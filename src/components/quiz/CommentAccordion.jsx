@@ -41,7 +41,7 @@ const CommentAccordion = ({ comment, isVisible, isCorrect }) => {
           </div>
         )}
         
-        <div className="comment-text" style={{ fontSize: 'var(--font-size-sm)', lineHeight: 1.5 }}>
+        <div className="comment-text" style={{ fontSize: 'var(--font-size-md)', lineHeight: 1.5 }}>
           <p className="text-it" style={{ fontWeight: 'var(--font-weight-medium)', marginBottom: 'var(--spacing-2)' }}>
             {comment.text}
           </p>

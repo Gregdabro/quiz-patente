@@ -87,35 +87,13 @@ const QuizPage = () => {
           currentAnswer={currentAnswer}
           isSessionFinished={isFinished}
           onAnswer={handleAnswer}
+          showComment={showComment}
+          onToggleComment={() => setShowComment(!showComment)}
         />
 
         {/* Секция управления под карточкой */}
-        <div className="quiz-actions row-between" style={{ marginTop: 'var(--spacing-4)' }}>
-          <div className="left-actions">
-            {/* Кнопка перевода продублирована в карточке, 
-                но здесь мы оставляем место для доп. кнопок */}
-          </div>
-          
-          <div className="right-actions row" style={{}}>
-            {/* Кнопка комментария — активна ТОЛЬКО после ответа */}
-            <Button 
-              variant="icon" 
-              onClick={() => setShowComment(!showComment)}
-              disabled={currentAnswer === undefined && !isFinished}
-              style={{ fontSize: '44px', position: 'relative', marginRight: 'var(--spacing-4)' }}
-              title="Показать комментарий"
-            >
-              💬
-              {showComment && <div style={{ 
-                position: 'absolute', 
-                bottom: '-5px', 
-                width: '100%', 
-                height: '3px', 
-                background: 'var(--color-primary)',
-                borderRadius: '2px'
-              }} />}
-            </Button>
-            
+        <div className="quiz-actions" style={{ marginTop: 'var(--spacing-4)', display: 'flex', justifyContent: 'flex-end' }}>
+          <div className="right-actions">
             {/* Кнопка финиша — завершить тест или выйти */}
             {isFinished ? (
               <Button 
