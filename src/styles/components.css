@@ -148,12 +148,46 @@
   width: 100%;
 }
 
-.pagination-viewport {
+.pagination-viewport-container {
   -webkit-flex: 1;
   flex: 1;
-  overflow-x: hidden; /* Скрываем нативный скролл, будем крутить программно */
   position: relative;
-  margin: 0 var(--spacing-2);
+  overflow: hidden;
+  margin: 0 var(--spacing-1);
+}
+
+/* Градиентные накладки для мягкого исчезновения */
+.pagination-viewport-container::before,
+.pagination-viewport-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.pagination-viewport-container::before {
+  left: 0;
+  background: -webkit-linear-gradient(left, #ffffff 15%, rgba(255, 255, 255, 0));
+  background: linear-gradient(to right, #ffffff 15%, rgba(255, 255, 255, 0));
+}
+
+.pagination-viewport-container::after {
+  right: 0;
+  background: -webkit-linear-gradient(right, #ffffff 15%, rgba(255, 255, 255, 0));
+  background: linear-gradient(to left, #ffffff 15%, rgba(255, 255, 255, 0));
+}
+
+.pagination-viewport {
+  overflow-x: auto; /* Для поддержки скролла (скроллбар скроем ниже) */
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.pagination-viewport::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
 }
 
 .pagination-track {
@@ -161,7 +195,8 @@
   display: flex;
   -webkit-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  transition: transform var(--transition-base); /* Если используем transform вместо scrollLeft */
+  padding: 8px 30px; /* Буферная зона для активной кнопки (30px соответствует градиенту) */
+  -webkit-align-items: center;
   align-items: center;
 }
 
@@ -190,9 +225,10 @@
 
 .pagination-item.active {
   background-color: var(--color-primary);
-  box-shadow: 0 0 0 2px var(--color-active);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  z-index: 5;
 }
 
 .pagination-item.correct {

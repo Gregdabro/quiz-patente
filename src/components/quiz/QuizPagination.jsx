@@ -52,28 +52,30 @@ const QuizPagination = ({
         ‹
       </button>
 
-      {/* Окно просмотра слайдера */}
-      <div className="pagination-viewport" ref={viewportRef}>
-        <div className="pagination-track">
-          {questions.map((q, index) => {
-            let statusClass = '';
-            if (index === current) statusClass = 'active';
-            else if (answered.has(q.id)) {
-              const isCorrect = answered.get(q.id) === q.answer;
-              statusClass = isCorrect ? 'correct' : 'wrong';
-            }
-            
-            return (
-              <div 
-                key={q.id}
-                onClick={() => onSelect(index)}
-                className={`pagination-item ${statusClass}`}
-                title={`Вопрос ${index + 1}`}
-              >
-                {index + 1}
-              </div>
-            );
-          })}
+      {/* Окно просмотра слайдера с градиентами */}
+      <div className="pagination-viewport-container">
+        <div className="pagination-viewport" ref={viewportRef}>
+          <div className="pagination-track">
+            {questions.map((q, index) => {
+              let statusClass = '';
+              if (index === current) statusClass = 'active';
+              else if (answered.has(q.id)) {
+                const isCorrect = answered.get(q.id) === q.answer;
+                statusClass = isCorrect ? 'correct' : 'wrong';
+              }
+              
+              return (
+                <div 
+                  key={q.id}
+                  onClick={() => onSelect(index)}
+                  className={`pagination-item ${statusClass}`}
+                  title={`Вопрос ${index + 1}`}
+                >
+                  {index + 1}
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
 
