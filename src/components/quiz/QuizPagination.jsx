@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 
 /**
- * Компонент пагинации для теста.
- * Отображает 30 индикаторов (точек) с текущим статусом.
+ * Компонент пагинации для теста (v3).
+ * Реализован в виде горизонтального слайдера с кнопками-стрелками.
  * 
  * @param {Array} questions — массив вопросов
  * @param {number} current — индекс текущего вопроса
@@ -15,49 +15,76 @@ const QuizPagination = ({
   answered, 
   onSelect 
 }) => {
+  const viewportRef = useRef(null);
+
+  // Автоматическая прокрутка к активному вопросу при его смене
+  useEffect(() => {
+    if (viewportRef.current) {
+      const activeItem = viewportRef.current.children[0].children[current];
+      if (activeItem) {
+        activeItem.scrollIntoView({
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'center'
+        });
+      }
+    }
+  }, [current]);
+
+  const scroll = (direction) => {
+    if (viewportRef.current) {
+      const scrollAmount = 148; // Примерно 4 вопроса (37 * 4)
+      viewportRef.current.scrollBy({
+        left: direction === 'left' ? -scrollAmount : scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
-    <div className="quiz-pagination" style={{ 
-      display: 'flex', 
-      flexWrap: 'wrap', 
-      margin: 'var(--spacing-4) 0',
-      justifyContent: 'center'
-    }}>
-      {questions.map((q, index) => {
-        let statusClass = '';
-        if (index === current) statusClass = 'active';
-        else if (answered.has(q.id)) {
-          const isCorrect = answered.get(q.id) === q.answer;
-          statusClass = isCorrect ? 'correct' : 'wrong';
-        }
-        
-        return (
-          <div 
-            key={q.id}
-            onClick={() => onSelect(index)}
-            className={`pagination-item ${statusClass}`}
-            style={{
-              width: '28px',
-              height: '28px',
-              borderRadius: 'var(--radius-full)',
-              backgroundColor: statusClass === 'active' ? 'var(--color-primary)' : 
-                               statusClass === 'correct' ? 'var(--color-correct)' : 
-                               statusClass === 'wrong' ? 'var(--color-wrong)' : 
-                               'var(--color-unanswered)',
-              color: '#fff',
-              fontSize: '11px',
-              fontWeight: 'var(--font-weight-bold)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              cursor: 'pointer',
-              margin: '6px',
-              transition: 'var(--transition-fast)'
-            }}
-          >
-            {index + 1}
-          </div>
-        );
-      })}
+    <div className="quiz-pagination-slider">
+      {/* Стрелка влево */}
+      <button 
+        className="nav-arrow" 
+        onClick={() => scroll('left')}
+        title="Назад"
+      >
+        ‹
+      </button>
+
+      {/* Окно просмотра слайдера */}
+      <div className="pagination-viewport" ref={viewportRef}>
+        <div className="pagination-track">
+          {questions.map((q, index) => {
+            let statusClass = '';
+            if (index === current) statusClass = 'active';
+            else if (answered.has(q.id)) {
+              const isCorrect = answered.get(q.id) === q.answer;
+              statusClass = isCorrect ? 'correct' : 'wrong';
+            }
+            
+            return (
+              <div 
+                key={q.id}
+                onClick={() => onSelect(index)}
+                className={`pagination-item ${statusClass}`}
+                title={`Вопрос ${index + 1}`}
+              >
+                {index + 1}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Стрелка вправо */}
+      <button 
+        className="nav-arrow" 
+        onClick={() => scroll('right')}
+        title="Вперед"
+      >
+        ›
+      </button>
     </div>
   );
 };
