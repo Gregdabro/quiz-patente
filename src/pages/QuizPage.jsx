@@ -10,6 +10,7 @@ import QuizPagination from '../components/quiz/QuizPagination';
 import QuestionCard from '../components/quiz/QuestionCard';
 import CommentAccordion from '../components/quiz/CommentAccordion';
 import ResultScreen from '../components/quiz/ResultScreen';
+import ConfirmationModal from '../components/ui/ConfirmationModal';
 
 /**
  * Страница прохождения теста (Рефакторинг v2).
@@ -38,6 +39,9 @@ const QuizPage = () => {
   // Состояние модального окна результатов
   const [showResults, setShowResults] = useState(false);
 
+  // Состояние модального окна выхода
+  const [isExitModalOpen, setIsExitModalOpen] = useState(false);
+
   if (loading) return <Spinner />;
   if (error) return <div className="container error" style={{ padding: '40px', textAlign: 'center' }}>{error}</div>;
   if (!questions.length) return <div className="container" style={{ padding: '40px', textAlign: 'center' }}>Нет доступных вопросов</div>;
@@ -61,6 +65,7 @@ const QuizPage = () => {
 
   // Обработчик завершения
   const handleFinish = () => {
+    if (isFinished) return;
     finish();
     setShowResults(true);
   };
@@ -70,7 +75,8 @@ const QuizPage = () => {
       <AppHeader 
         title={topicId === 'errors' ? 'Работа над ошибками' : 
                topicId === 'all' ? 'Случайный тест' : `Тема ${topicId}`} 
-        showBack={true} 
+        showBack={true}
+        onBackOverride={() => setIsExitModalOpen(true)}
       />
       
       <div className="container" style={{ paddingBottom: 'var(--spacing-10)' }}>
@@ -80,6 +86,7 @@ const QuizPage = () => {
           current={current}
           answered={answered}
           onSelect={handleGoTo}
+          onFinish={handleFinish}
         />
 
         <QuestionCard 
@@ -90,28 +97,6 @@ const QuizPage = () => {
           showComment={showComment}
           onToggleComment={() => setShowComment(!showComment)}
         />
-
-        {/* Секция управления под карточкой */}
-        <div className="quiz-actions" style={{ marginTop: 'var(--spacing-4)', display: 'flex', justifyContent: 'flex-end' }}>
-          <div className="right-actions">
-            {/* Кнопка финиша — завершить тест или выйти */}
-            {isFinished ? (
-              <Button 
-                variant="primary" 
-                onClick={() => navigate('/')}
-              >
-                🚪 Выйти
-              </Button>
-            ) : (
-              <Button 
-                variant="primary" 
-                onClick={handleFinish}
-              >
-                ✅ Финиш
-              </Button>
-            )}
-          </div>
-        </div>
 
         {/* Аккордеон комментария (появляется по кнопке 💬) */}
         <CommentAccordion 
@@ -130,6 +115,14 @@ const QuizPage = () => {
             onFinish={() => navigate('/')}
           />
         )}
+
+        {/* Модальное окно подтверждения выхода */}
+        <ConfirmationModal 
+          isOpen={isExitModalOpen}
+          message="Вы уверены, что хотите покинуть квиз? Ваш прогресс в этой сессии будет потерян."
+          onConfirm={() => navigate('/')}
+          onCancel={() => setIsExitModalOpen(false)}
+        />
       </div>
     </div>
   );

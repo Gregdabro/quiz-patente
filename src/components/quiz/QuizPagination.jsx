@@ -13,7 +13,8 @@ const QuizPagination = ({
   questions, 
   current, 
   answered, 
-  onSelect 
+  onSelect,
+  onFinish 
 }) => {
   const viewportRef = useRef(null);
 
@@ -31,28 +32,8 @@ const QuizPagination = ({
     }
   }, [current]);
 
-  const scroll = (direction) => {
-    if (viewportRef.current) {
-      const scrollAmount = 148; // Примерно 4 вопроса (37 * 4)
-      viewportRef.current.scrollBy({
-        left: direction === 'left' ? -scrollAmount : scrollAmount,
-        behavior: 'smooth'
-      });
-    }
-  };
-
   return (
     <div className="quiz-pagination-slider">
-      {/* Стрелка влево */}
-      <button 
-        className="nav-arrow" 
-        onClick={() => scroll('left')}
-        title="Назад"
-      >
-        ‹
-      </button>
-
-      {/* Окно просмотра слайдера с градиентами */}
       <div className="pagination-viewport-container">
         <div className="pagination-viewport" ref={viewportRef}>
           <div className="pagination-track">
@@ -75,18 +56,17 @@ const QuizPagination = ({
                 </div>
               );
             })}
+            
+            {/* Кнопка "Финиш" (FINE) в конце ленты */}
+            <div 
+              className="pagination-item pagination-item--finish"
+              onClick={onFinish}
+            >
+              FINE
+            </div>
           </div>
         </div>
       </div>
-
-      {/* Стрелка вправо */}
-      <button 
-        className="nav-arrow" 
-        onClick={() => scroll('right')}
-        title="Вперед"
-      >
-        ›
-      </button>
     </div>
   );
 };

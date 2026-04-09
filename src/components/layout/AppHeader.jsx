@@ -7,8 +7,20 @@ import { useNavigate, useLocation } from 'react-router-dom';
  * @param {string} title — заголовок страницы
  * @param {boolean} showBack — показывать кнопку "Назад"
  */
-const AppHeader = ({ title = 'Quiz Patente', showBack = false }) => {
+const AppHeader = ({ 
+  title = 'Quiz Patente', 
+  showBack = false,
+  onBackOverride = null 
+}) => {
   const navigate = useNavigate();
+
+  const handleBack = () => {
+    if (onBackOverride) {
+      onBackOverride();
+    } else {
+      navigate(-1);
+    }
+  };
 
   return (
     <header className="app-header" style={{
@@ -31,7 +43,7 @@ const AppHeader = ({ title = 'Quiz Patente', showBack = false }) => {
         <div style={{ display: 'flex', alignItems: 'center' }}>
           {showBack && (
             <button 
-              onClick={() => navigate(-1)}
+              onClick={handleBack}
               style={{
                 background: 'none',
                 border: 'none',
