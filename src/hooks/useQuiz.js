@@ -52,6 +52,10 @@ export default function useQuiz(topicId) {
 
   // Ref для хранения всех вопросов при режиме "errors"
   var allQuestionsRef = useRef([]);
+  // Защита от двойного сохранения статистики
+  var isSavedRef = useRef(false);
+  // Защита от Race Condition при быстром клике
+  var answeringRef = useRef(false);
 
   useEffect(function () {
     var cancelled = false;
@@ -63,6 +67,8 @@ export default function useQuiz(topicId) {
     setAnswered(new Map());
     setResults([]);
     setIsFinished(false);
+    isSavedRef.current = false;
+    answeringRef.current = false;
 
     var promise;
 
@@ -96,11 +102,15 @@ export default function useQuiz(topicId) {
   /**
    * Ответить на текущий вопрос.
    * @param {boolean} userAnswer
-   */
+ */
   var answer = useCallback(function (userAnswer) {
+    if (isFinished || answeringRef.current) return;
+
     var q = questions[current];
     if (!q) return;
     if (answered.has(q.id)) return; // уже отвечен
+
+    answeringRef.current = true;
 
     var isCorrect = userAnswer === q.answer;
 
@@ -128,7 +138,13 @@ export default function useQuiz(topicId) {
     if (newResults.length === questions.length) {
       setIsFinished(true);
     }
-  }, [questions, current, answered, results]);
+
+    // Снимаем блокировку через небольшую задержку (или сразу после рендера)
+    // чтобы предотвратить дебаунс на уровне UI
+    setTimeout(function() {
+      answeringRef.current = false;
+    }, 50);
+  }, [questions, current, answered, results, isFinished]);
 
   /**
    * Перейти к вопросу по индексу (кликабельная пагинация).
@@ -144,8 +160,12 @@ export default function useQuiz(topicId) {
    * Завершить сессию вручную и сохранить результат.
    */
   var finish = useCallback(function () {
+    if (isSavedRef.current) return;
+
     var correctCount = results.filter(function (r) { return r.correct; }).length;
     saveTestResult(topicId, correctCount, questions.length);
+    
+    isSavedRef.current = true;
     setIsFinished(true);
   }, [results, questions.length, topicId]);
 

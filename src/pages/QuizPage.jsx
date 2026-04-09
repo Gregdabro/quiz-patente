@@ -70,13 +70,22 @@ const QuizPage = () => {
     setShowResults(true);
   };
 
+  // Обработчик выхода
+  const handleExitRequest = () => {
+    if (isFinished) {
+      navigate('/');
+    } else {
+      setIsExitModalOpen(true);
+    }
+  };
+
   return (
     <div className="page quiz-page">
       <AppHeader 
         title={topicId === 'errors' ? 'Работа над ошибками' : 
                topicId === 'all' ? 'Случайный тест' : `Тема ${topicId}`} 
         showBack={true}
-        onBackOverride={() => setIsExitModalOpen(true)}
+        onBackOverride={handleExitRequest}
       />
       
       <div className="container" style={{ paddingBottom: 'var(--spacing-10)' }}>
