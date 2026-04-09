@@ -34,43 +34,39 @@ const QuestionCard = ({
   };
 
   return (
-    <div className="question-card card" style={{ padding: 'var(--spacing-4)', position: 'relative' }}>
-      {question.image && (
-        <div className="question-image" style={{ marginBottom: 'var(--spacing-4)', textAlign: 'center' }}>
-          <img 
-            src={question.image} 
-            alt="вопрос" 
-            loading="lazy" 
-            style={{ maxWidth: '100%', borderRadius: 'var(--radius-sm)' }} 
-          />
-        </div>
-      )}
-      
-      <div className="question-text" style={{ fontSize: 'var(--font-size-lg)', lineHeight: 1.6 }}>
-        <p className="text-it" style={{ fontWeight: 'var(--font-weight-medium)', marginBottom: showTranslation ? 'var(--spacing-2)' : 0 }}>
-          {question.text}
-        </p>
-        {showTranslation && (
-          <p className="text-ru" style={{ color: 'var(--color-text-secondary)', fontSize: 'var(--font-size-md)' }}>
-            {question.text_ru}
-          </p>
+    <div className="question-card card">
+      <div className="question-card__body">
+        {question.image && (
+          <div className="question-card__image-container">
+            <img 
+              src={question.image} 
+              alt="" 
+              loading="lazy" 
+              className="question-card__image"
+            />
+          </div>
         )}
+        
+        <div className="question-card__content">
+          <div className="question-text">
+            <p className="question-text__it">
+              {question.id}. {question.text}
+            </p>
+            {showTranslation && (
+              <p className="question-text__ru">
+                {question.text_ru}
+              </p>
+            )}
+          </div>
+        </div>
       </div>
 
-      <div className="quiz-controls" style={{ 
-        display: 'flex', 
-        justifyContent: 'space-between', 
-        alignItems: 'center',
-        marginTop: 'var(--spacing-6)'
-      }}>
-        <div className="left-actions" style={{ display: 'flex', alignItems: 'center' }}>
+      <div className="question-card__footer">
+        <div className="question-card__actions-left">
           <Button 
             variant="icon" 
             onClick={() => setShowTranslation(!showTranslation)}
-            style={{ 
-              fontSize: '44px', 
-              marginRight: 'var(--spacing-4)'
-            }}
+            style={{ fontSize: '44px', marginRight: 'var(--spacing-4)' }}
             title="Показать перевод"
           >
             🇷🇺
@@ -80,16 +76,14 @@ const QuestionCard = ({
             variant="icon" 
             onClick={onToggleComment}
             disabled={currentAnswer === undefined && !isSessionFinished}
-            style={{ 
-              fontSize: '44px', 
-              position: 'relative'
-            }}
+            style={{ fontSize: '44px', position: 'relative' }}
             title="Показать комментарий"
           >
             💬
             {showComment && <div style={{ 
               position: 'absolute', 
               bottom: '-5px', 
+              left: 0,
               width: '100%', 
               height: '3px', 
               background: 'var(--color-primary)',
@@ -98,7 +92,7 @@ const QuestionCard = ({
           </Button>
         </div>
 
-        <div className="right-actions" style={{ display: 'flex', alignItems: 'center' }}>
+        <div className="question-card__actions-right">
           <Button 
             variant={getVariant(true)}
             className="btn-quiz"

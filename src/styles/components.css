@@ -313,3 +313,107 @@
   font-size: 44px;
   margin-bottom: 2px;
 }
+
+/* === Карточка вопроса (QuestionCard) === */
+.question-card {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding: var(--spacing-4);
+  position: relative;
+  overflow: hidden;
+}
+
+.question-card__body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.question-card__image-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: var(--spacing-4);
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+
+.question-card__image {
+  max-width: 100%;
+  max-height: 40vh; /* Ограничение высоты для портрета */
+  margin: 0 auto;
+  border-radius: var(--radius-sm);
+  object-fit: contain;
+}
+
+.question-card__content {
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.question-text {
+  font-size: var(--font-size-lg);
+  line-height: 1.6;
+}
+
+.question-text__it {
+  font-weight: var(--font-weight-medium);
+}
+
+.question-text__ru {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-md);
+  margin-top: var(--spacing-2);
+}
+
+.question-card__footer {
+  margin-top: auto;
+  padding-top: var(--spacing-6);
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.question-card__actions-left,
+.question-card__actions-right {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/* Двухколоночный режим для ландшафта / широких экранов */
+@media (min-width: 769px) {
+  .question-card__body {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+
+  .question-card__image-container {
+    width: 45%;
+    margin-bottom: 0;
+    margin-right: var(--spacing-6);
+  }
+
+  .question-card__image {
+    max-height: 55vh; /* Больше высоты в ландшафтном режиме */
+  }
+
+  .question-card__content {
+    width: 55%;
+  }
+}
+
