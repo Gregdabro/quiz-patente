@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import useQuiz from '../hooks/useQuiz';
+import useSwipe from '../hooks/useSwipe';
 import Spinner from '../components/ui/Spinner';
 import Button from '../components/ui/Button';
 import AppHeader from '../components/layout/AppHeader';
@@ -42,6 +43,19 @@ const QuizPage = () => {
   // Состояние модального окна выхода
   const [isExitModalOpen, setIsExitModalOpen] = useState(false);
 
+  // Обработчик переключения вопроса
+  const handleGoTo = (index) => {
+    goTo(index);
+    setShowComment(false); // Скрываем комментарий при переходе
+  };
+
+  // Логика свайпа
+  const swipeHandlers = useSwipe({
+    onSwipeLeft: () => handleGoTo(current + 1),
+    onSwipeRight: () => handleGoTo(current - 1),
+    threshold: 60
+  });
+
   if (loading) return <Spinner />;
   if (error) return <div className="container error" style={{ padding: '40px', textAlign: 'center' }}>{error}</div>;
   if (!questions.length) return <div className="container" style={{ padding: '40px', textAlign: 'center' }}>Нет доступных вопросов</div>;
@@ -55,12 +69,6 @@ const QuizPage = () => {
     answer(userAnswer);
     // Сбрасываем показ комментария при новом ответе (хотя он и так скрыт до ответа)
     setShowComment(false);
-  };
-
-  // Обработчик переключения вопроса
-  const handleGoTo = (index) => {
-    goTo(index);
-    setShowComment(false); // Скрываем комментарий при переходе
   };
 
   // Обработчик завершения
@@ -79,7 +87,7 @@ const QuizPage = () => {
   };
 
   return (
-    <div className="page quiz-page">
+    <div className="page quiz-page" {...swipeHandlers}>
       <AppHeader 
         title={topicId === 'errors' ? 'Работа над ошибками' : 
                topicId === 'all' ? 'Случайный тест' : `Тема ${topicId}`} 
