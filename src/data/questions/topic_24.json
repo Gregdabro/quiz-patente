@@ -3,1339 +3,1339 @@
     "id": 6123,
     "topic_id": 24,
     "text": "Gli apparecchi e i dispositivi che funzionano a corrente elettrica (radio, luci, lunotto termico, ecc.) fanno aumentare i consumi di carburante del veicolo",
-    "text_ru": "Приборы и устройства, работающие от электричества (радио, фары, обогрев заднего стекла и т. д.), увеличивают расход топлива автомобиля",
     "image": null,
     "comment": {
       "text": "Vero. Fanno aumentare i consumi di carburante poiché, consumando energia elettrica accumulata nella batteria, richiedono un maggior lavoro da parte del generatore di corrente del veicolo (alternatore) il quale viene fatto funzionare dal motore che, per compensare il maggiore sforzo, consumerà  più carburante.",
-      "text_ru": "Верно. Они увеличивают расход топлива, так как потребляют электроэнергию из аккумулятора, что требует большей работы от генератора, приводимого в действие двигателем.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24011_v01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24011_v01.jpg",
+      "text_ru": "Верно. Они увеличивают расход топлива, так как потребляют электроэнергию из аккумулятора, что требует большей работы от генератора, приводимого в действие двигателем."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Приборы и устройства, работающие от электричества (радио, фары, обогрев заднего стекла и т. д.), увеличивают расход топлива автомобиля"
   },
   {
     "id": 6124,
     "topic_id": 24,
     "text": "Mantenendo il più possibile costante la velocità, si riduce il consumo di carburante",
-    "text_ru": "Поддержание максимально постоянной скорости снижает расход топлива",
     "image": null,
     "comment": {
       "text": "E' VERO! una guida costante senza brusche accelerate consente di risparmiare notevolmente carburante e ridurre le emissioni inquinanti",
-      "text_ru": "ЭТО ВЕРНО! Плавная езда без резких ускорений позволяет значительно экономить топливо и снижать выбросы загрязняющих веществ.",
-      "image": null
+      "image": null,
+      "text_ru": "ЭТО ВЕРНО! Плавная езда без резких ускорений позволяет значительно экономить топливо и снижать выбросы загрязняющих веществ."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Поддержание максимально постоянной скорости снижает расход топлива"
   },
   {
     "id": 6125,
     "topic_id": 24,
     "text": "Il consumo di carburante aumenta con l'aumentare del peso del veicolo",
-    "text_ru": "Расход топлива увеличивается с ростом веса транспортного средства",
     "image": null,
     "comment": {
       "text": "E' vero! il motore per poter spingere un peso maggiore ha bisogno a pari prestazioni di bruciare un quantitativo superiore di carburante.",
-      "text_ru": "Это правда! Чтобы везти больший вес, двигателю при тех же характеристиках требуется сжигать большее количество топлива.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_201_02_sovraccarico01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_201_02_sovraccarico01.jpg",
+      "text_ru": "Это правда! Чтобы везти больший вес, двигателю при тех же характеристиках требуется сжигать большее количество топлива."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Расход топлива увеличивается с ростом веса транспортного средства"
   },
   {
     "id": 6126,
     "topic_id": 24,
     "text": "Diminuendo opportunamente la velocità diminuisce il consumo di carburante",
-    "text_ru": "При соответствующем снижении скорости расход топлива уменьшается",
     "image": null,
     "comment": {
       "text": "E' vero! Il consumo di carburante è direttamente legato alla velocità  del veicolo. Maggiori prestazioni si richiedono al veicolo maggior consumo di carburante è utilizzato dal veicolo.",
-      "text_ru": "Это верно! Расход топлива напрямую связан со скоростью. Чем выше требуемые характеристики, тем больше топлива потребляет автомобиль.",
-      "image": null
+      "image": null,
+      "text_ru": "Это верно! Расход топлива напрямую связан со скоростью. Чем выше требуемые характеристики, тем больше топлива потребляет автомобиль."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "При соответствующем снижении скорости расход топлива уменьшается"
   },
   {
     "id": 6127,
     "topic_id": 24,
     "text": "Per consumare meno carburante è opportuno tenere i finestrini chiusi, specie quando si viaggia ad alta velocità",
-    "text_ru": "Чтобы потреблять меньше топлива, целесообразно держать окна закрытыми, особенно при движении на высокой скорости",
     "image": null,
     "comment": {
       "text": "E' vero! Le case automobilistiche studiano l'aerodinamica del veicolo per ridurre i consumi. Aprendo i finestrini l'aria entra nell'abitacolo rallentando il veicolo, modificandone l'aerodinamica e obbligando il motore ad utilizzare maggiori quantitativi di carburante!",
-      "text_ru": "Это верно! Открытые окна нарушают аэродинамику, создавая сопротивление воздуху, что заставляет двигатель тратить больше топлива.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_inquinamento05.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_inquinamento05.jpg",
+      "text_ru": "Это верно! Открытые окна нарушают аэродинамику, создавая сопротивление воздуху, что заставляет двигатель тратить больше топлива."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Чтобы потреблять меньше топлива, целесообразно держать окна закрытыми, особенно при движении на высокой скорости"
   },
   {
     "id": 6128,
     "topic_id": 24,
     "text": "Per consumare meno carburante conviene scegliere, per quanto possibile, strade pianeggianti e più scorrevoli",
-    "text_ru": "Чтобы потреблять меньше топлива, следует по возможности выбирать равнинные и более свободные дороги",
     "image": null,
     "comment": {
       "text": "E' vero! la scelta di un percorso pianeggiante ci eviterà  di realizzare brusche accelerate per affrontare salite riducendo di conseguenza i consumi, per esempio scegliere l' autostrada piuttosto che una strada di montagna.",
-      "text_ru": "Это правда! Равнинный маршрут позволяет избегать резких ускорений, необходимых для подъемов, что снижает расход.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_185_02_ats19.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_185_02_ats19.jpg",
+      "text_ru": "Это правда! Равнинный маршрут позволяет избегать резких ускорений, необходимых для подъемов, что снижает расход."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Чтобы потреблять меньше топлива, следует по возможности выбирать равнинные и более свободные дороги"
   },
   {
     "id": 6129,
     "topic_id": 24,
     "text": "L'insufficiente pressione di gonfiaggio degli pneumatici comporta un maggior consumo di carburante",
-    "text_ru": "Недостаточное давление в шинах ведет к увеличению расхода топлива",
     "image": null,
     "comment": {
-      "text": "E' vero! Un veicolo con le gomme sgonfie incontra maggiori resistenze nel rotolamento dei pneumatici sull'asfalto e di conseguenza per vincere questa difficoltà  il motore necessita di maggior potenza e quindi consuma più carburante. ",
-      "text_ru": "Верно! Спущенные шины создают большее сопротивление качению, и двигателю требуется больше мощности для движения.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24001V07.jpg"
+      "text": "E' vero! Un veicolo con le gomme sgonfie incontra maggiori resistenze nel rotolamento dei pneumatici sull'asfalto e di conseguenza per vincere questa difficoltà  il motore necessita di maggior potenza e quindi consuma più carburante.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24001V07.jpg",
+      "text_ru": "Верно! Спущенные шины создают большее сопротивление качению, и двигателю требуется больше мощности для движения."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Недостаточное давление в шинах ведет к увеличению расхода топлива"
   },
   {
     "id": 6130,
     "topic_id": 24,
     "text": "Collocare i bagagli sul tetto del veicolo comporta un maggior consumo di carburante",
-    "text_ru": "Размещение багажа на крыше автомобиля ведет к увеличению расхода топлива",
     "image": null,
     "comment": {
       "text": "E' vero! Le case automobilistiche studiano l'aerodinamica del veicolo per ridurre i consumi. posizionando bagagli anche piccoli sul tetto l'aria incontra maggiori resistenze rallentando il veicolo obbligando il motore ad utilizzare maggiori quantitativi di carburante.",
-      "text_ru": "Это верно! Багаж на крыше увеличивает сопротивление воздуха, заставляя двигатель работать интенсивнее.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_203_02_25008_v02.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_203_02_25008_v02.jpg",
+      "text_ru": "Это верно! Багаж на крыше увеличивает сопротивление воздуха, заставляя двигатель работать интенсивнее."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Размещение багажа на крыше автомобиля ведет к увеличению расхода топлива"
   },
   {
     "id": 6131,
     "topic_id": 24,
     "text": "Tenere aperto il tettuccio scorrevole del veicolo comporta un minor consumo di carburante",
-    "text_ru": "Открытый люк в крыше автомобиля ведет к снижению расхода топлива",
     "image": null,
     "comment": {
       "text": "E' Falso! Le case automobilistiche studiano l'aerodinamica del veicolo per ridurre i consumi. Aprendo il tettuccio scorrevole  l'aria entra nell'abitacolo rallentando il veicolo e obbligando il motore ad utilizzare maggiori quantitativi di carburante.",
-      "text_ru": "Ложно! Открытый люк ухудшает аэродинамику и увеличивает расход топлива.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24012V04.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24012V04.jpg",
+      "text_ru": "Ложно! Открытый люк ухудшает аэродинамику и увеличивает расход топлива."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Открытый люк в крыше автомобиля ведет к снижению расхода топлива"
   },
   {
     "id": 6132,
     "topic_id": 24,
     "text": "L'uso del climatizzatore comporta minor consumo di carburante",
-    "text_ru": "Использование кондиционера ведет к снижению расхода топлива",
     "image": null,
     "comment": {
       "text": "E' FALSO!  L'utilizzo del condizionatore e di altri sistemi elettrici  comportano uno maggior sforzo per il motore che deve fare un lavoro per generare corrente elettrica allo scopo di  caricare la batteria",
-      "text_ru": "ЛОЖНО! Кондиционер создает дополнительную нагрузку на двигатель, что увеличивает расход.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24011_v01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24011_v01.jpg",
+      "text_ru": "ЛОЖНО! Кондиционер создает дополнительную нагрузку на двигатель, что увеличивает расход."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Использование кондиционера ведет к снижению расхода топлива"
   },
   {
     "id": 6133,
     "topic_id": 24,
     "text": "I veicoli ibridi (con due motori, a scoppio ed elettrico) inquinano di più perché azionati da due motori",
-    "text_ru": "Гибридные автомобили (с двумя двигателями: внутреннего сгорания и электрическим) загрязняют среду сильнее, так как приводятся в движение двумя двигателями",
     "image": null,
     "comment": {
       "text": "E' FALSO! i veicoli con doppia alimentazione utilizzano il motore a scoppio solo in ausilio di quello elettrico, quindi a pari chilometri percorsi consumano ed inquinano notevolmente meno.",
-      "text_ru": "ЛОЖНО! Гибриды используют ДВС лишь в помощь электромотору, поэтому при равном пробеге они потребляют и загрязняют гораздо меньше.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24009_v02.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24009_v02.jpg",
+      "text_ru": "ЛОЖНО! Гибриды используют ДВС лишь в помощь электромотору, поэтому при равном пробеге они потребляют и загрязняют гораздо меньше."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Гибридные автомобили (с двумя двигателями: внутреннего сгорания и электрическим) загрязняют среду сильнее, так как приводятся в движение двумя двигателями"
   },
   {
     "id": 6134,
     "topic_id": 24,
     "text": "Per consumare meno carburante è opportuno collocare i bagagli sul tetto del veicolo",
-    "text_ru": "Для экономии топлива целесообразно размещать багаж на крыше автомобиля",
     "image": null,
     "comment": {
       "text": "E' FALSO! Le case automobilistiche studiano l'aerodinamica del veicolo per ridurre i consumi, posizionando bagagli anche piccoli sul tetto l'aria incontra maggiori resistenze rallentando il veicolo ed obbligando il motore ad utilizzare maggiori quantitati",
-      "text_ru": "ЛОЖНО! Багаж на крыше создает сопротивление и повышает расход топлива.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_203_02_25008_v02.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_203_02_25008_v02.jpg",
+      "text_ru": "ЛОЖНО! Багаж на крыше создает сопротивление и повышает расход топлива."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для экономии топлива целесообразно размещать багаж на крыше автомобиля"
   },
   {
     "id": 6135,
     "topic_id": 24,
     "text": "Per consumare meno carburante conviene accelerare e frenare energicamente",
-    "text_ru": "Чтобы потреблять меньше топлива, следует энергично разгоняться и тормозить",
     "image": null,
     "comment": {
       "text": "E' FALSO! una guida costante senza brusche accelerate e frenate consente di risparmiare notevolmente carburante e ridurre le emissioni inquinanti.",
-      "text_ru": "ЛОЖНО! Равномерная езда без резких маневров экономит топливо.",
-      "image": null
+      "image": null,
+      "text_ru": "ЛОЖНО! Равномерная езда без резких маневров экономит топливо."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Чтобы потреблять меньше топлива, следует энергично разгоняться и тормозить"
   },
   {
     "id": 6136,
     "topic_id": 24,
     "text": "Per evitare rumori fastidiosi durante la guida, occorre far controllare che il dispositivo silenziatore (marmitta) sia in buone condizioni di efficienza",
-    "text_ru": "Чтобы избежать неприятного шума при вождении, необходимо проверять эффективность работы глушителя",
     "image": null,
     "comment": {
       "text": "Una marmitta rovinata (bucata) crea forte inquinamento acustico poiché il rumore emesso dal motore non viene assopito. Solitamente infatti la marmitta viene chiamata silenziatore poiché, se efficiente, riduce notevolmente il rumore emesso dal motore.",
-      "text_ru": "Поврежденный глушитель создает сильное шумовое загрязнение. Исправный глушитель значительно снижает шум двигателя.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg",
+      "text_ru": "Поврежденный глушитель создает сильное шумовое загрязнение. Исправный глушитель значительно снижает шум двигателя."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Чтобы избежать неприятного шума при вождении, необходимо проверять эффективность работы глушителя"
   },
   {
     "id": 6137,
     "topic_id": 24,
     "text": "L'inquinamento acustico aumenta se si usano in modo eccessivo i dispositivi di segnalazione acustica (clacson, trombe)",
-    "text_ru": "Шумовое загрязнение увеличивается при чрезмерном использовании звуковых сигналов (клаксон, гудки)",
     "image": null,
     "comment": {
-      "text": "Un abuso del clacson causa inquinamento acustico. E' necessario usare il clacson solo quando e' consentito ma con la massima moderazione. ",
-      "text_ru": "Злоупотребление сигналом вызывает шумовое загрязнение. Использовать его нужно только в разрешенных случаях и умеренно.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/18_188_01_quadro spie_01.jpg"
+      "text": "Un abuso del clacson causa inquinamento acustico. E' necessario usare il clacson solo quando e' consentito ma con la massima moderazione.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/18_188_01_quadro spie_01.jpg",
+      "text_ru": "Злоупотребление сигналом вызывает шумовое загрязнение. Использовать его нужно только в разрешенных случаях и умеренно."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Шумовое загрязнение увеличивается при чрезмерном использовании звуковых сигналов (клаксон, гудки)"
   },
   {
     "id": 6138,
     "topic_id": 24,
     "text": "Per evitare rumori fastidiosi durante la guida non si deve frenare bruscamente, se non è strettamente necessario",
-    "text_ru": "Чтобы избежать неприятных шумов при вождении, не следует резко тормозить без крайней необходимости",
     "image": null,
     "comment": {
       "text": "Le frenate brusche provocano rumori molesti oltreché pericolo per la circolazione stradale. Frena con decisione solo in caso ce ne sia l'effettiva necessita'.",
-      "text_ru": "Резкое торможение вызывает неприятный шум и опасно для окружающих.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_201_02_freni041.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_201_02_freni041.jpg",
+      "text_ru": "Резкое торможение вызывает неприятный шум и опасно для окружающих."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Чтобы избежать неприятных шумов при вождении, не следует резко тормозить без крайней необходимости"
   },
   {
     "id": 6139,
     "topic_id": 24,
     "text": "Per evitare rumori fastidiosi non bisogna accelerare inutilmente e ripetutamente se il veicolo è fermo",
-    "text_ru": "Чтобы избежать неприятных шумов, не следует бесполезно и многократно газовать на месте",
     "image": null,
     "comment": {
-      "text": "Accelerare inutilmente e ripetutamente da fermo causa inquinamento acustico e atmosferico.\r\n",
-      "text_ru": "Бесполезные перегазовки на месте вызывают шумовое и атмосферное загрязнение.",
-      "image": null
+      "text": "Accelerare inutilmente e ripetutamente da fermo causa inquinamento acustico e atmosferico.",
+      "image": null,
+      "text_ru": "Бесполезные перегазовки на месте вызывают шумовое и атмосферное загрязнение."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Чтобы избежать неприятных шумов, не следует бесполезно и многократно газовать на месте"
   },
   {
     "id": 6140,
     "topic_id": 24,
     "text": "Per evitare rumori fastidiosi durante la guida, si deve usare il clacson solamente per motivi di sicurezza stradale (trasporto feriti o ammalati, pericolo immediato)",
-    "text_ru": "Чтобы избежать неприятных шумов, клаксон следует использовать только в целях безопасности (перевозка раненых или больных, непосредственная опасность)",
     "image": null,
     "comment": {
       "text": "E' VERO! L'uso del clacson senza motivata necessità  comporta disturbo della quiete pubblica ed  è punibile con una multa.",
-      "text_ru": "ВЕРНО! Использование сигнала без необходимости нарушает общественный покой и наказывается штрафом.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/18_188_01_quadro spie_01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/18_188_01_quadro spie_01.jpg",
+      "text_ru": "ВЕРНО! Использование сигнала без необходимости нарушает общественный покой и наказывается штрафом."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Чтобы избежать неприятных шумов, клаксон следует использовать только в целях безопасности (перевозка раненых или больных, непосредственная опасность)"
   },
   {
     "id": 6141,
     "topic_id": 24,
     "text": "Per evitare rumori fastidiosi durante le fermate dovute al traffico, occorre mantenere il motore acceso, accelerando ripetutamente",
-    "text_ru": "Чтобы избежать неприятных шумов во время остановок в пробках, нужно держать двигатель включенным, постоянно подгазовывая",
     "image": null,
     "comment": {
       "text": "E' FALSO! Tenere il motore acceso con ripetute accelerate comporta oltre ad un inutile consumo di carburante anche l'emissione di rumori che potrebbero risultare fastidiosi o molesti.",
-      "text_ru": "ЛОЖНО! Это ведет к лишнему расходу топлива и лишнему шуму.",
-      "image": null
+      "image": null,
+      "text_ru": "ЛОЖНО! Это ведет к лишнему расходу топлива и лишнему шуму."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Чтобы избежать неприятных шумов во время остановок в пробках, нужно держать двигатель включенным, постоянно подгазовывая"
   },
   {
     "id": 6142,
     "topic_id": 24,
     "text": "Per evitare rumori fastidiosi, occorre chiudere con forza le portiere dell'autovettura, in modo da non doverle richiudere",
-    "text_ru": "Чтобы избежать неприятных шумов, следует с силой хлопать дверями автомобиля, чтобы не пришлось их закрывать повторно",
     "image": null,
     "comment": {
       "text": "E' FALSO! Sbattere le portiere produce rumori fastidiosi e molesti.",
-      "text_ru": "ЛОЖНО! Хлопанье дверями производит неприятный шум.",
-      "image": null
+      "image": null,
+      "text_ru": "ЛОЖНО! Хлопанье дверями производит неприятный шум."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Чтобы избежать неприятных шумов, следует с силой хлопать дверями автомобиля, чтобы не пришлось их закрывать повторно"
   },
   {
     "id": 6143,
     "topic_id": 24,
     "text": "Per evitare rumori fastidiosi durante la guida, occorre sostituire il clacson con le luci ad intermittenza, ma solamente di notte",
-    "text_ru": "Чтобы избежать неприятных шумов, следует заменить звуковой сигнал миганием фар, но только ночью",
     "image": null,
     "comment": {
       "text": "E' FALSO! le luci ad intermittenza possono essere utili e quindi sostituire il clacson per segnalare l'intenzione di fare un sorpasso  o l'attraversamento di un incrocio senza visibilità  anche di giorno.",
-      "text_ru": "ЛОЖНО! Световой сигнал может заменять звуковой и днем (например, при обгоне или проезде перекрестков с плохой видимостью).",
-      "image": null
+      "image": null,
+      "text_ru": "ЛОЖНО! Световой сигнал может заменять звуковой и днем (например, при обгоне или проезде перекрестков с плохой видимостью)."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Чтобы избежать неприятных шумов, следует заменить звуковой сигнал миганием фар, но только ночью"
   },
   {
     "id": 6144,
     "topic_id": 24,
     "text": "Il rumore prodotto dai veicoli a motore aumenta man mano che si va rovinando il silenziatore (marmitta)",
-    "text_ru": "Шум от моторных транспортных средств увеличивается по мере износа глушителя",
     "image": null,
     "comment": {
-      "text": "Per evitare rumori molesti durante la circolazione si deve fra l'altro:\r\n- far controllare che il dispositivo silenziatore (marmitta) sia in condizioni efficienti\r\n- non abusare del dispositivo di segnalazioni acustiche (clacson) \r\n",
-      "text_ru": "Для избежания шума нужно следить за исправностью глушителя и не злоупотреблять клаксоном.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg"
+      "text": "Per evitare rumori molesti durante la circolazione si deve fra l'altro:\r\n- far controllare che il dispositivo silenziatore (marmitta) sia in condizioni efficienti\r\n- non abusare del dispositivo di segnalazioni acustiche (clacson)",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg",
+      "text_ru": "Для избежания шума нужно следить за исправностью глушителя и не злоупотреблять клаксоном."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Шум от моторных транспортных средств увеличивается по мере износа глушителя"
   },
   {
     "id": 6145,
     "topic_id": 24,
     "text": "Il rumore prodotto dai veicoli a motore si può diminuire con una guida corretta, che eviti brusche frenate o forti accelerazioni",
-    "text_ru": "Шум от автомобилей можно уменьшить правильным стилем вождения, избегая резких торможений и ускорений",
     "image": null,
     "comment": {
       "text": "E' vero! L'aumento dei giri del motore o lo stridore dei pneumatici sul suolo durante una frenata comportano un aumento del rumore molesto.",
-      "text_ru": "Верно! Высокие обороты двигателя и визг шин при торможении усиливают шум.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_inqac03.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_inqac03.jpg",
+      "text_ru": "Верно! Высокие обороты двигателя и визг шин при торможении усиливают шум."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Шум от автомобилей можно уменьшить правильным стилем вождения, избегая резких торможений и ускорений"
   },
   {
     "id": 6146,
     "topic_id": 24,
     "text": "Il rumore prodotto dai veicoli a motore è causato solo dal motore",
-    "text_ru": "Шум от транспортных средств вызывается только работой двигателя",
     "image": null,
     "comment": {
       "text": "E' FALSO! Oltre al rumore del motore anche le sospensioni, i freni ed i pneumatici possono, se non controllati spesso in officina, produrre rumori molesti.",
-      "text_ru": "ЛОЖНО! Подвеска, тормоза и шины также могут производить шум, если за ними не следить.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_202_03_sosp005.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_202_03_sosp005.jpg",
+      "text_ru": "ЛОЖНО! Подвеска, тормоза и шины также могут производить шум, если за ними не следить."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Шум от транспортных средств вызывается только работой двигателя"
   },
   {
     "id": 6147,
     "topic_id": 24,
     "text": "Per diminuire il rumore emesso dai veicoli a motore è necessario che il dispositivo silenziatore (marmitta) sia efficiente e di tipo approvato",
-    "text_ru": "Для снижения шума необходимо, чтобы глушитель был исправен и сертифицированного типа",
     "image": null,
     "comment": {
       "text": "E' VERO! Per ridurre il rumore emesso dai veicoli a motore è necessario :\r\n* controllare che il dispositivo silenziatore sia efficiente \r\n* sostituire la marmitta deteriorata, con altro tipo approvato per lo stesso veicolo",
-      "text_ru": "ВЕРНО! Нужно следить за эффективностью глушителя и заменять его только на одобренные для данной модели аналоги.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg",
+      "text_ru": "ВЕРНО! Нужно следить за эффективностью глушителя и заменять его только на одобренные для данной модели аналоги."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для снижения шума необходимо, чтобы глушитель был исправен и сертифицированного типа"
   },
   {
     "id": 6148,
     "topic_id": 24,
     "text": "Per diminuire il rumore è necessario far sostituire la marmitta rovinata con una approvata per quel tipo di veicolo",
-    "text_ru": "Для снижения шума необходимо заменить поврежденный глушитель на одобренный для данного типа ТС",
     "image": null,
     "comment": {
       "text": "E' VERO! Per ridurre il rumore emesso dai veicoli a motore è necessario :\r\n* controllare che il dispositivo silenziatore sia efficiente \r\n* sostituire la marmitta deteriorata, con altro tipo approvato per lo stesso veicolo",
-      "text_ru": "ВЕРНО! Изношенный глушитель следует заменять только на сертифицированный для этого авто.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg",
+      "text_ru": "ВЕРНО! Изношенный глушитель следует заменять только на сертифицированный для этого авто."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для снижения шума необходимо заменить поврежденный глушитель на одобренный для данного типа ТС"
   },
   {
     "id": 6149,
     "topic_id": 24,
     "text": "Per diminuire il rumore non si deve accelerare quando il veicolo è fermo",
-    "text_ru": "Для снижения шума не следует газовать, когда автомобиль стоит",
     "image": null,
     "comment": {
       "text": "E' VERO! Accelerare da fermo oltre a far consumare maggiormente produce anche un inutile inquinamento sia acustico che atmosferico.",
-      "text_ru": "ВЕРНО! Перегазовки на месте повышают расход и уровень загрязнения.",
-      "image": null
+      "image": null,
+      "text_ru": "ВЕРНО! Перегазовки на месте повышают расход и уровень загрязнения."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для снижения шума не следует газовать, когда автомобиль стоит"
   },
   {
     "id": 6150,
     "topic_id": 24,
     "text": "Per diminuire il rumore prodotto dai veicoli a motore è necessario far controllare i freni se emettono rumore durante le frenate, sostituendoli se necessario",
-    "text_ru": "Для снижения шума необходимо проверить тормоза, если они шумят при торможении, и при необходимости заменить их",
     "image": null,
     "comment": {
       "text": "E' VERO! Quando i freni emettono suoni stridenti vuol dire:\r\n1 Che le pastiglie dei freni sono consumate e devono essere sostituite\r\n2 Che il sistema frenante ha bisogno di essere controllato perchè sbilanciato.",
-      "text_ru": "ВЕРНО! Скрежет тормозов обычно означает износ колодок или неисправность (разбалансировку) системы.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_freni015.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_freni015.jpg",
+      "text_ru": "ВЕРНО! Скрежет тормозов обычно означает износ колодок или неисправность (разбалансировку) системы."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для снижения шума необходимо проверить тормоза, если они шумят при торможении, и при необходимости заменить их"
   },
   {
     "id": 6151,
     "topic_id": 24,
     "text": "Il controllo dei freni che producono rumore, oltre ad aumentare la sicurezza può ridurre la rumorosità del veicolo",
-    "text_ru": "Проверка шумящих тормозов, помимо повышения безопасности, может снизить шумность автомобиля",
     "image": null,
     "comment": {
       "text": "E' VERO! Quando i freni emettono suoni stridenti vuol dire:\r\n1 Che le pastiglie dei freni sono consumate e devono essere sostituite\r\n2 Che il sistema frenante ha bisogno di essere controllato perchè sbilanciato.",
-      "text_ru": "ВЕРНО! Своевременная замена колодок убирает визг и повышает надежность.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_freni015.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_freni015.jpg",
+      "text_ru": "ВЕРНО! Своевременная замена колодок убирает визг и повышает надежность."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Проверка шумящих тормозов, помимо повышения безопасности, может снизить шумность автомобиля"
   },
   {
     "id": 6152,
     "topic_id": 24,
     "text": "Per diminuire il rumore emesso dai veicoli a motore si deve suonare il clacson il meno possibile",
-    "text_ru": "Для снижения шума от автомобилей следует подавать звуковой сигнал как можно реже",
     "image": null,
     "comment": {
       "text": "E' VERO! il clacson se usato a sproposito può creare un inutile e fastidioso inquinamento acustico.",
-      "text_ru": "ВЕРНО! Необоснованное использование сигнала создает лишний шум.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_LUCI053.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_LUCI053.jpg",
+      "text_ru": "ВЕРНО! Необоснованное использование сигнала создает лишний шум."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для снижения шума от автомобилей следует подавать звуковой сигнал как можно реже"
   },
   {
     "id": 6153,
     "topic_id": 24,
     "text": "Per diminuire il rumore emesso dai veicoli a motore è opportuno praticare dei fori nel dispositivo silenziatore (marmitta)",
-    "text_ru": "Для снижения шума двигателя целесообразно просверлить отверстия в глушителе",
     "image": null,
     "comment": {
       "text": "E'FALSO! La marmitta se forata aumenta il rumore emesso dal motore.",
-      "text_ru": "ЛОЖНО! Дырки в глушителе только усиливают шум.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg",
+      "text_ru": "ЛОЖНО! Дырки в глушителе только усиливают шум."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для снижения шума двигателя целесообразно просверлить отверстия в глушителе"
   },
   {
     "id": 6154,
     "topic_id": 24,
     "text": "Per diminuire il rumore emesso dai veicoli a motore si deve sostituire il tubo di scarico, usandone uno di diametro più piccolo",
-    "text_ru": "Для снижения шума двигателя следует заменить выхлопную трубу на трубу меньшего диаметра",
     "image": null,
     "comment": {
       "text": "E' FALSO! Ogni veicolo ha il proprio dispositivo silenziatore approvato dal ministero. Sostituendolo con uno di dimensioni diverse è vietato dalla legge.",
-      "text_ru": "ЛОЖНО! Использование деталей, не соответствующих заводским параметрам, запрещено.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/10_283_01_modifica marmitta01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/10_283_01_modifica marmitta01.jpg",
+      "text_ru": "ЛОЖНО! Использование деталей, не соответствующих заводским параметрам, запрещено."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для снижения шума двигателя следует заменить выхлопную трубу на трубу меньшего диаметра"
   },
   {
     "id": 6155,
     "topic_id": 24,
     "text": "Per diminuire il rumore emesso dai veicoli a motore basta eliminare la parte finale della marmitta",
-    "text_ru": "Для снижения шума достаточно удалить оконечную часть глушителя",
     "image": null,
     "comment": {
       "text": "E' FALSO! Ogni veicolo ha il proprio dispositivo silenziatore approvato dal ministero. Sostituendolo con uno di dimensioni diverse o modificare quello originale è vietato dalla legge.",
-      "text_ru": "ЛОЖНО! Модификация или удаление частей выхлопной системы запрещены законом.",
-      "image": null
+      "image": null,
+      "text_ru": "ЛОЖНО! Модификация или удаление частей выхлопной системы запрещены законом."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для снижения шума достаточно удалить оконечную часть глушителя"
   },
   {
     "id": 6156,
     "topic_id": 24,
     "text": "Nelle curve percorse a forte velocità, lo strisciamento dei pneumatici aumenta la rumorosità del veicolo",
-    "text_ru": "В поворотах на большой скорости скольжение шин увеличивает шумность автомобиля",
     "image": null,
     "comment": {
       "text": "E' VERO! lo stridere dei pneumatici aumenta inutilmente il rumore che il veicolo produce durante la marcia.",
-      "text_ru": "ВЕРНО! Визг шин создает лишний шум при движении.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_inqac03.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_inqac03.jpg",
+      "text_ru": "ВЕРНО! Визг шин создает лишний шум при движении."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "В поворотах на большой скорости скольжение шин увеличивает шумность автомобиля"
   },
   {
     "id": 6157,
     "topic_id": 24,
     "text": "I rimorchi vuoti, che sobbalzano eccessivamente, possono essere causa di rumore",
-    "text_ru": "Пустые прицепы, которые сильно подпрыгивают, могут быть источником шума",
     "image": null,
     "comment": {
       "text": "E' Vero! Le molle delle sospensioni dei rimorchi in marcia senza alcun carico è parecchio elevato e fastidioso.",
-      "text_ru": "Верно! Подпрыгивание ненагруженного прицепа на неровностях создает сильный шум.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_24005V02.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_24005V02.jpg",
+      "text_ru": "Верно! Подпрыгивание ненагруженного прицепа на неровностях создает сильный шум."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Пустые прицепы, которые сильно подпрыгивают, могут быть источником шума"
   },
   {
     "id": 6158,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento provocato dai veicoli non bisogna accelerare bruscamente durante le partenze",
-    "text_ru": "Для снижения загрязнения окружающей среды не следует резко ускоряться при старте",
     "image": null,
     "comment": {
       "text": "E' VERO! più si accelera e maggiori quantità  di carburante verranno bruciate inquinando inutilmente l'atmosfera.",
-      "text_ru": "ВЕРНО! При резком разгоне сгорает больше топлива, что увеличивает выбросы.",
-      "image": null
+      "image": null,
+      "text_ru": "ВЕРНО! При резком разгоне сгорает больше топлива, что увеличивает выбросы."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для снижения загрязнения окружающей среды не следует резко ускоряться при старте"
   },
   {
     "id": 6159,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento, bisogna evitare di tenere inserita per troppo tempo una marcia bassa, se non è necessaria",
-    "text_ru": "Для снижения загрязнения следует избегать долгой езды на низкой передаче без необходимости",
     "image": null,
     "comment": {
       "text": "E' VERO! Le marce basse fanno girare il motore molto velocemente creando grande spinta al veicolo e poca velocità . Da tutto ciò ne deriva grande consumo di carburante e elevato tasso di inquinamento.",
-      "text_ru": "ВЕРНО! На низких передачах обороты двигателя выше, что ведет к большему расходу и загрязнению.",
-      "image": null
+      "image": null,
+      "text_ru": "ВЕРНО! На низких передачах обороты двигателя выше, что ведет к большему расходу и загрязнению."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для снижения загрязнения следует избегать долгой езды на низкой передаче без необходимости"
   },
   {
     "id": 6160,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento dell'aria provocato dai veicoli con motore a scoppio, bisogna sostituire la marmitta catalitica quando la stessa è deteriorata o esausta",
-    "text_ru": "Для снижения загрязнения воздуха от машин с ДВС необходимо заменять каталитический нейтрализатор, когда он изношен или выработан",
     "image": null,
     "comment": {
       "text": "E' VERO! le marmitte catalitiche hanno una vita media di 80.000Km. Superata questa soglia non sono più in grado di ridurre l'inquinamento prodotto dal motore.",
-      "text_ru": "ВЕРНО! Катализаторы служат в среднем 80 000 км, после чего перестают эффективно очищать выхлоп.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg",
+      "text_ru": "ВЕРНО! Катализаторы служат в среднем 80 000 км, после чего перестают эффективно очищать выхлоп."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для снижения загрязнения воздуха от машин с ДВС необходимо заменять каталитический нейтрализатор, когда он изношен или выработан"
   },
   {
     "id": 6161,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna controllare spesso la frizione e il differenziale",
-    "text_ru": "Для снижения загрязнения воздуха следует часто проверять сцепление и дифференциал",
     "image": null,
     "comment": {
-      "text": "E' FALSO! Frizione e differenziale sono organi meccanici della trasmissione che non influiscono assolutamente ne' sui consumi nè sul tasso di inquinamento del veicolo. ",
-      "text_ru": "ЛОЖНО! Эти узлы трансмиссии напрямую не влияют на уровень токсичности выхлопа.",
-      "image": null
+      "text": "E' FALSO! Frizione e differenziale sono organi meccanici della trasmissione che non influiscono assolutamente ne' sui consumi nè sul tasso di inquinamento del veicolo.",
+      "image": null,
+      "text_ru": "ЛОЖНО! Эти узлы трансмиссии напрямую не влияют на уровень токсичности выхлопа."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для снижения загрязнения воздуха следует часто проверять сцепление и дифференциал"
   },
   {
     "id": 6162,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna controllare spesso gli organi di sospensione (ammortizzatori)",
-    "text_ru": "Для снижения загрязнения воздуха следует часто проверять элементы подвески (амортизаторы)",
     "image": null,
     "comment": {
-      "text": "E' FALSO! Gli Organi di Sospensione sono elementi meccanici che non influiscono assolutamente sul tasso di inquinamento del veicolo. ",
-      "text_ru": "ЛОЖНО! Подвеска не влияет на экологические показатели двигателя.",
-      "image": null
+      "text": "E' FALSO! Gli Organi di Sospensione sono elementi meccanici che non influiscono assolutamente sul tasso di inquinamento del veicolo.",
+      "image": null,
+      "text_ru": "ЛОЖНО! Подвеска не влияет на экологические показатели двигателя."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для снижения загрязнения воздуха следует часто проверять элементы подвески (амортизаторы)"
   },
   {
     "id": 6163,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna ridurre la pressione di gonfiaggio dei pneumatici",
-    "text_ru": "Для снижения загрязнения воздуха следует снизить давление в шинах",
     "image": null,
     "comment": {
-      "text": "E' FALSO! Se i pneumatici sono sgonfi il veicolo ha maggior attrito e il motore lavora di più per spingere il veicolo aumentando di conseguenza i consumi e le emissioni inquinanti. ",
-      "text_ru": "ЛОЖНО! Спущенные шины увеличивают сопротивление качению, что повышает расход и выбросы.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24001V07.jpg"
+      "text": "E' FALSO! Se i pneumatici sono sgonfi il veicolo ha maggior attrito e il motore lavora di più per spingere il veicolo aumentando di conseguenza i consumi e le emissioni inquinanti.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24001V07.jpg",
+      "text_ru": "ЛОЖНО! Спущенные шины увеличивают сопротивление качению, что повышает расход и выбросы."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для снижения загрязнения воздуха следует снизить давление в шинах"
   },
   {
     "id": 6164,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna accelerare ripetutamente da fermo, per tenere caldo il motore e migliorarne il rendimento",
-    "text_ru": "Для снижения загрязнения воздуха следует многократно газовать на месте, чтобы держать двигатель горячим и улучшить его КПД",
     "image": null,
     "comment": {
       "text": "E' FALSO! Le accelerazioni da fermo sono inutili e pertanto producono maggiore consumo di carburante ed un conseguente maggior inquinamento atmosferico.",
-      "text_ru": "ЛОЖНО! Перегазовки на месте бесполезны и лишь увеличивают загрязнение атмосферы.",
-      "image": null
+      "image": null,
+      "text_ru": "ЛОЖНО! Перегазовки на месте бесполезны и лишь увеличивают загрязнение атмосферы."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для снижения загрязнения воздуха следует многократно газовать на месте, чтобы держать двигатель горячим и улучшить его КПД"
   },
   {
     "id": 6165,
     "topic_id": 24,
     "text": "Nei veicoli dotati di marmitta catalitica, l'inquinamento dell'aria è minore subito dopo l'accensione del motore, quando la temperatura è ancora bassa",
-    "text_ru": "В автомобилях с катализатором загрязнение воздуха меньше сразу после запуска двигателя, пока температура еще низкая",
     "image": null,
     "comment": {
       "text": "E' FALSO! La marmitta catalitica è un organo che funziona bene solo quando raggiunge temperature molto elevate.",
-      "text_ru": "ЛОЖНО! Катализатор начинает эффективно работать только после достижения высокой рабочей температуры.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg",
+      "text_ru": "ЛОЖНО! Катализатор начинает эффективно работать только после достижения высокой рабочей температуры."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "В автомобилях с катализатором загрязнение воздуха меньше сразу после запуска двигателя, пока температура еще низкая"
   },
   {
     "id": 6166,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli può dipendere da un funzionamento irregolare del motore",
-    "text_ru": "Загрязнение воздуха от автомобилей может зависеть от нестабильной работы двигателя",
     "image": null,
     "comment": {
-      "text": "L'inquinamento atmosferico prodotto dai veicoli può dipendere  da un FUNZIONAMENTO IRREGOLARE DEL MOTORE,\r\n in particolare dal filtro dell'aria  sporco o intasato e dagli iniettori difettosi soprattutto nei motori diesel alimentati a gasolio.\r\n\r\n",
-      "text_ru": "Это так. Причинами могут быть загрязненный воздушный фильтр или неисправные форсунки (инжекторы), особенно в дизельных двигателях.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/10_284_05_sfondo motore02.jpg"
+      "text": "L'inquinamento atmosferico prodotto dai veicoli può dipendere  da un FUNZIONAMENTO IRREGOLARE DEL MOTORE,\r\n in particolare dal filtro dell'aria  sporco o intasato e dagli iniettori difettosi soprattutto nei motori diesel alimentati a gasolio.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/10_284_05_sfondo motore02.jpg",
+      "text_ru": "Это так. Причинами могут быть загрязненный воздушный фильтр или неисправные форсунки (инжекторы), особенно в дизельных двигателях."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Загрязнение воздуха от автомобилей может зависеть от нестабильной работы двигателя"
   },
   {
     "id": 6167,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria può essere ridotto, controllando che il veicolo sia sempre nelle condizioni ottimali di consumo e rendimento",
-    "text_ru": "Загрязнение воздуха можно уменьшить, контролируя, чтобы транспортное средство всегда находилось в оптимальном состоянии с точки зрения потребления топлива и КПД",
     "image": null,
     "comment": {
-      "text": "L'inquinamento atmosferico prodotto dai veicoli può essere ridotto:\r\n\r\n- controllando che il filtro dell'aria non sia sporco o intasato;\r\n- controllando che il VEICOLO SIA SEMPRE nelle CONDIZIONI OTTIMALI di consumo e rendimento;\r\n- adottando uno stile di guida che limiti i consumi di carburante.\r\n\r\n",
-      "text_ru": "Атмосферное загрязнение, производимое транспортными средствами, может быть уменьшено:\r\n\r\n- путем контроля того, чтобы воздушный фильтр не был грязным или засоренным;\r\n- путем контроля того, чтобы ТРАНСПОРТНОЕ СРЕДСТВО ВСЕГДА находилось в ОПТИМАЛЬНОМ СОСТОЯНИИ потребления и производительности;\r\n- путем принятия стиля вождения, ограничивающего расход топлива.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/10_284_05_sfondo motore02.jpg"
+      "text": "L'inquinamento atmosferico prodotto dai veicoli può essere ridotto:\r\n\r\n- controllando che il filtro dell'aria non sia sporco o intasato;\r\n- controllando che il VEICOLO SIA SEMPRE nelle CONDIZIONI OTTIMALI di consumo e rendimento;\r\n- adottando uno stile di guida che limiti i consumi di carburante.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/10_284_05_sfondo motore02.jpg",
+      "text_ru": "Атмосферное загрязнение, производимое транспортными средствами, может быть уменьшено:\r\n\r\n- путем контроля того, чтобы воздушный фильтр не был грязным или засоренным;\r\n- путем контроля того, чтобы ТРАНСПОРТНОЕ СРЕДСТВО ВСЕГДА находилось в ОПТИМАЛЬНОМ СОСТОЯНИИ потребления и производительности;\r\n- путем принятия стиля вождения, ограничивающего расход топлива."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Загрязнение воздуха можно уменьшить, контролируя, чтобы транспортное средство всегда находилось в оптимальном состоянии с точки зрения потребления топлива и КПД"
   },
   {
     "id": 6168,
     "topic_id": 24,
     "text": "Adottando uno stile di guida che limiti i consumi di carburante, è possibile ridurre l'inquinamento dell'aria",
-    "text_ru": "Применяя стиль вождения, ограничивающий расход топлива, можно уменьшить загрязнение воздуха",
     "image": null,
     "comment": {
-      "text": "L'inquinamento atmosferico prodotto dai veicoli può essere ridotto:\r\n- controllando che il filtro dell'aria non sia sporco o intasato;\r\n- controllando che il veicolo sia sempre nelle condizioni ottimali di consumo e rendimento;\r\n- ADOTTANDO UNO STILE DI GUIDA che LIMITI i CONSUMI di carburante.\r\n\r\n",
-      "text_ru": "Атмосферное загрязнение, производимое транспортными средствами, может быть уменьшено:\r\n- путем контроля того, чтобы воздушный фильтр не был грязным или засоренным;\r\n- путем контроля того, чтобы транспортное средство всегда находилось в оптимальном состоянии потребления и производительности;\r\n- ПРИНЯТИЕМ СТИЛЯ ВОЖДЕНИЯ, который ОГРАНИЧИВАЕТ РАСХОД топлива.",
-      "image": null
+      "text": "L'inquinamento atmosferico prodotto dai veicoli può essere ridotto:\r\n- controllando che il filtro dell'aria non sia sporco o intasato;\r\n- controllando che il veicolo sia sempre nelle condizioni ottimali di consumo e rendimento;\r\n- ADOTTANDO UNO STILE DI GUIDA che LIMITI i CONSUMI di carburante.",
+      "image": null,
+      "text_ru": "Атмосферное загрязнение, производимое транспортными средствами, может быть уменьшено:\r\n- путем контроля того, чтобы воздушный фильтр не был грязным или засоренным;\r\n- путем контроля того, чтобы транспортное средство всегда находилось в оптимальном состоянии потребления и производительности;\r\n- ПРИНЯТИЕМ СТИЛЯ ВОЖДЕНИЯ, который ОГРАНИЧИВАЕТ РАСХОД топлива."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Применяя стиль вождения, ограничивающий расход топлива, можно уменьшить загрязнение воздуха"
   },
   {
     "id": 6169,
     "topic_id": 24,
     "text": "L'inquinamento atmosferico prodotto dai veicoli può essere ridotto, controllando che il filtro dell'aria non sia sporco o intasato",
-    "text_ru": "Атмосферное загрязнение, производимое транспортными средствами, можно уменьшить, контролируя, чтобы воздушный фильтр не был грязным или засоренным",
     "image": null,
     "comment": {
-      "text": "L'inquinamento atmosferico prodotto dai veicoli può dipendere  da un FUNZIONAMENTO IRREGOLARE DEL MOTORE,\r\nin particolare dal filtro dell'aria  sporco o intasato e dagli iniettori difettosi soprattutto nei motori diesel alimentati a gasolio.\r\n",
-      "text_ru": "Атмосферное загрязнение, производимое транспортными средствами, может зависеть от НЕПРАВИЛЬНОЙ РАБОТЫ ДВИГАТЕЛЯ,\r\nв частности, от грязного или засоренного воздушного фильтра и неисправных форсунок, особенно в дизельных двигателях, работающих на дизельном топливе.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/10_284_05_sfondo motore02.jpg"
+      "text": "L'inquinamento atmosferico prodotto dai veicoli può dipendere  da un FUNZIONAMENTO IRREGOLARE DEL MOTORE,\r\nin particolare dal filtro dell'aria  sporco o intasato e dagli iniettori difettosi soprattutto nei motori diesel alimentati a gasolio.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/10_284_05_sfondo motore02.jpg",
+      "text_ru": "Атмосферное загрязнение, производимое транспортными средствами, может зависеть от НЕПРАВИЛЬНОЙ РАБОТЫ ДВИГАТЕЛЯ,\r\nв частности, от грязного или засоренного воздушного фильтра и неисправных форсунок, особенно в дизельных двигателях, работающих на дизельном топливе."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Атмосферное загрязнение, производимое транспортными средствами, можно уменьшить, контролируя, чтобы воздушный фильтр не был грязным или засоренным"
   },
   {
     "id": 6170,
     "topic_id": 24,
     "text": "L'inquinamento atmosferico prodotto dai veicoli scompare del tutto accelerando a fondo, perché l'alta temperatura fa consumare in fretta il carburante",
-    "text_ru": "Атмосферное загрязнение, производимое транспортными средствами, полностью исчезает при резком нажатии на педаль акселератора до упора, так как высокая температура способствует быстрому сгоранию топлива",
     "image": null,
     "comment": {
       "text": "Accelerando a fondo si ha un inutile spreco di carburante confermato da una intenso fumo di colore scuro!",
-      "text_ru": "При резком ускорении до упора происходит бесполезная трата топлива, что подтверждается интенсивным дымом темного цвета!",
-      "image": null
+      "image": null,
+      "text_ru": "При резком ускорении до упора происходит бесполезная трата топлива, что подтверждается интенсивным дымом темного цвета!"
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Атмосферное загрязнение, производимое транспортными средствами, полностью исчезает при резком нажатии на педаль акселератора до упора, так как высокая температура способствует быстрому сгоранию топлива"
   },
   {
     "id": 6171,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli diminuisce se si lascia acceso il climatizzatore",
-    "text_ru": "Загрязнение воздуха, производимое транспортными средствами, уменьшается, если оставить включенным кондиционер",
     "image": null,
     "comment": {
       "text": "L'inquinamento dell'aria prodotto dai veicoli AUMENTA se si lascia acceso il climatizzatore perché assorbe energia dal motore (una parte di carburante viene utilizzato per il suo funzionamento).",
-      "text_ru": "Загрязнение воздуха, производимое транспортными средствами, УВЕЛИЧИВАЕТСЯ, если оставить включенным кондиционер, так как он забирает энергию у двигателя (часть топлива расходуется на его работу).",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24011_v01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24011_v01.jpg",
+      "text_ru": "Загрязнение воздуха, производимое транспортными средствами, УВЕЛИЧИВАЕТСЯ, если оставить включенным кондиционер, так как он забирает энергию у двигателя (часть топлива расходуется на его работу)."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Загрязнение воздуха, производимое транспортными средствами, уменьшается, если оставить включенным кондиционер"
   },
   {
     "id": 6172,
     "topic_id": 24,
     "text": "\"L'inquinamento atmosferico è nullo nei veicoli che rispettano la normativa antinquinamento \"\"Euro 0\"\"\"",
-    "text_ru": "\"Атмосферное загрязнение отсутствует у транспортных средств, соответствующих экологическому стандарту \"\"Евро-0\"\"\"",
     "image": null,
     "comment": {
       "text": "I veicoli che rispettano la normativa \"EURO 0\" sono più inquinanti rispetto a veicoli \"EURO 1\" o maggiori.",
-      "text_ru": "Транспортные средства, соответствующие стандарту «ЕВРО-0», более загрязняют окружающую среду по сравнению с транспортными средствами «ЕВРО-1» или выше.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_24002_v01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_24002_v01.jpg",
+      "text_ru": "Транспортные средства, соответствующие стандарту «ЕВРО-0», более загрязняют окружающую среду по сравнению с транспортными средствами «ЕВРО-1» или выше."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "\"Атмосферное загрязнение отсутствует у транспортных средств, соответствующих экологическому стандарту \"\"Евро-0\"\"\""
   },
   {
     "id": 6173,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli aumenta se gli iniettori sono difettosi",
-    "text_ru": "Загрязнение воздуха, производимое транспортными средствами, увеличивается, если форсунки неисправны",
     "image": null,
     "comment": {
-      "text": "E' Vero! sia nei motori a benzina che nei motori diesel gli iniettori gestiscono il quantitativo di carburante che il motore necessita per poter funzionare regolarmente. Un iniettore guasto o malfunzionate potrebbe inviare ai cilindri un eccesso di carburante che non venendo utilizzato uscirebbe dalla marmitta incombusto creando grande inquinamento. ",
-      "text_ru": "Это верно! Как в бензиновых, так и в дизельных двигателях форсунки управляют количеством топлива, необходимым двигателю для нормальной работы. Неисправная или плохо работающая форсунка может подавать в цилиндры избыточное количество топлива, которое, не сгорая, выходит из глушителя, создавая сильное загрязнение.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg"
+      "text": "E' Vero! sia nei motori a benzina che nei motori diesel gli iniettori gestiscono il quantitativo di carburante che il motore necessita per poter funzionare regolarmente. Un iniettore guasto o malfunzionate potrebbe inviare ai cilindri un eccesso di carburante che non venendo utilizzato uscirebbe dalla marmitta incombusto creando grande inquinamento.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg",
+      "text_ru": "Это верно! Как в бензиновых, так и в дизельных двигателях форсунки управляют количеством топлива, необходимым двигателю для нормальной работы. Неисправная или плохо работающая форсунка может подавать в цилиндры избыточное количество топлива, которое, не сгорая, выходит из глушителя, создавая сильное загрязнение."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Загрязнение воздуха, производимое транспортными средствами, увеличивается, если форсунки неисправны"
   },
   {
     "id": 6174,
     "topic_id": 24,
     "text": "Una maggiore emissione di fumo dallo scarico è sintomo di maggior inquinamento causato dal motore",
-    "text_ru": "Повышенное выделение дыма из выхлопной трубы является признаком большего загрязнения, вызванного двигателем",
     "image": null,
     "comment": {
       "text": "E' VERO! Il fumo corrisponde al quantitativo di carburante consumato. Più è grande la nube di fumo maggiore è il livello inquinante del veicolo in quel momento.",
-      "text_ru": "ЭТО ВЕРНО! Дым соответствует количеству потребляемого топлива. Чем больше облако дыма, тем выше уровень загрязнения от транспортного средства в этот момент.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg",
+      "text_ru": "ЭТО ВЕРНО! Дым соответствует количеству потребляемого топлива. Чем больше облако дыма, тем выше уровень загрязнения от транспортного средства в этот момент."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Повышенное выделение дыма из выхлопной трубы является признаком большего загрязнения, вызванного двигателем"
   },
   {
     "id": 6175,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli è maggiore se il fumo di scarico presenta colore scuro",
-    "text_ru": "Загрязнение воздуха, производимое транспортными средствами, выше, если выхлопные газы имеют темный цвет",
     "image": null,
     "comment": {
       "text": "E' VERO! Il fumo scuro è dovuto ad una cattiva combustione del carburante che produce un grandissimo inquinamento.",
-      "text_ru": "ЭТО ВЕРНО! Темный дым вызван плохим сгоранием топлива, что производит огромное количество вредных выбросов.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg",
+      "text_ru": "ЭТО ВЕРНО! Темный дым вызван плохим сгоранием топлива, что производит огромное количество вредных выбросов."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Загрязнение воздуха, производимое транспортными средствами, выше, если выхлопные газы имеют темный цвет"
   },
   {
     "id": 6176,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli può causare danni alle vie respiratorie e irritazione agli occhi",
-    "text_ru": "Загрязнение воздуха, производимое транспортными средствами, может вызвать повреждение дыхательных путей и раздражение глаз",
     "image": null,
     "comment": {
       "text": "E' VERO! I gas di scarico dei veicoli a motore sono molto pericolosi per la salute dell'uomo.",
-      "text_ru": "ЭТО ВЕРНО! Выхлопные газы транспортных средств очень опасны для здоровья человека.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg",
+      "text_ru": "ЭТО ВЕРНО! Выхлопные газы транспортных средств очень опасны для здоровья человека."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Загрязнение воздуха, производимое транспортными средствами, может вызвать повреждение дыхательных путей и раздражение глаз"
   },
   {
     "id": 6177,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli fa aumentare lo smog, le piogge acide e l'effetto serra",
-    "text_ru": "Загрязнение воздуха, производимое транспортными средствами, способствует увеличению смога, кислотных дождей и парникового эффекта",
     "image": null,
     "comment": {
       "text": "E' VERO! L'inquinamento prodotto dai veicoli a motore è molto pericoloso per la salute dell'uomo ed è anche una delle cause scatenanti per lo SMOG cittadino, le PIOGGE ACIDE e soprattutto l'EFFETTO SERRA.",
-      "text_ru": "ЭТО ВЕРНО! Загрязнение, производимое механическими транспортными средствами, очень опасно для здоровья человека и является одной из причин возникновения городского СМОГА, КИСЛОТНЫХ ДОЖДЕЙ и, прежде всего, ПАРНИКОВОГО ЭФФЕКТА.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg",
+      "text_ru": "ЭТО ВЕРНО! Загрязнение, производимое механическими транспортными средствами, очень опасно для здоровья человека и является одной из причин возникновения городского СМОГА, КИСЛОТНЫХ ДОЖДЕЙ и, прежде всего, ПАРНИКОВОГО ЭФФЕКТА."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Загрязнение воздуха, производимое транспортными средствами, способствует увеличению смога, кислотных дождей и парникового эффекта"
   },
   {
     "id": 6178,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli è dovuto per la maggior parte ai gas di scarico, generati dalla combustione all'interno del motore",
-    "text_ru": "Загрязнение воздуха, производимое транспортными средствами, в основном вызвано выхлопными газами, образующимися в результате сгорания топлива внутри двигателя",
     "image": null,
     "comment": {
-      "text": "E' VERO! i gas di scarico sono il risultato della combustione del carburante all'interno del motore. ",
-      "text_ru": "ЭТО ВЕРНО! Выхлопные газы являются результатом сгорания топлива внутри двигателя.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg"
+      "text": "E' VERO! i gas di scarico sono il risultato della combustione del carburante all'interno del motore.",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg",
+      "text_ru": "ЭТО ВЕРНО! Выхлопные газы являются результатом сгорания топлива внутри двигателя."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Загрязнение воздуха, производимое транспортными средствами, в основном вызвано выхлопными газами, образующимися в результате сгорания топлива внутри двигателя"
   },
   {
     "id": 6179,
     "topic_id": 24,
     "text": "L'inquinamento atmosferico prodotto dai veicoli dipende principalmente dall'umidità presente nell'aria",
-    "text_ru": "Атмосферное загрязнение, производимое транспортными средствами, зависит главным образом от влажности воздуха",
     "image": null,
     "comment": {
       "text": "E' FALSO! L'inquinamento prodotto dai veicoli dipende direttamente dai gas di scarico prodotti nel motore dalla combustione del carburante.",
-      "text_ru": "ЭТО ЛОЖЬ! Загрязнение, производимое транспортными средствами, напрямую зависит от выхлопных газов, образующихся в двигателе при сгорании топлива.",
-      "image": null
+      "image": null,
+      "text_ru": "ЭТО ЛОЖЬ! Загрязнение, производимое транспортными средствами, напрямую зависит от выхлопных газов, образующихся в двигателе при сгорании топлива."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Атмосферное загрязнение, производимое транспортными средствами, зависит главным образом от влажности воздуха"
   },
   {
     "id": 6180,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire se si alleggerisce il peso del veicolo",
-    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться, если облегчить вес автомобиля",
     "image": null,
     "comment": {
       "text": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire:\r\n- se si alleggerisce il PESO del veicolo;\r\n- evitando di usare il veicolo per brevi percorsi;\r\n- se si spegne il motore, in caso di arresto prolungato;\r\n- scegliendo veicoli con alimentazione elettrica, a metano o GPL.\r\n\r\nE' bene ricordare che guidando un veicolo che emette troppi gas di scarico inquinanti si può essere puniti con una sanzione amministrativa e il ritiro della carta di circolazione.",
-      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться:\r\n- если облегчить ВЕС автомобиля;\r\n- избегая использования автомобиля для коротких поездок;\r\n- если выключать двигатель при длительной остановке;\r\n- выбирая автомобили с электродвигателем, на метане или с ГБО.\r\n\r\nСледует помнить, что управление транспортным средством, выбрасывающим слишком много загрязняющих выхлопных газов, может повлечь административный штраф и изъятие свидетельства о регистрации транспортного средства.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_203_02_25008_v02.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_203_02_25008_v02.jpg",
+      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться:\r\n- если облегчить ВЕС автомобиля;\r\n- избегая использования автомобиля для коротких поездок;\r\n- если выключать двигатель при длительной остановке;\r\n- выбирая автомобили с электродвигателем, на метане или с ГБО.\r\n\r\nСледует помнить, что управление транспортным средством, выбрасывающим слишком много загрязняющих выхлопных газов, может повлечь административный штраф и изъятие свидетельства о регистрации транспортного средства."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться, если облегчить вес автомобиля"
   },
   {
     "id": 6181,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli a motore può essere ridotto, scegliendo veicoli con alimentazione elettrica, a metano o GPL",
-    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, можно уменьшить, выбирая автомобили с электродвигателем, на метане или на сжиженном нефтяном газе (СНГ/ГБО)",
     "image": null,
     "comment": {
       "text": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire:\r\n- se si alleggerisce il peso del veicolo;\r\n- evitando di usare il veicolo per brevi percorsi;\r\n- se si spegne il motore, in caso di arresto prolungato;\r\n- scegliendo veicoli con alimentazione ELETTRICA, a METANO o GPL.\r\n\r\nE' bene ricordare che guidando un veicolo che emette troppi gas di scarico inquinanti si può essere puniti con una sanzione amministrativa e il ritiro della carta di circolazione.",
-      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться:\r\n- если облегчить вес автомобиля;\r\n- избегая использования автомобиля для коротких поездок;\r\n- если выключать двигатель при длительной остановке;\r\n- выбирая транспортные средства с ЭЛЕКТРИЧЕСКИМ двигателем, на МЕТАНЕ или СНГ (ГБО).\r\n\r\nСледует помнить, что управление транспортным средством, выбрасывающим слишком много загрязняющих выхлопных газов, может повлечь административный штраф и изъятие свидетельства о регистрации транспортного средства.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24009_v02.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24009_v02.jpg",
+      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться:\r\n- если облегчить вес автомобиля;\r\n- избегая использования автомобиля для коротких поездок;\r\n- если выключать двигатель при длительной остановке;\r\n- выбирая транспортные средства с ЭЛЕКТРИЧЕСКИМ двигателем, на МЕТАНЕ или СНГ (ГБО).\r\n\r\nСледует помнить, что управление транспортным средством, выбрасывающим слишком много загрязняющих выхлопных газов, может повлечь административный штраф и изъятие свидетельства о регистрации транспортного средства."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, можно уменьшить, выбирая автомобили с электродвигателем, на метане или на сжиженном нефтяном газе (СНГ/ГБО)"
   },
   {
     "id": 6182,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire se si spegne il motore, in caso di arresto prolungato",
-    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться, если выключать двигатель в случае длительной остановки",
     "image": null,
     "comment": {
       "text": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire:\r\n- se si alleggerisce il PESO del veicolo;\r\n- evitando di usare il veicolo per brevi percorsi;\r\n- se si SPEGNE IL MOTORE, in caso di arresto PROLUNGATO;\r\n- scegliendo veicoli con alimentazione elettrica, a metano o GPL.\r\n\r\nE' bene ricordare che guidando un veicolo che emette troppi gas di scarico inquinanti si può essere puniti con una sanzione amministrativa e il ritiro della carta di circolazione.",
-      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться:\r\n- если облегчить ВЕС автомобиля;\r\n- избегая использования автомобиля для коротких поездок;\r\n- если ВЫКЛЮЧАТЬ ДВИГАТЕЛЬ в случае ДЛИТЕЛЬНОЙ остановки;\r\n- выбирая автомобили с электродвигателем, на метане или на СНГ (ГБО).\r\n\r\nСледует помнить, что управление транспортным средством, выбрасывающим слишком много загрязняющих выхлопных газов, может повлечь административный штраф и изъятие свидетельства о регистрации транспортного средства.",
-      "image": null
+      "image": null,
+      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться:\r\n- если облегчить ВЕС автомобиля;\r\n- избегая использования автомобиля для коротких поездок;\r\n- если ВЫКЛЮЧАТЬ ДВИГАТЕЛЬ в случае ДЛИТЕЛЬНОЙ остановки;\r\n- выбирая автомобили с электродвигателем, на метане или на СНГ (ГБО).\r\n\r\nСледует помнить, что управление транспортным средством, выбрасывающим слишком много загрязняющих выхлопных газов, может повлечь административный штраф и изъятие свидетельства о регистрации транспортного средства."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться, если выключать двигатель в случае длительной остановки"
   },
   {
     "id": 6183,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli a motore può essere ridotto, evitando di usare il veicolo per brevi percorsi",
-    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, можно уменьшить, избегая использования автомобиля для поездок на короткие расстояния",
     "image": null,
     "comment": {
       "text": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire:\r\n- se si alleggerisce il peso del veicolo;\r\n- evitando di usare il veicolo per BREVI PERCORSI;\r\n- se si spegne il motore, in caso di arresto prolungato;\r\n- scegliendo veicoli con alimentazione elettrica, a metano o GPL.\r\n\r\nE' bene ricordare che guidando un veicolo che emette troppi gas di scarico inquinanti si può essere puniti con una sanzione amministrativa e il ritiro della carta di circolazione.",
-      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться:\r\n- если облегчить вес автомобиля;\r\n- избегая использования автомобиля для ПОЕЗДОК НА КОРОТКИЕ РАССТОЯНИЯ;\r\n- если выключать двигатель в случае длительной остановки;\r\n- выбирая автомобили с электродвигателем, на метане или на СНГ (ГБО).\r\n\r\nСледует помнить, что управление транспортным средством, выбрасывающим слишком много загрязняющих выхлопных газов, может повлечь административный штраф и изъятие свидетельства о регистрации транспортного средства.",
-      "image": null
+      "image": null,
+      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться:\r\n- если облегчить вес автомобиля;\r\n- избегая использования автомобиля для ПОЕЗДОК НА КОРОТКИЕ РАССТОЯНИЯ;\r\n- если выключать двигатель в случае длительной остановки;\r\n- выбирая автомобили с электродвигателем, на метане или на СНГ (ГБО).\r\n\r\nСледует помнить, что управление транспортным средством, выбрасывающим слишком много загрязняющих выхлопных газов, может повлечь административный штраф и изъятие свидетельства о регистрации транспортного средства."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, можно уменьшить, избегая использования автомобиля для поездок на короткие расстояния"
   },
   {
     "id": 6184,
     "topic_id": 24,
     "text": "Guidando un veicolo che emette troppi gas di scarico inquinanti si può essere puniti con una sanzione amministrativa e il ritiro della carta di circolazione",
-    "text_ru": "При управлении транспортным средством, выбрасывающим слишком много загрязняющих выхлопных газов, водитель может быть наказан административным штрафом и изъятием свидетельства о регистрации",
     "image": null,
     "comment": {
       "text": "E' bene ricordare che guidando un veicolo che emette troppi gas di scarico inquinanti si può essere puniti con una sanzione amministrativa e il ritiro della carta di circolazione.\r\n\r\nL'inquinamento dell'aria prodotto dai veicoli a motore può diminuire:\r\n- se si alleggerisce il peso del veicolo;\r\n- evitando di usare il veicolo per brevi percorsi;\r\n- se si spegne il motore, in caso di arresto prolungato;\r\n- scegliendo veicoli con alimentazione elettrica, a metano o GPL.",
-      "text_ru": "Следует помнить, что за управление транспортным средством, выбрасывающим слишком много загрязняющих выхлопных газов, может быть наложен административный штраф и изъято свидетельство о регистрации.\r\n\r\nЗагрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться:\r\n- если облегчить вес автомобиля;\r\n- избегая использования автомобиля для коротких поездок;\r\n- если выключать двигатель при длительной остановке;\r\n- выбирая автомобили с электродвигателем, на метане или с ГБО.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg",
+      "text_ru": "Следует помнить, что за управление транспортным средством, выбрасывающим слишком много загрязняющих выхлопных газов, может быть наложен административный штраф и изъято свидетельство о регистрации.\r\n\r\nЗагрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться:\r\n- если облегчить вес автомобиля;\r\n- избегая использования автомобиля для коротких поездок;\r\n- если выключать двигатель при длительной остановке;\r\n- выбирая автомобили с электродвигателем, на метане или с ГБО."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "При управлении транспортным средством, выбрасывающим слишком много загрязняющих выхлопных газов, водитель может быть наказан административным штрафом и изъятием свидетельства о регистрации"
   },
   {
     "id": 6185,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire se si sistemano i bagagli sul tetto dell'autovettura",
-    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться, если разместить багаж на крыше автомобиля",
     "image": null,
     "comment": {
       "text": "L'inquinamento dell'aria prodotto dai veicoli a motore AUMENTA se si sistemano i bagagli sul tetto dell'autovettura perché fanno resistenza all'aria.",
-      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, УВЕЛИЧИВАЕТСЯ, если разместить багаж на крыше автомобиля, так как это создает сопротивление воздуху.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_203_02_25008_v02.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_203_02_25008_v02.jpg",
+      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, УВЕЛИЧИВАЕТСЯ, если разместить багаж на крыше автомобиля, так как это создает сопротивление воздуху."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться, если разместить багаж на крыше автомобиля"
   },
   {
     "id": 6186,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire se si circola sempre con marce basse",
-    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться, если всегда двигаться на низких передачах",
     "image": null,
     "comment": {
       "text": "L'inquinamento dell'aria prodotto dai veicoli a motore AUMENTA se si circola sempre con marce basse perché è maggiore il numero di giri del motore (aumenta il numero delle fasi di scoppio).",
-      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, УВЕЛИЧИВАЕТСЯ, если всегда двигаться на низких передачах, так как при этом число оборотов двигателя выше (увеличивается количество фаз сгорания).",
-      "image": null
+      "image": null,
+      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, УВЕЛИЧИВАЕТСЯ, если всегда двигаться на низких передачах, так как при этом число оборотов двигателя выше (увеличивается количество фаз сгорания)."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться, если всегда двигаться на низких передачах"
   },
   {
     "id": 6187,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire se si accelera tenendo premuto il pedale della frizione",
-    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться, если нажимать на педаль акселератора при выжатой педали сцепления",
     "image": null,
     "comment": {
       "text": "L'inquinamento dell'aria prodotto dai veicoli a motore AUMENTA se si accelera tenendo premuto il pedale della frizione perché si consuma carburante che non viene utilizzato per il movimento del veicolo.",
-      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, УВЕЛИЧИВАЕТСЯ, если нажимать на педаль акселератора при выжатой педали сцепления, так как расходуется топливо, которое не используется для движения автомобиля.",
-      "image": null
+      "image": null,
+      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, УВЕЛИЧИВАЕТСЯ, если нажимать на педаль акселератора при выжатой педали сцепления, так как расходуется топливо, которое не используется для движения автомобиля."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться, если нажимать на педаль акселератора при выжатой педали сцепления"
   },
   {
     "id": 6188,
     "topic_id": 24,
     "text": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire se si accelera con il cambio in folle",
-    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться, если нажимать на педаль акселератора на нейтральной передаче",
     "image": null,
     "comment": {
       "text": "L'inquinamento dell'aria prodotto dai veicoli a motore AUMENTA se si accelera con il cambio in folle\r\nperché si consuma carburante che non viene utilizzato per il movimento del veicolo.",
-      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, УВЕЛИЧИВАЕТСЯ, если нажимать на педаль акселератора на нейтральной передаче, так как расходуется топливо, которое не используется для движения автомобиля.",
-      "image": null
+      "image": null,
+      "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, УВЕЛИЧИВАЕТСЯ, если нажимать на педаль акселератора на нейтральной передаче, так как расходуется топливо, которое не используется для движения автомобиля."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Загрязнение воздуха, производимое механическими транспортными средствами, может уменьшиться, если нажимать на педаль акселератора на нейтральной передаче"
   },
   {
     "id": 6189,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento atmosferico provocato dai veicoli, bisogna far sostituire periodicamente il filtro dell'aria",
-    "text_ru": "Для снижения загрязнения атмосферы, вызываемого транспортными средствами, необходимо периодически заменять воздушный фильтр",
     "image": null,
     "comment": {
       "text": "Per diminuire l'inquinamento dell'aria dei veicoli:\r\n- non bisogna accelerare e frenare spesso durante la marcia del veicolo;\r\n- bisogna far controllare il motore, se il fumo dello scarico risulta troppo scuro;\r\n- bisogna far SOSTITUIRE PERIODICAMENTE IL FILTRO DELL'ARIA.\r\n\r\nPer diminuire l'inquinamento dell'aria provocato dai veicoli con motore diesel, bisogna anche far controllare periodicamente il sistema di alimentazione (pompa di iniezione ed iniettori).",
-      "text_ru": "Для снижения загрязнения воздуха транспортными средствами:\r\n- не следует часто ускоряться и тормозить во время движения;\r\n- необходимо проверить двигатель, если выхлопной дым слишком темный;\r\n- необходимо ПЕРИОДИЧЕСКИ ЗАМЕНЯТЬ ВОЗДУШНЫЙ ФИЛЬТР.\r\n\r\nДля снижения загрязнения воздуха, вызываемого транспортными средствами с дизельным двигателем, необходимо также периодически проверять систему питания (ТНВД и форсунки).",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_inquinamento06.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_inquinamento06.jpg",
+      "text_ru": "Для снижения загрязнения воздуха транспортными средствами:\r\n- не следует часто ускоряться и тормозить во время движения;\r\n- необходимо проверить двигатель, если выхлопной дым слишком темный;\r\n- необходимо ПЕРИОДИЧЕСКИ ЗАМЕНЯТЬ ВОЗДУШНЫЙ ФИЛЬТР.\r\n\r\nДля снижения загрязнения воздуха, вызываемого транспортными средствами с дизельным двигателем, необходимо также периодически проверять систему питания (ТНВД и форсунки)."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для снижения загрязнения атмосферы, вызываемого транспортными средствами, необходимо периодически заменять воздушный фильтр"
   },
   {
     "id": 6190,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento dell'aria provocato dai veicoli con motore diesel, bisogna far controllare periodicamente il sistema di alimentazione (pompa di iniezione ed iniettori)",
-    "text_ru": "Для снижения загрязнения воздуха, вызываемого транспортными средствами с дизельным двигателем, необходимо периодически проверять систему питания (топливный насос высокого давления и форсунки)",
     "image": null,
     "comment": {
       "text": "Per diminuire l'inquinamento dell'aria provocato dai veicoli con MOTORE DIESEL, bisogna anche far controllare periodicamente il SISTEMA DI ALIMENTAZIONE (pompa di iniezione ed iniettori).\r\n\r\nPer diminuire l'inquinamento dell'aria:\r\n- non bisogna accelerare e frenare spesso durante la marcia del veicolo;\r\n- bisogna far controllare il motore, se il fumo dello scarico risulta troppo scuro;\r\n- bisogna far sostituire periodicamente il filtro dell'aria.",
-      "text_ru": "Для снижения загрязнения воздуха, вызываемого транспортными средствами с ДИЗЕЛЬНЫМ ДВИГАТЕЛЕМ, необходимо также периодически проверять СИСТЕМУ ПИТАНИЯ (ТНВД и форсунки).\r\n\r\nДля снижения загрязнения воздуха:\r\n- не следует часто ускоряться и тормозить во время движения;\r\n- необходимо проверить двигатель, если выхлопной дым слишком темный;\r\n- необходимо периодически заменять воздушный фильтр.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_02_inqmd01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_02_inqmd01.jpg",
+      "text_ru": "Для снижения загрязнения воздуха, вызываемого транспортными средствами с ДИЗЕЛЬНЫМ ДВИГАТЕЛЕМ, необходимо также периодически проверять СИСТЕМУ ПИТАНИЯ (ТНВД и форсунки).\r\n\r\nДля снижения загрязнения воздуха:\r\n- не следует часто ускоряться и тормозить во время движения;\r\n- необходимо проверить двигатель, если выхлопной дым слишком темный;\r\n- необходимо периодически заменять воздушный фильтр."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для снижения загрязнения воздуха, вызываемого транспортными средствами с дизельным двигателем, необходимо периодически проверять систему питания (топливный насос высокого давления и форсунки)"
   },
   {
     "id": 6191,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna far controllare il motore, se il fumo dello scarico risulta troppo scuro",
-    "text_ru": "Для снижения загрязнения воздуха, вызываемого транспортными средствами, необходимо проверить двигатель, если выхлопной дым кажется слишком темным",
     "image": null,
     "comment": {
       "text": "Per diminuire l'inquinamento dell'aria dei veicoli:\r\n- non bisogna accelerare e frenare spesso durante la marcia del veicolo;\r\n- bisogna far controllare il motore, se il FUMO dello scarico RISULTA TROPPO SCURO;\r\n- bisogna far sostituire periodicamente il filtro dell'aria.\r\n\r\nPer diminuire l'inquinamento dell'aria provocato dai veicoli con motore diesel, bisogna anche far controllare periodicamente il sistema di alimentazione (pompa di iniezione ed iniettori).",
-      "text_ru": "Для снижения загрязнения воздуха транспортными средствами:\r\n- не следует часто ускоряться и тормозить во время движения;\r\n- необходимо проверить двигатель, если ВЫХЛОПНОЙ ДЫМ КАЖЕТСЯ СЛИШКОМ ТЕМНЫМ;\r\n- необходимо периодически заменять воздушный фильтр.\r\n\r\nДля снижения загрязнения воздуха, вызываемого транспортными средствами с дизельным двигателем, необходимо также периодически проверять систему питания (ТНВД и форсунки).",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg",
+      "text_ru": "Для снижения загрязнения воздуха транспортными средствами:\r\n- не следует часто ускоряться и тормозить во время движения;\r\n- необходимо проверить двигатель, если ВЫХЛОПНОЙ ДЫМ КАЖЕТСЯ СЛИШКОМ ТЕМНЫМ;\r\n- необходимо периодически заменять воздушный фильтр.\r\n\r\nДля снижения загрязнения воздуха, вызываемого транспортными средствами с дизельным двигателем, необходимо также периодически проверять систему питания (ТНВД и форсунки)."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для снижения загрязнения воздуха, вызываемого транспортными средствами, необходимо проверить двигатель, если выхлопной дым кажется слишком темным"
   },
   {
     "id": 6192,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento dell'aria non bisogna accelerare e frenare spesso durante la marcia del veicolo",
-    "text_ru": "Для снижения загрязнения воздуха не следует часто ускоряться и тормозить во время движения автомобиля",
     "image": null,
     "comment": {
       "text": "Per diminuire l'inquinamento dell'aria dei veicoli:\r\n- NON BISOGNA ACCELERARE e frenare spesso durante la marcia del veicolo;\r\n- bisogna far controllare il motore, se il fumo dello scarico risulta troppo scuro;\r\n- bisogna far sostituire periodicamente il filtro dell'aria.\r\n\r\nPer diminuire l'inquinamento dell'aria provocato dai veicoli con motore diesel, bisogna anche far controllare periodicamente il sistema di alimentazione (pompa di iniezione ed iniettori).",
-      "text_ru": "Для снижения загрязнения воздуха транспортными средствами:\r\n- НЕ СЛЕДУЕТ ЧАСТО УСКОРЯТЬСЯ и тормозить во время движения;\r\n- необходимо проверить двигатель, если выхлопной дым слишком темный;\r\n- необходимо периодически заменять воздушный фильтр.\r\n\r\nДля снижения загрязнения воздуха, вызываемого транспортными средствами с дизельным двигателем, необходимо также периодически проверять систему питания (ТНВД и форсунки).",
-      "image": null
+      "image": null,
+      "text_ru": "Для снижения загрязнения воздуха транспортными средствами:\r\n- НЕ СЛЕДУЕТ ЧАСТО УСКОРЯТЬСЯ и тормозить во время движения;\r\n- необходимо проверить двигатель, если выхлопной дым слишком темный;\r\n- необходимо периодически заменять воздушный фильтр.\r\n\r\nДля снижения загрязнения воздуха, вызываемого транспортными средствами с дизельным двигателем, необходимо также периодически проверять систему питания (ТНВД и форсунки)."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для снижения загрязнения воздуха не следует часто ускоряться и тормозить во время движения автомобиля"
   },
   {
     "id": 6193,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna dare un breve colpo di acceleratore, prima di abbassare la frizione per cambiare marcia",
-    "text_ru": "Для снижения загрязнения воздуха, вызываемого транспортными средствами, необходимо кратковременно нажать на акселератор перед выжимом сцепления для переключения передачи",
     "image": null,
     "comment": {
       "text": "Il colpo di acceleratore provocherebbe un INUTILE CONSUMO di carburante.",
-      "text_ru": "Перегазовка привела бы к БЕСПОЛЕЗНОМУ РАСХОДУ топлива.",
-      "image": null
+      "image": null,
+      "text_ru": "Перегазовка привела бы к БЕСПОЛЕЗНОМУ РАСХОДУ топлива."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для снижения загрязнения воздуха, вызываемого транспортными средствами, необходимо кратковременно нажать на акселератор перед выжимом сцепления для переключения передачи"
   },
   {
     "id": 6194,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento atmosferico provocato dai veicoli, bisogna utilizzare il motore al massimo numero di giri",
-    "text_ru": "Для снижения атмосферного загрязнения, вызываемого транспортными средствами, необходимо эксплуатировать двигатель на максимальных оборотах",
     "image": null,
     "comment": {
       "text": "Per diminuire l'inquinamento atmosferico provocato dai veicoli, NON bisogna utilizzare il motore al massimo numero di giri perché aumenta notevolmente il consumo di carburante.",
-      "text_ru": "Для снижения загрязнения атмосферы, вызываемого транспортными средствами, НЕ следует эксплуатировать двигатель на максимальных оборотах, так как это значительно увеличивает расход топлива.",
-      "image": null
+      "image": null,
+      "text_ru": "Для снижения загрязнения атмосферы, вызываемого транспортными средствами, НЕ следует эксплуатировать двигатель на максимальных оборотах, так как это значительно увеличивает расход топлива."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для снижения атмосферного загрязнения, вызываемого транспортными средствами, необходимо эксплуатировать двигатель на максимальных оборотах"
   },
   {
     "id": 6195,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento dell'aria provocato dai gas di scarico del veicolo, bisogna sostituire periodicamente il filtro antipolline",
-    "text_ru": "Для снижения загрязнения воздуха, вызванного выхлопными газами автомобиля, необходимо периодически заменять салонный фильтр (фильтр против пыльцы)",
     "image": null,
     "comment": {
       "text": "Il filtro antipolline non ha nulla a che vedere con l'inquinamento, serve a filtrare (da polline e polveri) l'aria immessa nell'abitacolo dall'impianto di climatizzazione. Bisogna nel caso cambiare il filtro dell'aria!",
-      "text_ru": "Салонный фильтр (антипыльцевой) не имеет никакого отношения к загрязнению окружающей среды, он служит для фильтрации (от пыльцы и пыли) воздуха, поступающего в салон через систему кондиционирования. В данном случае нужно менять воздушный фильтр двигателя!",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_24010_v03.jpg",
+      "text_ru": "Салонный фильтр (антипыльцевой) не имеет никакого отношения к загрязнению окружающей среды, он служит для фильтрации (от пыльцы и пыли) воздуха, поступающего в салон через систему кондиционирования. В данном случае нужно менять воздушный фильтр двигателя!"
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для снижения загрязнения воздуха, вызванного выхлопными газами автомобиля, необходимо периодически заменять салонный фильтр (фильтр против пыльцы)"
   },
   {
     "id": 6196,
     "topic_id": 24,
     "text": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna sostituire il filtro dell'olio ad ogni cambio di stagione",
-    "text_ru": "Для снижения загрязнения воздуха, вызываемого транспортными средствами, необходимо менять масляный фильтр при каждой смене сезона",
     "image": null,
     "comment": {
       "text": "Il filtro dell'olio non ha nulla a che vedere con l'inquinamento, serve a filtrare l'olio del motore.",
-      "text_ru": "Масляный фильтр не имеет никакого отношения к внешнему загрязнению воздуха, он служит для фильтрации моторного масла.",
-      "image": null
+      "image": null,
+      "text_ru": "Масляный фильтр не имеет никакого отношения к внешнему загрязнению воздуха, он служит для фильтрации моторного масла."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для снижения загрязнения воздуха, вызываемого транспортными средствами, необходимо менять масляный фильтр при каждой смене сезона"
   },
   {
     "id": 6197,
     "topic_id": 24,
     "text": "Per risparmiare carburante e salvaguardare l'ambiente dall'inquinamento atmosferico, è consigliabile azionare il climatizzatore il meno possibile e soltanto quando serve effettivamente",
-    "text_ru": "Для экономии топлива и защиты окружающей среды от атмосферного загрязнения рекомендуется включать кондиционер как можно реже и только тогда, когда это действительно необходимо",
     "image": null,
     "comment": {
       "text": "Per risparmiare carburante e salvaguardare l'ambiente dall'inquinamento atmosferico, è consigliabile azionare il climatizzatore il meno possibile e soltanto quando serve effettivamente (una parte di carburante viene impiegata per il suo funzionamento).",
-      "text_ru": "Для экономии топлива и защиты окружающей среды от атмосферного загрязнения рекомендуется включать кондиционер как можно реже и только тогда, когда это действительно необходимо (часть топлива расходуется на его работу).",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24011_v01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24011_v01.jpg",
+      "text_ru": "Для экономии топлива и защиты окружающей среды от атмосферного загрязнения рекомендуется включать кондиционер как можно реже и только тогда, когда это действительно необходимо (часть топлива расходуется на его работу)."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для экономии топлива и защиты окружающей среды от атмосферного загрязнения рекомендуется включать кондиционер как можно реже и только тогда, когда это действительно необходимо"
   },
   {
     "id": 6198,
     "topic_id": 24,
     "text": "Per salvaguardare l'ambiente dall'inquinamento atmosferico, bisogna premere più volte il pedale dell'acceleratore quando il veicolo è freddo",
-    "text_ru": "Чтобы защитить окружающую среду от атмосферного загрязнения, необходимо несколько раз нажать на педаль акселератора, пока автомобиль не прогрет",
     "image": null,
     "comment": {
       "text": "Per salvaguardare l'ambiente dall'inquinamento atmosferico, NON bisogna premere più volte il pedale dell'acceleratore e in PARTICOLARE quando il veicolo è freddo perché la marmitta catalitica non ha ancora raggiunto la temperatura di esercizio e di conseguenza,aumenta l'inquinamento.",
-      "text_ru": "Чтобы защитить окружающую среду от атмосферного загрязнения, НЕ следует нажимать несколько раз на педаль акселератора, ОСОБЕННО на непрогретом автомобиле, так как каталитический нейтрализатор еще не достиг рабочей температуры, и в результате загрязнение увеличивается.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg",
+      "text_ru": "Чтобы защитить окружающую среду от атмосферного загрязнения, НЕ следует нажимать несколько раз на педаль акселератора, ОСОБЕННО на непрогретом автомобиле, так как каталитический нейтрализатор еще не достиг рабочей температуры, и в результате загрязнение увеличивается."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Чтобы защитить окружающую среду от атмосферного загрязнения, необходимо несколько раз нажать на педаль акселератора, пока автомобиль не прогрет"
   },
   {
     "id": 6199,
     "topic_id": 24,
     "text": "Per salvaguardare l'ambiente dall'inquinamento atmosferico, bisogna premere diverse volte e a fondo il pedale dell'acceleratore, affinché il veicolo raggiunga in fretta la temperatura di esercizio",
-    "text_ru": "Для защиты окружающей среды от атмосферного загрязнения необходимо несколько раз до упора нажать на педаль акселератора, чтобы автомобиль быстрее достиг рабочей температуры",
     "image": null,
     "comment": {
       "text": "Per salvaguardare l'ambiente dall'inquinamento atmosferico, NON bisogna premere diverse volte e a fondo il pedale dell'acceleratore, affinché il veicolo raggiunga in fretta la temperatura di esercizio perché la marmitta catalitica, con il motore freddo provoca un aumento dell'inquinamento.",
-      "text_ru": "Для защиты окружающей среды от атмосферного загрязнения НЕ следует несколько раз сильно нажимать на педаль акселератора для быстрого достижения рабочей температуры, так как при холодном двигателе каталитический нейтрализатор провоцирует повышенное загрязнение.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_03_marmittacat01.jpg",
+      "text_ru": "Для защиты окружающей среды от атмосферного загрязнения НЕ следует несколько раз сильно нажимать на педаль акселератора для быстрого достижения рабочей температуры, так как при холодном двигателе каталитический нейтрализатор провоцирует повышенное загрязнение."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для защиты окружающей среды от атмосферного загрязнения необходимо несколько раз до упора нажать на педаль акселератора, чтобы автомобиль быстрее достиг рабочей температуры"
   },
   {
     "id": 6200,
     "topic_id": 24,
     "text": "Per salvaguardare l'ambiente dall'inquinamento atmosferico e acustico, quando si cambia marcia bisogna premere a fondo il pedale dell'acceleratore",
-    "text_ru": "Для защиты окружающей среды от атмосферного и шумового загрязнения при переключении передач необходимо до упора нажимать на педаль акселератора",
     "image": null,
     "comment": {
       "text": "Per salvaguardare l'ambiente dall'inquinamento atmosferico e acustico, quando si cambia marcia NON bisogna premere a fondo il pedale dell'acceleratore perché tale comportamento provoca un aumento dei consumi e dell'inquinamento.",
-      "text_ru": "Для защиты окружающей среды от атмосферного и шумового загрязнения при переключении передач НЕ следует до упора нажимать на педаль акселератора, так как такое поведение приводит к росту расхода топлива и загрязнения.",
-      "image": null
+      "image": null,
+      "text_ru": "Для защиты окружающей среды от атмосферного и шумового загрязнения при переключении передач НЕ следует до упора нажимать на педаль акселератора, так как такое поведение приводит к росту расхода топлива и загрязнения."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для защиты окружающей среды от атмосферного и шумового загрязнения при переключении передач необходимо до упора нажимать на педаль акселератора"
   },
   {
     "id": 6201,
     "topic_id": 24,
     "text": "Per limitare i consumi di carburante, conviene chiudere i finestrini se si viaggia a velocità medio alte, perché le turbolenze all'interno dell'abitacolo possono frenare la marcia del veicolo",
-    "text_ru": "Для ограничения расхода топлива целесообразно закрывать окна при движении на средних и высоких скоростях, так как турбулентность внутри салона может препятствовать движению автомобиля",
     "image": null,
     "comment": {
       "text": "Vero! Per limitare i consumi di carburante, conviene chiudere i finestrini se si viaggia a velocità  medio alte, perché le turbolenze all'interno dell'abitacolo possono frenare la marcia del veicolo generando un aumento dei consumi di carburante.",
-      "text_ru": "Верно! Для ограничения расхода топлива целесообразно закрывать окна при движении на средних и высоких скоростях, так как турбулентность внутри салона может притормаживать движение автомобиля, вызывая увеличение расхода топлива.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_inquinamento05.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_inquinamento05.jpg",
+      "text_ru": "Верно! Для ограничения расхода топлива целесообразно закрывать окна при движении на средних и высоких скоростях, так как турбулентность внутри салона может притормаживать движение автомобиля, вызывая увеличение расхода топлива."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для ограничения расхода топлива целесообразно закрывать окна при движении на средних и высоких скоростях, так как турбулентность внутри салона может препятствовать движению автомобиля"
   },
   {
     "id": 6202,
     "topic_id": 24,
     "text": "Per limitare i consumi di carburante non conviene fare uso del portapacchi, ma sistemare i bagagli all'interno del veicolo",
-    "text_ru": "Для ограничения расхода топлива не рекомендуется использовать багажник на крыше, лучше размещать багаж внутри автомобиля",
     "image": null,
     "comment": {
       "text": "Per limitare i consumi di carburante non conviene fare uso del portapacchi, ma sistemare i bagagli all'interno del veicolo così da non creare dannose turbolenze che creano resistenze all'avanzamento del veicolo.",
-      "text_ru": "Для ограничения расхода топлива не рекомендуется использовать багажник на крыше, лучше размещать багаж внутри автомобиля, чтобы не создавать вредных турбулентных потоков, которые препятствуют движению автомобиля вперед.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_203_02_25008_v02.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/25_203_02_25008_v02.jpg",
+      "text_ru": "Для ограничения расхода топлива не рекомендуется использовать багажник на крыше, лучше размещать багаж внутри автомобиля, чтобы не создавать вредных турбулентных потоков, которые препятствуют движению автомобиля вперед."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для ограничения расхода топлива не рекомендуется использовать багажник на крыше, лучше размещать багаж внутри автомобиля"
   },
   {
     "id": 6203,
     "topic_id": 24,
     "text": "Viaggiare con uno spesso strato di neve sul tetto del veicolo, comporta un aumento dei consumi di carburante",
-    "text_ru": "Поездка с толстым слоем снега на крыше автомобиля приводит к увеличению расхода топлива",
     "image": null,
     "comment": {
       "text": "Viaggiare con uno spesso strato di neve sul tetto del veicolo, comporta un aumento dei consumi di carburante a causa del maggio peso e della maggior resistenza all'avanzamento del veicolo (peggiore aerodinamica).",
-      "text_ru": "Движение с толстым слоем снега на крыше автомобиля влечет за собой увеличение расхода топлива из-за большего веса и большего сопротивления движению вперед (ухудшение аэродинамики).",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24012V03.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24012V03.jpg",
+      "text_ru": "Движение с толстым слоем снега на крыше автомобиля влечет за собой увеличение расхода топлива из-за большего веса и большего сопротивления движению вперед (ухудшение аэродинамики)."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Поездка с толстым слоем снега на крыше автомобиля приводит к увеличению расхода топлива"
   },
   {
     "id": 6204,
     "topic_id": 24,
     "text": "Viaggiare a forte velocità con il tettuccio del veicolo aperto comporta un aumento dei consumi di carburante",
-    "text_ru": "Движение на высокой скорости с открытым люком автомобиля приводит к увеличению расхода топлива",
     "image": null,
     "comment": {
       "text": "Viaggiare a forte velocità  con il tettuccio del veicolo aperto comporta un aumento dei consumi di carburante a causa delle turbolenze che si creano all'interno del veicolo.",
-      "text_ru": "Движение на высокой скорости с открытым люком автомобиля приводит к росту расхода топлива из-за турбулентности, создаваемой внутри автомобиля.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24012V04.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_01_24012V04.jpg",
+      "text_ru": "Движение на высокой скорости с открытым люком автомобиля приводит к росту расхода топлива из-за турбулентности, создаваемой внутри автомобиля."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Движение на высокой скорости с открытым люком автомобиля приводит к увеличению расхода топлива"
   },
   {
     "id": 6205,
     "topic_id": 24,
     "text": "In caso di arresto prolungato in galleria, per la formazione di una fila di veicoli, è dannoso per la salute azionare il comando del ricircolo dell'aria all'interno del veicolo",
-    "text_ru": "В случае длительной остановки в тоннеле из-за образования затора вредно для здоровья включать режим рециркуляции воздуха внутри автомобиля",
     "image": null,
     "comment": {
-      "text": "Al contrario! Sarebbe dannoso per la salute aspirare all'interno dell'abitacolo i gas di scarico degli altri veicoli! Il comando di ricircolo dell'aria consente di areare l'abitacolo utilizzando solo l'aria già presente all'interno del veicolo stesso, evitando quindi di aspirare l'aria proveniente dall'esterno. ",
-      "text_ru": "Напротив! Вредно для здоровья было бы вдыхать в салоне выхлопные газы других автомобилей! Режим рециркуляции позволяет вентилировать салон, используя только тот воздух, который уже находится внутри автомобиля, тем самым избегая забора воздуха снаружи.",
-      "image": null
+      "text": "Al contrario! Sarebbe dannoso per la salute aspirare all'interno dell'abitacolo i gas di scarico degli altri veicoli! Il comando di ricircolo dell'aria consente di areare l'abitacolo utilizzando solo l'aria già presente all'interno del veicolo stesso, evitando quindi di aspirare l'aria proveniente dall'esterno.",
+      "image": null,
+      "text_ru": "Напротив! Вредно для здоровья было бы вдыхать в салоне выхлопные газы других автомобилей! Режим рециркуляции позволяет вентилировать салон, используя только тот воздух, который уже находится внутри автомобиля, тем самым избегая забора воздуха снаружи."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "В случае длительной остановки в тоннеле из-за образования затора вредно для здоровья включать режим рециркуляции воздуха внутри автомобиля"
   },
   {
     "id": 6206,
     "topic_id": 24,
     "text": "\"I veicoli che rispettano la normativa antinquinamento \"\"Euro 4\"\" emettono una quantità di gas inquinanti maggiore di quelli omologati secondo la normativa \"\"Euro 0\"\"\"",
-    "text_ru": "\"Транспортные средства, соответствующие экологическому стандарту \"\"Евро-4\"\", выбрасывают большее количество загрязняющих газов, чем те, что сертифицированы по стандарту \"\"Евро-0\"\"\"",
     "image": null,
     "comment": {
       "text": "I veicoli che rispettano la normativa antinquinamento \"Euro 4\" emettono una quantità  di gas inquinanti MINORE di quelli omologati secondo la normativa \"Euro 0\".\r\nI veicoli Euro 0 sono più inquinanti dei veicoli Euro 4.",
-      "text_ru": "Транспортные средства, соответствующие стандарту «Евро-4», выбрасывают МЕНЬШЕЕ количество загрязняющих газов, чем те, что сертифицированы по стандарту «Евро-0».\r\nАвтомобили Евро-0 более токсичны, чем автомобили Евро-4.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_24002_v01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_05_24002_v01.jpg",
+      "text_ru": "Транспортные средства, соответствующие стандарту «Евро-4», выбрасывают МЕНЬШЕЕ количество загрязняющих газов, чем те, что сертифицированы по стандарту «Евро-0».\r\nАвтомобили Евро-0 более токсичны, чем автомобили Евро-4."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "\"Транспортные средства, соответствующие экологическому стандарту \"\"Евро-4\"\", выбрасывают большее количество загрязняющих газов, чем те, что сертифицированы по стандарту \"\"Евро-0\"\"\""
   },
   {
     "id": 6207,
     "topic_id": 24,
     "text": "Trainare un rimorchio non comporta un aumento dei consumi di carburante",
-    "text_ru": "Буксировка прицепа не влечет за собой увеличения расхода топлива",
     "image": null,
     "comment": {
       "text": "Trainare un rimorchio COMPORTA un aumento dei consumi di carburante per il maggior peso da trainare (il motore deve \"muovere\" un peso maggiore).",
-      "text_ru": "Буксировка прицепа ВЛЕЧЕТ за собой увеличение расхода топлива из-за большего буксируемого веса (двигателю приходится «перемещать» большую массу).",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_TargaRim.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_10_TargaRim.jpg",
+      "text_ru": "Буксировка прицепа ВЛЕЧЕТ за собой увеличение расхода топлива из-за большего буксируемого веса (двигателю приходится «перемещать» большую массу)."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Буксировка прицепа не влечет за собой увеличения расхода топлива"
   },
   {
     "id": 6208,
     "topic_id": 24,
     "text": "Guidando un veicolo a cui sono stati modificati il motore e la marmitta, si può incorrere in pesanti sanzioni amministrative",
-    "text_ru": "Управление транспортным средством с модифицированным двигателем и глушителем может повлечь за собой суровые административные санкции",
     "image": null,
     "comment": {
       "text": "E' vero! oltre alla multa è previsto il ritiro immediato della carta di circolazione.",
-      "text_ru": "Это правда! Помимо штрафа, предусмотрено немедленное изъятие свидетельства о регистрации транспортного средства.",
-      "image": null
+      "image": null,
+      "text_ru": "Это правда! Помимо штрафа, предусмотрено немедленное изъятие свидетельства о регистрации транспортного средства."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Управление транспортным средством с модифицированным двигателем и глушителем может повлечь за собой суровые административные санкции"
   },
   {
     "id": 6209,
     "topic_id": 24,
     "text": "E' consentito modificare liberamente il motore e la marmitta di un veicolo per diminuire l'inquinamento atmosferico",
-    "text_ru": "Разрешается свободно модифицировать двигатель и глушитель транспортного средства для снижения атмосферного загрязнения",
     "image": null,
     "comment": {
       "text": "E' Falso! Per chi modifica parti importanti del veicolo senza debita autorizzazione della Motorizzazione Civile oltre alla multa è previsto il ritiro immediato della carta di circolazione.",
-      "text_ru": "Это ложь! Для тех, кто модифицирует важные части автомобиля без надлежащего разрешения Motorizzazione Civile (инспекции), помимо штрафа предусмотрено немедленное изъятие свидетельства о регистрации.",
-      "image": null
+      "image": null,
+      "text_ru": "Это ложь! Для тех, кто модифицирует важные части автомобиля без надлежащего разрешения Motorizzazione Civile (инспекции), помимо штрафа предусмотрено немедленное изъятие свидетельства о регистрации."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Разрешается свободно модифицировать двигатель и глушитель транспортного средства для снижения атмосферного загрязнения"
   },
   {
     "id": 6210,
     "topic_id": 24,
     "text": "E' vietato scaricare nella fognatura il liquido antigelo del circuito di raffreddamento del veicolo, poiché potrebbe non essere biodegradabile",
-    "text_ru": "Запрещается сливать в канализацию антифриз из системы охлаждения автомобиля, так как он может быть небиоразлагаемым",
     "image": null,
     "comment": {
       "text": "E' vietato scaricare nella fognatura il liquido antigelo del circuito di raffreddamento del veicolo, poiché potrebbe non essere biodegradabile e quindi nocivo per la salute delle persone e degli animali!",
-      "text_ru": "Запрещено сливать антифриз из системы охлаждения автомобиля в канализацию, так как он может не разлагаться биологически и, следовательно, быть вредным для здоровья людей и животных!",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_24014_v01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_24014_v01.jpg",
+      "text_ru": "Запрещено сливать антифриз из системы охлаждения автомобиля в канализацию, так как он может не разлагаться биологически и, следовательно, быть вредным для здоровья людей и животных!"
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Запрещается сливать в канализацию антифриз из системы охлаждения автомобиля, так как он может быть небиоразлагаемым"
   },
   {
     "id": 6211,
     "topic_id": 24,
     "text": "L'abbandono di una batteria per auto, sulla strada o sul terreno, può arrecare gravi danni all'ambiente e alle falde acquifere sottostanti",
-    "text_ru": "Выбрасывание автомобильного аккумулятора на дорогу или на землю может нанести серьезный ущерб окружающей среде и нижележащим грунтовым водам",
     "image": null,
     "comment": {
       "text": "L'abbandono di una batteria per auto, sulla strada o sul terreno, può arrecare gravi danni all'ambiente e alle falde acquifere sottostanti, quindi nocivo per le persone e gli animali dato che contiene acido solforico!",
-      "text_ru": "Оставление автомобильного аккумулятора на дороге или на земле может нанести серьезный ущерб окружающей среде и грунтовым водам, что вредно для людей и животных, так как он содержит серную кислоту!",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_24014_v02.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_24014_v02.jpg",
+      "text_ru": "Оставление автомобильного аккумулятора на дороге или на земле может нанести серьезный ущерб окружающей среде и грунтовым водам, что вредно для людей и животных, так как он содержит серную кислоту!"
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Выбрасывание автомобильного аккумулятора на дорогу или на землю может нанести серьезный ущерб окружающей среде и нижележащим грунтовым водам"
   },
   {
     "id": 6212,
     "topic_id": 24,
     "text": "Se si acquista una batteria per auto si può consegnare quella esausta (usata) al rivenditore, che provvederà a ritirarla, senza ulteriori costi aggiuntivi",
-    "text_ru": "При покупке автомобильного аккумулятора можно сдать отработанный (использованный) продавцу, который обязан принять его без дополнительных затрат",
     "image": null,
     "comment": {
       "text": "Se si acquista una batteria per auto si può consegnare quella esausta (usata) al rivenditore, che provvederà  a ritirarla, senza ulteriori costi aggiuntivi e provvederà poi a smaltirla in modo corretto.",
-      "text_ru": "При покупке автомобильного аккумулятора можно сдать старый продавцу, который примет его без доплаты и затем обеспечит правильную утилизацию.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_24014_v02.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_24014_v02.jpg",
+      "text_ru": "При покупке автомобильного аккумулятора можно сдать старый продавцу, который примет его без доплаты и затем обеспечит правильную утилизацию."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "При покупке автомобильного аккумулятора можно сдать отработанный (использованный) продавцу, который обязан принять его без дополнительных затрат"
   },
   {
     "id": 6213,
     "topic_id": 24,
     "text": "Il proprietario di un veicolo che intende demolirlo o rottamarlo, deve consegnarlo ad un centro di raccolta per la messa in sicurezza (autodemolitore autorizzato)",
-    "text_ru": "Владелец транспортного средства, намеревающийся его утилизировать или сдать в лом, должен передать его в специализированный центр сбора (авторазборку/пункт утилизации)",
     "image": null,
     "comment": {
       "text": "Il proprietario di un veicolo che intende demolirlo o rottamarlo, deve consegnarlo ad un centro di raccolta per la messa in sicurezza (autodemolitore autorizzato). Di norma, il demolitore provvede anche alla radiazione del veicolo al PRA.",
-      "text_ru": "Собственник транспортного средства, желающий его демонтировать или утилизировать, должен передать его в авторизованный центр сбора (пункт разборки). Как правило, пункт утилизации также занимается снятием автомобиля с учета в PRA (Государственный реестр транспортных средств).",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_24014_v04.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_24014_v04.jpg",
+      "text_ru": "Собственник транспортного средства, желающий его демонтировать или утилизировать, должен передать его в авторизованный центр сбора (пункт разборки). Как правило, пункт утилизации также занимается снятием автомобиля с учета в PRA (Государственный реестр транспортных средств)."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Владелец транспортного средства, намеревающийся его утилизировать или сдать в лом, должен передать его в специализированный центр сбора (авторазборку/пункт утилизации)"
   },
   {
     "id": 6214,
     "topic_id": 24,
     "text": "Al momento dello smaltimento dell'olio del motore, bisogna evitare che venga a contatto con la pelle per un tempo prolungato",
-    "text_ru": "При утилизации моторного масла следует избегать его длительного контакта с кожей",
     "image": null,
     "comment": {
       "text": "Al momento dello smaltimento dell'olio del motore, bisogna evitare che venga a contatto con la pelle per un tempo prolungato perché può provocare irritazioni.",
-      "text_ru": "При утилизации моторного масла следует избегать его длительного контакта с кожей, так как оно может вызвать раздражение.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_Smaltimento olio01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_Smaltimento olio01.jpg",
+      "text_ru": "При утилизации моторного масла следует избегать его длительного контакта с кожей, так как оно может вызвать раздражение."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "При утилизации моторного масла следует избегать его длительного контакта с кожей"
   },
   {
     "id": 6215,
     "topic_id": 24,
     "text": "Lo scarico dei residui organici e delle acque sporche delle autocaravan deve avvenire negli appositi impianti di smaltimento igienico-sanitari",
-    "text_ru": "Слив органических отходов и грязной воды из автокемперов (автодомов) должен производиться в специально предназначенные санитарно-гигиенические очистные сооружения",
     "image": null,
     "comment": {
       "text": "Lo scarico dei residui organici e delle acque sporche delle autocaravan deve avvenire negli appositi impianti di smaltimento igienico-sanitari perché contengono anche sostanze non degradabili (saponi etc).",
-      "text_ru": "Слив органических отходов и грязной воды из автокемперов должен осуществляться в специальные пункты утилизации, так как они содержат в том числе неразлагаемые вещества (мыло и т.д.).",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/273.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/273.jpg",
+      "text_ru": "Слив органических отходов и грязной воды из автокемперов должен осуществляться в специальные пункты утилизации, так как они содержат в том числе неразлагаемые вещества (мыло и т.д.)."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Слив органических отходов и грязной воды из автокемперов (автодомов) должен производиться в специально предназначенные санитарно-гигиенические очистные сооружения"
   },
   {
     "id": 6216,
     "topic_id": 24,
     "text": "L'abbandono sul terreno di rifiuti pericolosi o tossici (olii, liquidi, residui di riparazioni o di sostituzioni) non viene sanzionato",
-    "text_ru": "Оставление на земле опасных или токсичных отходов (масел, жидкостей, остатков запчастей после ремонта или замены) не наказывается",
     "image": null,
     "comment": {
       "text": "L'abbandono sul terreno di rifiuti pericolosi o tossici (olii, liquidi, residui di riparazioni o di sostituzioni) VIENE PESANTEMENTE E GIUSTAMENTE sanzionato!",
-      "text_ru": "Оставление на земле опасных или токсичных отходов (масел, жидкостей, остатков после ремонта или замены) ТЯЖЕЛО И СПРАВЕДЛИВО наказывается штрафами!",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_24014_v02.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_24014_v02.jpg",
+      "text_ru": "Оставление на земле опасных или токсичных отходов (масел, жидкостей, остатков после ремонта или замены) ТЯЖЕЛО И СПРАВЕДЛИВО наказывается штрафами!"
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Оставление на земле опасных или токсичных отходов (масел, жидкостей, остатков запчастей после ремонта или замены) не наказывается"
   },
   {
     "id": 6217,
     "topic_id": 24,
     "text": "Per demolire o rottamare un veicolo, lo si deve consegnare esclusivamente al concessionario della casa costruttrice",
-    "text_ru": "Для утилизации автомобиля его необходимо передать исключительно дилеру компании-производителя",
     "image": null,
     "comment": {
       "text": "Per demolire o rottamare un veicolo, lo si deve consegnare agli AUTODEMOLITORI AUTORIZZATI.",
-      "text_ru": "Для демонтажа или утилизации автомобиля его следует передавать в АВТОРИЗОВАННЫЕ ЦЕНТРЫ ПО РАЗБОРКЕ/УТИЛИЗАЦИИ.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_24014_v04.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/24_200_06_24014_v04.jpg",
+      "text_ru": "Для демонтажа или утилизации автомобиля его следует передавать в АВТОРИЗОВАННЫЕ ЦЕНТРЫ ПО РАЗБОРКЕ/УТИЛИЗАЦИИ."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Для утилизации автомобиля его необходимо передать исключительно дилеру компании-производителя"
   },
   {
     "id": 6218,
     "topic_id": 24,
     "text": "E' vietato danneggiare le opere e gli impianti stradali",
-    "text_ru": "Запрещается повреждать дорожные сооружения и оборудование",
     "image": null,
     "comment": {
       "text": "E'  vietato danneggiare le opere e gli impianti stradali perchè facendolo, anche se  indirettamente, si arreca  pericolo e intralcio!",
-      "text_ru": "Запрещено повреждать дорожные сооружения и объекты, потому что это, пусть и косвенно, создает опасность и помехи!",
-      "image": null
+      "image": null,
+      "text_ru": "Запрещено повреждать дорожные сооружения и объекты, потому что это, пусть и косвенно, создает опасность и помехи!"
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Запрещается повреждать дорожные сооружения и оборудование"
   },
   {
     "id": 6219,
     "topic_id": 24,
     "text": "E' vietato gettare oggetti e rifiuti dai veicoli in movimento",
-    "text_ru": "Запрещается выбрасывать предметы и мусор из движущихся транспортных средств",
     "image": null,
     "comment": {
       "text": "E' vietato gettare oggetti e rifiuti dai veicoli in movimento perchè si arreca pericolo, intralcio e inquinamento!",
-      "text_ru": "Запрещено выбрасывать предметы и мусор из движущихся транспортных средств, так как это создает опасность, помехи и загрязнение!",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_167_01_cainc78.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_167_01_cainc78.jpg",
+      "text_ru": "Запрещено выбрасывать предметы и мусор из движущихся транспортных средств, так как это создает опасность, помехи и загрязнение!"
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Запрещается выбрасывать предметы и мусор из движущихся транспортных средств"
   },
   {
     "id": 6220,
     "topic_id": 24,
     "text": "E' vietato sporcare la carreggiata depositando rifiuti",
-    "text_ru": "Запрещается загрязнять проезжую часть, оставляя мусор",
     "image": null,
     "comment": {
       "text": "E' vietato gettare oggetti e rifiuti dai veicoli in movimento perchè si arreca pericolo, intralcio e inquinamento!",
-      "text_ru": "Запрещено выбрасывать предметы и мусор из движущихся транспортных средств, так как это создает опасность, помехи и загрязнение!",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_167_01_cainc78.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_167_01_cainc78.jpg",
+      "text_ru": "Запрещено выбрасывать предметы и мусор из движущихся транспортных средств, так как это создает опасность, помехи и загрязнение!"
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Запрещается загрязнять проезжую часть, оставляя мусор"
   },
   {
     "id": 6221,
     "topic_id": 24,
     "text": "E' vietato immettersi sulle strade con le ruote del veicolo sporche di fango",
-    "text_ru": "Запрещается выезжать на дорогу с колесами, загрязненными грязью",
     "image": null,
     "comment": {
       "text": "E' vietato immettersi sulle strade con le ruote del veicolo sporche di fango perché si rende pericolosa la carreggiata per la scarsa aderenza!",
-      "text_ru": "Запрещено выезжать на дороги с грязными колесами, потому что это делает проезжую часть опасной из-за плохого сцепления!",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_167_01_cainc79.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_167_01_cainc79.jpg",
+      "text_ru": "Запрещено выезжать на дороги с грязными колесами, потому что это делает проезжую часть опасной из-за плохого сцепления!"
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Запрещается выезжать на дорогу с колесами, загрязненными грязью"
   },
   {
     "id": 6222,
     "topic_id": 24,
     "text": "Su tutte le strade è vietato esercitarsi alla guida",
-    "text_ru": "Учебная езда запрещена на всех дорогах",
     "image": null,
     "comment": {
-      "text": "Se muniti di foglio rosa e con idoneo istruttore  dell' autoscuola a fianco o titolare di patente B da almeno 10 anni è consentito esercitarsi alla guida!\r\n\r\n",
-      "text_ru": "При наличии временного разрешения («foglio rosa») и при сопровождении квалифицированного инструктора автошколы или владельца водительского удостоверения категории B со стажем не менее 10 лет, практиковаться в вождении разрешено!",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/19_189_01_pat006.jpg"
+      "text": "Se muniti di foglio rosa e con idoneo istruttore  dell' autoscuola a fianco o titolare di patente B da almeno 10 anni è consentito esercitarsi alla guida!",
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/19_189_01_pat006.jpg",
+      "text_ru": "При наличии временного разрешения («foglio rosa») и при сопровождении квалифицированного инструктора автошколы или владельца водительского удостоверения категории B со стажем не менее 10 лет, практиковаться в вождении разрешено!"
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Учебная езда запрещена на всех дорогах"
   },
   {
     "id": 6223,
     "topic_id": 24,
     "text": "Su tutte le strade sono vietati gli avvisatori acustici (clacson, trombe)",
-    "text_ru": "Звуковые сигналы (клаксоны, сирены) запрещены на всех дорогах",
     "image": null,
     "comment": {
       "text": "Gli avvisatori acustici (clacson, trombe) sono vietati,  di norma, nei centri abitati.\r\nFuori dai centri abitati, gli avvisatori acustici SONO CONSENTITI ogni qualvolta le circostanze lo rendano consigliabile per evitare incidenti (sorpassi, curve, incroci etc.).",
-      "text_ru": "Звуковые сигналы (клаксоны, сирены), как правило, запрещены в населенных пунктах. Вне населенных пунктов звуковые сигналы РАЗРЕШЕНЫ всякий раз, когда обстоятельства делают это целесообразным для предотвращения аварий (обгоны, повороты, перекрестки и т.д.).",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/18_187_07_luci053.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/18_187_07_luci053.jpg",
+      "text_ru": "Звуковые сигналы (клаксоны, сирены), как правило, запрещены в населенных пунктах. Вне населенных пунктов звуковые сигналы РАЗРЕШЕНЫ всякий раз, когда обстоятельства делают это целесообразным для предотвращения аварий (обгоны, повороты, перекрестки и т.д.)."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Звуковые сигналы (клаксоны, сирены) запрещены на всех дорогах"
   },
   {
     "id": 6224,
     "topic_id": 24,
     "text": "Su tutte le strade è vietato il transito dei veicoli che superano 10 m di lunghezza",
-    "text_ru": "На всех дорогах запрещено движение транспортных средств длиной более 10 м",
     "image": null,
     "comment": {
       "text": "Sulle strade circolano regolarmente gli autotreni o gli autoarticolati che sono decisamente più lunghi di 10 metri (fino a 18,75 m).",
-      "text_ru": "По дорогам регулярно курсируют автопоезда или сочлененные транспортные средства, длина которых значительно превышает 10 метров (до 18,75 м).",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_01_Autoarticolato01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/17_186_01_Autoarticolato01.jpg",
+      "text_ru": "По дорогам регулярно курсируют автопоезда или сочлененные транспортные средства, длина которых значительно превышает 10 метров (до 18,75 м)."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "На всех дорогах запрещено движение транспортных средств длиной более 10 м"
   },
   {
     "id": 6225,
     "topic_id": 24,
     "text": "E' vietato parcheggiare nelle zone residenziali",
-    "text_ru": "Парковка в жилых зонах запрещена",
     "image": null,
     "comment": {
       "text": "Nelle zone residenziali ci sono parecchie abitazioni e non vi è alcun motivo per vietare la sosta!",
-      "text_ru": "В жилых зонах расположено много домов, и нет никаких причин запрещать там стоянку!",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/232.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/232.jpg",
+      "text_ru": "В жилых зонах расположено много домов, и нет никаких причин запрещать там стоянку!"
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Парковка в жилых зонах запрещена"
   }
 ]
