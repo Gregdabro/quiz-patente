@@ -1202,9 +1202,11 @@
     "image": null,
     "comment": {
       "text": "Vero. La distrazione dovuta a diversi fattori esterni (cellulare, navigatore, autoradio…) o a pensieri del conducente aumenta i tempi di reazione ed è una delle principali cause di incidente",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_01_distrazione-alla-guida.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_01_distrazione-alla-guida.jpg",
+      "text_ru": "Верно. Отвлечение внимания из-за различных внешних факторов (мобильный телефон, навигатор, магнитола…) или мыслей водителя увеличивает время реакции и является одной из основных причин аварий."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Отвлечение внимания при вождении может стать причиной дорожно-транспортных происшествий с тяжелыми последствиями"
   },
   {
     "id": 7116,
@@ -1213,9 +1215,11 @@
     "image": null,
     "comment": {
       "text": "La massima concentrazione è fondamentale per prevenire incidenti in prossimità degli incroci.",
-      "image": null
+      "image": null,
+      "text_ru": "Максимальная концентрация имеет решающее значение для предотвращения аварий вблизи перекрестков."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "При проезде перекрестка необходимо сохранять максимальную концентрацию внимания на управлении"
   },
   {
     "id": 7117,
@@ -1237,9 +1241,11 @@
     "image": null,
     "comment": {
       "text": "Vero. Il concetto di \"Guida preventiva\" si basa proprio sulla valutazione di potenziali errori da parte degli altri utenti della strada. Per fare questo è necessario un adeguato addestramento all'uso dello sguardo e una buona dose di esperienza.",
-      "image": null
+      "image": null,
+      "text_ru": "Верно. Концепция «профилактического вождения» основана именно на оценке потенциальных ошибок других участников дорожного движения. Для этого необходима соответствующая тренировка взгляда и определенный опыт."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Для предотвращения риска аварий водитель должен внимательно оценивать поведение других участников дорожного движения"
   },
   {
     "id": 7119,
@@ -1248,9 +1254,11 @@
     "image": null,
     "comment": {
       "text": "Vero. La percezione del pericolo e la reazione del conducente sono condizionate, oltre che dalle sue condizioni psicofisiche e dalla sua attenzione, anche dalle condizioni ambientali in cui ci si muove.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_206_01_pvc005.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_206_01_pvc005.jpg",
+      "text_ru": "Верно. Восприятие опасности и реакция водителя зависят не только от его психофизического состояния и внимания, но и от условий окружающей среды, в которых осуществляется движение."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "При проезде перекрестка необходимо сохранять максимальную концентрацию внимания на управлении"
   },
   {
     "id": 7120,
@@ -1259,9 +1267,11 @@
     "image": null,
     "comment": {
       "text": "Vero. Gli stati d'ansia e ogni altra forma di stress psicologico distolgono attenzione e concentrazione alla guida aumentandone la pericolosità.",
-      "image": null
+      "image": null,
+      "text_ru": "Верно. Состояния тревоги и любая другая форма психологического стресса отвлекают внимание и снижают концентрацию при вождении, повышая его опасность."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Тревога может снизить способность уделять внимание опасностям"
   },
   {
     "id": 7121,
@@ -1270,9 +1280,11 @@
     "image": null,
     "comment": {
       "text": "Vero. Molto spesso inesperenza ed imperizia portano ad una sopravalutazione delle proprie capacità di guida. L'esperienza dei corsi di guida sicura ha lo scopo di mettere a nudo i limiti del conducente e del veicolo in situazioni critiche che si possono presentare sulla strada di tutti i giorni",
-      "image": null
+      "image": null,
+      "text_ru": "Верно. Очень часто неопытность и неумение приводят к переоценке собственных навыков вождения. Опыт курсов безопасного вождения направлен на выявление пределов возможностей водителя и автомобиля в критических ситуациях, которые могут возникнуть на дороге в повседневной жизни."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Водитель должен учитывать, что он не всегда способен правильно оценить свои навыки вождения"
   },
   {
     "id": 7122,
@@ -1294,9 +1306,11 @@
     "image": null,
     "comment": {
       "text": "Le discussioni animate distraggono il conducente e riducono la capacità di reazione.",
-      "image": null
+      "image": null,
+      "text_ru": "Оживленные дискуссии отвлекают водителя и снижают способность к быстрой реакции."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Оживленный разговор с другими людьми в автомобиле может негативно повлиять на стиль вождения"
   },
   {
     "id": 7124,
@@ -1307,7 +1321,8 @@
       "text": null,
       "image": null
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Если нет уверенности в полной безопасности пересечения перекрестка, необходимо остановиться и подождать, пока проедут все транспортные средства, с которыми существует опасность столкновения"
   },
   {
     "id": 7125,
@@ -1342,9 +1357,11 @@
     "image": null,
     "comment": {
       "text": "L'uso prolungato del navigatore distoglie l'attenzione visiva dalla strada.",
-      "image": null
+      "image": null,
+      "text_ru": "Длительное использование навигатора отвлекает визуальное внимание от дороги."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Сосредоточение внимания на указаниях спутникового навигатора может стать фактором отвлечения внимания при вождении"
   },
   {
     "id": 7128,
@@ -1353,9 +1370,11 @@
     "image": null,
     "comment": {
       "text": "La sopravvalutazione della propria abilità porta spesso a manovre azzardate e pericolose.",
-      "image": null
+      "image": null,
+      "text_ru": "Переоценка собственных способностей часто приводит к рискованным и опасным маневрам."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Водитель никогда не должен переоценивать свои навыки вождения"
   },
   {
     "id": 7129,
@@ -1364,9 +1383,11 @@
     "image": null,
     "comment": {
       "text": "Vero. Il codice della Strada e in generale le norme di comportamento nella circolazione dei veicoli sono orientate a garantire la sicurezza e l'incolumità di merci e persone trasportate e a permettere una circolazione la più fluida possibile e senza intoppi.",
-      "image": null
+      "image": null,
+      "text_ru": "Верно. Кодекс дорожного движения и в целом правила поведения при движении транспортных средств направлены на обеспечение безопасности и сохранности грузов и людей, а также на обеспечение максимально плавного и бесперебойного движения."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Правила дорожного движения установлены для обеспечения большей безопасности вождения для всех участников дорожного движения"
   },
   {
     "id": 7130,
@@ -1375,9 +1396,11 @@
     "image": null,
     "comment": {
       "text": "Vero. Le norme di circolazione sono concepite per ridurre al minimo i rischi della circolazione e permettere una mobilità fluida e senza intoppi.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_208_03_Per015c.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/13_208_03_Per015c.jpg",
+      "text_ru": "Верно. Правила дорожного движения призваны свести к минимуму риски движения и обеспечить плавную и бесперебойную мобильность."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Соблюдение правил дорожного движения позволяет ограничить риски, связанные с управлением всеми транспортными средствами, как механическими, так и не имеющими двигателя"
   },
   {
     "id": 7131,
@@ -1399,9 +1422,11 @@
     "image": null,
     "comment": {
       "text": "Vero. Il cellulare è innanzitutto una fonte di distrazione dell'attenzione e quindi indipendentemente dall'utilizzo o meno di dispositivi viva-voce o cuffie riduce l'attenzione e la concentrzione che il conducente dovrebbe prestare alla guida. RICORDA: Tanto più impegnativa è la conversazione tanto maggiore sarà la tua distrazione dalla guida! In queste situazioni è più opportuno fermarsi e terminare la conversazione.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_01_cellulare.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_01_cellulare.jpg",
+      "text_ru": "Верно. Мобильный телефон — это прежде всего источник отвлечения внимания, поэтому независимо от использования устройств громкой связи или наушников, он снижает внимание и концентрацию, которые водитель должен уделять вождению. ПОМНИТЕ: Чем сложнее разговор, тем сильнее вы будете отвлекаться от вождения! В таких ситуациях лучше остановиться и закончить разговор."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Использование мобильного телефона за рулем опасно, так как это снижает внимание к дороге"
   },
   {
     "id": 7133,
@@ -1410,9 +1435,11 @@
     "image": null,
     "comment": {
       "text": "L'uso del cellulare riduce l'attenzione anche con il viva-voce, a causa dell'impegno mentale della conversazione.",
-      "image": null
+      "image": null,
+      "text_ru": "Использование мобильного телефона снижает внимание даже при использовании громкой связи из-за умственной нагрузки во время разговора."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Использование мобильного телефона за рулем, даже с системой громкой связи, может снизить внимание к дороге"
   },
   {
     "id": 7134,
@@ -1434,9 +1461,11 @@
     "image": null,
     "comment": {
       "text": "Vero. Fatica e stanchezza rallentano i riflessi e riducono l'ampiezza del campo visivo. Meglio fermarsi e riposare.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_sfc011.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_00_sfc011.jpg",
+      "text_ru": "Верно. Утомление и усталость замедляют рефлексы и сужают поле зрения. Лучше остановиться и отдохнуть."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Внимание при вождении снижается при утомлении"
   },
   {
     "id": 7136,
@@ -1445,9 +1474,11 @@
     "image": null,
     "comment": {
       "text": "Vero. Ogni attività fatta durante la guida, dall'impostazione del navigatore alla scelta di una frequenza della radio o la composizine di un numero sul telefono cellulare, richiede una certa dose d’attenzione che sottraiamo alla guida. La tecnologia ci aiuta con i comandi vocali ma sarebbe in ogni caso opportuno fermarsi per fare queste operazioni.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_01_navigatore.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/22_197_01_navigatore.jpg",
+      "text_ru": "Верно. Любое действие во время вождения — от настройки навигатора до выбора радиочастоты или набора номера на мобильном телефоне — требует определенной доли внимания, которую мы отнимаем у процесса вождения. Технологии помогают нам с помощью голосовых команд, но в любом случае для выполнения этих операций целесообразно остановиться."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Настройка спутникового навигатора во время вождения снижает внимание к дороге"
   },
   {
     "id": 7137,
@@ -1456,9 +1487,11 @@
     "image": null,
     "comment": {
       "text": "L'attenzione può essere allenata mantenendo alta la soglia di vigilanza e evitando fonti di disturbo.",
-      "image": null
+      "image": null,
+      "text_ru": "Внимание можно тренировать, поддерживая высокий порог бдительности и избегая источников отвлечения."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Внимание при вождении можно «тренировать»"
   },
   {
     "id": 7138,
@@ -1493,9 +1526,11 @@
     "image": null,
     "comment": {
       "text": "Il rischio percepito è spesso inferiore al rischio reale, portando il conducente a esporsi a pericoli eccessivi.",
-      "image": null
+      "image": null,
+      "text_ru": "Воспринимаемый риск часто ниже реального риска, что заставляет водителя подвергать себя чрезмерной опасности."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Иногда человек подвергает себя ситуациям, более рискованным, чем те, с которыми он способен справиться"
   },
   {
     "id": 7141,
@@ -1582,9 +1617,11 @@
     "image": null,
     "comment": {
       "text": "Le condizioni ambientali (pioggia, nebbia) influenzano pesantemente i tempi di reazione e la visibilità.",
-      "image": null
+      "image": null,
+      "text_ru": "Условия окружающей среды (дождь, туман) сильно влияют на время реакции и видимость."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Во время вождения на восприятие опасности и последующую реакцию водителя не влияют условия окружающей среды"
   },
   {
     "id": 7148,
@@ -1697,9 +1734,11 @@
     "image": null,
     "comment": {
       "text": "Le norme sono da rispettare in ogni condizioni di guida, a prescindere dalle condizioni del traffico!",
-      "image": null
+      "image": null,
+      "text_ru": "Правила необходимо соблюдать при любых условиях вождения, независимо от состояния трафика!"
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Соблюдение правил дорожного движения важно при интенсивном движении, но не в условиях свободного движения"
   },
   {
     "id": 7157,
@@ -1812,9 +1851,11 @@
     "image": null,
     "comment": {
       "text": "Guidare è una attività complessa che impegna tutti i sensi pertanto l'attenzione alla guida è sempre limitata ed inferiore alla complessità del traffico stradale.",
-      "image": null
+      "image": null,
+      "text_ru": "Вождение — это сложная деятельность, в которой задействованы все органы чувств, поэтому внимание при вождении всегда ограничено и ниже сложности дорожного движения."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Наши чувства способны улавливать все стимулы, присутствующие в окружающей среде"
   },
   {
     "id": 7166,
@@ -1823,9 +1864,11 @@
     "image": null,
     "comment": {
       "text": "Guidare è una attività complessa che impegna tutti i sensi pertanto l'attenzione alla guida è sempre limitata ed inferiore alla complessità del traffico stradale.",
-      "image": null
+      "image": null,
+      "text_ru": "Вождение — это сложная деятельность, в которой задействованы все органы чувств, поэтому внимание при вождении всегда ограничено и ниже сложности дорожного движения."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Наши чувства способны воспринимать раздражители любой интенсивности"
   },
   {
     "id": 7167,
@@ -1834,9 +1877,11 @@
     "image": null,
     "comment": {
       "text": "Lo stress accumulato nel traffico riduce la lucidità e aumenta l'aggressività alla guida.",
-      "image": null
+      "image": null,
+      "text_ru": "Стресс, накопленный в пробках, снижает ясность ума и повышает агрессивность вождения."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "В условиях интенсивного движения стресс может помочь водителю сохранять бдительность"
   },
   {
     "id": 7168,

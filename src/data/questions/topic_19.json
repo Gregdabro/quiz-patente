@@ -899,9 +899,11 @@
     "image": null,
     "comment": {
       "text": "L'uso del casco è necessario per ridurre gli effetti di eventuali URTI ALLA TESTA e bisogna considerare che le sue caratteristiche non rimangono invariate nel tempo, infatti, il casco subisce un processo di invecchiamento dovuto a luce e calore.\r\n\r\nN.B. La pulizia del casco deve essere effettuata con detersivi non corrosivi e NON deve mai essere pulito con SOLVENTI o con BENZINA (tali sostanze aggrediscono e deteriorano il materiale di cui è fatto il casco). \r\n\r\nATTENZIONE - La robustezza della calotta esterna del casco potrebbe essere compromessa da solventi presenti in vernici o colle (NON applicare adesivi).",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/19_189_03_29009V01.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/19_189_03_29009V01.jpg",
+      "text_ru": "Использование шлема необходимо для уменьшения последствий возможных УДАРОВ ГОЛОВОЙ, и следует учитывать, что его характеристики не остаются неизменными со временем; фактически, шлем подвергается процессу старения под воздействием света и тепла.\r\n\r\nПримечание: Чистка шлема должна производиться некоррозийными моющими средствами; КАТЕГОРИЧЕСКИ ЗАПРЕЩАЕТСЯ чистить шлем РАСТВОРИТЕЛЯМИ или БЕНЗИНОМ (эти вещества агрессивно воздействуют на материал, из которого изготовлен шлем, и разрушают его).\r\n\r\nВНИМАНИЕ - Прочность внешней оболочки шлема может быть нарушена растворителями, содержащимися в красках или клеях (НЕ наклеивайте наклейки)."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Шлем подвергается процессу старения под воздействием света и тепла"
   },
   {
     "id": 6657,
@@ -962,9 +964,11 @@
     "image": null,
     "comment": {
       "text": "Il casco integrale (è dotato di mentoniera ) protegge anche il viso da traumi e lesioni in caso di incidente.\r\n\r\nN.B. Il casco deve essere di taglia corretta e deve sempre essere sostituito se ha subito un forte urto, anche se non mostra deformazioni sulla calotta esterna.\r\n\r\nAttenzione - Il conducente che non indossa il casco è soggetto alla decurtazione di punti dalla patente di guida.",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/19_189_03_29009V06.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/19_189_03_29009V06.jpg",
+      "text_ru": "Закрытый шлем (снабжен защитой подбородка) также защищает лицо от травм и повреждений в случае аварии.\r\n\r\nПримечание: Шлем должен быть правильного размера и подлежит обязательной замене, если он подвергся сильному удару, даже если на внешней оболочке нет видимых деформаций.\r\n\r\nВнимание - Водитель, не использующий шлем, подлежит вычету штрафных баллов из водительского удостоверения."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Закрытый шлем (интеграл) также защищает лицо от травм и повреждений в случае аварии"
   },
   {
     "id": 6662,

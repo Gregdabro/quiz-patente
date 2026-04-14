@@ -2918,9 +2918,11 @@
     "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/143.jpg",
     "comment": {
       "text": "Si, indica la presenza di un TORNANTE (curva stretta) o una SERIE di TORNANTI ed accompagnano i segnali di pericolo CURVA PERICOLOSA (o serie di curve).",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_07_per006x.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/02_169_07_per006x.jpg",
+      "text_ru": "Да, она указывает на наличие ОПАСНОГО ПОВОРОТА (крутого поворота) или СЕРИИ ПОВОРОТОВ и сопровождает предупреждающие знаки «ОПАСНЫЙ ПОВОРОТ» (или серия поворотов)."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "Дополнительная табличка на рисунке (A) указывает на близость одного или нескольких крутых поворотов"
   },
   {
     "id": 3905,

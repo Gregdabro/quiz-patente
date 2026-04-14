@@ -3087,9 +3087,11 @@
     "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgquiz/652.jpg",
     "comment": {
       "text": "Nell'incrocio in figura solo il veicolo H ha la destra libera, quindi:\r\n- H transita perché ha la destra libera e non deve dare la precedenza ad alcun veicolo\r\n- A transita perché ha la destra liberata da H\r\n- F transita perché ha la destra liberata da A (quindi F deve transitare per TERZO)\r\n- L transita perché ha la destra liberata da F",
-      "image": null
+      "image": null,
+      "text_ru": "На перекрестке, показанном на рисунке, только у транспортного средства H свободна правая сторона, следовательно:\r\n- H проезжает, так как у него свободна правая сторона и он не должен уступать дорогу ни одному транспортному средству\r\n- A проезжает, так как правая сторона освободилась после проезда H\r\n- F проезжает, так как правая сторона освободилась после проезда A (следовательно, F должен проехать ТРЕТЬИМ)\r\n- L проезжает, так как правая сторона освободилась после проезда F"
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Согласно правилам приоритета на перекрестке, показанном на рисунке, транспортное средство F должно проехать первым"
   },
   {
     "id": 4885,

@@ -1501,9 +1501,11 @@
     "image": null,
     "comment": {
       "text": "Quando si trasportano bambini è consigliabile inserire il dispositivo di sicurezza che impedisce l'apertura delle portiere dall'interno del veicolo per evitare inopportune aperture da parte dei bambini.",
-      "image": null
+      "image": null,
+      "text_ru": "При перевозке детей рекомендуется задействовать предохранительное устройство, препятствующее открытию дверей изнутри автомобиля, во избежание случайного открытия дверей детьми."
     },
-    "answer": true
+    "answer": true,
+    "text_ru": "При перевозке детей рекомендуется задействовать предохранительное устройство, препятствующее открытию дверей изнутри автомобиля"
   },
   {
     "id": 6342,
@@ -2279,9 +2281,11 @@
     "image": null,
     "comment": {
       "text": "No, quello è il compito del freno si stazionamento.\\r\\n",
-      "image": null
+      "image": null,
+      "text_ru": "Нет, это задача стояночного тормоза.\\r\\n"
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Подвеска механического транспортного средства служит для удержания автомобиля в неподвижном состоянии даже на дороге с уклоном"
   },
   {
     "id": 7006,

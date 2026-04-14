@@ -1657,9 +1657,11 @@
     "image": null,
     "comment": {
       "text": "La strada è l'area ad uso pubblico aperta alla circolazione dei PEDONI, dei VEICOLI e degli ANIMALI, può essere suddivisa in carreggiate e può essere sia a senso unico che a doppio senso di circolazione.\r\n\r\nLa strada comprende quindi, il marciapiede, la banchina, le piste ciclabili, la carreggiata etc. (diciamo che comprende tutto).",
-      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_02_dts005.jpg"
+      "image": "https://quizpatentelng.s3.eu-central-1.amazonaws.com/imgcommenti/01_165_02_dts005.jpg",
+      "text_ru": "Дорога — это территория общественного пользования, открытая для движения ПЕШЕХОДОВ, ТРАНСПОРТНЫХ СРЕДСТВ и ЖИВОТНЫХ; она может быть разделена на проезжие части и может иметь как одностороннее, так и двустороннее движение.\r\n\r\nТаким образом, дорога включает в себя тротуар, обочину, велосипедные дорожки, проезжую часть и т.д. (можно сказать, что она включает в себя всё)."
     },
-    "answer": false
+    "answer": false,
+    "text_ru": "Дорога обычно зарезервирована для движения только транспортных средств и животных"
   },
   {
     "id": 129,
