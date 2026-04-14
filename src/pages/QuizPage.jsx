@@ -65,7 +65,6 @@ const QuizPage = () => {
 
   // Обработчик завершения
   const handleFinish = () => {
-    if (isFinished) return;
     finish();
     setShowResults(true);
   };

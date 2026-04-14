@@ -3,25 +3,25 @@
     "topic_id": 1,
     "title": "Strada, veicoli, doveri conducente",
     "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/01.png",
-    "questions_count": 518
+    "questions_count": 531
   },
   {
     "topic_id": 2,
     "title": "Segnali di pericolo",
     "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/02.png",
-    "questions_count": 658
+    "questions_count": 662
   },
   {
     "topic_id": 3,
     "title": "Segnali di divieto",
     "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/03.png",
-    "questions_count": 518
+    "questions_count": 519
   },
   {
     "topic_id": 4,
     "title": "Segnali di obbligo",
     "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/04.png",
-    "questions_count": 423
+    "questions_count": 430
   },
   {
     "topic_id": 5,
@@ -45,7 +45,7 @@
     "topic_id": 8,
     "title": "Segnali di indicazione",
     "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/08.png",
-    "questions_count": 602
+    "questions_count": 603
   },
   {
     "topic_id": 9,
@@ -57,7 +57,7 @@
     "topic_id": 10,
     "title": "Pannelli integrativi dei segnali",
     "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/10.png",
-    "questions_count": 262
+    "questions_count": 263
   },
   {
     "topic_id": 11,
@@ -75,19 +75,19 @@
     "topic_id": 13,
     "title": "Posizione veicoli sulla carreggiata",
     "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/13.png",
-    "questions_count": 370
+    "questions_count": 378
   },
   {
     "topic_id": 14,
     "title": "Incroci",
     "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/14.png",
-    "questions_count": 414
+    "questions_count": 415
   },
   {
     "topic_id": 15,
     "title": "Sorpasso",
     "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/15.png",
-    "questions_count": 137
+    "questions_count": 156
   },
   {
     "topic_id": 16,
@@ -99,7 +99,7 @@
     "topic_id": 17,
     "title": "Autostrade, trasporto persone, pannelli veicoli",
     "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/17.png",
-    "questions_count": 310
+    "questions_count": 330
   },
   {
     "topic_id": 18,
@@ -111,7 +111,7 @@
     "topic_id": 19,
     "title": "Cinture, casco, airbag, abbigliamento moto",
     "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/19.png",
-    "questions_count": 132
+    "questions_count": 134
   },
   {
     "topic_id": 20,
@@ -135,7 +135,7 @@
     "topic_id": 23,
     "title": "Assicurazione RCA e responsabilità",
     "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/23.png",
-    "questions_count": 123
+    "questions_count": 146
   },
   {
     "topic_id": 24,
@@ -147,12 +147,6 @@
     "topic_id": 25,
     "title": "Elementi e manutenzione veicolo",
     "image": "https://quizpatente-web.s3.eu-central-1.amazonaws.com/media/images/quiz/thumbs/25.png",
-    "questions_count": 283
-  },
-  {
-    "topic_id": null,
-    "title": "Без темы (topic неизвестен)",
-    "image": null,
-    "questions_count": 53
+    "questions_count": 285
   }
 ]
