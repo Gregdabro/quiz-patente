@@ -110,4 +110,4 @@ const QuestionCard = ({
   );
 };
 
-export default QuestionCard;
+export default React.memo(QuestionCard);

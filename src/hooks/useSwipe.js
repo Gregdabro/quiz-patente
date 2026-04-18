@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useCallback, useRef } from 'react';
 
 /**
  * Хук для обработки свайп-жестов.
@@ -10,34 +10,33 @@ import { useState, useCallback } from 'react';
  * @param {number} options.threshold — порог срабатывания в пикселях (по умолчанию 50)
  */
 export default function useSwipe({ onSwipeLeft, onSwipeRight, threshold = 50 }) {
-  const [touchStart, setTouchStart] = useState(null);
-  const [touchEnd, setTouchEnd] = useState(null);
+  const touchStartRef = useRef(null);
+  const touchEndRef = useRef(null);
 
   const handleTouchStart = useCallback((e) => {
-    setTouchEnd(null); // сброс
-    setTouchStart({
+    touchEndRef.current = null; // сброс
+    touchStartRef.current = {
       x: e.targetTouches[0].clientX,
       y: e.targetTouches[0].clientY
-    });
+    };
   }, []);
 
   const handleTouchMove = useCallback((e) => {
-    setTouchEnd({
+    touchEndRef.current = {
       x: e.targetTouches[0].clientX,
       y: e.targetTouches[0].clientY
-    });
+    };
   }, []);
 
   const handleTouchEnd = useCallback(() => {
-    if (!touchStart || !touchEnd) return;
+    if (!touchStartRef.current || !touchEndRef.current) return;
 
-    const distanceX = touchStart.x - touchEnd.x;
-    const distanceY = touchStart.y - touchEnd.y;
+    const distanceX = touchStartRef.current.x - touchEndRef.current.x;
+    const distanceY = touchStartRef.current.y - touchEndRef.current.y;
     const isLeftSwipe = distanceX > threshold;
     const isRightSwipe = distanceX < -threshold;
 
     // Проверяем, что свайп преимущественно горизонтальный (DX > DY)
-    // Это предотвращает ложные срабатывания при вертикальной прокрутке
     if (Math.abs(distanceX) > Math.abs(distanceY) * 1.5) {
       if (isLeftSwipe && onSwipeLeft) {
         onSwipeLeft();
@@ -47,9 +46,9 @@ export default function useSwipe({ onSwipeLeft, onSwipeRight, threshold = 50 }) 
       }
     }
 
-    setTouchStart(null);
-    setTouchEnd(null);
-  }, [touchStart, touchEnd, threshold, onSwipeLeft, onSwipeRight]);
+    touchStartRef.current = null;
+    touchEndRef.current = null;
+  }, [threshold, onSwipeLeft, onSwipeRight]);
 
   return {
     onTouchStart: handleTouchStart,

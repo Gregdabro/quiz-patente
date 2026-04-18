@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import useQuiz from '../hooks/useQuiz';
 import useSwipe from '../hooks/useSwipe';
@@ -46,12 +46,11 @@ const QuizPage = () => {
   const [showResults, setShowResults] = useState(false);
   const [isExitModalOpen, setIsExitModalOpen] = useState(false);
 
-  const handleGoTo = (index) => {
-    // Определяем направление перелистывания
+  const handleGoTo = useCallback((index) => {
     setTransitionDirection(index > current ? 'forward' : 'backward');
     goTo(index);
     setShowComment(false);
-  };
+  }, [current, goTo]);
 
   // Логика свайпа
   const swipeHandlers = useSwipe({
@@ -69,26 +68,33 @@ const QuizPage = () => {
   const isCorrect = currentAnswer !== undefined ? currentAnswer === currentQuestion.answer : null;
 
   // Обработчик ответа
-  const handleAnswer = (userAnswer) => {
+  const handleAnswer = useCallback((userAnswer) => {
     answer(userAnswer);
-    // Сбрасываем показ комментария при новом ответе (хотя он и так скрыт до ответа)
     setShowComment(false);
-  };
+  }, [answer]);
 
   // Обработчик завершения
-  const handleFinish = () => {
+  const handleFinish = useCallback(() => {
     finish();
     setShowResults(true);
-  };
+  }, [finish]);
 
   // Обработчик выхода
-  const handleExitRequest = () => {
+  const handleExitRequest = useCallback(() => {
     if (isFinished) {
       navigate('/');
     } else {
       setIsExitModalOpen(true);
     }
-  };
+  }, [isFinished, navigate]);
+
+  const handleToggleComment = useCallback(() => {
+    setShowComment(prev => !prev);
+  }, []);
+
+  const handleToggleTranslation = useCallback(() => {
+    setGlobalTranslation(prev => !prev);
+  }, []);
 
   return (
     <div className="page quiz-page" {...swipeHandlers}>
@@ -116,9 +122,9 @@ const QuizPage = () => {
             isSessionFinished={isFinished}
             onAnswer={handleAnswer}
             showComment={showComment}
-            onToggleComment={() => setShowComment(!showComment)}
+            onToggleComment={handleToggleComment}
             showTranslation={globalTranslation}
-            onToggleTranslation={() => setGlobalTranslation(!globalTranslation)}
+            onToggleTranslation={handleToggleTranslation}
           />
         </SlideTransition>
 

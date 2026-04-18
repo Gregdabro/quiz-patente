@@ -45,10 +45,6 @@ export default function useQuiz(topicId) {
   var isFinished = isFinishedRef[0];
   var setIsFinished = isFinishedRef[1];
 
-  // Глобальный тоггл перевода — сохраняется на всю сессию
-  var translateRef = useState(false);
-  var showTranslation = translateRef[0];
-  var setShowTranslation = translateRef[1];
 
   // Ref для хранения всех вопросов при режиме "errors"
   var allQuestionsRef = useRef([]);
@@ -169,12 +165,6 @@ export default function useQuiz(topicId) {
     setIsFinished(true);
   }, [results, questions.length, topicId]);
 
-  /**
-   * Тоггл перевода (глобальный для сессии).
-   */
-  var toggleTranslation = useCallback(function () {
-    setShowTranslation(function (prev) { return !prev; });
-  }, []);
 
   return {
     questions:       questions,
@@ -187,7 +177,5 @@ export default function useQuiz(topicId) {
     finish:          finish,
     loading:         loading,
     error:           error,
-    showTranslation: showTranslation,
-    toggleTranslation: toggleTranslation,
   };
 }

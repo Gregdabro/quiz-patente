@@ -237,12 +237,17 @@
 .slide-transition-card {
   width: 100%;
   will-change: transform, opacity;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
 }
 
 /* Элемент в состоянии покоя */
 .slide-transition-card.active {
   position: relative;
-  transform: translateX(0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
   opacity: 1;
 }
 
@@ -252,7 +257,8 @@
   top: 0;
   left: 0;
   opacity: 0;
-  transform: translateX(-100px);
+  transform: translate3d(-100px, 0, 0);
+  -webkit-transform: translate3d(-100px, 0, 0);
   transition: opacity 0.3s ease, transform 0.3s ease;
   pointer-events: none; /* Блокируем клики на улетающем элементе */
 }
@@ -260,11 +266,12 @@
 .slide-transition-card.enter-forward {
   position: relative;
   animation: slideFadeEnterForward 0.3s ease forwards;
+  -webkit-animation: slideFadeEnterForward 0.3s ease forwards;
 }
 
 @keyframes slideFadeEnterForward {
-  from { opacity: 0; transform: translateX(100px); }
-  to { opacity: 1; transform: translateX(0); }
+  from { opacity: 0; transform: translate3d(100px, 0, 0); -webkit-transform: translate3d(100px, 0, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); -webkit-transform: translate3d(0, 0, 0); }
 }
 
 /* --- Назад (Backward) --- */
@@ -273,7 +280,8 @@
   top: 0;
   left: 0;
   opacity: 0;
-  transform: translateX(100px);
+  transform: translate3d(100px, 0, 0);
+  -webkit-transform: translate3d(100px, 0, 0);
   transition: opacity 0.3s ease, transform 0.3s ease;
   pointer-events: none;
 }
@@ -281,9 +289,10 @@
 .slide-transition-card.enter-backward {
   position: relative;
   animation: slideFadeEnterBackward 0.3s ease forwards;
+  -webkit-animation: slideFadeEnterBackward 0.3s ease forwards;
 }
 
 @keyframes slideFadeEnterBackward {
-  from { opacity: 0; transform: translateX(-100px); }
-  to { opacity: 1; transform: translateX(0); }
+  from { opacity: 0; transform: translate3d(-100px, 0, 0); -webkit-transform: translate3d(-100px, 0, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); -webkit-transform: translate3d(0, 0, 0); }
 }
