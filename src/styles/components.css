@@ -172,8 +172,13 @@
   display: flex;
   -webkit-align-items: center;
   align-items: center;
-  margin: var(--spacing-4) 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
+  background-color: transparent;
+  padding: 10px 0 20px 0;
+  z-index: 100;
 }
 
 .pagination-viewport-container {
@@ -181,35 +186,14 @@
   flex: 1;
   position: relative;
   overflow: hidden;
-  margin: 0 var(--spacing-1);
+  margin: 0;
 }
 
-/* Градиентные накладки для мягкого исчезновения */
-.pagination-viewport-container::before,
-.pagination-viewport-container::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 30px;
-  z-index: 10;
-  pointer-events: none;
-}
-
-.pagination-viewport-container::before {
-  left: 0;
-  background: -webkit-linear-gradient(left, #ffffff 15%, rgba(255, 255, 255, 0));
-  background: linear-gradient(to right, #ffffff 15%, rgba(255, 255, 255, 0));
-}
-
-.pagination-viewport-container::after {
-  right: 0;
-  background: -webkit-linear-gradient(right, #ffffff 15%, rgba(255, 255, 255, 0));
-  background: linear-gradient(to left, #ffffff 15%, rgba(255, 255, 255, 0));
-}
+/* Градиентные накладки отключены */
 
 .pagination-viewport {
-  overflow-x: auto; /* Для поддержки скролла (скроллбар скроем ниже) */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none; /* IE/Edge */
   scrollbar-width: none; /* Firefox */
 }
@@ -223,16 +207,17 @@
   display: flex;
   -webkit-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  padding: 8px 30px; /* Буферная зона для активной кнопки (30px соответствует градиенту) */
+  padding: 8px 16px; 
   -webkit-align-items: center;
   align-items: center;
 }
 
 .pagination-item {
-  min-width: 40px;
-  width: 40px;
-  height: 40px;
+  min-width: 38px;
+  width: 38px;
+  height: 38px;
   border-radius: var(--radius-full);
+  border: 1px solid #d1d5db; 
   display: -webkit-flex;
   display: flex;
   -webkit-align-items: center;
@@ -241,39 +226,44 @@
   justify-content: center;
   font-size: 16px;
   font-weight: 700;
-  color: #fff;
+  color: #45474D;
   cursor: pointer;
-  margin: 0 2.5px; /* Итого 5px между кнопками */
+  margin: 0 6px; 
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
-  background-color: var(--color-unanswered);
-  transition: background-color var(--transition-fast), transform var(--transition-fast);
-  -webkit-transition: background-color var(--transition-fast), transform var(--transition-fast);
+  background-color: #E7E8E9;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+  -webkit-transition: background-color var(--transition-fast), color var(--transition-fast);
 }
 
 .pagination-item.active {
-  background-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  z-index: 5;
+  background-color: #D7E2FF;
+  border-color: #101B30;
+  color: #101B30;
+}
+
+.pagination-item.correct {
+  background-color: rgba(22, 163, 74, 0.5);
+  border-color: transparent;
+  color: #fff;
+}
+
+.pagination-item.wrong {
+  background-color: #FFDAD7;
+  border-color: transparent;
+  color: #fff;
 }
 
 .pagination-item--finish {
   width: 100px;
-  min-width: 100px;
-  background-color: var(--color-header-bg);
+  height: 40px;
+  border-radius: 6px;
+  background-color: #fff;
+  color: var(--color-accent-dark);
   font-size: 14px;
-  letter-spacing: 0.5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.pagination-item.correct {
-  background-color: var(--color-success);
-}
-
-.pagination-item.wrong {
-  background-color: var(--color-wrong);
-}
 
 .nav-arrow {
   width: 36px;

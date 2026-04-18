@@ -57,12 +57,12 @@ const QuizPagination = ({
               );
             })}
             
-            {/* Кнопка "Финиш" (FINE) в конце ленты */}
+            {/* Кнопка "Финиш" (VERIFICA) в конце ленты */}
             <div 
               className="pagination-item pagination-item--finish"
               onClick={onFinish}
             >
-              FINE
+              VERIFICA
             </div>
           </div>
         </div>

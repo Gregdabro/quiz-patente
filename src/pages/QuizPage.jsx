@@ -95,7 +95,7 @@ const QuizPage = () => {
         onBackOverride={handleExitRequest}
       />
       
-      <div className="container" style={{ paddingBottom: 'var(--spacing-10)' }}>
+      <div className="container" style={{ paddingBottom: '120px' }}>
         {/* Пагинация (общие 30 вопросов) */}
         <QuizPagination 
           questions={questions}
