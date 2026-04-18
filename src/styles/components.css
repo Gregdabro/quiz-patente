@@ -398,7 +398,14 @@
   display: flex;
   -webkit-align-items: center;
   align-items: center;
-  gap: var(--spacing-4);
+}
+
+.question-card__actions-left .action-icon {
+  margin-right: var(--spacing-4);
+}
+
+.question-card__actions-left .action-icon:last-child {
+  margin-right: 0;
 }
 
 .question-card__actions-right {
