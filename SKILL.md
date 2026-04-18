@@ -468,7 +468,7 @@ import Icon from '../ui/Icon';
 <Icon name="check" size={16} color="var(--color-correct)" />
 
 // С доп. классом
-<Icon name="comment" size={22} className="my-class" />
+<Icon name="comment" size={30} className="my-class" />
 ```
 
 ### Доступные иконки (15 шт.)

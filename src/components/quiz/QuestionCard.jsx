@@ -77,7 +77,7 @@ const QuestionCard = ({
             onClick={() => setShowTranslation(!showTranslation)}
             title="Показать перевод"
           >
-            <Icon name="translate" size={20} />
+            <Icon name="translate" size={30} />
           </button>
 
           <button 
@@ -86,7 +86,7 @@ const QuestionCard = ({
             disabled={currentAnswer === undefined && !isSessionFinished}
             title="Показать комментарий"
           >
-            <Icon name="comment" size={22} />
+            <Icon name="comment" size={30} />
           </button>
         </div>
 
