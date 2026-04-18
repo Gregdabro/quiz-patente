@@ -226,3 +226,64 @@
   color: var(--color-text-muted);
   margin-bottom: var(--spacing-8);
 }
+
+/* === Slide Transition (Hardware Accelerated) === */
+.slide-transition-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Скрываем вылетающие за пределы элементы */
+}
+
+.slide-transition-card {
+  width: 100%;
+  will-change: transform, opacity;
+}
+
+/* Элемент в состоянии покоя */
+.slide-transition-card.active {
+  position: relative;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* --- Вперед (Forward) --- */
+.slide-transition-card.exit-forward {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none; /* Блокируем клики на улетающем элементе */
+}
+
+.slide-transition-card.enter-forward {
+  position: relative;
+  animation: slideFadeEnterForward 0.3s ease forwards;
+}
+
+@keyframes slideFadeEnterForward {
+  from { opacity: 0; transform: translateX(100px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* --- Назад (Backward) --- */
+.slide-transition-card.exit-backward {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.slide-transition-card.enter-backward {
+  position: relative;
+  animation: slideFadeEnterBackward 0.3s ease forwards;
+}
+
+@keyframes slideFadeEnterBackward {
+  from { opacity: 0; transform: translateX(-100px); }
+  to { opacity: 1; transform: translateX(0); }
+}

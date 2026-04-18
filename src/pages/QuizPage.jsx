@@ -11,6 +11,7 @@ import QuizPagination from '../components/quiz/QuizPagination';
 import QuestionCard from '../components/quiz/QuestionCard';
 import CommentAccordion from '../components/quiz/CommentAccordion';
 import ResultScreen from '../components/quiz/ResultScreen';
+import SlideTransition from '../components/ui/SlideTransition';
 import ConfirmationModal from '../components/ui/ConfirmationModal';
 
 /**
@@ -34,19 +35,22 @@ const QuizPage = () => {
     error 
   } = useQuiz(topicId);
   
-  // Состояние отображения комментария для текущего вопроса
   const [showComment, setShowComment] = useState(false);
   
-  // Состояние модального окна результатов
+  // Глобальное состояние перевода (сохраняется при смене вопроса)
+  const [globalTranslation, setGlobalTranslation] = useState(false);
+  
+  // Направление анимации перехода
+  const [transitionDirection, setTransitionDirection] = useState('forward');
+  
   const [showResults, setShowResults] = useState(false);
-
-  // Состояние модального окна выхода
   const [isExitModalOpen, setIsExitModalOpen] = useState(false);
 
-  // Обработчик переключения вопроса
   const handleGoTo = (index) => {
+    // Определяем направление перелистывания
+    setTransitionDirection(index > current ? 'forward' : 'backward');
     goTo(index);
-    setShowComment(false); // Скрываем комментарий при переходе
+    setShowComment(false);
   };
 
   // Логика свайпа
@@ -105,14 +109,18 @@ const QuizPage = () => {
           onFinish={handleFinish}
         />
 
-        <QuestionCard 
-          question={currentQuestion}
-          currentAnswer={currentAnswer}
-          isSessionFinished={isFinished}
-          onAnswer={handleAnswer}
-          showComment={showComment}
-          onToggleComment={() => setShowComment(!showComment)}
-        />
+        <SlideTransition contentKey={currentQuestion.id} direction={transitionDirection}>
+          <QuestionCard 
+            question={currentQuestion}
+            currentAnswer={currentAnswer}
+            isSessionFinished={isFinished}
+            onAnswer={handleAnswer}
+            showComment={showComment}
+            onToggleComment={() => setShowComment(!showComment)}
+            showTranslation={globalTranslation}
+            onToggleTranslation={() => setGlobalTranslation(!globalTranslation)}
+          />
+        </SlideTransition>
 
         {/* Аккордеон комментария (появляется по кнопке 💬) */}
         <CommentAccordion 

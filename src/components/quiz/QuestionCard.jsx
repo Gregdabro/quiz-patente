@@ -17,14 +17,10 @@ const QuestionCard = ({
   isSessionFinished,
   onAnswer,
   showComment,
-  onToggleComment
+  onToggleComment,
+  showTranslation,
+  onToggleTranslation
 }) => {
-  const [showTranslation, setShowTranslation] = useState(false);
-
-  // Сброс перевода при смене вопроса
-  useEffect(() => {
-    setShowTranslation(false);
-  }, [question.id]);
 
   const getButtonClass = (btnValue) => {
     let classes = 'btn-quiz';
@@ -74,7 +70,7 @@ const QuestionCard = ({
         <div className="question-card__actions-left">
           <button 
             className={'action-icon' + (showTranslation ? ' action-icon--active' : '')}
-            onClick={() => setShowTranslation(!showTranslation)}
+            onClick={onToggleTranslation}
             title="Показать перевод"
           >
             <Icon name="translate" size={30} />
