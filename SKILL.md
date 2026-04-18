@@ -347,6 +347,10 @@ const {
   --color-wrong-border:    #fecaca;
   --color-unanswered:      #d1d5db;   /* пагинация — не отвечен */
   --color-active:          #2563eb;   /* пагинация — активный */
+
+  /* Акцентные цвета (Redesign v3) */
+  --color-accent-dark:     #101B30;   /* темно-синий для текста и иконок */
+  --color-accent-light:    #D7E2FF;   /* светло-голубой для фона */
 }
 ```
 
@@ -476,7 +480,7 @@ import Icon from '../ui/Icon';
 | `book` | BottomNav — Словарь |
 | `arrow-left` | AppHeader — Назад |
 | `comment` | QuestionCard — Комментарий |
-| `translate` | (доступна, сейчас используется emoji 🇷🇺) |
+| `translate` | Кнопка перевода в Quiz |
 | `check` | Статус — верно |
 | `x` | Статус — неверно |
 | `check-circle` | ResultScreen — верно |
@@ -500,8 +504,8 @@ import Icon from '../ui/Icon';
 - **`React.memo`** на Icon — предотвращает лишние ре-рендеры SVG DOM (критично для iPad mini 2)
 - **`currentColor`** — цвет иконки наследуется от CSS родителя
 - **Tree-shaking** — Vite включает в бандл только импортированные иконки
-- **Никаких icon-библиотек** (FontAwesome и т.п.) — они слишком тяжёлые
-- **Emoji `🇷🇺`** оставлен для кнопки перевода — лучше UX-узнаваемость
+- **Никаких шрифтовых иконок** — только инлайновые SVG для скорости и кастомизации.
+- **Минимум emoji** — для кнопок действий используем `Icon.jsx` для консистентного стиля.
 
 ---
 

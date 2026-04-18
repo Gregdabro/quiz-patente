@@ -67,12 +67,11 @@ const QuestionCard = ({
       <div className="question-card__footer">
         <div className="question-card__actions-left">
           <button 
-            className="action-icon"
+            className={'action-icon' + (showTranslation ? ' action-icon--active' : '')}
             onClick={() => setShowTranslation(!showTranslation)}
             title="Показать перевод"
-            style={{ fontSize: '28px', marginRight: 'var(--spacing-3)' }}
           >
-            🇷🇺
+            <Icon name="translate" size={20} />
           </button>
 
           <button 

@@ -393,7 +393,14 @@
   align-items: center;
 }
 
-.question-card__actions-left,
+.question-card__actions-left {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  gap: var(--spacing-4);
+}
+
 .question-card__actions-right {
   display: -webkit-flex;
   display: flex;
@@ -523,15 +530,17 @@
 }
 
 .action-icon:disabled {
-  opacity: 0.35;
+  opacity: 0.6; /* Слегка увеличим прозрачность, чтобы цвет #6b7280 был лучше виден */
   cursor: default;
 }
 
 .action-icon--active {
-  color: var(--color-primary);
+  color: var(--color-accent-dark);
+  background-color: var(--color-accent-light);
 }
 
-.action-icon--active::after {
+/* Убираем нижнее подчеркивание, так как теперь есть заливка фона */
+/*.action-icon--active::after {
   content: '';
   position: absolute;
   bottom: -5px;
@@ -540,7 +549,7 @@
   height: 3px;
   background: var(--color-primary);
   border-radius: 2px;
-}
+}*/
 
 /* Кнопка стрелки назад в хедере */
 .header-back-btn {
