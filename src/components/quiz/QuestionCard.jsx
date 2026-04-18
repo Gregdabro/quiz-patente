@@ -46,7 +46,8 @@ const QuestionCard = ({
             <img 
               src={question.image} 
               alt="" 
-              loading="lazy" 
+              loading="eager" 
+              decoding="sync"
               className="question-card__image"
             />
           </div>

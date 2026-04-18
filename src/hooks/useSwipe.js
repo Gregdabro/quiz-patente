@@ -14,6 +14,7 @@ export default function useSwipe({ onSwipeLeft, onSwipeRight, threshold = 50 }) 
   const touchEndRef = useRef(null);
 
   const handleTouchStart = useCallback((e) => {
+    if (!e.targetTouches || e.targetTouches.length === 0) return;
     touchEndRef.current = null; // сброс
     touchStartRef.current = {
       x: e.targetTouches[0].clientX,
@@ -22,6 +23,7 @@ export default function useSwipe({ onSwipeLeft, onSwipeRight, threshold = 50 }) 
   }, []);
 
   const handleTouchMove = useCallback((e) => {
+    if (!e.targetTouches || e.targetTouches.length === 0) return;
     touchEndRef.current = {
       x: e.targetTouches[0].clientX,
       y: e.targetTouches[0].clientY

@@ -59,14 +59,6 @@ const QuizPage = () => {
     threshold: 60
   });
 
-  if (loading) return <Spinner />;
-  if (error) return <div className="container error" style={{ padding: '40px', textAlign: 'center' }}>{error}</div>;
-  if (!questions.length) return <div className="container" style={{ padding: '40px', textAlign: 'center' }}>Нет доступных вопросов</div>;
-
-  const currentQuestion = questions[current];
-  const currentAnswer = answered.has(currentQuestion.id) ? answered.get(currentQuestion.id) : undefined;
-  const isCorrect = currentAnswer !== undefined ? currentAnswer === currentQuestion.answer : null;
-
   // Обработчик ответа
   const handleAnswer = useCallback((userAnswer) => {
     answer(userAnswer);
@@ -95,6 +87,15 @@ const QuizPage = () => {
   const handleToggleTranslation = useCallback(() => {
     setGlobalTranslation(prev => !prev);
   }, []);
+
+  if (loading) return <Spinner />;
+  if (error) return <div className="container error" style={{ padding: '40px', textAlign: 'center' }}>{error}</div>;
+  if (!questions.length) return <div className="container" style={{ padding: '40px', textAlign: 'center' }}>Нет доступных вопросов</div>;
+
+  const currentQuestion = questions[current];
+  const currentAnswer = answered.has(currentQuestion.id) ? answered.get(currentQuestion.id) : undefined;
+  const isCorrect = currentAnswer !== undefined ? currentAnswer === currentQuestion.answer : null;
+
 
   return (
     <div className="page quiz-page" {...swipeHandlers}>

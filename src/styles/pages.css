@@ -236,11 +236,10 @@
 
 .slide-transition-card {
   width: 100%;
-  will-change: transform, opacity;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
+  /* Optimization: Removed will-change: transform, opacity and perspective: 1000px.
+     On 1GB RAM devices (iPad mini 2, A7 chip), aggressive layer creation causes OOM and WSOD. */
 }
 
 /* Элемент в состоянии покоя */

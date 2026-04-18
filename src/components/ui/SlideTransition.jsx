@@ -5,46 +5,44 @@ import React, { useState, useEffect, useRef } from 'react';
  * Рендерит старый и новый элементы одновременно для плавного эффекта.
  */
 const SlideTransition = ({ contentKey, children, direction = 'forward' }) => {
-  const [components, setComponents] = useState([
-    { key: contentKey, element: children, state: 'active' }
-  ]);
-  const isTransitioning = useRef(false);
+  const [exiting, setExiting] = useState(null);
+  const prevKey = useRef(contentKey);
+  const prevChildren = useRef(children);
+
+  // Когда меняется ключ вопроса, мы сохраняем старый компонент для анимации "вылета"
+  if (contentKey !== prevKey.current) {
+    setExiting({
+      key: prevKey.current,
+      element: prevChildren.current,
+      direction
+    });
+    prevKey.current = contentKey;
+  }
+
+  // Всегда сохраняем свежий children синхронно, чтобы UI обновлялся без задержек.
+  // Это полностью устраняет эффект "input lag" (300ms defer), 
+  // который был в старой реализации с useEffect.
+  prevChildren.current = children;
 
   useEffect(() => {
-    setComponents((prev) => {
-      const activeIdx = prev.findIndex((c) => c.state === 'active');
-      const activeComponent = prev[activeIdx];
-
-      // Если ключ не изменился, ничего не делаем
-      if (activeComponent && activeComponent.key === contentKey) {
-        return prev;
-      }
-
-      isTransitioning.current = true;
-
-      // Возвращаем старый (улетающий) и новый (прилетающий) элементы
-      return [
-        { ...activeComponent, state: `exit-${direction}` },
-        { key: contentKey, element: children, state: `enter-${direction}` }
-      ];
-    });
-
-    // Очищаем DOM от старого элемента после завершения CSS-анимации
-    const timer = setTimeout(() => {
-      setComponents([{ key: contentKey, element: children, state: 'active' }]);
-      isTransitioning.current = false;
-    }, 300); // Должно совпадать с длительностью анимации в CSS
-
-    return () => clearTimeout(timer);
-  }, [contentKey, children, direction]);
+    if (exiting) {
+      const timer = setTimeout(() => {
+        setExiting(null);
+      }, 300); // Должно совпадать с длительностью анимации в CSS
+      return () => clearTimeout(timer);
+    }
+  }, [exiting]);
 
   return (
     <div className="slide-transition-wrapper">
-      {components.map(({ key, element, state }) => (
-        <div key={key} className={`slide-transition-card ${state}`}>
-          {element}
+      {exiting && (
+        <div key={`exit-${exiting.key}`} className={`slide-transition-card exit-${exiting.direction}`}>
+          {exiting.element}
         </div>
-      ))}
+      )}
+      <div key={`enter-${contentKey}`} className={`slide-transition-card ${exiting ? `enter-${direction}` : 'active'}`}>
+        {children}
+      </div>
     </div>
   );
 };
