@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Button from '../ui/Button';
+import Icon from '../ui/Icon';
 
 /**
  * Компонент карточки вопроса.
@@ -33,6 +34,8 @@ const QuestionCard = ({
     return 'primary';
   };
 
+  var isAnswered = currentAnswer !== undefined || isSessionFinished;
+
   return (
     <div className="question-card card">
       <div className="question-card__body">
@@ -63,33 +66,23 @@ const QuestionCard = ({
 
       <div className="question-card__footer">
         <div className="question-card__actions-left">
-          <Button 
-            variant="icon" 
+          <button 
+            className="action-icon"
             onClick={() => setShowTranslation(!showTranslation)}
-            style={{ fontSize: '44px', marginRight: 'var(--spacing-4)' }}
             title="Показать перевод"
+            style={{ fontSize: '28px', marginRight: 'var(--spacing-3)' }}
           >
             🇷🇺
-          </Button>
+          </button>
 
-          <Button 
-            variant="icon" 
+          <button 
+            className={'action-icon' + (showComment ? ' action-icon--active' : '')}
             onClick={onToggleComment}
-            disabled={currentAnswer === undefined && !isSessionFinished}
-            style={{ fontSize: '44px', position: 'relative' }}
+            disabled={!isAnswered}
             title="Показать комментарий"
           >
-            💬
-            {showComment && <div style={{ 
-              position: 'absolute', 
-              bottom: '-5px', 
-              left: 0,
-              width: '100%', 
-              height: '3px', 
-              background: 'var(--color-primary)',
-              borderRadius: '2px'
-            }} />}
-          </Button>
+            <Icon name="comment" size={22} />
+          </button>
         </div>
 
         <div className="question-card__actions-right">

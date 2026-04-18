@@ -1,5 +1,6 @@
 import React from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import Icon from '../ui/Icon';
 
 /**
  * Верхняя навигационная панель (Хедер).
@@ -43,18 +44,11 @@ const AppHeader = ({
         <div style={{ display: 'flex', alignItems: 'center' }}>
           {showBack && (
             <button 
+              className="header-back-btn"
               onClick={handleBack}
-              style={{
-                background: 'none',
-                border: 'none',
-                color: 'inherit',
-                fontSize: '20px',
-                cursor: 'pointer',
-                padding: 'var(--spacing-2) 0',
-                marginRight: 'var(--spacing-3)'
-              }}
+              title="Назад"
             >
-              ←
+              <Icon name="arrow-left" size={22} />
             </button>
           )}
           <h1 style={{

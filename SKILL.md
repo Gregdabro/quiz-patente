@@ -64,6 +64,10 @@ quiz-patente/
 │       └── deploy.yml          ← CI/CD: автодеплой на Vercel
 ├── public/
 ├── src/
+│   ├── assets/
+│   │   └── icons/
+│   │       └── index.js          ← каталог SVG-путей (Lucide-based)
+│   │
 │   ├── data/                   ← статические данные (только чтение)
 │   │   ├── topics.json         ← метаданные 25 тем (id, title, image, count)
 │   │   └── questions/
@@ -84,6 +88,7 @@ quiz-patente/
 │   │   ├── ui/                 ← атомарные: кнопки, карточки, спиннер
 │   │   │   ├── Button.jsx
 │   │   │   ├── Card.jsx
+│   │   │   ├── Icon.jsx        ← универсальная SVG-иконка
 │   │   │   ├── ProgressBar.jsx
 │   │   │   └── Spinner.jsx
 │   │   ├── quiz/               ← компоненты специфичные для quiz
@@ -434,6 +439,72 @@ const {
 
 ---
 
+## 9.5. Система иконок (Icon System)
+
+**Подход:** Inline SVG компоненты (не спрайты, не иконочный шрифт).
+**Источник:** [Lucide Icons](https://lucide.dev/) (MIT), stroke-based, `viewBox="0 0 24 24"`.
+
+### Архитектура
+
+```
+src/assets/icons/index.js   ← каталог: объект ICONS { name: '<path ...>' }
+src/components/ui/Icon.jsx  ← обёртка: <svg> + React.memo
+```
+
+### Использование
+
+```jsx
+import Icon from '../ui/Icon';
+
+// Базовое — наследует цвет от родителя через currentColor
+<Icon name="home" size={24} />
+
+// С явным цветом
+<Icon name="check" size={16} color="var(--color-correct)" />
+
+// С доп. классом
+<Icon name="comment" size={22} className="my-class" />
+```
+
+### Доступные иконки (15 шт.)
+
+| Имя | Где используется |
+|---|---|
+| `home` | BottomNav — Главная |
+| `refresh` | BottomNav — Ошибки |
+| `chart` | BottomNav — Статистика |
+| `book` | BottomNav — Словарь |
+| `arrow-left` | AppHeader — Назад |
+| `comment` | QuestionCard — Комментарий |
+| `translate` | (доступна, сейчас используется emoji 🇷🇺) |
+| `check` | Статус — верно |
+| `x` | Статус — неверно |
+| `check-circle` | ResultScreen — верно |
+| `x-circle` | ResultScreen — неверно |
+| `flag` | Финиш |
+| `trophy` | Результат |
+| `rotate` | Попробовать снова |
+| `log-out` | Выход |
+
+### Добавление новой иконки (3 шага)
+
+1. Найти иконку на [lucide.dev](https://lucide.dev/)
+2. Скопировать содержимое `<svg>` и добавить в `src/assets/icons/index.js`:
+   ```javascript
+   'new-icon': '<path d="M..." />',
+   ```
+3. Использовать: `<Icon name="new-icon" />`
+
+### Принципы
+
+- **`React.memo`** на Icon — предотвращает лишние ре-рендеры SVG DOM (критично для iPad mini 2)
+- **`currentColor`** — цвет иконки наследуется от CSS родителя
+- **Tree-shaking** — Vite включает в бандл только импортированные иконки
+- **Никаких icon-библиотек** (FontAwesome и т.п.) — они слишком тяжёлые
+- **Emoji `🇷🇺`** оставлен для кнопки перевода — лучше UX-узнаваемость
+
+---
+
 ## 10. Маршруты
 
 ```
@@ -561,8 +632,10 @@ export default defineConfig({
 **1.5 UI-компоненты (атомарные)**
 - [x] `src/components/ui/Button.jsx`
 - [x] `src/components/ui/Card.jsx`
+- [x] `src/components/ui/Icon.jsx` — SVG-иконки (Lucide)
 - [x] `src/components/ui/ProgressBar.jsx`
 - [x] `src/components/ui/Spinner.jsx`
+- [x] `src/assets/icons/index.js` — каталог SVG-путей
 
 **1.6 Quiz-компоненты**
 - [x] `src/components/quiz/QuizPagination.jsx`

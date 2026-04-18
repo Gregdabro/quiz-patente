@@ -474,3 +474,94 @@
   justify-content: center;
 }
 
+/* === Иконки (SVG) === */
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+
+/* Иконка внутри BottomNav */
+.bottom-nav__icon {
+  font-size: 0;
+  line-height: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 28px;
+  margin-bottom: 2px;
+}
+
+/* Кнопки-иконки действий (перевод, комментарий) */
+.action-icon {
+  width: 48px;
+  height: 48px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  border: none;
+  cursor: pointer;
+  position: relative;
+  color: var(--color-text-secondary);
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+  -webkit-transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.action-icon:hover {
+  background-color: var(--color-surface-alt);
+}
+
+.action-icon:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.action-icon--active {
+  color: var(--color-primary);
+}
+
+.action-icon--active::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 15%;
+  width: 70%;
+  height: 3px;
+  background: var(--color-primary);
+  border-radius: 2px;
+}
+
+/* Кнопка стрелки назад в хедере */
+.header-back-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: var(--spacing-2);
+  margin-right: var(--spacing-2);
+  margin-left: calc(-1 * var(--spacing-2));
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-tap-highlight-color: transparent;
+  border-radius: var(--radius-full);
+  transition: background-color var(--transition-fast);
+  -webkit-transition: background-color var(--transition-fast);
+}
+
+.header-back-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+

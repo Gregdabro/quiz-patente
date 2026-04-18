@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Icon from '../ui/Icon';
 
 /**
  * Нижняя навигационная панель (BottomNav).
@@ -7,10 +8,10 @@ import { NavLink } from 'react-router-dom';
  */
 const BottomNav = () => {
   const navItems = [
-    { to: '/', label: 'Главная', icon: '🏠' },
-    { to: '/quiz/errors', label: 'Ошибки', icon: '🔁' },
-    { to: '/stats', label: 'Статистика', icon: '📊' },
-    { to: '/dictionary', label: 'Словарь', icon: '📖' },
+    { to: '/', label: 'Главная', icon: 'home' },
+    { to: '/quiz/errors', label: 'Ошибки', icon: 'refresh' },
+    { to: '/stats', label: 'Статистика', icon: 'chart' },
+    { to: '/dictionary', label: 'Словарь', icon: 'book' },
   ];
 
   return (
@@ -23,7 +24,9 @@ const BottomNav = () => {
             `bottom-nav__item ${isActive ? 'bottom-nav__item--active' : ''}`
           }
         >
-          <span className="bottom-nav__icon">{item.icon}</span>
+          <span className="bottom-nav__icon">
+            <Icon name={item.icon} size={24} />
+          </span>
           <span className="bottom-nav__label">{item.label}</span>
         </NavLink>
       ))}
