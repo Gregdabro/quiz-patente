@@ -42,20 +42,48 @@
 .btn-quiz {
   font-size: var(--font-size-lg);
   font-weight: 700;
-  padding: var(--spacing-4) var(--spacing-8);
-  min-width: 120px;
+  width: 150px;
+  height: 60px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
 }
 
 .btn-vero {
-  background-color: var(--color-success);
-  color: #fff;
-  box-shadow: var(--shadow-md);
+  background-color: var(--color-btn-quiz-bg);
+  border: 2px solid var(--color-accent-light);
+  color: var(--color-accent-dark);
 }
 
 .btn-falso {
-  background-color: var(--color-error);
+  background-color: var(--color-btn-quiz-bg);
+  border: 2px solid var(--color-accent-error-light);
+  color: var(--color-accent-dark);
+}
+
+/* Состояния после ответа */
+.btn-quiz.correct {
+  background-color: var(--color-success);
+  border-color: var(--color-success);
   color: #fff;
-  box-shadow: var(--shadow-md);
+}
+
+.btn-quiz.wrong {
+  background-color: var(--color-error);
+  border-color: var(--color-error);
+  color: #fff;
+}
+
+.btn-quiz:hover:not(:disabled) {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.btn-quiz:disabled {
+  opacity: 0.6;
+  cursor: default;
 }
 
 .btn-vero:hover,

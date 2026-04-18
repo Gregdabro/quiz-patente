@@ -26,15 +26,21 @@ const QuestionCard = ({
     setShowTranslation(false);
   }, [question.id]);
 
-  const getVariant = (btnValue) => {
-    if (currentAnswer === undefined && !isSessionFinished) return 'primary';
-    if (currentAnswer === btnValue) {
-      return question.answer === btnValue ? 'vero' : 'falso';
-    }
-    return 'primary';
-  };
+  const getButtonClass = (btnValue) => {
+    let classes = 'btn-quiz';
+    if (currentAnswer === undefined && !isSessionFinished) return classes;
 
-  var isAnswered = currentAnswer !== undefined || isSessionFinished;
+    // После ответа подсвечиваем правильный вариант зеленым
+    if (btnValue === question.answer) {
+      classes += ' correct';
+    } 
+    // Если пользователь ответил неверно, подсвечиваем его выбор красным
+    else if (currentAnswer === btnValue && currentAnswer !== question.answer) {
+      classes += ' wrong';
+    }
+
+    return classes;
+  };
 
   return (
     <div className="question-card card">
@@ -77,7 +83,7 @@ const QuestionCard = ({
           <button 
             className={'action-icon' + (showComment ? ' action-icon--active' : '')}
             onClick={onToggleComment}
-            disabled={!isAnswered}
+            disabled={currentAnswer === undefined && !isSessionFinished}
             title="Показать комментарий"
           >
             <Icon name="comment" size={22} />
@@ -86,8 +92,8 @@ const QuestionCard = ({
 
         <div className="question-card__actions-right">
           <Button 
-            variant={getVariant(true)}
-            className="btn-quiz"
+            variant="vero"
+            className={getButtonClass(true)}
             style={{ marginRight: 'var(--spacing-4)' }}
             onClick={() => onAnswer(true)}
             disabled={currentAnswer !== undefined || isSessionFinished}
@@ -95,8 +101,8 @@ const QuestionCard = ({
             VERO
           </Button>
           <Button 
-            variant={getVariant(false)}
-            className="btn-quiz"
+            variant="falso"
+            className={getButtonClass(false)}
             onClick={() => onAnswer(false)}
             disabled={currentAnswer !== undefined || isSessionFinished}
           >
