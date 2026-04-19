@@ -17,11 +17,11 @@ const questionsCache = import.meta.glob('../data/questions/topic_*.json');
  * @returns {Promise<Array>}
  */
 export async function loadTopicQuestions(topicId) {
-  var path = '../data/questions/topic_' + topicId + '.json';
+  const path = '../data/questions/topic_' + topicId + '.json';
   if (!questionsCache[path]) {
     throw new Error('Вопросы темы не найдены: ' + path);
   }
-  var module = await questionsCache[path]();
+  const module = await questionsCache[path]();
   return module.default || module;
 }
 
@@ -30,14 +30,16 @@ export async function loadTopicQuestions(topicId) {
  * @returns {Promise<Array>}
  */
 export async function loadAllQuestions() {
-  var promises = [];
-  for (var i = 1; i <= 25; i++) {
-    promises.push(loadTopicQuestions(i));
-  }
-  var results = await Promise.all(promises);
-  var all = [];
-  for (var j = 0; j < results.length; j++) {
-    all = all.concat(results[j]);
+  const ids = Array.from({ length: 25 }, (_, i) => i + 1);
+  const all = [];
+  const BATCH_SIZE = 5;
+
+  for (let i = 0; i < ids.length; i += BATCH_SIZE) {
+    const batch = ids.slice(i, i + BATCH_SIZE);
+    const results = await Promise.all(
+      batch.map(id => loadTopicQuestions(id))
+    );
+    all.push(...results.flat());
   }
   return all;
 }
@@ -48,7 +50,7 @@ export async function loadAllQuestions() {
  * @returns {Array} — 30 перемешанных вопросов
  */
 export function pickSessionQuestions(questions) {
-  var shuffled = shuffle(questions);
+  const shuffled = shuffle(questions);
   return shuffled.slice(0, SESSION_SIZE);
 }
 
@@ -57,10 +59,10 @@ export function pickSessionQuestions(questions) {
  * @returns {Promise<Array>}
  */
 export async function loadTopics() {
-  var path = '../data/topics.json';
+  const path = '../data/topics.json';
   if (!topicsCache[path]) {
     throw new Error('Метаданные тем не найдены');
   }
-  var module = await topicsCache[path]();
+  const module = await topicsCache[path]();
   return module.default || module;
 }
