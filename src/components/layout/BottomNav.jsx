@@ -9,7 +9,7 @@ import Icon from '../ui/Icon';
 const BottomNav = () => {
   const navItems = [
     { to: '/', label: 'Главная', icon: 'home' },
-    { to: '/quiz/errors', label: 'Ошибки', icon: 'refresh' },
+    { to: '/errors', label: 'Ошибки', icon: 'refresh' },
     { to: '/stats', label: 'Статистика', icon: 'chart' },
     { to: '/dictionary', label: 'Словарь', icon: 'book' },
   ];
