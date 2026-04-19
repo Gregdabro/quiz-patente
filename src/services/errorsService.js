@@ -82,6 +82,31 @@ export function getErrorQuestions(allQuestions) {
 }
 
 /**
+ * Получить количество ошибок для конкретной темы.
+ * Принимает уже загруженный массив вопросов и сверяет с qp_errors.
+ * @param {Array} topicQuestions — массив вопросов одной темы
+ * @returns {number}
+ */
+export function getErrorCountForQuestions(topicQuestions) {
+  var errorIds = getErrors();
+  var count = 0;
+  for (var i = 0; i < topicQuestions.length; i++) {
+    if (errorIds[String(topicQuestions[i].id)]) {
+      count++;
+    }
+  }
+  return count;
+}
+
+/**
+ * Получить общее количество уникальных вопросов с ошибками.
+ * @returns {number}
+ */
+export function getTotalErrorCount() {
+  return getErrorIds().length;
+}
+
+/**
  * Очистить все ошибки.
  */
 export function clearErrors() {
