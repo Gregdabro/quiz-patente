@@ -60,7 +60,8 @@ const ResultScreen = ({ results, total, onRestart, onClose, onFinish }) => {
           justifyContent: 'space-around', 
           marginBottom: 'var(--spacing-8)',
           padding: 'var(--spacing-4) 0',
-          borderBlock: '1px solid var(--color-border)'
+          borderTop: '1px solid var(--color-border)',
+          borderBottom: '1px solid var(--color-border)'
         }}>
           <div className="stat-item">
             <div style={{ fontSize: 'var(--font-size-2xl)', fontWeight: 'var(--font-weight-bold)', color: 'var(--color-correct)' }}>

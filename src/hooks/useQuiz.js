@@ -15,46 +15,28 @@ import { incrementError, decrementError } from '../services/errorsService.js';
 import { saveTestResult } from '../services/progressService.js';
 
 export default function useQuiz(topicId) {
-  var questionsRef = useState([]);
-  var questions = questionsRef[0];
-  var setQuestions = questionsRef[1];
-
-  var currentRef = useState(0);
-  var current = currentRef[0];
-  var setCurrent = currentRef[1];
-
+  const [questions, setQuestions] = useState([]);
+  const [current, setCurrent] = useState(0);
+  
   // Map: questionId → boolean (ответ пользователя)
-  var answeredRef = useState(function () { return new Map(); });
-  var answered = answeredRef[0];
-  var setAnswered = answeredRef[1];
-
+  const [answered, setAnswered] = useState(() => new Map());
+  
   // Массив { questionId, correct, topicId }
-  var resultsRef = useState([]);
-  var results = resultsRef[0];
-  var setResults = resultsRef[1];
-
-  var loadingRef = useState(true);
-  var loading = loadingRef[0];
-  var setLoading = loadingRef[1];
-
-  var errorRef = useState(null);
-  var error = errorRef[0];
-  var setError = errorRef[1];
-
-  var isFinishedRef = useState(false);
-  var isFinished = isFinishedRef[0];
-  var setIsFinished = isFinishedRef[1];
-
+  const [results, setResults] = useState([]);
+  
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const [isFinished, setIsFinished] = useState(false);
 
   // Ref для хранения всех вопросов при режиме "errors"
-  var allQuestionsRef = useRef([]);
+  const allQuestionsRef = useRef([]);
   // Защита от двойного сохранения статистики
-  var isSavedRef = useRef(false);
+  const isSavedRef = useRef(false);
   // Защита от Race Condition при быстром клике
-  var answeringRef = useRef(false);
+  const answeringRef = useRef(false);
 
-  useEffect(function () {
-    var cancelled = false;
+  useEffect(() => {
+    let cancelled = false;
 
     setLoading(true);
     setError(null);
@@ -66,12 +48,12 @@ export default function useQuiz(topicId) {
     isSavedRef.current = false;
     answeringRef.current = false;
 
-    var promise;
+    let promise;
 
     if (topicId === 'all') {
       promise = loadAllQuestions();
     } else if (topicId === 'errors') {
-      promise = loadAllQuestions().then(function (all) {
+      promise = loadAllQuestions().then((all) => {
         allQuestionsRef.current = all;
         return getErrorQuestions(all);
       });
@@ -80,35 +62,35 @@ export default function useQuiz(topicId) {
     }
 
     promise
-      .then(function (raw) {
+      .then((raw) => {
         if (cancelled) return;
-        var session = pickSessionQuestions(raw);
+        const session = pickSessionQuestions(raw);
         setQuestions(session);
         setLoading(false);
       })
-      .catch(function (err) {
+      .catch((err) => {
         if (cancelled) return;
         setError(err.message || 'Ошибка загрузки вопросов');
         setLoading(false);
       });
 
-    return function () { cancelled = true; };
+    return () => { cancelled = true; };
   }, [topicId]);
 
   /**
    * Ответить на текущий вопрос.
    * @param {boolean} userAnswer
- */
-  var answer = useCallback(function (userAnswer) {
+   */
+  const answer = useCallback((userAnswer) => {
     if (isFinished || answeringRef.current) return;
 
-    var q = questions[current];
+    const q = questions[current];
     if (!q) return;
     if (answered.has(q.id)) return; // уже отвечен
 
     answeringRef.current = true;
 
-    var isCorrect = userAnswer === q.answer;
+    const isCorrect = userAnswer === q.answer;
 
     // Обновляем ошибки
     if (isCorrect) {
@@ -118,12 +100,12 @@ export default function useQuiz(topicId) {
     }
 
     // Обновляем answered (новая Map для иммутабельности)
-    var newAnswered = new Map(answered);
+    const newAnswered = new Map(answered);
     newAnswered.set(q.id, userAnswer);
     setAnswered(newAnswered);
 
     // Обновляем results
-    var newResults = results.concat([{
+    const newResults = results.concat([{
       questionId: q.id,
       correct: isCorrect,
       topicId: q.topic_id,
@@ -135,9 +117,9 @@ export default function useQuiz(topicId) {
       setIsFinished(true);
     }
 
-    // Снимаем блокировку через небольшую задержку (или сразу после рендера)
+    // Снимаем блокировку через небольшую задержку
     // чтобы предотвратить дебаунс на уровне UI
-    setTimeout(function() {
+    setTimeout(() => {
       answeringRef.current = false;
     }, 50);
   }, [questions, current, answered, results, isFinished]);
@@ -146,7 +128,7 @@ export default function useQuiz(topicId) {
    * Перейти к вопросу по индексу (кликабельная пагинация).
    * @param {number} index
    */
-  var goTo = useCallback(function (index) {
+  const goTo = useCallback((index) => {
     if (index >= 0 && index < questions.length) {
       setCurrent(index);
     }
@@ -155,27 +137,26 @@ export default function useQuiz(topicId) {
   /**
    * Завершить сессию вручную и сохранить результат.
    */
-  var finish = useCallback(function () {
+  const finish = useCallback(() => {
     if (isSavedRef.current) return;
 
-    var correctCount = results.filter(function (r) { return r.correct; }).length;
+    const correctCount = results.filter((r) => r.correct).length;
     saveTestResult(topicId, correctCount, questions.length);
     
     isSavedRef.current = true;
     setIsFinished(true);
   }, [results, questions.length, topicId]);
 
-
   return {
-    questions:       questions,
-    current:         current,
-    goTo:            goTo,
-    answered:        answered,
-    answer:          answer,
-    results:         results,
-    isFinished:      isFinished,
-    finish:          finish,
-    loading:         loading,
-    error:           error,
+    questions,
+    current,
+    goTo,
+    answered,
+    answer,
+    results,
+    isFinished,
+    finish,
+    loading,
+    error,
   };
 }
