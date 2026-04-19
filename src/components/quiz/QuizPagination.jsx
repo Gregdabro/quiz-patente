@@ -33,7 +33,7 @@ const QuizPagination = ({
   }, [current]);
 
   return (
-    <div className="quiz-pagination-slider">
+    <div className="quiz-pagination-slider" data-no-swipe="true">
       <div className="pagination-viewport-container">
         <div className="pagination-viewport" ref={viewportRef}>
           <div className="pagination-track">
