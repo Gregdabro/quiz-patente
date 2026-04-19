@@ -30,10 +30,10 @@
   --color-text-muted:      #9ca3af;
 
   /* === Статусы ответа === */
-  --color-correct:         #16a34a;
+  --color-correct:         #34C759;
   --color-correct-bg:      #f0fdf4;
   --color-correct-border:  #bbf7d0;
-  --color-success:         #16a34a;
+  --color-success:         #34C759;
   --color-success-bg:      #f0fdf4;
   --color-wrong:           #dc2626;
   --color-wrong-bg:        #fef2f2;
