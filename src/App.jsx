@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage';
 import QuizPage from './pages/QuizPage';
 import StatsPage from './pages/StatsPage';
 import DictionaryPage from './pages/DictionaryPage';
+import ErrorsPage from './pages/ErrorsPage';
 import BottomNav from './components/layout/BottomNav';
 
 function AppContent() {
@@ -15,6 +16,7 @@ function AppContent() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/quiz/:topicId" element={<QuizPage />} />
+          <Route path="/errors" element={<ErrorsPage />} />
           <Route path="/stats" element={<StatsPage />} />
           <Route path="/dictionary" element={<DictionaryPage />} />
         </Routes>
