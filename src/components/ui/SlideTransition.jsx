@@ -28,7 +28,7 @@ const SlideTransition = ({ contentKey, children, direction = 'forward' }) => {
     if (exiting) {
       const timer = setTimeout(() => {
         setExiting(null);
-      }, 300); // Должно совпадать с длительностью анимации в CSS
+      }, 150); // Должно совпадать с длительностью анимации в CSS
       return () => clearTimeout(timer);
     }
   }, [exiting]);

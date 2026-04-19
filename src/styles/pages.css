@@ -250,48 +250,31 @@
   opacity: 1;
 }
 
-/* --- Вперед (Forward) --- */
-.slide-transition-card.exit-forward {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transform: translate3d(-100px, 0, 0);
-  -webkit-transform: translate3d(-100px, 0, 0);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  pointer-events: none; /* Блокируем клики на улетающем элементе */
-}
-
-.slide-transition-card.enter-forward {
-  position: relative;
-  animation: slideFadeEnterForward 0.3s ease forwards;
-  -webkit-animation: slideFadeEnterForward 0.3s ease forwards;
-}
-
-@keyframes slideFadeEnterForward {
-  from { opacity: 0; transform: translate3d(100px, 0, 0); -webkit-transform: translate3d(100px, 0, 0); }
-  to { opacity: 1; transform: translate3d(0, 0, 0); -webkit-transform: translate3d(0, 0, 0); }
-}
-
-/* --- Назад (Backward) --- */
+/* --- Fade Только (Оптимизация для iPad Mini 2) --- */
+.slide-transition-card.exit-forward,
 .slide-transition-card.exit-backward {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
   opacity: 0;
-  transform: translate3d(100px, 0, 0);
-  -webkit-transform: translate3d(100px, 0, 0);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  pointer-events: none;
+  transition: opacity 0.15s ease;
+  pointer-events: none; /* Блокируем клики на улетающем элементе */
 }
 
+.slide-transition-card.enter-forward,
 .slide-transition-card.enter-backward {
   position: relative;
-  animation: slideFadeEnterBackward 0.3s ease forwards;
-  -webkit-animation: slideFadeEnterBackward 0.3s ease forwards;
+  animation: fadeEnter 0.15s ease forwards;
+  -webkit-animation: fadeEnter 0.15s ease forwards;
 }
 
-@keyframes slideFadeEnterBackward {
-  from { opacity: 0; transform: translate3d(-100px, 0, 0); -webkit-transform: translate3d(-100px, 0, 0); }
-  to { opacity: 1; transform: translate3d(0, 0, 0); -webkit-transform: translate3d(0, 0, 0); }
+@keyframes fadeEnter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@-webkit-keyframes fadeEnter {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
