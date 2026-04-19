@@ -9,7 +9,7 @@
  */
 
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { loadTopicQuestions, loadAllQuestions, pickSessionQuestions } from '../services/questionsService.js';
+import { loadTopicQuestions, loadAllQuestions, loadTopicErrorQuestions, pickSessionQuestions } from '../services/questionsService.js';
 import { getErrorQuestions } from '../services/errorsService.js';
 import { incrementError, decrementError } from '../services/errorsService.js';
 import { saveTestResult } from '../services/progressService.js';
@@ -58,6 +58,10 @@ export default function useQuiz(topicId) {
         allQuestionsRef.current = all;
         return getErrorQuestions(all);
       });
+    } else if (typeof topicId === 'string' && topicId.startsWith('errors:')) {
+      // Режим «ошибки по конкретной теме»
+      const tid = topicId.slice(7); // убираем префикс 'errors:'
+      promise = loadTopicErrorQuestions(tid);
     } else {
       promise = loadTopicQuestions(topicId);
     }
