@@ -374,6 +374,66 @@
   to { opacity: 1; }
 }
 
+/* === Coming-Soon Page (Step 13 UX Improvement) === */
+.coming-soon {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  min-height: calc(100vh - var(--header-height) - var(--nav-height));
+  padding: var(--spacing-8) var(--spacing-4);
+  text-align: center;
+}
+
+/* Coming-Soon Icon Container */
+.coming-soon__icon {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-accent-light);
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-bottom: var(--spacing-6);
+  color: var(--color-primary);
+}
+
+/* Coming-Soon Title */
+.coming-soon__title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-3);
+  color: var(--color-text);
+}
+
+/* Coming-Soon Description */
+.coming-soon__description {
+  font-size: var(--font-size-md);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-4);
+  max-width: 300px;
+  line-height: 1.6;
+}
+
+/* Coming-Soon Status Badge */
+.coming-soon__badge {
+  display: inline-block;
+  background-color: var(--color-accent-light);
+  color: var(--color-primary);
+  padding: var(--spacing-2) var(--spacing-4);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  margin-top: var(--spacing-4);
+}
+
 /* === Accessibility / Performance === */
 @media (prefers-reduced-motion: reduce) {
   .slide-transition-card {
