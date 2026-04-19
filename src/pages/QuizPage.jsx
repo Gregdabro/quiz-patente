@@ -60,6 +60,9 @@ const QuizPage = () => {
     threshold: 60
   });
 
+  // Определяем куда возвращаться при выходе
+  const backPath = topicId.startsWith('errors:') ? '/errors' : '/';
+
   // Обработчик ответа
   const handleAnswer = useCallback((userAnswer) => {
     answer(userAnswer);
@@ -75,11 +78,11 @@ const QuizPage = () => {
   // Обработчик выхода
   const handleExitRequest = useCallback(() => {
     if (isFinished) {
-      navigate('/');
+      navigate(backPath);
     } else {
       setIsExitModalOpen(true);
     }
-  }, [isFinished, navigate]);
+  }, [isFinished, navigate, backPath]);
 
   const handleToggleComment = useCallback(() => {
     setShowComment(prev => !prev);
@@ -101,8 +104,12 @@ const QuizPage = () => {
   return (
     <div className="page quiz-page" {...swipeHandlers}>
       <AppHeader 
-        title={topicId === 'errors' ? 'Работа над ошибками' : 
-               topicId === 'all' ? 'Случайный тест' : `Тема ${topicId}`} 
+        title={
+          topicId === 'errors' ? 'Работа над ошибками' :
+          topicId === 'all'    ? 'Случайный тест' :
+          topicId.startsWith('errors:') ? `Ошибки — Тема ${topicId.slice(7)}` :
+          `Тема ${topicId}`
+        }
         showBack={true}
         onBackOverride={handleExitRequest}
       />
@@ -147,7 +154,7 @@ const QuizPage = () => {
               setShowResults(false);
             }}
             onClose={() => setShowResults(false)}
-            onFinish={() => navigate('/')}
+            onFinish={() => navigate(backPath)}
           />
         )}
 
@@ -155,7 +162,7 @@ const QuizPage = () => {
         <ConfirmationModal 
           isOpen={isExitModalOpen}
           message="Вы уверены, что хотите покинуть квиз? Ваш прогресс в этой сессии будет потерян."
-          onConfirm={() => navigate('/')}
+          onConfirm={() => navigate(backPath)}
           onCancel={() => setIsExitModalOpen(false)}
         />
       </div>
