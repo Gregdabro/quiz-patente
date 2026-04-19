@@ -5,7 +5,7 @@
  * topicId: "1"–"25" | "all" | "errors"
  *
  * Контракт:
- * { questions, current, goTo, answered, answer, results, isFinished, finish, loading, error }
+ * { questions, current, goTo, answered, answer, results, isFinished, finish, reset, loading, error }
  */
 
 import { useState, useEffect, useCallback, useRef } from 'react';
@@ -27,6 +27,7 @@ export default function useQuiz(topicId) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [isFinished, setIsFinished] = useState(false);
+  const [sessionKey, setSessionKey] = useState(0);
 
   // Ref для хранения всех вопросов при режиме "errors"
   const allQuestionsRef = useRef([]);
@@ -75,7 +76,7 @@ export default function useQuiz(topicId) {
       });
 
     return () => { cancelled = true; };
-  }, [topicId]);
+  }, [topicId, sessionKey]);
 
   /**
    * Ответить на текущий вопрос.
@@ -147,6 +148,13 @@ export default function useQuiz(topicId) {
     setIsFinished(true);
   }, [results, questions.length, topicId]);
 
+  /**
+   * Сбросить сессию и запустить новую (для кнопки "Попробовать снова").
+   */
+  const reset = useCallback(() => {
+    setSessionKey(prev => prev + 1);
+  }, []);
+
   return {
     questions,
     current,
@@ -156,6 +164,7 @@ export default function useQuiz(topicId) {
     results,
     isFinished,
     finish,
+    reset,
     loading,
     error,
   };

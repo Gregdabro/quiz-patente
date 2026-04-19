@@ -31,6 +31,7 @@ const QuizPage = () => {
     results,
     isFinished, 
     finish, 
+    reset,
     loading, 
     error 
   } = useQuiz(topicId);
@@ -141,7 +142,10 @@ const QuizPage = () => {
           <ResultScreen 
             results={results}
             total={questions.length}
-            onRestart={() => window.location.reload()}
+            onRestart={() => {
+              reset();
+              setShowResults(false);
+            }}
             onClose={() => setShowResults(false)}
             onFinish={() => navigate('/')}
           />

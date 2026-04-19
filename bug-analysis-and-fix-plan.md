@@ -501,7 +501,7 @@ const Spinner = ({ className = '' }) => (
 - **Результат:** снижение пикового потребления памяти в ~5 раз, устранение риска WSOD на iPad Mini 2
 - **Что делать:** переписать `loadAllQuestions` с `Promise.all(25)` на батчевую загрузку пачками по 5
 
-#### Шаг 6 — Заменить `window.location.reload()` на `reset()`
+#### [DONE] Шаг 6 — Заменить `window.location.reload()` на `reset()`
 - **Файлы:** `src/hooks/useQuiz.js`, `src/components/quiz/ResultScreen.jsx`, `src/pages/QuizPage.jsx`
 - **Сложность:** средняя
 - **Время:** ~45 минут
@@ -600,7 +600,7 @@ const Spinner = ({ className = '' }) => (
 - [x] Режим "все вопросы" запускается без OOM на iPad Mini 2
 - [x] Батчевая загрузка работает и данные появляются корректно
 - [x] Изображения используют `loading="lazy"` и `decoding="async"`
-- [ ] Перезапуск квиза работает через `reset()`, а не `reload()`
+- [x] Перезапуск квиза работает через `reset()`, а не `reload()`
 
 ### Качество кода
 - [x] `useQuiz` использует стандартную деструктуризацию `const [x, setX]`
