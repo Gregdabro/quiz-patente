@@ -278,3 +278,16 @@
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+/* === Accessibility / Performance === */
+@media (prefers-reduced-motion: reduce) {
+  .slide-transition-card {
+    animation: none !important;
+    -webkit-animation: none !important;
+    transition: none !important;
+  }
+  .progress-bar__fill,
+  .pagination-viewport {
+    transition: none !important;
+  }
+}

@@ -519,7 +519,7 @@ const Spinner = ({ className = '' }) => (
 - **Результат:** меньше GPU-нагрузки при свайпе на iPad Mini 2
 - **Что делать:** либо уменьшить длительность анимации до 150 мс, либо упростить до fade-only без translate3d
 
-#### Шаг 8 — Добавить `prefers-reduced-motion`
+#### [DONE] Шаг 8 — Добавить `prefers-reduced-motion`
 - **Файл:** `src/styles/pages.css`
 - **Сложность:** низкая
 - **Время:** ~10 минут
@@ -610,7 +610,7 @@ const Spinner = ({ className = '' }) => (
 - [ ] `Spinner` имеет CSS-анимацию вместо эмодзи
 
 ### UX
-- [ ] `prefers-reduced-motion` добавлен
+- [x] `prefers-reduced-motion` добавлен
 - [ ] Страницы StatsPage/DictionaryPage не вводят пользователя в заблуждение
 - [ ] Кнопка "Попробовать снова" не перезагружает страницу
 
