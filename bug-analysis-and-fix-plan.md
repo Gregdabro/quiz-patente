@@ -569,12 +569,17 @@ const Spinner = ({ className = '' }) => (
 - **Что делать:** добавить CSS-класс `.spinner` с `@keyframes spin` (код в п. 3.10)
 - **Выполнено:** .spinner класс добавлен в components.css с 0.8s линейной анимацией. Spinner.jsx полностью рефакторен - эмодзи удалён, добавлены role="status" и aria-label для доступности. Работает идеально на iPad Mini 2.
 
-#### Шаг 13 — Убрать заглушки из `BottomNav` или добавить информативный placeholder
-- **Файлы:** `src/pages/StatsPage.jsx`, `src/pages/DictionaryPage.jsx`, `src/components/layout/BottomNav.jsx`
+#### [DONE] Шаг 13 — Добавить профессиональный coming-soon дизайн
+- **Файлы:** `src/pages/StatsPage.jsx`, `src/pages/DictionaryPage.jsx`, `src/styles/pages.css`
 - **Сложность:** низкая
-- **Время:** ~30 минут
-- **Результат:** честный UX — пользователь понимает, что функция в разработке
-- **Что делать:** либо скрыть пункты меню до готовности фичей, либо добавить информативный coming-soon экран
+- **Время:** ~45 минут
+- **Результат:** честный UX с профессиональным дизайном — пользователь понимает, что функция в разработке
+- **Выполнено:** 
+  - ✅ Добавлены CSS-классы в `pages.css`: `.coming-soon`, `.coming-soon__icon` (80×80px с light blue фоном), `.coming-soon__title`, `.coming-soon__description`, `.coming-soon__badge`
+  - ✅ StatsPage.jsx обновлена: chart icon, title "Статистика прогресса", описание функций, badge "🚀 В разработке"
+  - ✅ DictionaryPage.jsx обновлена: book icon, title "Словарь ПДД", описание функций, badge "🚀 В разработке"
+  - ✅ Все классы совместимы с Safari 12 (используются -webkit- префиксы для flexbox)
+  - ✅ Создано 3 коммита: feat(styles), refactor(StatsPage), refactor(DictionaryPage)
 
 #### Шаг 14 — Проверить совместимость React 19 с Safari iOS 12
 - **Сложность:** высокая
