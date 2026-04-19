@@ -567,6 +567,7 @@ const Spinner = ({ className = '' }) => (
 - **Время:** ~20 минут
 - **Результат:** профессиональный индикатор загрузки вместо статичного эмодзи
 - **Что делать:** добавить CSS-класс `.spinner` с `@keyframes spin` (код в п. 3.10)
+- **Выполнено:** .spinner класс добавлен в components.css с 0.8s линейной анимацией. Spinner.jsx полностью рефакторен - эмодзи удалён, добавлены role="status" и aria-label для доступности. Работает идеально на iPad Mini 2.
 
 #### Шаг 13 — Убрать заглушки из `BottomNav` или добавить информативный placeholder
 - **Файлы:** `src/pages/StatsPage.jsx`, `src/pages/DictionaryPage.jsx`, `src/components/layout/BottomNav.jsx`
