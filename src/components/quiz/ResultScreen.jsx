@@ -18,84 +18,55 @@ const ResultScreen = ({ results, total, onRestart, onClose, onFinish }) => {
   const isPassed = wrongCount <= 4; // В итальянских правах обычно до 4 ошибок
 
   return (
-    <div className="result-screen" style={{ 
-      position: 'fixed',
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0,
-      backgroundColor: 'var(--color-bg)',
-      zIndex: 1100,
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      padding: 'var(--spacing-4)'
-    }}>
-      <div className="container" style={{ 
-        maxWidth: '400px',
-        backgroundColor: 'var(--color-surface)',
-        padding: 'var(--spacing-8)',
-        borderRadius: 'var(--radius-lg)',
-        boxShadow: 'var(--shadow-md)',
-        textAlign: 'center'
-      }}>
-        <h2 style={{ 
-          fontSize: 'var(--font-size-2xl)', 
-          marginBottom: 'var(--spacing-4)',
+    <div className="result-screen">
+      <div className="result-screen__container">
+        <h2 className="result-screen__title" style={{ 
           color: isPassed ? 'var(--color-correct)' : 'var(--color-wrong)'
         }}>
           {isPassed ? '🎉 Complimenti!' : '❌ Non superato'}
         </h2>
         
-        <div style={{ 
-          fontSize: 'var(--font-size-lg)', 
-          marginBottom: 'var(--spacing-6)',
-          color: 'var(--color-text-secondary)'
-        }}>
+        <div className="result-screen__subtitle">
           {isPassed ? 'Вы успешно прошли тест!' : 'К сожалению, вы совершили слишком много ошибок.'}
         </div>
 
-        <div className="result-stats" style={{ 
-          display: 'flex', 
-          justifyContent: 'space-around', 
-          marginBottom: 'var(--spacing-8)',
-          padding: 'var(--spacing-4) 0',
-          borderTop: '1px solid var(--color-border)',
-          borderBottom: '1px solid var(--color-border)'
-        }}>
-          <div className="stat-item">
-            <div style={{ fontSize: 'var(--font-size-2xl)', fontWeight: 'var(--font-weight-bold)', color: 'var(--color-correct)' }}>
+        <div className="result-screen__stats">
+          <div className="result-screen__stat">
+            <div className="result-screen__stat-value" style={{ color: 'var(--color-correct)' }}>
               {correctCount}
             </div>
-            <div style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-muted)' }}>ВЕРНО</div>
+            <div className="result-screen__stat-label">ВЕРНО</div>
           </div>
-          <div className="stat-item">
-            <div style={{ fontSize: 'var(--font-size-2xl)', fontWeight: 'var(--font-weight-bold)', color: 'var(--color-wrong)' }}>
+          <div className="result-screen__stat">
+            <div className="result-screen__stat-value" style={{ color: 'var(--color-wrong)' }}>
               {wrongCount}
             </div>
-            <div style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-muted)' }}>ОШИБОК</div>
+            <div className="result-screen__stat-label">ОШИБОК</div>
           </div>
-          <div className="stat-item">
-            <div style={{ fontSize: 'var(--font-size-2xl)', fontWeight: 'var(--font-weight-bold)', color: 'var(--color-primary)' }}>
+          <div className="result-screen__stat">
+            <div className="result-screen__stat-value" style={{ color: 'var(--color-primary)' }}>
               {scorePercent}%
             </div>
-            <div style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-muted)' }}>РЕЗУЛЬТАТ</div>
+            <div className="result-screen__stat-label">РЕЗУЛЬТАТ</div>
           </div>
         </div>
 
-        <div className="result-actions" style={{ 
-          display: 'flex', 
-          flexDirection: 'column'
-        }}>
-          <Button variant="primary" onClick={onRestart} style={{ marginBottom: 'var(--spacing-4)' }}>
-            🔁 Попробовать снова
-          </Button>
-          <Button variant="primary" onClick={onClose} style={{ backgroundColor: 'var(--color-primary-dark)', marginBottom: 'var(--spacing-4)' }}>
-            👀 Посмотреть ответы
-          </Button>
-          <Button variant="vero" onClick={onFinish} style={{ backgroundColor: 'var(--color-text-secondary)' }}>
-            ← К списку тем
-          </Button>
+        <div className="result-screen__actions">
+          <div className="result-screen__action-button">
+            <Button variant="primary" onClick={onRestart}>
+              🔁 Попробовать снова
+            </Button>
+          </div>
+          <div className="result-screen__action-button">
+            <Button variant="primary" onClick={onClose} style={{ backgroundColor: 'var(--color-primary-dark)' }}>
+              👀 Посмотреть ответы
+            </Button>
+          </div>
+          <div className="result-screen__action-button">
+            <Button variant="vero" onClick={onFinish} style={{ backgroundColor: 'var(--color-text-secondary)' }}>
+              ← К списку тем
+            </Button>
+          </div>
         </div>
       </div>
     </div>
