@@ -58,13 +58,6 @@
   --font-weight-bold:       700;
   --line-height:            1.5;
 
-  /* === Отступы === */
-  --space-xs:   4px;
-  --space-sm:   8px;
-  --space-md:   16px;
-  --space-lg:   24px;
-  --space-xl:   32px;
-  --space-2xl:  48px;
 
   /* === Сеточные отступы (v2) === */
   --spacing-1: 4px;
