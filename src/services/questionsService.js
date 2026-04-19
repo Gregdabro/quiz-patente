@@ -5,6 +5,7 @@
  */
 
 import { shuffle } from '../utils/shuffle.js';
+import { getErrors } from './errorsService.js';
 
 const SESSION_SIZE = 30;
 
@@ -52,6 +53,18 @@ export async function loadAllQuestions() {
 export function pickSessionQuestions(questions) {
   const shuffled = shuffle(questions);
   return shuffled.slice(0, SESSION_SIZE);
+}
+
+/**
+ * Загружает вопросы одной темы, отфильтрованные по ошибкам пользователя.
+ * Shuffle делает pickSessionQuestions / useQuiz — здесь не нужен.
+ * @param {number|string} topicId
+ * @returns {Promise<Array>}
+ */
+export async function loadTopicErrorQuestions(topicId) {
+  const allTopicQuestions = await loadTopicQuestions(topicId);
+  const errorIds = getErrors();
+  return allTopicQuestions.filter(q => errorIds[String(q.id)]);
 }
 
 /**
