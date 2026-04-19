@@ -227,6 +227,101 @@
   margin-bottom: var(--spacing-8);
 }
 
+/* === Result Screen Modal (Step 11 Refactor) === */
+
+/* Full-screen modal overlay */
+.result-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-bg);
+  z-index: 1100;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: var(--spacing-4);
+}
+
+/* Result container card */
+.result-screen__container {
+  max-width: 400px;
+  width: 100%;
+  background-color: var(--color-surface);
+  padding: var(--spacing-8);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+/* Title (success/failure message) */
+.result-screen__title {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--spacing-4);
+  /* Color will be set dynamically with inline style based on isPassed */
+}
+
+/* Subtitle/explanation text */
+.result-screen__subtitle {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-6);
+  color: var(--color-text-secondary);
+}
+
+/* Stats wrapper with borders */
+.result-screen__stats {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  margin-bottom: var(--spacing-8);
+  padding: var(--spacing-4) 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* Single stat column */
+.result-screen__stat {
+  -webkit-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+/* Stat number value */
+.result-screen__stat-value {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  /* Color will be set dynamically with inline style */
+}
+
+/* Stat label text */
+.result-screen__stat-label {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin-top: var(--spacing-1);
+}
+
+/* Actions section - vertical button layout */
+.result-screen__actions {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+/* Button wrapper for spacing */
+.result-screen__action-button {
+  margin-bottom: var(--spacing-4);
+}
+
+.result-screen__action-button:last-child {
+  margin-bottom: 0;
+}
+
 /* === Slide Transition (Hardware Accelerated) === */
 .slide-transition-wrapper {
   position: relative;
