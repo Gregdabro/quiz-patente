@@ -561,6 +561,97 @@
   color: var(--color-correct);
   border: 1px solid var(--color-correct-border);
 }
+
+/* === HomePage Refactoring (v3) === */
+.home-container {
+  padding-top: var(--spacing-4);
+}
+
+.home-title {
+  margin-bottom: var(--spacing-4);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+}
+
+.error-container {
+  padding: var(--spacing-6) var(--spacing-4);
+  text-align: center;
+  color: var(--color-error);
+  font-size: var(--font-size-base);
+}
+
+.topic-card--clickable {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.topic-card__header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-bottom: var(--spacing-4);
+}
+
+.topic-image {
+  width: 96px;
+  min-width: 96px;
+  height: 96px;
+  background-color: var(--color-bg);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+
+.topic-image__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.topic-info {
+  margin-left: var(--spacing-4);
+  -webkit-flex: 1;
+  flex: 1;
+  min-width: 0; /* Для корректного переноса текста */
+}
+
+.topic-info__title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+  margin-bottom: var(--spacing-1);
+  color: var(--color-text);
+  line-height: 1.3;
+  word-break: break-word;
+}
+
+.topic-info__count {
+  font-size: var(--font-size-md);
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.topic-progress {
+  margin-top: auto;
+}
+
+.topic-progress__stats {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: 2px;
+}
+
 /* === Accessibility / Performance === */
 @media (prefers-reduced-motion: reduce) {
   .slide-transition-card {

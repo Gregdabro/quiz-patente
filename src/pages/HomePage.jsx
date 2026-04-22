@@ -15,14 +15,14 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   if (loading) return <Spinner />;
-  if (error) return <div className="container error">{error}</div>;
+  if (error) return <div className="container error-container">{error}</div>;
 
   return (
     <div className="page homepage">
       <AppHeader title="Quiz Patente" />
       
-      <div className="container" style={{ paddingTop: 'var(--spacing-4)' }}>
-        <h2 style={{ marginBottom: 'var(--spacing-4)', fontSize: 'var(--font-size-xl)' }}>
+      <div className="container home-container">
+        <h2 className="home-title">
           Выберите тему
         </h2>
         
@@ -30,40 +30,30 @@ const HomePage = () => {
           {topics.map((topic) => (
             <Card 
               key={topic.topic_id} 
-              className="topic-card"
+              className="topic-card topic-card--clickable"
               onClick={() => navigate(`/quiz/${topic.topic_id}`)}
-              style={{ display: 'flex', flexDirection: 'column' }}
             >
-              <div style={{ display: 'flex', alignItems: 'center', marginBottom: 'var(--spacing-4)' }}>
-                <div 
-                  className="topic-image" 
-                  style={{ 
-                    width: '96px', 
-                    height: '96px', 
-                    backgroundColor: 'var(--color-bg)',
-                    borderRadius: 'var(--radius-md)',
-                    overflow: 'hidden'
-                  }}
-                >
+              <div className="topic-card__header">
+                <div className="topic-image">
                   <img 
                     src={topic.image} 
                     alt="" 
-                    loading="lazy" 
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    loading="lazy"
+                    className="topic-image__img"
                   />
                 </div>
-                <div className="topic-info" style={{ marginLeft: 'var(--spacing-4)' }}>
-                  <h3 style={{ fontSize: 'var(--font-size-lg)', margin: 0, marginBottom: 'var(--spacing-1)' }}>
+                <div className="topic-info">
+                  <h3 className="topic-info__title">
                     {topic.title}
                   </h3>
-                  <p style={{ fontSize: 'var(--font-size-md)', color: 'var(--color-text-muted)', margin: 0 }}>
+                  <p className="topic-info__count">
                     Вопросов: {topic.questions_count}
                   </p>
                 </div>
               </div>
               
               <div className="topic-progress">
-                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 'var(--font-size-sm)', marginBottom: '2px' }}>
+                <div className="topic-progress__stats">
                   <span>Прогресс: {topic.progress?.correct || 0} / {topic.questions_count}</span>
                   <span>{Math.round((topic.progress?.correct || 0) / topic.questions_count * 100)}%</span>
                 </div>

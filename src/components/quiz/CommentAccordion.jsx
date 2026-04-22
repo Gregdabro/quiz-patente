@@ -11,42 +11,34 @@ import React from 'react';
 const CommentAccordion = ({ comment, isVisible, isCorrect }) => {
   if (!isVisible || !comment) return null;
 
+  const accordionClass = isCorrect 
+    ? 'comment-accordion comment-accordion--correct'
+    : 'comment-accordion comment-accordion--wrong';
+
   return (
-    <div className="comment-accordion" style={{ 
-      marginTop: 'var(--spacing-4)',
-      padding: 'var(--spacing-4)',
-      backgroundColor: isCorrect ? 'var(--color-correct-bg)' : 'var(--color-wrong-bg)',
-      border: `1px solid ${isCorrect ? 'var(--color-correct-border)' : 'var(--color-wrong-border)'}`,
-      borderRadius: 'var(--radius-md)',
-      transition: 'all var(--transition-base)'
-    }}>
-      <div className="comment-status" style={{ 
-        fontWeight: 'var(--font-weight-bold)', 
-        color: isCorrect ? 'var(--color-correct)' : 'var(--color-wrong)',
-        marginBottom: 'var(--spacing-3)',
-        fontSize: 'var(--font-size-md)'
-      }}>
+    <div className={accordionClass}>
+      <div className={`comment-status ${isCorrect ? 'comment-status--correct' : 'comment-status--wrong'}`}>
         {isCorrect ? '✅ Corretto!' : '❌ Sbagliato!'}
       </div>
 
       <div className="comment-body">
         {comment.image && (
-          <div className="comment-image" style={{ marginBottom: 'var(--spacing-3)', textAlign: 'center' }}>
+          <div className="comment-image">
             <img 
               src={comment.image} 
               alt="комментарий" 
-              loading="lazy" 
-              style={{ maxWidth: '100%', borderRadius: 'var(--radius-sm)' }} 
+              loading="lazy"
+              className="comment-image__img"
             />
           </div>
         )}
         
-        <div className="comment-text" style={{ fontSize: 'var(--font-size-md)', lineHeight: 1.5 }}>
-          <p className="text-it" style={{ fontWeight: 'var(--font-weight-medium)', marginBottom: 'var(--spacing-2)' }}>
+        <div className="comment-text">
+          <p className="comment-text__it">
             {comment.text}
           </p>
           {comment.text_ru && (
-            <p className="text-ru" style={{ color: 'var(--color-text-secondary)' }}>
+            <p className="comment-text__ru">
               {comment.text_ru}
             </p>
           )}
