@@ -264,6 +264,21 @@
   color: #fff;
   font-size: 14px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: background-color var(--transition-fast), opacity var(--transition-fast), cursor var(--transition-fast);
+  -webkit-transition: background-color var(--transition-fast), opacity var(--transition-fast), cursor var(--transition-fast);
+  cursor: pointer;
+}
+
+/* Disabled state for VERIFICA button when not all questions are answered */
+.pagination-item--finish.disabled {
+  background-color: var(--color-unanswered);
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.pagination-item--finish.disabled:active {
+  transform: none;
 }
 
 

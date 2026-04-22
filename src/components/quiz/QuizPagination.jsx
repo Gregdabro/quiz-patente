@@ -8,13 +8,16 @@ import React, { useRef, useEffect } from 'react';
  * @param {number} current — индекс текущего вопроса
  * @param {Object} answered — мапа ответов { index: answerValue }
  * @param {Function} onSelect — обработчик выбора вопроса
+ * @param {Function} onFinish — обработчик нажатия VERIFICA
+ * @param {boolean} isFinished — завершены ли все вопросы (определяет активность кнопки VERIFICA)
  */
 const QuizPagination = ({ 
   questions, 
   current, 
   answered, 
   onSelect,
-  onFinish 
+  onFinish,
+  isFinished = false
 }) => {
   const viewportRef = useRef(null);
 
@@ -59,8 +62,8 @@ const QuizPagination = ({
             
             {/* Кнопка "Финиш" (VERIFICA) в конце ленты */}
             <div 
-              className="pagination-item pagination-item--finish"
-              onClick={onFinish}
+              className={`pagination-item pagination-item--finish ${!isFinished ? 'disabled' : ''}`}
+              onClick={() => isFinished && onFinish()}
             >
               VERIFICA
             </div>

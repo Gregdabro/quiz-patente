@@ -122,6 +122,7 @@ const QuizPage = () => {
           answered={answered}
           onSelect={handleGoTo}
           onFinish={handleFinish}
+          isFinished={isFinished}
         />
 
         <SlideTransition contentKey={currentQuestion.id} direction={transitionDirection}>
