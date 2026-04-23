@@ -7,17 +7,15 @@ import { useState, useCallback } from 'react';
 import { getProgress, getTopicProgress } from '../services/progressService.js';
 
 export default function useProgress() {
-  var stateRef = useState(function () { return getProgress(); });
-  var progress = stateRef[0];
-  var setProgress = stateRef[1];
+  const [progress, setProgress] = useState(() => getProgress());
 
-  var refresh = useCallback(function () {
+  const refresh = useCallback(() => {
     setProgress(getProgress());
   }, []);
 
-  var getForTopic = useCallback(function (topicId) {
+  const getForTopic = useCallback((topicId) => {
     return getTopicProgress(topicId);
   }, []);
 
-  return { progress: progress, refresh: refresh, getForTopic: getForTopic };
+  return { progress, refresh, getForTopic };
 }

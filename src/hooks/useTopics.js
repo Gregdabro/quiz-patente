@@ -8,29 +8,28 @@ import { loadTopics } from '../services/questionsService.js';
 import { getTopicProgress } from '../services/progressService.js';
 
 export default function useTopics() {
-  var initialState = { topics: [], loading: true, error: null };
-  var stateRef = useState(initialState);
-  var state = stateRef[0];
-  var setState = stateRef[1];
+  const [state, setState] = useState({ topics: [], loading: true, error: null });
 
-  useEffect(function () {
-    var cancelled = false;
+  useEffect(() => {
+    let cancelled = false;
 
     loadTopics()
-      .then(function (raw) {
+      .then((raw) => {
         if (cancelled) return;
-        var enriched = raw.map(function (topic) {
-          var progress = getTopicProgress(topic.topic_id);
-          return Object.assign({}, topic, { progress: progress });
+        const enriched = raw.map((topic) => {
+          const progress = getTopicProgress(topic.topic_id);
+          return { ...topic, progress };
         });
         setState({ topics: enriched, loading: false, error: null });
       })
-      .catch(function (err) {
+      .catch((err) => {
         if (cancelled) return;
         setState({ topics: [], loading: false, error: err.message });
       });
 
-    return function () { cancelled = true; };
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   return state;
