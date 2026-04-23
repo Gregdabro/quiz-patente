@@ -9,50 +9,60 @@ import '../../styles/components.css';
  * Used in StatsPage to show progress across all topics.
  *
  * Props:
- *   - topic: { topic_id, title, questions_count }
- *   - progress: { lastRun, correct, total, bestScore, runs } | null
+ *   - title: string - Topic name
+ *   - bestScore: number | null - Best score achieved in this topic
+ *   - runs: number - Number of times this topic was completed
+ *   - lastRun: timestamp | null - Unix timestamp of last attempt
  */
-const TopicStatRow = ({ topic, progress }) => {
-  if (!topic) return null;
+const TopicStatRow = ({ title, bestScore, runs, lastRun }) => {
+  /**
+   * Format Unix timestamp to DD.MM.YYYY format
+   */
+  const formatDate = (timestamp) => {
+    if (!timestamp) return '—';
+    const date = new Date(timestamp);
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const year = date.getFullYear();
+    return `${day}.${month}.${year}`;
+  };
 
-  // Calculate accuracy percentage based on best score or current correct
-  const scoreValue = progress?.bestScore ?? progress?.correct ?? 0;
-  const totalValue = progress?.total ?? 30;
-  const percentage = totalValue > 0 ? Math.round((scoreValue / totalValue) * 100) : 0;
+  /**
+   * Calculate percentage based on bestScore
+   */
+  const percentage = bestScore ? Math.round((bestScore / 30) * 100) : 0;
+  const lastRunDate = formatDate(lastRun);
 
   return (
     <div className="topic-stat-row">
       {/* Left Section: Topic Info */}
       <div className="topic-stat-row__left">
-        <h3 className="topic-stat-row__title">{topic.title}</h3>
-        <p className="topic-stat-row__count">
-          {topic.questions_count} вопросов
-        </p>
+        <h3 className="topic-stat-row__title">{title}</h3>
       </div>
 
       {/* Right Section: Statistics or Empty State */}
       <div className="topic-stat-row__right">
-        {progress ? (
+        {bestScore ? (
           <>
             <div className="topic-stat-row__stats">
               <div className="topic-stat-row__stat-item">
                 <span className="topic-stat-row__stat-label">Попыток:</span>
                 <span className="topic-stat-row__stat-value">
-                  {progress.runs}
+                  {runs}
                 </span>
               </div>
 
               <div className="topic-stat-row__stat-item">
                 <span className="topic-stat-row__stat-label">Лучший:</span>
                 <span className="topic-stat-row__stat-value">
-                  {progress.bestScore || progress.correct}/30
+                  {bestScore}/30
                 </span>
               </div>
 
               <div className="topic-stat-row__stat-item">
-                <span className="topic-stat-row__stat-label">Точность:</span>
+                <span className="topic-stat-row__stat-label">Дата:</span>
                 <span className="topic-stat-row__stat-value">
-                  {percentage}%
+                  {lastRunDate}
                 </span>
               </div>
             </div>
@@ -62,7 +72,7 @@ const TopicStatRow = ({ topic, progress }) => {
             </div>
           </>
         ) : (
-          <p className="topic-stat-row__no-data">Нет данных</p>
+          <p className="topic-stat-row__no-data">Не пройдено</p>
         )}
       </div>
     </div>
