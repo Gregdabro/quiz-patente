@@ -1,9 +1,11 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import useTopics from '../hooks/useTopics';
+import useProgress from '../hooks/useProgress';
 import Card from '../components/ui/Card';
 import ProgressBar from '../components/ui/ProgressBar';
 import Spinner from '../components/ui/Spinner';
+import ProgressSummary from '../components/stats/ProgressSummary';
 import AppHeader from '../components/layout/AppHeader';
 
 /**
@@ -12,6 +14,7 @@ import AppHeader from '../components/layout/AppHeader';
  */
 const HomePage = () => {
   const { topics, loading, error } = useTopics();
+  const { progress } = useProgress();
   const navigate = useNavigate();
 
   if (loading) return <Spinner />;
@@ -22,6 +25,8 @@ const HomePage = () => {
       <AppHeader title="Quiz Patente" />
       
       <div className="container home-container">
+        <ProgressSummary progress={progress} />
+        
         <h2 className="home-title">
           Выберите тему
         </h2>
