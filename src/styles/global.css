@@ -91,6 +91,22 @@
   /* === Размеры layout === */
   --header-height: 52px;
   --nav-height:    56px;
+
+  /* === Dictionary Entry Types === */
+  --color-dict-logic-bg:     #fef3c7;
+  --color-dict-logic-text:   #92400e;
+  --color-dict-term-bg:      #dbeafe;
+  --color-dict-term-text:    #1e40af;
+  --color-dict-phrase-bg:    #d1fae5;
+  --color-dict-phrase-text:  #065f46;
+  --color-dict-concept-bg:   #ede9fe;
+  --color-dict-concept-text: #5b21b6;
+
+  /* === Logic Trigger Patterns === */
+  --color-logic-false-bg:    #fef2f2;
+  --color-logic-false-text:  #dc2626;
+  --color-logic-true-bg:     #f0fdf4;
+  --color-logic-true-text:   #34C759;
 }
 
 /* === Сброс === */
