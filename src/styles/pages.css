@@ -837,6 +837,97 @@
   margin-bottom: 2px;
 }
 
+/* === Dictionary Page === */
+
+.dictionary-page {
+  padding-bottom: var(--nav-height);
+}
+
+/* Шапка с прогрессом */
+.dict-page-header {
+  padding: var(--spacing-4) 0 var(--spacing-3);
+}
+
+.dict-page-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  margin: 0;
+  margin-bottom: var(--spacing-3);
+}
+
+/* Прогресс-бар изучения */
+.dict-progress {
+  margin-bottom: var(--spacing-1);
+}
+
+.dict-progress__label {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-2);
+}
+
+.dict-progress__count {
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+}
+
+/* Фильтры и поиск */
+.dict-controls {
+  padding: var(--spacing-3) 0;
+}
+
+.dict-controls__search {
+  margin-bottom: var(--spacing-3);
+}
+
+.dict-controls__filter {
+  /* TypeFilter уже скроллируется сам */
+}
+
+/* Список карточек */
+.dict-list {
+  padding-top: var(--spacing-4);
+  padding-bottom: var(--spacing-6);
+}
+
+/* Пустое состояние */
+.dict-empty {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: var(--spacing-10) var(--spacing-4);
+  text-align: center;
+}
+
+.dict-empty__icon {
+  font-size: 40px;
+  margin-bottom: var(--spacing-4);
+}
+
+.dict-empty__text {
+  font-size: var(--font-size-md);
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.dict-error {
+  padding: var(--spacing-9) 0;
+  text-align: center;
+  color: var(--color-error);
+}
+
 /* === Accessibility / Performance === */
 @media (prefers-reduced-motion: reduce) {
   .slide-transition-card {

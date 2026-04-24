@@ -841,3 +841,360 @@
   }
 }
 
+
+/* ============================================================
+   === Dictionary Components ===
+   ============================================================ */
+
+/* --- SearchBar --- */
+
+.dict-search {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: 0 var(--spacing-4);
+  box-shadow: var(--shadow-sm);
+}
+
+.dict-search__icon {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-right: var(--spacing-3);
+  pointer-events: none;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+
+.dict-search__input {
+  -webkit-flex: 1;
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  outline: none;
+  padding: var(--spacing-3) 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.dict-search__input::-webkit-input-placeholder {
+  color: var(--color-text-muted);
+}
+
+.dict-search__input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.dict-search__clear {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: var(--spacing-1);
+  margin-left: var(--spacing-2);
+  border-radius: var(--radius-full);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+
+.dict-search__clear:active {
+  background-color: var(--color-surface-alt);
+}
+
+/* --- TypeFilter --- */
+
+.dict-type-filter {
+  display: -webkit-flex;
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: var(--spacing-1);
+}
+
+/* Скрываем скроллбар визуально, но оставляем функциональность */
+.dict-type-filter::-webkit-scrollbar {
+  display: none;
+}
+
+.dict-type-filter__btn {
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  white-space: nowrap;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: var(--spacing-2) var(--spacing-4);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  margin-right: var(--spacing-2);
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+  -webkit-transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.dict-type-filter__btn:last-child {
+  margin-right: 0;
+}
+
+.dict-type-filter__btn--active {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.dict-type-filter__btn:active {
+  opacity: 0.8;
+}
+
+/* --- DictionaryEntryCard --- */
+
+.dict-entry-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  margin-bottom: var(--spacing-3);
+  transition: box-shadow var(--transition-fast);
+  -webkit-transition: box-shadow var(--transition-fast);
+}
+
+.dict-entry-card--expanded {
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
+}
+
+/* Заголовок карточки */
+.dict-entry-card__header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: var(--spacing-3) var(--spacing-4);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.dict-entry-card__header:active {
+  background-color: var(--color-surface-alt);
+}
+
+.dict-entry-card__header-left {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  min-width: 0;
+}
+
+.dict-entry-card__header-right {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  margin-left: var(--spacing-3);
+}
+
+/* Бейдж типа */
+.dict-entry-card__badge {
+  font-size: 10px;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.5px;
+  padding: 2px var(--spacing-2);
+  border-radius: var(--radius-sm);
+  margin-right: var(--spacing-3);
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.dict-entry-card__badge--logic-trigger {
+  background-color: var(--color-dict-logic-bg);
+  color: var(--color-dict-logic-text);
+}
+
+.dict-entry-card__badge--term {
+  background-color: var(--color-dict-term-bg);
+  color: var(--color-dict-term-text);
+}
+
+.dict-entry-card__badge--phrase {
+  background-color: var(--color-dict-phrase-bg);
+  color: var(--color-dict-phrase-text);
+}
+
+.dict-entry-card__badge--concept {
+  background-color: var(--color-dict-concept-bg);
+  color: var(--color-dict-concept-text);
+}
+
+/* Термины */
+.dict-entry-card__terms {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.dict-entry-card__term {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  line-height: 1.2;
+}
+
+.dict-entry-card__term-ru {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+/* Метка "изучено" */
+.dict-entry-card__seen-mark {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-right: var(--spacing-2);
+}
+
+.dict-entry-card__toggle-icon {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/* Тело аккордеона — max-height анимация (iOS 12 совместимо) */
+.dict-entry-card__body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition-slow);
+  -webkit-transition: max-height var(--transition-slow);
+}
+
+.dict-entry-card__body--open {
+  max-height: 600px;
+}
+
+.dict-entry-card__body-inner {
+  padding: 0 var(--spacing-4) var(--spacing-4);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--spacing-4);
+}
+
+/* Секции внутри тела */
+.dict-entry-card__section {
+  margin-bottom: var(--spacing-4);
+}
+
+.dict-entry-card__section:last-child {
+  margin-bottom: 0;
+}
+
+.dict-entry-card__section-label {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: var(--spacing-2);
+}
+
+.dict-entry-card__section-text {
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  line-height: var(--line-height);
+  margin: 0;
+}
+
+/* Процент bias */
+.dict-entry-card__pct {
+  font-size: 11px;
+  font-weight: var(--font-weight-bold);
+  padding: 1px var(--spacing-2);
+  border-radius: var(--radius-full);
+  margin-left: var(--spacing-2);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.dict-entry-card__pct--falso {
+  background-color: var(--color-wrong-bg);
+  color: var(--color-wrong);
+}
+
+.dict-entry-card__pct--vero {
+  background-color: var(--color-correct-bg);
+  color: var(--color-correct);
+}
+
+/* Пример */
+.dict-entry-card__example {
+  background-color: var(--color-surface-alt);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-3);
+  border-left: 3px solid var(--color-border);
+}
+
+.dict-entry-card__example-it {
+  font-size: var(--font-size-xs);
+  font-style: italic;
+  color: var(--color-text);
+  margin: 0;
+  margin-bottom: var(--spacing-1);
+  line-height: var(--line-height);
+}
+
+.dict-entry-card__example-ru {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin: 0;
+  margin-bottom: var(--spacing-2);
+  line-height: var(--line-height);
+}
+
+.dict-entry-card__example-answer {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+}
+
+.dict-entry-card__example-answer--vero {
+  color: var(--color-correct);
+}
+
+.dict-entry-card__example-answer--falso {
+  color: var(--color-wrong);
+}
+
+.dict-entry-card__example-comment {
+  font-weight: var(--font-weight-normal);
+  color: var(--color-text-secondary);
+}
