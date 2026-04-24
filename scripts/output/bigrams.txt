@@ -1,0 +1,60 @@
+Quiz Patente — Dictionary Candidates: BIGRAMS
+Generated: 2026-04-24T07:17:17.005Z
+Total questions: 7144 | Unique bigrams: 23957
+
+═══ ТОП-50 БИГРАММ ═══
+
+───────────────────────────────────────────────────────────────────────────────────
+Биграмма                           │  Частота │   Темы │   VERO% │  FALSO% │   Bias
+───────────────────────────────────────────────────────────────────────────────────
+segnale raffigurato                │     2523 │      8 │     48% │     52% │   ⚪ нейтр
+il segnale                         │     2341 │     17 │     48% │     52% │   ⚪ нейтр
+raffigurato indica                 │      762 │      8 │     37% │     63% │   🟡 falso
+il veicolo                         │      445 │     20 │     54% │     46% │   ⚪ нейтр
+il conducente                      │      441 │     20 │     56% │     44% │   ⚪ нейтр
+raffigurato preannuncia            │      408 │      6 │     39% │     61% │   🟡 falso
+in presenza                        │      358 │     15 │     58% │     42% │   ⚪ нейтр
+del veicolo                        │      354 │     20 │     54% │     46% │   ⚪ нейтр
+incrocio rappresentato             │      320 │      1 │     51% │     49% │   ⚪ нейтр
+del segnale                        │      310 │      8 │     56% │     44% │   ⚪ нейтр
+presenza del                       │      302 │      9 │     56% │     44% │   ⚪ нейтр
+il transito                        │      269 │     14 │     50% │     50% │   ⚪ нейтр
+nell incrocio                      │      268 │      2 │     50% │     50% │   ⚪ нейтр
+puo essere                         │      264 │     23 │     66% │     34% │   🟡 vero 
+il pannello                        │      253 │      8 │     45% │     55% │   ⚪ нейтр
+la precedenza                      │      249 │     14 │     52% │     48% │   ⚪ нейтр
+indica che                         │      235 │     11 │     43% │     57% │   ⚪ нейтр
+un veicolo                         │      218 │     18 │     51% │     49% │   ⚪ нейтр
+la velocita                        │      211 │     20 │     65% │     35% │   🟡 vero 
+raffigurato posto                  │      205 │      8 │     57% │     43% │   ⚪ нейтр
+della strada                       │      197 │     21 │     58% │     42% │   ⚪ нейтр
+indica la                          │      196 │     12 │     45% │     55% │   ⚪ нейтр
+la sosta                           │      192 │     11 │     48% │     52% │   ⚪ нейтр
+pannello integrativo               │      191 │      3 │     43% │     57% │   ⚪ нейтр
+raffigurato vieta                  │      188 │      7 │     42% │     58% │   ⚪ нейтр
+una strada                         │      184 │     16 │     41% │     59% │   ⚪ нейтр
+di sicurezza                       │      181 │     20 │     49% │     51% │   ⚪ нейтр
+segnale di                         │      181 │     14 │     59% │     41% │   ⚪ нейтр
+ai veicoli                         │      172 │     16 │     46% │     54% │   ⚪ нейтр
+di precedenza                      │      172 │      9 │     51% │     49% │   ⚪ нейтр
+dare la                            │      167 │     13 │     50% │     50% │   ⚪ нейтр
+preannuncia un                     │      167 │      5 │     40% │     60% │   🟡 falso
+di velocita                        │      162 │     18 │     51% │     49% │   ⚪ нейтр
+dei veicoli                        │      159 │     19 │     64% │     36% │   🟡 vero 
+un segnale                         │      156 │     11 │     63% │     37% │   🟡 vero 
+della carreggiata                  │      155 │     15 │     53% │     47% │   ⚪ нейтр
+patente di                         │      154 │      6 │     47% │     53% │   ⚪ нейтр
+integrativo raffigurato            │      149 │      1 │     42% │     58% │   ⚪ нейтр
+presenza di                        │      147 │     19 │     57% │     43% │   ⚪ нейтр
+di strada                          │      146 │     14 │     53% │     47% │   ⚪ нейтр
+di marcia                          │      144 │     17 │     53% │     47% │   ⚪ нейтр
+senso di                           │      139 │     16 │     50% │     50% │   ⚪ нейтр
+la strada                          │      138 │     16 │     58% │     42% │   ⚪ нейтр
+la patente                         │      138 │      5 │     47% │     53% │   ⚪ нейтр
+strade extraurbane                 │      136 │     14 │     50% │     50% │   ⚪ нейтр
+ad un                              │      136 │     19 │     54% │     46% │   ⚪ нейтр
+durante la                         │      135 │     16 │     54% │     46% │   ⚪ нейтр
+veicolo deve                       │      135 │      8 │     50% │     50% │   ⚪ нейтр
+raffigurato un                     │      133 │      6 │     59% │     41% │   ⚪ нейтр
+un incrocio                        │      130 │     11 │     58% │     42% │   ⚪ нейтр
+───────────────────────────────────────────────────────────────────────────────────
