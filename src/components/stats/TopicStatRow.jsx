@@ -1,5 +1,6 @@
 import React from 'react';
 import ProgressBar from '../ui/ProgressBar';
+import '../../styles/components.css';
 
 /**
  * TopicStatRow Component
@@ -67,7 +68,7 @@ const TopicStatRow = ({ title, bestScore, runs, lastRun }) => {
             </div>
 
             <div className="topic-stat-row__progress">
-              <ProgressBar progress={percentage} />
+              <ProgressBar percentage={percentage} />
             </div>
           </>
         ) : (
