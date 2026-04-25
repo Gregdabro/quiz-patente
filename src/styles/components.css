@@ -1198,3 +1198,318 @@
   font-weight: var(--font-weight-normal);
   color: var(--color-text-secondary);
 }
+
+
+/* ================================================================
+   DICTIONARY v2 — ModeToggle, TopicFilter, StudyCard
+   ================================================================ */
+
+/* === ModeToggle === */
+
+.dict-mode-toggle {
+  display: -webkit-flex;
+  display: flex;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-1);
+}
+
+.dict-mode-toggle__btn {
+  -webkit-flex: 1;
+  flex: 1;
+  padding: var(--spacing-2) var(--spacing-3);
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+  -webkit-transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.dict-mode-toggle__btn--active {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.dict-mode-toggle__btn:active {
+  opacity: 0.85;
+}
+
+/* === TopicFilter === */
+
+.dict-topic-filter {
+  display: -webkit-flex;
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: var(--spacing-1);
+  margin-top: var(--spacing-2);
+}
+
+.dict-topic-filter::-webkit-scrollbar {
+  display: none;
+}
+
+.dict-topic-filter__btn {
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  white-space: nowrap;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: var(--spacing-1) var(--spacing-3);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  margin-right: var(--spacing-2);
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+  -webkit-transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.dict-topic-filter__btn:last-child {
+  margin-right: 0;
+}
+
+.dict-topic-filter__btn--active {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.dict-topic-filter__btn:active {
+  opacity: 0.8;
+}
+
+/* === StudyCard === */
+
+.study-card {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding: var(--spacing-4) 0;
+}
+
+.study-card__progress {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-4);
+}
+
+.study-card__progress-text {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  font-weight: var(--font-weight-medium);
+}
+
+.study-card__seen {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-correct);
+  margin-right: var(--spacing-1);
+}
+
+/* Тело карточки — кликабельный блок */
+.study-card__body {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  min-height: 280px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: box-shadow var(--transition-fast);
+  -webkit-transition: box-shadow var(--transition-fast);
+  overflow: hidden;
+}
+
+.study-card__body:active {
+  box-shadow: 0 0 0 2px var(--color-primary);
+}
+
+/* Лицо и оборот */
+.study-card__face {
+  padding: var(--spacing-6) var(--spacing-5);
+}
+
+.study-card__face--front {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 280px;
+}
+
+.study-card__face--back {
+  display: none;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-height: 280px;
+}
+
+/* Переключение лицо / оборот */
+.study-card__body--flipped .study-card__face--front {
+  display: none;
+}
+
+.study-card__body--flipped .study-card__face--back {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.study-card__term {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin: var(--spacing-4) 0 var(--spacing-2);
+}
+
+.study-card__term-ru {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--spacing-6);
+}
+
+.study-card__hint-tap {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+/* Секции оборота */
+.study-card__section {
+  margin-bottom: var(--spacing-4);
+}
+
+.study-card__section:last-child {
+  margin-bottom: 0;
+}
+
+.study-card__section-label {
+  display: block;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--spacing-1);
+}
+
+.study-card__section-text {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.study-card__example-it {
+  font-size: var(--font-size-sm);
+  font-style: italic;
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--spacing-1);
+}
+
+.study-card__example-answer {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  margin: 0;
+}
+
+.study-card__example-answer--vero {
+  color: var(--color-correct);
+}
+
+.study-card__example-answer--falso {
+  color: var(--color-incorrect);
+}
+
+/* Кнопка Quiz Link */
+.study-card__practice-btn {
+  display: block;
+  width: 100%;
+  margin-top: var(--spacing-4);
+  padding: var(--spacing-2) var(--spacing-3);
+  background-color: var(--color-primary-light, #eff6ff);
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-primary);
+  cursor: pointer;
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.study-card__practice-btn:active {
+  opacity: 0.8;
+}
+
+/* Навигация под карточкой */
+.study-card__nav {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-top: var(--spacing-4);
+}
+
+.study-card__nav-btn {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: var(--spacing-2) var(--spacing-3);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-primary);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  margin-right: var(--spacing-1);
+}
+
+.study-card__nav-btn--right {
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.study-card__nav-btn--right svg {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.study-card__nav-btn--disabled {
+  color: var(--color-text-muted);
+  cursor: default;
+}
+
+.study-card__flip-hint {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: var(--spacing-1) var(--spacing-4);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}

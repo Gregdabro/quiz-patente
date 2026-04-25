@@ -3,20 +3,22 @@
  * Управляет состоянием словаря: загрузка, фильтрация, поиск, прогресс.
  *
  * @param {Object} options
- * @param {string} [options.typeFilter='all'] — фильтр по типу записи:
- *   'all' | 'logic_trigger' | 'term' | 'phrase' | 'concept'
+ * @param {string}      [options.typeFilter='all']  — фильтр по типу: 'all' | 'logic_trigger' | 'term' | 'phrase' | 'concept'
+ * @param {number|null} [options.topicFilter=null]  — фильтр по теме (topic_id) или null (все)
  *
  * @returns {{
- *   entries: Array,        — отфильтрованные записи (по typeFilter + searchQuery)
- *   allEntries: Array,     — все записи без фильтрации (для подсчёта)
- *   progress: Object,      — { [entryId]: { seen, practiced } }
- *   stats: Object,         — { total, seen, practiced }
+ *   entries: Array,          — отфильтрованные записи
+ *   allEntries: Array,       — все записи без фильтрации
+ *   progress: Object,        — { [entryId]: { seen, practiced } }
+ *   stats: Object,           — { total, seen, practiced }
  *   loading: boolean,
  *   error: string|null,
  *   searchQuery: string,
  *   setSearchQuery: Function,
- *   markSeen: Function,    — markSeen(entryId)
- *   markPracticed: Function — markPracticed(entryId)
+ *   studyIndex: number,      — текущая карточка в Study Mode
+ *   setStudyIndex: Function,
+ *   markSeen: Function,
+ *   markPracticed: Function
  * }}
  */
 
@@ -29,12 +31,13 @@ import {
   markAsPracticed,
 } from '../services/dictionaryService.js';
 
-export default function useDictionary({ typeFilter = 'all' } = {}) {
+export default function useDictionary({ typeFilter = 'all', topicFilter = null } = {}) {
   const [allEntries, setAllEntries] = useState([]);
   const [progress, setProgress] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [studyIndex, setStudyIndex] = useState(0);
 
   // Загрузка при монтировании — один раз за жизнь компонента
   useEffect(() => {
@@ -67,22 +70,35 @@ export default function useDictionary({ typeFilter = 'all' } = {}) {
     return function () { cancelled = true; };
   }, []);
 
-  // Фильтрация в памяти — без перезагрузки при смене typeFilter или searchQuery
+  // Сброс studyIndex при смене любого фильтра
+  useEffect(function () {
+    setStudyIndex(0);
+  }, [typeFilter, topicFilter, searchQuery]);
+
+  // Фильтрация в памяти — без перезагрузки при смене фильтров
   const entries = useMemo(function () {
     let result = allEntries;
 
-    // 1. Фильтр по типу
+    // 1. Фильтр по теме
+    if (topicFilter !== null) {
+      var tid = Number(topicFilter);
+      result = result.filter(function (e) {
+        return Array.isArray(e.topics) && e.topics.includes(tid);
+      });
+    }
+
+    // 2. Фильтр по типу
     if (typeFilter !== 'all') {
       result = result.filter(function (e) { return e.type === typeFilter; });
     }
 
-    // 2. Текстовый поиск (только если запрос ≥ 2 символов)
+    // 3. Текстовый поиск (только если запрос >= 2 символов)
     if (searchQuery.trim().length >= 2) {
       result = searchEntries(result, searchQuery);
     }
 
     return result;
-  }, [allEntries, typeFilter, searchQuery]);
+  }, [allEntries, typeFilter, topicFilter, searchQuery]);
 
   // Статистика прогресса по всем записям (не зависит от фильтра)
   const stats = useMemo(function () {
@@ -113,6 +129,8 @@ export default function useDictionary({ typeFilter = 'all' } = {}) {
     error: error,
     searchQuery: searchQuery,
     setSearchQuery: setSearchQuery,
+    studyIndex: studyIndex,
+    setStudyIndex: setStudyIndex,
     markSeen: handleMarkSeen,
     markPracticed: handleMarkPracticed,
   };

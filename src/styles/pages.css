@@ -940,3 +940,39 @@
     transition: none !important;
   }
 }
+
+
+/* === Dictionary Page v2 additions === */
+
+.dict-controls__mode {
+  margin-bottom: var(--spacing-3);
+  margin-top: var(--spacing-3);
+}
+
+.dict-controls__topic {
+  /* TopicFilter уже скроллируется сам */
+}
+
+.dict-controls--study {
+  padding-top: 0;
+}
+
+.dict-study {
+  padding-top: var(--spacing-2);
+  padding-bottom: var(--spacing-8);
+}
+
+/* Кнопка «Термины темы» в карточке темы на HomePage */
+.topic-dict-link {
+  display: inline-block;
+  margin-top: var(--spacing-2);
+  font-size: var(--font-size-xs);
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.topic-dict-link:active {
+  opacity: 0.7;
+}
