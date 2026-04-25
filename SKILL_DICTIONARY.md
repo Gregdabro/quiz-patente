@@ -734,7 +734,10 @@ const STORAGE_KEY_DICTIONARY = 'qp_dictionary';
 > [!WARNING]
 > При добавлении новых терминов, генерации батчей или работе со скриптами линковки строго переключиться на [DICTIONARY_SCALING_SKILL.md](file:///Users/greg/MyProjects/app-quiz-patente/DICTIONARY_SCALING_SKILL.md).
 
-- [x] `src/data/dictionary/entries.json` — 72 записи (Phase 3 v2/v3)
+- [x] `src/data/dictionary/entries.json` — **57 записей** (Phase 3 v3, апрель 2026)
+  - Батч A выполнен: +12 logic_trigger/phrase (true_bias)
+  - Батч B выполнен: +9 logic_trigger (false_bias)
+  - Батчи C–F (термины, фразы, концепции) — в очереди, см. [DICTIONARY_SCALING_SKILL.md](file:///Users/greg/MyProjects/app-quiz-patente/DICTIONARY_SCALING_SKILL.md)
 - [x] Поля: id, term, term_ru, type, priority, topics, definition.ru, quiz_hint.ru, examples[0..1]
 - [x] related_question_ids заполнены скриптом
 - **Качество важнее количества**

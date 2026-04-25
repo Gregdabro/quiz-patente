@@ -14,7 +14,7 @@ parent_skills:
 # Dictionary Scaling — Phase 3 v3
 
 > **Статус:** активная фаза разработки  
-> **Цель:** 72 → 300 записей (реалистичный milestone: 200–250 высокого качества)  
+> **Цель:** 36 → 300 записей (реалистичный milestone: 200–250 высокого качества)  
 > **Дата обновления:** 25 апреля 2026  
 > **Синхронизирован с:** реальной кодовой базой на 25 апреля 2026
 
@@ -26,10 +26,12 @@ parent_skills:
 
 | Артефакт | Путь | Статус |
 |---|---|---|
-| MVP записи | `src/data/dictionary/entries.json` | ✅ 72 записи, все с related_question_ids и examples |
+| MVP записи | `src/data/dictionary/entries.json` | ✅ **57 записей** (батч A + B слиты), все с related_question_ids |
 | Частотный анализ | `scripts/output/candidates.json` | ✅ 4998 слов + 23957 биграмм с bias |
 | Скрипт анализа | `scripts/analyze-dictionary.js` | ✅ поддерживает --bias-only, --json |
 | Скрипт линковки | `scripts/link-questions.js` | ✅ поддерживает --dry-run, --entry |
+| Скрипт заготовок | `scripts/scaffold-entries.js` | ✅ поддерживает --type, --min-bias, --min-count |
+| Валидатор | `scripts/validate-entries.js` | ✅ поддерживает --strict, --entry |
 | Сервис | `src/services/dictionaryService.js` | ✅ кэш в памяти, готов к 300+ записям |
 | Хук | `src/hooks/useDictionary.js` | ✅ фильтрация in-memory |
 
@@ -336,43 +338,45 @@ node scripts/validate-entries.js
 
 ## 6. Батч-план (поэтапно)
 
-### Шаг 1 — scaffold-entries.js (выполнено)
+### Шаг 1 — scaffold-entries.js ✅ выполнено
 
 **Цель:** создать скрипт, генерирующий заготовки  
 **Verify:** `node scripts/scaffold-entries.js --type logic --min-bias 25` → файл с заготовками [x]
 
-### Шаг 2 — validate-entries.js (выполнено)
+### Шаг 2 — validate-entries.js ✅ выполнено
 
 **Цель:** создать валидатор  
-**Verify:** `node scripts/validate-entries.js` → 0 CRITICAL на текущих 72 записях [x]
+**Verify:** `node scripts/validate-entries.js` → 0 CRITICAL на текущих 57 записях [x]
 
-### Шаг 3 — Батч A: Logic Triggers true_bias (p1)
+### Шаг 3 — Батч A: Logic Triggers true_bias (p1) ✅ выполнено
 
-**Кандидаты:** regolare, trovare, modo, evitare, fermarsi, puo essere, manovra, visibilita  
-**Цель:** 8–10 новых записей  
-**Verify:** validate 0 CRITICAL + link → каждая ≥5 question_ids
+**Слито:** trovare, regolare, modo, evitare, fermarsi, prima, manovra, visibilita, norma, in_presenza, puo_essere, la_velocita  
+**Результат:** +12 записей, 36 → 48. После link-questions: 48/48 с related_ids ≥ 30  
+**Commit:** `dict: добавлены 12 записей logic_trigger/phrase true_bias (батч A)`
 
-### Шаг 4 — Батч B: Logic Triggers false_bias (p1)
+### Шаг 4 — Батч B: Logic Triggers false_bias (p1) ✅ выполнено
 
-**Кандидаты:** area, parcheggio, ciclomotori, obbliga, metro/metri, zona, vale, autocarri  
-**Цель:** 8–10 новых записей  
-**Verify:** аналогично
+**Слито:** area, parcheggio, ciclomotori, obbliga, metri, ore, vale, autocarri, fino  
+**Результат:** +9 записей, 48 → 57. После link-questions: 57/57 с related_ids ≥ 30  
+**Commit:** `dict: добавлены 9 записей logic_trigger false_bias (батч B)`
 
 ### Шаг 5 — Батч C: Базовые термины (p1, freq ≥200)
 
-**Кандидаты:** veicolo, semaforo, transito, pedoni, guida, marcia, striscia  
-**Цель:** 7–8 новых записей  
-**Verify:** аналогично
+**Кандидаты (из new_entries.json):** veicolo, transito, circolazione, semaforo, guida, marcia, pedoni, limite  
+**Цель:** 8 новых записей (36 → 57 → **65**)  
+**Verify:** validate 0 CRITICAL + link → каждая ≥5 question_ids
 
 ### Шаг 6 — Батч D: Термины (p2, freq 80–200)
 
-**Кандидаты:** limite, km, luce, svoltare, pannello, corrispondenza, emergenza, semaforo, carico  
-**Цель:** 10–12 новых записей
+**Кандидаты (из new_entries.json):** svoltare, luce, striscia  
+**Дополнить:** pannello, corrispondenza, emergenza, carico  
+**Цель:** 8–10 новых записей
 
 ### Шаг 7 — Батч E: Фразы (phrases)
 
-**Кандидаты:** in presenza, puo essere (как phrase), strade extraurbane, pannello integrativo, segnale di, raffigurato indica  
-**Цель:** 6–8 новых записей
+**Кандидаты (из new_entries.json):** in_presenza (✅ уже в A), puo_essere (✅ уже в A), strade_extraurbane, la_velocita (✅ уже в A)  
+**Дополнить:** pannello integrativo, segnale di, raffigurato indica  
+**Цель:** 4–6 новых записей
 
 ### Шаг 8 — Батч F: Концепции (concepts)
 
@@ -391,14 +395,15 @@ node scripts/validate-entries.js
 | topic_10 | ~350 | Светофоры/пересечения |
 | topic_4 | ~320 | Скоростные ограничения — числовые ловушки |
 
-### Целевые показатели
+### Целевые показатели (обновлено)
 
-| После батча | Ожидаемое кол-во записей |
+| После батча | Записей |
 |---|---|
-| A + B (Logic Triggers) | ~56 |
-| C + D (Термины) | ~76 |
-| E (Фразы) | ~84 |
-| F (Концепции) | ~94 |
+| A + B (Logic Triggers) ✅ | **57** |
+| C (Базовые термины) | ~65 |
+| D (Термины p2) | ~74 |
+| E (Фразы) | ~80 |
+| F (Концепции) | ~90 |
 | Тематические батчи (6 штук) | ~180–200 |
 | Финальные p3 записи | 220–260 |
 
