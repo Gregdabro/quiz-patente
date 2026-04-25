@@ -763,13 +763,13 @@ const STORAGE_KEY_DICTIONARY = 'qp_dictionary';
 - [x] Обновить entries.json с реальными question_ids
 
 #### Phase 3 v2 (после стабилизации MVP)
-- [ ] Study Mode (StudyCard — большая карточка)
-- [ ] ModeToggle (Список / Карточки)
-- [ ] TopicFilter (фильтр по теме)
-- [ ] index_by_topic.json + index_by_type.json
-- [ ] Quiz Link: topicId паттерн `dict:*` в useQuiz
-- [ ] Интеграция с HomePage (кнопка "Термины темы")
-- [ ] URL параметр `?topic=N` для предфильтрации
+- [x] Study Mode (StudyCard — большая карточка)
+- [x] ModeToggle (Список / Карточки)
+- [x] TopicFilter (фильтр по теме)
+- [x] index_by_topic.json + index_by_type.json
+- [x] Quiz Link: topicId паттерн `dict:*` в useQuiz
+- [x] Интеграция с HomePage (кнопка "Термины темы")
+- [x] URL параметр `?topic=N` для предфильтрации
 
 ---
 
