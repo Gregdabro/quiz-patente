@@ -26,7 +26,7 @@ parent_skills:
 
 | Артефакт | Путь | Статус |
 |---|---|---|
-| MVP записи | `src/data/dictionary/entries.json` | ✅ **57 записей** (батч A + B слиты), все с related_question_ids |
+| MVP записи | `src/data/dictionary/entries.json` | ✅ **69 записей** (батчи A+B+C+D слиты), все с related_question_ids |
 | Частотный анализ | `scripts/output/candidates.json` | ✅ 4998 слов + 23957 биграмм с bias |
 | Скрипт анализа | `scripts/analyze-dictionary.js` | ✅ поддерживает --bias-only, --json |
 | Скрипт линковки | `scripts/link-questions.js` | ✅ поддерживает --dry-run, --entry |
@@ -346,7 +346,7 @@ node scripts/validate-entries.js
 ### Шаг 2 — validate-entries.js ✅ выполнено
 
 **Цель:** создать валидатор  
-**Verify:** `node scripts/validate-entries.js` → 0 CRITICAL на текущих 57 записях [x]
+**Verify:** `node scripts/validate-entries.js` → 0 CRITICAL на текущих 69 записях [x]
 
 ### Шаг 3 — Батч A: Logic Triggers true_bias (p1) ✅ выполнено
 
@@ -360,17 +360,16 @@ node scripts/validate-entries.js
 **Результат:** +9 записей, 48 → 57. После link-questions: 57/57 с related_ids ≥ 30  
 **Commit:** `dict: добавлены 9 записей logic_trigger false_bias (батч B)`
 
-### Шаг 5 — Батч C: Базовые термины (p1, freq ≥200)
+### Шаг 5 — Батч C: Базовые термины (p1, freq ≥200) ✅ выполнено
 
-**Кандидаты (из new_entries.json):** veicolo, transito, circolazione, semaforo, guida, marcia, pedoni, limite  
-**Цель:** 8 новых записей (36 → 57 → **65**)  
-**Verify:** validate 0 CRITICAL + link → каждая ≥5 question_ids
+**Слито:** veicolo, transito, circolazione, semaforo, guida, marcia, pedoni, limite, strade_extraurbane  
+**Результат:** +12 записей (C+D вместе), 57 → 69. После link-questions: 69/69 с related_ids ≥ 30  
+**Commit:** `dict: добавлены 12 записей term/phrase (батч C+D)`
 
-### Шаг 6 — Батч D: Термины (p2, freq 80–200)
+### Шаг 6 — Батч D: Термины (p2, freq 80–200) ✅ выполнено
 
-**Кандидаты (из new_entries.json):** svoltare, luce, striscia  
-**Дополнить:** pannello, corrispondenza, emergenza, carico  
-**Цель:** 8–10 новых записей
+**Слито вместе с C:** svoltare, luce, striscia  
+**См. Батч C выше.**
 
 ### Шаг 7 — Батч E: Фразы (phrases)
 
@@ -400,10 +399,9 @@ node scripts/validate-entries.js
 | После батча | Записей |
 |---|---|
 | A + B (Logic Triggers) ✅ | **57** |
-| C (Базовые термины) | ~65 |
-| D (Термины p2) | ~74 |
-| E (Фразы) | ~80 |
-| F (Концепции) | ~90 |
+| C + D (Термины) ✅ | **69** |
+| E (Фразы) | ~75 |
+| F (Концепции) | ~85 |
 | Тематические батчи (6 штук) | ~180–200 |
 | Финальные p3 записи | 220–260 |
 
