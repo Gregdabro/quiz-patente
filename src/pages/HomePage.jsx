@@ -7,6 +7,8 @@ import ProgressBar from '../components/ui/ProgressBar';
 import Spinner from '../components/ui/Spinner';
 import ProgressSummary from '../components/stats/ProgressSummary';
 import AppHeader from '../components/layout/AppHeader';
+import { loadDictionaryEntries, getDictionaryProgress } from '../services/dictionaryService';
+import Icon from '../components/ui/Icon';
 
 /**
  * Главная страница приложения.
@@ -16,6 +18,37 @@ const HomePage = () => {
   const { topics, loading, error } = useTopics();
   const { progress } = useProgress();
   const navigate = useNavigate();
+  
+  const [dictStats, setDictStats] = React.useState({ total: 0, seen: 0 });
+  const [termsPerTopic, setTermsPerTopic] = React.useState({});
+
+  React.useEffect(() => {
+    async function loadDict() {
+      try {
+        const entries = await loadDictionaryEntries();
+        const dictProgress = getDictionaryProgress();
+        
+        // Общая статистика
+        const total = entries.length;
+        const seen = Object.values(dictProgress).filter(p => p.seen).length;
+        setDictStats({ total, seen });
+
+        // Группировка по темам
+        const counts = {};
+        entries.forEach(entry => {
+          if (Array.isArray(entry.topics)) {
+            entry.topics.forEach(tId => {
+              counts[tId] = (counts[tId] || 0) + 1;
+            });
+          }
+        });
+        setTermsPerTopic(counts);
+      } catch (err) {
+        console.error('HomePage: ошибка загрузки словаря', err);
+      }
+    }
+    loadDict();
+  }, []);
 
   if (loading) return <Spinner />;
   if (error) return <div className="container error-container">{error}</div>;
@@ -26,6 +59,19 @@ const HomePage = () => {
       
       <div className="container home-container">
         <ProgressSummary progress={progress} />
+
+        {/* Прогресс словаря */}
+        <Card className="dict-progress-card" onClick={() => navigate('/dictionary')}>
+          <div className="dict-progress-card__header">
+            <div className="dict-progress-card__title">
+              <Icon name="book" size={18} color="var(--color-primary)" />
+              <span>Словарь терминов</span>
+            </div>
+            <span className="dict-progress-card__count">{dictStats.seen} / {dictStats.total}</span>
+          </div>
+          <ProgressBar progress={dictStats.total > 0 ? (dictStats.seen / dictStats.total * 100) : 0} />
+          <p className="dict-progress-card__hint">Нажмите, чтобы продолжить изучение</p>
+        </Card>
         
         <h2 className="home-title">
           Выберите тему
@@ -70,7 +116,8 @@ const HomePage = () => {
                   className="topic-dict-link"
                   onClick={function (e) { e.stopPropagation(); }}
                 >
-                  📖 Термины темы
+                  <Icon name="book" size={14} color="var(--color-primary)" />
+                  <span>{termsPerTopic[topic.topic_id] || 0} терминов</span>
                 </Link>
               </div>
             </Card>
