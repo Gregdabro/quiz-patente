@@ -9,11 +9,17 @@
  */
 
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { loadTopicQuestions, loadAllQuestions, loadTopicErrorQuestions, loadQuestionsByEntry, pickSessionQuestions } from '../services/questionsService.js';
+import {
+  loadTopicQuestions,
+  loadAllQuestions,
+  loadTopicErrorQuestions,
+  loadQuestionsByEntry,
+  pickSessionQuestions
+} from '../services/questionsService.js';
 import { getErrorQuestions } from '../services/errorsService.js';
 import { incrementError, decrementError } from '../services/errorsService.js';
 import { saveTestResult } from '../services/progressService.js';
-import { loadDictionaryEntries } from '../services/dictionaryService.js';
+import { loadDictionaryEntries, markAsPracticed } from '../services/dictionaryService.js';
 
 export default function useQuiz(topicId) {
   const [questions, setQuestions] = useState([]);
@@ -159,6 +165,10 @@ export default function useQuiz(topicId) {
     var isDictMode = typeof topicId === 'string' && topicId.startsWith('dict:');
     if (!isDictMode) {
       saveTestResult(topicId, correctCount, questions.length);
+    } else {
+      // Для словаря — отмечаем как отработанное
+      var entryId = topicId.slice(5);
+      markAsPracticed(entryId);
     }
 
     isSavedRef.current = true;

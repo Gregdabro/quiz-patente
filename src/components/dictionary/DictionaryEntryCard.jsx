@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Icon from '../ui/Icon';
 
 /**
@@ -18,6 +19,8 @@ const DictionaryEntryCard = React.memo(function DictionaryEntryCard({
   isSeen,
   onMarkSeen,
 }) {
+  const navigate = useNavigate();
+
   function handleToggle() {
     if (!isExpanded && !isSeen) {
       onMarkSeen(entry.id);
@@ -112,6 +115,17 @@ const DictionaryEntryCard = React.memo(function DictionaryEntryCard({
             </div>
           )}
 
+          {/* Кнопка практики */}
+          <button
+            className="dict-entry-card__practice-btn"
+            onClick={function (e) {
+              e.stopPropagation();
+              navigate('/quiz/dict:' + entry.id);
+            }}
+            type="button"
+          >
+            Практиковать: вопросы с «{entry.term}» →
+          </button>
         </div>
       </div>
     </div>
