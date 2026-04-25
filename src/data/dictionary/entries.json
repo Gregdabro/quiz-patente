@@ -8915,7 +8915,7 @@
   },
   {
     "id": "braccia_tese",
-    "term": "braccia tese",
+    "term": "braccia tese / braccia aperte / braccia distese",
     "term_ru": "вытянутые руки (регулировщика)",
     "type": "phrase",
     "priority": 2,
@@ -8942,7 +8942,27 @@
       "agente_traffico",
       "luce_gialla"
     ],
-    "related_question_ids": []
+    "related_question_ids": [
+      2832,
+      2833,
+      2834,
+      2835,
+      2836,
+      2837,
+      2838,
+      2839,
+      2840,
+      2841,
+      2842,
+      2843,
+      2844,
+      2845,
+      2846,
+      2847,
+      2848,
+      2849,
+      2850
+    ]
   },
   {
     "id": "lanterna_semaforica",
@@ -9009,7 +9029,7 @@
   },
   {
     "id": "fischietto",
-    "term": "fischietto (suono prolungato)",
+    "term": "fischietto / suono prolungato",
     "term_ru": "свисток (продолжительный звук)",
     "type": "term",
     "priority": 2,
@@ -9036,7 +9056,16 @@
       "agente_traffico",
       "fermarsi"
     ],
-    "related_question_ids": []
+    "related_question_ids": [
+      2869,
+      2870,
+      2871,
+      2872,
+      2873,
+      2874,
+      2875,
+      2876
+    ]
   },
   {
     "id": "luce_rossa",
@@ -9164,7 +9193,7 @@
   },
   {
     "id": "sgomberare_incrocio",
-    "term": "sgomberare l'incrocio",
+    "term": "sgomberare l'incrocio / sgomberare",
     "term_ru": "освободить перекресток",
     "type": "phrase",
     "priority": 2,
@@ -9192,6 +9221,10 @@
       "incrocio",
       "luce_gialla"
     ],
-    "related_question_ids": []
+    "related_question_ids": [
+      2658,
+      4161,
+      4162
+    ]
   }
 ]

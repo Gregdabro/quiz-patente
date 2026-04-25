@@ -26,7 +26,7 @@ parent_skills:
 
 | Артефакт | Путь | Статус |
 |---|---|---|
-| MVP записи | `src/data/dictionary/entries.json` | ✅ **84 записи** (батчи A–F слиты), все с related_question_ids |
+| MVP записи | `src/data/dictionary/entries.json` | ✅ **140 записей** (батчи A–M слиты), все с related_question_ids |
 | Частотный анализ | `scripts/output/candidates.json` | ✅ 4998 слов + 23957 биграмм с bias |
 | Скрипт анализа | `scripts/analyze-dictionary.js` | ✅ поддерживает --bias-only, --json |
 | Скрипт линковки | `scripts/link-questions.js` | ✅ поддерживает --dry-run, --entry |
@@ -403,7 +403,14 @@ node scripts/validate-entries.js
 | C + D (Термины) ✅ | **69** |
 | E (Фразы) ✅ | **76** |
 | F (Концепции) ✅ | **84** |
-| Тематические батчи (6 штук) | ~180–200 |
+| G (Tema 1: General) ✅ | **92** |
+| H (Tema 2: Pericolo) ✅ | **100** |
+| I (Tema 3: Divieto) ✅ | **108** |
+| J (Tema 4: Obbligo) ✅ | **116** |
+| K (Tema 5: Precedenza) ✅ | **124** |
+| L (Tema 6: Orizzontale) ✅ | **132** |
+| M (Tema 7: Semafori/Agenti) ✅ | **140** |
+| Тематические батчи (оставшиеся) | ~180–200 |
 | Финальные p3 записи | 220–260 |
 
 ---
