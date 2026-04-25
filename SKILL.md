@@ -841,9 +841,14 @@ export default defineConfig({
 - [ ] `src/components/stats/TopicStatRow.jsx`
 - [ ] Вычисление статистики (всего тестов, средний результат, прогресс по темам)
 
-### ⏳ Этап 3 — Словарь (планируется)
-- [ ] `src/data/dictionary.json` (терминология ПДД)
-- [ ] `src/pages/DictionaryPage.jsx` (интерактивный поиск)
+### ✅ Этап 3 — Словарь (выполнено)
+> [!IMPORTANT]
+> Для работы над архитектурой словаря, UI и хуками строго использовать [SKILL_DICTIONARY.md](file:///Users/greg/MyProjects/app-quiz-patente/SKILL_DICTIONARY.md).
+
+- [x] `src/data/dictionary/entries.json` (терминология ПДД)
+- [x] `src/pages/DictionaryPage.jsx` (полная реализация: поиск, фильтры, режимы)
+- [x] `src/services/dictionaryService.js` (управление данными и прогрессом)
+- [x] `src/hooks/useDictionary.js` (логика фильтрации и навигации)
 
 ### 🔮 Phase 2 — Backend (будущее)
 - [ ] Node.js + Express.js API
@@ -872,7 +877,7 @@ export default defineConfig({
 
 ## 19. Синхронизация с реальной реализацией
 
-Этот документ (v2) полностью синхронизирован с кодовой базой по состоянию на 22 апреля 2026 г.
+Этот документ (v2) полностью синхронизирован с кодовой базой по состоянию на 25 апреля 2026 г.
 
 **Ключевые исправления относительно v1:**
 1. ✅ Фиксирован маршрут `/errors` (было: `/quiz/errors`)

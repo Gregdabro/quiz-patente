@@ -6,7 +6,8 @@ description: >
   dictionaryService, useDictionary хука, компонентов dictionary/, страницы
   DictionaryPage, скрипта анализа данных, заполнении entries.json.
   Всегда читай этот файл перед началом работы над любой задачей Phase 3.
-parent_skill: SKILL.md  ← основной контекст проекта (читать оба)
+parent_skills:
+  - [SKILL.md](file:///Users/greg/MyProjects/app-quiz-patente/SKILL.md) ← основной контекст проекта
 ---
 
 # DictionaryPage — Phase 3: Context-Aware Learning Dictionary
@@ -138,9 +139,12 @@ Entry ──── many-to-many ──── Question
 ```
 src/data/
   dictionary/
-    entries.json           ← массив всех Entry (~30-40 в MVP, до 300 в финале)
+    entries.json           ← массив всех Entry (72 записи в MVP, до 300 в финале)
     index_by_topic.json    ← { "1": ["sempre", "carreggiata", ...] }  (Phase 3 v2)
     index_by_type.json     ← { "logic_trigger": ["sempre", "mai", ...] } (Phase 3 v2)
+
+> [!WARNING]
+> При добавлении новых терминов, генерации батчей или работе со скриптами линковки строго переключиться на [DICTIONARY_SCALING_SKILL.md](file:///Users/greg/MyProjects/app-quiz-patente/DICTIONARY_SCALING_SKILL.md).
 ```
 
 **MVP: только entries.json.** Индексы добавляются в v2 когда нужна фильтрация по теме.
@@ -722,26 +726,29 @@ const STORAGE_KEY_DICTIONARY = 'qp_dictionary';
 
 #### Шаг 1 — Скрипт анализа данных
 - [x] `scripts/analyze-dictionary.js`
-- Вывод: топ-200 слов по частоте + answer-bias для каждого
-- Вывод: топ-50 биграмм (фразы)
+- [x] Вывод: топ-200 слов по частоте + answer-bias для каждого
+- [x] Вывод: топ-50 биграмм (фразы)
 - **Output:** таблица кандидатов для ручного отбора
 
 #### Шаг 2 — Данные (entries.json)
-- [x] `src/data/dictionary/entries.json` — 30-40 записей priority:1
-- Поля: id, term, term_ru, type, priority, topics, definition.ru, quiz_hint.ru, examples[0..1]
-- Без related_question_ids в первой версии (добавить скриптом потом)
+> [!WARNING]
+> При добавлении новых терминов, генерации батчей или работе со скриптами линковки строго переключиться на [DICTIONARY_SCALING_SKILL.md](file:///Users/greg/MyProjects/app-quiz-patente/DICTIONARY_SCALING_SKILL.md).
+
+- [x] `src/data/dictionary/entries.json` — 72 записи (Phase 3 v2/v3)
+- [x] Поля: id, term, term_ru, type, priority, topics, definition.ru, quiz_hint.ru, examples[0..1]
+- [x] related_question_ids заполнены скриптом
 - **Качество важнее количества**
 
 #### Шаг 3 — Сервис
 - [x] `src/services/dictionaryService.js`
-- Функции: loadDictionaryEntries, loadEntriesByType, searchEntries
-- Функции: getDictionaryProgress, markAsSeen, markAsPracticed
-- Кэш в памяти (`_entriesCache`)
+- [x] Функции: loadDictionaryEntries, loadEntriesByType, searchEntries
+- [x] Функции: getDictionaryProgress, markAsSeen, markAsPracticed
+- [x] Кэш в памяти (`_entriesCache`)
 
 #### Шаг 4 — Хук
 - [x] `src/hooks/useDictionary.js`
-- Принимает: `{ typeFilter }`
-- Возвращает: entries, stats, progress, loading, error, searchQuery, setSearchQuery, markSeen
+- [x] Принимает: `{ typeFilter, topicFilter }`
+- [x] Возвращает: entries, stats, progress, loading, error, searchQuery, setSearchQuery, markSeen
 
 #### Шаг 5 — Иконки
 - [x] Добавить `search`, `chevron-down`, `chevron-up` в `src/assets/icons/index.js`
@@ -750,24 +757,27 @@ const STORAGE_KEY_DICTIONARY = 'qp_dictionary';
 - [x] `src/components/dictionary/SearchBar.jsx`
 - [x] `src/components/dictionary/TypeFilter.jsx`
 - [x] `src/components/dictionary/DictionaryEntryCard.jsx` (с аккордеоном)
+- [x] `src/components/dictionary/TopicFilter.jsx`
+- [x] `src/components/dictionary/ModeToggle.jsx`
+- [x] `src/components/dictionary/StudyCard.jsx`
 
 #### Шаг 7 — Страница
-- [x] `src/pages/DictionaryPage.jsx` — заменть заглушку полной реализацией
+- [x] `src/pages/DictionaryPage.jsx` — полная реализация (v3)
 
 #### Шаг 8 — Стили
 - [x] Добавить CSS-классы в `src/styles/components.css`
 - [x] Добавить CSS-классы в `src/styles/pages.css`
 
-#### Шаг 9 — Линковка вопросов (опционально в MVP)
+#### Шаг 9 — Линковка вопросов
 - [x] Расширить `scripts/analyze-dictionary.js` — добавить проставление related_question_ids
 - [x] Обновить entries.json с реальными question_ids
 
-#### Phase 3 v2 (после стабилизации MVP)
+#### Phase 3 v2 (выполнено)
 - [x] Study Mode (StudyCard — большая карточка)
 - [x] ModeToggle (Список / Карточки)
 - [x] TopicFilter (фильтр по теме)
-- [x] index_by_topic.json + index_by_type.json
-- [x] Quiz Link: topicId паттерн `dict:*` в useQuiz
+- [ ] index_by_topic.json + index_by_type.json (планируется для оптимизации)
+- [ ] Quiz Link: topicId паттерн `dict:*` в useQuiz (планируется)
 - [x] Интеграция с HomePage (кнопка "Термины темы")
 - [x] URL параметр `?topic=N` для предфильтрации
 
