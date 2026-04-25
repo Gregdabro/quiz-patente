@@ -1,0 +1,95 @@
+Quiz Patente — Link Report
+Generated: 2026-04-25T19:32:42.935Z
+MAX_IDS: 30
+
+solo                           patterns=["solo"]                                 found=30
+sempre                         patterns=["sempre"]                               found=30
+purche                         patterns=["purche"]                               found=30
+tutti                          patterns=["tutti","tutte"]                        found=30
+unico                          patterns=["unico","unica"]                        found=30
+riservata                      patterns=["riservata","riservato"]                found=30
+consentita                     patterns=["consentita","consentito"]              found=30
+prudenza                       patterns=["prudenza"]                             found=30
+attenzione                     patterns=["attenzione"]                           found=30
+carreggiata                    patterns=["carreggiata"]                          found=30
+corsia                         patterns=["corsia"]                               found=30
+sosta                          patterns=["sosta"]                                found=30
+fermata                        patterns=["fermata"]                              found=30
+precedenza                     patterns=["precedenza"]                           found=30
+sorpasso                       patterns=["sorpasso"]                             found=30
+incrocio                       patterns=["incrocio"]                             found=30
+attraversamento                patterns=["attraversamento"]                      found=30
+banchina                       patterns=["banchina"]                             found=16
+spartitraffico                 patterns=["spartitraffico"]                       found=10
+divieto                        patterns=["divieto"]                              found=30
+obbligo                        patterns=["obbligo"]                              found=30
+facolta                        patterns=["facolta"]                              found=13
+in_prossimita_di               patterns=["in prossimita di"]                     found=28
+fuori_dai_centri_abitati       patterns=["fuori dai centri abitati"]             found=9
+nei_centri_abitati             patterns=["nei centri abitati"]                   found=30
+e_vietato                      patterns=["e vietato","e vietata"]                found=30
+e_consentito                   patterns=["e consentito","e consentita"]          found=30
+senso_unico                    patterns=["senso unico"]                          found=30
+pericolo                       patterns=["pericolo"]                             found=30
+divieto_vs_obbligo             patterns=["divieto","obbligo"]                    found=30
+segnale                        patterns=["segnale"]                              found=30
+segnaletica                    patterns=["segnaletica"]                          found=30
+velocita                       patterns=["velocita"]                             found=30
+autostrada                     patterns=["autostrada"]                           found=30
+strada                         patterns=["strada"]                               found=30
+marciapiede                    patterns=["marciapiede"]                          found=30
+trovare                        patterns=["trovare","trovarsi"]                   found=30
+regolare                       patterns=["regolare"]                             found=30
+modo                           patterns=["modo"]                                 found=30
+evitare                        patterns=["evitare"]                              found=30
+visibilita                     patterns=["visibilita"]                           found=30
+manovra                        patterns=["manovra"]                              found=30
+fermarsi                       patterns=["fermarsi"]                             found=30
+prima                          patterns=["prima"]                                found=30
+norma                          patterns=["di norma"]                             found=30
+in_presenza                    patterns=["in presenza di"]                       found=30
+puo_essere                     patterns=["puo essere"]                           found=30
+la_velocita                    patterns=["la velocita"]                          found=30
+parcheggio                     patterns=["parcheggio"]                           found=30
+ciclomotori                    patterns=["ciclomotori"]                          found=30
+area                           patterns=["area"]                                 found=30
+fino                           patterns=["fino a"]                               found=30
+metri                          patterns=["metri"]                                found=30
+ore                            patterns=["ore"]                                  found=30
+autocarri                      patterns=["autocarri"]                            found=30
+vale                           patterns=["vale"]                                 found=30
+obbliga                        patterns=["obbliga"]                              found=30
+veicolo                        patterns=["veicolo"]                              found=30
+transito                       patterns=["transito"]                             found=30
+circolazione                   patterns=["circolazione"]                         found=30
+semaforo                       patterns=["semaforo"]                             found=30
+guida                          patterns=["guida"]                                found=30
+marcia                         patterns=["marcia"]                               found=30
+svoltare                       patterns=["svoltare"]                             found=30
+luce                           patterns=["luce","luci"]                          found=30
+pedoni                         patterns=["pedoni"]                               found=30
+striscia                       patterns=["striscia"]                             found=30
+limite                         patterns=["limite"]                               found=30
+strade_extraurbane             patterns=["strade extraurbane"]                   found=30
+raffigurato_indica             patterns=["raffigurato indica"]                   found=30
+raffigurato_vieta              patterns=["raffigurato vieta"]                    found=30
+raffigurato_preannuncia        patterns=["raffigurato preannuncia"]              found=30
+segnale_di                     patterns=["segnale di (pericolo","obbligo","divieto)"] found=30
+pannello_integrativo           patterns=["pannello integrativo"]                 found=30
+dei_veicoli                    patterns=["dei veicoli"]                          found=30
+una_strada                     patterns=["una strada"]                           found=30
+autostrada_vs_extraurbana      patterns=["autostrada","strada extraurbana principale"] found=30
+veicolo_vs_autoveicolo         patterns=["veicolo","autoveicolo","ciclomotore"]  found=30
+sosta_vs_fermata               patterns=["sosta","fermata"]                      found=30
+obbligo_vs_divieto_vs_pericolo patterns=["obbligo","divieto","pericolo"]         found=30
+corsia_vs_carreggiata          patterns=["corsia","carreggiata"]                 found=30
+precedenza_vs_diritto_di_via   patterns=["precedenza","diritto di precedenza"]   found=30
+divieto_vs_obbligo_signs       patterns=["segnale di divieto","segnale di obbligo"] found=30
+centro_abitato_vs_fuori        patterns=["centro abitato","fuori dai centri abitati"] found=30
+
+═══ ИТОГ ═══
+Всего entries:       84
+С совпадениями:      84
+Без совпадений:      0
+Всего question_ids:  2446
+Среднее на entry:    29.1

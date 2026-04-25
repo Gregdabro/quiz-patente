@@ -1,177 +1,202 @@
 [
   {
-    "id": "raffigurato_indica",
-    "term": "raffigurato indica",
-    "term_ru": "изображённый [знак] указывает",
-    "type": "phrase",
+    "id": "autostrada_vs_extraurbana",
+    "term": "autostrada vs. strada extraurbana principale",
+    "term_ru": "автострада и основная загородная дорога",
+    "type": "concept",
     "priority": 1,
-    "topics": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "topics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
     "definition": {
-      "ru": "Конструкция «il segnale raffigurato indica» — «изображённый знак указывает на...» — вводит утверждение о том, что именно означает конкретный знак. Ловушка квиза: описание значения знака часто подменяется смежным или более широким смыслом. Например, знак «кривая дорога» (curva pericolosa) указывает на опасность поворота, но не обязывает остановиться."
+      "ru": "Ключевое различие: **autostrada** — 130 км/ч (110 в дождь), только для ТС ≥ 3-й категории; **extraurbana principale** — 110 км/ч (90 в дождь), мопеды и велосипеды запрещены. Обе имеют разделённые проезжие части и минимум 2 полосы в каждую сторону. Автострада обозначена зелёными щитами и всегда является платной. Extraurbana principale — синие щиты, не всегда платная."
     },
     "quiz_hint": {
-      "ru": "Вопросы с «raffigurato indica» в 63% случаев — FALSO. Квиз намеренно описывает знак чуть шире или уже его реального значения. Спрашивай себя: точно ли то, что написано, совпадает с буквальным значением знака? Малейшее преувеличение — уже FALSO.",
+      "ru": "Главная ловушка: «разделённые проезжие части = автострада» — FALSO (extraurbana principale тоже разделена). Точные цифры: 130/110 (autostrada), 110/90 (extraurbana principale). Если вопрос приписывает extraurbana principale 130 км/ч или автостраде 110 км/ч как базовый лимит — это FALSO.",
       "pattern": "false_bias"
     },
     "examples": [
       {
-        "it": "Il segnale raffigurato indica che è consentito circolare a velocità non superiore a quella indicata",
-        "ru": "Изображённый знак указывает, что движение разрешено со скоростью не выше указанной",
-        "answer": true,
-        "comment_ru": "VERO — знак ограничения скорости именно это и означает: максимально допустимая скорость"
-      }
-    ],
-    "related_entries": ["segnale", "raffigurato_vieta", "raffigurato_preannuncia"],
-    "related_question_ids": []
-  },
-  {
-    "id": "raffigurato_vieta",
-    "term": "raffigurato vieta",
-    "term_ru": "изображённый [знак] запрещает",
-    "type": "phrase",
-    "priority": 1,
-    "topics": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
-    "definition": {
-      "ru": "Конструкция «il segnale raffigurato vieta» — «изображённый знак запрещает...» — вводит утверждение о запрещающем действии знака. Запрещающие знаки в Италии имеют строго определённый охват: запрет распространяется только на категории ТС, явно указанные на знаке или в ПДД. Квиз часто расширяет или сужает этот охват."
-    },
-    "quiz_hint": {
-      "ru": "Вопросы с «raffigurato vieta» в 58% случаев — FALSO. Стандартная ловушка: знак «запрещает» либо применён к неправильной категории ТС (например, «запрещает трамваям» вместо «троллейбусам»), либо переходит действие дальше перекрёстка (а не прекращается). Читай кому и на каком участке.",
-      "pattern": "false_bias"
-    },
-    "examples": [
-      {
-        "it": "Il segnale raffigurato vieta il transito ai filobus",
-        "ru": "Изображённый знак запрещает проезд троллейбусам",
+        "it": "Sulle strade extraurbane principali la velocità massima è di 130 km/h",
+        "ru": "На основных загородных дорогах максимальная скорость составляет 130 км/ч",
         "answer": false,
-        "comment_ru": "FALSO — знак запрета относится к трамваям, а не к троллейбусам; это разные категории"
+        "comment_ru": "FALSO — 130 км/ч только на autostrada; strade extraurbane principali ограничены 110 км/ч"
       }
     ],
-    "related_entries": ["raffigurato_indica", "raffigurato_preannuncia", "divieto"],
+    "related_entries": ["autostrada", "strade_extraurbane", "limite"],
     "related_question_ids": []
   },
   {
-    "id": "raffigurato_preannuncia",
-    "term": "raffigurato preannuncia",
-    "term_ru": "изображённый [знак] предупреждает",
-    "type": "phrase",
+    "id": "veicolo_vs_autoveicolo",
+    "term": "veicolo / autoveicolo / ciclomotore",
+    "term_ru": "ТС / автомобиль / мопед (иерархия категорий)",
+    "type": "concept",
     "priority": 1,
-    "topics": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "topics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
     "definition": {
-      "ru": "Конструкция «il segnale raffigurato preannuncia» — «изображённый знак предупреждает о...» — характерна для предупреждающих знаков (segnali di pericolo). Эти знаки информируют об опасности впереди, но не запрещают движение и не предписывают конкретную скорость. Ловушка: вопрос утверждает, что знак «обязывает остановиться» или «запрещает обгон» — это почти всегда FALSO."
+      "ru": "Иерархия категорий в итальянских ПДД: **veicolo** — любое транспортное средство (включает велосипеды, мопеды, автомобили); **autoveicolo** — механическое ТС с двигателем ≥ 50cc или > 45 км/ч (подмножество veicolo); **ciclomotore** — мопед ≤ 50cc и ≤ 45 км/ч. Нормы, написанные для «veicoli», распространяются на все три; нормы для «autoveicoli» — только на автомобили, не на мопеды."
     },
     "quiz_hint": {
-      "ru": "Вопросы с «raffigurato preannuncia» в 61% случаев — FALSO. Предупреждающий знак не запрещает и не обязывает — он только информирует. Если вопрос говорит, что знак-предупреждение «запрещает обгон», «обязывает остановиться» или «ограничивает скорость до X» — почти всегда FALSO, если такого ограничения нет на самом знаке.",
+      "ru": "Ловушка в экзамене: «правило X распространяется на все veicoli» — проверяй, не написано ли в оригинале «autoveicoli». Ciclomotori разрешены на strade extraurbane secondarie (90 км/ч), но ЗАПРЕЩЕНЫ на extraurbane principali и autostrade. Если вопрос помещает мопед на автостраду — FALSO.",
       "pattern": "false_bias"
     },
     "examples": [
       {
-        "it": "Il segnale raffigurato preannuncia un incrocio con precedenza a destra",
-        "ru": "Изображённый знак предупреждает о перекрёстке с приоритетом справа",
-        "answer": true,
-        "comment_ru": "VERO — предупреждающий знак перекрёстка с приоритетом справа именно предупреждает, а не запрещает"
-      }
-    ],
-    "related_entries": ["raffigurato_indica", "raffigurato_vieta", "segnale"],
-    "related_question_ids": []
-  },
-  {
-    "id": "segnale_di",
-    "term": "segnale di (pericolo / obbligo / divieto)",
-    "term_ru": "знак (опасности / предписания / запрета)",
-    "type": "phrase",
-    "priority": 1,
-    "topics": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
-    "definition": {
-      "ru": "«Segnale di» — начало конструкции, обозначающей категорию знака: «segnale di pericolo» (знак опасности, треугольник), «segnale di obbligo» (предписывающий знак, синий круг), «segnale di divieto» (запрещающий знак, красный круг). Квиз часто подменяет категорию знака: называет предписывающий знак запрещающим или наоборот."
-    },
-    "quiz_hint": {
-      "ru": "Вопросы с «segnale di» в 59% случаев — VERO. Если вопрос правильно называет категорию знака и описывает его действие в соответствии с этой категорией — скорее VERO. FALSO возникает при подмене: «знак опасности запрещает» (нет, только предупреждает) или «предписывающий знак информирует» (нет, он обязывает).",
-      "pattern": "true_bias"
-    },
-    "examples": [
-      {
-        "it": "Il segnale di pericolo impone l'obbligo di fermarsi e dare la precedenza",
-        "ru": "Знак опасности обязывает остановиться и уступить дорогу",
+        "it": "I ciclomotori possono circolare sulle autostrade se accompagnati da un veicolo",
+        "ru": "Мопеды могут ехать по автострадам в сопровождении другого ТС",
         "answer": false,
-        "comment_ru": "FALSO — останавливаться и уступать обязывает знак STOP или «уступи дорогу», а не знаки опасности"
+        "comment_ru": "FALSO — ciclomotori категорически запрещены на autostrade при любых условиях"
       }
     ],
-    "related_entries": ["segnale", "divieto", "obbligo"],
+    "related_entries": ["veicolo", "ciclomotori", "autostrada"],
     "related_question_ids": []
   },
   {
-    "id": "pannello_integrativo",
-    "term": "pannello integrativo",
-    "term_ru": "дополнительная табличка",
-    "type": "phrase",
+    "id": "sosta_vs_fermata",
+    "term": "sosta vs. fermata",
+    "term_ru": "стоянка vs. остановка (юридическое различие)",
+    "type": "concept",
     "priority": 1,
-    "topics": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    "definition": {
-      "ru": "«Pannello integrativo» — дополнительная табличка под основным знаком, уточняющая сферу его действия: временной период, категорию ТС, расстояние. Без панели знак действует для всех ТС и постоянно. Ключевой принцип: панель только сужает действие знака, но не отменяет его для остальных участников."
-    },
-    "quiz_hint": {
-      "ru": "Вопросы о «pannello integrativo» в 55% случаев — FALSO. Типичная ловушка: «панель с часами означает, что вне этих часов знак недействителен для ВСЕХ» — но это верно только для категорий и расстояний. Другая ловушка: «знак без панели действует только в определённые часы» — нет, без панели знак действует 24/7.",
-      "pattern": "false_bias"
-    },
-    "examples": [
-      {
-        "it": "Il pannello integrativo con l'indicazione delle ore stabilisce che il segnale è valido solo nell'orario indicato",
-        "ru": "Дополнительная табличка с указанием часов означает, что знак действует только в указанное время",
-        "answer": true,
-        "comment_ru": "VERO — табличка с часами действительно ограничивает действие знака указанным временным периодом"
-      }
-    ],
-    "related_entries": ["segnale", "segnaletica"],
-    "related_question_ids": []
-  },
-  {
-    "id": "dei_veicoli",
-    "term": "dei veicoli",
-    "term_ru": "транспортных средств (родительный падеж)",
-    "type": "phrase",
-    "priority": 2,
     "topics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
     "definition": {
-      "ru": "«Dei veicoli» — родительный падеж от «veicoli» (транспортных средств). В вопросах квиза чаще всего встречается в формулировках прав или обязанностей, распространяющихся на ТС: «la precedenza dei veicoli» (приоритет ТС), «il transito dei veicoli» (проезд ТС). Важно: «dei veicoli» = всех ТС, тогда как «degli autoveicoli» = только механических."
+      "ru": "Юридически важное различие: **fermata** — кратковременная остановка, необходимая для посадки/высадки пассажиров или загрузки/разгрузки, водитель остаётся за рулём; **sosta** — любая остановка, не являющаяся fermata (водитель покидает ТС или останавливается дольше, чем необходимо). Знак «divieto di sosta» запрещает sosta, но не fermata. Знак «divieto di fermata» запрещает оба действия."
     },
     "quiz_hint": {
-      "ru": "Вопросы с «dei veicoli» в 64% случаев — VERO. Формулировки с «dei veicoli» обычно корректно описывают правовые нормы для широкой категории ТС. Проверяй, не подменяется ли «veicoli» на «autoveicoli» или «ciclomotori» — это ключевая ловушка с категориями ТС.",
-      "pattern": "true_bias"
+      "ru": "«Divieto di sosta» запрещает только стоянку — кратковременная остановка для высадки пассажира всё ещё разрешена. «Divieto di fermata» запрещает всё. Если вопрос утверждает, что «divieto di sosta» запрещает высадить пассажира» — FALSO. Если вопрос говорит, что «fermata» разрешена там, где стоит «divieto di fermata» — FALSO.",
+      "pattern": "neutral"
     },
     "examples": [
       {
-        "it": "L'attraversamento pedonale è una parte della carreggiata destinata al transito dei veicoli",
-        "ru": "Пешеходный переход — это часть проезжей части, предназначенная для проезда транспортных средств",
+        "it": "Il divieto di sosta vieta anche la fermata per fare salire o scendere i passeggeri",
+        "ru": "Знак «стоянка запрещена» запрещает и кратковременную остановку для высадки пассажиров",
         "answer": false,
-        "comment_ru": "FALSO — пешеходный переход предназначен для пешеходов; ТС по нему едут, но он не «предназначен» для них"
+        "comment_ru": "FALSO — divieto di sosta запрещает только stazionamento (стоянку), но не fermata (кратковременную остановку)"
       }
     ],
-    "related_entries": ["veicolo", "transito"],
+    "related_entries": ["sosta", "fermata", "divieto"],
     "related_question_ids": []
   },
   {
-    "id": "una_strada",
-    "term": "una strada",
-    "term_ru": "дорога (общее понятие)",
-    "type": "phrase",
-    "priority": 2,
-    "topics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "id": "obbligo_vs_divieto_vs_pericolo",
+    "term": "obbligo / divieto / pericolo (категории знаков)",
+    "term_ru": "предписание / запрет / опасность (категории знаков)",
+    "type": "concept",
+    "priority": 1,
+    "topics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
     "definition": {
-      "ru": "«Una strada» — дорога как юридическое понятие. В итальянских ПДД «strada» имеет точное определение: поверхность, открытая для публичного движения ТС. Квиз использует «una strada» в контексте классификации: «una strada a doppio senso» (двусторонняя), «una strada extraurbana principale» (основная загородная). Ловушка — неверная классификация типа дороги по описанию."
+      "ru": "Три основные категории дорожных знаков: **segnali di pericolo** (предупреждающие, треугольник с красным контуром) — только информируют об опасности, не обязывают и не запрещают; **segnali di divieto** (запрещающие, красный круг) — запрещают конкретное действие; **segnali di obbligo** (предписывающие, синий круг) — обязывают выполнить действие. Подмена категорий — главная ловушка вопросов о знаках."
     },
     "quiz_hint": {
-      "ru": "Вопросы «una strada» в 59% случаев — FALSO. Квиз описывает дорогу и просит подтвердить её тип или характеристику, но в описании есть ошибка. Например: «дорога с двумя проезжими частями» — не обязательно автострада (autostrada требует ещё ряд признаков). Проверяй все обязательные признаки, а не только один.",
+      "ru": "Проверяй два параметра: 1) форму/цвет знака → определяй категорию; 2) соответствует ли описанное действие этой категории. Треугольник НИКОГДА не запрещает и не обязывает — только предупреждает. Синий круг ВСЕГДА обязывает. Красный круг ВСЕГДА запрещает. Вопросы, где «предупреждающий знак запрещает» или «запрещающий знак предупреждает» — FALSO.",
       "pattern": "false_bias"
     },
     "examples": [
       {
-        "it": "Una strada con due carreggiate separate è sempre un'autostrada",
-        "ru": "Дорога с двумя раздельными проезжими частями — всегда автострада",
+        "it": "I segnali di pericolo vietano determinate manovre pericolose",
+        "ru": "Предупреждающие знаки запрещают определённые опасные манёвры",
         "answer": false,
-        "comment_ru": "FALSO — разделённые проезжие части есть и у strade extraurbane principali; автострада имеет дополнительные критерии"
+        "comment_ru": "FALSO — предупреждающие знаки только информируют об опасности; запрещают только segnali di divieto"
       }
     ],
-    "related_entries": ["strada", "carreggiata", "autostrada"],
+    "related_entries": ["segnale", "divieto", "obbligo", "segnale_di"],
+    "related_question_ids": []
+  },
+  {
+    "id": "corsia_vs_carreggiata",
+    "term": "corsia vs. carreggiata",
+    "term_ru": "полоса движения vs. проезжая часть",
+    "type": "concept",
+    "priority": 1,
+    "topics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "definition": {
+      "ru": "Точное различие: **corsia** — продольная полоса движения, часть carreggiata, выделенная разметкой, достаточная для одного ряда ТС; **carreggiata** — часть дороги для движения ТС, может содержать несколько corsia. Strada con due carreggiate (разделённые проезжие части) ≠ «две полосы»: каждая carreggiata может иметь несколько corsie. Односторонняя corsia: движение только в одну сторону."
+    },
+    "quiz_hint": {
+      "ru": "Вопросы путают «corsia» и «carreggiata» намеренно. «Una strada a due corsie» — две полосы (возможно двустороннее движение). «Una strada a due carreggiate» — две проезжие части (всегда разделены, как на extraurbana principale или autostrada). Если вопрос говорит «две carreggiate = двустороннее движение» — скорее FALSO: разделённые carreggiate обычно одностороннее движение в каждой.",
+      "pattern": "neutral"
+    },
+    "examples": [
+      {
+        "it": "Una strada a due carreggiate separate è sempre a senso unico",
+        "ru": "Дорога с двумя раздельными проезжими частями всегда является односторонней",
+        "answer": false,
+        "comment_ru": "FALSO — каждая carreggiata односторонняя, но сама дорога в целом имеет движение в обоих направлениях (по одной carreggiata в каждую)"
+      }
+    ],
+    "related_entries": ["carreggiata", "corsia", "strade_extraurbane"],
+    "related_question_ids": []
+  },
+  {
+    "id": "precedenza_vs_diritto_di_via",
+    "term": "precedenza vs. diritto di precedenza",
+    "term_ru": "приоритет проезда и право преимущественного проезда",
+    "type": "concept",
+    "priority": 1,
+    "topics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "definition": {
+      "ru": "**Precedenza** — общее право проезда первым, устанавливаемое знаками или ПДД. **Diritto di precedenza** (или diritto di via) — конкретное закреплённое право, которое водитель имеет перед другим участником в конкретной ситуации. Ключевой принцип: наличие precedenza не освобождает водителя от обязанности убедиться в безопасности — если другой водитель едет на красный, это не значит, что можно не смотреть."
+    },
+    "quiz_hint": {
+      "ru": "«Avere la precedenza» не означает «ехать без оглядки». Квиз часто ставит ловушку: «водитель с правом precedenza должен ВСЕГДА проехать первым, не снижая скорость» — FALSO: безопасность важнее приоритета. Уступать precedenza обязан тот, у кого её нет, но водитель с ней всё равно должен быть внимательным.",
+      "pattern": "false_bias"
+    },
+    "examples": [
+      {
+        "it": "Avendo la precedenza, il conducente non è obbligato a ridurre la velocità all'incrocio",
+        "ru": "Имея право приоритета, водитель не обязан снижать скорость на перекрёстке",
+        "answer": false,
+        "comment_ru": "FALSO — даже при наличии precedenza водитель обязан убедиться в безопасности проезда и при необходимости снизить скорость"
+      }
+    ],
+    "related_entries": ["precedenza", "incrocio"],
+    "related_question_ids": []
+  },
+  {
+    "id": "divieto_vs_obbligo_signs",
+    "term": "segnale di divieto vs. segnale di obbligo",
+    "term_ru": "запрещающий знак vs. предписывающий знак",
+    "type": "concept",
+    "priority": 2,
+    "topics": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "definition": {
+      "ru": "**Segnali di divieto** (красный круг на белом фоне): запрещают конкретное действие. Примеры: senso vietato (въезд запрещён), sorpasso vietato (обгон запрещён), divieto di sosta. **Segnali di obbligo** (синий круг): обязывают выполнить действие. Примеры: obbligo di svoltare a destra, obbligo di transito. Диаметрально противоположные по смыслу, но легко перепутать при описании."
+    },
+    "quiz_hint": {
+      "ru": "Квиз подменяет divieto и obbligo в описаниях знаков. Красный круг — всегда запрет. Синий круг — всегда обязательство. «Senso vietato» (красный круг) запрещает въезд — если вопрос описывает его как «обязывающий повернуть» — FALSO. Если синий знак описан как «запрещающий» — FALSO.",
+      "pattern": "false_bias"
+    },
+    "examples": [
+      {
+        "it": "Il segnale di obbligo impone ai conducenti di non effettuare la manovra rappresentata",
+        "ru": "Предписывающий знак обязывает водителей не выполнять изображённый манёвр",
+        "answer": false,
+        "comment_ru": "FALSO — предписывающий знак ОБЯЗЫВАЕТ выполнить манёвр; запрещает выполнять — знак запрещающий (divieto)"
+      }
+    ],
+    "related_entries": ["obbligo", "divieto", "segnale", "obbligo_vs_divieto_vs_pericolo"],
+    "related_question_ids": []
+  },
+  {
+    "id": "centro_abitato_vs_fuori",
+    "term": "centro abitato vs. fuori dai centri abitati",
+    "term_ru": "в населённом пункте vs. за пределами (ключевые различия)",
+    "type": "concept",
+    "priority": 1,
+    "topics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    "definition": {
+      "ru": "**Centro abitato** (населённый пункт): ограничен знаками «начало/конец населённого пункта». Скорость: 50 км/ч (если иное не указано). Запрещены: дальний свет (abbaglianti) без необходимости, звуковой сигнал (клаксон) без острой необходимости. **Fuori dai centri abitati**: extraurbane secondarie — 90 км/ч, extraurbane principali — 110 км/ч, autostrade — 130 км/ч. Разные правила по освещению, обгону и остановке."
+    },
+    "quiz_hint": {
+      "ru": "«Nei centri abitati» и «fuori dai centri abitati» — ключевой контекст для десятков вопросов. Запомни: 50 км/ч в городе, клаксон только в экстренных случаях, аbbaglianti запрещены без нужды. За городом: лимиты 90/110/130, дальний свет включается ночью, клаксон разрешён для предупреждения. Если эти правила перемешаны — ищи FALSO.",
+      "pattern": "neutral"
+    },
+    "examples": [
+      {
+        "it": "Nei centri abitati è vietato usare il clacson in ogni situazione",
+        "ru": "В населённых пунктах использование клаксона запрещено в любых ситуациях",
+        "answer": false,
+        "comment_ru": "FALSO — в населённых пунктах клаксон запрещён без острой необходимости, но в экстренных ситуациях разрешён"
+      }
+    ],
+    "related_entries": ["nei_centri_abitati", "fuori_dai_centri_abitati", "limite", "velocita"],
     "related_question_ids": []
   }
 ]
