@@ -1,532 +1,177 @@
 [
-    {
-        "id": "veicolo",
-        "term": "veicolo",
-        "term_ru": "транспортное средство",
-        "type": "term",
-        "priority": 1,
-        "topics": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24
-        ],
-        "definition": {
-            "ru": "«Veicolo» — широкий термин для любого транспортного средства, включая немеханические (велосипеды). В итальянском Codice della Strada «veicoli» делятся на категории: veicoli a motore (механические), veicoli non a motore (немеханические). Важно отличать «veicolo» от более узкого «autoveicolo» (только механические с 4+ колёсами)."
-        },
-        "quiz_hint": {
-            "ru": "Когда вопрос использует «veicolo», уточни: речь идёт о любом ТС или только о механических? Ошибки возникают, когда правило применяют только к автомобилям, хотя оно касается всех ТС, или наоборот. Мотоцикл — это veicolo a motore, но не autoveicolo.",
-            "pattern": "neutral"
-        },
-        "examples": [
-            {
-                "it": "Il motociclo è un qualunque veicolo a due ruote",
-                "ru": "Мотоцикл — это любое двухколёсное транспортное средство",
-                "answer": false,
-                "comment_ru": "FALSO — велосипед тоже двухколёсный, но не является мотоциклом; мотоцикл — это моторное ТС"
-            }
-        ],
-        "related_entries": [
-            "autostrada",
-            "circolazione"
-        ],
-        "related_question_ids": []
+  {
+    "id": "raffigurato_indica",
+    "term": "raffigurato indica",
+    "term_ru": "изображённый [знак] указывает",
+    "type": "phrase",
+    "priority": 1,
+    "topics": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "definition": {
+      "ru": "Конструкция «il segnale raffigurato indica» — «изображённый знак указывает на...» — вводит утверждение о том, что именно означает конкретный знак. Ловушка квиза: описание значения знака часто подменяется смежным или более широким смыслом. Например, знак «кривая дорога» (curva pericolosa) указывает на опасность поворота, но не обязывает остановиться."
     },
-    {
-        "id": "transito",
-        "term": "transito",
-        "term_ru": "проезд / движение (по конкретному месту)",
-        "type": "term",
-        "priority": 1,
-        "topics": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17
-        ],
-        "definition": {
-            "ru": "«Transito» — проезд или проход через конкретное место или зону. Это более узкое понятие, чем «circolazione» (общая организация движения). «Vietato il transito» означает запрет именно проезда через данный участок. Частая ловушка: пешеходный переход (attraversamento pedonale) вовсе не запрещает transito dei veicoli — ТС могут по нему ехать."
-        },
-        "quiz_hint": {
-            "ru": "Ключевое различие: transito — это сам факт проезда, не стоянка. Пешеходный переход (attraversamento pedonale) — часть проезжей части, по которой ТС имеют право ехать, но обязаны уступать пешеходам. Vietato il transito на знаке означает: въезд запрещён для указанной категории.",
-            "pattern": "neutral"
-        },
-        "examples": [
-            {
-                "it": "L'attraversamento pedonale è una parte della carreggiata vietata al transito dei veicoli",
-                "ru": "Пешеходный переход — это часть проезжей части, запрещённая для проезда транспортных средств",
-                "answer": false,
-                "comment_ru": "FALSO — по пешеходному переходу ТС могут ехать, но обязаны уступать пешеходам"
-            }
-        ],
-        "related_entries": [
-            "circolazione",
-            "sosta"
-        ],
-        "related_question_ids": []
+    "quiz_hint": {
+      "ru": "Вопросы с «raffigurato indica» в 63% случаев — FALSO. Квиз намеренно описывает знак чуть шире или уже его реального значения. Спрашивай себя: точно ли то, что написано, совпадает с буквальным значением знака? Малейшее преувеличение — уже FALSO.",
+      "pattern": "false_bias"
     },
-    {
-        "id": "circolazione",
-        "term": "circolazione",
-        "term_ru": "дорожное движение / организация движения",
-        "type": "term",
-        "priority": 1,
-        "topics": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23
-        ],
-        "definition": {
-            "ru": "«Circolazione» — дорожное движение как система или организация. «Doppio senso di circolazione» — двустороннее движение. «Zona a traffico limitato» ограничивает circolazione по времени или категории ТС. Этот термин описывает общий порядок движения, в отличие от «transito» (проезд через конкретное место)."
-        },
-        "quiz_hint": {
-            "ru": "Обращай внимание на «senso di circolazione» — направление движения. «Doppio senso» означает движение в обоих направлениях по одной дороге. Зоны ZTL ограничивают именно circolazione — въезд и движение, но не обязательно полностью запрещают их.",
-            "pattern": "neutral"
-        },
-        "examples": [
-            {
-                "it": "La carreggiata del tipo rappresentato è a doppio senso di circolazione",
-                "ru": "Проезжая часть данного типа имеет двустороннее движение",
-                "answer": true,
-                "comment_ru": "VERO — проезжая часть с полосами в обоих направлениях без разделителя — классическое двустороннее движение"
-            }
-        ],
-        "related_entries": [
-            "transito",
-            "carreggiata"
-        ],
-        "related_question_ids": []
+    "examples": [
+      {
+        "it": "Il segnale raffigurato indica che è consentito circolare a velocità non superiore a quella indicata",
+        "ru": "Изображённый знак указывает, что движение разрешено со скоростью не выше указанной",
+        "answer": true,
+        "comment_ru": "VERO — знак ограничения скорости именно это и означает: максимально допустимая скорость"
+      }
+    ],
+    "related_entries": ["segnale", "raffigurato_vieta", "raffigurato_preannuncia"],
+    "related_question_ids": []
+  },
+  {
+    "id": "raffigurato_vieta",
+    "term": "raffigurato vieta",
+    "term_ru": "изображённый [знак] запрещает",
+    "type": "phrase",
+    "priority": 1,
+    "topics": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "definition": {
+      "ru": "Конструкция «il segnale raffigurato vieta» — «изображённый знак запрещает...» — вводит утверждение о запрещающем действии знака. Запрещающие знаки в Италии имеют строго определённый охват: запрет распространяется только на категории ТС, явно указанные на знаке или в ПДД. Квиз часто расширяет или сужает этот охват."
     },
-    {
-        "id": "semaforo",
-        "term": "semaforo",
-        "term_ru": "светофор",
-        "type": "term",
-        "priority": 1,
-        "topics": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12
-        ],
-        "definition": {
-            "ru": "«Semaforo» — светофор. В итальянских ПДД сигналы светофора имеют приоритет над дорожными знаками, но уступают жестам регулировщика (agente). Зелёный сигнал не даёт безусловного права проезда: водитель обязан убедиться в безопасности манёвра. Перекрёсток может быть регулируемым (con semaforo) и нерегулируемым."
-        },
-        "quiz_hint": {
-            "ru": "Ключевая ловушка: зелёный свет не означает «обязан ехать» и не снимает с водителя ответственности за безопасность. Вопросы типа «при зелёном водитель ВСЕГДА должен двигаться» — FALSO. Иерархия: регулировщик > semaforo > знаки. При конфликте светофора и регулировщика — слушай регулировщика.",
-            "pattern": "neutral"
-        },
-        "examples": [
-            {
-                "it": "Bisogna lasciare liberi solo gli incroci regolati da semaforo in caso di formazione di code",
-                "ru": "При образовании пробок нужно оставлять свободными только перекрёстки, регулируемые светофором",
-                "answer": false,
-                "comment_ru": "FALSO — освобождать от заторов нужно любые перекрёстки, а не только регулируемые светофором"
-            }
-        ],
-        "related_entries": [
-            "precedenza",
-            "incrocio"
-        ],
-        "related_question_ids": []
+    "quiz_hint": {
+      "ru": "Вопросы с «raffigurato vieta» в 58% случаев — FALSO. Стандартная ловушка: знак «запрещает» либо применён к неправильной категории ТС (например, «запрещает трамваям» вместо «троллейбусам»), либо переходит действие дальше перекрёстка (а не прекращается). Читай кому и на каком участке.",
+      "pattern": "false_bias"
     },
-    {
-        "id": "guida",
-        "term": "guida",
-        "term_ru": "вождение / управление / водительское удостоверение",
-        "type": "term",
-        "priority": 1,
-        "topics": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15
-        ],
-        "definition": {
-            "ru": "«Guida» имеет несколько значений: 1) вождение/управление ТС («guida in stato di ebbrezza» — вождение в нетрезвом виде); 2) водительское удостоверение («patente di guida»). «Scuola guida» — автошкола. Глагол «guidare» — управлять ТС. Важно не путать: «guida» как процесс и «patente di guida» как документ."
-        },
-        "quiz_hint": {
-            "ru": "Обращай внимание на контекст: «patente di guida» — это права, а не просто guida. «Guida in stato di alterazione» — нарушение, которое в квизе почти всегда VERO (да, это запрещено и опасно). Вопросы о возрасте допуска к guida часто проверяют точные цифры — там бывают ловушки.",
-            "pattern": "neutral"
-        },
-        "examples": [
-            {
-                "it": "La guida dei quadricicli non leggeri è consentita già al compimento del quattordicesimo anno di età",
-                "ru": "Управление нелёгкими квадрициклами разрешено с 14-летнего возраста",
-                "answer": false,
-                "comment_ru": "FALSO — для нелёгких квадрициклов требуется водительское удостоверение соответствующей категории"
-            }
-        ],
-        "related_question_ids": []
+    "examples": [
+      {
+        "it": "Il segnale raffigurato vieta il transito ai filobus",
+        "ru": "Изображённый знак запрещает проезд троллейбусам",
+        "answer": false,
+        "comment_ru": "FALSO — знак запрета относится к трамваям, а не к троллейбусам; это разные категории"
+      }
+    ],
+    "related_entries": ["raffigurato_indica", "raffigurato_preannuncia", "divieto"],
+    "related_question_ids": []
+  },
+  {
+    "id": "raffigurato_preannuncia",
+    "term": "raffigurato preannuncia",
+    "term_ru": "изображённый [знак] предупреждает",
+    "type": "phrase",
+    "priority": 1,
+    "topics": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "definition": {
+      "ru": "Конструкция «il segnale raffigurato preannuncia» — «изображённый знак предупреждает о...» — характерна для предупреждающих знаков (segnali di pericolo). Эти знаки информируют об опасности впереди, но не запрещают движение и не предписывают конкретную скорость. Ловушка: вопрос утверждает, что знак «обязывает остановиться» или «запрещает обгон» — это почти всегда FALSO."
     },
-    {
-        "id": "marcia",
-        "term": "marcia",
-        "term_ru": "движение / ход / передача",
-        "type": "term",
-        "priority": 1,
-        "topics": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23
-        ],
-        "definition": {
-            "ru": "«Marcia» имеет несколько значений: 1) движение («senso di marcia» — направление движения, «inversione di marcia» — разворот); 2) передача КПП («retromarcia» — задняя передача). «Inversione di marcia» — разворот — запрещён в туннелях, на автострадах, вблизи перекрёстков и в других местах."
-        },
-        "quiz_hint": {
-            "ru": "Следи за составными словами: «retromarcia» (задний ход) чаще всего FALSO в контексте «разрешён ли». Задний ход запрещён на опасных участках, автострадах, туннелях. «Inversione di marcia» (разворот) запрещена там же плюс в местах ограниченной видимости. «Senso di marcia» — просто направление движения.",
-            "pattern": "neutral"
-        },
-        "examples": [
-            {
-                "it": "In una carreggiata del tipo rappresentato non si può effettuare l'inversione di marcia",
-                "ru": "На проезжей части данного типа нельзя выполнить разворот",
-                "answer": true,
-                "comment_ru": "VERO — при наличии сплошной разделительной линии разворот категорически запрещён"
-            }
-        ],
-        "related_entries": [
-            "sorpasso",
-            "corsia"
-        ],
-        "related_question_ids": []
+    "quiz_hint": {
+      "ru": "Вопросы с «raffigurato preannuncia» в 61% случаев — FALSO. Предупреждающий знак не запрещает и не обязывает — он только информирует. Если вопрос говорит, что знак-предупреждение «запрещает обгон», «обязывает остановиться» или «ограничивает скорость до X» — почти всегда FALSO, если такого ограничения нет на самом знаке.",
+      "pattern": "false_bias"
     },
-    {
-        "id": "svoltare",
-        "term": "svoltare",
-        "term_ru": "поворачивать",
-        "type": "term",
-        "priority": 2,
-        "topics": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12
-        ],
-        "definition": {
-            "ru": "«Svoltare» — поворачивать. В отличие от «inversione di marcia» (разворот на 180°), svoltare — это поворот на перекрёстке направо или налево. Полосы движения могут быть выделены специально для «veicoli che intendono svoltare» — ТС, намеревающихся повернуть. Подача сигнала перед поворотом обязательна."
-        },
-        "quiz_hint": {
-            "ru": "Отличай «svoltare» (поворот на перекрёстке) от «inversione di marcia» (разворот). Полоса для поворота (corsia specializzata) предназначена только для тех, кто намерен свернуть — выполнять обгон в такой полосе нельзя. Сигнал поворота обязателен; запрещающий знак обгона обычно не распространяется на тех, кто обгоняет поворачивающих.",
-            "pattern": "neutral"
-        },
-        "examples": [
-            {
-                "it": "La corsia può essere riservata ai veicoli che intendono svoltare (corsia specializzata)",
-                "ru": "Полоса может быть выделена для транспортных средств, намеревающихся повернуть (специализированная полоса)",
-                "answer": true,
-                "comment_ru": "VERO — специализированные полосы для поворота существуют и предназначены только для этого манёвра"
-            }
-        ],
-        "related_entries": [
-            "manovra",
-            "marcia",
-            "incrocio"
-        ],
-        "related_question_ids": []
+    "examples": [
+      {
+        "it": "Il segnale raffigurato preannuncia un incrocio con precedenza a destra",
+        "ru": "Изображённый знак предупреждает о перекрёстке с приоритетом справа",
+        "answer": true,
+        "comment_ru": "VERO — предупреждающий знак перекрёстка с приоритетом справа именно предупреждает, а не запрещает"
+      }
+    ],
+    "related_entries": ["raffigurato_indica", "raffigurato_vieta", "segnale"],
+    "related_question_ids": []
+  },
+  {
+    "id": "segnale_di",
+    "term": "segnale di (pericolo / obbligo / divieto)",
+    "term_ru": "знак (опасности / предписания / запрета)",
+    "type": "phrase",
+    "priority": 1,
+    "topics": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    "definition": {
+      "ru": "«Segnale di» — начало конструкции, обозначающей категорию знака: «segnale di pericolo» (знак опасности, треугольник), «segnale di obbligo» (предписывающий знак, синий круг), «segnale di divieto» (запрещающий знак, красный круг). Квиз часто подменяет категорию знака: называет предписывающий знак запрещающим или наоборот."
     },
-    {
-        "id": "luce",
-        "term": "luce / luci",
-        "term_ru": "свет / огни",
-        "type": "term",
-        "priority": 2,
-        "topics": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12
-        ],
-        "definition": {
-            "ru": "«Luce» (единственное) / «luci» (множественное) — свет или огни ТС. В ПДД различают: luci di posizione (габаритные огни), anabbaglianti (ближний свет), abbaglianti (дальний свет), luce lampeggiante (проблесковый маяк). Специальные ТС — полиция, скорая, пожарные — используют luce lampeggiante blu (синий проблесковый маяк)."
-        },
-        "quiz_hint": {
-            "ru": "Синий проблесковый маяк (luce lampeggiante blu) — привилегия только экстренных служб (полиция, скорая, пожарные). Автомобили с синим маяком имеют право въезжать в пешеходные зоны. Ближний свет (anabbaglianti) обязателен даже днём в туннелях и на определённых дорогах. Не путай anabbaglianti и abbaglianti — разные режимы.",
-            "pattern": "neutral"
-        },
-        "examples": [
-            {
-                "it": "Nelle aree pedonali possono transitare i veicoli della polizia, con sirena e luce lampeggiante blu",
-                "ru": "В пешеходных зонах могут двигаться автомобили полиции с сиреной и синим проблесковым маяком",
-                "answer": true,
-                "comment_ru": "VERO — экстренные службы с включёнными спецсигналами имеют право въезда в пешеходные зоны"
-            }
-        ],
-        "related_question_ids": []
+    "quiz_hint": {
+      "ru": "Вопросы с «segnale di» в 59% случаев — VERO. Если вопрос правильно называет категорию знака и описывает его действие в соответствии с этой категорией — скорее VERO. FALSO возникает при подмене: «знак опасности запрещает» (нет, только предупреждает) или «предписывающий знак информирует» (нет, он обязывает).",
+      "pattern": "true_bias"
     },
-    {
-        "id": "pedoni",
-        "term": "pedoni",
-        "term_ru": "пешеходы",
-        "type": "term",
-        "priority": 1,
-        "topics": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14
-        ],
-        "definition": {
-            "ru": "«Pedoni» — пешеходы. В итальянских ПДД пешеходы имеют приоритет на пешеходных переходах (attraversamento pedonale): водители обязаны уступить. Особая категория: слепые пешеходы с белой тростью (bastone bianco) — им уступают даже вне переходов. Дети и пожилые — повышенная осторожность."
-        },
-        "quiz_hint": {
-            "ru": "Ключевые правила о pedoni: на переходе водитель ВСЕГДА уступает. Слепой пешеходу с белой тростью — уступают везде, не только на переходе. Пожилые и дети могут внезапно остановиться или изменить направление — это часто проверяется в квизе. Водитель не имеет права принуждать пешехода к спешке сигналом.",
-            "pattern": "neutral"
-        },
-        "examples": [
-            {
-                "it": "In vicinanza di un attraversamento pedonale, il conducente deve considerare che i pedoni devono attraversare la strada in file ordinate",
-                "ru": "Вблизи пешеходного перехода водитель должен учитывать, что пешеходы обязаны переходить дорогу упорядоченными рядами",
-                "answer": false,
-                "comment_ru": "FALSO — пешеходы могут переходить дорогу так, как им удобно, без обязательного построения"
-            }
-        ],
-        "related_entries": [
-            "attraversamento",
-            "precedenza"
-        ],
-        "related_question_ids": []
+    "examples": [
+      {
+        "it": "Il segnale di pericolo impone l'obbligo di fermarsi e dare la precedenza",
+        "ru": "Знак опасности обязывает остановиться и уступить дорогу",
+        "answer": false,
+        "comment_ru": "FALSO — останавливаться и уступать обязывает знак STOP или «уступи дорогу», а не знаки опасности"
+      }
+    ],
+    "related_entries": ["segnale", "divieto", "obbligo"],
+    "related_question_ids": []
+  },
+  {
+    "id": "pannello_integrativo",
+    "term": "pannello integrativo",
+    "term_ru": "дополнительная табличка",
+    "type": "phrase",
+    "priority": 1,
+    "topics": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "definition": {
+      "ru": "«Pannello integrativo» — дополнительная табличка под основным знаком, уточняющая сферу его действия: временной период, категорию ТС, расстояние. Без панели знак действует для всех ТС и постоянно. Ключевой принцип: панель только сужает действие знака, но не отменяет его для остальных участников."
     },
-    {
-        "id": "striscia",
-        "term": "striscia",
-        "term_ru": "полоса разметки / черта",
-        "type": "term",
-        "priority": 2,
-        "topics": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11
-        ],
-        "definition": {
-            "ru": "«Striscia» — полоса дорожной разметки. «Striscia continua» (сплошная линия) запрещает пересечение и разворот. «Striscia discontinua» (прерывистая) — пересечение разрешено. «Strisce pedonali» — пешеходный переход («зебра»). Важно не путать стriscia (горизонтальная разметка) с segnale verticale (вертикальный знак)."
-        },
-        "quiz_hint": {
-            "ru": "Главная ловушка: striscia continua (сплошная) — нельзя пересекать и разворачиваться. Striscia discontinua (прерывистая) — можно. «Strisce pedonali» — это не запрет для ТС, а место с приоритетом пешеходов. Разметка (striscia) и знак (segnale) — разные инструменты регулирования, иногда противоречащие друг другу.",
-            "pattern": "neutral"
-        },
-        "examples": [
-            {
-                "it": "In una carreggiata del tipo rappresentato non si può effettuare l'inversione di marcia",
-                "ru": "На проезжей части данного типа нельзя выполнить разворот",
-                "answer": true,
-                "comment_ru": "VERO — сплошная осевая striscia continua запрещает разворот"
-            }
-        ],
-        "related_entries": [
-            "segnaletica",
-            "carreggiata"
-        ],
-        "related_question_ids": []
+    "quiz_hint": {
+      "ru": "Вопросы о «pannello integrativo» в 55% случаев — FALSO. Типичная ловушка: «панель с часами означает, что вне этих часов знак недействителен для ВСЕХ» — но это верно только для категорий и расстояний. Другая ловушка: «знак без панели действует только в определённые часы» — нет, без панели знак действует 24/7.",
+      "pattern": "false_bias"
     },
-    {
-        "id": "limite",
-        "term": "limite",
-        "term_ru": "ограничение / предел",
-        "type": "term",
-        "priority": 1,
-        "topics": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11
-        ],
-        "definition": {
-            "ru": "«Limite» — ограничение. В ПДД чаще всего «limite di velocità» (ограничение скорости). Ключевые нормативы: населённые пункты — 50 км/ч, загородные дороги — 90 км/ч, основные загородные дороги — 110 км/ч, автострады — 130 км/ч. Эти лимиты снижаются в дождь, для новичков и для некоторых ТС."
-        },
-        "quiz_hint": {
-            "ru": "Скоростные лимиты — одна из главных зон числовых ловушек. Запомни: 50/90/110/130 км/ч. Частые ошибки: «на основных загородных дорогах 130» (нет, 110) или «на автостраде 110» (нет, 130). При дожде лимиты снижаются: 90 км/ч на автостраде вместо 130 — это реальное правило, часто проверяемое.",
-            "pattern": "neutral"
-        },
-        "examples": [
-            {
-                "it": "Sulle strade extraurbane principali è consentito circolare alla velocità massima di 130 km/h",
-                "ru": "На основных загородных дорогах разрешено движение с максимальной скоростью 130 км/ч",
-                "answer": false,
-                "comment_ru": "FALSO — на основных загородных дорогах (strade extraurbane principali) лимит 110 км/ч, не 130"
-            }
-        ],
-        "related_entries": [
-            "autostrada",
-            "velocita"
-        ],
-        "related_question_ids": []
+    "examples": [
+      {
+        "it": "Il pannello integrativo con l'indicazione delle ore stabilisce che il segnale è valido solo nell'orario indicato",
+        "ru": "Дополнительная табличка с указанием часов означает, что знак действует только в указанное время",
+        "answer": true,
+        "comment_ru": "VERO — табличка с часами действительно ограничивает действие знака указанным временным периодом"
+      }
+    ],
+    "related_entries": ["segnale", "segnaletica"],
+    "related_question_ids": []
+  },
+  {
+    "id": "dei_veicoli",
+    "term": "dei veicoli",
+    "term_ru": "транспортных средств (родительный падеж)",
+    "type": "phrase",
+    "priority": 2,
+    "topics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "definition": {
+      "ru": "«Dei veicoli» — родительный падеж от «veicoli» (транспортных средств). В вопросах квиза чаще всего встречается в формулировках прав или обязанностей, распространяющихся на ТС: «la precedenza dei veicoli» (приоритет ТС), «il transito dei veicoli» (проезд ТС). Важно: «dei veicoli» = всех ТС, тогда как «degli autoveicoli» = только механических."
     },
-    {
-        "id": "strade_extraurbane",
-        "term": "strade extraurbane",
-        "term_ru": "загородные дороги",
-        "type": "phrase",
-        "priority": 1,
-        "topics": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14
-        ],
-        "definition": {
-            "ru": "«Strade extraurbane» — загородные дороги, расположенные вне населённых пунктов. Делятся на: «extraurbane principali» (основные, 4+ полосы, раздельные проезжие части, лимит 110 км/ч) и «extraurbane secondarie» (второстепенные, лимит 90 км/ч). На «principali» запрещены мопеды и велосипедисты."
-        },
-        "quiz_hint": {
-            "ru": "Запомни разницу: «extraurbane principali» — 110 км/ч, раздельные проезжие части, мопеды запрещены. «Extraurbane secondarie» — 90 км/ч, обычная загородная дорога. Квиз часто путает скоростные лимиты между типами или приписывает «principali» характеристики автострады (130 км/ч) — это почти всегда FALSO.",
-            "pattern": "neutral"
-        },
-        "examples": [
-            {
-                "it": "Le strade extraurbane principali sono a carreggiate separate",
-                "ru": "Основные загородные дороги имеют раздельные проезжие части",
-                "answer": true,
-                "comment_ru": "VERO — раздельные проезжие части — это обязательный признак strade extraurbane principali"
-            }
-        ],
-        "related_entries": [
-            "autostrada",
-            "limite",
-            "fuori_dai_centri_abitati"
-        ],
-        "related_question_ids": []
-    }
+    "quiz_hint": {
+      "ru": "Вопросы с «dei veicoli» в 64% случаев — VERO. Формулировки с «dei veicoli» обычно корректно описывают правовые нормы для широкой категории ТС. Проверяй, не подменяется ли «veicoli» на «autoveicoli» или «ciclomotori» — это ключевая ловушка с категориями ТС.",
+      "pattern": "true_bias"
+    },
+    "examples": [
+      {
+        "it": "L'attraversamento pedonale è una parte della carreggiata destinata al transito dei veicoli",
+        "ru": "Пешеходный переход — это часть проезжей части, предназначенная для проезда транспортных средств",
+        "answer": false,
+        "comment_ru": "FALSO — пешеходный переход предназначен для пешеходов; ТС по нему едут, но он не «предназначен» для них"
+      }
+    ],
+    "related_entries": ["veicolo", "transito"],
+    "related_question_ids": []
+  },
+  {
+    "id": "una_strada",
+    "term": "una strada",
+    "term_ru": "дорога (общее понятие)",
+    "type": "phrase",
+    "priority": 2,
+    "topics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "definition": {
+      "ru": "«Una strada» — дорога как юридическое понятие. В итальянских ПДД «strada» имеет точное определение: поверхность, открытая для публичного движения ТС. Квиз использует «una strada» в контексте классификации: «una strada a doppio senso» (двусторонняя), «una strada extraurbana principale» (основная загородная). Ловушка — неверная классификация типа дороги по описанию."
+    },
+    "quiz_hint": {
+      "ru": "Вопросы «una strada» в 59% случаев — FALSO. Квиз описывает дорогу и просит подтвердить её тип или характеристику, но в описании есть ошибка. Например: «дорога с двумя проезжими частями» — не обязательно автострада (autostrada требует ещё ряд признаков). Проверяй все обязательные признаки, а не только один.",
+      "pattern": "false_bias"
+    },
+    "examples": [
+      {
+        "it": "Una strada con due carreggiate separate è sempre un'autostrada",
+        "ru": "Дорога с двумя раздельными проезжими частями — всегда автострада",
+        "answer": false,
+        "comment_ru": "FALSO — разделённые проезжие части есть и у strade extraurbane principali; автострада имеет дополнительные критерии"
+      }
+    ],
+    "related_entries": ["strada", "carreggiata", "autostrada"],
+    "related_question_ids": []
+  }
 ]
