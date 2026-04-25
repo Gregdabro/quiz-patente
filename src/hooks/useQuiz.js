@@ -2,17 +2,18 @@
  * useQuiz.js
  * Главный хук логики прохождения квиза.
  *
- * topicId: "1"–"25" | "all" | "errors"
+ * topicId: "1"–"25" | "all" | "errors" | "errors:N" | "dict:entryId"
  *
  * Контракт:
  * { questions, current, goTo, answered, answer, results, isFinished, finish, reset, loading, error }
  */
 
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { loadTopicQuestions, loadAllQuestions, loadTopicErrorQuestions, pickSessionQuestions } from '../services/questionsService.js';
+import { loadTopicQuestions, loadAllQuestions, loadTopicErrorQuestions, loadQuestionsByEntry, pickSessionQuestions } from '../services/questionsService.js';
 import { getErrorQuestions } from '../services/errorsService.js';
 import { incrementError, decrementError } from '../services/errorsService.js';
 import { saveTestResult } from '../services/progressService.js';
+import { loadDictionaryEntries } from '../services/dictionaryService.js';
 
 export default function useQuiz(topicId) {
   const [questions, setQuestions] = useState([]);
@@ -62,6 +63,14 @@ export default function useQuiz(topicId) {
       // Режим «ошибки по конкретной теме»
       const tid = topicId.slice(7); // убираем префикс 'errors:'
       promise = loadTopicErrorQuestions(tid);
+    } else if (typeof topicId === 'string' && topicId.startsWith('dict:')) {
+      // Режим «вопросы по термину словаря»
+      const entryId = topicId.slice(5); // убираем префикс 'dict:'
+      promise = loadDictionaryEntries().then(function (entries) {
+        var entry = entries.find(function (e) { return e.id === entryId; });
+        if (!entry) throw new Error('Термин словаря не найден: ' + entryId);
+        return loadQuestionsByEntry(entry);
+      });
     } else {
       promise = loadTopicQuestions(topicId);
     }
@@ -146,8 +155,12 @@ export default function useQuiz(topicId) {
     if (isSavedRef.current) return;
 
     const correctCount = results.filter((r) => r.correct).length;
-    saveTestResult(topicId, correctCount, questions.length);
-    
+    // Не сохраняем статистику для режимов dict: (тренировка по термину)
+    var isDictMode = typeof topicId === 'string' && topicId.startsWith('dict:');
+    if (!isDictMode) {
+      saveTestResult(topicId, correctCount, questions.length);
+    }
+
     isSavedRef.current = true;
     setIsFinished(true);
   }, [results, questions.length, topicId]);
