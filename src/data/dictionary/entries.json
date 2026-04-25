@@ -9374,7 +9374,7 @@
   },
   {
     "id": "parcheggio_scambio",
-    "term": "parcheggio di scambio",
+    "term": "parcheggio di scambio / parcheggio riservato / taxi",
     "term_ru": "перехватывающая парковка",
     "type": "phrase",
     "priority": 2,
@@ -9401,7 +9401,38 @@
       "parcheggio",
       "area"
     ],
-    "related_question_ids": []
+    "related_question_ids": [
+      64,
+      168,
+      441,
+      504,
+      505,
+      506,
+      507,
+      508,
+      509,
+      510,
+      1211,
+      1391,
+      1633,
+      1650,
+      2470,
+      2512,
+      2520,
+      2529,
+      2607,
+      2988,
+      2989,
+      2990,
+      2991,
+      2992,
+      2993,
+      2994,
+      2995,
+      2997,
+      3113,
+      3240
+    ]
   },
   {
     "id": "ospedale",
@@ -9455,7 +9486,7 @@
   },
   {
     "id": "itinerario_extraurbano",
-    "term": "itinerario extraurbano",
+    "term": "itinerario extraurbano / fondo blu",
     "term_ru": "загородный маршрут",
     "type": "phrase",
     "priority": 2,
@@ -9486,7 +9517,7 @@
   },
   {
     "id": "itinerario_autostradale",
-    "term": "itinerario autostradale",
+    "term": "itinerario autostradale / fondo verde",
     "term_ru": "автострадный маршрут",
     "type": "phrase",
     "priority": 1,
@@ -9513,6 +9544,8 @@
       "autostrada",
       "strade_extraurbane"
     ],
-    "related_question_ids": []
+    "related_question_ids": [
+      3360
+    ]
   }
 ]
