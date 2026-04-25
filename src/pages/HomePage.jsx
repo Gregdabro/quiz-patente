@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import useTopics from '../hooks/useTopics';
 import useProgress from '../hooks/useProgress';
 import Card from '../components/ui/Card';
@@ -65,6 +65,13 @@ const HomePage = () => {
                 <ProgressBar 
                   progress={(topic.progress?.correct || 0) / topic.questions_count * 100} 
                 />
+                <Link
+                  to={'/dictionary?topic=' + topic.topic_id}
+                  className="topic-dict-link"
+                  onClick={function (e) { e.stopPropagation(); }}
+                >
+                  📖 Термины темы
+                </Link>
               </div>
             </Card>
           ))}
