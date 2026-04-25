@@ -11,7 +11,7 @@ import Button from '../ui/Button';
  * @param {Function} onClose — закрыть модалку результатов для просмотра вопросов
  * @param {Function} onFinish — выход к списку тем
  */
-const ResultScreen = ({ results, total, onRestart, onClose, onFinish }) => {
+const ResultScreen = ({ results, total, topicId, onRestart, onClose, onFinish }) => {
   const correctCount = results.filter(r => r.correct).length;
   const wrongCount = total - correctCount;
   const scorePercent = Math.round((correctCount / total) * 100);
@@ -25,6 +25,22 @@ const ResultScreen = ({ results, total, onRestart, onClose, onFinish }) => {
         }}>
           {isPassed ? '🎉 Complimenti!' : '❌ Non superato'}
         </h2>
+
+        {topicId && topicId.startsWith('dict:') && (
+          <div className="dict-badge" style={{
+            display: 'inline-block',
+            backgroundColor: 'var(--color-primary-light, #eff6ff)',
+            color: 'var(--color-primary)',
+            padding: '4px 12px',
+            borderRadius: 'var(--radius-full)',
+            fontSize: 'var(--font-size-xs)',
+            fontWeight: 'var(--font-weight-semibold)',
+            marginBottom: 'var(--spacing-3)',
+            border: '1px solid var(--color-primary)'
+          }}>
+            📖 ТРЕНИРОВКА ПО СЛОВАРЮ
+          </div>
+        )}
         
         <div className="result-screen__subtitle">
           {isPassed ? 'Вы успешно прошли тест!' : 'К сожалению, вы совершили слишком много ошибок.'}

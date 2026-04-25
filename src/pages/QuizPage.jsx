@@ -108,6 +108,7 @@ const QuizPage = () => {
           topicId === 'errors' ? 'Работа над ошибками' :
           topicId === 'all'    ? 'Случайный тест' :
           topicId.startsWith('errors:') ? `Ошибки — Тема ${topicId.slice(7)}` :
+          topicId.startsWith('dict:') ? 'Тренировка по словарю' :
           `Тема ${topicId}`
         }
         showBack={true}
@@ -150,6 +151,7 @@ const QuizPage = () => {
           <ResultScreen 
             results={results}
             total={questions.length}
+            topicId={topicId}
             onRestart={() => {
               reset();
               setShowResults(false);
