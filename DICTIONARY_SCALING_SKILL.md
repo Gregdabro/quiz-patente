@@ -26,7 +26,7 @@ parent_skills:
 
 | Артефакт | Путь | Статус |
 |---|---|---|
-| MVP записи | `src/data/dictionary/entries.json` | ✅ **69 записей** (батчи A+B+C+D слиты), все с related_question_ids |
+| MVP записи | `src/data/dictionary/entries.json` | ✅ **84 записи** (батчи A–F слиты), все с related_question_ids |
 | Частотный анализ | `scripts/output/candidates.json` | ✅ 4998 слов + 23957 биграмм с bias |
 | Скрипт анализа | `scripts/analyze-dictionary.js` | ✅ поддерживает --bias-only, --json |
 | Скрипт линковки | `scripts/link-questions.js` | ✅ поддерживает --dry-run, --entry |
@@ -346,7 +346,7 @@ node scripts/validate-entries.js
 ### Шаг 2 — validate-entries.js ✅ выполнено
 
 **Цель:** создать валидатор  
-**Verify:** `node scripts/validate-entries.js` → 0 CRITICAL на текущих 69 записях [x]
+**Verify:** `node scripts/validate-entries.js` → 0 CRITICAL на текущих 84 записях [x]
 
 ### Шаг 3 — Батч A: Logic Triggers true_bias (p1) ✅ выполнено
 
@@ -371,16 +371,17 @@ node scripts/validate-entries.js
 **Слито вместе с C:** svoltare, luce, striscia  
 **См. Батч C выше.**
 
-### Шаг 7 — Батч E: Фразы (phrases)
+### Шаг 7 — Батч E: Фразы (phrases) ✅ выполнено
 
-**Кандидаты (из new_entries.json):** in_presenza (✅ уже в A), puo_essere (✅ уже в A), strade_extraurbane, la_velocita (✅ уже в A)  
-**Дополнить:** pannello integrativo, segnale di, raffigurato indica  
-**Цель:** 4–6 новых записей
+**Слито:** raffigurato_indica, raffigurato_vieta, raffigurato_preannuncia, segnale_di, pannello_integrativo, dei_veicoli, una_strada  
+**Результат:** +7 записей, 69 → 76. После link-questions: 76/76 с related_ids ≥ 30  
+**Commit:** `dict: добавлены 7 фраз-конструкций raffigurato/segnale/pannello (батч E)`
 
-### Шаг 8 — Батч F: Концепции (concepts)
+### Шаг 8 — Батч F: Концепции (concepts) ✅ выполнено
 
-**Кандидаты:** autostrada/extraurbana, veicolo/autoveicolo/ciclomotore, segnale/segnaletica, corsia/carreggiata  
-**Цель:** 8–10 парных записей
+**Слито:** autostrada_vs_extraurbana, veicolo_vs_autoveicolo, sosta_vs_fermata, obbligo_vs_divieto_vs_pericolo, corsia_vs_carreggiata, precedenza_vs_diritto_di_via, divieto_vs_obbligo_signs, centro_abitato_vs_fuori  
+**Результат:** +8 записей, 76 → 84. После link-questions: 84/84 с related_ids ≥ 30  
+**Commit:** `dict: добавлены 8 концепций-сравнений (батч F)`
 
 ### Шаги 9–14 — Тематические батчи (p2/p3 по темам)
 
@@ -400,8 +401,8 @@ node scripts/validate-entries.js
 |---|---|
 | A + B (Logic Triggers) ✅ | **57** |
 | C + D (Термины) ✅ | **69** |
-| E (Фразы) | ~75 |
-| F (Концепции) | ~85 |
+| E (Фразы) ✅ | **76** |
+| F (Концепции) ✅ | **84** |
 | Тематические батчи (6 штук) | ~180–200 |
 | Финальные p3 записи | 220–260 |
 

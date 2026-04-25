@@ -5698,5 +5698,609 @@
       1485,
       1583
     ]
+  },
+  {
+    "id": "autostrada_vs_extraurbana",
+    "term": "autostrada vs strada extraurbana principale",
+    "term_ru": "автострада и основная загородная дорога",
+    "type": "concept",
+    "priority": 1,
+    "topics": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "definition": {
+      "ru": "Ключевое различие: **autostrada** — 130 км/ч (110 в дождь), только для ТС ≥ 3-й категории; **extraurbana principale** — 110 км/ч (90 в дождь), мопеды и велосипеды запрещены. Обе имеют разделённые проезжие части и минимум 2 полосы в каждую сторону. Автострада обозначена зелёными щитами и всегда является платной. Extraurbana principale — синие щиты, не всегда платная."
+    },
+    "quiz_hint": {
+      "ru": "Главная ловушка: «разделённые проезжие части = автострада» — FALSO (extraurbana principale тоже разделена). Точные цифры: 130/110 (autostrada), 110/90 (extraurbana principale). Если вопрос приписывает extraurbana principale 130 км/ч или автостраде 110 км/ч как базовый лимит — это FALSO.",
+      "pattern": "false_bias"
+    },
+    "examples": [
+      {
+        "it": "Sulle strade extraurbane principali la velocità massima è di 130 km/h",
+        "ru": "На основных загородных дорогах максимальная скорость составляет 130 км/ч",
+        "answer": false,
+        "comment_ru": "FALSO — 130 км/ч только на autostrada; strade extraurbane principali ограничены 110 км/ч"
+      }
+    ],
+    "related_entries": [
+      "autostrada",
+      "strade_extraurbane",
+      "limite"
+    ],
+    "related_question_ids": [
+      39,
+      106,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      138,
+      141,
+      183,
+      184,
+      186,
+      189,
+      190,
+      191,
+      192,
+      195,
+      666,
+      2118,
+      2121,
+      2122,
+      2123,
+      2124,
+      2125,
+      2128,
+      2147,
+      2162,
+      2209,
+      2222
+    ]
+  },
+  {
+    "id": "veicolo_vs_autoveicolo",
+    "term": "veicolo / autoveicolo / ciclomotore",
+    "term_ru": "ТС / автомобиль / мопед (иерархия категорий)",
+    "type": "concept",
+    "priority": 1,
+    "topics": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "definition": {
+      "ru": "Иерархия категорий в итальянских ПДД: **veicolo** — любое транспортное средство (включает велосипеды, мопеды, автомобили); **autoveicolo** — механическое ТС с двигателем ≥ 50cc или > 45 км/ч (подмножество veicolo); **ciclomotore** — мопед ≤ 50cc и ≤ 45 км/ч. Нормы, написанные для «veicoli», распространяются на все три; нормы для «autoveicoli» — только на автомобили, не на мопеды."
+    },
+    "quiz_hint": {
+      "ru": "Ловушка в экзамене: «правило X распространяется на все veicoli» — проверяй, не написано ли в оригинале «autoveicoli». Ciclomotori разрешены на strade extraurbane secondarie (90 км/ч), но ЗАПРЕЩЕНЫ на extraurbane principali и autostrade. Если вопрос помещает мопед на автостраду — FALSO.",
+      "pattern": "false_bias"
+    },
+    "examples": [
+      {
+        "it": "I ciclomotori possono circolare sulle autostrade se accompagnati da un veicolo",
+        "ru": "Мопеды могут ехать по автострадам в сопровождении другого ТС",
+        "answer": false,
+        "comment_ru": "FALSO — ciclomotori категорически запрещены на autostrade при любых условиях"
+      }
+    ],
+    "related_entries": [
+      "veicolo",
+      "ciclomotori",
+      "autostrada"
+    ],
+    "related_question_ids": [
+      277,
+      314,
+      319,
+      320,
+      321,
+      326,
+      327,
+      328,
+      329,
+      338,
+      339,
+      360,
+      363,
+      368,
+      395,
+      396,
+      397,
+      398,
+      400,
+      402,
+      407,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      416,
+      417,
+      418
+    ]
+  },
+  {
+    "id": "sosta_vs_fermata",
+    "term": "sosta vs fermata",
+    "term_ru": "стоянка vs. остановка (юридическое различие)",
+    "type": "concept",
+    "priority": 1,
+    "topics": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "definition": {
+      "ru": "Юридически важное различие: **fermata** — кратковременная остановка, необходимая для посадки/высадки пассажиров или загрузки/разгрузки, водитель остаётся за рулём; **sosta** — любая остановка, не являющаяся fermata (водитель покидает ТС или останавливается дольше, чем необходимо). Знак «divieto di sosta» запрещает sosta, но не fermata. Знак «divieto di fermata» запрещает оба действия."
+    },
+    "quiz_hint": {
+      "ru": "«Divieto di sosta» запрещает только стоянку — кратковременная остановка для высадки пассажира всё ещё разрешена. «Divieto di fermata» запрещает всё. Если вопрос утверждает, что «divieto di sosta» запрещает высадить пассажира» — FALSO. Если вопрос говорит, что «fermata» разрешена там, где стоит «divieto di fermata» — FALSO.",
+      "pattern": "neutral"
+    },
+    "examples": [
+      {
+        "it": "Il divieto di sosta vieta anche la fermata per fare salire o scendere i passeggeri",
+        "ru": "Знак «стоянка запрещена» запрещает и кратковременную остановку для высадки пассажиров",
+        "answer": false,
+        "comment_ru": "FALSO — divieto di sosta запрещает только stazionamento (стоянку), но не fermata (кратковременную остановку)"
+      }
+    ],
+    "related_entries": [
+      "sosta",
+      "fermata",
+      "divieto"
+    ],
+    "related_question_ids": [
+      28,
+      31,
+      36,
+      38,
+      63,
+      69,
+      152,
+      153,
+      155,
+      188,
+      189,
+      193,
+      194,
+      200,
+      202,
+      205,
+      209,
+      210,
+      211,
+      219,
+      222,
+      228,
+      374,
+      428,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496
+    ]
+  },
+  {
+    "id": "obbligo_vs_divieto_vs_pericolo",
+    "term": "obbligo / divieto / pericolo",
+    "term_ru": "предписание / запрет / опасность (категории знаков)",
+    "type": "concept",
+    "priority": 1,
+    "topics": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "definition": {
+      "ru": "Три основные категории дорожных знаков: **segnali di pericolo** (предупреждающие, треугольник с красным контуром) — только информируют об опасности, не обязывают и не запрещают; **segnali di divieto** (запрещающие, красный круг) — запрещают конкретное действие; **segnali di obbligo** (предписывающие, синий круг) — обязывают выполнить действие. Подмена категорий — главная ловушка вопросов о знаках."
+    },
+    "quiz_hint": {
+      "ru": "Проверяй два параметра: 1) форму/цвет знака → определяй категорию; 2) соответствует ли описанное действие этой категории. Треугольник НИКОГДА не запрещает и не обязывает — только предупреждает. Синий круг ВСЕГДА обязывает. Красный круг ВСЕГДА запрещает. Вопросы, где «предупреждающий знак запрещает» или «запрещающий знак предупреждает» — FALSO.",
+      "pattern": "false_bias"
+    },
+    "examples": [
+      {
+        "it": "I segnali di pericolo vietano determinate manovre pericolose",
+        "ru": "Предупреждающие знаки запрещают определённые опасные манёвры",
+        "answer": false,
+        "comment_ru": "FALSO — предупреждающие знаки только информируют об опасности; запрещают только segnali di divieto"
+      }
+    ],
+    "related_entries": [
+      "segnale",
+      "divieto",
+      "obbligo",
+      "segnale_di"
+    ],
+    "related_question_ids": [
+      294,
+      379,
+      380,
+      392,
+      447,
+      448,
+      453,
+      470,
+      536,
+      541,
+      561,
+      577,
+      581,
+      585,
+      586,
+      605,
+      608,
+      610,
+      611,
+      612,
+      631,
+      632,
+      635,
+      636,
+      638,
+      640,
+      641,
+      657,
+      662,
+      663
+    ]
+  },
+  {
+    "id": "corsia_vs_carreggiata",
+    "term": "corsia vs carreggiata",
+    "term_ru": "полоса движения vs. проезжая часть",
+    "type": "concept",
+    "priority": 1,
+    "topics": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "definition": {
+      "ru": "Точное различие: **corsia** — продольная полоса движения, часть carreggiata, выделенная разметкой, достаточная для одного ряда ТС; **carreggiata** — часть дороги для движения ТС, может содержать несколько corsia. Strada con due carreggiate (разделённые проезжие части) ≠ «две полосы»: каждая carreggiata может иметь несколько corsie. Односторонняя corsia: движение только в одну сторону."
+    },
+    "quiz_hint": {
+      "ru": "Вопросы путают «corsia» и «carreggiata» намеренно. «Una strada a due corsie» — две полосы (возможно двустороннее движение). «Una strada a due carreggiate» — две проезжие части (всегда разделены, как на extraurbana principale или autostrada). Если вопрос говорит «две carreggiate = двустороннее движение» — скорее FALSO: разделённые carreggiate обычно одностороннее движение в каждой.",
+      "pattern": "neutral"
+    },
+    "examples": [
+      {
+        "it": "Una strada a due carreggiate separate è sempre a senso unico",
+        "ru": "Дорога с двумя раздельными проезжими частями всегда является односторонней",
+        "answer": false,
+        "comment_ru": "FALSO — каждая carreggiata односторонняя, но сама дорога в целом имеет движение в обоих направлениях (по одной carreggiata в каждую)"
+      }
+    ],
+    "related_entries": [
+      "carreggiata",
+      "corsia",
+      "strade_extraurbane"
+    ],
+    "related_question_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12,
+      13,
+      15,
+      19,
+      25,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      46,
+      49,
+      61,
+      145,
+      146,
+      147,
+      148
+    ]
+  },
+  {
+    "id": "precedenza_vs_diritto_di_via",
+    "term": "precedenza vs diritto di precedenza",
+    "term_ru": "приоритет проезда и право преимущественного проезда",
+    "type": "concept",
+    "priority": 1,
+    "topics": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "definition": {
+      "ru": "**Precedenza** — общее право проезда первым, устанавливаемое знаками или ПДД. **Diritto di precedenza** (или diritto di via) — конкретное закреплённое право, которое водитель имеет перед другим участником в конкретной ситуации. Ключевой принцип: наличие precedenza не освобождает водителя от обязанности убедиться в безопасности — если другой водитель едет на красный, это не значит, что можно не смотреть."
+    },
+    "quiz_hint": {
+      "ru": "«Avere la precedenza» не означает «ехать без оглядки». Квиз часто ставит ловушку: «водитель с правом precedenza должен ВСЕГДА проехать первым, не снижая скорость» — FALSO: безопасность важнее приоритета. Уступать precedenza обязан тот, у кого её нет, но водитель с ней всё равно должен быть внимательным.",
+      "pattern": "false_bias"
+    },
+    "examples": [
+      {
+        "it": "Avendo la precedenza, il conducente non è obbligato a ridurre la velocità all'incrocio",
+        "ru": "Имея право приоритета, водитель не обязан снижать скорость на перекрёстке",
+        "answer": false,
+        "comment_ru": "FALSO — даже при наличии precedenza водитель обязан убедиться в безопасности проезда и при необходимости снизить скорость"
+      }
+    ],
+    "related_entries": [
+      "precedenza",
+      "incrocio"
+    ],
+    "related_question_ids": [
+      29,
+      116,
+      369,
+      376,
+      408,
+      414,
+      415,
+      416,
+      417,
+      420,
+      455,
+      456,
+      458,
+      459,
+      460,
+      463,
+      464,
+      465,
+      498,
+      499,
+      508,
+      509,
+      518,
+      528,
+      529,
+      583,
+      725,
+      748,
+      808,
+      818
+    ]
+  },
+  {
+    "id": "divieto_vs_obbligo_signs",
+    "term": "segnale di divieto vs segnale di obbligo",
+    "term_ru": "запрещающий знак vs. предписывающий знак",
+    "type": "concept",
+    "priority": 2,
+    "topics": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "definition": {
+      "ru": "**Segnali di divieto** (красный круг на белом фоне): запрещают конкретное действие. Примеры: senso vietato (въезд запрещён), sorpasso vietato (обгон запрещён), divieto di sosta. **Segnali di obbligo** (синий круг): обязывают выполнить действие. Примеры: obbligo di svoltare a destra, obbligo di transito. Диаметрально противоположные по смыслу, но легко перепутать при описании."
+    },
+    "quiz_hint": {
+      "ru": "Квиз подменяет divieto и obbligo в описаниях знаков. Красный круг — всегда запрет. Синий круг — всегда обязательство. «Senso vietato» (красный круг) запрещает въезд — если вопрос описывает его как «обязывающий повернуть» — FALSO. Если синий знак описан как «запрещающий» — FALSO.",
+      "pattern": "false_bias"
+    },
+    "examples": [
+      {
+        "it": "Il segnale di obbligo impone ai conducenti di non effettuare la manovra rappresentata",
+        "ru": "Предписывающий знак обязывает водителей не выполнять изображённый манёвр",
+        "answer": false,
+        "comment_ru": "FALSO — предписывающий знак ОБЯЗЫВАЕТ выполнить манёвр; запрещает выполнять — знак запрещающий (divieto)"
+      }
+    ],
+    "related_entries": [
+      "obbligo",
+      "divieto",
+      "segnale",
+      "obbligo_vs_divieto_vs_pericolo"
+    ],
+    "related_question_ids": [
+      581,
+      638,
+      1272,
+      1347,
+      1692,
+      1729,
+      1737,
+      1750,
+      1757,
+      1772,
+      1780,
+      1807,
+      1815,
+      1832,
+      1838,
+      1847,
+      1864,
+      1950,
+      1955,
+      1962,
+      1972,
+      2018,
+      2141,
+      2244,
+      3425,
+      3683,
+      3690,
+      3691,
+      3724,
+      3736
+    ]
+  },
+  {
+    "id": "centro_abitato_vs_fuori",
+    "term": "centro abitato vs fuori dai centri abitati",
+    "term_ru": "в населённом пункте vs. за пределами (ключевые различия)",
+    "type": "concept",
+    "priority": 1,
+    "topics": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "definition": {
+      "ru": "**Centro abitato** (населённый пункт): ограничен знаками «начало/конец населённого пункта». Скорость: 50 км/ч (если иное не указано). Запрещены: дальний свет (abbaglianti) без необходимости, звуковой сигнал (клаксон) без острой необходимости. **Fuori dai centri abitati**: extraurbane secondarie — 90 км/ч, extraurbane principali — 110 км/ч, autostrade — 130 км/ч. Разные правила по освещению, обгону и остановке."
+    },
+    "quiz_hint": {
+      "ru": "«Nei centri abitati» и «fuori dai centri abitati» — ключевой контекст для десятков вопросов. Запомни: 50 км/ч в городе, клаксон только в экстренных случаях, аbbaglianti запрещены без нужды. За городом: лимиты 90/110/130, дальний свет включается ночью, клаксон разрешён для предупреждения. Если эти правила перемешаны — ищи FALSO.",
+      "pattern": "neutral"
+    },
+    "examples": [
+      {
+        "it": "Nei centri abitati è vietato usare il clacson in ogni situazione",
+        "ru": "В населённых пунктах использование клаксона запрещено в любых ситуациях",
+        "answer": false,
+        "comment_ru": "FALSO — в населённых пунктах клаксон запрещён без острой необходимости, но в экстренных ситуациях разрешён"
+      }
+    ],
+    "related_entries": [
+      "nei_centri_abitati",
+      "fuori_dai_centri_abitati",
+      "limite",
+      "velocita"
+    ],
+    "related_question_ids": [
+      182,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      1538,
+      2365,
+      2987,
+      3036,
+      3145,
+      3146,
+      3147,
+      3148,
+      3157,
+      3225,
+      3227,
+      3228,
+      3426,
+      3974,
+      4015,
+      4064,
+      4169,
+      4170,
+      4171,
+      4172,
+      4173
+    ]
   }
 ]
