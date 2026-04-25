@@ -3483,7 +3483,7 @@
   },
   {
     "id": "intersezione",
-    "term": "intersezione (a T / a X)",
+    "term": "intersezione",
     "term_ru": "пересечение / перекресток (типы)",
     "type": "term",
     "priority": 1,
@@ -3511,11 +3511,42 @@
       "incrocio",
       "precedenza"
     ],
-    "related_question_ids": []
+    "related_question_ids": [
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      6362,
+      2611,
+      3921,
+      3922,
+      3923,
+      4965,
+      4966,
+      4967,
+      4968,
+      4969,
+      4970,
+      4971,
+      4972,
+      4973,
+      4974
+    ]
   },
   {
     "id": "itinerario_autostradale",
-    "term": "itinerario autostradale / fondo verde",
+    "term": "itinerario autostradale / fondo verde / autostrada",
     "term_ru": "автострадный маршрут",
     "type": "phrase",
     "priority": 1,
@@ -3543,12 +3574,41 @@
       "strade_extraurbane"
     ],
     "related_question_ids": [
-      3360
+      106,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      138,
+      141,
+      183,
+      184,
+      186,
+      189,
+      190,
+      192,
+      195,
+      666,
+      2118,
+      2121,
+      2122,
+      2123,
+      2124,
+      2125,
+      2128,
+      2147,
+      2162,
+      2209,
+      2222,
+      2274,
+      2314
     ]
   },
   {
     "id": "itinerario_extraurbano",
-    "term": "itinerario extraurbano / fondo blu",
+    "term": "itinerario extraurbano / fondo blu / extraurbana",
     "term_ru": "загородный маршрут",
     "type": "phrase",
     "priority": 2,
@@ -3575,7 +3635,38 @@
       "strade_extraurbane",
       "autostrada"
     ],
-    "related_question_ids": []
+    "related_question_ids": [
+      3,
+      5,
+      6,
+      39,
+      191,
+      513,
+      2354,
+      3074,
+      3138,
+      3194,
+      3195,
+      3196,
+      3363,
+      3368,
+      4011,
+      4012,
+      4189,
+      4404,
+      4405,
+      4406,
+      4407,
+      4408,
+      4409,
+      4410,
+      4411,
+      4412,
+      4413,
+      5190,
+      5410,
+      5419
+    ]
   },
   {
     "id": "la_velocita",
@@ -5266,7 +5357,7 @@
   },
   {
     "id": "ordine_incrocio",
-    "term": "ordine di precedenza all'incrocio",
+    "term": "ordine di precedenza / precedenza all'incrocio",
     "term_ru": "очередность проезда перекрестка",
     "type": "concept",
     "priority": 1,
@@ -5294,7 +5385,11 @@
       "destra",
       "sinistra"
     ],
-    "related_question_ids": []
+    "related_question_ids": [
+      2205,
+      4974,
+      4980
+    ]
   },
   {
     "id": "ore",
