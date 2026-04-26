@@ -98,7 +98,21 @@ const MANUAL_OVERRIDES = {
   inquinamento_atmosferico: ['inquinamento', 'gas di scarico', 'emissioni'],
   consumo_carburante: ['consumo di carburante', 'consumo di benzina', 'consumo del veicolo'],
   pneumatici_e_ambiente: ['pressione degli pneumatici', 'gonfiaggio degli pneumatici', 'battistrada'],
-  manutenzione_ordinaria: ['manutenzione', 'controllo dei livelli', 'efficienza del veicolo']
+  manutenzione_ordinaria: ['manutenzione', 'controllo dei livelli', 'efficienza del veicolo'],
+
+  // Новые батчи (Task 9)
+  km: ['km/h', 'km'],
+  tonnellate: ['tonnellate', ' t '],
+  punti: ['punti'],
+  anni: ['anni'],
+  incidente: ['incidente', 'sinistro'],
+  sinistro: ['sinistro', 'incidente'],
+  svolta: ['svolta', 'svoltare'],
+  attraversare: ['attraversare', 'attraversamento'],
+  pedonale: ['pedonale', 'pedoni'],
+  barriere: ['barriere', 'passaggio a livello'],
+  luci: ['luci', 'proiettori', 'fari'],
+  carico: ['carico', 'sporgente']
 };
 
 function getSearchPatterns(entry) {

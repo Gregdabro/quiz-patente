@@ -1,5 +1,5 @@
 Quiz Patente — Link Report
-Generated: 2026-04-26T10:21:21.474Z
+Generated: 2026-04-26T11:17:07.084Z
 MAX_IDS: 30
 
 agente_traffico                patterns=["agente del traffico","vigile","polizia"] found=30
@@ -16,7 +16,7 @@ autotreni_autoarticolati       patterns=["autotreni","autoarticolati"]          
 autovettura                    patterns=["autovettura"]                          found=30
 banchina                       patterns=["banchina"]                             found=30
 braccia_tese                   patterns=["braccia tese","braccia aperte","braccia distese"] found=19
-carico                         patterns=["carico"]                               found=30
+carico                         patterns=["carico","sporgente"]                   found=30
 carreggiata                    patterns=["carreggiata"]                          found=30
 catene_da_neve                 patterns=["catene da neve"]                       found=14
 centro_abitato_vs_fuori        patterns=["centro abitato","fuori dai centri abitati"] found=30
@@ -173,10 +173,45 @@ consumo_carburante             patterns=["consumo di carburante","consumo di ben
 marmitta_catalitica            patterns=["marmitta catalitica"]                  found=15
 pneumatici_e_ambiente          patterns=["pressione degli pneumatici","gonfiaggio degli pneumatici","battistrada"] found=30
 manutenzione_ordinaria         patterns=["manutenzione","controllo dei livelli","efficienza del veicolo"] found=30
+km                             patterns=["km/h","km"]                            found=30
+tonnellate                     patterns=["tonnellate"," t "]                     found=30
+anni                           patterns=["anni"]                                 found=30
+punti                          patterns=["punti"]                                found=30
+incidente                      patterns=["incidente","sinistro"]                 found=30
+sinistro                       patterns=["sinistro","incidente"]                 found=30
+svolta                         patterns=["svolta","svoltare"]                    found=30
+attraversare                   patterns=["attraversare","attraversamento"]       found=30
+effettuare                     patterns=["effettuare"]                           found=30
+emergenza                      patterns=["emergenza"]                            found=30
+pedonale                       patterns=["pedonale","pedoni"]                    found=30
+autobus                        patterns=["autobus"]                              found=30
+carreggiate                    patterns=["carreggiate"]                          found=30
+barriere                       patterns=["barriere","passaggio a livello"]       found=30
+tratto                         patterns=["tratto"]                               found=30
+fine                           patterns=["fine"]                                 found=30
+massimo                        patterns=["massimo"]                              found=30
+superiore                      patterns=["superiore"]                            found=30
+uso                            patterns=["uso"]                                  found=30
+corrispondenza                 patterns=["in corrispondenza"]                    found=30
+diritto                        patterns=["diritto"]                              found=30
+doppio                         patterns=["doppio"]                               found=30
+categoria                      patterns=["categoria"]                            found=30
+abitati                        patterns=["centri abitati"]                       found=30
+stato                          patterns=["stato"]                                found=30
+pneumatici                     patterns=["pneumatici"]                           found=30
+luci                           patterns=["luci","proiettori","fari"]             found=30
+fuori                          patterns=["fuori dei centri abitati"]             found=30
+persone                        patterns=["persone"]                              found=30
+raffigurato                    patterns=["raffigurato"]                          found=30
+presenza                       patterns=["in presenza"]                          found=30
+bisogna                        patterns=["bisogna"]                              found=30
+sinistra                       patterns=["sinistra"]                             found=30
+freno                          patterns=["freno"]                                found=30
+spazio                         patterns=["spazio"]                               found=30
 
 ═══ ИТОГ ═══
-Всего entries:       171
-С совпадениями:      171
+Всего entries:       206
+С совпадениями:      206
 Без совпадений:      0
-Всего question_ids:  4680
-Среднее на entry:    27.4
+Всего question_ids:  5730
+Среднее на entry:    27.8
