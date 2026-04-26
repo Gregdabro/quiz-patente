@@ -296,7 +296,7 @@ if (!raw || raw.length === 0) {
 
 ---
 
-**Задача 8: Исправить cosmetic WARNING-записи (solo, sempre)**
+**Задача 8: Исправить cosmetic WARNING-записи (solo, sempre) [DONE] ✅**
 
 Два entries начинают definition.ru с "Слово «X» означает..." — это анти-паттерн по DICTIONARY_SCALING_SKILL.md. Редактировать вручную в entries.json, привести к формату "mechanism + правовой контекст + почему важно для квиза".
 
