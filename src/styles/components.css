@@ -1462,6 +1462,15 @@
   opacity: 0.8;
 }
 
+.dict-entry-card__practice-btn:disabled {
+  opacity: 0.55;
+  background-color: var(--color-bg);
+  border-color: var(--color-border);
+  color: var(--color-text-muted);
+  cursor: default;
+  transform: none;
+}
+
 /* Навигация под карточкой */
 .study-card__nav {
   display: -webkit-flex;

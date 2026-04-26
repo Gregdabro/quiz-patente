@@ -31,6 +31,7 @@ const DictionaryEntryCard = React.memo(function DictionaryEntryCard({
   var badge = TYPE_BADGE[entry.type] || TYPE_BADGE.term;
   var hint = entry.quiz_hint || null;
   var example = entry.examples && entry.examples[0] ? entry.examples[0] : null;
+  var hasQuestions = entry.related_question_ids && entry.related_question_ids.length > 0;
 
   return (
     <div className={'dict-entry-card' + (isExpanded ? ' dict-entry-card--expanded' : '')}>
@@ -118,13 +119,16 @@ const DictionaryEntryCard = React.memo(function DictionaryEntryCard({
           {/* Кнопка практики */}
           <button
             className="dict-entry-card__practice-btn"
+            disabled={!hasQuestions}
             onClick={function (e) {
               e.stopPropagation();
               navigate('/quiz/dict:' + entry.id);
             }}
             type="button"
           >
-            Практиковать: вопросы с «{entry.term}» →
+            {hasQuestions
+              ? `Практиковать: вопросы с «${entry.term}» →`
+              : 'Вопросов для практики пока нет'}
           </button>
         </div>
       </div>
