@@ -1,5 +1,5 @@
 Quiz Patente — Link Report
-Generated: 2026-04-26T11:17:07.084Z
+Generated: 2026-04-26T12:55:05.912Z
 MAX_IDS: 30
 
 agente_traffico                patterns=["agente del traffico","vigile","polizia"] found=30
@@ -208,10 +208,15 @@ bisogna                        patterns=["bisogna"]                             
 sinistra                       patterns=["sinistra"]                             found=30
 freno                          patterns=["freno"]                                found=30
 spazio                         patterns=["spazio"]                               found=30
+pannello                       patterns=["pannello"]                             found=30
+strade                         patterns=["strade"]                               found=30
+consentito                     patterns=["consentito"]                           found=30
+distanza                       patterns=["distanza"]                             found=30
+corsie                         patterns=["corsie"]                               found=30
 
 ═══ ИТОГ ═══
-Всего entries:       206
-С совпадениями:      206
+Всего entries:       211
+С совпадениями:      211
 Без совпадений:      0
-Всего question_ids:  5730
-Среднее на entry:    27.8
+Всего question_ids:  5880
+Среднее на entry:    27.9

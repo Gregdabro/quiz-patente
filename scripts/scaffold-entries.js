@@ -40,6 +40,7 @@ const hasFlag  = (flag) => args.includes(flag);
 const TYPE_FILTER = getArg('--type', 'all');   // all | logic | terms | phrases
 const MIN_BIAS    = parseInt(getArg('--min-bias',  '20'), 10);
 const MIN_COUNT   = parseInt(getArg('--min-count', '40'), 10);
+const LIMIT       = parseInt(getArg('--limit', '0'), 10); // 0 = no limit
 
 // ─── Пути ────────────────────────────────────────────────────────────────────
 

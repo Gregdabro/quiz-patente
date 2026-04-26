@@ -1,336 +1,318 @@
-Читаю архив и все ключевые файлы проекта.У меня есть полная картина проекта. Пишу отчёт.
+Читаю все три SKILL-файла и распаковываю проект.Достаточно данных. Пишу отчёт.Данных достаточно. Пишу полный отчёт.
 
 ---
 
-# 🔍 Технический аудит: Quiz Patente — Dictionary Phase 3
+# Технический аудит — Quiz Patente / Phase 3 Dictionary
+
 **Дата аудита:** 26 апреля 2026  
-**Версия кодовой базы:** актуальная (из архива quiz-patente-main.zip)  
-**Источники истины:** SKILL.md v2, DICTIONARY_SCALING_SKILL.md v1.0
+**Аудитор:** Senior Frontend Architect  
+**Источники истины:** `SKILL.md` (v2), `SKILL_DICTIONARY.md` (v1.0), `DICTIONARY_SCALING_SKILL.md` (v1.0)
 
 ---
 
 ## 1. Executive Summary
 
-### Текущая фаза проекта
-
-| Аспект | Статус |
+| Параметр | Значение |
 |---|---|
-| Phase 1 (Frontend Core) | ✅ **100% завершена** — все компоненты, хуки, страницы реализованы |
-| Phase 2 (Stats Page) | ✅ **100% завершена** — StatsPage реализована, не placeholder |
-| Phase 3 MVP (Dictionary UI) | ✅ **100% завершена** — List Mode, Study Mode, Quiz Link, TopicFilter, ModeToggle |
-| Phase 3 v2 (Dictionary Scaling) | 🟡 **68% готовности** — 148/~220 целевых записей |
+| Текущая фаза | **Phase 3 v2** — полностью реализована (раньше расписания) |
+| Записей в `entries.json` | **206** |
+| Целевой рубеж по SKILL | 200–250 качественных записей |
+| Прогресс к финальному milestone (300) | **~69%** по количеству, **~85%** по качеству (p1/p2 записи доминируют) |
+| CRITICAL-ошибок схемы | **0** |
+| WARNING-ошибок | **1** (один `related_question_ids < 3`) |
+| Архитектурных нарушений | **0** |
+| iOS 12 compliance | **✅ полная** |
+| Phase 3 v2 фичи | **✅ все реализованы** (StudyCard, ModeToggle, TopicFilter, URL `?topic=N`) |
 
-### Прогресс Dictionary Scaling
-
-```
-Текущий прогресс:  148 записей  ████████████████████░░░░░  (67% от цели 220)
-Цель-минимум:      200–220 записей (реалистичный milestone из SKILL)
-Абсолютная цель:   300 записей (амбициозная)
-
-По батчам из DICTIONARY_SCALING_SKILL.md:
-  A+B  Logic Triggers:   ✅ 28 записей (цель ~20) — перевыполнено
-  C+D  Базовые термины:  ✅ 63 записей (цель ~20) — значительно перевыполнено
-  E    Фразы:            ✅ 44 записей (цель 6–8) — перевыполнено
-  F    Концепции:        ✅ 13 записей (цель 8–10) — в норме
-  G-M  Тематические:     🟡 в процессе (topic 25 не покрыт, topics 16–24 слабо)
-```
-
-### Критические находки: их нет. Критических дефектов в коде и данных не обнаружено.
+**Вывод:** проект находится в отличном состоянии. DictionaryPage полностью функциональна с обоими режимами (List + Study), инструментальная инфраструктура (scaffold, validate, link) работает. Главная открытая задача — контентное расширение записей в тематических батчах.
 
 ---
 
-## 2. Gap Analysis — расхождения с документами
+## 2. Gap Analysis — расхождения с документами SKILL
 
-### 2.1 DICTIONARY_SCALING_SKILL.md vs. реальность
+### 2.1 Расширение `quiz_hint.pattern` (несоответствие канону)
 
-#### ✅ Соответствует спецификации
+**Описание.** `DICTIONARY_SCALING_SKILL.md` (секция 2, поле `pattern`) определяет **4 допустимых значения**: `false_bias`, `true_bias`, `neutral`, `context_dependent`. В реальном `entries.json` присутствуют **4 записи с нестандартными значениями**:
 
-| Требование SKILL | Статус |
+| Entry ID | Реальный pattern | Ожидаемый по спецификации |
+|---|---|---|
+| `sempre` | `weak_false_bias` | `false_bias` |
+| `tutti` | `weak_false_bias` | `false_bias` |
+| `unico` | `weak_false_bias` | `false_bias` |
+| `pericolo` | `weak_true_bias` | `true_bias` |
+
+**Первопричина.** Скрипт `scaffold-entries.js` вводит значения `weak_false_bias` / `weak_true_bias` (функция `inferPattern` маппит `weak_*` → `*_bias`), однако при ручном заполнении эти значения были перенесены в `entries.json` без нормализации. Валидатор `validate-entries.js` **легализовал эти значения** — `VALID_PATTERNS` в нём содержит все 6 вариантов (включая `weak_*`), тогда как SKILL допускает только 4.
+
+**Последствие.** Несоответствие не ломает UI (DictionaryEntryCard не отображает `pattern` напрямую), но создаёт семантическую рассогласованность и потенциально сломает будущую логику, которая будет использовать `pattern` для фильтрации или отображения.
+
+---
+
+### 2.2 Phase 3 v2 реализована досрочно (позитивное расхождение)
+
+`SKILL_DICTIONARY.md` (секция 15) помечал следующее как **"Phase 3 v2 — после стабилизации MVP"**:
+
+- StudyCard / flashcard режим — **реализован** ✅
+- ModeToggle — **реализован** ✅  
+- TopicFilter — **реализован** ✅  
+- URL параметр `?topic=N` — **реализован** ✅  
+- `useDictionary` с `topicFilter` — **реализован** ✅  
+
+Это позитивное расхождение, но `SKILL_DICTIONARY.md` требует синхронизации — чекбоксы в секции 15 помечены `[x]`, документ актуален.
+
+---
+
+### 2.3 Отсутствие `index_by_topic.json` и `index_by_type.json`
+
+**Описание.** `SKILL_DICTIONARY.md` (секция 3) описывает дополнительные индексы:
+```
+src/data/dictionary/index_by_topic.json
+src/data/dictionary/index_by_type.json
+```
+
+**Статус:** файлы **не созданы**. Однако SKILL явно указывает: "MVP: только entries.json. Индексы добавляются в v2 когда нужна фильтрация по теме." Фильтрация по теме реализована **in-memory** через `useMemo` в `useDictionary.js` — это соответствует архитектуре MVP. При 206 записях и целевых 300 эти индексы не нужны (порог оптимизации 500+).
+
+**Вердикт:** не баг, всё по плану.
+
+---
+
+### 2.4 `BottomNav` отсутствует в `DictionaryPage.jsx`
+
+**Описание.** `SKILL.md` (секция 14): "BottomNav используется на DictionaryPage". В коде `DictionaryPage.jsx` нет импорта `BottomNav` — **ни одного вхождения**.
+
+**Но:** `BottomNav` рендерится глобально в `App.jsx` через `AppContent` — он показывается на всех страницах, кроме `/quiz/*`. Это **архитектурно верно** и соответствует реальной структуре проекта. Формулировка в SKILL вводит в заблуждение — страницам не нужно самим рендерить BottomNav.
+
+**Вердикт:** не баг. Архитектура правильная.
+
+---
+
+### 2.5 Scaffold output содержит нерелевантные кандидаты
+
+`scaffold_terms_2026-04-26.json` содержит 105 кандидатов, из которых первые позиции — `raffigurato`, `veicoli`, `presenza`, `ad`, `posto`, `nell`. Это **функциональные слова и артикли**, не подходящие ни под один тип Entry. Скрипт не фильтрует стоп-слова. Текущий `--min-count 40` недостаточен для очистки мусора при поиске по `terms`.
+
+---
+
+## 3. Code & Data Quality
+
+### 3.1 Качество данных — отличное
+
+| Проверка | Результат |
 |---|---|
-| `scaffold-entries.js` создан | ✅ Существует, работает корректно |
-| `validate-entries.js` создан | ✅ Существует, 0 CRITICAL на 148 записях |
-| `link-questions.js` работает | ✅ Работает, link-report.txt сгенерирован |
-| entries.json: 0 TODO-полей | ✅ Все поля заполнены |
-| entries.json: 0 записей без related_question_ids | 🟡 9 записей с <3 qids (WARNING, не CRITICAL) |
-| Цикл батчей задокументирован | ✅ Все батчи A–F выполнены |
+| Дубли `id` | 0 |
+| `term_ru = "TODO"` | 0 |
+| `definition.ru < 80 символов` | 0 |
+| `quiz_hint.ru < 60 символов` | 0 |
+| `examples` пустые | 0 |
+| `examples[].answer` не boolean | 0 |
+| Неверный `type` | 0 |
+| Неверный `priority` | 0 |
+| `related_question_ids < 3` | **1** (запись `precedenza_a_sinistra`) |
+| Нестандартный `pattern` | **4** (см. 2.1) |
 
-#### ❌ Расхождения
-
-**1. `new_entries.json` — "подвисший" артефакт**
-
-В проекте существует файл `src/data/dictionary/new_entries.json` с **8 записями**, которые **не включены в основной `entries.json`**. Все 8 записей качественные (definition > 250 символов, examples есть), но у всех `related_question_ids: []`. Из них 2 записи уже частично связаны с entries.json через `link-report.txt` (itinerario_extraurbano, itinerario_autostradale с 0 qids). Это записи-сироты, ждущие merge.
-
-```
-new_entries.json (8 записей, не добавлены в entries.json):
-  segnali_indicazione, preavviso_incrocio, strada_senza_uscita,
-  area_di_servizio, parcheggio_scambio, ospedale,
-  itinerario_extraurbano, itinerario_autostradale
-```
-
-**2. scaffold_logic_2026-04-25.json — формат изменился**
-
-Scaffold-файл сохранён как `{_meta: ..., entries: [...]}`, но `scaffold-entries.js` генерирует плоский массив. Это означает, что **предыдущая версия scaffold-entries.js** (или более ранняя ручная версия) создала файл в другом формате. Текущий валидный scaffold-файл содержит только 2 оставшихся кандидата (практически исчерпан).
-
-**3. Topic 25 — полностью отсутствует в покрытии**
-
-Ни одна запись в entries.json не помечена `topics: [25]`. Это систематический gap — topic 25 пропущен при тематических батчах.
-
-**4. Topics 22–24 — слабое покрытие**
-
-| Тема | Записей | Оценка |
-|---|---|---|
-| topic_22 | 10 | Очень мало |
-| topic_23 | 10 | Очень мало |
-| topic_24 | 3 | Критически мало |
-| topic_25 | 0 | Отсутствует |
-
-Это не обязательно проблема — темы 22–25 могут иметь меньше вопросов. Но требует проверки.
-
-**5. Priority 3 — только 1 запись из ожидаемых ~20**
-
-DICTIONARY_SCALING_SKILL.md предполагает финальные батчи p3-записей (темы 9–14 в плане). Сейчас p3 = только `modo`. Это говорит о том, что **тематические батчи G–M фактически не начаты**.
+Среднее `related_question_ids` на запись: **28 штук** — превосходный результат (норма по SKILL: ≥3).
 
 ---
 
-### 2.2 SKILL.md vs. реальность
+### 3.2 Размер `entries.json` — норма, но требует мониторинга
 
-#### ✅ Полное соответствие
-
-| Требование | Статус |
+| Метрика | Значение |
 |---|---|
-| Архитектурный закон: только через services/ | ✅ DictionaryPage → useDictionary → dictionaryService — нет прямых localStorage/fetch в компонентах |
-| iOS 12: нет `gap:` в flexbox | ✅ Проверено по всем CSS файлам — 0 вхождений `gap:` |
-| React.memo на всех компонентах словаря | ✅ DictionaryEntryCard, StudyCard, TypeFilter, TopicFilter, ModeToggle, SearchBar — все обёрнуты |
-| CSS-переменные для цветов | ✅ Цвета бейджей `--color-dict-logic-bg` и др. вынесены в global.css |
-| Маршруты: /dictionary, /quiz/:topicId | ✅ App.jsx корректен |
-| Quiz Link: `dict:entryId` в useQuiz | ✅ Реализован — useQuiz.js имеет ветку `dict:` |
-| StatsPage — не placeholder | ✅ Полноценная реализация через useTopics |
+| Размер JSON | **248 KB** (в памяти), 446 KB на диске с форматированием |
+| Записей | 206 |
+| Средняя запись | 1231 байт |
+| Самая большая | `centro_abitato_vs_fuori` — 2 KB |
 
-#### 🟡 Частичные расхождения
+По прогнозу `DICTIONARY_SCALING_SKILL.md`: 300 записей → ~125 KB. **Реальность: 248 KB при 206 записях** — в ~2 раза больше прогноза. Причина: `related_question_ids` содержит в среднем 28 id на запись (лимит `link-questions.js` — 30), что само по себе добавляет ~300–400 байт на запись.
 
-**1. SKILL.md секция 17 помечает DictionaryPage как placeholder — устарело**
-
-SKILL.md всё ещё содержит в плане разработки пометки типа "Phase 3 — словарь (placeholder)". Фактически Phase 3 v2 **полностью завершена** (StudyCard, ModeToggle, TopicFilter, Quiz Link — всё есть). Документ не синхронизирован с реальностью.
-
-**2. Иконки для словаря — добавлены, но не задокументированы**
-
-В icons/index.js есть `search`, `chevron-down`, `chevron-up` — как требует SKILL_DICTIONARY.md. В основном SKILL.md секция "15 иконок" это не отражено (в SKILL.md задокументировано 15 иконок, фактически их больше).
-
-**3. StudyCard — flip реализован через `display:none/flex`, не через CSS transform**
-
-SKILL.md (секция 16) явно говорит: "Flip-анимация карточек — аккордеон проще и работает на iOS 12". Фактически в StudyCard flip реализован через переключение `display`, что корректно и безопасно для iOS 12. Но это означает отсутствие визуальной flip-анимации — карточка просто "переключается" без перехода. Это приемлемо для iOS 12, но может выглядеть резко.
+При целевых 300 записях реальный размер составит ~360 KB в памяти. Это **ниже порога оптимизации** (5 MB), загрузка на 3G займёт ~900 ms — допустимо. Кэш в `_entriesCache` срабатывает корректно.
 
 ---
 
-## 3. Code & Data Quality Risks
+### 3.3 Хардкод цветов в `StudyCard.jsx` — минорный риск
 
-### 3.1 Данные (entries.json)
+`DictionaryEntryCard.jsx` — чист от хардкода цветов.  
+`StudyCard.jsx` содержит объект `TYPE_BADGE` с захардкоженными hex-цветами (`#fef3c7`, `#dbeafe` и т.д.). Эти значения **совпадают со спецификацией** из `SKILL_DICTIONARY.md` (секция 8), но не вынесены в CSS-переменные. Если дизайн-система изменится, потребуется правка в JS-коде, а не только в `global.css`.
 
-| Риск | Уровень | Детали |
+Это **осознанный трейдоф** (inline style для badge — единственный разумный вариант для динамических цветов без CSS-in-JS), не архитектурная ошибка.
+
+---
+
+### 3.4 StudyCard использует `display: none` вместо `rotateY` — правильное решение
+
+Flip-анимация в `StudyCard` реализована через `display: none / flex` переключение (CSS-класс `--flipped`), а **не** через `transform: rotateY` (который запрещён для iOS 12 в `SKILL_DICTIONARY.md`, секция 14). Это верное решение — анимация безопасна для iPad mini 2.
+
+---
+
+### 3.5 `validate-entries.js` легализует `weak_*` pattern — несоответствие SKILL
+
+Валидатор содержит в `VALID_PATTERNS`:
+```javascript
+'false_bias', 'weak_false_bias',
+'true_bias',  'weak_true_bias',
+'neutral', 'context_dependent'
+```
+
+SKILL определяет только 4 допустимых значения. Это означает, что валидатор **не отловит** записи с `weak_*` как CRITICAL-ошибку, хотя должен.
+
+---
+
+### 3.6 `scaffold-entries.js` — отсутствие стоп-слов
+
+Скрипт не фильтрует итальянские стоп-слова (`ad`, `nell`, `ed`, `posto`, `anche`). При запуске `--type terms --min-count 40` генерирует 105 заготовок, из которых значительная часть — бесполезные функциональные слова. Это не баг, но создаёт ручную работу по отбору.
+
+---
+
+## 4. Архитектурный комплаенс
+
+| Проверка | Статус | Детали |
 |---|---|---|
-| 9 записей с < 3 related_question_ids | 🟡 LOW | `intersezione`, `ordine_incrocio`, `itinerario_extraurbano` и др. — нужен повторный запуск link-questions.js |
-| `new_entries.json` не слит с entries.json | 🟡 MEDIUM | 8 записей-сирот потеряются, если файл случайно удалится |
-| Дисбаланс topics | 🟡 LOW | Topics 22–25 слабо покрыты, возможна неполная фильтрация по теме |
-| 2 WARNING-записи (solo, sempre) | 🟢 NEGLIGIBLE | definition.ru начинается с анти-паттерна "Слово X означает..." — только cosmetic |
+| Работа с данными только через `services/` | ✅ | `useDictionary.js` импортирует только из `dictionaryService.js` |
+| CSS-переменные вместо хардкода | ✅ (в CSS) / ⚠️ (в JS) | StudyCard badge — inline hex, допустимо |
+| `flexbox gap` отсутствует | ✅ | Только `margin-*` в dict-компонентах |
+| `-webkit-overflow-scrolling: touch` | ✅ | TypeFilter, TopicFilter |
+| `React.memo` на компоненты | ✅ | DictionaryEntryCard, StudyCard, TypeFilter, TopicFilter |
+| `React.memo` на Icon | ✅ | Подтверждено |
+| `max-height` transition (не `height: auto`) | ✅ | Аккордеон DictionaryEntryCard |
+| `normalize('NFD')` для поиска с диакритикой | ✅ | `dictionaryService.searchEntries` |
+| debounce в SearchBar | ✅ | Через `setTimeout`/`clearTimeout` |
+| `loadDictionaryEntries` кэшируется | ✅ | `_entriesCache` в `dictionaryService.js` |
+| Маршрут `/dictionary` зарегистрирован | ✅ | `App.jsx` |
+| URL `?topic=N` работает | ✅ | `useSearchParams` в `DictionaryPage.jsx` |
+| `padding-bottom: var(--nav-height)` | ✅ | `.dictionary-page` в `pages.css` |
+| `import.meta.glob` для JSON | ✅ | `dictionaryService.js` |
 
-### 3.2 Архитектура (код)
+Архитектурный комплаенс — **100%**. Нарушений "Архитектурного закона" не обнаружено.
 
-| Риск | Уровень | Детали |
+---
+
+## 5. Статус батч-плана (по DICTIONARY_SCALING_SKILL.md)
+
+| Батч | Кандидаты | Статус |
 |---|---|---|
-| `entry.type.replace('_', '-')` в DictionaryEntryCard | 🟡 LOW | Хрупко — если добавится тип с двумя подчёркиваниями (напр. `super_logic_trigger`), CSS-класс сломается. Безопаснее использовать явный маппинг как в StudyCard. |
-| TopicFilter — потенциальная ширина | 🟡 LOW | 25 тем в TopicFilter создают очень длинный горизонтальный список. На iPad mini 2 это 25 кнопок в overflow-x scroll — нужна проверка UX. |
-| `navigate('/quiz/dict:' + entry.id)` без проверки qids | 🟡 LOW | Если `related_question_ids` пуст (9 записей), Quiz Link приведёт к ошибке "Нет вопросов". Нужна graceful обработка. |
-| `import.meta.glob` в dictionaryService | 🟢 NEGLIGIBLE | Нестандартный паттерн загрузки, но корректен для Vite. При переходе на backend — замена в одном файле. |
+| **Скрипты** (scaffold, validate) | — | ✅ реализованы |
+| **A** Logic Triggers true_bias | regolare, trovare, modo, evitare, fermarsi, visibilita, manovra | ✅ все в entries.json |
+| **B** Logic Triggers false_bias | area, parcheggio, ciclomotori, obbliga, vale, autocarri | ✅ все в entries.json |
+| **C** Базовые термины (p1) | veicolo, semaforo, transito, pedoni, guida, marcia, striscia | ✅ все в entries.json |
+| **D** Термины p2 (freq 80–200) | limite, km, luce, svoltare, pannello, corrispondenza | частично (проверить) |
+| **E** Фразы | in presenza, strade extraurbane, pannello integrativo | частично |
+| **F** Концепции | autostrada/extraurbana, veicolo/ciclomotore, corsia/carreggiata | частично |
+| **Тематические батчи** | topics 1,5,3,10,4 | в процессе |
 
-### 3.3 Производительность
-
-| Метрика | Сейчас | При 220 записях | При 300 записях |
-|---|---|---|---|
-| Размер entries.json | ~62 KB | ~90 KB | ~125 KB |
-| Время загрузки (3G) | ~155ms | ~225ms | ~312ms |
-| Фильтрация (useMemo) | синхронная | синхронная | синхронная |
-| Оценка | ✅ ОК | ✅ ОК | ✅ ОК |
-
-**Вывод:** производительность не является риском. Кэш в `_entriesCache` работает корректно. При 300 записях оптимизаций не требуется.
-
-### 3.4 Специфические риски DictionaryEntryCard
-
-Найден один хрупкий паттерн:
-
-```jsx
-// В DictionaryEntryCard.jsx — строка 27:
-className={`dict-entry-card__badge dict-entry-card__badge--${entry.type.replace('_', '-')}`}
-```
-
-`.replace('_', '-')` заменяет только **первое** подчёркивание. Для `logic_trigger` это даёт `logic-trigger` — корректно. Но метод хрупкий. Безопаснее явный маппинг (как уже реализовано в StudyCard через `TYPE_BADGE[entry.type]`).
+Батчи A, B, C **завершены полностью**. Общий прогресс по контенту соответствует рубежу "после батча E/F" из плана: ожидалось ~94 записей, реально **206** — проект **значительно опережает расписание**.
 
 ---
 
-## 4. Action Plan — приоритетный план действий
+## 6. Action Plan
 
-### 🔴 Немедленно (блокируют качество данных)
+Задачи отсортированы по приоритету. Первые две — блокирующие (нарушение спецификации).
 
-**Задача 1: Слить `new_entries.json` в `entries.json` [DONE] ✅**
+### 🔴 Приоритет 1 — Устранить расхождения со спецификацией
 
-8 качественных записей уже готовы и ждут. Алгоритм:
+**Задача 1.1 — Нормализовать `weak_*` pattern в entries.json**
+
+4 записи содержат нестандартные значения. Исправить вручную или скриптом:
+- `sempre`: `weak_false_bias` → `false_bias`
+- `tutti`: `weak_false_bias` → `false_bias`
+- `unico`: `weak_false_bias` → `false_bias`
+- `pericolo`: `weak_true_bias` → `true_bias`
+
+Затем запустить `node scripts/link-questions.js` для подтверждения целостности.
+
+**Задача 1.2 — Убрать `weak_*` из `VALID_PATTERNS` в `validate-entries.js`**
+
+```javascript
+// Было:
+const VALID_PATTERNS = new Set([
+  'false_bias', 'weak_false_bias',
+  'true_bias',  'weak_true_bias',
+  'neutral', 'context_dependent',
+]);
+
+// Стало (по SKILL):
+const VALID_PATTERNS = new Set([
+  'false_bias', 'true_bias', 'neutral', 'context_dependent',
+]);
+```
+
+После этого `validate-entries.js` будет корректно выдавать CRITICAL для любых будущих `weak_*` значений.
+
+**Verify:** `node scripts/validate-entries.js` → 0 CRITICAL, 1 WARNING (precedenza_a_sinistra).
+
+---
+
+**Задача 1.3 — Линковать `precedenza_a_sinistra`**
+
+Единственная запись с `related_question_ids < 3`. Запустить:
 ```bash
-# 1. Слить вручную или скриптом:
-python3 -c "
-import json
-with open('src/data/dictionary/entries.json') as f: e = json.load(f)
-with open('src/data/dictionary/new_entries.json') as f: n = json.load(f)
-e.extend(n)
-with open('src/data/dictionary/entries.json', 'w') as f: json.dump(e, f, ensure_ascii=False, indent=2)
-print(f'Total: {len(e)}')
-"
-# 2. Запустить link-questions
-node scripts/link-questions.js
-# 3. Валидировать
-node scripts/validate-entries.js
-# 4. Удалить new_entries.json — файл больше не нужен
+node scripts/link-questions.js --entry precedenza_a_sinistra --dry-run
+node scripts/link-questions.js --entry precedenza_a_sinistra
 ```
 
-**Verify:** entries.json = 156 записей, 0 CRITICAL, у новых записей ≥3 qids.
+После — 0 WARNING.
 
 ---
 
-**Задача 2: Повторный запуск link-questions для 9 записей с < 3 qids [DONE] ✅**
+### 🟡 Приоритет 2 — Улучшение инструментов
 
-9 записей имеют 0–2 related_question_ids. Причина в том, что их термины специфичны (fine_diritto_precedenza, ordine_incrocio, intersezione — возможно, текст вопросов использует другие формулировки).
+**Задача 2.1 — Добавить стоп-слова в `scaffold-entries.js`**
 
+Скрипт генерирует нерелевантные кандидаты (`ad`, `nell`, `ed`, `anche`, `posto`). Добавить константу `STOP_WORDS` из итальянских функциональных слов и фильтровать до генерации заготовок. Это сократит ручную работу при запуске `--type terms`.
+
+Примерный список для фильтрации: `ad, ed, od, al, del, della, nel, nella, degli, delle, per, con, che, non, una, uno, gli, le, da, in, di, su, se, ma, ci, si, lo, la, li, ho, ha, ha, hai, né, né`.
+
+**Задача 2.2 — Добавить `--limit N` флаг в `scaffold-entries.js`**
+
+При 105 кандидатах в выводе сложно работать. Флаг `--limit 20` покажет топ-20 по релевантности (count × bias_strength). Это не обязательно, но ускорит контентные батчи.
+
+---
+
+### 🟢 Приоритет 3 — Контентные батчи (основная работа)
+
+Проект достиг 206 записей и опережает план. Следующие контентные шаги по DICTIONARY_SCALING_SKILL.md:
+
+**Батч D — Термины p2** (если не все завершены): `limite`, `km/h` (числовые ловушки), `luce`, `svoltare`, `pannello integrativo`, `corrispondenza`, `emergenza`. Проверить через `node scripts/scaffold-entries.js --type terms --min-count 80`.
+
+**Тематические батчи** — по ~15–20 записей на приоритетную тему:
+1. **topic_1** (531 вопрос) — общие понятия, много базовых терминов
+2. **topic_5** — обгоны, logic_triggers
+3. **topic_3** — знаки, терминология
+4. **topic_10** — светофоры, пересечения
+5. **topic_4** — скоростные ограничения, числовые ловушки
+
+Рабочий цикл для каждого батча:
 ```bash
-# Проверить каждую с --dry-run:
-node scripts/link-questions.js --entry intersezione --dry-run
-node scripts/link-questions.js --entry ordine_incrocio --dry-run
-# Для тех, у кого 0 hits — вручную добавить альтернативные patterns в link-questions.js
-# или добавить qids вручную из candidates.json (поле question_ids)
-```
-
-**Verify:** `node scripts/validate-entries.js` → 0 WARNINGS по qids.
-
----
-
-### 🟡 В течение следующей сессии (прогресс данных)
-
-**Задача 3: Закрыть topic 25 — минимум 5–8 записей [DONE] ✅**
-
-Topic 25 полностью отсутствует. Нужно:
-1. Проверить какие вопросы в topic_25.json (открыть `src/data/questions/topic_25.json`, посмотреть тематику)
-2. Запустить `node scripts/scaffold-entries.js --type terms --min-count 20` с ручным присвоением `topics: [25]`
-3. Заполнить 5–8 записей по стандарту качества
-
-**Verify:** `python3 -c "import json; e=json.load(open('src/data/dictionary/entries.json')); print([x['id'] for x in e if 25 in x.get('topics',[])])"` → список ≥5 записей.
-
----
-
-**Задача 4: Усилить покрытие topics 22–24 (цель: 5–10 записей на тему) [DONE] ✅**
-
-Текущее покрытие: topics 22 = 10, 23 = 10, 24 = 3. Для тематических батчей G–M (из DICTIONARY_SCALING_SKILL.md) нужны записи, специфичные для этих тем.
-
-```bash
-# Посмотреть что в слабо покрытых темах:
-python3 -c "
-import json
-for i in [22,23,24,25]:
-    with open(f'src/data/questions/topic_{i}.json') as f: q = json.load(f)
-    print(f'topic_{i}: {len(q)} вопросов')
-    # Показать первые 3 вопроса для понимания тематики
-    for qx in q[:2]: print(f'  {qx[\"text\"][:80]}')
-"
+node scripts/scaffold-entries.js --type terms --min-count 50
+# → заполнить TODO вручную
+node scripts/validate-entries.js          # 0 CRITICAL
+node scripts/link-questions.js --dry-run  # проверить статистику
+node scripts/link-questions.js            # применить
+git commit -m "dict: батч [тема], +N записей"
 ```
 
 ---
 
-**Задача 5: Исправить `type.replace('_', '-')` в DictionaryEntryCard [DONE] ✅**
+### ℹ️ Не требует действий
 
-Минимальное хирургическое изменение — заменить на явный маппинг:
-
-```jsx
-// Было (хрупко):
-className={`dict-entry-card__badge dict-entry-card__badge--${entry.type.replace('_', '-')}`}
-
-// Стало (надёжно):
-var TYPE_CSS = {
-  logic_trigger: 'logic-trigger',
-  term: 'term',
-  phrase: 'phrase',
-  concept: 'concept',
-};
-className={`dict-entry-card__badge dict-entry-card__badge--${TYPE_CSS[entry.type] || 'term'}`}
-```
-
-**Verify:** визуально проверить бейджи всех 4 типов в браузере — цвета не изменились.
+- **index_by_topic.json / index_by_type.json** — не нужны до 500+ записей, фильтрация in-memory работает корректно.
+- **StudyCard хардкод цветов** — архитектурно допустимо для inline badge-стилей.
+- **BottomNav в DictionaryPage** — архитектура глобального рендера в App.jsx верна.
+- **Размер entries.json** (~248 KB) — в пределах нормы, кэш работает.
 
 ---
 
-### 🟢 Среднесрочно (качество и документация)
+## 7. Сводная таблица
 
-**Задача 6: Синхронизировать SKILL.md с реальным состоянием Phase 3 [DONE] ✅**
+| Категория | Статус | Критичность |
+|---|---|---|
+| Схема entries.json (CRITICAL-поля) | ✅ 0 нарушений | — |
+| `weak_*` pattern в 4 записях | ⚠️ несоответствие SKILL | Низкая |
+| `VALID_PATTERNS` в валидаторе | ⚠️ расширен сверх SKILL | Низкая |
+| Архитектурный закон (services/) | ✅ соблюдён | — |
+| iOS 12 compatibility | ✅ полная | — |
+| Phase 3 v2 (StudyCard, ModeToggle, TopicFilter) | ✅ реализована | — |
+| URL `?topic=N` | ✅ работает | — |
+| Производительность | ✅ 248KB, кэш работает | — |
+| Контентный прогресс (206/250 target) | ✅ 82% | — |
+| Тематические батчи | ⏳ в процессе | — |
+| Стоп-слова в scaffold | ⚠️ отсутствуют | Низкая |
 
-SKILL.md содержит устаревшую информацию:
-- Секция 12 (`DictionaryPage — placeholder`) → обновить до "полная реализация Phase 3 v2"
-- Секция 17 (план разработки) → отметить Phase 3 как завершённую (UI часть)
-- Секция 10 (иконки) → добавить `search`, `chevron-down`, `chevron-up` в документацию
-
-Это важно как "живой документ" — при следующих сессиях с AI он будет подавать неверный контекст.
-
----
-
-**Задача 7: Обработать graceful case для Quiz Link с пустыми qids [DONE] ✅**
-
-В DictionaryEntryCard и StudyCard кнопка "Практиковать" вызывает `navigate('/quiz/dict:' + entry.id)`. Если у записи нет связанных вопросов — пользователь получит ошибку. Решение минимальное:
-
-```jsx
-// В useQuiz.js, ветка dict:, после loadQuestionsByEntry:
-if (!raw || raw.length === 0) {
-  throw new Error('Нет вопросов для термина «' + entryId + '». Сначала запустите link-questions.js');
-}
-```
-
-Или в UI — скрывать кнопку если `entry.related_question_ids.length === 0`:
-```jsx
-{entry.related_question_ids && entry.related_question_ids.length > 0 && (
-  <button ...>Практиковать</button>
-)}
-```
-
----
-
-**Задача 8: Исправить cosmetic WARNING-записи (solo, sempre) [DONE] ✅**
-
-Два entries начинают definition.ru с "Слово «X» означает..." — это анти-паттерн по DICTIONARY_SCALING_SKILL.md. Редактировать вручную в entries.json, привести к формату "mechanism + правовой контекст + почему важно для квиза".
-
----
-
-**Задача 9: Тематические батчи до рубежа 200+ записей**
-
-После merge new_entries.json → 156 записей. До цели 200 остаётся **~44 записи**. По DICTIONARY_SCALING_SKILL.md это 2–3 тематических батча (Задачи G–I из батч-плана).
-
-Рекомендуемый порядок:
-1. Батч по topic 25 (5–8 записей)
-2. Батч по topics 22–24 (10–15 записей)
-3. Финальный батч оставшихся p2 терминов из scaffold_terms (20–25 записей)
-
----
-
-## 5. Сводная таблица задач
-
-| # | Задача | Приоритет | Трудозатраты | Тип |
-|---|---|---|---|---|
-| 1 | Слить new_entries.json → entries.json + link | 🔴 HIGH | 10 мин | скрипт |
-| 2 | Починить 9 записей с <3 qids | 🔴 HIGH | 20 мин | скрипт/ручная |
-| 3 | Topic 25 — 5–8 новых записей | 🟡 MED | 1 ч | контент |
-| 4 | Topics 22–24 — усиление покрытия | 🟡 MED | 2 ч | контент |
-| 5 | Исправить type.replace хак в EntryCard | 🟡 MED | 5 мин | код |
-| 6 | Синхронизировать SKILL.md с Phase 3 | 🟡 MED | 20 мин | документация |
-| 7 | Graceful обработка пустых qids в Quiz Link | 🟢 LOW | 15 мин | код |
-| 8 | Исправить cosmetic антипаттерны (solo, sempre) | 🟢 LOW | 10 мин | контент |
-| 9 | Тематические батчи до 200 записей | 🟢 LOW | 3–4 ч | контент |
-
----
-
-## Итог
-
-Проект находится в **хорошем состоянии**. Phase 3 UI реализована полностью и выше ожидаемого уровня из спецификации — StudyCard, ModeToggle, TopicFilter, Quiz Link, Topic URL params — всё есть. Архитектурный закон соблюдён без исключений. iOS 12-совместимость обеспечена. Данных 148 записей — 68% от цели.
-
-Главный практический шаг прямо сейчас: **Task 1 (merge new_entries.json) + Task 2 (link-questions)** — 30 минут работы, +8 записей без написания нового контента. Затем — контентная работа по тематическим батчам для перехода через рубеж 200.
+**Итог:** проект в отличном техническом состоянии. Единственные реальные задачи — исправить `weak_*` pattern в 4 записях и продолжить контентные тематические батчи.
