@@ -265,7 +265,7 @@ className={`dict-entry-card__badge dict-entry-card__badge--${TYPE_CSS[entry.type
 
 ### 🟢 Среднесрочно (качество и документация)
 
-**Задача 6: Синхронизировать SKILL.md с реальным состоянием Phase 3**
+**Задача 6: Синхронизировать SKILL.md с реальным состоянием Phase 3 [DONE] ✅**
 
 SKILL.md содержит устаревшую информацию:
 - Секция 12 (`DictionaryPage — placeholder`) → обновить до "полная реализация Phase 3 v2"
