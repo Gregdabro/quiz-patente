@@ -3483,7 +3483,7 @@
   },
   {
     "id": "intersezione",
-    "term": "intersezione",
+    "term": "intersezione (a T / a X)",
     "term_ru": "пересечение / перекресток (типы)",
     "type": "term",
     "priority": 1,

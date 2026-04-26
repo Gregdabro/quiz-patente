@@ -1,5 +1,5 @@
 Quiz Patente — Link Report
-Generated: 2026-04-25T20:00:34.062Z
+Generated: 2026-04-26T10:00:32.312Z
 MAX_IDS: 30
 
 agente_traffico                patterns=["agente del traffico","vigile","polizia"] found=30
@@ -55,7 +55,7 @@ guida                          patterns=["guida"]                               
 in_presenza                    patterns=["in presenza di"]                       found=30
 in_prossimita_di               patterns=["in prossimita di"]                     found=28
 incrocio                       patterns=["incrocio"]                             found=30
-intersezione                   patterns=["intersezione"]                         found=30
+intersezione                   patterns=["intersezione (a t","a x)"]             found=0
 itinerario_autostradale        patterns=["itinerario autostradale","fondo verde","autostrada"] found=30
 itinerario_extraurbano         patterns=["itinerario extraurbano","fondo blu","extraurbana"] found=30
 la_velocita                    patterns=["la velocita"]                          found=30
@@ -153,7 +153,7 @@ visibilita                     patterns=["visibilita"]                          
 
 ═══ ИТОГ ═══
 Всего entries:       148
-С совпадениями:      148
-Без совпадений:      0
-Всего question_ids:  3670
-Среднее на entry:    24.8
+С совпадениями:      147
+Без совпадений:      1
+Всего question_ids:  3640
+Среднее на entry:    24.6
