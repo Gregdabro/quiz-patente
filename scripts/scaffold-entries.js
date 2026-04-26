@@ -47,6 +47,25 @@ const CANDIDATES_PATH = path.join(__dirname, 'output/candidates.json');
 const ENTRIES_PATH    = path.join(__dirname, '../src/data/dictionary/entries.json');
 const OUTPUT_DIR      = path.join(__dirname, 'output');
 
+// ─── Стоп-слова (функциональные слова итальянского) ────────────────────────────
+
+const STOP_WORDS = new Set([
+  'ad', 'ed', 'od', 'al', 'del', 'della', 'dell', 'dei', 'degli', 'delle',
+  'nel', 'nella', 'nell', 'nei', 'negli', 'nelle', 'per', 'con', 'che', 'non',
+  'una', 'uno', 'un', 'gli', 'le', 'li', 'lo', 'la', 'da', 'in', 'di', 'su', 'se', 'ma',
+  'ci', 'si', 'e', 'o', 'è', 'ho', 'ha', 'hai', 'hanno', 'né', 'ne', 'anche',
+  'posto', 'raffigurato', 'veicoli', 'presenza',
+]);
+
+function isStopWord(term) {
+  const normalized = term
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .trim();
+  return STOP_WORDS.has(normalized);
+}
+
 // ─── Нормализация термина → id ────────────────────────────────────────────────
 // Пробелы → _, убираем диакритику, только a-z0-9_
 
@@ -191,7 +210,8 @@ function main() {
       b.count >= MIN_COUNT &&
       b.topics >= 4 &&
       !existingIds.has(termToId(b.term)) &&
-      !existingIds.has(b.term)
+      !existingIds.has(b.term) &&
+      !isStopWord(b.term)
     );
     phraseCandidates.sort((a, b) => b.count - a.count);
 
@@ -206,6 +226,7 @@ function main() {
       if (existingIds.has(w.term)) return false;
       if (existingIds.has(termToId(w.term))) return false;
       if (w.count < MIN_COUNT) return false;
+      if (isStopWord(w.term)) return false;
 
       if (TYPE_FILTER === 'logic') {
         return w.bias_strength >= MIN_BIAS;
