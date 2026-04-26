@@ -75,6 +75,9 @@ export default function useQuiz(topicId) {
       promise = loadDictionaryEntries().then(function (entries) {
         var entry = entries.find(function (e) { return e.id === entryId; });
         if (!entry) throw new Error('Термин словаря не найден: ' + entryId);
+        if (!entry.related_question_ids || entry.related_question_ids.length === 0) {
+          throw new Error('Нет вопросов для термина «' + entry.term + '». Сначала запустите линковку.');
+        }
         return loadQuestionsByEntry(entry);
       });
     } else {
