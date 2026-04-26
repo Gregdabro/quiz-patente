@@ -1,5 +1,5 @@
 Quiz Patente — Link Report
-Generated: 2026-04-26T10:00:32.312Z
+Generated: 2026-04-26T10:09:09.096Z
 MAX_IDS: 30
 
 agente_traffico                patterns=["agente del traffico","vigile","polizia"] found=30
@@ -46,7 +46,7 @@ evitare                        patterns=["evitare"]                             
 facolta                        patterns=["facolta"]                              found=13
 fermarsi                       patterns=["fermarsi"]                             found=30
 fermata                        patterns=["fermata"]                              found=30
-fine_diritto_precedenza        patterns=["fine del diritto di precedenza"]       found=2
+fine_diritto_precedenza        patterns=["fine del diritto di precedenza","fine della precedenza"] found=2
 fino                           patterns=["fino a"]                               found=30
 fischietto                     patterns=["fischietto","suono prolungato"]        found=8
 frecce_di_direzione            patterns=["frecce di direzione","frecce direzionali"] found=13
@@ -55,9 +55,9 @@ guida                          patterns=["guida"]                               
 in_presenza                    patterns=["in presenza di"]                       found=30
 in_prossimita_di               patterns=["in prossimita di"]                     found=28
 incrocio                       patterns=["incrocio"]                             found=30
-intersezione                   patterns=["intersezione (a t","a x)"]             found=0
-itinerario_autostradale        patterns=["itinerario autostradale","fondo verde","autostrada"] found=30
-itinerario_extraurbano         patterns=["itinerario extraurbano","fondo blu","extraurbana"] found=30
+intersezione                   patterns=["intersezione"]                         found=30
+itinerario_autostradale        patterns=["itinerario autostradale","autostrada","fondo verde"] found=30
+itinerario_extraurbano         patterns=["itinerario extraurbano","extraurbana","fondo blu"] found=30
 la_velocita                    patterns=["la velocita"]                          found=30
 lanterna_semaforica            patterns=["lanterna semaforica","semaforo"]       found=30
 lavori_in_corso                patterns=["lavori in corso"]                      found=22
@@ -84,12 +84,12 @@ obbliga                        patterns=["obbliga"]                             
 obbligatorio                   patterns=["obbligatorio","obbligatoria"]          found=30
 obbligo                        patterns=["obbligo"]                              found=30
 obbligo_vs_divieto_vs_pericolo patterns=["obbligo","divieto","pericolo"]         found=30
-ordine_incrocio                patterns=["ordine di precedenza","precedenza all'incrocio"] found=3
+ordine_incrocio                patterns=["ordine di precedenza","precedenza all'incrocio","ordine di transito"] found=10
 ore                            patterns=["ore"]                                  found=30
 ospedale                       patterns=["ospedale","pronto soccorso"]           found=17
 pannello_integrativo           patterns=["pannello integrativo"]                 found=30
 parcheggio                     patterns=["parcheggio"]                           found=30
-parcheggio_scambio             patterns=["parcheggio di scambio","parcheggio riservato","taxi"] found=30
+parcheggio_scambio             patterns=["parcheggio di scambio","parcheggio scambiatore","parcheggio riservato"] found=7
 passaggio_a_livello            patterns=["passaggio a livello"]                  found=30
 passaggio_obbligatorio         patterns=["passaggio obbligatorio"]               found=3
 pedoni                         patterns=["pedoni"]                               found=30
@@ -98,7 +98,7 @@ pericolo                       patterns=["pericolo"]                            
 preannuncia                    patterns=["preannuncia"]                          found=30
 preavviso_incrocio             patterns=["preavviso di incrocio"]                found=2
 precedenza                     patterns=["precedenza"]                           found=30
-precedenza_a_sinistra          patterns=["precedenza a sinistra"]                found=2
+precedenza_a_sinistra          patterns=["precedenza a sinistra","precedenza da sinistra"] found=2
 precedenza_tram                patterns=["precedenza al tram"]                   found=3
 precedenza_vs_diritto_di_via   patterns=["precedenza","diritto di precedenza"]   found=30
 prima                          patterns=["prima"]                                found=30
@@ -120,7 +120,7 @@ segnali_indicazione            patterns=["segnali di indicazione"]              
 semaforo                       patterns=["semaforo"]                             found=30
 sempre                         patterns=["sempre"]                               found=30
 senso_unico                    patterns=["senso unico"]                          found=30
-senso_vietato                  patterns=["senso vietato","divieto di accesso"]   found=1
+senso_vietato                  patterns=["senso vietato","divieto di accesso","segnale di divieto"] found=20
 sgomberare_incrocio            patterns=["sgomberare l'incrocio","sgomberare"]   found=3
 solo                           patterns=["solo"]                                 found=30
 sorpasso                       patterns=["sorpasso"]                             found=30
@@ -128,7 +128,7 @@ sorpasso_vietato               patterns=["sorpasso vietato","divieto di sorpasso
 sosta                          patterns=["sosta"]                                found=30
 sosta_vs_fermata               patterns=["sosta","fermata"]                      found=30
 spartitraffico                 patterns=["spartitraffico"]                       found=10
-stop_segnale                   patterns=["fermarsi e dare precedenza (stop)"]    found=1
+stop_segnale                   patterns=["stop","fermarsi e dare precedenza"]    found=18
 strada                         patterns=["strada"]                               found=30
 strada_senza_uscita            patterns=["strada senza uscita"]                  found=8
 strade_extraurbane             patterns=["strade extraurbane"]                   found=30
@@ -153,7 +153,7 @@ visibilita                     patterns=["visibilita"]                          
 
 ═══ ИТОГ ═══
 Всего entries:       148
-С совпадениями:      147
-Без совпадений:      1
-Всего question_ids:  3640
-Среднее на entry:    24.6
+С совпадениями:      148
+Без совпадений:      0
+Всего question_ids:  3690
+Среднее на entry:    24.9

@@ -170,7 +170,7 @@ className={`dict-entry-card__badge dict-entry-card__badge--${entry.type.replace(
 
 ### 🔴 Немедленно (блокируют качество данных)
 
-**Задача 1: Слить `new_entries.json` в `entries.json`**
+**Задача 1: Слить `new_entries.json` в `entries.json` [DONE] ✅**
 
 8 качественных записей уже готовы и ждут. Алгоритм:
 ```bash
@@ -194,7 +194,7 @@ node scripts/validate-entries.js
 
 ---
 
-**Задача 2: Повторный запуск link-questions для 9 записей с < 3 qids**
+**Задача 2: Повторный запуск link-questions для 9 записей с < 3 qids [DONE] ✅**
 
 9 записей имеют 0–2 related_question_ids. Причина в том, что их термины специфичны (fine_diritto_precedenza, ordine_incrocio, intersezione — возможно, текст вопросов использует другие формулировки).
 
