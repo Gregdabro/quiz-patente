@@ -175,8 +175,12 @@ function main() {
   const questions = loadAllQuestions();
   console.log(`✅ ${questions.length} вопросов из 25 тем\n`);
 
-  // 3. Нормализуем тексты вопросов один раз (для производительности)
-  const normalizedTexts = questions.map(q => normalize(q.text));
+  // 3. Нормализуем тексты вопросов и комментариев один раз (для производительности)
+  const normalizedTexts = questions.map(q => {
+    const text = q.text || '';
+    const comment = (q.comment && q.comment.text) ? q.comment.text : '';
+    return normalize(text + ' ' + comment);
+  });
 
   // 4. Для каждой записи — находим совпадающие вопросы
   const reportLines = [
