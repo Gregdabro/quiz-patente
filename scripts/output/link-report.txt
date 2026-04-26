@@ -1,5 +1,5 @@
 Quiz Patente — Link Report
-Generated: 2026-04-26T10:16:03.777Z
+Generated: 2026-04-26T10:21:21.474Z
 MAX_IDS: 30
 
 agente_traffico                patterns=["agente del traffico","vigile","polizia"] found=30
@@ -158,10 +158,25 @@ stabilita_veicolo              patterns=["stabilita del veicolo"]               
 frenatura                      patterns=["frenatura"]                            found=30
 spazio_di_frenatura            patterns=["spazio di frenatura"]                  found=30
 aquaplaning                    patterns=["aquaplaning"]                          found=30
+stanchezza                     patterns=["stanchezza"]                           found=30
+alcol_e_droga                  patterns=["alcol","sostanze stupefacenti","droga","ebbrezza"] found=30
+primo_soccorso                 patterns=["primo soccorso","soccorrere","assistenza ai feriti"] found=26
+stato_di_shock                 patterns=["stato di shock"]                       found=23
+emorragia                      patterns=["emorragia"]                            found=8
+responsabilita_civile          patterns=["responsabilita civile"]                found=30
+responsabilita_penale          patterns=["responsabilita penale"]                found=26
+rc_auto                        patterns=["rc auto","responsabilita civile auto","assicurazione obbligatoria"] found=30
+massimale                      patterns=["massimale"]                            found=11
+risarcimento_danni             patterns=["risarcimento","risarcire"]             found=30
+inquinamento_atmosferico       patterns=["inquinamento","gas di scarico","emissioni"] found=30
+consumo_carburante             patterns=["consumo di carburante","consumo di benzina","consumo del veicolo"] found=16
+marmitta_catalitica            patterns=["marmitta catalitica"]                  found=15
+pneumatici_e_ambiente          patterns=["pressione degli pneumatici","gonfiaggio degli pneumatici","battistrada"] found=30
+manutenzione_ordinaria         patterns=["manutenzione","controllo dei livelli","efficienza del veicolo"] found=30
 
 ═══ ИТОГ ═══
-Всего entries:       156
-С совпадениями:      156
+Всего entries:       171
+С совпадениями:      171
 Без совпадений:      0
-Всего question_ids:  4315
-Среднее на entry:    27.7
+Всего question_ids:  4680
+Среднее на entry:    27.4
