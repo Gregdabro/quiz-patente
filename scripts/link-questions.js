@@ -88,7 +88,17 @@ const MANUAL_OVERRIDES = {
   fine_diritto_precedenza: ['fine del diritto di precedenza', 'fine della precedenza'],
   ordine_incrocio: ['ordine di precedenza', 'precedenza all\'incrocio', 'ordine di transito'],
   preavviso_incrocio: ['preavviso di incrocio'],
-  precedenza_a_sinistra: ['precedenza a sinistra', 'precedenza da sinistra']
+  precedenza_a_sinistra: ['precedenza a sinistra', 'precedenza da sinistra'],
+
+  // Новые темы (22-24)
+  alcol_e_droga: ['alcol', 'sostanze stupefacenti', 'droga', 'ebbrezza'],
+  primo_soccorso: ['primo soccorso', 'soccorrere', 'assistenza ai feriti'],
+  rc_auto: ['rc auto', 'responsabilita civile auto', 'assicurazione obbligatoria'],
+  risarcimento_danni: ['risarcimento', 'risarcire'],
+  inquinamento_atmosferico: ['inquinamento', 'gas di scarico', 'emissioni'],
+  consumo_carburante: ['consumo di carburante', 'consumo di benzina', 'consumo del veicolo'],
+  pneumatici_e_ambiente: ['pressione degli pneumatici', 'gonfiaggio degli pneumatici', 'battistrada'],
+  manutenzione_ordinaria: ['manutenzione', 'controllo dei livelli', 'efficienza del veicolo']
 };
 
 function getSearchPatterns(entry) {
