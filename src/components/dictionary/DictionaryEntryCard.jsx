@@ -39,7 +39,7 @@ const DictionaryEntryCard = React.memo(function DictionaryEntryCard({
       <div className="dict-entry-card__header" onClick={handleToggle}>
 
         <div className="dict-entry-card__header-left">
-          <span className={`dict-entry-card__badge dict-entry-card__badge--${entry.type.replace('_', '-')}`}>
+          <span className={`dict-entry-card__badge dict-entry-card__badge--${badge.cssClass}`}>
             {badge.label}
           </span>
           <div className="dict-entry-card__terms">
@@ -137,10 +137,10 @@ DictionaryEntryCard.displayName = 'DictionaryEntryCard';
 // ─── Бейджи по типу ──────────────────────────────────────────────────────────
 
 var TYPE_BADGE = {
-  logic_trigger: { label: 'ЛОВУШКА' },
-  term:          { label: 'ТЕРМИН' },
-  phrase:        { label: 'ФРАЗА' },
-  concept:       { label: 'КОНЦЕПЦИЯ' },
+  logic_trigger: { label: 'ЛОВУШКА', cssClass: 'logic-trigger' },
+  term:          { label: 'ТЕРМИН',   cssClass: 'term' },
+  phrase:        { label: 'ФРАЗА',    cssClass: 'phrase' },
+  concept:       { label: 'КОНЦЕПЦИЯ', cssClass: 'concept' },
 };
 
 export default DictionaryEntryCard;
