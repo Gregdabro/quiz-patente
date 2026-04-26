@@ -1,5 +1,5 @@
 Quiz Patente — Link Report
-Generated: 2026-04-26T13:53:09.118Z
+Generated: 2026-04-26T13:55:18.608Z
 MAX_IDS: 30
 
 agente_traffico                patterns=["agente del traffico","vigile","polizia"] found=30
@@ -238,10 +238,15 @@ diminuire                      patterns=["diminuire"]                           
 superare                       patterns=["superare"]                             found=30
 almeno                         patterns=["almeno"]                               found=30
 maggiore                       patterns=["maggiore"]                             found=30
+trova                          patterns=["trova"]                                found=30
+opportuno                      patterns=["opportuno"]                            found=30
+usare                          patterns=["usare"]                                found=30
+qualsiasi                      patterns=["qualsiasi"]                            found=30
+immediatamente                 patterns=["immediatamente"]                       found=30
 
 ═══ ИТОГ ═══
-Всего entries:       236
-С совпадениями:      236
+Всего entries:       241
+С совпадениями:      241
 Без совпадений:      0
-Всего question_ids:  6630
+Всего question_ids:  6780
 Среднее на entry:    28.1
