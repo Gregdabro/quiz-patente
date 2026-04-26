@@ -276,7 +276,7 @@ SKILL.md содержит устаревшую информацию:
 
 ---
 
-**Задача 7: Обработать graceful case для Quiz Link с пустыми qids**
+**Задача 7: Обработать graceful case для Quiz Link с пустыми qids [DONE] ✅**
 
 В DictionaryEntryCard и StudyCard кнопка "Практиковать" вызывает `navigate('/quiz/dict:' + entry.id)`. Если у записи нет связанных вопросов — пользователь получит ошибку. Решение минимальное:
 
