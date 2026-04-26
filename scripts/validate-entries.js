@@ -36,9 +36,7 @@ const ENTRIES_PATH = path.join(__dirname, '../src/data/dictionary/entries.json')
 
 const VALID_TYPES    = new Set(['term', 'phrase', 'logic_trigger', 'concept']);
 const VALID_PATTERNS = new Set([
-  'false_bias', 'weak_false_bias',
-  'true_bias',  'weak_true_bias',
-  'neutral', 'context_dependent',
+  'false_bias', 'true_bias', 'neutral', 'context_dependent',
 ]);
 const VALID_PRIOS    = new Set([1, 2, 3]);
 
