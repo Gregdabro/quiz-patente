@@ -6198,7 +6198,7 @@
     },
     "quiz_hint": {
       "ru": "62% вопросов с «pericolo» — VERO. При наличии опасности нужно снижать скорость и повышать внимание. Предупреждающие знаки — треугольники с красной рамкой.",
-      "pattern": "weak_true_bias",
+      "pattern": "true_bias",
       "pct_vero": 62
     },
     "examples": [
@@ -7834,7 +7834,7 @@
     },
     "quiz_hint": {
       "ru": "«Sempre» — сигнал тревоги. 65% вопросов с этим словом — FALSO. Когда видишь «всегда запрещено» или «всегда обязательно», спроси себя: а нет ли исключений? Обычно есть.",
-      "pattern": "weak_false_bias",
+      "pattern": "false_bias",
       "pct_falso": 65
     },
     "examples": [
@@ -9372,7 +9372,7 @@
     },
     "quiz_hint": {
       "ru": "«Tutti» — тот же тип ловушки что и «solo». 64% вопросов с этим словом — FALSO. «Все транспортные средства», «все водители» — проверь, нет ли исключений.",
-      "pattern": "weak_false_bias",
+      "pattern": "false_bias",
       "pct_falso": 64
     },
     "examples": [
@@ -9526,7 +9526,7 @@
     },
     "quiz_hint": {
       "ru": "65% вопросов с «unico» — FALSO. Особенно осторожно с фразами «l'unico modo» (единственный способ) или когда «senso unico» приписывается всем частям дороги.",
-      "pattern": "weak_false_bias",
+      "pattern": "false_bias",
       "pct_falso": 65
     },
     "examples": [
