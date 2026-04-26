@@ -111,14 +111,14 @@ app-quiz-patente/
 │   │   │   └── BottomNav.jsx   ← нижняя навигация (4 вкладки, скрыта на /quiz/*)
 │   │   │
 │   │   └── stats/
-│   │       └── TopicStatRow.jsx ← строка статистики по теме (Phase 2, placeholder)
+│   │       └── TopicStatRow.jsx ← строка статистики по теме (Phase 2)
 │   │
 │   ├── pages/                  ← страницы = роуты
 │   │   ├── HomePage.jsx        ← список 25 категорий с прогрессом
 │   │   ├── QuizPage.jsx        ← страница прохождения теста (основная логика)
 │   │   ├── ErrorsPage.jsx      ← страница для работы над ошибками (выбор темы)
-│   │   ├── StatsPage.jsx       ← статистика (Phase 2, placeholder)
-│   │   └── DictionaryPage.jsx  ← словарь (Phase 3, placeholder)
+│   │   ├── StatsPage.jsx       ← статистика (Phase 2)
+│   │   └── DictionaryPage.jsx  ← словарь (Phase 3)
 │   │
 │   ├── styles/
 │   │   ├── global.css          ← reset + CSS-переменные + типографика
@@ -541,6 +541,9 @@ import Icon from '../ui/Icon';
 |---|---|
 | `home` | BottomNav — Главная |
 | `refresh` | BottomNav — Ошибки |
+| `search` | DictionaryPage — Поиск |
+| `chevron-down` | DictionaryEntryCard — Аккордеон |
+| `chevron-up` | DictionaryEntryCard — Аккордеон |
 | `chart` | BottomNav — Статистика |
 | `book` | BottomNav — Словарь |
 | `arrow-left` | AppHeader — Кнопка "Назад" |
@@ -580,8 +583,8 @@ import Icon from '../ui/Icon';
 /quiz/:topicId        → QuizPage — прохождение теста
                          topicId: "1"–"25" | "all" | "errors:*"
 /errors               → ErrorsPage — выбор темы для работы над ошибками
-/stats                → StatsPage — статистика (Phase 2, placeholder)
-/dictionary           → DictionaryPage — словарь (Phase 3, placeholder)
+/stats                → StatsPage — статистика (Phase 2)
+/dictionary           → DictionaryPage — словарь (Phase 3)
 ```
 
 ### Варианты topicId для /quiz/:topicId
@@ -633,12 +636,12 @@ import Icon from '../ui/Icon';
 - **Состояние:** Если ошибок нет → "Отличная работа!"
 
 ### StatsPage (`/stats`) — Phase 2
-- **Текущий статус:** Placeholder "🚀 В разработке"
-- **Планируемый контент:** Общая статистика + таблица с прогрессом по темам
+- **Текущий статус:** ✅ Реализована
+- **Контент:** Общая статистика + таблица с прогрессом по темам
 
 ### DictionaryPage (`/dictionary`) — Phase 3
-- **Текущий статус:** Placeholder "🚀 В разработке"
-- **Планируемый контент:** Интерактивный словарь терминов ПДД
+- **Текущий статус:** ✅ Реализована (v2 Scaling завершён)
+- **Контент:** Интерактивный словарь терминов ПДД (List Mode, Study Mode, Quiz Link)
 
 ---
 
