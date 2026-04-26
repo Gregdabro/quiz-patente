@@ -69,7 +69,34 @@ function normalize(str) {
 //   "in prossimità di"      → ['in prossimita di']   (фраза целиком)
 //   "attraversamento pedonale" → ['attraversamento']  (первое слово достаточно)
 
+// ─── Ручные переопределения паттернов для сложных случаев ─────────────────────
+
+const MANUAL_OVERRIDES = {
+  // Упрощаем поиск для записей с лишними пояснениями в скобках
+  intersezione: ['intersezione'],
+  
+  // Добавляем синонимы и сокращения
+  stop_segnale: ['stop', 'fermarsi e dare precedenza'],
+  senso_vietato: ['senso vietato', 'divieto di accesso', 'segnale di divieto'],
+  
+  // Расширяем поиск для специфичных терминов
+  parcheggio_scambio: ['parcheggio di scambio', 'parcheggio scambiatore', 'parcheggio riservato'],
+  itinerario_extraurbano: ['itinerario extraurbano', 'extraurbana', 'fondo blu'],
+  itinerario_autostradale: ['itinerario autostradale', 'autostrada', 'fondo verde'],
+  
+  // Уточняем фразы
+  fine_diritto_precedenza: ['fine del diritto di precedenza', 'fine della precedenza'],
+  ordine_incrocio: ['ordine di precedenza', 'precedenza all\'incrocio', 'ordine di transito'],
+  preavviso_incrocio: ['preavviso di incrocio'],
+  precedenza_a_sinistra: ['precedenza a sinistra', 'precedenza da sinistra']
+};
+
 function getSearchPatterns(entry) {
+  // Проверяем наличие ручного переопределения
+  if (MANUAL_OVERRIDES[entry.id]) {
+    return MANUAL_OVERRIDES[entry.id];
+  }
+
   const term = normalize(entry.term);
 
   // Вариативные термины через ' / '
