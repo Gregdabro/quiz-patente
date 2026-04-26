@@ -103,6 +103,9 @@ app-quiz-patente/
 │   │   │   ├── CommentAccordion.jsx← раскрывающийся комментарий после ответа
 │   │   │   └── ResultScreen.jsx    ← итоговый экран (оверлей) после 30 вопросов
 │   │   │
+│   │   ├── dictionary/         ← компоненты специфичные для словаря
+│   │   │   └── DictionaryEntryCard.jsx ← карточка термина с аккордеоном
+│   │   │
 │   │   ├── layout/
 │   │   │   ├── AppHeader.jsx   ← верхний хедер (тёмно-синий, sticky)
 │   │   │   └── BottomNav.jsx   ← нижняя навигация (4 вкладки, скрыта на /quiz/*)
@@ -841,14 +844,15 @@ export default defineConfig({
 - [ ] `src/components/stats/TopicStatRow.jsx`
 - [ ] Вычисление статистики (всего тестов, средний результат, прогресс по темам)
 
-### ✅ Этап 3 — Словарь (выполнено)
+### 🟡 Этап 3 — Словарь (активная фаза)
 > [!IMPORTANT]
 > Для работы над архитектурой словаря, UI и хуками строго использовать [SKILL_DICTIONARY.md](file:///Users/greg/MyProjects/app-quiz-patente/SKILL_DICTIONARY.md).
 
-- [x] `src/data/dictionary/entries.json` (терминология ПДД)
+- [x] `src/data/dictionary/entries.json` (терминология ПДД — 171+ записей)
 - [x] `src/pages/DictionaryPage.jsx` (полная реализация: поиск, фильтры, режимы)
 - [x] `src/services/dictionaryService.js` (управление данными и прогрессом)
 - [x] `src/hooks/useDictionary.js` (логика фильтрации и навигации)
+- [x] `src/components/dictionary/DictionaryEntryCard.jsx` (рефакторинг маппинга типов)
 
 ### 🔮 Phase 2 — Backend (будущее)
 - [ ] Node.js + Express.js API
@@ -877,18 +881,15 @@ export default defineConfig({
 
 ## 19. Синхронизация с реальной реализацией
 
-Этот документ (v2) полностью синхронизирован с кодовой базой по состоянию на 25 апреля 2026 г.
+Этот документ (v2) полностью синхронизирован с кодовой базой по состоянию на 26 апреля 2026 г.
 
-**Ключевые исправления относительно v1:**
-1. ✅ Фиксирован маршрут `/errors` (было: `/quiz/errors`)
-2. ✅ Добавлена документация ErrorsPage
-3. ✅ Исправлены имена переменных spacing (`--space-*` → `--spacing-*`)
-4. ✅ Добавлены компоненты: ConfirmationModal, SlideTransition
-5. ✅ Добавлены хуки: useSwipe, useErrorTopics
-6. ✅ Обновлена структура проекта в секции 3
-7. ✅ Добавлена информация о батчинге в useErrorTopics
-8. ✅ Документированы все 15 иконок
-9. ✅ Добавлены дизайн-токены и переходы (transitions)
+**Ключевые исправления и прогресс:**
+1. ✅ **Словарь (Phase 3):** Реализован полнофункциональный словарь (171 запись).
+2. ✅ **Данные:** Полное покрытие Темы 25 (Физика) и усиление Тем 22-24.
+3. ✅ **Инструментарий:** Модернизирован `link-questions.js` (поиск по комментариям + manual overrides).
+4. ✅ **UI:** Рефакторинг `DictionaryEntryCard.jsx` (явный маппинг CSS-классов).
+5. ✅ Добавлены компоненты: ConfirmationModal, SlideTransition.
+6. ✅ Добавлены хуки: useSwipe, useErrorTopics.
 
 **Статус:**
 - Phase 1: ~95% завершено
