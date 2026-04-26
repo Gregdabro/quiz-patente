@@ -1,0 +1,4009 @@
+{
+  "_meta": {
+    "generated_at": "2026-04-26T10:35:35.189Z",
+    "type_filter": "terms",
+    "min_bias": 20,
+    "min_count": 30,
+    "total_entries": 105,
+    "instructions": [
+      "1. Заполни поля term_ru, definition.ru, quiz_hint.ru, examples в каждой записи",
+      "2. Удали поле _scaffold_hint из каждой записи перед merge",
+      "3. Добавь заполненные записи в src/data/dictionary/entries.json",
+      "4. node scripts/validate-entries.js  (должно быть 0 CRITICAL)",
+      "5. node scripts/link-questions.js --dry-run",
+      "6. node scripts/link-questions.js"
+    ]
+  },
+  "entries": [
+    {
+      "_scaffold_hint": {
+        "count": 2819,
+        "topics_count": 10,
+        "pct_vero": 48,
+        "pct_falso": 52,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          531,
+          532,
+          533,
+          534,
+          535,
+          536,
+          537,
+          538,
+          539,
+          540
+        ],
+        "direction": "(52% FALSO, 48% VERO, встречается в 2819 вопросах)"
+      },
+      "id": "raffigurato",
+      "term": "raffigurato",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% FALSO, 48% VERO, встречается в 2819 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 963,
+        "topics_count": 24,
+        "pct_vero": 53,
+        "pct_falso": 47,
+        "bias_label": "neutral",
+        "bias_strength": 6,
+        "sample_ids": [
+          28,
+          29,
+          31,
+          33,
+          36,
+          41,
+          53,
+          60,
+          63,
+          69
+        ],
+        "direction": "(53% VERO, 47% FALSO, встречается в 963 вопросах)"
+      },
+      "id": "veicoli",
+      "term": "veicoli",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (53% VERO, 47% FALSO, встречается в 963 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 481,
+        "topics_count": 21,
+        "pct_vero": 56,
+        "pct_falso": 44,
+        "bias_label": "neutral",
+        "bias_strength": 12,
+        "sample_ids": [
+          106,
+          109,
+          205,
+          539,
+          550,
+          551,
+          552,
+          553,
+          554,
+          555
+        ],
+        "direction": "(56% VERO, 44% FALSO, встречается в 481 вопросах)"
+      },
+      "id": "presenza",
+      "term": "presenza",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (56% VERO, 44% FALSO, встречается в 481 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 376,
+        "topics_count": 25,
+        "pct_vero": 55,
+        "pct_falso": 45,
+        "bias_label": "neutral",
+        "bias_strength": 10,
+        "sample_ids": [
+          46,
+          74,
+          110,
+          169,
+          170,
+          184,
+          195,
+          219,
+          268,
+          269
+        ],
+        "direction": "(55% VERO, 45% FALSO, встречается в 376 вопросах)"
+      },
+      "id": "ad",
+      "term": "ad",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (55% VERO, 45% FALSO, встречается в 376 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 333,
+        "topics_count": 18,
+        "pct_vero": 59,
+        "pct_falso": 41,
+        "bias_label": "neutral",
+        "bias_strength": 18,
+        "sample_ids": [
+          35,
+          211,
+          562,
+          606,
+          617,
+          618,
+          619,
+          679,
+          703,
+          713
+        ],
+        "direction": "(59% VERO, 41% FALSO, встречается в 333 вопросах)"
+      },
+      "id": "posto",
+      "term": "posto",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (59% VERO, 41% FALSO, встречается в 333 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 329,
+        "topics_count": 14,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          79,
+          81,
+          192,
+          372,
+          468,
+          2231,
+          2857,
+          3109,
+          3725,
+          3967
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 329 вопросах)"
+      },
+      "id": "nell",
+      "term": "nell",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 329 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 320,
+        "topics_count": 21,
+        "pct_vero": 47,
+        "pct_falso": 53,
+        "bias_label": "neutral",
+        "bias_strength": 6,
+        "sample_ids": [
+          2,
+          8,
+          9,
+          10,
+          12,
+          13,
+          15,
+          18,
+          19,
+          21
+        ],
+        "direction": "(53% FALSO, 47% VERO, встречается в 320 вопросах)"
+      },
+      "id": "senso",
+      "term": "senso",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (53% FALSO, 47% VERO, встречается в 320 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 295,
+        "topics_count": 12,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          294,
+          295,
+          306,
+          607,
+          659,
+          661,
+          671,
+          686,
+          736,
+          740
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 295 вопросах)"
+      },
+      "id": "pannello",
+      "term": "pannello",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 295 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 294,
+        "topics_count": 23,
+        "pct_vero": 53,
+        "pct_falso": 47,
+        "bias_label": "neutral",
+        "bias_strength": 6,
+        "sample_ids": [
+          37,
+          38,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "direction": "(53% VERO, 47% FALSO, встречается в 294 вопросах)"
+      },
+      "id": "strade",
+      "term": "strade",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (53% VERO, 47% FALSO, встречается в 294 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 291,
+        "topics_count": 21,
+        "pct_vero": 55,
+        "pct_falso": 45,
+        "bias_label": "neutral",
+        "bias_strength": 10,
+        "sample_ids": [
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360
+        ],
+        "direction": "(55% VERO, 45% FALSO, встречается в 291 вопросах)"
+      },
+      "id": "bisogna",
+      "term": "bisogna",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (55% VERO, 45% FALSO, встречается в 291 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 277,
+        "topics_count": 19,
+        "pct_vero": 47,
+        "pct_falso": 53,
+        "bias_label": "neutral",
+        "bias_strength": 6,
+        "sample_ids": [
+          44,
+          47,
+          73,
+          95,
+          110,
+          255,
+          258,
+          259,
+          273,
+          365
+        ],
+        "direction": "(53% FALSO, 47% VERO, встречается в 277 вопросах)"
+      },
+      "id": "consentito",
+      "term": "consentito",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (53% FALSO, 47% VERO, встречается в 277 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 268,
+        "topics_count": 15,
+        "pct_vero": 49,
+        "pct_falso": 51,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          5,
+          10,
+          15,
+          366,
+          446,
+          455,
+          528,
+          529,
+          616,
+          617
+        ],
+        "direction": "(51% FALSO, 49% VERO, встречается в 268 вопросах)"
+      },
+      "id": "sinistra",
+      "term": "sinistra",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% FALSO, 49% VERO, встречается в 268 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 248,
+        "topics_count": 12,
+        "pct_vero": 49,
+        "pct_falso": 51,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          244,
+          253,
+          271,
+          274,
+          275,
+          439,
+          841,
+          2886,
+          4025,
+          4026
+        ],
+        "direction": "(51% FALSO, 49% VERO, встречается в 248 вопросах)"
+      },
+      "id": "patente",
+      "term": "patente",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% FALSO, 49% VERO, встречается в 248 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 239,
+        "topics_count": 15,
+        "pct_vero": 52,
+        "pct_falso": 48,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          20,
+          171,
+          196,
+          205,
+          218,
+          834,
+          881,
+          1017,
+          1134,
+          1198
+        ],
+        "direction": "(52% VERO, 48% FALSO, встречается в 239 вопросах)"
+      },
+      "id": "consente",
+      "term": "consente",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% VERO, 48% FALSO, встречается в 239 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 237,
+        "topics_count": 19,
+        "pct_vero": 52,
+        "pct_falso": 48,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          41,
+          96,
+          120,
+          229,
+          231,
+          232,
+          235,
+          240,
+          241,
+          242
+        ],
+        "direction": "(52% VERO, 48% FALSO, встречается в 237 вопросах)"
+      },
+      "id": "motore",
+      "term": "motore",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% VERO, 48% FALSO, встречается в 237 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 216,
+        "topics_count": 22,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          362,
+          363,
+          364,
+          409,
+          511,
+          855,
+          889,
+          963,
+          969,
+          1278
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 216 вопросах)"
+      },
+      "id": "sicurezza",
+      "term": "sicurezza",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 216 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 208,
+        "topics_count": 16,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          29,
+          376,
+          417,
+          421,
+          455,
+          456,
+          458,
+          460,
+          465,
+          499
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 208 вопросах)"
+      },
+      "id": "dare",
+      "term": "dare",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 208 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 205,
+        "topics_count": 19,
+        "pct_vero": 50,
+        "pct_falso": 50,
+        "bias_label": "neutral",
+        "bias_strength": 0,
+        "sample_ids": [
+          362,
+          511,
+          512,
+          516,
+          817,
+          889,
+          963,
+          969,
+          970,
+          971
+        ],
+        "direction": "(50% VERO, 50% FALSO, встречается в 205 вопросах)"
+      },
+      "id": "distanza",
+      "term": "distanza",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (50% VERO, 50% FALSO, встречается в 205 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 203,
+        "topics_count": 9,
+        "pct_vero": 44,
+        "pct_falso": 56,
+        "bias_label": "neutral",
+        "bias_strength": 12,
+        "sample_ids": [
+          579,
+          809,
+          835,
+          858,
+          951,
+          975,
+          984,
+          988,
+          1109,
+          1145
+        ],
+        "direction": "(56% FALSO, 44% VERO, встречается в 203 вопросах)"
+      },
+      "id": "vieta",
+      "term": "vieta",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 1,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (56% FALSO, 44% VERO, встречается в 203 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 190,
+        "topics_count": 23,
+        "pct_vero": 56,
+        "pct_falso": 44,
+        "bias_label": "neutral",
+        "bias_strength": 12,
+        "sample_ids": [
+          186,
+          189,
+          192,
+          472,
+          480,
+          751,
+          797,
+          854,
+          1107,
+          1549
+        ],
+        "direction": "(56% VERO, 44% FALSO, встречается в 190 вопросах)"
+      },
+      "id": "dell",
+      "term": "dell",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (56% VERO, 44% FALSO, встречается в 190 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 180,
+        "topics_count": 21,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          97,
+          279,
+          291,
+          292,
+          293,
+          301,
+          401,
+          988,
+          996,
+          1378
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 180 вопросах)"
+      },
+      "id": "durante",
+      "term": "durante",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 180 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 176,
+        "topics_count": 12,
+        "pct_vero": 46,
+        "pct_falso": 54,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          44,
+          117,
+          120,
+          229,
+          238,
+          242,
+          246,
+          259,
+          268,
+          269
+        ],
+        "direction": "(54% FALSO, 46% VERO, встречается в 176 вопросах)"
+      },
+      "id": "km",
+      "term": "km",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% FALSO, 46% VERO, встречается в 176 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 174,
+        "topics_count": 24,
+        "pct_vero": 53,
+        "pct_falso": 47,
+        "bias_label": "neutral",
+        "bias_strength": 6,
+        "sample_ids": [
+          81,
+          83,
+          94,
+          234,
+          313,
+          323,
+          331,
+          366,
+          372,
+          416
+        ],
+        "direction": "(53% VERO, 47% FALSO, встречается в 174 вопросах)"
+      },
+      "id": "piu",
+      "term": "piu",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (53% VERO, 47% FALSO, встречается в 174 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 161,
+        "topics_count": 24,
+        "pct_vero": 58,
+        "pct_falso": 42,
+        "bias_label": "neutral",
+        "bias_strength": 16,
+        "sample_ids": [
+          186,
+          233,
+          243,
+          311,
+          381,
+          424,
+          486,
+          488,
+          501,
+          709
+        ],
+        "direction": "(58% VERO, 42% FALSO, встречается в 161 вопросах)"
+      },
+      "id": "dopo",
+      "term": "dopo",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (58% VERO, 42% FALSO, встречается в 161 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 155,
+        "topics_count": 17,
+        "pct_vero": 56,
+        "pct_falso": 44,
+        "bias_label": "neutral",
+        "bias_strength": 12,
+        "sample_ids": [
+          3,
+          9,
+          10,
+          17,
+          24,
+          43,
+          107,
+          132,
+          137,
+          147
+        ],
+        "direction": "(56% VERO, 44% FALSO, встречается в 155 вопросах)"
+      },
+      "id": "corsie",
+      "term": "corsie",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (56% VERO, 44% FALSO, встречается в 155 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 155,
+        "topics_count": 23,
+        "pct_vero": 57,
+        "pct_falso": 43,
+        "bias_label": "neutral",
+        "bias_strength": 14,
+        "sample_ids": [
+          279,
+          289,
+          366,
+          374,
+          582,
+          619,
+          625,
+          642,
+          646,
+          651
+        ],
+        "direction": "(57% VERO, 43% FALSO, встречается в 155 вопросах)"
+      },
+      "id": "possibile",
+      "term": "possibile",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (57% VERO, 43% FALSO, встречается в 155 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 154,
+        "topics_count": 11,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          744,
+          1952,
+          1963,
+          1966,
+          3042,
+          3044,
+          3045,
+          3046,
+          4242,
+          4243
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 154 вопросах)"
+      },
+      "id": "secondo",
+      "term": "secondo",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 154 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 153,
+        "topics_count": 19,
+        "pct_vero": 48,
+        "pct_falso": 52,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "direction": "(52% FALSO, 48% VERO, встречается в 153 вопросах)"
+      },
+      "id": "traffico",
+      "term": "traffico",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% FALSO, 48% VERO, встречается в 153 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 153,
+        "topics_count": 20,
+        "pct_vero": 59,
+        "pct_falso": 41,
+        "bias_label": "neutral",
+        "bias_strength": 18,
+        "sample_ids": [
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          551,
+          724,
+          781,
+          904
+        ],
+        "direction": "(59% VERO, 41% FALSO, встречается в 153 вопросах)"
+      },
+      "id": "stradale",
+      "term": "stradale",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (59% VERO, 41% FALSO, встречается в 153 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 146,
+        "topics_count": 23,
+        "pct_vero": 44,
+        "pct_falso": 56,
+        "bias_label": "neutral",
+        "bias_strength": 12,
+        "sample_ids": [
+          244,
+          253,
+          257,
+          325,
+          387,
+          415,
+          462,
+          466,
+          471,
+          495
+        ],
+        "direction": "(56% FALSO, 44% VERO, встречается в 146 вопросах)"
+      },
+      "id": "senza",
+      "term": "senza",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (56% FALSO, 44% VERO, встречается в 146 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 144,
+        "topics_count": 17,
+        "pct_vero": 53,
+        "pct_falso": 47,
+        "bias_label": "neutral",
+        "bias_strength": 6,
+        "sample_ids": [
+          154,
+          229,
+          230,
+          231,
+          232,
+          234,
+          236,
+          240,
+          249,
+          262
+        ],
+        "direction": "(53% VERO, 47% FALSO, встречается в 144 вопросах)"
+      },
+      "id": "ruote",
+      "term": "ruote",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (53% VERO, 47% FALSO, встречается в 144 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 143,
+        "topics_count": 9,
+        "pct_vero": 52,
+        "pct_falso": 48,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          407,
+          2262,
+          4167,
+          6381,
+          4354,
+          4415,
+          4416,
+          4537,
+          4644,
+          4645
+        ],
+        "direction": "(52% VERO, 48% FALSO, встречается в 143 вопросах)"
+      },
+      "id": "norme",
+      "term": "norme",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% VERO, 48% FALSO, встречается в 143 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 139,
+        "topics_count": 14,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          37,
+          38,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 139 вопросах)"
+      },
+      "id": "extraurbane",
+      "term": "extraurbane",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 139 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 134,
+        "topics_count": 16,
+        "pct_vero": 57,
+        "pct_falso": 43,
+        "bias_label": "neutral",
+        "bias_strength": 14,
+        "sample_ids": [
+          370,
+          1033,
+          1120,
+          1653,
+          1713,
+          1726,
+          1728,
+          1739,
+          1747,
+          1749
+        ],
+        "direction": "(57% VERO, 43% FALSO, встречается в 134 вопросах)"
+      },
+      "id": "direzione",
+      "term": "direzione",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (57% VERO, 43% FALSO, встречается в 134 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 132,
+        "topics_count": 13,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          531,
+          533,
+          534,
+          537,
+          538,
+          548,
+          549,
+          561,
+          567,
+          568
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 132 вопросах)"
+      },
+      "id": "tratto",
+      "term": "tratto",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 132 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 131,
+        "topics_count": 12,
+        "pct_vero": 50,
+        "pct_falso": 50,
+        "bias_label": "neutral",
+        "bias_strength": 0,
+        "sample_ids": [
+          200,
+          283,
+          329,
+          341,
+          532,
+          1286,
+          1505,
+          1541,
+          1562,
+          1648
+        ],
+        "direction": "(50% VERO, 50% FALSO, встречается в 131 вопросах)"
+      },
+      "id": "massimo",
+      "term": "massimo",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (50% VERO, 50% FALSO, встречается в 131 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 129,
+        "topics_count": 19,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          360,
+          491,
+          492,
+          493,
+          494,
+          498,
+          499,
+          501,
+          817,
+          918
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 129 вопросах)"
+      },
+      "id": "occorre",
+      "term": "occorre",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 129 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 127,
+        "topics_count": 16,
+        "pct_vero": 53,
+        "pct_falso": 47,
+        "bias_label": "neutral",
+        "bias_strength": 6,
+        "sample_ids": [
+          117,
+          232,
+          236,
+          241,
+          242,
+          268,
+          269,
+          291,
+          292,
+          293
+        ],
+        "direction": "(53% VERO, 47% FALSO, встречается в 127 вопросах)"
+      },
+      "id": "superiore",
+      "term": "superiore",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (53% VERO, 47% FALSO, встречается в 127 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 127,
+        "topics_count": 16,
+        "pct_vero": 46,
+        "pct_falso": 54,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          883,
+          884,
+          1297,
+          1299,
+          1302,
+          1306,
+          1423,
+          1588,
+          2013,
+          2163
+        ],
+        "direction": "(54% FALSO, 46% VERO, встречается в 127 вопросах)"
+      },
+      "id": "uso",
+      "term": "uso",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% FALSO, 46% VERO, встречается в 127 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 122,
+        "topics_count": 17,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          87,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 122 вопросах)"
+      },
+      "id": "passaggio",
+      "term": "passaggio",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 122 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 121,
+        "topics_count": 14,
+        "pct_vero": 58,
+        "pct_falso": 42,
+        "bias_label": "neutral",
+        "bias_strength": 16,
+        "sample_ids": [
+          211,
+          222,
+          228,
+          374,
+          706,
+          731,
+          734,
+          753,
+          849,
+          856
+        ],
+        "direction": "(58% VERO, 42% FALSO, встречается в 121 вопросах)"
+      },
+      "id": "corrispondenza",
+      "term": "corrispondenza",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (58% VERO, 42% FALSO, встречается в 121 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 121,
+        "topics_count": 12,
+        "pct_vero": 55,
+        "pct_falso": 45,
+        "bias_label": "neutral",
+        "bias_strength": 10,
+        "sample_ids": [
+          415,
+          420,
+          480,
+          1030,
+          1162,
+          1710,
+          1722,
+          1724,
+          1746,
+          1751
+        ],
+        "direction": "(55% VERO, 45% FALSO, встречается в 121 вопросах)"
+      },
+      "id": "diritto",
+      "term": "diritto",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (55% VERO, 45% FALSO, встречается в 121 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 120,
+        "topics_count": 15,
+        "pct_vero": 43,
+        "pct_falso": 57,
+        "bias_label": "neutral",
+        "bias_strength": 14,
+        "sample_ids": [
+          41,
+          44,
+          47,
+          91,
+          134,
+          135,
+          136,
+          139,
+          140,
+          142
+        ],
+        "direction": "(57% FALSO, 43% VERO, встречается в 120 вопросах)"
+      },
+      "id": "circolare",
+      "term": "circolare",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (57% FALSO, 43% VERO, встречается в 120 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 119,
+        "topics_count": 12,
+        "pct_vero": 48,
+        "pct_falso": 52,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          1,
+          5,
+          514,
+          516,
+          517,
+          519,
+          624,
+          627,
+          630,
+          649
+        ],
+        "direction": "(52% FALSO, 48% VERO, встречается в 119 вопросах)"
+      },
+      "id": "sorpassare",
+      "term": "sorpassare",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% FALSO, 48% VERO, встречается в 119 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 119,
+        "topics_count": 18,
+        "pct_vero": 59,
+        "pct_falso": 41,
+        "bias_label": "neutral",
+        "bias_strength": 18,
+        "sample_ids": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          57,
+          60
+        ],
+        "direction": "(59% VERO, 41% FALSO, встречается в 119 вопросах)"
+      },
+      "id": "parte",
+      "term": "parte",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (59% VERO, 41% FALSO, встречается в 119 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 118,
+        "topics_count": 14,
+        "pct_vero": 49,
+        "pct_falso": 51,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          2,
+          19,
+          23,
+          25,
+          124,
+          146,
+          176,
+          214,
+          576,
+          617
+        ],
+        "direction": "(51% FALSO, 49% VERO, встречается в 118 вопросах)"
+      },
+      "id": "doppio",
+      "term": "doppio",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% FALSO, 49% VERO, встречается в 118 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 117,
+        "topics_count": 14,
+        "pct_vero": 49,
+        "pct_falso": 51,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          81,
+          83,
+          87,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "direction": "(51% FALSO, 49% VERO, встречается в 117 вопросах)"
+      },
+      "id": "livello",
+      "term": "livello",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% FALSO, 49% VERO, встречается в 117 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 117,
+        "topics_count": 7,
+        "pct_vero": 46,
+        "pct_falso": 54,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          271,
+          274,
+          275,
+          309,
+          3510,
+          5236,
+          5640,
+          6472,
+          5767,
+          6721
+        ],
+        "direction": "(54% FALSO, 46% VERO, встречается в 117 вопросах)"
+      },
+      "id": "categoria",
+      "term": "categoria",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% FALSO, 46% VERO, встречается в 117 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 114,
+        "topics_count": 14,
+        "pct_vero": 44,
+        "pct_falso": 56,
+        "bias_label": "neutral",
+        "bias_strength": 12,
+        "sample_ids": [
+          100,
+          105,
+          364,
+          709,
+          719,
+          728,
+          807,
+          944,
+          945,
+          1092
+        ],
+        "direction": "(56% FALSO, 44% VERO, встречается в 114 вопросах)"
+      },
+      "id": "luci",
+      "term": "luci",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (56% FALSO, 44% VERO, встречается в 114 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 114,
+        "topics_count": 16,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          181,
+          182,
+          238,
+          364,
+          799,
+          800,
+          801,
+          829,
+          1151,
+          1223
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 114 вопросах)"
+      },
+      "id": "centri",
+      "term": "centri",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 114 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 108,
+        "topics_count": 14,
+        "pct_vero": 46,
+        "pct_falso": 54,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          10,
+          12,
+          66,
+          367,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374
+        ],
+        "direction": "(54% FALSO, 46% VERO, встречается в 108 вопросах)"
+      },
+      "id": "centro",
+      "term": "centro",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% FALSO, 46% VERO, встречается в 108 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 106,
+        "topics_count": 14,
+        "pct_vero": 52,
+        "pct_falso": 48,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          40,
+          93,
+          730,
+          935,
+          986,
+          1208,
+          1307,
+          1530,
+          1531,
+          1533
+        ],
+        "direction": "(52% VERO, 48% FALSO, встречается в 106 вопросах)"
+      },
+      "id": "fine",
+      "term": "fine",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% VERO, 48% FALSO, встречается в 106 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 106,
+        "topics_count": 15,
+        "pct_vero": 41,
+        "pct_falso": 59,
+        "bias_label": "neutral",
+        "bias_strength": 18,
+        "sample_ids": [
+          64,
+          70,
+          168,
+          212,
+          302,
+          305,
+          320,
+          332,
+          429,
+          491
+        ],
+        "direction": "(59% FALSO, 41% VERO, встречается в 106 вопросах)"
+      },
+      "id": "autobus",
+      "term": "autobus",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (59% FALSO, 41% VERO, встречается в 106 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 104,
+        "topics_count": 10,
+        "pct_vero": 53,
+        "pct_falso": 47,
+        "bias_label": "neutral",
+        "bias_strength": 6,
+        "sample_ids": [
+          101,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476
+        ],
+        "direction": "(53% VERO, 47% FALSO, встречается в 104 вопросах)"
+      },
+      "id": "vicinanza",
+      "term": "vicinanza",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (53% VERO, 47% FALSO, встречается в 104 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 103,
+        "topics_count": 14,
+        "pct_vero": 47,
+        "pct_falso": 53,
+        "bias_label": "neutral",
+        "bias_strength": 6,
+        "sample_ids": [
+          47,
+          137,
+          139,
+          140,
+          142,
+          143,
+          144,
+          160,
+          174,
+          1274
+        ],
+        "direction": "(53% FALSO, 47% VERO, встречается в 103 вопросах)"
+      },
+      "id": "autostrade",
+      "term": "autostrade",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (53% FALSO, 47% VERO, встречается в 103 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 103,
+        "topics_count": 15,
+        "pct_vero": 54,
+        "pct_falso": 46,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          181,
+          182,
+          799,
+          800,
+          801,
+          829,
+          1151,
+          1223,
+          1331,
+          1490
+        ],
+        "direction": "(54% VERO, 46% FALSO, встречается в 103 вопросах)"
+      },
+      "id": "abitati",
+      "term": "abitati",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% VERO, 46% FALSO, встречается в 103 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 99,
+        "topics_count": 10,
+        "pct_vero": 56,
+        "pct_falso": 44,
+        "bias_label": "neutral",
+        "bias_strength": 12,
+        "sample_ids": [
+          27,
+          29,
+          54,
+          164,
+          205,
+          293,
+          296,
+          297,
+          300,
+          304
+        ],
+        "direction": "(56% VERO, 44% FALSO, встречается в 99 вопросах)"
+      },
+      "id": "strisce",
+      "term": "strisce",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (56% VERO, 44% FALSO, встречается в 99 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 97,
+        "topics_count": 11,
+        "pct_vero": 58,
+        "pct_falso": 42,
+        "bias_label": "neutral",
+        "bias_strength": 16,
+        "sample_ids": [
+          415,
+          454,
+          456,
+          461,
+          467,
+          468,
+          477,
+          481,
+          482,
+          483
+        ],
+        "direction": "(58% VERO, 42% FALSO, встречается в 97 вопросах)"
+      },
+      "id": "attraversare",
+      "term": "attraversare",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (58% VERO, 42% FALSO, встречается в 97 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 94,
+        "topics_count": 9,
+        "pct_vero": 54,
+        "pct_falso": 46,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          28,
+          31,
+          33,
+          96,
+          97,
+          574,
+          820,
+          1576,
+          1677,
+          1691
+        ],
+        "direction": "(54% VERO, 46% FALSO, встречается в 94 вопросах)"
+      },
+      "id": "vietata",
+      "term": "vietata",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% VERO, 46% FALSO, встречается в 94 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 92,
+        "topics_count": 17,
+        "pct_vero": 59,
+        "pct_falso": 41,
+        "bias_label": "neutral",
+        "bias_strength": 18,
+        "sample_ids": [
+          35,
+          68,
+          182,
+          197,
+          206,
+          238,
+          456,
+          457,
+          458,
+          459
+        ],
+        "direction": "(59% VERO, 41% FALSO, встречается в 92 вопросах)"
+      },
+      "id": "fuori",
+      "term": "fuori",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (59% VERO, 41% FALSO, встречается в 92 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 91,
+        "topics_count": 15,
+        "pct_vero": 54,
+        "pct_falso": 46,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          439,
+          521,
+          524,
+          525,
+          528,
+          535,
+          568,
+          591,
+          1073,
+          1161
+        ],
+        "direction": "(54% VERO, 46% FALSO, встречается в 91 вопросах)"
+      },
+      "id": "stato",
+      "term": "stato",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% VERO, 46% FALSO, встречается в 91 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 90,
+        "topics_count": 10,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          4,
+          67,
+          169,
+          582,
+          628,
+          629,
+          654,
+          655,
+          682,
+          700
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 90 вопросах)"
+      },
+      "id": "effettuare",
+      "term": "effettuare",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 90 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 90,
+        "topics_count": 14,
+        "pct_vero": 57,
+        "pct_falso": 43,
+        "bias_label": "neutral",
+        "bias_strength": 14,
+        "sample_ids": [
+          113,
+          273,
+          282,
+          283,
+          284,
+          329,
+          433,
+          434,
+          437,
+          438
+        ],
+        "direction": "(57% VERO, 43% FALSO, встречается в 90 вопросах)"
+      },
+      "id": "persone",
+      "term": "persone",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (57% VERO, 43% FALSO, встречается в 90 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 85,
+        "topics_count": 9,
+        "pct_vero": 53,
+        "pct_falso": 47,
+        "bias_label": "neutral",
+        "bias_strength": 6,
+        "sample_ids": [
+          291,
+          292,
+          298,
+          299,
+          300,
+          301,
+          306,
+          1239,
+          1308,
+          1309
+        ],
+        "direction": "(53% VERO, 47% FALSO, встречается в 85 вопросах)"
+      },
+      "id": "tonnellate",
+      "term": "tonnellate",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (53% VERO, 47% FALSO, встречается в 85 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 84,
+        "topics_count": 9,
+        "pct_vero": 48,
+        "pct_falso": 52,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          37,
+          38,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "direction": "(52% FALSO, 48% VERO, встречается в 84 вопросах)"
+      },
+      "id": "principali",
+      "term": "principali",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% FALSO, 48% VERO, встречается в 84 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 84,
+        "topics_count": 5,
+        "pct_vero": 46,
+        "pct_falso": 54,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          1269,
+          1304,
+          1305,
+          1677,
+          2780,
+          3020,
+          3029,
+          3031,
+          3032,
+          3034
+        ],
+        "direction": "(54% FALSO, 46% VERO, встречается в 84 вопросах)"
+      },
+      "id": "preavvisa",
+      "term": "preavvisa",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% FALSO, 46% VERO, встречается в 84 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 82,
+        "topics_count": 15,
+        "pct_vero": 48,
+        "pct_falso": 52,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          152,
+          160,
+          172,
+          364,
+          1158,
+          2158,
+          2428,
+          2565,
+          2614,
+          2616
+        ],
+        "direction": "(52% FALSO, 48% VERO, встречается в 82 вопросах)"
+      },
+      "id": "emergenza",
+      "term": "emergenza",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% FALSO, 48% VERO, встречается в 82 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 81,
+        "topics_count": 12,
+        "pct_vero": 46,
+        "pct_falso": 54,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          612,
+          640,
+          1152,
+          1154,
+          1723,
+          1725,
+          1730,
+          1753,
+          1754,
+          1777
+        ],
+        "direction": "(54% FALSO, 46% VERO, встречается в 81 вопросах)"
+      },
+      "id": "svolta",
+      "term": "svolta",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% FALSO, 46% VERO, встречается в 81 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 80,
+        "topics_count": 10,
+        "pct_vero": 46,
+        "pct_falso": 54,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "direction": "(54% FALSO, 46% VERO, встречается в 80 вопросах)"
+      },
+      "id": "pedonale",
+      "term": "pedonale",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 2,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% FALSO, 46% VERO, встречается в 80 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 78,
+        "topics_count": 13,
+        "pct_vero": 49,
+        "pct_falso": 51,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          40,
+          93,
+          606,
+          618,
+          859,
+          940,
+          1300,
+          1345,
+          1578,
+          1719
+        ],
+        "direction": "(51% FALSO, 49% VERO, встречается в 78 вопросах)"
+      },
+      "id": "inizio",
+      "term": "inizio",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% FALSO, 49% VERO, встречается в 78 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 78,
+        "topics_count": 11,
+        "pct_vero": 50,
+        "pct_falso": 50,
+        "bias_label": "neutral",
+        "bias_strength": 0,
+        "sample_ids": [
+          509,
+          915,
+          1344,
+          1583,
+          2331,
+          3563,
+          4320,
+          4432,
+          4455,
+          4477
+        ],
+        "direction": "(50% VERO, 50% FALSO, встречается в 78 вопросах)"
+      },
+      "id": "sinistro",
+      "term": "sinistro",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (50% VERO, 50% FALSO, встречается в 78 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 77,
+        "topics_count": 11,
+        "pct_vero": 52,
+        "pct_falso": 48,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          957,
+          961,
+          965,
+          1332,
+          2006,
+          2007,
+          2008,
+          2009,
+          2012,
+          2014
+        ],
+        "direction": "(52% VERO, 48% FALSO, встречается в 77 вопросах)"
+      },
+      "id": "pneumatici",
+      "term": "pneumatici",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% VERO, 48% FALSO, встречается в 77 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 76,
+        "topics_count": 15,
+        "pct_vero": 43,
+        "pct_falso": 57,
+        "bias_label": "neutral",
+        "bias_strength": 14,
+        "sample_ids": [
+          115,
+          119,
+          127,
+          143,
+          318,
+          322,
+          323,
+          324,
+          325,
+          330
+        ],
+        "direction": "(57% FALSO, 43% VERO, встречается в 76 вопросах)"
+      },
+      "id": "autoveicoli",
+      "term": "autoveicoli",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (57% FALSO, 43% VERO, встречается в 76 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 76,
+        "topics_count": 13,
+        "pct_vero": 42,
+        "pct_falso": 58,
+        "bias_label": "neutral",
+        "bias_strength": 16,
+        "sample_ids": [
+          139,
+          303,
+          333,
+          334,
+          335,
+          336,
+          337,
+          342,
+          389,
+          1049
+        ],
+        "direction": "(58% FALSO, 42% VERO, встречается в 76 вопросах)"
+      },
+      "id": "autovetture",
+      "term": "autovetture",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (58% FALSO, 42% VERO, встречается в 76 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 74,
+        "topics_count": 12,
+        "pct_vero": 50,
+        "pct_falso": 50,
+        "bias_label": "neutral",
+        "bias_strength": 0,
+        "sample_ids": [
+          830,
+          855,
+          872,
+          905,
+          945,
+          958,
+          1691,
+          2145,
+          2328,
+          2335
+        ],
+        "direction": "(50% VERO, 50% FALSO, встречается в 74 вопросах)"
+      },
+      "id": "comporta",
+      "term": "comporta",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (50% VERO, 50% FALSO, встречается в 74 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 73,
+        "topics_count": 5,
+        "pct_vero": 52,
+        "pct_falso": 48,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          489,
+          2648,
+          2650,
+          2651,
+          2652,
+          2653,
+          2654,
+          2655,
+          2656,
+          2657
+        ],
+        "direction": "(52% VERO, 48% FALSO, встречается в 73 вопросах)"
+      },
+      "id": "accesa",
+      "term": "accesa",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% VERO, 48% FALSO, встречается в 73 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 73,
+        "topics_count": 9,
+        "pct_vero": 55,
+        "pct_falso": 45,
+        "bias_label": "neutral",
+        "bias_strength": 10,
+        "sample_ids": [
+          530,
+          803,
+          812,
+          834,
+          870,
+          895,
+          962,
+          2466,
+          2469,
+          2470
+        ],
+        "direction": "(55% VERO, 45% FALSO, встречается в 73 вопросах)"
+      },
+      "id": "spazio",
+      "term": "spazio",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (55% VERO, 45% FALSO, встречается в 73 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 71,
+        "topics_count": 8,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          56,
+          58,
+          59,
+          296,
+          297,
+          304,
+          305,
+          2411,
+          2413,
+          2430
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 71 вопросах)"
+      },
+      "id": "colore",
+      "term": "colore",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 71 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 70,
+        "topics_count": 16,
+        "pct_vero": 54,
+        "pct_falso": 46,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          44,
+          47,
+          229,
+          235,
+          242,
+          246,
+          255,
+          259,
+          291,
+          292
+        ],
+        "direction": "(54% VERO, 46% FALSO, встречается в 70 вопросах)"
+      },
+      "id": "massima",
+      "term": "massima",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% VERO, 46% FALSO, встречается в 70 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 69,
+        "topics_count": 11,
+        "pct_vero": 55,
+        "pct_falso": 45,
+        "bias_label": "neutral",
+        "bias_strength": 10,
+        "sample_ids": [
+          393,
+          474,
+          719,
+          731,
+          734,
+          753,
+          768,
+          1919,
+          1938,
+          2112
+        ],
+        "direction": "(55% VERO, 45% FALSO, встречается в 69 вопросах)"
+      },
+      "id": "prossimita",
+      "term": "prossimita",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (55% VERO, 45% FALSO, встречается в 69 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 66,
+        "topics_count": 16,
+        "pct_vero": 48,
+        "pct_falso": 52,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          113,
+          186,
+          192,
+          811,
+          1391,
+          1536,
+          1669,
+          1670,
+          1673,
+          1675
+        ],
+        "direction": "(52% FALSO, 48% VERO, встречается в 66 вопросах)"
+      },
+      "id": "servizio",
+      "term": "servizio",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% FALSO, 48% VERO, встречается в 66 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 66,
+        "topics_count": 11,
+        "pct_vero": 50,
+        "pct_falso": 50,
+        "bias_label": "neutral",
+        "bias_strength": 0,
+        "sample_ids": [
+          414,
+          463,
+          479,
+          480,
+          498,
+          1495,
+          1718,
+          1755,
+          1790,
+          1803
+        ],
+        "direction": "(50% VERO, 50% FALSO, встречается в 66 вопросах)"
+      },
+      "id": "passare",
+      "term": "passare",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (50% VERO, 50% FALSO, встречается в 66 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 65,
+        "topics_count": 9,
+        "pct_vero": 54,
+        "pct_falso": 46,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          198,
+          619,
+          646,
+          651,
+          672,
+          696,
+          1171,
+          1344,
+          1878,
+          4320
+        ],
+        "direction": "(54% VERO, 46% FALSO, встречается в 65 вопросах)"
+      },
+      "id": "margine",
+      "term": "margine",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% VERO, 46% FALSO, встречается в 65 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 64,
+        "topics_count": 12,
+        "pct_vero": 55,
+        "pct_falso": 45,
+        "bias_label": "neutral",
+        "bias_strength": 10,
+        "sample_ids": [
+          263,
+          273,
+          281,
+          282,
+          283,
+          284,
+          292,
+          294,
+          295,
+          299
+        ],
+        "direction": "(55% VERO, 45% FALSO, встречается в 64 вопросах)"
+      },
+      "id": "trasporto",
+      "term": "trasporto",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (55% VERO, 45% FALSO, встречается в 64 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 64,
+        "topics_count": 10,
+        "pct_vero": 50,
+        "pct_falso": 50,
+        "bias_label": "neutral",
+        "bias_strength": 0,
+        "sample_ids": [
+          297,
+          304,
+          305,
+          443,
+          459,
+          460,
+          465,
+          478,
+          483,
+          485
+        ],
+        "direction": "(50% VERO, 50% FALSO, встречается в 64 вопросах)"
+      },
+      "id": "rosso",
+      "term": "rosso",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (50% VERO, 50% FALSO, встречается в 64 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 64,
+        "topics_count": 8,
+        "pct_vero": 53,
+        "pct_falso": 47,
+        "bias_label": "neutral",
+        "bias_strength": 6,
+        "sample_ids": [
+          435,
+          470,
+          471,
+          473,
+          475,
+          482,
+          483,
+          484,
+          485,
+          487
+        ],
+        "direction": "(53% VERO, 47% FALSO, встречается в 64 вопросах)"
+      },
+      "id": "bambini",
+      "term": "bambini",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (53% VERO, 47% FALSO, встречается в 64 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 63,
+        "topics_count": 16,
+        "pct_vero": 44,
+        "pct_falso": 56,
+        "bias_label": "neutral",
+        "bias_strength": 12,
+        "sample_ids": [
+          75,
+          449,
+          450,
+          484,
+          485,
+          775,
+          798,
+          805,
+          1046,
+          1156
+        ],
+        "direction": "(56% FALSO, 44% VERO, встречается в 63 вопросах)"
+      },
+      "id": "perche",
+      "term": "perche",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (56% FALSO, 44% VERO, встречается в 63 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 63,
+        "topics_count": 17,
+        "pct_vero": 59,
+        "pct_falso": 41,
+        "bias_label": "neutral",
+        "bias_strength": 18,
+        "sample_ids": [
+          84,
+          413,
+          420,
+          430,
+          444,
+          476,
+          491,
+          492,
+          495,
+          501
+        ],
+        "direction": "(59% VERO, 41% FALSO, встречается в 63 вопросах)"
+      },
+      "id": "fare",
+      "term": "fare",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (59% VERO, 41% FALSO, встречается в 63 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 62,
+        "topics_count": 7,
+        "pct_vero": 50,
+        "pct_falso": 50,
+        "bias_label": "neutral",
+        "bias_strength": 0,
+        "sample_ids": [
+          198,
+          624,
+          625,
+          630,
+          1235,
+          2386,
+          2387,
+          2388,
+          2389,
+          2390
+        ],
+        "direction": "(50% VERO, 50% FALSO, встречается в 62 вопросах)"
+      },
+      "id": "bianca",
+      "term": "bianca",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (50% VERO, 50% FALSO, встречается в 62 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 62,
+        "topics_count": 14,
+        "pct_vero": 48,
+        "pct_falso": 52,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          364,
+          369,
+          370,
+          371,
+          407,
+          418,
+          444,
+          445,
+          446,
+          447
+        ],
+        "direction": "(52% FALSO, 48% VERO, встречается в 62 вопросах)"
+      },
+      "id": "tenere",
+      "term": "tenere",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% FALSO, 48% VERO, встречается в 62 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 60,
+        "topics_count": 8,
+        "pct_vero": 57,
+        "pct_falso": 43,
+        "bias_label": "neutral",
+        "bias_strength": 14,
+        "sample_ids": [
+          32,
+          213,
+          490,
+          1089,
+          1100,
+          1181,
+          2161,
+          2171,
+          2252,
+          2254
+        ],
+        "direction": "(57% VERO, 43% FALSO, встречается в 60 вопросах)"
+      },
+      "id": "gialla",
+      "term": "gialla",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (57% VERO, 43% FALSO, встречается в 60 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 60,
+        "topics_count": 10,
+        "pct_vero": 50,
+        "pct_falso": 50,
+        "bias_label": "neutral",
+        "bias_strength": 0,
+        "sample_ids": [
+          889,
+          957,
+          963,
+          971,
+          1051,
+          3552,
+          3790,
+          3800,
+          3808,
+          3837
+        ],
+        "direction": "(50% VERO, 50% FALSO, встречается в 60 вопросах)"
+      },
+      "id": "diminuire",
+      "term": "diminuire",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (50% VERO, 50% FALSO, встречается в 60 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 59,
+        "topics_count": 7,
+        "pct_vero": 51,
+        "pct_falso": 49,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          45,
+          482,
+          486,
+          489,
+          770,
+          2183,
+          2249,
+          2253,
+          2255,
+          2377
+        ],
+        "direction": "(51% VERO, 49% FALSO, встречается в 59 вопросах)"
+      },
+      "id": "verde",
+      "term": "verde",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% VERO, 49% FALSO, встречается в 59 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 59,
+        "topics_count": 5,
+        "pct_vero": 46,
+        "pct_falso": 54,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          486,
+          2738,
+          4376,
+          4383,
+          4395,
+          4649,
+          4651,
+          4654,
+          4655,
+          4755
+        ],
+        "direction": "(54% FALSO, 46% VERO, встречается в 59 вопросах)"
+      },
+      "id": "attendere",
+      "term": "attendere",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% FALSO, 46% VERO, встречается в 59 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 58,
+        "topics_count": 14,
+        "pct_vero": 52,
+        "pct_falso": 48,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          422,
+          427,
+          2954,
+          3787,
+          3790,
+          3793,
+          3896,
+          4141,
+          4143,
+          4144
+        ],
+        "direction": "(52% VERO, 48% FALSO, встречается в 58 вопросах)"
+      },
+      "id": "incidente",
+      "term": "incidente",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% VERO, 48% FALSO, встречается в 58 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 57,
+        "topics_count": 12,
+        "pct_vero": 53,
+        "pct_falso": 47,
+        "bias_label": "neutral",
+        "bias_strength": 6,
+        "sample_ids": [
+          14,
+          16,
+          18,
+          21,
+          22,
+          23,
+          26,
+          37,
+          121,
+          133
+        ],
+        "direction": "(53% VERO, 47% FALSO, встречается в 57 вопросах)"
+      },
+      "id": "carreggiate",
+      "term": "carreggiate",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (53% VERO, 47% FALSO, встречается в 57 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 57,
+        "topics_count": 8,
+        "pct_vero": 42,
+        "pct_falso": 58,
+        "bias_label": "neutral",
+        "bias_strength": 16,
+        "sample_ids": [
+          198,
+          624,
+          630,
+          1233,
+          1235,
+          1553,
+          1856,
+          2403,
+          2404,
+          2405
+        ],
+        "direction": "(58% FALSO, 42% VERO, встречается в 57 вопросах)"
+      },
+      "id": "continua",
+      "term": "continua",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (58% FALSO, 42% VERO, встречается в 57 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 57,
+        "topics_count": 6,
+        "pct_vero": 47,
+        "pct_falso": 53,
+        "bias_label": "neutral",
+        "bias_strength": 6,
+        "sample_ids": [
+          233,
+          243,
+          290,
+          311,
+          342,
+          4025,
+          4026,
+          4033,
+          5515,
+          5760
+        ],
+        "direction": "(53% FALSO, 47% VERO, встречается в 57 вопросах)"
+      },
+      "id": "anni",
+      "term": "anni",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (53% FALSO, 47% VERO, встречается в 57 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 57,
+        "topics_count": 7,
+        "pct_vero": 54,
+        "pct_falso": 46,
+        "bias_label": "neutral",
+        "bias_strength": 8,
+        "sample_ids": [
+          360,
+          367,
+          4220,
+          4396,
+          4647,
+          4649,
+          4650,
+          4651,
+          4652,
+          4653
+        ],
+        "direction": "(54% VERO, 46% FALSO, встречается в 57 вопросах)"
+      },
+      "id": "situazione",
+      "term": "situazione",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (54% VERO, 46% FALSO, встречается в 57 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 56,
+        "topics_count": 17,
+        "pct_vero": 48,
+        "pct_falso": 52,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          190,
+          491,
+          495,
+          618,
+          784,
+          787,
+          828,
+          906,
+          907,
+          1209
+        ],
+        "direction": "(52% FALSO, 48% VERO, встречается в 56 вопросах)"
+      },
+      "id": "dall",
+      "term": "dall",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% FALSO, 48% VERO, встречается в 56 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 55,
+        "topics_count": 14,
+        "pct_vero": 49,
+        "pct_falso": 51,
+        "bias_label": "neutral",
+        "bias_strength": 2,
+        "sample_ids": [
+          360,
+          363,
+          889,
+          971,
+          1055,
+          1260,
+          1261,
+          1262,
+          1267,
+          1496
+        ],
+        "direction": "(51% FALSO, 49% VERO, встречается в 55 вопросах)"
+      },
+      "id": "precede",
+      "term": "precede",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (51% FALSO, 49% VERO, встречается в 55 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 54,
+        "topics_count": 12,
+        "pct_vero": 57,
+        "pct_falso": 43,
+        "bias_label": "neutral",
+        "bias_strength": 14,
+        "sample_ids": [
+          619,
+          646,
+          651,
+          672,
+          696,
+          930,
+          932,
+          1171,
+          1583,
+          1878
+        ],
+        "direction": "(57% VERO, 43% FALSO, встречается в 54 вопросах)"
+      },
+      "id": "destro",
+      "term": "destro",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (57% VERO, 43% FALSO, встречается в 54 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 53,
+        "topics_count": 9,
+        "pct_vero": 45,
+        "pct_falso": 55,
+        "bias_label": "neutral",
+        "bias_strength": 10,
+        "sample_ids": [
+          941,
+          943,
+          1043,
+          1045,
+          1099,
+          1185,
+          2689,
+          2695,
+          2743,
+          2888
+        ],
+        "direction": "(55% FALSO, 45% VERO, встречается в 53 вопросах)"
+      },
+      "id": "mobile",
+      "term": "mobile",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (55% FALSO, 45% VERO, встречается в 53 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 52,
+        "topics_count": 7,
+        "pct_vero": 52,
+        "pct_falso": 48,
+        "bias_label": "neutral",
+        "bias_strength": 4,
+        "sample_ids": [
+          841,
+          2805,
+          4644,
+          4645,
+          4646,
+          5384,
+          5385,
+          5386,
+          5387,
+          5388
+        ],
+        "direction": "(52% VERO, 48% FALSO, встречается в 52 вопросах)"
+      },
+      "id": "punti",
+      "term": "punti",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (52% VERO, 48% FALSO, встречается в 52 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    },
+    {
+      "_scaffold_hint": {
+        "count": 51,
+        "topics_count": 10,
+        "pct_vero": 43,
+        "pct_falso": 57,
+        "bias_label": "neutral",
+        "bias_strength": 14,
+        "sample_ids": [
+          87,
+          98,
+          382,
+          708,
+          710,
+          711,
+          712,
+          715,
+          719,
+          724
+        ],
+        "direction": "(57% FALSO, 43% VERO, встречается в 51 вопросах)"
+      },
+      "id": "barriere",
+      "term": "barriere",
+      "term_ru": "TODO",
+      "type": "term",
+      "priority": 3,
+      "topics": [],
+      "definition": {
+        "ru": "TODO — объяснение механизма работы в ПДД (минимум 80 символов, НЕ перевод)"
+      },
+      "quiz_hint": {
+        "ru": "TODO — конкретный совет для квиза (57% FALSO, 43% VERO, встречается в 51 вопросах)",
+        "pattern": "neutral"
+      },
+      "examples": [],
+      "related_question_ids": []
+    }
+  ]
+}
