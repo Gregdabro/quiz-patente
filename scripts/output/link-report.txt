@@ -1,5 +1,5 @@
 Quiz Patente — Link Report
-Generated: 2026-04-26T13:14:46.872Z
+Generated: 2026-04-26T13:18:31.338Z
 MAX_IDS: 30
 
 agente_traffico                patterns=["agente del traffico","vigile","polizia"] found=30
@@ -223,10 +223,15 @@ puo                            patterns=["puo"]                                 
 consente                       patterns=["consente"]                             found=30
 sorpassare                     patterns=["sorpassare"]                           found=30
 dopo                           patterns=["dopo"]                                 found=30
+senso                          patterns=["senso"]                                found=30
+direzione                      patterns=["direzione"]                            found=30
+centro                         patterns=["centro"]                               found=30
+passaggio                      patterns=["passaggio"]                            found=30
+necessario                     patterns=["necessario"]                           found=30
 
 ═══ ИТОГ ═══
-Всего entries:       221
-С совпадениями:      221
+Всего entries:       226
+С совпадениями:      226
 Без совпадений:      0
-Всего question_ids:  6180
+Всего question_ids:  6330
 Среднее на entry:    28.0
