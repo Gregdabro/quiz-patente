@@ -2,7 +2,7 @@
  * useQuiz.js
  * Главный хук логики прохождения квиза.
  *
- * topicId: "1"–"25" | "all" | "errors" | "errors:N" | "dict:entryId"
+ * topicId: "1"–"25" | "all" | "errors" | "errors:N" | "dict:entryId" | "immersion:topicId:chunkIndex"
  *
  * Контракт:
  * { questions, current, goTo, answered, answer, results, isFinished, finish, reset, loading, error }
@@ -14,12 +14,14 @@ import {
   loadAllQuestions,
   loadTopicErrorQuestions,
   loadQuestionsByEntry,
+  loadChunkQuestions,
   pickSessionQuestions
 } from '../services/questionsService.js';
 import { getErrorQuestions } from '../services/errorsService.js';
 import { incrementError, decrementError } from '../services/errorsService.js';
 import { saveTestResult } from '../services/progressService.js';
 import { loadDictionaryEntries, markAsPracticed } from '../services/dictionaryService.js';
+import { markStageComplete } from '../services/immersionService.js';
 
 export default function useQuiz(topicId) {
   const [questions, setQuestions] = useState([]);
@@ -80,6 +82,13 @@ export default function useQuiz(topicId) {
         }
         return loadQuestionsByEntry(entry);
       });
+    } else if (typeof topicId === 'string' && topicId.startsWith('immersion:')) {
+      // Режим «погружение»: строго последовательный срез чанка
+      // Формат: 'immersion:topicId:chunkIndex'
+      var parts = topicId.split(':'); // ['immersion', '1', '0']
+      var tid = parts[1];
+      var chunkIdx = parseInt(parts[2], 10);
+      promise = loadChunkQuestions(tid, chunkIdx, 20);
     } else {
       promise = loadTopicQuestions(topicId);
     }
@@ -164,14 +173,20 @@ export default function useQuiz(topicId) {
     if (isSavedRef.current) return;
 
     const correctCount = results.filter((r) => r.correct).length;
-    // Не сохраняем статистику для режимов dict: (тренировка по термину)
-    var isDictMode = typeof topicId === 'string' && topicId.startsWith('dict:');
-    if (!isDictMode) {
-      saveTestResult(topicId, correctCount, questions.length);
-    } else {
+
+    if (typeof topicId === 'string' && topicId.startsWith('immersion:')) {
+      // Режим погружения: не сохраняем в общую статистику,
+      // отмечаем стадию quiz как завершённую
+      var immParts = topicId.split(':'); // ['immersion', '1', '0']
+      var immTid = immParts[1];
+      var immChunkIdx = parseInt(immParts[2], 10);
+      markStageComplete(immTid, immChunkIdx, 'quiz');
+    } else if (typeof topicId === 'string' && topicId.startsWith('dict:')) {
       // Для словаря — отмечаем как отработанное
       var entryId = topicId.slice(5);
       markAsPracticed(entryId);
+    } else {
+      saveTestResult(topicId, correctCount, questions.length);
     }
 
     isSavedRef.current = true;
