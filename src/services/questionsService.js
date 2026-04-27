@@ -27,6 +27,22 @@ export async function loadTopicQuestions(topicId) {
 }
 
 /**
+ * Загружает строго последовательный срез вопросов темы (для режима Immersion).
+ * НЕ перемешивает — порядок из JSON сохраняется как есть.
+ * Вызывается из useQuiz при topicId вида 'immersion:topicId:chunkIndex'.
+ * @param {string|number} topicId
+ * @param {number} chunkIndex — индекс блока (0-based)
+ * @param {number} [chunkSize=20] — количество вопросов в блоке
+ * @returns {Promise<Array>}
+ */
+export async function loadChunkQuestions(topicId, chunkIndex, chunkSize) {
+  const size = chunkSize || 20;
+  const all = await loadTopicQuestions(topicId);
+  const start = chunkIndex * size;
+  return all.slice(start, start + size);
+}
+
+/**
  * Загружает все вопросы из всех тем (1–25).
  * @returns {Promise<Array>}
  */
