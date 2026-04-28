@@ -178,8 +178,10 @@
   width: 100%;
   background-color: #F8F9FA;
   height: 80px;
-  box-shadow: inset 0 1px 0 0 #F3F4F5; /* Внутренняя обводка сверху, 1px */
-  padding: 0; /* Убрал padidng сверху/снизу, чтобы по высоте было ровно 80, а content выравнивался через flex */
+  box-shadow: inset 0 1px 0 0 #F3F4F5;
+  /* Внутренняя обводка сверху, 1px */
+  padding: 0;
+  /* Убрал padidng сверху/снизу, чтобы по высоте было ровно 80, а content выравнивался через flex */
   z-index: 100;
 }
 
@@ -196,12 +198,15 @@
 .pagination-viewport {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: none; /* IE/Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE/Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 .pagination-viewport::-webkit-scrollbar {
-  display: none; /* Chrome/Safari */
+  display: none;
+  /* Chrome/Safari */
 }
 
 .pagination-track {
@@ -209,7 +214,7 @@
   display: flex;
   -webkit-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  padding: 8px 16px; 
+  padding: 8px 16px;
   -webkit-align-items: center;
   align-items: center;
 }
@@ -219,7 +224,7 @@
   width: 38px;
   height: 38px;
   border-radius: var(--radius-full);
-  border: 1px solid #d1d5db; 
+  border: 1px solid #d1d5db;
   display: -webkit-flex;
   display: flex;
   -webkit-align-items: center;
@@ -230,7 +235,7 @@
   font-weight: 700;
   color: #45474D;
   cursor: pointer;
-  margin: 0 6px; 
+  margin: 0 6px;
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
   background-color: #E7E8E9;
@@ -387,7 +392,8 @@
 
 .question-card__image {
   max-width: 100%;
-  max-height: 40vh; /* Ограничение высоты для портрета */
+  max-height: 40vh;
+  /* Ограничение высоты для портрета */
   margin: 0 auto;
   border-radius: var(--radius-sm);
   object-fit: contain;
@@ -466,7 +472,8 @@
   }
 
   .question-card__image {
-    max-height: 55vh; /* Больше высоты в ландшафтном режиме */
+    max-height: 55vh;
+    /* Больше высоты в ландшафтном режиме */
   }
 
   .question-card__content {
@@ -572,7 +579,8 @@
 }
 
 .action-icon:disabled {
-  opacity: 0.6; /* Слегка увеличим прозрачность, чтобы цвет #6b7280 был лучше виден */
+  opacity: 0.6;
+  /* Слегка увеличим прозрачность, чтобы цвет #6b7280 был лучше виден */
   cursor: default;
 }
 
@@ -1522,4 +1530,174 @@
   color: var(--color-text-secondary);
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+}
+
+/* ============================================================
+   FlashCard — компонент карточки в режиме Staged Immersion
+   ============================================================ */
+
+/* === Базовая карточка === */
+.flash-card {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: var(--spacing-5);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Карточка уже отмечена "Понятно" — лёгкое визуальное подтверждение */
+.flash-card--done {
+  border: 2px solid var(--color-correct-border);
+}
+
+/* === Заголовок: badge + счётчик === */
+.flash-card__header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-4);
+}
+
+/* === Badge (тип термина) === */
+.flash-card__badge {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 3px var(--spacing-3);
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.flash-badge--logic-trigger {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.flash-badge--term {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.flash-badge--phrase {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.flash-badge--concept {
+  background-color: #ede9fe;
+  color: #5b21b6;
+}
+
+/* === Счётчик N / Total === */
+.flash-card__counter {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  font-weight: var(--font-weight-medium);
+}
+
+/* === Термин === */
+.flash-card__term-block {
+  text-align: center;
+  margin-bottom: var(--spacing-5);
+}
+
+.flash-card__term {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  margin: 0 0 var(--spacing-2);
+}
+
+.flash-card__term-ru {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* === Разделитель === */
+.flash-card__divider {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 0 0 var(--spacing-4);
+}
+
+/* === Секции (определение и подсказка) === */
+.flash-card__section {
+  margin-bottom: var(--spacing-4);
+}
+
+/* Подсказка для квиза — выделена фоном */
+.flash-card__section--hint {
+  background-color: var(--color-surface-alt);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-3);
+}
+
+.flash-card__section-label {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 var(--spacing-1);
+}
+
+.flash-card__section-text {
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  line-height: var(--line-height);
+  margin: 0;
+}
+
+/* === Пример === */
+.flash-card__example {
+  border-left: 3px solid var(--color-border);
+  padding-left: var(--spacing-3);
+  margin-bottom: var(--spacing-4);
+}
+
+.flash-card__example-it {
+  font-size: var(--font-size-xs);
+  font-style: italic;
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--spacing-1);
+  line-height: var(--line-height);
+}
+
+.flash-card__example-ru {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--spacing-2);
+  line-height: var(--line-height);
+}
+
+.flash-card__example-answer {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+}
+
+.flash-card__example-answer--vero {
+  color: var(--color-correct);
+}
+
+.flash-card__example-answer--falso {
+  color: var(--color-wrong);
+}
+
+/* === Метка "Запомнено" === */
+.flash-card__done-mark {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-correct);
+  text-align: right;
+  margin: var(--spacing-2) 0 0;
 }
