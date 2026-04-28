@@ -1701,3 +1701,123 @@
   text-align: right;
   margin: var(--spacing-2) 0 0;
 }
+
+/* ============================================================
+   FlashCardDeck (Staged Immersion Mode)
+   ============================================================ */
+
+/* Вторичная кнопка (используется в FlashCardDeck и других immersion-компонентах) */
+.btn-secondary {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  border: 1.5px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-surface-alt);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-secondary:disabled {
+  opacity: 0.4;
+  box-shadow: none;
+  pointer-events: none;
+}
+
+/* --- Обёртка колоды --- */
+.flash-deck {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  /* Занимает всё доступное пространство между StageNav и низом экрана */
+  -webkit-flex: 1;
+  flex: 1;
+  min-height: 0;
+}
+
+/* --- Область карточки: растягивается, карточка скроллируется внутри --- */
+.flash-deck__card-area {
+  -webkit-flex: 1;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: var(--spacing-4);
+}
+
+/* --- Нижняя навигация --- */
+.flash-deck__nav {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: var(--spacing-4) var(--spacing-4) var(--spacing-5);
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  /* Фиксируем снизу внутри flex-контейнера — не sticky, чтобы не конфликтовать
+     с BottomNav. Просто последний flex-child. */
+}
+
+.flash-deck__nav-btn {
+  /* Минимальная ширина чтобы кнопки не "прыгали" при смене текста */
+  min-width: 130px;
+}
+
+/* Кнопка "Назад" — слегка меньше */
+.flash-deck__nav-btn--back {
+  font-size: var(--font-size-xs);
+}
+
+/* Состояние "Запомнено" — нейтральный зелёный */
+.flash-deck__nav-btn--done-state {
+  background-color: var(--color-correct-bg);
+  color: var(--color-correct);
+  border: 1.5px solid var(--color-correct-border);
+  opacity: 1;
+  /* Переопределяем pointer-events чтобы disabled не конфликтовал с cursor */
+  cursor: default;
+}
+
+/* --- Экран завершения стадии --- */
+.flash-deck__done-screen {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: var(--spacing-10) var(--spacing-6);
+  text-align: center;
+  /* Занимает всё пространство колоды */
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.flash-deck__done-icon {
+  font-size: 48px;
+  margin: 0 0 var(--spacing-4);
+  line-height: 1;
+}
+
+.flash-deck__done-title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  margin: 0 0 var(--spacing-3);
+}
+
+.flash-deck__done-subtitle {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--spacing-8);
+}
+
+.flash-deck__done-btn {
+  min-width: 180px;
+}
