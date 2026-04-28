@@ -1821,3 +1821,77 @@
 .flash-deck__done-btn {
   min-width: 180px;
 }
+
+/* ============================================================
+   StageNav (Staged Immersion Mode)
+   ============================================================ */
+
+/* Обёртка — горизонтальный flex-ряд */
+.stage-nav {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: var(--spacing-3) var(--spacing-4);
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* Элемент одной стадии */
+.stage-nav__item {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  /* Минимальная ширина чтобы текст не переносился */
+  white-space: nowrap;
+}
+
+/* Иконка статуса */
+.stage-nav__icon {
+  font-size: 16px;
+  line-height: 1;
+  margin-right: var(--spacing-1);
+}
+
+/* Подпись стадии */
+.stage-nav__label {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  line-height: 1;
+}
+
+/* --- Статус: pending (не пройдено) --- */
+.stage-nav__item--pending .stage-nav__icon,
+.stage-nav__item--pending .stage-nav__label {
+  color: var(--color-text-muted);
+}
+
+/* --- Статус: active (текущий шаг) --- */
+.stage-nav__item--active .stage-nav__icon,
+.stage-nav__item--active .stage-nav__label {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+}
+
+/* --- Статус: done (завершено) --- */
+.stage-nav__item--done .stage-nav__icon {
+  color: var(--color-correct);
+}
+
+.stage-nav__item--done .stage-nav__label {
+  color: var(--color-text-secondary);
+}
+
+/* Коннектор между элементами.
+   flex: 1 — занимает всё свободное место, визуально линия.
+   Не gap — это отдельный DOM-элемент. */
+.stage-nav__connector {
+  -webkit-flex: 1;
+  flex: 1;
+  height: 2px;
+  background-color: var(--color-border);
+  margin-right: var(--spacing-3);
+  margin-left: var(--spacing-3);
+  display: block;
+}
