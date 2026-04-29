@@ -111,14 +111,25 @@ const HomePage = () => {
                 <ProgressBar 
                   progress={(topic.progress?.correct || 0) / topic.questions_count * 100} 
                 />
-                <Link
-                  to={'/dictionary?topic=' + topic.topic_id}
-                  className="topic-dict-link"
-                  onClick={function (e) { e.stopPropagation(); }}
-                >
-                  <Icon name="book" size={14} color="var(--color-primary)" />
-                  <span>{termsPerTopic[topic.topic_id] || 0} терминов</span>
-                </Link>
+                <div className="topic-card__actions">
+                  <Link
+                    to={'/dictionary?topic=' + topic.topic_id}
+                    className="topic-dict-link"
+                    onClick={function (e) { e.stopPropagation(); }}
+                  >
+                    <Icon name="book" size={14} color="var(--color-primary)" />
+                    <span>{termsPerTopic[topic.topic_id] || 0} терминов</span>
+                  </Link>
+                  <button
+                    className="topic-immersion-btn"
+                    onClick={function (e) {
+                      e.stopPropagation();
+                      navigate('/immersion/' + topic.topic_id);
+                    }}
+                  >
+                    📚 Изучить
+                  </button>
+                </div>
               </div>
             </Card>
           ))}

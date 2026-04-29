@@ -1284,3 +1284,39 @@
   justify-content: center;
   padding: var(--spacing-6) var(--spacing-4);
 }
+
+/* Кнопка "Изучить" (Immersion Mode) в карточке темы */
+.topic-card__actions {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-top: var(--spacing-3);
+}
+
+/* topic-dict-link имел margin-top: var(--spacing-3) — убираем у него,
+   т.к. теперь margin-top управляется обёрткой */
+.topic-card__actions .topic-dict-link {
+  margin-top: 0;
+}
+
+.topic-immersion-btn {
+  margin-left: var(--spacing-3);
+  padding: 4px 10px;
+  background-color: var(--color-surface-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-family: var(--font-family);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.topic-immersion-btn:active {
+  background-color: var(--color-border);
+  color: var(--color-text);
+}
