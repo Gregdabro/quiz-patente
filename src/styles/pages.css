@@ -1153,3 +1153,32 @@
   padding: var(--spacing-4) var(--spacing-8);
   font-size: var(--font-size-md);
 }
+
+/* ============================================================
+   ImmersionPage (список чанков)
+   ============================================================ */
+
+/* Обёртка страницы */
+.immersion-page {
+  padding-top: var(--spacing-4);
+  padding-bottom: var(--spacing-10);
+  /* место для BottomNav */
+}
+
+/* Список карточек блоков */
+.immersion-chunk-list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding: 0 var(--spacing-4);
+}
+
+/* Отступ между карточками через margin-bottom (не gap — iOS 12) */
+.immersion-chunk-list .chunk-card {
+  margin-bottom: var(--spacing-3);
+}
+
+.immersion-chunk-list .chunk-card:last-child {
+  margin-bottom: 0;
+}

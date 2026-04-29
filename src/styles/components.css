@@ -1895,3 +1895,123 @@
   margin-left: var(--spacing-3);
   display: block;
 }
+
+/* ============================================================
+   ChunkCard (ImmersionPage — выбор блока)
+   ============================================================ */
+
+/* Базовая карточка */
+.chunk-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-4);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  -webkit-transition: box-shadow var(--transition-base), -webkit-transform var(--transition-base);
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
+  /* margin-bottom задаётся на странице (.immersion-chunk-list) */
+}
+
+.chunk-card:hover {
+  box-shadow: var(--shadow-md);
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+/* Заблокированный чанк: нет события клика, визуально приглушён */
+.chunk-card--locked {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* Верхняя строка: заголовок + иконка действия */
+.chunk-card__header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-3);
+}
+
+/* Метка "Блок N" */
+.chunk-card__label {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  margin: 0 0 var(--spacing-1);
+}
+
+/* Диапазон "вопросы 1–20" */
+.chunk-card__range {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* Область иконки (→ или 🔒) */
+.chunk-card__action {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  margin-left: var(--spacing-3);
+}
+
+/* Иконка стрелки — повёрнута вправо (chevron-down повёрнут -90deg) */
+.chunk-card__arrow {
+  color: var(--color-primary);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+/* Иконка замка */
+.chunk-card__lock {
+  color: var(--color-text-muted);
+}
+
+/* Строка с таблетками прогресса */
+.chunk-card__pills {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  /* Без gap — iOS 12. Отступы через .chunk-pill--mr */
+}
+
+/* Базовая таблетка */
+.chunk-pill {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: var(--font-weight-medium);
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+}
+
+/* Отступ вправо для всех таблеток кроме последней */
+.chunk-pill--mr {
+  margin-right: var(--spacing-2);
+}
+
+/* Состояние: выполнено */
+.chunk-pill--done {
+  background-color: var(--color-success-bg);
+  color: var(--color-success);
+}
+
+/* Состояние: не выполнено */
+.chunk-pill--pending {
+  background-color: var(--color-surface-alt);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+}
