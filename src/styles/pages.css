@@ -217,7 +217,7 @@
   margin-bottom: var(--spacing-4);
 }
 
-.quiz-actions > * + * {
+.quiz-actions>*+* {
   margin-left: var(--spacing-4);
 }
 
@@ -387,7 +387,8 @@
 .slide-transition-wrapper {
   position: relative;
   width: 100%;
-  overflow: hidden; /* Скрываем вылетающие за пределы элементы */
+  overflow: hidden;
+  /* Скрываем вылетающие за пределы элементы */
 }
 
 .slide-transition-card {
@@ -415,7 +416,8 @@
   width: 100%;
   opacity: 0;
   transition: opacity 0.15s ease;
-  pointer-events: none; /* Блокируем клики на улетающем элементе */
+  pointer-events: none;
+  /* Блокируем клики на улетающем элементе */
 }
 
 .slide-transition-card.enter-forward,
@@ -426,13 +428,23 @@
 }
 
 @keyframes fadeEnter {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeEnter {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /* === Coming-Soon Page (Step 13 UX Improvement) === */
@@ -494,6 +506,7 @@
   font-weight: var(--font-weight-bold);
   margin-top: var(--spacing-4);
 }
+
 /* === Errors Page === */
 
 .errors-page__header {
@@ -804,7 +817,8 @@
   margin-left: var(--spacing-4);
   -webkit-flex: 1;
   flex: 1;
-  min-width: 0; /* Для корректного переноса текста */
+  min-width: 0;
+  /* Для корректного переноса текста */
 }
 
 .topic-info__title {
@@ -935,6 +949,7 @@
     -webkit-animation: none !important;
     transition: none !important;
   }
+
   .progress-bar__fill,
   .pagination-viewport {
     transition: none !important;
@@ -1038,4 +1053,103 @@
   margin-top: var(--spacing-2);
   font-size: var(--font-size-xs);
   color: var(--color-text-muted);
+}
+
+/* ==========================================================================
+   IMMERSION MODE — ReadyScreen
+   ========================================================================== */
+
+/* Обёртка: центрирует содержимое в рамках .immersion-study__ready */
+.immersion-ready {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: var(--spacing-9) var(--spacing-6);
+  text-align: center;
+}
+
+/* Эмодзи-иконка */
+.immersion-ready__icon {
+  font-size: 56px;
+  line-height: 1;
+  margin-bottom: var(--spacing-5);
+}
+
+/* Заголовок */
+.immersion-ready__title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  margin-bottom: var(--spacing-8);
+}
+
+/* Блок статистики */
+.immersion-ready__stats {
+  width: 100%;
+  max-width: 320px;
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  margin-bottom: var(--spacing-8);
+}
+
+/* Строка статистики */
+.immersion-ready__stat-row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: var(--spacing-4) var(--spacing-5);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.immersion-ready__stat-row:last-child {
+  border-bottom: none;
+}
+
+/* Строка с количеством вопросов — лёгкий акцент */
+.immersion-ready__stat-row--questions {
+  background-color: var(--color-surface-alt);
+}
+
+.immersion-ready__stat-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.immersion-ready__stat-value {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+}
+
+/* Новые термины — зелёный акцент */
+.immersion-ready__stat-value--new {
+  color: var(--color-correct);
+}
+
+/* Уже известные — приглушённый */
+.immersion-ready__stat-value--known {
+  color: var(--color-text-secondary);
+}
+
+/* Примечание (когда нет карточек) */
+.immersion-ready__note {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-8);
+  max-width: 280px;
+}
+
+/* Кнопка запуска квиза */
+.immersion-ready__btn {
+  min-width: 200px;
+  padding: var(--spacing-4) var(--spacing-8);
+  font-size: var(--font-size-md);
 }
