@@ -4,11 +4,21 @@ import QuizPage from './pages/QuizPage';
 import StatsPage from './pages/StatsPage';
 import DictionaryPage from './pages/DictionaryPage';
 import ErrorsPage from './pages/ErrorsPage';
+import ImmersionPage from './pages/ImmersionPage';
+import ImmersionStudyPage from './pages/ImmersionStudyPage';
 import BottomNav from './components/layout/BottomNav';
 
 function AppContent() {
   const location = useLocation();
   const isQuizPage = location.pathname.startsWith('/quiz/');
+
+  // /immersion/:topicId           → BottomNav показывается (выбор чанка)
+  // /immersion/:topicId/:chunkIndex → BottomNav скрыт (изучение: 4 сегмента пути)
+  const isImmersionStudy =
+    location.pathname.startsWith('/immersion/') &&
+    location.pathname.split('/').length > 3;
+
+  const hideNav = isQuizPage || isImmersionStudy;
 
   return (
     <div className="app-shell">
@@ -19,11 +29,13 @@ function AppContent() {
           <Route path="/errors" element={<ErrorsPage />} />
           <Route path="/stats" element={<StatsPage />} />
           <Route path="/dictionary" element={<DictionaryPage />} />
+          <Route path="/immersion/:topicId" element={<ImmersionPage />} />
+          <Route path="/immersion/:topicId/:chunkIndex" element={<ImmersionStudyPage />} />
         </Routes>
       </main>
-      
-      {/* Нижняя навигация (скрыта на страницах квиза) */}
-      {!isQuizPage && <BottomNav />}
+
+      {/* Нижняя навигация (скрыта на страницах квиза и изучения чанка) */}
+      {!hideNav && <BottomNav />}
     </div>
   );
 }
