@@ -61,7 +61,18 @@ const QuizPage = () => {
   });
 
   // Определяем куда возвращаться при выходе
-  const backPath = topicId.startsWith('errors:') ? '/errors' : '/';
+  // immersion:topicId:chunkIndex → /immersion/topicId
+  // errors:N → /errors
+  // всё остальное → /
+  var backPath;
+  if (topicId.startsWith('immersion:')) {
+    var immParts = topicId.split(':'); // ['immersion', 'topicId', 'chunkIndex']
+    backPath = '/immersion/' + immParts[1];
+  } else if (topicId.startsWith('errors:')) {
+    backPath = '/errors';
+  } else {
+    backPath = '/';
+  }
 
   // Обработчик ответа
   const handleAnswer = useCallback((userAnswer) => {
@@ -109,6 +120,7 @@ const QuizPage = () => {
           topicId === 'all'    ? 'Случайный тест' :
           topicId.startsWith('errors:') ? `Ошибки — Тема ${topicId.slice(7)}` :
           topicId.startsWith('dict:') ? 'Тренировка по словарю' :
+          topicId.startsWith('immersion:') ? 'Квиз — Погружение' :
           `Тема ${topicId}`
         }
         showBack={true}
