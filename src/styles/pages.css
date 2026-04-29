@@ -1182,3 +1182,105 @@
 .immersion-chunk-list .chunk-card:last-child {
   margin-bottom: 0;
 }
+
+/* ============================================================
+   ImmersionStudyPage (прохождение стадий)
+   ============================================================ */
+
+/* Корневая обёртка страницы */
+.immersion-study {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--color-bg);
+}
+
+/* Секция StageNav — горизонтальные отступы + фон */
+.immersion-study__stage-nav {
+  background-color: var(--color-surface);
+  padding: var(--spacing-3) var(--spacing-4);
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* Основной контент страницы — растягивается до конца */
+.immersion-study__body {
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+/* Спиннер загрузки */
+.immersion-study__loading {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: var(--spacing-10) var(--spacing-4);
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+/* Ошибка загрузки */
+.immersion-study__error {
+  padding: var(--spacing-8) var(--spacing-4);
+  text-align: center;
+}
+
+.immersion-study__error-text {
+  color: var(--color-wrong);
+  font-size: var(--font-size-sm);
+}
+
+/* Обёртка одной стадии (s1 / s2) */
+.immersion-study__stage {
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+/* Пустая стадия (нет карточек) */
+.immersion-study__empty-stage {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: var(--spacing-10) var(--spacing-4);
+  text-align: center;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.immersion-study__empty-text {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-6);
+}
+
+/* Обёртка ReadyScreen */
+.immersion-study__ready {
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: var(--spacing-6) var(--spacing-4);
+}
