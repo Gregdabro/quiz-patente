@@ -184,8 +184,11 @@ export function pickSessionQuestions(questions) { ... } // 30 вопросов
 
 ### Ключи
 ```javascript
-const STORAGE_KEY_PROGRESS = 'qp_progress';
-const STORAGE_KEY_ERRORS = 'qp_errors';
+const STORAGE_KEY_PROGRESS   = 'qp_progress';
+const STORAGE_KEY_ERRORS     = 'qp_errors';
+const STORAGE_KEY_DICTIONARY = 'qp_dictionary';
+const STORAGE_KEY_VOCAB      = 'qp_immersion_vocab';
+const STORAGE_KEY_IMM_PROGRESS = 'qp_immersion_progress';
 ```
 
 ### qp_progress
@@ -214,6 +217,36 @@ const STORAGE_KEY_ERRORS = 'qp_errors';
 - Правильный ответ → счётчик -1
 - При счётчике <= 0 → удалить ключ
 - Используется для страницы `/errors` и режима `/quiz/errors:*`
+
+### qp_dictionary
+```json
+{
+  "sempre":      { "seen": true,  "practiced": true  },
+  "carreggiata": { "seen": true,  "practiced": false }
+}
+```
+
+- `seen = true` при первом разворачивании карточки в DictionaryPage
+- `practiced = true` при переходе в квиз через Practice Mode (`/quiz/dict:entryId`)
+
+### qp_immersion_vocab
+```json
+{ "sempre": true, "carreggiata": true, "sorpasso": true }
+```
+
+Глобальный словарь изученных терминов Immersion Mode. Растёт со временем, никогда не сбрасывается автоматически. Термины из этого словаря не показываются повторно в Stage 1/2 последующих чанков.
+
+### qp_immersion_progress
+```json
+{
+  "1": {
+    "0": { "s1": "done", "s2": "done", "quiz": "done" },
+    "1": { "s1": "done", "s2": "pending", "quiz": "pending" }
+  }
+}
+```
+
+Прогресс по чанкам каждой темы. Чанк N разблокируется когда чанк N-1 имеет все три стадии `"done"`.
 
 ---
 
@@ -282,6 +315,8 @@ const {
 - `"all"` — случайные вопросы из всех тем
 - `"errors"` — случайные вопросы из всех текущих ошибок пользователя
 - `"errors:1"` — вопросы из ошибок конкретной темы (используется на ErrorsPage)
+- `"dict:entryId"` — вопросы для Practice Mode по термину словаря (см. questionsService: loadQuestionsByEntry)
+- `"immersion:topicId:chunkIndex"` — строго последовательный срез чанка (см. immersionService: getChunkData)
 
 ---
 

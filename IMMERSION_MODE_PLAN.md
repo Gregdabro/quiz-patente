@@ -22,7 +22,8 @@ Staged Immersion Mode — пайплайн "Слова → Фразы → Кви
 - Флешкарты показывают ТОЛЬКО записи из entries.json (никакого динамического NLP)
 - Global Vocabulary State: изученные термины не повторяются в последующих чанках
 - Максимум 12 карточек на Stage 1, 8 на Stage 2 (антиперегрузка)
-- related_question_ids в entries.json — основа join'а между чанком и словарём
+- **related_question_ids** в entries.json — единственная основа join'а (term в тексте вопроса)
+- **context_question_ids** (term в комментарии) в Immersion Mode ЗАПРЕЩЕНЫ
 - Никаких изменений в topic_N.json и entries.json (только опциональное поле morphology)
 
 ---
@@ -109,10 +110,19 @@ function getChunkData(topicId, allEntries, topicQuestions, chunkIndex, chunkSize
   const questions = topicQuestions.slice(chunkIndex * chunkSize, (chunkIndex + 1) * chunkSize);
   const questionIds = new Set(questions.map(q => q.id));
 
-  // 2. Join: entries → вопросы чанка через related_question_ids
-  const relevantEntries = allEntries.filter(entry =>
-    entry.related_question_ids.some(id => questionIds.has(id))
-  );
+  // 2. Join: entries → вопросы чанка через related_question_ids.
+  //
+  // СТРОГОЕ ТРЕБОВАНИЕ: только related_question_ids (term в question.text).
+  // context_question_ids (term только в question.comment) ЗАПРЕЩЕНЫ в Stage 1/2.
+  // Причина: пользователь изучает карточку термина, но в квизе этот термин
+  // не встречается в тексте вопроса → семантический разрыв.
+  // Источник: AUDIT_DICTIONARY_IMMERSION-MODE.md, Issue #2.
+  // Валидация: node scripts/validate-immersion.js (цель: < 5% загрязнения)
+  const relevantEntries = allEntries.filter(entry => {
+    const ids = entry.related_question_ids;
+    if (!ids || ids.length === 0) return false;
+    return ids.some(id => questionIds.has(id));
+  });
 
   // 3. Фильтруем уже изученные (global vocab)
   const learnedVocab = getLearnedVocab();
@@ -140,8 +150,13 @@ function getChunkData(topicId, allEntries, topicQuestions, chunkIndex, chunkSize
 }
 ```
 
-**Реальные данные (тема 1, чанк 0, 20 вопросов):** 51 релевантный entry.
-После фильтрации по лимитам: ~12 карточек Stage 1 + ~8 карточек Stage 2.
+**Реальные данные (тема 1, чанк 0, 20 вопросов):** после исправления линковки (link-questions.js v2) релевантных entries значительно меньше, чем до — только те, у кого термин реально присутствует в текстах вопросов чанка. Это педагогически корректно: карточек меньше, но каждая гарантированно встретится в квизе.
+
+**Валидация перед релизом:**
+```bash
+node scripts/validate-immersion.js   # 0.0% загрязнения (достигнуто после Phase 1+2 аудита)
+node scripts/validate-entries.js     # 0 CRITICAL
+```
 
 ---
 

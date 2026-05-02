@@ -89,11 +89,23 @@ parent_skills:
   ],
 
   "related_question_ids": [145, 892, 1203, 3401],
+  "context_question_ids": [6, 37, 38, 201],
   "related_entries": ["mai", "solo", "tranne", "eccetto"],
 
   "antonyms_it": ["mai", "talvolta"]
 }
 ```
+
+**Два поля связей (СТРОГО РАЗДЕЛЕНЫ — архитектурное требование):**
+
+| Поле | Term в вопросе | Используется в |
+|---|---|---|
+| `related_question_ids` | в `question.text` | Immersion Stage 1/2 + Practice Mode (primary) |
+| `context_question_ids` | только в `question.comment.text` | Practice Mode (secondary, по запросу) |
+
+`related_question_ids` — педагогически гарантированные: пользователь видит термин в тексте вопроса. `context_question_ids` — контекстные: термин объясняется в разборе ответа, но не виден в самом вопросе. Смешивать в Immersion Mode ЗАПРЕЩЕНО (см. Issue #2 в AUDIT_DICTIONARY_IMMERSION-MODE.md).
+
+Источник данных: `scripts/link-questions.js` (v2 — text/context split). Валидация: `scripts/validate-immersion.js`.
 
 ### Типы записей (поле `type`)
 
@@ -108,10 +120,11 @@ parent_skills:
 
 | Значение | Смысл |
 |---|---|
-| `false_bias` | Слово склоняет к FALSO (sempre, solo, mai) |
-| `true_bias` | Слово склоняет к VERO (generalmente, di norma) |
-| `neutral` | Нейтральное, важно для понимания, не для предсказания |
+| `false_bias` | Термин склоняет к FALSO в ≥65% вопросов (n≥30 по тексту вопросов) |
+| `true_bias` | Термин склоняет к VERO в ≥65% вопросов (n≥30 по тексту вопросов) |
 | `context_dependent` | Зависит от остального предложения |
+
+**Важно:** `pattern: neutral` для `type: logic_trigger` — запрещённая комбинация (оксюморон). Если bias < 65% при n≥30 — запись должна быть переклассифицирована в `type: term`. Это проверяется валидатором `scripts/validate-entries.js`.
 
 ### Поле `priority`
 
@@ -236,10 +249,27 @@ carreggiata:  534 вхождения | VERO: 52% | FALSO: 48% → neutral (term)
 
 **Правило качества:** лучше 10 идеальных записей, чем 150 посредственных.
 
-### Шаг 3 — Линковка к вопросам (скрипт)
+### Шаг 3 — Линковка к вопросам (скрипт v2)
 
-Скрипт автоматически проставляет `related_question_ids` — ищет точное
-вхождение термина в тексте вопросов. Ручная проверка выборочно.
+`scripts/link-questions.js` (v2) проставляет **два поля** для каждой записи:
+
+- `related_question_ids` — вопросы, где термин найден в `question.text`
+- `context_question_ids` — вопросы, где термин найден только в `question.comment.text`
+
+```bash
+node scripts/link-questions.js          # обновить все записи
+node scripts/link-questions.js --entry sempre   # одна запись
+node scripts/link-questions.js --dry-run        # без записи в файл
+```
+
+После запуска — проверить педагогическую чистоту Immersion Mode:
+
+```bash
+node scripts/validate-immersion.js      # цель: < 5% загрязнения
+node scripts/validate-entries.js        # 0 CRITICAL
+```
+
+**Правило definition.ru:** не писать «X означает Y» — это перевод, а не объяснение. Писать механику: как термин работает в ПДД, почему важен для квиза. Проверка: `validate-entries.js` детектирует антипаттерн.
 
 ### Шаг 4 — Построение индексов (Phase 3 v2)
 
