@@ -146,10 +146,15 @@ function validateEntry(entry, allIds) {
     issues.push(warning(id, 'topics пустой массив — заполнить вручную'));
   }
 
-  // related_question_ids < 3
+  // related_question_ids < 3 (text-only links)
   if (!Array.isArray(entry.related_question_ids) || entry.related_question_ids.length < 3) {
     const count = Array.isArray(entry.related_question_ids) ? entry.related_question_ids.length : 0;
-    issues.push(warning(id, `related_question_ids: ${count} (минимум 3) — запустить link-questions.js`));
+    issues.push(warning(id, `related_question_ids (text): ${count} (минимум 3) — запустить link-questions.js`));
+  }
+
+  // context_question_ids должен существовать после link-questions v2
+  if (!Array.isArray(entry.context_question_ids)) {
+    issues.push(warning(id, 'поле context_question_ids отсутствует — запустить link-questions.js v2'));
   }
 
   // examples[].comment_ru отсутствует
@@ -169,6 +174,30 @@ function validateEntry(entry, allIds) {
         issues.push(warning(id, `definition.ru начинается с анти-паттерна (похоже на перевод, а не объяснение)`));
         break;
       }
+    }
+    // Дополнительная проверка: "означает" в середине фразы
+    if (/\bозначает\b/.test(entry.definition.ru)) {
+      issues.push(warning(id, `definition.ru содержит "означает" — вероятно описывает перевод, а не механику ПДД`));
+    }
+  }
+
+  // ── НОВЫЕ ПРОВЕРКИ (из аудита) ──
+
+  // term не должен содержать скобки — пояснения должны быть в definition.ru
+  if (entry.term && /[()[\]]/.test(entry.term)) {
+    issues.push(warning(id, `term содержит скобки: "${entry.term}" — перенести пояснение в definition.ru, очистить term`));
+  }
+
+  // logic_trigger с pattern: neutral — оксюморон
+  if (entry.type === 'logic_trigger' && entry.quiz_hint && entry.quiz_hint.pattern === 'neutral') {
+    issues.push(warning(id, `type=logic_trigger + pattern=neutral — противоречие. Либо изменить type на "term", либо пересчитать bias`));
+  }
+
+  // concept без 'vs' или '/' в term — скорее всего неверный тип
+  if (entry.type === 'concept' && entry.term) {
+    const termLower = entry.term.toLowerCase();
+    if (!termLower.includes(' vs ') && !termLower.includes(' / ') && !termLower.includes('/')) {
+      issues.push(warning(id, `type=concept, но term не содержит "vs" или "/" — вероятно правильный тип: "term"`));
     }
   }
 
