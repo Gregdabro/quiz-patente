@@ -1,26 +1,20 @@
 #!/usr/bin/env node
 /**
- * link-questions.js
+ * link-questions.js v2
  * =================
- * Автоматически проставляет related_question_ids в entries.json.
- * Для каждой записи словаря ищет вопросы, в тексте которых встречается термин.
+ * Проставляет ДВА поля в entries.json (СТРОГО РАЗДЕЛЕНЫ):
  *
- * Стратегия матчинга:
- *   1. Простые термины (solo, sempre, carreggiata) — поиск слова в тексте.
- *   2. Термины с вариантами (tutti / tutte) — OR по всем вариантам.
- *   3. Фразы (in prossimità di) — поиск нормализованной подстроки.
- *   4. Концепции-пары (divieto vs obbligo) — OR по обоим словам.
+ *   related_question_ids  — термин в question.TEXT
+ *                           Используется в Immersion Stage 1/2, Practice Mode (primary).
+ *
+ *   context_question_ids  — термин только в question.COMMENT
+ *                           НЕ используется для предквизовых карточек.
  *
  * Запуск:
  *   node scripts/link-questions.js
- *   node scripts/link-questions.js --max 50    (лимит id на запись, default 30)
- *   node scripts/link-questions.js --dry-run   (показать статистику без записи)
- *   node scripts/link-questions.js --entry sempre  (только одна запись)
- *
- * Результат:
- *   Перезаписывает src/data/dictionary/entries.json, добавляя поле
- *   related_question_ids в каждую запись.
- *   Бэкап оригинала сохраняется как scripts/output/entries_backup.json.
+ *   node scripts/link-questions.js --max 30    (лимит id на каждое поле)
+ *   node scripts/link-questions.js --dry-run
+ *   node scripts/link-questions.js --entry sempre
  */
 
 import fs   from 'fs';
@@ -30,8 +24,6 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname  = path.dirname(__filename);
 
-// ─── Аргументы CLI ───────────────────────────────────────────────────────────
-
 const args    = process.argv.slice(2);
 const getArg  = (flag, def) => { const i = args.indexOf(flag); return i !== -1 && args[i+1] ? args[i+1] : def; };
 const hasFlag = (flag) => args.includes(flag);
@@ -40,15 +32,11 @@ const MAX_IDS  = parseInt(getArg('--max', 30), 10);
 const DRY_RUN  = hasFlag('--dry-run');
 const ONLY_ID  = getArg('--entry', null);
 
-// ─── Пути ─────────────────────────────────────────────────────────────────────
-
 const DATA_DIR    = path.join(__dirname, '../src/data/questions');
 const ENTRIES_IN  = path.join(__dirname, '../src/data/dictionary/entries.json');
 const ENTRIES_OUT = path.join(__dirname, '../src/data/dictionary/entries.json');
 const BACKUP_OUT  = path.join(__dirname, 'output/entries_backup.json');
 const REPORT_OUT  = path.join(__dirname, 'output/link-report.txt');
-
-// ─── Нормализация (убирает диакритику, lowercase) ────────────────────────────
 
 function normalize(str) {
   return str
@@ -59,38 +47,17 @@ function normalize(str) {
     .trim();
 }
 
-// ─── Разбор term → массив поисковых паттернов ────────────────────────────────
-//
-// Правила:
-//   "solo"                  → ['solo']
-//   "tutti / tutte"         → ['tutti', 'tutte']
-//   "è vietato / è vietata" → ['e vietato', 'e vietata']
-//   "divieto vs obbligo"    → ['divieto', 'obbligo']
-//   "in prossimità di"      → ['in prossimita di']   (фраза целиком)
-//   "attraversamento pedonale" → ['attraversamento']  (первое слово достаточно)
-
-// ─── Ручные переопределения паттернов для сложных случаев ─────────────────────
-
 const MANUAL_OVERRIDES = {
-  // Упрощаем поиск для записей с лишними пояснениями в скобках
   intersezione: ['intersezione'],
-  
-  // Добавляем синонимы и сокращения
   stop_segnale: ['stop', 'fermarsi e dare precedenza'],
   senso_vietato: ['senso vietato', 'divieto di accesso', 'segnale di divieto'],
-  
-  // Расширяем поиск для специфичных терминов
   parcheggio_scambio: ['parcheggio di scambio', 'parcheggio scambiatore', 'parcheggio riservato'],
   itinerario_extraurbano: ['itinerario extraurbano', 'extraurbana', 'fondo blu'],
   itinerario_autostradale: ['itinerario autostradale', 'autostrada', 'fondo verde'],
-  
-  // Уточняем фразы
   fine_diritto_precedenza: ['fine del diritto di precedenza', 'fine della precedenza'],
-  ordine_incrocio: ['ordine di precedenza', 'precedenza all\'incrocio', 'ordine di transito'],
+  ordine_incrocio: ['ordine di precedenza', "precedenza all'incrocio", 'ordine di transito'],
   preavviso_incrocio: ['preavviso di incrocio'],
   precedenza_a_sinistra: ['precedenza a sinistra', 'precedenza da sinistra'],
-
-  // Новые темы (22-24)
   alcol_e_droga: ['alcol', 'sostanze stupefacenti', 'droga', 'ebbrezza'],
   primo_soccorso: ['primo soccorso', 'soccorrere', 'assistenza ai feriti'],
   rc_auto: ['rc auto', 'responsabilita civile auto', 'assicurazione obbligatoria'],
@@ -99,8 +66,6 @@ const MANUAL_OVERRIDES = {
   consumo_carburante: ['consumo di carburante', 'consumo di benzina', 'consumo del veicolo'],
   pneumatici_e_ambiente: ['pressione degli pneumatici', 'gonfiaggio degli pneumatici', 'battistrada'],
   manutenzione_ordinaria: ['manutenzione', 'controllo dei livelli', 'efficienza del veicolo'],
-
-  // Новые батчи (Task 9)
   km: ['km/h', 'km'],
   tonnellate: ['tonnellate', ' t '],
   punti: ['punti'],
@@ -112,162 +77,122 @@ const MANUAL_OVERRIDES = {
   pedonale: ['pedonale', 'pedoni'],
   barriere: ['barriere', 'passaggio a livello'],
   luci: ['luci', 'proiettori', 'fari'],
-  carico: ['carico', 'sporgente']
+  carico: ['carico', 'sporgente'],
 };
 
 function getSearchPatterns(entry) {
-  // Проверяем наличие ручного переопределения
-  if (MANUAL_OVERRIDES[entry.id]) {
-    return MANUAL_OVERRIDES[entry.id];
-  }
+  if (MANUAL_OVERRIDES[entry.id]) return MANUAL_OVERRIDES[entry.id];
 
   const term = normalize(entry.term);
 
-  // Вариативные термины через ' / '
-  if (term.includes(' / ')) {
-    return term.split(' / ').map(s => s.trim());
-  }
+  if (term.includes(' / ')) return term.split(' / ').map(s => s.trim());
+  if (term.includes(' vs ')) return term.split(' vs ').map(s => s.trim());
 
-  // Концептуальные пары через ' vs '
-  if (term.includes(' vs ')) {
-    return term.split(' vs ').map(s => s.trim());
-  }
-
-  // Многословные фразы — ищем целиком (in prossimita di, senso unico, ...)
-  // Исключение: "attraversamento pedonale" → только первое слово (уникально и достаточно)
   const words = term.split(' ');
   if (words.length > 1) {
     const REDUCE_TO_FIRST = new Set(['attraversamento']);
-    if (REDUCE_TO_FIRST.has(words[0])) {
-      return [words[0]];
-    }
+    if (REDUCE_TO_FIRST.has(words[0])) return [words[0]];
     return [term];
   }
 
   return [term];
 }
 
-// ─── Проверка совпадения ──────────────────────────────────────────────────────
-//
-// Для однословных паттернов — ищем слово (с учётом границ слова через пробелы/знаки).
-// Для многословных фраз — ищем подстроку.
-
-function matchesQuestion(normalizedText, patterns) {
+function matchesText(normalizedText, patterns) {
   for (const pattern of patterns) {
-    const isPhrase = pattern.includes(' ');
-    if (isPhrase) {
-      if (normalizedText.includes(pattern)) return true;
-    } else {
-      // Substring-поиск: надёжнее boundary для итальянского морфологии.
-      // Ложные срабатывания маловероятны для специфичных терминов ПДД.
-      if (normalizedText.includes(pattern)) {
-        return true;
-      }
-    }
+    if (normalizedText.includes(pattern)) return true;
   }
   return false;
 }
-
-// ─── Загрузка вопросов ────────────────────────────────────────────────────────
 
 function loadAllQuestions() {
   const questions = [];
   for (let i = 1; i <= 25; i++) {
     const filePath = path.join(DATA_DIR, `topic_${i}.json`);
-    if (!fs.existsSync(filePath)) {
-      console.warn(`⚠️  Не найден: topic_${i}.json`);
-      continue;
-    }
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-    questions.push(...data);
+    if (!fs.existsSync(filePath)) { console.warn(`⚠️  Не найден: topic_${i}.json`); continue; }
+    questions.push(...JSON.parse(fs.readFileSync(filePath, 'utf8')));
   }
   return questions;
 }
 
-// ─── Главная функция ──────────────────────────────────────────────────────────
-
 function main() {
-  console.log('🔗 Quiz Patente — Link Questions to Dictionary');
-  console.log('═══════════════════════════════════════════════\n');
+  console.log('🔗 Quiz Patente — Link Questions v2 (text/context split)');
+  console.log('══════════════════════════════════════════════════════════\n');
 
-  // 1. Загружаем entries
   const entries = JSON.parse(fs.readFileSync(ENTRIES_IN, 'utf8'));
-  console.log(`📖 Загружено entries: ${entries.length}`);
+  console.log(`📖 Entries: ${entries.length}`);
 
-  // 2. Загружаем вопросы
   process.stdout.write('📂 Загружаем вопросы... ');
   const questions = loadAllQuestions();
-  console.log(`✅ ${questions.length} вопросов из 25 тем\n`);
+  console.log(`✅ ${questions.length} вопросов\n`);
 
-  // 3. Нормализуем тексты вопросов и комментариев один раз (для производительности)
-  const normalizedTexts = questions.map(q => {
-    const text = q.text || '';
-    const comment = (q.comment && q.comment.text) ? q.comment.text : '';
-    return normalize(text + ' ' + comment);
-  });
+  // КЛЮЧЕВОЕ ИЗМЕНЕНИЕ v2: text и comment нормализуются РАЗДЕЛЬНО
+  const normText    = questions.map(q => normalize(q.text || ''));
+  const normComment = questions.map(q => normalize((q.comment && q.comment.text) ? q.comment.text : ''));
 
-  // 4. Для каждой записи — находим совпадающие вопросы
   const reportLines = [
-    `Quiz Patente — Link Report`,
+    `Quiz Patente — Link Report v2 (text/context split)`,
     `Generated: ${new Date().toISOString()}`,
-    `MAX_IDS: ${MAX_IDS}`,
+    `MAX_IDS per field: ${MAX_IDS}`,
     '',
   ];
 
-  let totalLinked = 0;
-  let totalIds    = 0;
+  let totalRelated = 0, totalContext = 0, totalDead = 0, totalEntries = 0;
 
   for (const entry of entries) {
     if (ONLY_ID && entry.id !== ONLY_ID) continue;
+    totalEntries++;
 
-    const patterns = getSearchPatterns(entry);
-    const matchingIds = [];
+    const patterns   = getSearchPatterns(entry);
+    const relatedIds = [];  // term в question.text
+    const contextIds = [];  // term только в question.comment
 
     for (let i = 0; i < questions.length; i++) {
-      if (matchesQuestion(normalizedTexts[i], patterns)) {
-        matchingIds.push(questions[i].id);
-        if (matchingIds.length >= MAX_IDS) break;
+      const inText    = matchesText(normText[i], patterns);
+      const inComment = matchesText(normComment[i], patterns);
+
+      if (inText) {
+        if (relatedIds.length < MAX_IDS) relatedIds.push(questions[i].id);
+      } else if (inComment) {
+        if (contextIds.length < MAX_IDS) contextIds.push(questions[i].id);
       }
+
+      if (relatedIds.length >= MAX_IDS && contextIds.length >= MAX_IDS) break;
     }
 
-    entry.related_question_ids = matchingIds;
+    entry.related_question_ids = relatedIds;
+    entry.context_question_ids = contextIds;
 
-    const line = `${entry.id.padEnd(30)} patterns=${JSON.stringify(patterns).padEnd(40)} found=${matchingIds.length}`;
+    const isDead = relatedIds.length === 0 && contextIds.length === 0;
+    const line = `${entry.id.padEnd(32)} text=${String(relatedIds.length).padStart(3)}  comment=${String(contextIds.length).padStart(3)}  ${isDead ? '⚠️ DEAD' : ''}`;
     console.log(line);
     reportLines.push(line);
 
-    if (matchingIds.length > 0) totalLinked++;
-    totalIds += matchingIds.length;
+    totalRelated += relatedIds.length;
+    totalContext += contextIds.length;
+    if (isDead) totalDead++;
   }
 
-  // 5. Итоговая статистика
+  const total = totalRelated + totalContext;
   const summary = [
-    '',
-    '═══ ИТОГ ═══',
-    `Всего entries:       ${entries.length}`,
-    `С совпадениями:      ${totalLinked}`,
-    `Без совпадений:      ${entries.length - totalLinked}`,
-    `Всего question_ids:  ${totalIds}`,
-    `Среднее на entry:    ${(totalIds / entries.length).toFixed(1)}`,
+    '', '═══ ИТОГ ═══',
+    `Entries обработано:           ${totalEntries}`,
+    `related_question_ids (text):  ${totalRelated}  (${Math.round(totalRelated/total*100)}%) — для Immersion`,
+    `context_question_ids (comment): ${totalContext}  (${Math.round(totalContext/total*100)}%) — только контекст`,
+    `Мёртвых записей (DEAD):       ${totalDead}`,
   ];
   summary.forEach(l => console.log(l));
   reportLines.push(...summary);
 
-  if (DRY_RUN) {
-    console.log('\n⚠️  --dry-run: файлы НЕ записаны.');
-    return;
-  }
+  if (DRY_RUN) { console.log('\n⚠️  --dry-run: файлы НЕ записаны.'); return; }
 
-  // 6. Бэкап оригинала
   fs.mkdirSync(path.dirname(BACKUP_OUT), { recursive: true });
   fs.copyFileSync(ENTRIES_IN, BACKUP_OUT);
   console.log(`\n💾 Бэкап: scripts/output/entries_backup.json`);
 
-  // 7. Записываем обновлённый entries.json (форматированный)
   fs.writeFileSync(ENTRIES_OUT, JSON.stringify(entries, null, 2), 'utf8');
   console.log(`✅ Обновлён: src/data/dictionary/entries.json`);
 
-  // 8. Сохраняем отчёт
   fs.writeFileSync(REPORT_OUT, reportLines.join('\n'), 'utf8');
   console.log(`📋 Отчёт:  scripts/output/link-report.txt\n`);
 }

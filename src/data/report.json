@@ -1,0 +1,131 @@
+[
+    {
+        "id": "almeno",
+        "type": "logic_trigger",
+        "priority": 1,
+        "pattern": "false_bias",
+        "questions": [
+            {
+                "id": 131,
+                "topic_id": 1,
+                "text": "L'autostrada non ha incroci a raso che l'attraversano",
+                "answer": true,
+                "is_exists": false
+            },
+            {
+                "id": 39,
+                "topic_id": 1,
+                "text": "La strada extraurbana principale non ha incroci a raso che l'attraversano",
+                "answer": true,
+                "is_exists": false
+            },
+            {    
+                "id": 144,
+                "topic_id": 1,
+                "text": "Nelle autostrade possono circolare tutti i motocicli e i ciclomotori",
+                "answer": false,
+                "is_exists": false
+            },
+            {
+                 "id": 318,
+                "topic_id": 1,
+                "text": "Gli autoveicoli sono veicoli a motore con almeno quattro ruote, esclusi i quadricicli",
+                "answer": true,
+                "is_exists": true
+            },
+            {
+                "id": 244,
+                "topic_id": 1,
+                "text": "I tricicli a motore sono veicoli a motore che possono essere condotti senza patente",
+                "answer": false,
+                "is_exists": false
+            }
+        ]
+    },
+        {
+        "id": "attenzione",
+        "type": "logic_trigger",
+        "priority": 1,
+        "pattern": "true_bias",
+        "questions": [
+            {
+                "id": 245,
+                "topic_id": 1,
+                "text": "I tricicli a motore sono costituiti da un motociclo e un sidecar",
+                "answer": false,
+                "is_exists": false
+            },
+            {
+                "id": 505,
+                "topic_id": 1,
+                "text": "Il conducente, in vicinanza di un posteggio riservato ai taxi, deve fare attenzione ai pedoni che salgono o scendono dal taxi",
+                "answer": true,
+                "is_exists": true
+            },
+            {    
+                "id": 498,
+                "topic_id": 1,
+                "text": "Alla guida di un veicolo, in vicinanza di una piazzola di fermata di autobus per scolari, occorre passare per primi, avendo sempre la precedenza sui bambini che attraversano la strada",
+                "answer": false,
+                "is_exists": false
+            },
+            {
+                 "id": 344,
+                "topic_id": 1,
+                "text": "I rimorchi leggeri sono quelli di massa massima a pieno carico fino a 750 kg",
+                "answer": true,
+                "is_exists": false
+            },
+            {
+                "id": 501,
+                "topic_id": 1,
+                "text": "Alla guida di un veicolo, in vicinanza di una piazzola di fermata di autobus per scolari, occorre fare attenzione allo scuolabus, che dopo la fermata farà sicuramente retromarcia",
+                "answer": false,
+                "is_exists": true
+            }
+        ]
+    },
+            {
+        "id": "prima",
+        "type": "logic_trigger",
+        "priority": 2,
+        "pattern": "true_bias",
+        "questions": [
+            {
+                "id": 288,
+                "topic_id": 1,
+                "text": "Le autocaravan (camper) sono veicoli destinati alla costruzione e alla manutenzione di opere stradali",
+                "answer": false,
+                "is_exists": false
+            },
+            {
+                "id": 329,
+                "topic_id": 1,
+                "text": "L'autovettura è un veicolo a motore con quattro ruote, destinato al trasporto di massimo nove persone, compreso il conducente",
+                "answer": true,
+                "is_exists": false
+            },
+            {    
+                "id": 286,
+                "topic_id": 1,
+                "text": "Le autocaravan (camper) sono rimorchi",
+                "answer": false,
+                "is_exists": false
+            },
+            {
+                 "id": 233,
+                "topic_id": 1,
+                "text": "I ciclomotori sono soggetti a revisione dopo quattro anni dalla prima immatricolazione, successivamente ogni due anni",
+                "answer": true,
+                "is_exists": true
+            },
+            {
+                "id": 229,
+                "topic_id": 1,
+                "text": "I veicoli a due ruote, con motore termico fino a 50 cm3 di cilindrata e velocità massima di 45 km/h sono ciclomotori",
+                "answer": true,
+                "is_exists": false
+            }
+        ]
+    }
+]
