@@ -180,7 +180,12 @@ export function getChunkData(topicId, allEntries, topicQuestions, chunkIndex, ch
     questionIds[questions[i].id] = true;
   }
 
-  // 2. Join: entries → вопросы чанка
+  // 2. Join: entries → вопросы чанка.
+  //
+  // АРХИТЕКТУРНОЕ ТРЕБОВАНИЕ: использовать ТОЛЬКО related_question_ids (term в тексте вопроса).
+  // context_question_ids (term только в комментарии) здесь ЗАПРЕЩЕНЫ — иначе пользователь
+  // изучает карточку термина, а в квизе этот термин не встречается в тексте вопроса.
+  // Подробнее: AUDIT_DICTIONARY_IMMERSION-MODE.md, Issue #2.
   var relevantEntries = allEntries.filter(function (entry) {
     var ids = entry.related_question_ids;
     if (!ids || ids.length === 0) return false;

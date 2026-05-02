@@ -95,7 +95,28 @@ export async function loadTopicErrorQuestions(topicId) {
  * @param {Object} entry — запись из entries.json (с полями topics, related_question_ids, term)
  * @returns {Promise<Array>}
  */
-export async function loadQuestionsByEntry(entry) {
+/**
+ * Загружает вопросы для Practice Mode по записи словаря (режим «dict:entryId»).
+ *
+ * Два пула вопросов (СТРОГО РАЗДЕЛЕНЫ — архитектурное требование):
+ *
+ *   related_question_ids  — термин присутствует в ТЕКСТЕ вопроса (primary).
+ *                           Пользователь ВИДИТ слово в вопросе.
+ *                           Используется по умолчанию.
+ *
+ *   context_question_ids  — термин присутствует только в КОММЕНТАРИИ к вопросу (secondary).
+ *                           Педагогически ценно для понимания контекста ПДД,
+ *                           но термин не виден в тексте вопроса.
+ *                           Используется как дополнение если primary пуст,
+ *                           или через явный флаг includeContext=true.
+ *
+ * Immersion Mode (Stage 1/2) использует ТОЛЬКО related_question_ids — см. immersionService.js.
+ *
+ * @param {Object}  entry          — запись из entries.json
+ * @param {boolean} [includeContext=false] — добавить context_question_ids к результату
+ * @returns {Promise<Array>}
+ */
+export async function loadQuestionsByEntry(entry, includeContext) {
   if (!entry) throw new Error('loadQuestionsByEntry: entry не передан');
 
   // Берём темы из entry.topics (уже известны какие файлы грузить)
@@ -112,17 +133,25 @@ export async function loadQuestionsByEntry(entry) {
     all.push(...results.flat());
   }
 
-  // Фильтрация: сначала по related_question_ids, потом по термину в тексте
-  const hasIds = Array.isArray(entry.related_question_ids) && entry.related_question_ids.length > 0;
+  // Primary пул: related_question_ids (term в тексте вопроса)
+  const hasRelated = Array.isArray(entry.related_question_ids) && entry.related_question_ids.length > 0;
+  if (hasRelated) {
+    const relatedSet = new Set(entry.related_question_ids);
 
-  if (hasIds) {
-    const idSet = new Set(entry.related_question_ids);
-    const filtered = all.filter(function (q) { return idSet.has(q.id); });
-    // Если нашли вопросы по id — отдаём, иначе падаем на поиск по тексту
+    // Secondary пул: context_question_ids (term в комментарии) — только если запрошен
+    const contextSet = (includeContext && Array.isArray(entry.context_question_ids) && entry.context_question_ids.length > 0)
+      ? new Set(entry.context_question_ids)
+      : null;
+
+    const filtered = all.filter(function (q) {
+      return relatedSet.has(q.id) || (contextSet && contextSet.has(q.id));
+    });
+
     if (filtered.length > 0) return filtered;
   }
 
-  // Поиск по вхождению термина в итальянский текст вопроса
+  // Fallback: поиск по вхождению термина в текст вопроса
+  // (страховка на случай если related_question_ids не заполнены — запустить link-questions.js)
   var term = (entry.term || '').toLowerCase();
   return all.filter(function (q) {
     return q.text && q.text.toLowerCase().includes(term);
