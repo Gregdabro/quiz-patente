@@ -11,11 +11,19 @@ import Button from '../ui/Button';
  * @param {Function} onClose — закрыть модалку результатов для просмотра вопросов
  * @param {Function} onFinish — выход к списку тем
  */
-const ResultScreen = ({ results, total, topicId, onRestart, onClose, onFinish }) => {
+const ResultScreen = ({ results, questions = [], total, topicId, onRestart, onClose, onFinish }) => {
   const correctCount = results.filter(r => r.correct).length;
   const wrongCount = total - correctCount;
   const scorePercent = Math.round((correctCount / total) * 100);
   const isPassed = wrongCount <= 4; // В итальянских правах обычно до 4 ошибок
+
+  // Lookup map для быстрого доступа к вопросам по id
+  const qMap = questions.reduce((acc, q) => {
+    acc[q.id] = q;
+    return acc;
+  }, {});
+
+  const wrongResults = results.filter(r => !r.correct);
 
   return (
     <div className="result-screen">
@@ -84,6 +92,42 @@ const ResultScreen = ({ results, total, topicId, onRestart, onClose, onFinish })
             </Button>
           </div>
         </div>
+
+        {/* === НОВОЕ: разбор ошибок === */}
+        {wrongResults.length > 0 && (
+          <div className="result-errors">
+            <div className="result-errors__title">
+              Ошибки ({wrongResults.length})
+            </div>
+            {wrongResults.map(r => {
+              const q = qMap[r.questionId];
+              if (!q) return null;
+              const preview = q.text.length > 90
+                ? q.text.slice(0, 90) + '…'
+                : q.text;
+              const commentPreview = q.comment?.text_ru
+                ? (q.comment.text_ru.length > 70
+                    ? q.comment.text_ru.slice(0, 70) + '…'
+                    : q.comment.text_ru)
+                : null;
+              return (
+                <div key={r.questionId} className="result-error-item">
+                  <div className="result-error-item__answer">
+                    {q.answer ? 'VERO' : 'FALSO'}
+                  </div>
+                  <div className="result-error-item__body">
+                    <p className="result-error-item__text">{preview}</p>
+                    {commentPreview && (
+                      <p className="result-error-item__comment">
+                        {commentPreview}
+                      </p>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
     </div>
   );

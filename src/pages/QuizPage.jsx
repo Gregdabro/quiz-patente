@@ -174,6 +174,7 @@ const QuizPage = () => {
         {showResults && (
           <ResultScreen 
             results={results}
+            questions={questions}
             total={questions.length}
             topicId={topicId}
             onRestart={() => {
