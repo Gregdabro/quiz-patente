@@ -38,8 +38,8 @@ const QuizPage = () => {
   
   const [showComment, setShowComment] = useState(false);
   
-  // Глобальное состояние перевода (сохраняется при смене вопроса)
-  const [globalTranslation, setGlobalTranslation] = useState(false);
+  // Состояние перевода для каждого вопроса (хранит ID вопросов с включенным переводом)
+  const [translatedQuestions, setTranslatedQuestions] = useState(() => new Set());
   
   // Направление анимации перехода
   const [transitionDirection, setTransitionDirection] = useState('forward');
@@ -108,8 +108,18 @@ const QuizPage = () => {
   }, []);
 
   const handleToggleTranslation = useCallback(() => {
-    setGlobalTranslation(prev => !prev);
-  }, []);
+    const qId = currentQuestion?.id;
+    if (!qId) return;
+    setTranslatedQuestions(prev => {
+      const next = new Set(prev);
+      if (next.has(qId)) {
+        next.delete(qId);
+      } else {
+        next.add(qId);
+      }
+      return next;
+    });
+  }, [currentQuestion?.id]);
 
   if (loading) return <Spinner />;
   if (error) return <div className="container error" style={{ padding: '40px', textAlign: 'center' }}>{error}</div>;
@@ -153,7 +163,7 @@ const QuizPage = () => {
             onAnswer={handleAnswer}
             showComment={showComment}
             onToggleComment={handleToggleComment}
-            showTranslation={globalTranslation}
+            showTranslation={translatedQuestions.has(currentQuestion.id)}
             onToggleTranslation={handleToggleTranslation}
           />
         </SlideTransition>

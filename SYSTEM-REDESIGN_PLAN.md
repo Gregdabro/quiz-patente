@@ -266,11 +266,11 @@ const ResultScreen = ({ results, questions = [], total, topicId,
 
 ### Шаг 3 — Per-question перевод вместо глобального
 
-- [ ] Убрать `globalTranslation` (useState) из `QuizPage.jsx`
-- [ ] Убрать старый `handleToggleTranslation`
-- [ ] Добавить `translatedQuestions` (Set) в `QuizPage.jsx`
-- [ ] Написать новый `handleToggleTranslation` — добавляет/удаляет id из Set
-- [ ] Обновить `showTranslation` в JSX: `translatedQuestions.has(currentQuestion.id)`
+- [x] Убрать `globalTranslation` (useState) из `QuizPage.jsx`
+- [x] Убрать старый `handleToggleTranslation`
+- [x] Добавить `translatedQuestions` (Set) в `QuizPage.jsx`
+- [x] Написать новый `handleToggleTranslation` — добавляет/удаляет id из Set
+- [x] Обновить `showTranslation` в JSX: `translatedQuestions.has(currentQuestion.id)`
 
 **Что меняем:**  
 Вместо одного глобального флага перевода — Set с id вопросов, для которых включён перевод. Перевод на вопросе 3 не влияет на вопрос 4. При возврате к вопросу 3 — перевод снова включён.
@@ -307,9 +307,9 @@ const showTranslation = translatedQuestions.has(currentQuestion.id);
 ```
 
 **Как проверяем:**
-- [ ] Включить перевод на вопросе 3 → перейти к вопросу 4 → перевод выключен
-- [ ] Вернуться к вопросу 3 → перевод снова включён
-- [ ] Кнопка 🇷🇺 показывает `action-icon--active` только когда перевод открыт для текущего вопроса
+- [x] Включить перевод на вопросе 3 → перейти к вопросу 4 → перевод выключен
+- [x] Вернуться к вопросу 3 → перевод снова включён
+- [x] Кнопка 🇷🇺 показывает `action-icon--active` только когда перевод открыт для текущего вопроса
 
 **Ожидаемый результат:** Пользователь использует перевод точечно для сложных вопросов. Устраняется "режим костыля" когда перевод включён на весь тест.
 
