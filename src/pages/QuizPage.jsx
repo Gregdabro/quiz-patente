@@ -74,11 +74,19 @@ const QuizPage = () => {
     backPath = '/';
   }
 
+  const currentQuestion = questions[current] || {};
+
   // Обработчик ответа
   const handleAnswer = useCallback((userAnswer) => {
     answer(userAnswer);
-    setShowComment(false);
-  }, [answer]);
+    
+    // Если ответ неверный — раскрываем комментарий через 150мс
+    if (userAnswer !== currentQuestion.answer) {
+      setTimeout(() => setShowComment(true), 150);
+    } else {
+      setShowComment(false);
+    }
+  }, [answer, currentQuestion.answer]);
 
   // Обработчик завершения
   const handleFinish = useCallback(() => {
@@ -107,7 +115,6 @@ const QuizPage = () => {
   if (error) return <div className="container error" style={{ padding: '40px', textAlign: 'center' }}>{error}</div>;
   if (!questions.length) return <div className="container" style={{ padding: '40px', textAlign: 'center' }}>Нет доступных вопросов</div>;
 
-  const currentQuestion = questions[current];
   const currentAnswer = answered.has(currentQuestion.id) ? answered.get(currentQuestion.id) : undefined;
   const isCorrect = currentAnswer !== undefined ? currentAnswer === currentQuestion.answer : null;
 
@@ -151,11 +158,16 @@ const QuizPage = () => {
           />
         </SlideTransition>
 
-        {/* Аккордеон комментария (появляется по кнопке 💬) */}
+        {/* Аккордеон комментария (раскрывается по клику на 💬 или автоматически при ошибке) */}
         <CommentAccordion 
           comment={currentQuestion.comment}
           isVisible={showComment && (currentAnswer !== undefined || isFinished)}
           isCorrect={isCorrect}
+          showNextBtn={true}
+          onNext={() => {
+            const nextIndex = current + 1 < questions.length ? current + 1 : current;
+            handleGoTo(nextIndex);
+          }}
         />
 
         {/* Экран результатов (Overlay) */}

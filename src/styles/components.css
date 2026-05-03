@@ -718,6 +718,29 @@
   margin-top: var(--spacing-2);
 }
 
+.comment-next-btn {
+  display: block;
+  width: 100%;
+  margin-top: var(--spacing-4);
+  padding: var(--spacing-3) var(--spacing-4);
+  background-color: var(--color-wrong);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity var(--transition-fast);
+  -webkit-transition: opacity var(--transition-fast);
+}
+
+.comment-next-btn:active {
+  opacity: 0.85;
+  transform: scale(0.98);
+  -webkit-transform: scale(0.98);
+}
+
 /* === TopicStatRow (Stats Page) === */
 .topic-stat-row {
   display: -webkit-flex;

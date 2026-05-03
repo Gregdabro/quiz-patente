@@ -8,7 +8,13 @@ import React from 'react';
  * @param {boolean} isVisible — состояние видимости
  * @param {boolean} isCorrect — правильно ли ответил пользователь
  */
-const CommentAccordion = ({ comment, isVisible, isCorrect }) => {
+const CommentAccordion = ({ 
+  comment, 
+  isVisible, 
+  isCorrect,
+  onNext,       // новый проп
+  showNextBtn   // новый проп
+}) => {
   if (!isVisible || !comment) return null;
 
   const accordionClass = isCorrect 
@@ -43,6 +49,13 @@ const CommentAccordion = ({ comment, isVisible, isCorrect }) => {
             </p>
           )}
         </div>
+
+        {/* НОВОЕ: кнопка только при ошибке */}
+        {showNextBtn && !isCorrect && (
+          <button className="comment-next-btn" onClick={onNext}>
+            Понял → Далее
+          </button>
+        )}
       </div>
     </div>
   );
