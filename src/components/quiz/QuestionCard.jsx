@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Button from '../ui/Button';
 import Icon from '../ui/Icon';
 
@@ -7,9 +7,13 @@ import Icon from '../ui/Icon';
  * Отображает изображение, текст вопроса и кнопки VERO/FALSO.
  * 
  * @param {Object} question — объект вопроса
- * @param {boolean} currentAnswer — ответ пользователя на этот вопрос (true/false/undefined)
+ * @param {boolean|undefined} currentAnswer — ответ пользователя (true/false/undefined)
  * @param {boolean} isSessionFinished — завершена ли сессия квиза
  * @param {Function} onAnswer — обработчик ответа
+ * @param {boolean} showComment — открыт ли аккордеон комментария
+ * @param {Function} onToggleComment — переключить аккордеон комментария
+ * @param {boolean} showTranslation — показан ли русский перевод
+ * @param {Function} onToggleTranslation — переключить перевод
  */
 const QuestionCard = ({ 
   question, 
@@ -77,14 +81,15 @@ const QuestionCard = ({
             <Icon name="translate" size={30} />
           </button>
 
-          <button 
-            className={'action-icon' + (showComment ? ' action-icon--active' : '')}
-            onClick={onToggleComment}
-            disabled={currentAnswer === undefined && !isSessionFinished}
-            title="Показать комментарий"
-          >
-            <Icon name="comment" size={30} />
-          </button>
+          {(currentAnswer !== undefined || isSessionFinished) && (
+            <button 
+              className={'action-icon' + (showComment ? ' action-icon--active' : '')}
+              onClick={onToggleComment}
+              title="Показать комментарий"
+            >
+              <Icon name="comment" size={30} />
+            </button>
+          )}
         </div>
 
         <div className="question-card__actions-right">
