@@ -3,10 +3,13 @@ import React from 'react';
 /**
  * Раскрывающаяся секция с комментарием.
  * Показывается после ответа и нажатия на кнопку "💬".
+ * При ошибке раскрывается автоматически через 150мс.
  * 
  * @param {Object} comment — объект комментария { text, text_ru, image }
  * @param {boolean} isVisible — состояние видимости
- * @param {boolean} isCorrect — правильно ли ответил пользователь
+ * @param {boolean|null} isCorrect — правильно ли ответил пользователь (null до ответа)
+ * @param {Function} onNext — переход к следующему вопросу (кнопка "Понял → Далее")
+ * @param {boolean} showNextBtn — показывать ли кнопку "Понял → Далее"
  */
 const CommentAccordion = ({ 
   comment, 
