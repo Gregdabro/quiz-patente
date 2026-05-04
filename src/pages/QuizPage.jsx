@@ -21,29 +21,29 @@ import ConfirmationModal from '../components/ui/ConfirmationModal';
 const QuizPage = () => {
   const { topicId } = useParams();
   const navigate = useNavigate();
-  
-  const { 
-    questions, 
-    current, 
-    goTo, 
-    answer, 
-    answered, 
+
+  const {
+    questions,
+    current,
+    goTo,
+    answer,
+    answered,
     results,
-    isFinished, 
-    finish, 
+    isFinished,
+    finish,
     reset,
-    loading, 
-    error 
+    loading,
+    error
   } = useQuiz(topicId);
-  
+
   const [showComment, setShowComment] = useState(false);
-  
+
   // Состояние перевода для каждого вопроса (хранит ID вопросов с включенным переводом)
   const [translatedQuestions, setTranslatedQuestions] = useState(() => new Set());
-  
+
   // Направление анимации перехода
   const [transitionDirection, setTransitionDirection] = useState('forward');
-  
+
   const [showResults, setShowResults] = useState(false);
   const [isExitModalOpen, setIsExitModalOpen] = useState(false);
 
@@ -64,9 +64,9 @@ const QuizPage = () => {
   // immersion:topicId:chunkIndex → /immersion/topicId
   // errors:N → /errors
   // всё остальное → /
-  var backPath;
+  let backPath;
   if (topicId.startsWith('immersion:')) {
-    var immParts = topicId.split(':'); // ['immersion', 'topicId', 'chunkIndex']
+    const immParts = topicId.split(':'); // ['immersion', 'topicId', 'chunkIndex']
     backPath = '/immersion/' + immParts[1];
   } else if (topicId.startsWith('errors:')) {
     backPath = '/errors';
@@ -76,17 +76,21 @@ const QuizPage = () => {
 
   const currentQuestion = questions[current] || {};
 
+
   // Обработчик ответа
   const handleAnswer = useCallback((userAnswer) => {
+    const currentAnswer = answered.has(currentQuestion.id) ? answered.get(currentQuestion.id) : undefined;
+
+    if (currentAnswer !== undefined) return; // защита от двойного вызова
     answer(userAnswer);
-    
+
     // Если ответ неверный — раскрываем комментарий через 150мс
     if (userAnswer !== currentQuestion.answer) {
       setTimeout(() => setShowComment(true), 150);
     } else {
       setShowComment(false);
     }
-  }, [answer, currentQuestion.answer]);
+  }, [answer, currentQuestion.answer, currentAnswer]);
 
   // Обработчик завершения
   const handleFinish = useCallback(() => {
@@ -131,22 +135,22 @@ const QuizPage = () => {
 
   return (
     <div className="page quiz-page" {...swipeHandlers}>
-      <AppHeader 
+      <AppHeader
         title={
           topicId === 'errors' ? 'Работа над ошибками' :
-          topicId === 'all'    ? 'Случайный тест' :
-          topicId.startsWith('errors:') ? `Ошибки — Тема ${topicId.slice(7)}` :
-          topicId.startsWith('dict:') ? 'Тренировка по словарю' :
-          topicId.startsWith('immersion:') ? 'Квиз — Погружение' :
-          `Тема ${topicId}`
+            topicId === 'all' ? 'Случайный тест' :
+              topicId.startsWith('errors:') ? `Ошибки — Тема ${topicId.slice(7)}` :
+                topicId.startsWith('dict:') ? 'Тренировка по словарю' :
+                  topicId.startsWith('immersion:') ? 'Квиз — Погружение' :
+                    `Тема ${topicId}`
         }
         showBack={true}
         onBackOverride={handleExitRequest}
       />
-      
+
       <div className="container" style={{ paddingBottom: '120px' }}>
         {/* Пагинация (общие 30 вопросов) */}
-        <QuizPagination 
+        <QuizPagination
           questions={questions}
           current={current}
           answered={answered}
@@ -155,8 +159,13 @@ const QuizPage = () => {
           isFinished={isFinished}
         />
 
+        <div className="quiz-counter">
+          Вопрос {current + 1} из {questions.length}
+          {answered.size > 0 && ` · отвечено ${answered.size}`}
+        </div>
+
         <SlideTransition contentKey={currentQuestion.id} direction={transitionDirection}>
-          <QuestionCard 
+          <QuestionCard
             question={currentQuestion}
             currentAnswer={currentAnswer}
             isSessionFinished={isFinished}
@@ -169,7 +178,7 @@ const QuizPage = () => {
         </SlideTransition>
 
         {/* Аккордеон комментария (раскрывается по клику на 💬 или автоматически при ошибке) */}
-        <CommentAccordion 
+        <CommentAccordion
           comment={currentQuestion.comment}
           isVisible={showComment && (currentAnswer !== undefined || isFinished)}
           isCorrect={isCorrect}
@@ -182,7 +191,7 @@ const QuizPage = () => {
 
         {/* Экран результатов (Overlay) */}
         {showResults && (
-          <ResultScreen 
+          <ResultScreen
             results={results}
             questions={questions}
             total={questions.length}
@@ -197,9 +206,9 @@ const QuizPage = () => {
         )}
 
         {/* Модальное окно подтверждения выхода */}
-        <ConfirmationModal 
+        <ConfirmationModal
           isOpen={isExitModalOpen}
-          message="Вы уверены, что хотите покинуть квиз? Ваш прогресс в этой сессии будет потерян."
+          message="Выйти из теста? Отметки ошибок уже сохранены. Результаты этой сессии не зачтутся."
           onConfirm={() => navigate(backPath)}
           onCancel={() => setIsExitModalOpen(false)}
         />
