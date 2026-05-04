@@ -1,11 +1,13 @@
 import React from 'react';
 import Button from '../ui/Button';
+import { getErrors } from '../../services/errorsService';
 
 /**
  * Итоговый экран после завершения теста.
  * Показывается поверх контента или как отдельный раздел.
  * 
  * @param {Array} results — массив { questionId, correct, topicId }
+ * @param {Array} questions — массив объектов вопросов текущей сессии
  * @param {number} total — общее количество вопросов (обычно 30)
  * @param {Function} onRestart — перезапуск теста
  * @param {Function} onClose — закрыть модалку результатов для просмотра вопросов
@@ -24,6 +26,7 @@ const ResultScreen = ({ results, questions = [], total, topicId, onRestart, onCl
   }, {});
 
   const wrongResults = results.filter(r => !r.correct);
+  const errorCounts = getErrors(); // { "questionId": count } — синхронно из localStorage
 
   return (
     <div className="result-screen">
@@ -113,7 +116,12 @@ const ResultScreen = ({ results, questions = [], total, topicId, onRestart, onCl
               return (
                 <div key={r.questionId} className="result-error-item">
                   <div className="result-error-item__answer">
-                    {q.answer ? 'VERO' : 'FALSO'}
+                    <div>{q.answer ? 'VERO' : 'FALSO'}</div>
+                    {errorCounts[String(r.questionId)] > 1 && (
+                      <span className="result-error-item__repeat">
+                        ⚠ {errorCounts[String(r.questionId)]}-я ошибка
+                      </span>
+                    )}
                   </div>
                   <div className="result-error-item__body">
                     <p className="result-error-item__text">{preview}</p>
