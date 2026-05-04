@@ -74,13 +74,13 @@ const QuizPage = () => {
     backPath = '/';
   }
 
-  const currentQuestion = questions[current] || {};
 
+  const currentQuestion = questions[current] || {};
+  const currentAnswer = answered.has(currentQuestion.id) ? answered.get(currentQuestion.id) : undefined;
+  const isCorrect = currentAnswer !== undefined ? currentAnswer === currentQuestion.answer : null;
 
   // Обработчик ответа
   const handleAnswer = useCallback((userAnswer) => {
-    const currentAnswer = answered.has(currentQuestion.id) ? answered.get(currentQuestion.id) : undefined;
-
     if (currentAnswer !== undefined) return; // защита от двойного вызова
     answer(userAnswer);
 
@@ -128,9 +128,6 @@ const QuizPage = () => {
   if (loading) return <Spinner />;
   if (error) return <div className="container error" style={{ padding: '40px', textAlign: 'center' }}>{error}</div>;
   if (!questions.length) return <div className="container" style={{ padding: '40px', textAlign: 'center' }}>Нет доступных вопросов</div>;
-
-  const currentAnswer = answered.has(currentQuestion.id) ? answered.get(currentQuestion.id) : undefined;
-  const isCorrect = currentAnswer !== undefined ? currentAnswer === currentQuestion.answer : null;
 
 
   return (
