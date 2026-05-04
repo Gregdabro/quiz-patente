@@ -738,7 +738,6 @@
 .comment-next-btn:active {
   opacity: 0.85;
   transform: scale(0.98);
-  -webkit-transform: scale(0.98);
 }
 
 /* === TopicStatRow (Stats Page) === */
