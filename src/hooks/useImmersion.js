@@ -174,6 +174,14 @@ export default function useImmersion(topicId, chunkIndex) {
     }
   }, [chunkData, topicId, chunkIndex]);
 
+  /**
+   * Сбросить текущую стадию к начальной (после resetChunkProgress).
+   * Вызывается из ImmersionStudyPage при рестарте блока.
+   */
+  var resetStage = useCallback(function () {
+    setCurrentStage('s1');
+  }, []);
+
   return {
     // Режим выбора чанка
     chunks,
@@ -187,7 +195,8 @@ export default function useImmersion(topicId, chunkIndex) {
     loading,
     error,
 
-    // Действие
+    // Действия
     completeStage,
+    resetStage,
   };
 }

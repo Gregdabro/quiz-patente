@@ -7,11 +7,14 @@ import Icon from '../ui/Icon';
  * 
  * @param {string} title — заголовок страницы
  * @param {boolean} showBack — показывать кнопку "Назад"
+ * @param {Function|null} onBackOverride — переопределить обработчик "Назад"
+ * @param {React.ReactNode} rightContent — слот для кнопок справа (опционально)
  */
 const AppHeader = ({ 
   title = 'Quiz Patente', 
   showBack = false,
-  onBackOverride = null 
+  onBackOverride = null,
+  rightContent = null,
 }) => {
   const navigate = useNavigate();
 
@@ -64,7 +67,7 @@ const AppHeader = ({
         </div>
         
         <div className="header-actions">
-          {/* Место для дополнительных кнопок, если понадобятся */}
+          {rightContent}
         </div>
       </div>
     </header>

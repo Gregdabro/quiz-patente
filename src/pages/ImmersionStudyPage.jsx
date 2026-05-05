@@ -30,6 +30,7 @@ import StageNav from '../components/immersion/StageNav';
 import ReadyScreen from '../components/immersion/ReadyScreen';
 import ConfirmationModal from '../components/ui/ConfirmationModal';
 import Spinner from '../components/ui/Spinner';
+import { resetChunkProgress } from '../services/immersionService';
 
 // ---------------------------------------------------------------------------
 // Вспомогательная функция: вычислить массив stages для StageNav
@@ -73,15 +74,20 @@ var ImmersionStudyPage = function ImmersionStudyPage() {
 
   // Показывать ConfirmationModal при попытке выйти до завершения стадии
   var [showExitModal, setShowExitModal] = useState(false);
+  // Показывать ConfirmationModal при рестарте блока
+  var [showRestartModal, setShowRestartModal] = useState(false);
+  // Ключ для принудительного ре-маунта FlashCardDeck после рестарта
+  var [deckKey, setDeckKey] = useState(0);
 
   // Данные чанка и управление стадиями
-  var result       = useImmersion(topicId, chunkIndex);
-  var chunkData    = result.chunkData;
-  var currentStage = result.currentStage;
-  var topicTitle   = result.topicTitle;
-  var loading      = result.loading;
-  var error        = result.error;
+  var result        = useImmersion(topicId, chunkIndex);
+  var chunkData     = result.chunkData;
+  var currentStage  = result.currentStage;
+  var topicTitle    = result.topicTitle;
+  var loading       = result.loading;
+  var error         = result.error;
   var completeStage = result.completeStage;
+  var resetStage    = result.resetStage;
 
   // -------------------------------------------------------------------
   // Обработчики навигации
@@ -105,6 +111,23 @@ var ImmersionStudyPage = function ImmersionStudyPage() {
 
   var handleExitCancel = useCallback(function () {
     setShowExitModal(false);
+  }, []);
+
+  // Запрос на рестарт — показываем модал
+  var handleRestartRequest = useCallback(function () {
+    setShowRestartModal(true);
+  }, []);
+
+  // Подтверждение рестарта: сброс прогресса + stage + deck
+  var handleRestartConfirm = useCallback(function () {
+    resetChunkProgress(topicId, chunkIndex);
+    resetStage();
+    setDeckKey(function (prev) { return prev + 1; });
+    setShowRestartModal(false);
+  }, [topicId, chunkIndex, resetStage]);
+
+  var handleRestartCancel = useCallback(function () {
+    setShowRestartModal(false);
   }, []);
 
   // Завершение Stage 1 → переход к Stage 2
@@ -135,6 +158,10 @@ var ImmersionStudyPage = function ImmersionStudyPage() {
   // -------------------------------------------------------------------
   var stages = buildStages(currentStage);
 
+  // Кнопка рестарта — показывать только если есть хоть какой-то прогресс
+  // (нет смысла сбрасывать то, что ещё не начато)
+  var hasProgress = currentStage !== 's1';
+
   // -------------------------------------------------------------------
   // Рендер
   // -------------------------------------------------------------------
@@ -145,6 +172,15 @@ var ImmersionStudyPage = function ImmersionStudyPage() {
         title={headerTitle}
         showBack={true}
         onBackOverride={handleBackAttempt}
+        rightContent={hasProgress && !loading && !error ? (
+          <button
+            className="header-restart-btn"
+            onClick={handleRestartRequest}
+            title="Начать блок заново"
+          >
+            ↺ Заново
+          </button>
+        ) : null}
       />
 
       {/* Прогресс стадий (всегда виден кроме loading) */}
@@ -189,6 +225,7 @@ var ImmersionStudyPage = function ImmersionStudyPage() {
                   </div>
                 ) : (
                   <FlashCardDeck
+                    key={deckKey}
                     cards={chunkData.stage1Cards}
                     onComplete={handleStage1Complete}
                   />
@@ -213,6 +250,7 @@ var ImmersionStudyPage = function ImmersionStudyPage() {
                   </div>
                 ) : (
                   <FlashCardDeck
+                    key={deckKey}
                     cards={chunkData.stage2Cards}
                     onComplete={handleStage2Complete}
                   />
@@ -245,6 +283,17 @@ var ImmersionStudyPage = function ImmersionStudyPage() {
         cancelText="Остаться"
         onConfirm={handleExitConfirm}
         onCancel={handleExitCancel}
+      />
+
+      {/* Модал подтверждения рестарта */}
+      <ConfirmationModal
+        isOpen={showRestartModal}
+        title="Начать заново?"
+        message="Прогресс блока сбросится. Изученные слова останутся в словаре."
+        confirmText="Сбросить"
+        cancelText="Отмена"
+        onConfirm={handleRestartConfirm}
+        onCancel={handleRestartCancel}
       />
     </div>
   );

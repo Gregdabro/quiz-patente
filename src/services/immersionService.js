@@ -128,6 +128,24 @@ export function markStageComplete(topicId, chunkIndex, stage) {
 }
 
 /**
+ * Сбросить прогресс одного чанка (s1/s2/quiz → все 'pending').
+ * Global vocab НЕ затрагивается — изученные слова остаются.
+ * @param {string|number} topicId
+ * @param {number} chunkIndex
+ */
+export function resetChunkProgress(topicId, chunkIndex) {
+  var all = _getAllProgress();
+  var topicKey = String(topicId);
+  var chunkKey = String(chunkIndex);
+
+  if (all[topicKey]) {
+    delete all[topicKey][chunkKey];
+  }
+
+  _saveProgress(all);
+}
+
+/**
  * Проверить, разблокирован ли чанк.
  * Чанк 0 всегда разблокирован.
  * Чанк N разблокирован, если чанк N-1 полностью завершён (s1 + s2 + quiz = 'done').
