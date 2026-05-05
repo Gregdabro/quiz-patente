@@ -649,6 +649,24 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.header-restart-btn {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: var(--radius-sm);
+  color: var(--color-header-text);
+  font-size: var(--font-size-xs);
+  font-family: var(--font-family);
+  padding: var(--spacing-1) var(--spacing-3);
+  cursor: pointer;
+  white-space: nowrap;
+  opacity: 0.85;
+}
+
+.header-restart-btn:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.1);
+}
+
 /* === CommentAccordion Refactoring (v3) === */
 .comment-accordion {
   margin-top: var(--spacing-4);
@@ -1644,6 +1662,43 @@
   margin: 0;
 }
 
+/* === Кнопка раскрытия/скрытия объяснения === */
+.flash-card__expand-btn {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-2) var(--spacing-3);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-xs);
+  font-family: var(--font-family);
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: var(--spacing-3);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.flash-card__expand-btn--open {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* === Раскрывающийся блок (iOS 12 safe: max-height вместо height: auto) === */
+.flash-card__collapsible {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: max-height var(--transition-slow), opacity var(--transition-base);
+  transition: max-height var(--transition-slow), opacity var(--transition-base);
+}
+
+.flash-card__collapsible--open {
+  max-height: 700px;
+  opacity: 1;
+}
+
 /* === Разделитель === */
 .flash-card__divider {
   border: none;
@@ -1780,13 +1835,11 @@
   padding: var(--spacing-4) var(--spacing-4) var(--spacing-5);
   border-top: 1px solid var(--color-border);
   background-color: var(--color-surface);
-  /* Фиксируем снизу внутри flex-контейнера — не sticky, чтобы не конфликтовать
-     с BottomNav. Просто последний flex-child. */
 }
 
 .flash-deck__nav-btn {
   /* Минимальная ширина чтобы кнопки не "прыгали" при смене текста */
-  min-width: 130px;
+  min-width: 110px;
 }
 
 /* Кнопка "Назад" — слегка меньше */
@@ -1794,14 +1847,20 @@
   font-size: var(--font-size-xs);
 }
 
-/* Состояние "Запомнено" — нейтральный зелёный */
-.flash-deck__nav-btn--done-state {
-  background-color: var(--color-correct-bg);
+/* Кнопка «→ Далее» — отступ от соседнего элемента (вместо gap — iOS 12) */
+.flash-deck__nav-btn--next {
+  margin-left: var(--spacing-3);
+  font-size: var(--font-size-xs);
+}
+
+/* Статус «✓ Запомнено» — span, не кнопка.
+   Показывается вместо «Понятно ✓» когда карточка уже отмечена. */
+.flash-deck__marked-label {
   color: var(--color-correct);
-  border: 1.5px solid var(--color-correct-border);
-  opacity: 1;
-  /* Переопределяем pointer-events чтобы disabled не конфликтовал с cursor */
-  cursor: default;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  /* Отступ справа чтобы не прижиматься к кнопке «→ Далее» (вместо gap) */
+  margin-right: var(--spacing-3);
 }
 
 /* --- Экран завершения стадии --- */
