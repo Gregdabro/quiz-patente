@@ -13,6 +13,9 @@ import CommentAccordion from '../components/quiz/CommentAccordion';
 import ResultScreen from '../components/quiz/ResultScreen';
 import SlideTransition from '../components/ui/SlideTransition';
 import ConfirmationModal from '../components/ui/ConfirmationModal';
+import { loadDictionaryEntries } from '../services/dictionaryService';
+import { getLearnedVocab } from '../services/immersionService';
+import { buildLearnedLookup } from '../utils/highlightUtils';
 
 /**
  * Страница прохождения теста (Рефакторинг v2).
@@ -46,6 +49,17 @@ const QuizPage = () => {
 
   const [showResults, setShowResults] = useState(false);
   const [isExitModalOpen, setIsExitModalOpen] = useState(false);
+
+  // Smart Highlighting: lookup изученных терминов (только в immersion-режиме)
+  const [learnedLookup, setLearnedLookup] = useState(null);
+  const isImmersionMode = topicId.startsWith('immersion:');
+  React.useEffect(function () {
+    if (!isImmersionMode) return;
+    loadDictionaryEntries().then(function (entries) {
+      var vocab = getLearnedVocab();
+      setLearnedLookup(buildLearnedLookup(entries, vocab));
+    });
+  }, [isImmersionMode]);
 
   const handleGoTo = useCallback((index) => {
     setTransitionDirection(index > current ? 'forward' : 'backward');
@@ -171,6 +185,7 @@ const QuizPage = () => {
             onToggleComment={handleToggleComment}
             showTranslation={translatedQuestions.has(currentQuestion.id)}
             onToggleTranslation={handleToggleTranslation}
+            learnedLookup={learnedLookup}
           />
         </SlideTransition>
 

@@ -37,7 +37,7 @@ var FlashCard = React.memo(function FlashCard(props) {
   // Сбрасываем expanded при смене карточки
   useEffect(function () {
     setIsExpanded(false);
-  }, [entry && entry.id]);
+  }, [entry ? entry.id : null]);
 
   if (!entry) return null;
 

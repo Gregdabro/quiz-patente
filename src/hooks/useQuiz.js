@@ -74,8 +74,8 @@ export default function useQuiz(topicId) {
     } else if (typeof topicId === 'string' && topicId.startsWith('dict:')) {
       // Режим «вопросы по термину словаря»
       const entryId = topicId.slice(5); // убираем префикс 'dict:'
-      promise = loadDictionaryEntries().then(function (entries) {
-        var entry = entries.find(function (e) { return e.id === entryId; });
+      promise = loadDictionaryEntries().then((entries) => {
+        const entry = entries.find((e) => e.id === entryId);
         if (!entry) throw new Error('Термин словаря не найден: ' + entryId);
         if (!entry.related_question_ids || entry.related_question_ids.length === 0) {
           throw new Error('Нет вопросов для термина «' + entry.term + '». Сначала запустите линковку.');
@@ -85,9 +85,9 @@ export default function useQuiz(topicId) {
     } else if (typeof topicId === 'string' && topicId.startsWith('immersion:')) {
       // Режим «погружение»: строго последовательный срез чанка
       // Формат: 'immersion:topicId:chunkIndex'
-      var parts = topicId.split(':'); // ['immersion', '1', '0']
-      var tid = parts[1];
-      var chunkIdx = parseInt(parts[2], 10);
+      const parts = topicId.split(':'); // ['immersion', '1', '0']
+      const tid = parts[1];
+      const chunkIdx = parseInt(parts[2], 10);
       promise = loadChunkQuestions(tid, chunkIdx, 20);
     } else {
       promise = loadTopicQuestions(topicId);
@@ -177,13 +177,13 @@ export default function useQuiz(topicId) {
     if (typeof topicId === 'string' && topicId.startsWith('immersion:')) {
       // Режим погружения: не сохраняем в общую статистику,
       // отмечаем стадию quiz как завершённую
-      var immParts = topicId.split(':'); // ['immersion', '1', '0']
-      var immTid = immParts[1];
-      var immChunkIdx = parseInt(immParts[2], 10);
+      const immParts = topicId.split(':'); // ['immersion', '1', '0']
+      const immTid = immParts[1];
+      const immChunkIdx = parseInt(immParts[2], 10);
       markStageComplete(immTid, immChunkIdx, 'quiz');
     } else if (typeof topicId === 'string' && topicId.startsWith('dict:')) {
       // Для словаря — отмечаем как отработанное
-      var entryId = topicId.slice(5);
+      const entryId = topicId.slice(5);
       markAsPracticed(entryId);
     } else {
       saveTestResult(topicId, correctCount, questions.length);

@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from '../ui/Button';
 import Icon from '../ui/Icon';
+import HighlightedText from './HighlightedText';
+import { segmentText } from '../../utils/highlightUtils';
 
 /**
  * Компонент карточки вопроса.
@@ -23,7 +25,8 @@ const QuestionCard = ({
   showComment,
   onToggleComment,
   showTranslation,
-  onToggleTranslation
+  onToggleTranslation,
+  learnedLookup,
 }) => {
 
   const getButtonClass = (btnValue) => {
@@ -60,7 +63,10 @@ const QuestionCard = ({
         <div className="question-card__content">
           <div className="question-text">
             <p className="question-text__it">
-              {question.id}. {question.text}
+              {question.id}.{' '}
+              {learnedLookup && learnedLookup.size > 0
+                ? <HighlightedText segments={segmentText(question.text, learnedLookup)} />
+                : question.text}
             </p>
             {showTranslation && (
               <p className="question-text__ru">

@@ -1837,6 +1837,14 @@
   background-color: var(--color-surface);
 }
 
+/* Правая часть нижней навигации: статус + кнопка «→ Далее» в одну строку */
+.flash-deck__nav-right {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
 .flash-deck__nav-btn {
   /* Минимальная ширина чтобы кнопки не "прыгали" при смене текста */
   min-width: 110px;
@@ -2095,4 +2103,92 @@
   background-color: var(--color-surface-alt);
   color: var(--color-text-muted);
   border: 1px solid var(--color-border);
+}
+
+/* =========================================================================
+   Smart Highlighting — подсветка изученных терминов в тексте вопроса
+   Используется только в Immersion Mode (QuestionCard + HighlightedText)
+   ========================================================================= */
+
+/* Враппер вокруг каждого подсвеченного слова.
+   position: relative нужен для абсолютного позиционирования tooltip.
+   display: inline — не ломает обтекание текста. */
+.hl-word-wrapper {
+  position: relative;
+  display: inline;
+}
+
+/* Подсвеченное слово / фраза */
+.hl-word {
+  background-color: #fef3c7;
+  /* светло-жёлтый, ненавязчивый */
+  border-radius: 3px;
+  padding: 0 2px;
+  cursor: pointer;
+  border-bottom: 1px dashed #92400e;
+  font-style: normal;
+  /* сбрасываем italic от <mark> */
+  /* Без transition — избегаем лишних перерасчётов на iPad mini 2 */
+}
+
+.hl-word--active {
+  background-color: #fde68a;
+  /* чуть насыщеннее при открытом tooltip */
+}
+
+/* Иконка-подсказка 💡 рядом со словом */
+.hl-word__icon {
+  font-size: 10px;
+  margin-left: 2px;
+  /* вместо gap — iOS 12 */
+  vertical-align: super;
+}
+
+/* Tooltip с определением термина.
+   Появляется над словом, стрелка вниз через ::after. */
+.hl-tooltip {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 0;
+  min-width: 180px;
+  max-width: 280px;
+  background-color: var(--color-header-bg);
+  color: var(--color-header-text);
+  padding: var(--spacing-2) var(--spacing-3);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height);
+  z-index: 200;
+  box-shadow: var(--shadow-md);
+  display: inline-block;
+  /* чтобы min/max-width работали в inline-контексте */
+  white-space: normal;
+  /* многострочный текст */
+  pointer-events: none;
+  /* tooltip не мешает кликам на соседних словах */
+}
+
+/* Стрелочка вниз */
+.hl-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 12px;
+  border: 5px solid transparent;
+  border-top-color: var(--color-header-bg);
+}
+
+/* Термин в tooltip — золотистый акцент */
+.hl-tooltip__term {
+  color: #fbbf24;
+}
+
+/* Разделитель между термином и определением */
+.hl-tooltip__sep {
+  color: var(--color-text-muted);
+}
+
+/* Текст определения */
+.hl-tooltip__def {
+  color: var(--color-header-text);
 }
