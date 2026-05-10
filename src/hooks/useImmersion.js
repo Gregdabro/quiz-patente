@@ -38,7 +38,7 @@ import {
   getChunkProgress,
 } from '../services/immersionService.js';
 
-var CHUNK_SIZE = 20;
+import { CHUNK_SIZE } from '../services/immersionService.js';
 
 /**
  * Вычислить начальную стадию на основе сохранённого прогресса.

@@ -6,6 +6,7 @@
 
 import { shuffle } from '../utils/shuffle.js';
 import { getErrors } from './errorsService.js';
+import { CHUNK_SIZE } from './immersionService.js';
 
 const SESSION_SIZE = 30;
 
@@ -36,7 +37,7 @@ export async function loadTopicQuestions(topicId) {
  * @returns {Promise<Array>}
  */
 export async function loadChunkQuestions(topicId, chunkIndex, chunkSize) {
-  const size = chunkSize || 20;
+  const size = chunkSize || CHUNK_SIZE;
   const all = await loadTopicQuestions(topicId);
   const start = chunkIndex * size;
   return all.slice(start, start + size);

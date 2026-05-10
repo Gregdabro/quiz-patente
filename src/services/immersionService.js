@@ -16,7 +16,7 @@
 var STORAGE_KEY_VOCAB    = 'qp_immersion_vocab';
 var STORAGE_KEY_PROGRESS = 'qp_immersion_progress';
 
-var DEFAULT_CHUNK_SIZE = 20;
+export var CHUNK_SIZE = 20;
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Vocab — глобальный словарь изученных терминов
@@ -188,7 +188,7 @@ export function isChunkUnlocked(topicId, chunkIndex) {
  * }}
  */
 export function getChunkData(topicId, allEntries, topicQuestions, chunkIndex, chunkSize) {
-  var size = chunkSize || DEFAULT_CHUNK_SIZE;
+  var size = chunkSize || CHUNK_SIZE;
   var start = chunkIndex * size;
 
   // 1. Срез вопросов чанка
@@ -290,7 +290,7 @@ export function getChunkData(topicId, allEntries, topicQuestions, chunkIndex, ch
  * }>}
  */
 export function getChunksMetadata(topicId, topicQuestions, chunkSize) {
-  var size = chunkSize || DEFAULT_CHUNK_SIZE;
+  var size = chunkSize || CHUNK_SIZE;
   var totalChunks = Math.ceil(topicQuestions.length / size);
   var result = [];
 
