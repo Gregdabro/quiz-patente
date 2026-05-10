@@ -194,10 +194,6 @@ export default function useImmersion(topicId, chunkIndex) {
     // Помечаем стадию завершённой в прогрессе чанка
     markStageComplete(topicId, chunkIndex, stage);
 
-    // Инвалидируем chunkData: vocabVersion++ → useMemo пересчитает getChunkData
-    // с актуальным vocab, чтобы следующая стадия не показывала уже изученные слова.
-    setVocabVersion(function (v) { return v + 1; });
-
     // Переходим к следующей стадии
     if (stage === 's1') {
       setCurrentStage('s2');
