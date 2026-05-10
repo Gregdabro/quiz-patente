@@ -1,16 +1,41 @@
-# React + Vite
+# Quiz Patente
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Quiz Patente is a React 19 + Vite web application (PWA) designed for Italian driving license (patente) exam preparation. It's built with a mobile-first approach, ensuring seamless performance even on legacy devices like the iPad mini 2 (iOS 12+ compatibility).
 
-Currently, two official plugins are available:
+## Features
+- **Practice:** 7,144 real exam questions divided across 25 topics.
+- **Dictionary:** 140+ traffic terminology entries, categorized by priority and logic.
+- **Error Tracking:** Built-in error accumulation and focused practice for mistakes.
+- **Immersion Mode:** Staged learning flow (Study → Practice → Test) for rapid vocabulary acquisition.
+- **Offline Capable:** Data loaded client-side via optimized JSON chunks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Project Setup
 
-## React Compiler
+```bash
+# Install dependencies
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Start development server
+npm run dev
 
-## Expanding the ESLint configuration
+# Build for production
+npm run build
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Documentation Architecture
+
+This project maintains a clean, minimalist documentation structure to reduce cognitive load and provide a single source of truth for AI assistants and developers:
+
+- `SKILL.md` — **👑 Single Source of Truth**. Contains the core architectural rules, design system, routing, and component guidelines. Always consult this file first.
+- `CLAUDE.md` — AI instructions, CLI commands, and quick reference for Claude/AI tools.
+- `docs/` — Directory for specific domain and architecture deep-dives.
+  - `docs/architecture/dictionary.md` — Dictionary module architecture (data schema, logic).
+  - `docs/architecture/dictionary_scaling.md` — Workflow for scaling dictionary data.
+  - `docs/TODO.md` — Backlog of identified data fixes and UX improvements.
+
+*Note: Legacy plans and refactoring reports have been archived or removed to keep the workspace clean. All architectural decisions are merged into the files above.*
+
+## Development Rules
+- Read `SKILL.md` before making any structural changes.
+- Ensure iOS 12 compatibility (no `gap` in flexbox, use CSS variables, avoid complex modern API without polyfills).
+- Follow BEM naming for CSS classes.

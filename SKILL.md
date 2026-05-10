@@ -884,7 +884,7 @@ export default defineConfig({
 
 ### 🟡 Этап 3 — Словарь (активная фаза)
 > [!IMPORTANT]
-> Для работы над архитектурой словаря, UI и хуками строго использовать [SKILL_DICTIONARY.md](file:///Users/greg/MyProjects/app-quiz-patente/SKILL_DICTIONARY.md).
+> Для работы над архитектурой словаря, UI и хуками строго использовать [docs/architecture/dictionary.md](file:///Users/greg/MyProjects/app-quiz-patente/docs/architecture/dictionary.md).
 
 - [x] `src/data/dictionary/entries.json` (терминология ПДД — 171+ записей)
 - [x] `src/pages/DictionaryPage.jsx` (полная реализация: поиск, фильтры, режимы)

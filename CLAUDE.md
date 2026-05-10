@@ -218,7 +218,14 @@ When working on dictionary entries, follow this process:
 - `examples`: At least 1 real question with answer and comment
 - `related_question_ids`: Minimum 3 questions (auto-linked by script)
 
-**See Also:** `DICTIONARY_SCALING_SKILL.md` for detailed scaling workflow
+**See Also:** `docs/architecture/dictionary_scaling.md` for detailed scaling workflow
+
+## Documentation Structure
+
+- `SKILL.md` - Core architecture and design system (Single Source of Truth)
+- `docs/architecture/dictionary.md` - Dictionary module architecture
+- `docs/architecture/dictionary_scaling.md` - Dictionary content generation workflow
+- `docs/TODO.md` - Open tasks and known data issues
 
 ## Common Patterns
 
