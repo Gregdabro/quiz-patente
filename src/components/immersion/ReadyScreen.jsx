@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../ui/Button';
+import GlossaryList from './GlossaryList';
 
 /**
  * Экран-мостик перед запуском квиза в Immersion Mode.
@@ -10,8 +11,9 @@ import Button from '../ui/Button';
  * @param {number}   alreadyKnown  — количество терминов, уже изученных ранее (из global vocab)
  * @param {number}   questionCount — количество вопросов в квизе (обычно 20)
  * @param {function} onStart       — callback: navigate('/quiz/immersion:topicId:chunkIndex')
+ * @param {Array}    glossaryCards — опционально: массив терминов для пассивного повторения
  */
-const ReadyScreen = ({ s1Count, s2Count, alreadyKnown, questionCount, onStart }) => {
+const ReadyScreen = ({ s1Count, s2Count, alreadyKnown, questionCount, glossaryCards, onStart }) => {
   const totalStudied = s1Count + s2Count;
 
   return (
@@ -55,6 +57,10 @@ const ReadyScreen = ({ s1Count, s2Count, alreadyKnown, questionCount, onStart })
         <p className="immersion-ready__note">
           Ты уже знаешь все термины этого блока 🎉
         </p>
+      )}
+
+      {glossaryCards && glossaryCards.length > 0 && (
+        <GlossaryList cards={glossaryCards} />
       )}
 
       <Button
