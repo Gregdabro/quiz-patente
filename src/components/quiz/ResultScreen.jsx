@@ -13,11 +13,12 @@ import { getErrors } from '../../services/errorsService';
  * @param {Function} onClose — закрыть модалку результатов для просмотра вопросов
  * @param {Function} onFinish — выход к списку тем
  */
-const ResultScreen = ({ results, questions = [], total, topicId, onRestart, onClose, onFinish }) => {
+const ResultScreen = ({ results, questions = [], total, topicId, passingThreshold, onRestart, onClose, onFinish }) => {
   const correctCount = results.filter(r => r.correct).length;
   const wrongCount = total - correctCount;
   const scorePercent = Math.round((correctCount / total) * 100);
-  const isPassed = wrongCount <= 4; // В итальянских правах обычно до 4 ошибок
+  const threshold = passingThreshold != null ? passingThreshold : 4;
+  const isPassed = wrongCount <= threshold;
 
   // Lookup map для быстрого доступа к вопросам по id
   const qMap = questions.reduce((acc, q) => {

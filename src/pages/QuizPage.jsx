@@ -143,6 +143,9 @@ const QuizPage = () => {
   if (error) return <div className="container error" style={{ padding: '40px', textAlign: 'center' }}>{error}</div>;
   if (!questions.length) return <div className="container" style={{ padding: '40px', textAlign: 'center' }}>Нет доступных вопросов</div>;
 
+  var passingThreshold = (typeof topicId === 'string' && topicId.startsWith('immersion:'))
+    ? Math.max(1, Math.round(questions.length * 0.13))
+    : 4;
 
   return (
     <div className="page quiz-page" {...swipeHandlers}>
@@ -208,6 +211,7 @@ const QuizPage = () => {
             questions={questions}
             total={questions.length}
             topicId={topicId}
+            passingThreshold={passingThreshold}
             onRestart={() => {
               reset();
               setShowResults(false);
