@@ -221,26 +221,53 @@ export function getChunkData(topicId, allEntries, topicQuestions, chunkIndex, ch
 
   var alreadyKnown = relevantEntries.length - newEntries.length;
 
-  // 4. Stage 1: logic_trigger + term, топ 12
+  // Считаем coverage для каждого entry: сколько вопросов блока оно покрывает.
+  // Используется как вторичный критерий сортировки внутри одного priority.
+  for (var k = 0; k < newEntries.length; k++) {
+    var _ids = newEntries[k].related_question_ids || [];
+    var _cov = 0;
+    for (var m = 0; m < _ids.length; m++) {
+      if (questionIds[_ids[m]]) _cov++;
+    }
+    newEntries[k]._coverage = _cov;
+  }
+
+  // 4. Stage 1: logic_trigger + term, топ 12.
+  // Сортировка: (priority ASC, coverage DESC) — важные термины сначала,
+  // внутри одного priority — термины, встречающиеся в большем числе вопросов.
   var stage1Cards = newEntries
     .filter(function (e) {
       return e.type === 'logic_trigger' || e.type === 'term';
     })
-    .sort(_byPriority)
+    .sort(_byPriorityThenCoverage)
     .slice(0, 12);
 
-  // 5. Stage 2: phrase + concept, топ 8
+  // 5. Stage 2: phrase + concept, топ 8.
   var stage2Cards = newEntries
     .filter(function (e) {
       return e.type === 'phrase' || e.type === 'concept';
     })
-    .sort(_byPriority)
+    .sort(_byPriorityThenCoverage)
     .slice(0, 8);
+
+  // Глоссарий: dropped entries с coverage >= 2.
+  // Это термины, не вошедшие в карточки, но встречающиеся в 2+ вопросах блока.
+  // Показываются пассивно на ReadyScreen перед стартом Quiz.
+  var shownIds = {};
+  for (var si = 0; si < stage1Cards.length; si++) shownIds[stage1Cards[si].id] = true;
+  for (var si2 = 0; si2 < stage2Cards.length; si2++) shownIds[stage2Cards[si2].id] = true;
+
+  var glossaryCards = newEntries
+    .filter(function (e) {
+      return !shownIds[e.id] && (e._coverage || 0) >= 2;
+    })
+    .sort(function (a, b) { return (b._coverage || 0) - (a._coverage || 0); });
 
   return {
     questions:     questions,
     stage1Cards:   stage1Cards,
     stage2Cards:   stage2Cards,
+    glossaryCards: glossaryCards,
     totalRelevant: relevantEntries.length,
     alreadyKnown:  alreadyKnown,
   };
@@ -295,6 +322,13 @@ export function getChunksMetadata(topicId, topicQuestions, chunkSize) {
 
 function _byPriority(a, b) {
   return (a.priority || 3) - (b.priority || 3);
+}
+
+function _byPriorityThenCoverage(a, b) {
+  var pDiff = (a.priority || 3) - (b.priority || 3);
+  if (pDiff !== 0) return pDiff;
+  // Внутри одного priority — больше coverage идёт первым
+  return (b._coverage || 0) - (a._coverage || 0);
 }
 
 function _saveVocab(vocab) {
