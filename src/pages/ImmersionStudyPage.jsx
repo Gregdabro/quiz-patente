@@ -268,6 +268,7 @@ var ImmersionStudyPage = function ImmersionStudyPage() {
                   s2Count={chunkData.stage2Cards.length}
                   alreadyKnown={chunkData.alreadyKnown}
                   questionCount={chunkData.questions.length}
+                  glossaryCards={chunkData.glossaryCards}
                   onStart={handleStartQuiz}
                 />
               </div>
