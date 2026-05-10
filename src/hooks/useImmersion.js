@@ -151,6 +151,26 @@ export default function useImmersion(topicId, chunkIndex) {
     return getChunkData(topicId, allEntries, topicQuestions, chunkIndex, CHUNK_SIZE);
   }, [isStudyMode, topicQuestions, allEntries, topicId, chunkIndex, vocabVersion]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  useEffect(function () {
+    if (!isStudyMode || !chunkData) return;
+
+    if (currentStage === 's1' && chunkData.stage1Cards.length === 0) {
+      markStageComplete(topicId, chunkIndex, 's1');
+      setCurrentStage('s2');
+    }
+  }, [isStudyMode, chunkData, currentStage, topicId, chunkIndex]);
+  // eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(function () {
+    if (!isStudyMode || !chunkData) return;
+
+    if (currentStage === 's2' && chunkData.stage2Cards.length === 0) {
+      markStageComplete(topicId, chunkIndex, 's2');
+      setCurrentStage('quiz_ready');
+    }
+  }, [isStudyMode, chunkData, currentStage, topicId, chunkIndex]);
+  // eslint-disable-line react-hooks/exhaustive-deps
+
   /**
    * Завершить стадию изучения.
    * Сохраняет изученные термины в vocab, помечает стадию как done,
