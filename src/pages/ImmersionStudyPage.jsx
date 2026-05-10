@@ -88,6 +88,7 @@ var ImmersionStudyPage = function ImmersionStudyPage() {
   var error         = result.error;
   var completeStage = result.completeStage;
   var resetStage    = result.resetStage;
+  var resetChunkData = result.resetChunkData;
 
   // -------------------------------------------------------------------
   // Обработчики навигации
@@ -118,13 +119,14 @@ var ImmersionStudyPage = function ImmersionStudyPage() {
     setShowRestartModal(true);
   }, []);
 
-  // Подтверждение рестарта: сброс прогресса + stage + deck
+  // Подтверждение рестарта: сброс прогресса + stage + chunkData + deck
   var handleRestartConfirm = useCallback(function () {
     resetChunkProgress(topicId, chunkIndex);
     resetStage();
+    resetChunkData();  // инвалидирует useMemo → chunkData пересчитается с актуальным vocab
     setDeckKey(function (prev) { return prev + 1; });
     setShowRestartModal(false);
-  }, [topicId, chunkIndex, resetStage]);
+  }, [topicId, chunkIndex, resetStage, resetChunkData]);
 
   var handleRestartCancel = useCallback(function () {
     setShowRestartModal(false);
@@ -158,9 +160,9 @@ var ImmersionStudyPage = function ImmersionStudyPage() {
   // -------------------------------------------------------------------
   var stages = buildStages(currentStage);
 
-  // Кнопка рестарта — показывать только если есть хоть какой-то прогресс
-  // (нет смысла сбрасывать то, что ещё не начато)
-  var hasProgress = currentStage !== 's1';
+  // Кнопка рестарта видна всегда в режиме изучения (не только при наличии прогресса).
+  // Пользователь может захотеть начать заново с любой стадии.
+  var hasProgress = true;
 
   // -------------------------------------------------------------------
   // Рендер

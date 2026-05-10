@@ -20,8 +20,10 @@
  *   loading,       // boolean
  *   error,         // string | null
  *
- *   // Действие
- *   completeStage, // fn('s1' | 's2') → void
+ *   // Действия
+ *   completeStage,  // fn('s1' | 's2') → void
+ *   resetStage,     // fn() → void
+ *   resetChunkData, // fn() → void — инвалидирует chunkData (для restart)
  * }
  */
 
@@ -65,6 +67,11 @@ export default function useImmersion(topicId, chunkIndex) {
   var [topicQuestions, setTopicQuestions] = useState(null);
   var [allEntries, setAllEntries]         = useState(null);
   var [topicTitle, setTopicTitle]         = useState('');
+
+  // --- Счётчик инвалидации chunkData при изменении vocab ---
+  // Инкрементируется в completeStage и resetChunkData, чтобы useMemo пересчитал
+  // getChunkData (который читает getLearnedVocab() внутри) с актуальным vocab.
+  var [vocabVersion, setVocabVersion] = useState(0);
 
   // --- Стадия (только в режиме изучения) ---
   var [currentStage, setCurrentStage] = useState(function () {
@@ -136,12 +143,13 @@ export default function useImmersion(topicId, chunkIndex) {
   }, [isStudyMode, topicQuestions, topicId]);
 
   // --- Режим изучения: данные текущего чанка ---
-  // useMemo: пересчитывается только при изменении вопросов или entries
-  // Не зависит от currentStage — vocab фильтруется при каждом вычислении
+  // useMemo: пересчитывается при изменении вопросов, entries или vocab.
+  // vocabVersion инкрементируется после completeStage и resetChunkData,
+  // чтобы getChunkData прочитал актуальный getLearnedVocab() из localStorage.
   var chunkData = useMemo(function () {
     if (!isStudyMode || !topicQuestions || !allEntries) return null;
     return getChunkData(topicId, allEntries, topicQuestions, chunkIndex, CHUNK_SIZE);
-  }, [isStudyMode, topicQuestions, allEntries, topicId, chunkIndex]);
+  }, [isStudyMode, topicQuestions, allEntries, topicId, chunkIndex, vocabVersion]); // eslint-disable-line react-hooks/exhaustive-deps
 
   /**
    * Завершить стадию изучения.
@@ -166,6 +174,10 @@ export default function useImmersion(topicId, chunkIndex) {
     // Помечаем стадию завершённой в прогрессе чанка
     markStageComplete(topicId, chunkIndex, stage);
 
+    // Инвалидируем chunkData: vocabVersion++ → useMemo пересчитает getChunkData
+    // с актуальным vocab, чтобы следующая стадия не показывала уже изученные слова.
+    setVocabVersion(function (v) { return v + 1; });
+
     // Переходим к следующей стадии
     if (stage === 's1') {
       setCurrentStage('s2');
@@ -180,6 +192,15 @@ export default function useImmersion(topicId, chunkIndex) {
    */
   var resetStage = useCallback(function () {
     setCurrentStage('s1');
+  }, []);
+
+  /**
+   * Инвалидировать chunkData принудительно (для restart без перезагрузки страницы).
+   * Заставляет useMemo пересчитать getChunkData с актуальным vocab из localStorage.
+   * Вызывается из ImmersionStudyPage вместе с resetStage при подтверждении рестарта.
+   */
+  var resetChunkData = useCallback(function () {
+    setVocabVersion(function (v) { return v + 1; });
   }, []);
 
   return {
@@ -198,5 +219,6 @@ export default function useImmersion(topicId, chunkIndex) {
     // Действия
     completeStage,
     resetStage,
+    resetChunkData,
   };
 }
